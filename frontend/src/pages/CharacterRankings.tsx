@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { useApi } from '../hooks/useApi'
-import { fetchChatServiceCharacters, triggerChatServiceCrawl, fetchPopularTags, ChatServiceCharacter, PopularTag } from '../utils/api'
+import { fetchChatServiceCharacters, triggerChatServiceCrawl, fetchPopularTags, USE_STATIC_DATA, ChatServiceCharacter, PopularTag } from '../utils/api'
 import KeywordCloud from '../components/KeywordCloud'
 
 export default function CharacterRankings() {
@@ -68,13 +68,15 @@ export default function CharacterRankings() {
             <h1 className="text-2xl font-semibold text-gray-900 mb-1">캐릭터 순위</h1>
             <p className="text-sm text-gray-500">인기 캐릭터챗 서비스의 TOP 캐릭터</p>
           </div>
-          <button
-            onClick={handleCrawl}
-            disabled={crawling}
-            className="px-4 py-2 text-sm font-medium bg-gray-900 text-white rounded hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-          >
-            {crawling ? '크롤링 중...' : '데이터 갱신'}
-          </button>
+          {!USE_STATIC_DATA && (
+            <button
+              onClick={handleCrawl}
+              disabled={crawling}
+              className="px-4 py-2 text-sm font-medium bg-gray-900 text-white rounded hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            >
+              {crawling ? '크롤링 중...' : '데이터 갱신'}
+            </button>
+          )}
         </div>
         
         {message && (

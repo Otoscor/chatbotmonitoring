@@ -21,6 +21,7 @@ import {
   fetchPopularPosts,
   triggerCrawl,
   generateReport,
+  USE_STATIC_DATA,
   type DailyReport,
   type Post
 } from '../utils/api'
@@ -91,12 +92,14 @@ export default function Dashboard() {
             뤼튼 마이너갤 | AI챗팅 마이너갤 | 아카라이브 캐릭터AI
           </p>
         </div>
-        <button
-          onClick={handleManualCrawl}
-          className="px-4 py-2 bg-gray-900 text-white text-sm rounded hover:bg-gray-800 transition-colors"
-        >
-          수동 크롤링
-        </button>
+        {!USE_STATIC_DATA && (
+          <button
+            onClick={handleManualCrawl}
+            className="px-4 py-2 bg-gray-900 text-white text-sm rounded hover:bg-gray-800 transition-colors"
+          >
+            수동 크롤링
+          </button>
+        )}
       </div>
 
       {/* Stats Grid */}

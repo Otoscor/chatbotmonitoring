@@ -1,152 +1,188 @@
-# 캐릭터 챗봇 커뮤니티 모니터링 시스템
+# 캐릭터 챗봇 모니터링 시스템
 
-캐릭터 챗봇 관련 커뮤니티(디시인사이드 등)의 동향과 인기 캐릭터를 모니터링하고 분석하는 시스템입니다.
+캐릭터 챗봇 커뮤니티의 동향을 모니터링하고 분석하는 시스템입니다.
 
-## 주요 기능
+## 🌐 배포된 사이트
 
-- **자동 크롤링**: 매일 자정에 자동으로 커뮤니티 게시글 수집
-- **키워드 분석**: 한국어 NLP를 활용한 키워드 추출 및 트렌드 분석
-- **캐릭터 랭킹**: 언급 빈도 기반 인기 캐릭터 순위 산출
-- **일일 리포트**: 매일 자동 생성되는 커뮤니티 동향 리포트
-- **웹 대시보드**: 실시간 데이터 시각화 및 분석 결과 제공
+**GitHub Pages**: https://otoscor.github.io/chatbotmonitoring/
 
-## 기술 스택
+## 📋 주요 기능
 
-### 백엔드
-- Python 3.10+
-- FastAPI (REST API)
-- SQLAlchemy + SQLite (데이터베이스)
-- BeautifulSoup4 + httpx (크롤링)
-- KiwiPiPy (한국어 NLP)
-- APScheduler (작업 스케줄링)
+- 📊 **대시보드**: 전체 통계 및 트렌드 시각화
+- 🔥 **키워드 분석**: 인기 키워드 및 트렌드 추적
+- 👥 **캐릭터 랭킹**: 언급 빈도 기반 캐릭터 순위
+- 🤖 **챗봇 서비스 모니터링**: Zeta, Babechat, Lunatalk 인기 캐릭터 순위
+- 📈 **일일 리포트**: 자동 생성되는 일일 분석 보고서
 
-### 프론트엔드
-- React 18 + TypeScript
-- Vite (빌드 도구)
-- TailwindCSS (스타일링)
-- Recharts (데이터 시각화)
-- React Router (라우팅)
+## 🏗️ 아키텍처
 
-## 프로젝트 구조
+이 프로젝트는 **정적 사이트 배포** 방식을 사용합니다:
 
 ```
-monitoring/
-├── backend/
-│   ├── api/              # FastAPI 라우터 및 엔드포인트
-│   ├── analyzer/         # 분석 엔진 (키워드, 트렌드, 캐릭터)
-│   ├── crawler/          # 웹 크롤러
-│   ├── models/           # 데이터베이스 모델
-│   ├── scheduler/        # 스케줄링 작업
-│   ├── config.py         # 설정 관리
-│   └── requirements.txt  # Python 의존성
-├── frontend/
-│   ├── src/
-│   │   ├── components/   # UI 컴포넌트
-│   │   ├── pages/        # 페이지 컴포넌트
-│   │   ├── hooks/        # 커스텀 React 훅
-│   │   └── utils/        # 유틸리티 함수
-│   └── package.json      # Node.js 의존성
-└── README.md
+로컬 (관리자) → 크롤링 → SQLite DB → JSON Export
+                                          ↓
+                        GitHub Repository (commit & push)
+                                          ↓
+                        GitHub Actions (자동 빌드)
+                                          ↓
+                         GitHub Pages (정적 사이트)
+                                          ↓
+                           사용자 (데이터 조회)
 ```
 
-## 설치 및 실행
+### 장점
+- ✅ 완전 무료 (GitHub Pages)
+- ✅ 빠른 로딩 (CDN)
+- ✅ 서버 관리 불필요
+- ✅ 자동 배포
 
-### 1. 백엔드 설정
+## 🚀 시작하기
+
+### 1. 저장소 클론
+
+```bash
+git clone https://github.com/Otoscor/chatbotmonitoring.git
+cd chatbotmonitoring
+```
+
+### 2. 백엔드 설정 (로컬 전용)
 
 ```bash
 cd backend
 
-# 가상환경 생성 (권장)
+# 가상환경 생성 및 활성화
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# 의존성 설치
+# 패키지 설치
 pip install -r requirements.txt
 
-# KiwiPiPy 설치 (한국어 NLP)
-pip install kiwipiepy
+# 크롤링 실행 (선택사항)
+python -m crawler.multi_crawler
 
-# 환경변수 설정 (선택사항)
-cp .env.example .env
-# .env 파일에서 설정 수정
-
-# API 서버 실행
-cd api
-python main.py
+# 리포트 생성 (선택사항)
+python -m scheduler.jobs
 ```
 
-API 서버는 기본적으로 `http://localhost:8000`에서 실행됩니다.
-
-### 2. 프론트엔드 설정
+### 3. 프론트엔드 설정 (로컬 개발)
 
 ```bash
 cd frontend
 
-# 의존성 설치
+# 패키지 설치
 npm install
 
 # 개발 서버 실행
 npm run dev
 ```
 
-프론트엔드는 기본적으로 `http://localhost:3000`에서 실행됩니다.
+로컬 개발 시 `http://localhost:3000`에서 확인
 
-### 3. 스케줄러 실행 (선택사항)
+## 📦 데이터 업데이트 및 배포
 
-자동 크롤링을 원하는 경우:
+### 원클릭 업데이트 (추천)
 
 ```bash
-cd backend/scheduler
-python jobs.py
+# 프로젝트 루트에서 실행
+./update_site.sh
 ```
 
-## API 엔드포인트
+이 스크립트는:
+1. 데이터를 JSON으로 export
+2. Git 커밋 및 푸시
+3. GitHub Actions가 자동으로 배포
 
-### 게시글
-- `GET /api/posts` - 게시글 목록 조회
-- `GET /api/posts/{post_id}` - 특정 게시글 조회
-- `GET /api/posts/stats/daily` - 일일 통계
+### 수동 업데이트
 
-### 리포트
-- `GET /api/reports` - 리포트 목록
-- `GET /api/reports/latest` - 최신 리포트
-- `GET /api/reports/{date}` - 특정 날짜 리포트
-- `POST /api/reports/generate` - 수동 리포트 생성
+```bash
+# 1. 데이터 Export
+cd backend
+python export_data.py
 
-### 분석
-- `GET /api/keywords/trending` - 트렌딩 키워드
-- `GET /api/characters/ranking` - 캐릭터 랭킹
+# 2. Git 커밋 및 푸시
+cd ..
+git add frontend/public/data/
+git commit -m "chore: 데이터 업데이트"
+git push origin main
 
-### 크롤링
-- `POST /api/crawl` - 수동 크롤링 실행
+# 3. GitHub Actions가 자동으로 배포합니다
+```
 
-## 설정
+## 🗂️ 프로젝트 구조
 
-`backend/config.py` 또는 `.env` 파일에서 다음 설정을 변경할 수 있습니다:
+```
+monitoring/
+├── backend/                    # 백엔드 (로컬 전용)
+│   ├── api/                   # FastAPI 서버 (개발용)
+│   ├── crawler/               # 크롤링 모듈
+│   ├── analyzer/              # 데이터 분석 모듈
+│   ├── models/                # 데이터베이스 모델
+│   ├── export_data.py         # JSON Export 스크립트
+│   └── requirements.txt       # Python 패키지
+├── frontend/                   # 프론트엔드
+│   ├── public/
+│   │   └── data/              # JSON 데이터 파일
+│   ├── src/
+│   │   ├── components/        # React 컴포넌트
+│   │   ├── pages/             # 페이지
+│   │   ├── hooks/             # 커스텀 훅
+│   │   └── utils/             # 유틸리티
+│   └── package.json
+├── .github/
+│   └── workflows/
+│       └── deploy.yml         # GitHub Actions 배포 설정
+└── update_site.sh             # 원클릭 업데이트 스크립트
+```
 
-| 설정 | 기본값 | 설명 |
-|------|--------|------|
-| `DATABASE_URL` | `sqlite+aiosqlite:///./monitoring.db` | 데이터베이스 연결 URL |
-| `CRAWL_DELAY_SECONDS` | `1.5` | 크롤링 요청 간 대기 시간 |
-| `MAX_PAGES_PER_CRAWL` | `10` | 한 번에 크롤링할 최대 페이지 수 |
-| `TARGET_GALLERY_ID` | `charai` | 크롤링 대상 갤러리 ID |
+## 🛠️ 기술 스택
 
-## 법적 고려사항
+### 백엔드
+- Python 3.11+
+- FastAPI (개발 서버)
+- SQLAlchemy (ORM)
+- SQLite (데이터베이스)
+- BeautifulSoup4, Playwright (크롤링)
+- scikit-learn (데이터 분석)
 
-이 시스템은 공개된 게시글만 수집하며, 다음 원칙을 준수합니다:
+### 프론트엔드
+- React + TypeScript
+- Vite
+- TailwindCSS
+- Recharts (차트)
+- Axios
 
-1. **robots.txt 준수**: 크롤링 정책 확인 및 준수
-2. **Rate Limiting**: 서버 부하 최소화를 위한 요청 속도 제한
-3. **분석 목적**: 수집 데이터는 통계 분석 목적으로만 사용
-4. **개인정보 보호**: 개인정보 수집 및 재배포 금지
+### 배포
+- GitHub Pages
+- GitHub Actions
 
-## 확장 가능성
+## 📊 데이터 소스
 
-- 추가 커뮤니티 크롤러 (아카라이브, 에펨코리아 등)
-- 이메일/슬랙 알림 기능
-- 감성 분석 고도화
-- 사용자 인증 시스템
+- 디시인사이드 (뤼튼 마이너갤, AI챗팅 마이너갤)
+- 아카라이브 (캐릭터AI)
+- Zeta (제타)
+- Babechat (베이브챗)
+- Lunatalk (루나톡)
 
-## 라이센스
+## 🔧 환경 변수
 
-이 프로젝트는 개인 사용 목적으로 제작되었습니다.
+### 프론트엔드 (.env)
+
+```bash
+# 로컬 개발용 API URL
+VITE_API_URL=http://localhost:8001/api
+
+# 정적 데이터 모드 (배포용)
+VITE_USE_STATIC_DATA=false
+```
+
+## 📝 라이선스
+
+MIT License
+
+## 👤 작성자
+
+Otoscor
+
+## 🤝 기여
+
+이슈와 PR을 환영합니다!
