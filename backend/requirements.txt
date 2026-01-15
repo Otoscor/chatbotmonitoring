@@ -15,9 +15,8 @@ playwright==1.41.0
 fake-useragent==1.4.0
 
 # NLP & Analysis
-# numpy를 먼저 설치 (kiwipiepy가 빌드 시 numpy 필요)
 numpy==1.26.3
-kiwipiepy==0.17.1
+# kiwipiepy==0.17.1  # TODO: Python 3.13 빌드 이슈로 임시 비활성화, 배포 후 재활성화
 scikit-learn==1.4.0
 pandas==2.2.0
 
