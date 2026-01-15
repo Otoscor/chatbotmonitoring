@@ -15,9 +15,10 @@ playwright==1.41.0
 fake-useragent==1.4.0
 
 # NLP & Analysis
+# numpy를 먼저 설치 (kiwipiepy가 빌드 시 numpy 필요)
+numpy==1.26.3
 kiwipiepy==0.17.1
 scikit-learn==1.4.0
-numpy==1.26.3
 pandas==2.2.0
 
 # Scheduling
