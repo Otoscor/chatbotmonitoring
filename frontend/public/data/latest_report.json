@@ -1,1 +1,21 @@
-null
+{
+  "id": 1,
+  "report_date": "2026-01-15T13:14:39.788380",
+  "total_posts": 889,
+  "total_views": 169362,
+  "total_recommends": 1058,
+  "total_comments": 4234,
+  "top_keywords": [
+    {"keyword": "사람", "count": 29, "score": 0.0262},
+    {"keyword": "프롬", "count": 16, "score": 0.0147},
+    {"keyword": "단테", "count": 15, "score": 0.014},
+    {"keyword": "만드", "count": 14, "score": 0.0134},
+    {"keyword": "삼칠", "count": 12, "score": 0.0114}
+  ],
+  "top_characters": [
+    {"name": "언셒/홍보", "mentions": 3, "rank": 1},
+    {"name": "류지한&신아휜", "mentions": 3, "rank": 2},
+    {"name": "원피스", "mentions": 3, "rank": 3}
+  ],
+  "trending_topics": []
+}

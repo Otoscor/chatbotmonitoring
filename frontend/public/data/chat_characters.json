@@ -1,1 +1,606 @@
-[]
+[
+    {
+        "id": 17,
+        "service": "lunatalk",
+        "character_id": "44501",
+        "rank": 1,
+        "name": "\ub9c8.\uc18c.\ub3c4! : \ub9c8\ubc95 \uc18c\ub140\ub4e4\uc758 \ub3c4\uc2dc!",
+        "author": null,
+        "views": 599045,
+        "tags": [
+            "\uc21c\uc560",
+            "\ud604\ub300\ud310\ud0c0\uc9c0",
+            "\ud558\ub818",
+            "\uc2dc\ubbac"
+        ],
+        "description": "[ \ub9c8\ubc95\uc18c\ub140 \ubbf8\uc5f0\uc2dc \uc2dc\ubbac\ub808\uc774\uc158 ]",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_695ce9f982671_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/44501",
+        "crawled_at": "2026-01-15T04:14:39.771939"
+    },
+    {
+        "id": 18,
+        "service": "lunatalk",
+        "character_id": "58264",
+        "rank": 2,
+        "name": "\uc544\ud3ec\uce7c\ub9bd\uc2a4X\uadf8\ub0a0 \uc6b0\ub9ac\ub294",
+        "author": null,
+        "views": 30493,
+        "tags": [
+            "\ub0a8\uc131",
+            "\uc5ec\uc131",
+            "\ud604\ub300\ud310\ud0c0\uc9c0",
+            "\uc544\ud3ec\uce7c\ub9bd\uc2a4"
+        ],
+        "description": "[\ud83d\uddbc\ufe0f\uc6f9\ud230/\ud83d\udc6526\uba85]!\ucee4\ubba4 \uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8\u2605(\uc5c5\ub370\uc774\ud2b8 \ub85c\uadf8 \ud655\uc778)",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_69591d2dbc881_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/58264",
+        "crawled_at": "2026-01-15T04:14:39.771939"
+    },
+    {
+        "id": 19,
+        "service": "lunatalk",
+        "character_id": "20419",
+        "rank": 3,
+        "name": "KILL KILL KILL",
+        "author": null,
+        "views": 136527,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\ud559\uc0dd",
+            "\uc2dc\ubbac",
+            "\ud559\uc6d0"
+        ],
+        "description": "\u300c\ubf51\uc544\ub77c! \ubca0\uc5b4\ub77c! \uc8fd\uc5ec\ub77c!\u300d \uac80\uc740 \ub2e8\uc21c\ud558\ub2e4. \ub2e8\uc9c0 \uadf8\uac83\ubfd0\uc774\ub2e4. \uac15\ud55c \uc790\uac00 \uc0b4\uc544\ub0a8\ub294\ub2e4.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/20419_main_1766379058_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/20419",
+        "crawled_at": "2026-01-15T04:14:39.771939"
+    },
+    {
+        "id": 20,
+        "service": "lunatalk",
+        "character_id": "12167",
+        "rank": 4,
+        "name": "\ube59\uc758 \uc2dc\ubbac\ub808\uc774\uc158",
+        "author": null,
+        "views": 50441,
+        "tags": [
+            "\uc560\ub2c8\uba54\uc774\uc158",
+            "\uc601\ud654\ub4dc\ub77c\ub9c8",
+            "\uac8c\uc784",
+            "\uc2dc\ubbac"
+        ],
+        "description": "\uc6d0\ud558\ub294 \ucc3d\uc791\ubb3c \uc18d\uc73c\ub85c \ub4e4\uc5b4\uac00\uc790!",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/12167_main_1766379046_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/12167",
+        "crawled_at": "2026-01-15T04:14:39.771940"
+    },
+    {
+        "id": 21,
+        "service": "lunatalk",
+        "character_id": "10123",
+        "rank": 5,
+        "name": "\uc870\uc120\uc2dc\ub300 \uc2dc\ubbac\ub808\uc774\ud130",
+        "author": null,
+        "views": 23109,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\ub0a8\uc131",
+            "\uc5ec\uc131",
+            "\ud604\ub300\ud310\ud0c0\uc9c0"
+        ],
+        "description": "\uc870\uc120\uc758 \uc0b6\uc744 \uc9c1\uc811 \uccb4\ud5d8\ud560 \uc218 \uc788\ub294 \ubab0\uc785\ud615 \uc2dc\ubbac\ub808\uc774\uc158 \uc548\ub0b4\uc790, \uc870\uc120\uc2dc\ub300 \uc2dc\ubbac\ub808\uc774\ud130\uc785\ub2c8\ub2e4.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/10123_main_1766379043_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/10123",
+        "crawled_at": "2026-01-15T04:14:39.771940"
+    },
+    {
+        "id": 22,
+        "service": "lunatalk",
+        "character_id": "63416",
+        "rank": 6,
+        "name": "\ud22d \uc774\ud0dc\ub9ac\uc5b4 \uc695\ud558\ub294 x\ub144",
+        "author": null,
+        "views": 865,
+        "tags": [
+            "\uc5ec\uc131",
+            "\ub85c\ub9e8\uc2a4",
+            "\uc21c\uc560",
+            "\uce24\ub370\ub808"
+        ],
+        "description": "\ud22d\ud558\uace0 \uc774\ud0c8\ub9ac\uc544\uc5b4\ub85c \uc9c0\ub784\uc774\ub780 \uc9c0\ub784\uc740 \ub2e4\ud558\ub294 \uc606\ubc29 \uc528x\ub144",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_6965e33d27790_400x0.webp",
+        "character_url": "https://lunatalk.chat/character/detail/63416",
+        "crawled_at": "2026-01-15T04:14:39.771940"
+    },
+    {
+        "id": 23,
+        "service": "lunatalk",
+        "character_id": "62903",
+        "rank": 7,
+        "name": "\ub358\uc804 \uc6b4\uc601 \uc2dc\ubbac\ub808\uc774\ud130",
+        "author": null,
+        "views": 6015,
+        "tags": [
+            "\ud310\ud0c0\uc9c0",
+            "\uc545\ub9c8",
+            "\uad34\ubb3c",
+            "\ub3d9\ubb3c"
+        ],
+        "description": "\ub2f9\uc2e0\ub9cc\uc758 \ub358\uc804\uc744 \uc6b4\uc601\ud574\ubcf4\uc138\uc694!",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_6957eded0a19d_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/62903",
+        "crawled_at": "2026-01-15T04:14:39.771941"
+    },
+    {
+        "id": 24,
+        "service": "lunatalk",
+        "character_id": "63420",
+        "rank": 8,
+        "name": "\ud574\uc678 \ucd95\uad6c \uc2dc\ubbac\ub808\uc774\ud130",
+        "author": null,
+        "views": 844,
+        "tags": [
+            "\ub0a8\uc131",
+            "\uc5ec\uc131",
+            "\uadfc\uc721",
+            "\uccad\ucd98"
+        ],
+        "description": "\"\ub2f9\uc2e0\uc744 \uc601\uad6d \ucd95\uad6c \uc804\uc124\ub85c \ub9cc\ub4e4 \ucd5c\uace0\uc758 \ucd95\uad6c \uc2dc\ubbac\ub808\uc774\uc158\uc785\ub2c8\ub2e4.\"",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_696603f23ce13_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/63420",
+        "crawled_at": "2026-01-15T04:14:39.771941"
+    },
+    {
+        "id": 25,
+        "service": "lunatalk",
+        "character_id": "23411",
+        "rank": 9,
+        "name": "\uac15\ud638\ud589",
+        "author": null,
+        "views": 16325,
+        "tags": [
+            "\ubb34\ud611",
+            "\uc2dc\ubbac",
+            "\ucd94\ucc9c",
+            "\ubb34\ub9bc"
+        ],
+        "description": "[\ub4f1\uc7a5\uc778\ubb3c 64\uba85] \ubaa8\ub4e0 \uac83\uc740 \ub2f9\uc2e0\uc758 \uc120\ud0dd\uc5d0 \ub2ec\ub824\uc788\uc2b5\ub2c8\ub2e4. \uac15\ud638\ud589\uc5d0 \uc624\uc2e0 \uac83\uc744 \ud658\uc601\ud569\ub2c8\ub2e4.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/23411_main_1766379061.gif",
+        "character_url": "https://lunatalk.chat/character/detail/23411",
+        "crawled_at": "2026-01-15T04:14:39.771941"
+    },
+    {
+        "id": 26,
+        "service": "lunatalk",
+        "character_id": "9796",
+        "rank": 10,
+        "name": "\uc77c\ub7ec\ub808 \ud0c0\ub77d\uc77c\uae30",
+        "author": null,
+        "views": 18076,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\uc5ec\uc131",
+            "\uac1c\uadf8",
+            "\ud0c0\ub77d"
+        ],
+        "description": "\uc9c0\uae08 \ubb58.. \uadf8\ub824\ub2ec\ub77c\uace0\uc694? \uadf8\ub9ac\uace0 \uc5bc\ub9c8\ub77c\uace0\uc694??",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/9796_main_1766379043_400x0.webp",
+        "character_url": "https://lunatalk.chat/character/detail/9796",
+        "crawled_at": "2026-01-15T04:14:39.771942"
+    },
+    {
+        "id": 27,
+        "service": "lunatalk",
+        "character_id": "63395",
+        "rank": 11,
+        "name": "\ucc28\uc6d0 \uc804\uc7c1  : \uc544\ud3ec\uce7c\ub9bd\uc2a4 \ub85c\uadf8\ub77c\uc774\ud06c",
+        "author": null,
+        "views": 408,
+        "tags": [
+            "\uc2e0\ub144\uc81c\uc791\ub300\ud68c",
+            "\ub0a8\uc131",
+            "\uc5ec\uc131",
+            "\uc545\ub9c8"
+        ],
+        "description": "5:5 aos \ub300\uc804 \uc544\ud3ec\uce7c\ub9bd\uc2a4 \ub85c\uadf8\ub77c\uc774\ud06c \ubb3c",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_6965215408e19_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/63395",
+        "crawled_at": "2026-01-15T04:14:39.771942"
+    },
+    {
+        "id": 28,
+        "service": "lunatalk",
+        "character_id": "62641",
+        "rank": 12,
+        "name": "\ub300\uccb4\uc5ed\uc0ac \uc2dc\ubbac\ub808\uc774\ud130",
+        "author": null,
+        "views": 2806,
+        "tags": [
+            "\ub300\uccb4\uc5ed\uc0ac",
+            "\uc2dc\ubbac",
+            "\uc5ed\uc0ac"
+        ],
+        "description": "\uc5ed\uc0ac\ub97c \ubc14\uafd4\ubcf4\uc138\uc694!",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2025/12/thumb/main_695228e5c63fb_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/62641",
+        "crawled_at": "2026-01-15T04:14:39.771942"
+    },
+    {
+        "id": 29,
+        "service": "lunatalk",
+        "character_id": "59847",
+        "rank": 13,
+        "name": "\ub8e8\uc708",
+        "author": null,
+        "views": 4064,
+        "tags": [
+            "\ub0a8\uc131",
+            "\uc21c\uc560",
+            "\uad6c\uc6d0",
+            "\ub3d9\uc591\ud310\ud0c0\uc9c0"
+        ],
+        "description": "\ub208\ubc2d\uc5d0\uc11c \uc8fc\uc6b4 \uc5ec\uc6b0",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2025/12/main_694d5ab8589b3.webp",
+        "character_url": "https://lunatalk.chat/character/detail/59847",
+        "crawled_at": "2026-01-15T04:14:39.771943"
+    },
+    {
+        "id": 30,
+        "service": "lunatalk",
+        "character_id": "17581",
+        "rank": 14,
+        "name": "(\uc774\uc2dd!)\uc704\ud0a4 \uc218\uc815\ud558\uba74 \ud604\uc2e4\uc774 \ub41c\ub2e4?",
+        "author": null,
+        "views": 33143,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\ub300\uccb4\uc5ed\uc0ac",
+            "\uac1c\uadf8",
+            "\uc2dc\ubbac"
+        ],
+        "description": "\uc704\ud0a4\ub85c \ud604\uc2e4\uc744 \uac1c\ubcc0\ud558\uc138\uc694!",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/17581_main_1766379054_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/17581",
+        "crawled_at": "2026-01-15T04:14:39.771943"
+    },
+    {
+        "id": 31,
+        "service": "lunatalk",
+        "character_id": "2527",
+        "rank": 15,
+        "name": "\ud0d0\uc815 \uc544\uce74\ub370\ubbf8 19th",
+        "author": null,
+        "views": 30176,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\uc2dc\ubbac",
+            "\ucd94\ub9ac"
+        ],
+        "description": "<\ud504\ub864\ub85c\uadf8 \uc6f9\ud230>  \uc5ec\ub7ec \ubc94\uc8c4\uc870\uc9c1\ub4e4\uc774 \uc77c\uc73c\ud0a4\ub294 \uc0ac\uac74\ub4e4\uacfc \uc54c\uc218\uc5c6\ub294 \ud398\uc990\uc774\ub77c\ub294 \uad34\ud604\uc0c1\ub4e4\uc774 \uc77c\uc5b4\ub098\ub294 \uc548\uac1c\uac00 \uc790\uc6b1\ud55c 19\uc138\uae30 \ub7f0\ub358, \uadf8\ub7f0 \uc0ac\uac74\ub4e4\uc744 \ud574\uacb0\ud558\uae30 \uc704\ud574 \uc0ac\uac74\ub4e4\uc744 \ud574\uacb0\ud574\uac00\ub294 \ud0d0\uc815\ub4e4\uacfc \uadf8\ub4e4\uc758 \uc870\uc218\ub4e4\uc758 \uc774\uc57c\uae30.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/2527_main_1766379029_400x0.webp",
+        "character_url": "https://lunatalk.chat/character/detail/2527",
+        "crawled_at": "2026-01-15T04:14:39.771943"
+    },
+    {
+        "id": 32,
+        "service": "lunatalk",
+        "character_id": "35218",
+        "rank": 16,
+        "name": "\uc57c\uad6c\uc120\uc218 \uc0dd\uc874\uae30",
+        "author": null,
+        "views": 59313,
+        "tags": [
+            "\uac8c\uc784",
+            "\uc2a4\ud3ec\uce20",
+            "\uc2dc\ubbac",
+            "\ucd94\ucc9c"
+        ],
+        "description": "2026 \uac00\uc0c1\uc758 \ub300\ud55c\ubbfc\uad6d \uc2e0\uc778 \ub4dc\ub798\ud504\ud2b8\uc5d0 \ucc38\uac00\ud55c \uc720\uc800\uc758 \uc778\uc0dd\uc744 \uc0b4\uc544\ubcf4\uc790.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/35218_main_1766379073_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/35218",
+        "crawled_at": "2026-01-15T04:14:39.771944"
+    },
+    {
+        "id": 33,
+        "service": "lunatalk",
+        "character_id": "63487",
+        "rank": 17,
+        "name": "\uc724\uc11c\ud76c",
+        "author": null,
+        "views": 154,
+        "tags": [
+            "\uc5ec\uc131",
+            "\ub85c\ub9e8\uc2a4",
+            "\uc21c\uc560",
+            "\uce24\ub370\ub808"
+        ],
+        "description": "\uad00\uc2ec \uc880 \uc918!!",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_69677754130a1_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/63487",
+        "crawled_at": "2026-01-15T04:14:39.771944"
+    },
+    {
+        "id": 34,
+        "service": "lunatalk",
+        "character_id": "5519",
+        "rank": 18,
+        "name": "\ud558\ub098\ub3c4 \uc548 \ud070 \ucd08\ub529 \uc2dc\uc808 \uc77c\uc9c4\ub4e4",
+        "author": null,
+        "views": 44851,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\uc5ec\uc131",
+            "\uc77c\uc0c1",
+            "\uccad\ucd98"
+        ],
+        "description": "\ub0a0 \uad34\ub86d\ud788\ub358 \uadf8 \ub9dd\ud560 \ub144\ub4e4... \ud0a4\uac00 \uadf8\ub300\ub85c\uc57c?!",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/5519_main_1766379036_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/5519",
+        "crawled_at": "2026-01-15T04:14:39.771944"
+    },
+    {
+        "id": 35,
+        "service": "lunatalk",
+        "character_id": "47279",
+        "rank": 19,
+        "name": "WW2 \uc2dc\ubbac\ub808\uc774\ud130",
+        "author": null,
+        "views": 15855,
+        "tags": [
+            "\ub300\uccb4\uc5ed\uc0ac",
+            "\ubc00\ub9ac\ud130\ub9ac",
+            "\uac8c\uc784",
+            "\uc2dc\ubbac"
+        ],
+        "description": "\uc7a5\uc790 \ud55c \uba85\uc758 \uc8fd\uc74c\uc740 \ube44\uadf9\uc774\uc694, \ubc31\ub9cc \uba85\uc758 \uc8fd\uc74c\uc740 \ud1b5\uacc4\ub2e4.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/47279_main_1766379084_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/47279",
+        "crawled_at": "2026-01-15T04:14:39.771945"
+    },
+    {
+        "id": 36,
+        "service": "lunatalk",
+        "character_id": "1848",
+        "rank": 20,
+        "name": "\uc5d0\ubc84\ub81b",
+        "author": null,
+        "views": 80089,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\uc5ec\uc131",
+            "\ud310\ud0c0\uc9c0",
+            "\uc774\uc138\uacc4"
+        ],
+        "description": "\ubd88\ub2ed\uc774",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/1848_main_1766379026_400x0.webp",
+        "character_url": "https://lunatalk.chat/character/detail/1848",
+        "crawled_at": "2026-01-15T04:14:39.771945"
+    },
+    {
+        "id": 37,
+        "service": "lunatalk",
+        "character_id": "2517",
+        "rank": 21,
+        "name": "C.O.D.A. : Da Capo",
+        "author": null,
+        "views": 17149,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\uc5ec\uc131",
+            "\ud310\ud0c0\uc9c0",
+            "\ud604\ub300\ud310\ud0c0\uc9c0"
+        ],
+        "description": "\uc9c0\uc625\uc758 \ub05d\uc5d0\uc11c \ub2e4\uc2dc \uc2dc\uc791\ud558\ub294 5\uba85\uc758 \uc601\ud63c\uc774\uc5ec.",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/2517_main_1766379029_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/2517",
+        "crawled_at": "2026-01-15T04:14:39.771945"
+    },
+    {
+        "id": 38,
+        "service": "lunatalk",
+        "character_id": "42108",
+        "rank": 22,
+        "name": "\uc808\ub9dd\uc218\ub140 \uad00\ub9ac\uc77c\uc9c0",
+        "author": null,
+        "views": 2324,
+        "tags": [
+            "\ucd94\ucc9c",
+            "\uc5ec\uc131",
+            "\uc21c\uc560",
+            "\uad6c\uc6d0"
+        ],
+        "description": "\uc808\ub9dd\uc5d0 \ube60\uc9c4 \uc218\ub140\ub97c \uad6c\uc6d0\ud574\uc8fc\uc790",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/42108_main_1766379080_400x0.png",
+        "character_url": "https://lunatalk.chat/character/detail/42108",
+        "crawled_at": "2026-01-15T04:14:39.771945"
+    },
+    {
+        "id": 39,
+        "service": "lunatalk",
+        "character_id": "35378",
+        "rank": 23,
+        "name": "\uc774 \uc911\uc5d0 \ub0a8\uc790\uac00 \uc788\ub2e4?!",
+        "author": null,
+        "views": 5505,
+        "tags": [
+            "\uc5ec\uc131",
+            "\ub85c\ub9e8\uc2a4",
+            "\uc9d1\ucc29",
+            "\ud558\ub818"
+        ],
+        "description": "\ud558\uc219\uc9d1\uc5d0 \uc124\ub9c8 \ub098 \uc678\uc5d0 \ub0a8\uc790\uac00 \uc788\ub2e4\uace0?",
+        "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/35378_main_1766379073_400x0.jpg",
+        "character_url": "https://lunatalk.chat/character/detail/35378",
+        "crawled_at": "2026-01-15T04:14:39.771946"
+    },
+    {
+        "id": 1,
+        "service": "zeta",
+        "character_id": "95e30bbd-0f37-4baf-b4b9-6a330d6606e2",
+        "rank": 1,
+        "name": "\uac10\uc625\uc5d0\uc11c \uc0b4\uc544\ub0a8\uae30",
+        "author": null,
+        "views": 14520000,
+        "tags": [
+            "bl",
+            "hl",
+            "\uac10\uc625",
+            "\ub2a5\uae00",
+            "\uae4c\uce60",
+            "\ubb34\ub69d\ub69d",
+            "\ub2e4\uacf5\uc77c\uc218"
+        ],
+        "description": "\uc704\ud5d8\ud55c \uc218\uac10\uc790\ub4e4\uc5d0\uac8c\uc11c \uc0b4\uc544\ub0a8\uae30 \u3010BL - HL\u3011",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/95e30bbd-0f37-4baf-b4b9-6a330d6606e2/profile",
+        "crawled_at": "2026-01-15T04:14:39.771930"
+    },
+    {
+        "id": 2,
+        "service": "zeta",
+        "character_id": "08a99f41-e3b4-461a-bbc7-a112663ff2a3",
+        "rank": 2,
+        "name": "\ub958\uae30\ud6c8",
+        "author": null,
+        "views": 782000,
+        "tags": [
+            "HL",
+            "\ub124\uc784\ubc84\uc2a4",
+            "\ud610\uad00",
+            "\ub85c\ub9e8\uc2a4",
+            "\uae4c\uce60",
+            "\ubb34\ub69d\ub69d",
+            "\uc9c8\ud22c",
+            "\uc18c\uc720\uc695",
+            "\uce24\ub370\ub808",
+            "\uc5b8\ub9ac\ubc0b"
+        ],
+        "description": "\ub208\ub9cc \ub9c8\uc8fc\uccd0\ub3c4 \uc2f8\uc6b0\ub294 \uc559\uc219\uc778 \ub450 \uc0ac\ub78c\uc5d0\uac8c \uc11c\ub85c\uc758 \uc774\ub984\uc774 \uc0c8\uaca8\uc84c\ub2e4.",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/08a99f41-e3b4-461a-bbc7-a112663ff2a3/profile",
+        "crawled_at": "2026-01-15T04:14:39.771934"
+    },
+    {
+        "id": 3,
+        "service": "zeta",
+        "character_id": "a9c90373-9fe0-4d38-8622-d6dc16143485",
+        "rank": 3,
+        "name": "\uc720\uc900\ud604",
+        "author": null,
+        "views": 145000,
+        "tags": [
+            "\ub0a8\uc0ac\uce5c",
+            "\uc18c\uac1c\ud305",
+            "\uc5ec\uc6b0",
+            "\uc9dd\uc0ac\ub791",
+            "\uc9dd\ub0a8",
+            "\uace0\ub529",
+            "\ud559\uad50",
+            "\uc874\uc798",
+            "\ubb50\ud558\uc9c0",
+            "soda"
+        ],
+        "description": "\uc5b4\ub54c? \uadf8 \uc5ec\uc794 \ub098\ubcf4\ub2e4 \ub354 \ub098?",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/a9c90373-9fe0-4d38-8622-d6dc16143485/profile",
+        "crawled_at": "2026-01-15T04:14:39.771934"
+    },
+    {
+        "id": 4,
+        "service": "zeta",
+        "character_id": "167d37e5-3dbf-4b79-9542-febcf8f9439d",
+        "rank": 4,
+        "name": "\uac15\ud0dc\uc9c4",
+        "author": null,
+        "views": 177000,
+        "tags": [
+            "\uae4c\uce60",
+            "\ubb34\ub69d\ub69d",
+            "\uc21c\uc560",
+            "\uc5f0\uc0c1",
+            "\ubcf5\uc2f1\ubd80",
+            "\ubcf5\uc2f1",
+            "\uc6b4\ub3d9\ubd80",
+            "\uc5f0\uc560",
+            "\ub5a1\ub300"
+        ],
+        "description": "\uae4c\uce60\ud55c \uc2dc\uace8 \ubcf5\uc2f1\uc120\uc218 \ub0a8\uc790\uce5c\uad6c",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/167d37e5-3dbf-4b79-9542-febcf8f9439d/profile",
+        "crawled_at": "2026-01-15T04:14:39.771935"
+    },
+    {
+        "id": 5,
+        "service": "zeta",
+        "character_id": "c3ebb0bd-d1a4-4bcf-b48f-a2d4d63913a6",
+        "rank": 5,
+        "name": "\uac15\ud574\uc628",
+        "author": null,
+        "views": 147000,
+        "tags": [
+            "\ub0a8\uc0ac\uce5c",
+            "\uacb0\ud63c\uc2dd",
+            "\uc704\uc7a5\uc5f0\uc560",
+            "10\ub144\uc9c0\uae30",
+            "\uc7ac\ubc8c",
+            "\uc7a5\ub09c\uae30",
+            "\ub2a5\uae00",
+            "\uce24\ub370\ub808"
+        ],
+        "description": "\uc804\uc5ec\uce5c \uacb0\ud63c\uc2dd \uac00\ub294\ub370 \uc5ec\uce5c\uc778\ucc99 \uc880 \ud574\uc8fc\ub77c.",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/c3ebb0bd-d1a4-4bcf-b48f-a2d4d63913a6/profile",
+        "crawled_at": "2026-01-15T04:14:39.771935"
+    },
+    {
+        "id": 6,
+        "service": "zeta",
+        "character_id": "031f7ac9-e57c-4cce-9a8d-7badf00d1927",
+        "rank": 6,
+        "name": "\uc774\ub3c4\ud558",
+        "author": null,
+        "views": 146000,
+        "tags": [
+            "\uc8fc\uc885\uad00\uacc4",
+            "\uacbd\ub9e4",
+            "\uc0c1\ud488",
+            "\uc0c1\ud558\uad00\uacc4",
+            "\ud1b5\uc81c",
+            "\ud53c\ud3d0",
+            "\ubcf5\uc885",
+            "\uad6c\uc6d0",
+            "\uc790\ub0ae",
+            "\uc5b8\ub9ac\ubc0b"
+        ],
+        "description": "\ud1b5\uc81c\ubcbd \uc788\ub294 \ub2f9\uc2e0\uc758 \uc190\uc5d0 \ub5a8\uc5b4\uc9c4 \uc720\uc21c\ud55c \uc0c1\ud488",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/031f7ac9-e57c-4cce-9a8d-7badf00d1927/profile",
+        "crawled_at": "2026-01-15T04:14:39.771935"
+    },
+    {
+        "id": 7,
+        "service": "zeta",
+        "character_id": "c2d3f521-a0d8-4c8c-9de2-78e0e749ba81",
+        "rank": 7,
+        "name": "\ubc31\uac74\uc601",
+        "author": null,
+        "views": 2412,
+        "tags": [
+            "bl",
+            "\uad6c\uc6d0",
+            "\ubaa8\ubc94\uc0dd\uacf5",
+            "\uc591\uc544\uce58\uc218",
+            "\uc21c\uc560",
+            "\ub2e4\uc815\uacf5",
+            "\ubb34\ub69d\ub69d\uc218",
+            "\uc0c1\ucc98\uacf5",
+            "\uc0c1\ucc98\uc218",
+            "\ud53c\ud3d0"
+        ],
+        "description": "\uc815\uc11c\uc801 \ud559\ub300\ub97c \ubc1b\ub294 \ubaa8\ubc94\uc0dd\uacfc \uc2e0\uccb4\uc801 \ud559\ub300\ub97c \ubc1b\ub294 \uc591\uc544\uce58\uc758 \uc30d\ubc29 \uad6c\uc6d0 \uc11c\uc0ac",
+        "thumbnail_url": null,
+        "character_url": "https://zeta-ai.io/ko/plots/c2d3f521-a0d8-4c8c-9de2-78e0e749ba81/profile",
+        "crawled_at": "2026-01-15T04:14:39.771936"
+    }
+]
