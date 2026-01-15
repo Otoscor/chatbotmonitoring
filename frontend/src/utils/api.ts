@@ -15,10 +15,18 @@ const api = axios.create({
 })
 
 // 정적 JSON 파일 fetch 헬퍼 함수
+// GitHub Pages base path 고려
+const getBasePath = () => {
+  // Vite의 base path를 가져오거나 기본값 사용
+  return import.meta.env.BASE_URL || '/'
+}
+
 const fetchStaticData = async <T>(filename: string): Promise<T> => {
-  const response = await fetch(`/data/${filename}`)
+  const basePath = getBasePath()
+  const url = `${basePath}data/${filename}`
+  const response = await fetch(url)
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${filename}`)
+    throw new Error(`Failed to fetch ${filename} from ${url}`)
   }
   return response.json()
 }
