@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react'
 import { useApi } from '../hooks/useApi'
-import { fetchChatServiceCharacters, triggerChatServiceCrawl, ChatServiceCharacter } from '../utils/api'
+import { fetchChatServiceCharacters, triggerChatServiceCrawl, fetchPopularTags, ChatServiceCharacter, PopularTag } from '../utils/api'
+import KeywordCloud from '../components/KeywordCloud'
 
 export default function CharacterRankings() {
   const [crawling, setCrawling] = useState(false)
@@ -8,6 +9,10 @@ export default function CharacterRankings() {
   
   const { data: characters, loading, refetch } = useApi(
     useCallback(() => fetchChatServiceCharacters(), [])
+  )
+
+  const { data: popularTags, loading: tagsLoading } = useApi(
+    useCallback(() => fetchPopularTags(20), [])
   )
 
   const handleCrawl = async () => {
@@ -80,6 +85,27 @@ export default function CharacterRankings() {
           }`}>
             {message.text}
           </div>
+        )}
+      </div>
+
+      {/* 인기 해시태그 */}
+      <div className="bg-white border border-gray-200 rounded p-6">
+        <h3 className="text-sm font-semibold text-gray-900 mb-4">인기 해시태그</h3>
+        {tagsLoading ? (
+          <div className="text-center py-8 text-sm text-gray-400">
+            데이터를 불러오는 중...
+          </div>
+        ) : !popularTags || popularTags.length === 0 ? (
+          <div className="text-center py-8 text-sm text-gray-500">
+            태그 데이터가 없습니다.
+          </div>
+        ) : (
+          <KeywordCloud
+            keywords={popularTags.map((tag: PopularTag) => ({
+              text: `#${tag.tag}`,
+              value: tag.count
+            }))}
+          />
         )}
       </div>
 

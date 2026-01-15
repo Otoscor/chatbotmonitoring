@@ -136,4 +136,16 @@ export const triggerChatServiceCrawl = async (services?: string[]) => {
   return data
 }
 
+export interface PopularTag {
+  tag: string
+  count: number
+}
+
+export const fetchPopularTags = async (limit = 20, service?: string): Promise<PopularTag[]> => {
+  const params: any = { limit }
+  if (service) params.service = service
+  const { data } = await api.get('/characters/popular-tags', { params })
+  return data
+}
+
 export default api
