@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     """애플리케이션 설정"""
     
     # Database
+    # 프로덕션에서는 환경 변수 DATABASE_URL 사용 (PostgreSQL)
+    # 로컬 개발에서는 SQLite 사용
     database_url: str = "sqlite+aiosqlite:///./monitoring.db"
     
     # Crawler Settings

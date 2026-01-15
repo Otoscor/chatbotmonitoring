@@ -20,8 +20,8 @@ export default function Layout({ children }: LayoutProps) {
       <aside className="fixed top-0 left-0 h-screen w-60 bg-gray-50 border-r border-gray-200 flex flex-col">
         {/* Logo */}
         <div className="px-6 py-5 border-b border-gray-200">
-          <h1 className="text-sm font-semibold text-gray-900">모니터링 시스템</h1>
-          <p className="text-xs text-gray-500 mt-0.5">캐릭터 챗봇 분석</p>
+          <h1 className="text-sm font-semibold text-gray-900">챗봇 모니터링</h1>
+          <p className="text-xs text-gray-500 mt-0.5">캐릭터 챗을 이해하기 위한 모니터링</p>
         </div>
 
         {/* Navigation */}

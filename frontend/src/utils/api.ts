@@ -1,7 +1,10 @@
 import axios from 'axios'
 
+// 환경 변수에서 API URL 가져오기 (프로덕션) 또는 로컬 프록시 사용 (개발)
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
   timeout: 120000, // 2분으로 증가
   headers: {
     'Content-Type': 'application/json',
