@@ -1,8 +1,7 @@
-import { ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 interface LayoutProps {
-  children: ReactNode
+  children: React.ReactNode
 }
 
 const navItems = [
