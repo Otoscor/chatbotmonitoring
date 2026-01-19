@@ -274,6 +274,119 @@ async def get_report_by_date(date: str, db: AsyncSession = Depends(get_db)):
     return report
 
 
+@router.get("/reports/{date}/keywords")
+async def get_report_keywords(
+    date: str,
+    limit: int = Query(20, ge=1, le=50),
+    db: AsyncSession = Depends(get_db)
+):
+    """특정 날짜 리포트의 인기 키워드 조회"""
+    try:
+        target_date = datetime.strptime(date, "%Y-%m-%d")
+    except ValueError:
+        raise HTTPException(status_code=400, detail="날짜 형식이 올바르지 않습니다 (YYYY-MM-DD)")
+    
+    start_of_day = target_date.replace(hour=0, minute=0, second=0)
+    end_of_day = start_of_day + timedelta(days=1)
+    
+    # 해당 날짜의 리포트 조회
+    query = select(DailyReport).where(
+        DailyReport.report_date >= start_of_day,
+        DailyReport.report_date < end_of_day
+    )
+    result = await db.execute(query)
+    report = result.scalar_one_or_none()
+    
+    if not report or not report.top_keywords:
+        return []
+    
+    # top_keywords는 이미 [{"keyword": "xxx", "count": 10}, ...] 형식
+    keywords = []
+    for item in report.top_keywords[:limit]:
+        if isinstance(item, dict):
+            keywords.append({
+                "text": item.get("keyword", ""),
+                "value": item.get("count", 0)
+            })
+    
+    return keywords
+
+
+@router.get("/reports/{date}/characters")
+async def get_report_characters(
+    date: str,
+    limit: int = Query(20, ge=1, le=50),
+    db: AsyncSession = Depends(get_db)
+):
+    """특정 날짜 리포트의 인기 캐릭터 조회"""
+    try:
+        target_date = datetime.strptime(date, "%Y-%m-%d")
+    except ValueError:
+        raise HTTPException(status_code=400, detail="날짜 형식이 올바르지 않습니다 (YYYY-MM-DD)")
+    
+    start_of_day = target_date.replace(hour=0, minute=0, second=0)
+    end_of_day = start_of_day + timedelta(days=1)
+    
+    # 해당 날짜의 리포트 조회
+    query = select(DailyReport).where(
+        DailyReport.report_date >= start_of_day,
+        DailyReport.report_date < end_of_day
+    )
+    result = await db.execute(query)
+    report = result.scalar_one_or_none()
+    
+    if not report or not report.top_characters:
+        return []
+    
+    # top_characters는 이미 [{"name": "xxx", "mentions": 10}, ...] 형식
+    return report.top_characters[:limit]
+
+
+@router.get("/reports/{date}/tags")
+async def get_report_tags(
+    date: str,
+    limit: int = Query(20, ge=1, le=50),
+    db: AsyncSession = Depends(get_db)
+):
+    """특정 날짜의 인기 해시태그 조회 (캐릭터챗 서비스)"""
+    try:
+        target_date = datetime.strptime(date, "%Y-%m-%d")
+    except ValueError:
+        raise HTTPException(status_code=400, detail="날짜 형식이 올바르지 않습니다 (YYYY-MM-DD)")
+    
+    start_of_day = target_date.replace(hour=0, minute=0, second=0)
+    end_of_day = start_of_day + timedelta(days=1)
+    
+    # 해당 날짜에 크롤링된 캐릭터 데이터 조회
+    query = select(ChatServiceCharacter.tags).where(
+        ChatServiceCharacter.crawled_at >= start_of_day,
+        ChatServiceCharacter.crawled_at < end_of_day,
+        ChatServiceCharacter.tags.isnot(None)
+    )
+    
+    result = await db.execute(query)
+    all_tags_lists = result.scalars().all()
+    
+    if not all_tags_lists:
+        return []
+    
+    # 모든 태그를 평탄화하고 카운트
+    from collections import Counter
+    tag_counter = Counter()
+    
+    for tags_list in all_tags_lists:
+        if tags_list and isinstance(tags_list, list):
+            tag_counter.update(tags_list)
+    
+    # 가장 많이 사용된 태그 반환
+    popular_tags = [
+        {"tag": tag, "count": count}
+        for tag, count in tag_counter.most_common(limit)
+    ]
+    
+    return popular_tags
+
+
 # ========== 키워드/캐릭터 API ==========
 
 @router.get("/keywords/trending")
@@ -508,8 +621,8 @@ class ChatServiceCharacterResponse(BaseModel):
 
 @router.get("/characters/chat-services", response_model=List[ChatServiceCharacterResponse])
 async def get_chat_service_characters(
-    service: Optional[str] = Query(None, description="서비스 필터 (zeta, babechat)"),
-    limit: int = Query(30, ge=1, le=100),
+    service: Optional[str] = Query(None, description="서비스 필터 (zeta, lunatalk, babechat, crack)"),
+    limit: int = Query(30, ge=1, le=200),
     db: AsyncSession = Depends(get_db)
 ):
     """캐릭터챗 서비스 순위 조회 (최신 크롤링 데이터)"""
@@ -536,9 +649,10 @@ async def get_chat_service_characters(
     if service:
         query = query.where(ChatServiceCharacter.service == service)
     
+    # 각 서비스별로 rank 순서로 정렬 (알파벳 순이 아닌 rank 우선)
     query = query.order_by(
-        ChatServiceCharacter.service,
-        ChatServiceCharacter.rank
+        ChatServiceCharacter.rank,
+        ChatServiceCharacter.service
     ).limit(limit)
     
     result = await db.execute(query)

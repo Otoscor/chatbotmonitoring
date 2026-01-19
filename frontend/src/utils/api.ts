@@ -177,7 +177,7 @@ export const generateReport = async (date?: string) => {
   return data
 }
 
-export const fetchChatServiceCharacters = async (service?: string, limit = 30): Promise<ChatServiceCharacter[]> => {
+export const fetchChatServiceCharacters = async (service?: string, limit = 150): Promise<ChatServiceCharacter[]> => {
   if (USE_STATIC_DATA) {
     const allCharacters = await fetchStaticData<ChatServiceCharacter[]>('chat_characters.json')
     // 서비스 필터링
@@ -216,6 +216,41 @@ export const fetchPopularTags = async (limit = 20, service?: string): Promise<Po
   const params: any = { limit }
   if (service) params.service = service
   const { data } = await api.get('/characters/popular-tags', { params })
+  return data
+}
+
+// 날짜별 리포트 상세 데이터
+export interface ReportKeyword {
+  text: string
+  value: number
+}
+
+export interface ReportCharacter {
+  name: string
+  mentions: number
+}
+
+export const fetchReportKeywords = async (date: string, limit = 20): Promise<ReportKeyword[]> => {
+  if (USE_STATIC_DATA) {
+    return fetchStaticData<ReportKeyword[]>('trending_keywords.json')
+  }
+  const { data } = await api.get(`/reports/${date}/keywords`, { params: { limit } })
+  return data
+}
+
+export const fetchReportCharacters = async (date: string, limit = 20): Promise<ReportCharacter[]> => {
+  if (USE_STATIC_DATA) {
+    return fetchStaticData<ReportCharacter[]>('character_ranking.json')
+  }
+  const { data } = await api.get(`/reports/${date}/characters`, { params: { limit } })
+  return data
+}
+
+export const fetchReportTags = async (date: string, limit = 20): Promise<PopularTag[]> => {
+  if (USE_STATIC_DATA) {
+    return fetchStaticData<PopularTag[]>('popular_tags.json')
+  }
+  const { data } = await api.get(`/reports/${date}/tags`, { params: { limit } })
   return data
 }
 

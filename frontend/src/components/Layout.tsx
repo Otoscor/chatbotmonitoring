@@ -40,8 +40,8 @@ export default function Layout({ children }: LayoutProps) {
       await triggerCrawl(undefined, 3)
       await generateReport()
       
-      // 2. 캐릭터챗 서비스 크롤링
-      await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk'])
+        // 2. 캐릭터챗 서비스 크롤링
+        await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk', 'crack'])
       
       alert('모든 데이터 갱신이 완료되었습니다!')
       window.location.reload()
