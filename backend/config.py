@@ -4,6 +4,7 @@
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 from typing import List
+from pathlib import Path
 
 
 class Settings(BaseSettings):
@@ -11,8 +12,8 @@ class Settings(BaseSettings):
     
     # Database
     # 프로덕션에서는 환경 변수 DATABASE_URL 사용 (PostgreSQL)
-    # 로컬 개발에서는 SQLite 사용
-    database_url: str = "sqlite+aiosqlite:///./monitoring.db"
+    # 로컬 개발에서는 SQLite 사용 (backend 디렉토리 기준 절대 경로)
+    database_url: str = f"sqlite+aiosqlite:///{Path(__file__).parent}/monitoring.db"
     
     # Crawler Settings
     crawl_delay_seconds: float = 1.5

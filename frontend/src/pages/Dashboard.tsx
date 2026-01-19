@@ -19,15 +19,12 @@ import {
   fetchLatestReport, 
   fetchReports,
   fetchPopularPosts,
-  triggerCrawl,
-  generateReport,
-  USE_STATIC_DATA,
   type DailyReport,
   type Post
 } from '../utils/api'
 
 export default function Dashboard() {
-  const { data: latestReport, loading: reportLoading, refetch: refetchReport } = useApi(
+  const { data: latestReport, loading: reportLoading } = useApi(
     useCallback(() => fetchLatestReport(), [])
   )
   
@@ -38,28 +35,6 @@ export default function Dashboard() {
   const { data: popularPosts, loading: postsLoading } = useApi(
     useCallback(() => fetchPopularPosts(15, 7), [])
   )
-  
-  // 캐릭터 랭킹 제거 (키워드로 대체)
-
-  const handleManualCrawl = async () => {
-    const isConfirmed = window.confirm('크롤링을 시작하시겠습니까? (약 30초 소요)')
-    if (!isConfirmed) return
-    
-    try {
-      alert('크롤링을 시작합니다. 잠시만 기다려주세요...')
-      
-      await triggerCrawl(undefined, 3)
-      await generateReport()
-      await refetchReport()
-      
-      alert('크롤링 및 리포트 생성이 완료되었습니다!')
-      window.location.reload()
-    } catch (error: any) {
-      const errorMsg = error.response?.data?.message || error.message || '알 수 없는 오류'
-      alert(`작업 중 오류가 발생했습니다: ${errorMsg}`)
-      console.error(error)
-    }
-  }
 
   // 차트 데이터 변환
   const chartData = reports?.slice().reverse().map((r: DailyReport) => ({
@@ -79,27 +54,17 @@ export default function Dashboard() {
   return (
     <div className="space-y-8">
       {/* Header */}
-      <div className="flex items-center justify-between pb-6 border-b border-gray-200">
-        <div>
-          <h1 className="text-2xl font-semibold text-gray-900 mb-1">대시보드</h1>
-          <p className="text-sm text-gray-500">
-            {latestReport 
-              ? `최근 업데이트: ${format(new Date(latestReport.report_date), 'yyyy년 MM월 dd일', { locale: ko })}`
-              : '데이터가 없습니다. 크롤링을 시작하세요.'
-            }
-          </p>
-          <p className="text-xs text-gray-400 mt-1">
-            뤼튼 마이너갤 | AI챗팅 마이너갤 | 아카라이브 캐릭터AI
-          </p>
-        </div>
-        {!USE_STATIC_DATA && (
-          <button
-            onClick={handleManualCrawl}
-            className="px-4 py-2 bg-gray-900 text-white text-sm rounded hover:bg-gray-800 transition-colors"
-          >
-            수동 크롤링
-          </button>
-        )}
+      <div className="pb-6 border-b border-gray-200">
+        <h1 className="text-2xl font-semibold text-gray-900 mb-1">대시보드</h1>
+        <p className="text-sm text-gray-500">
+          {latestReport 
+            ? `최근 업데이트: ${format(new Date(latestReport.report_date), 'yyyy년 MM월 dd일', { locale: ko })}`
+            : '데이터가 없습니다. 크롤링을 시작하세요.'
+          }
+        </p>
+        <p className="text-xs text-gray-400 mt-1">
+          뤼튼 마이너갤 | AI챗팅 마이너갤 | 아카라이브 캐릭터AI
+        </p>
       </div>
 
       {/* Stats Grid */}

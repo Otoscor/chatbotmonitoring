@@ -1,38 +1,16 @@
-import { useState, useCallback } from 'react'
+import { useCallback } from 'react'
 import { useApi } from '../hooks/useApi'
-import { fetchChatServiceCharacters, triggerChatServiceCrawl, fetchPopularTags, USE_STATIC_DATA, ChatServiceCharacter, PopularTag } from '../utils/api'
+import { fetchChatServiceCharacters, fetchPopularTags, ChatServiceCharacter, PopularTag } from '../utils/api'
 import KeywordCloud from '../components/KeywordCloud'
 
 export default function CharacterRankings() {
-  const [crawling, setCrawling] = useState(false)
-  const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
-  
-  const { data: characters, loading, refetch } = useApi(
+  const { data: characters, loading } = useApi(
     useCallback(() => fetchChatServiceCharacters(), [])
   )
 
   const { data: popularTags, loading: tagsLoading } = useApi(
     useCallback(() => fetchPopularTags(20), [])
   )
-
-  const handleCrawl = async () => {
-    setCrawling(true)
-    setMessage(null)
-    
-    try {
-      const result = await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk'])
-      if (result.success) {
-        setMessage({ type: 'success', text: result.message })
-        await refetch()
-      } else {
-        setMessage({ type: 'error', text: result.message })
-      }
-    } catch (error: any) {
-      setMessage({ type: 'error', text: `크롤링 실패: ${error.message}` })
-    } finally {
-      setCrawling(false)
-    }
-  }
 
   // 서비스별로 그룹화
   const groupedCharacters = {
@@ -63,31 +41,8 @@ export default function CharacterRankings() {
     <div className="space-y-6">
       {/* 헤더 */}
       <div className="pb-6 border-b border-gray-200">
-        <div className="flex items-center justify-between mb-4">
-          <div>
-            <h1 className="text-2xl font-semibold text-gray-900 mb-1">캐릭터 순위</h1>
-            <p className="text-sm text-gray-500">인기 캐릭터챗 서비스의 TOP 캐릭터</p>
-          </div>
-          {!USE_STATIC_DATA && (
-            <button
-              onClick={handleCrawl}
-              disabled={crawling}
-              className="px-4 py-2 text-sm font-medium bg-gray-900 text-white rounded hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              {crawling ? '크롤링 중...' : '데이터 갱신'}
-            </button>
-          )}
-        </div>
-        
-        {message && (
-          <div className={`mt-4 p-3 rounded text-sm ${
-            message.type === 'success' 
-              ? 'bg-gray-100 text-gray-700' 
-              : 'bg-gray-900 text-white'
-          }`}>
-            {message.text}
-          </div>
-        )}
+        <h1 className="text-2xl font-semibold text-gray-900 mb-1">캐릭터 순위</h1>
+        <p className="text-sm text-gray-500">인기 캐릭터챗 서비스의 TOP 캐릭터</p>
       </div>
 
       {/* 인기 해시태그 */}
@@ -165,13 +120,7 @@ export default function CharacterRankings() {
       {/* 데이터 없음 */}
       {groupedCharacters.zeta.length === 0 && groupedCharacters.babechat.length === 0 && groupedCharacters.lunatalk.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-gray-500 mb-4">크롤링된 캐릭터 데이터가 없습니다.</p>
-          <button
-            onClick={handleCrawl}
-            className="px-4 py-2 text-sm font-medium bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
-          >
-            크롤링 시작
-          </button>
+          <p className="text-gray-500">크롤링된 캐릭터 데이터가 없습니다.</p>
         </div>
       )}
     </div>
