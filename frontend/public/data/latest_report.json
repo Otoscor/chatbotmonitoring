@@ -1,1 +1,198 @@
-null
+{
+  "id": 2,
+  "report_date": "2026-01-19T10:30:59.269736",
+  "total_posts": 418,
+  "total_views": 22256,
+  "total_recommends": 288,
+  "total_comments": 1593,
+  "top_keywords": [
+    {
+      "keyword": "사람",
+      "count": 12,
+      "score": 0.023
+    },
+    {
+      "keyword": "만들",
+      "count": 9,
+      "score": 0.0166
+    },
+    {
+      "keyword": "의상",
+      "count": 9,
+      "score": 0.0147
+    },
+    {
+      "keyword": "카르마",
+      "count": 6,
+      "score": 0.0136
+    },
+    {
+      "keyword": "바이퍼",
+      "count": 6,
+      "score": 0.013
+    },
+    {
+      "keyword": "뤼붕이",
+      "count": 6,
+      "score": 0.0125
+    },
+    {
+      "keyword": "시간",
+      "count": 6,
+      "score": 0.0122
+    },
+    {
+      "keyword": "반납",
+      "count": 5,
+      "score": 0.0113
+    },
+    {
+      "keyword": "원피스",
+      "count": 5,
+      "score": 0.0113
+    },
+    {
+      "keyword": "피카",
+      "count": 5,
+      "score": 0.0106
+    },
+    {
+      "keyword": "유저",
+      "count": 5,
+      "score": 0.0103
+    },
+    {
+      "keyword": "꼴리",
+      "count": 7,
+      "score": 0.0101
+    },
+    {
+      "keyword": "정실",
+      "count": 5,
+      "score": 0.01
+    },
+    {
+      "keyword": "기능",
+      "count": 5,
+      "score": 0.0097
+    },
+    {
+      "keyword": "단테",
+      "count": 4,
+      "score": 0.0096
+    },
+    {
+      "keyword": "밴스",
+      "count": 4,
+      "score": 0.0096
+    },
+    {
+      "keyword": "버기",
+      "count": 4,
+      "score": 0.0096
+    },
+    {
+      "keyword": "나오",
+      "count": 5,
+      "score": 0.0092
+    },
+    {
+      "keyword": "엘린",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "보이",
+      "count": 5,
+      "score": 0.0088
+    },
+    {
+      "keyword": "아침",
+      "count": 4,
+      "score": 0.0088
+    },
+    {
+      "keyword": "제작",
+      "count": 4,
+      "score": 0.0088
+    },
+    {
+      "keyword": "출력",
+      "count": 4,
+      "score": 0.0088
+    },
+    {
+      "keyword": "만드",
+      "count": 4,
+      "score": 0.0087
+    },
+    {
+      "keyword": "미치",
+      "count": 4,
+      "score": 0.0086
+    },
+    {
+      "keyword": "ai",
+      "count": 2,
+      "score": 0.0082
+    },
+    {
+      "keyword": "당하",
+      "count": 4,
+      "score": 0.0082
+    },
+    {
+      "keyword": "리스",
+      "count": 4,
+      "score": 0.0082
+    },
+    {
+      "keyword": "맛있",
+      "count": 4,
+      "score": 0.0082
+    },
+    {
+      "keyword": "요약",
+      "count": 4,
+      "score": 0.0076
+    }
+  ],
+  "top_characters": [
+    {
+      "name": "케/블루",
+      "mentions": 1,
+      "rank": 1
+    },
+    {
+      "name": "계급장 떼고 한판 붙자",
+      "mentions": 1,
+      "rank": 2
+    },
+    {
+      "name": "만든",
+      "mentions": 1,
+      "rank": 3
+    },
+    {
+      "name": "단일",
+      "mentions": 1,
+      "rank": 4
+    },
+    {
+      "name": "원피스",
+      "mentions": 1,
+      "rank": 5
+    },
+    {
+      "name": "2차",
+      "mentions": 1,
+      "rank": 6
+    },
+    {
+      "name": "슈바",
+      "mentions": 1,
+      "rank": 7
+    }
+  ],
+  "trending_topics": []
+}
