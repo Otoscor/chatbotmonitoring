@@ -2,160 +2,160 @@
   {
     "id": 2,
     "report_date": "2026-01-19T10:30:59.269736",
-    "total_posts": 418,
-    "total_views": 22256,
-    "total_recommends": 288,
-    "total_comments": 1593,
+    "total_posts": 1012,
+    "total_views": 42002,
+    "total_recommends": 506,
+    "total_comments": 3179,
     "top_keywords": [
       {
+        "keyword": "ooc",
+        "count": 13,
+        "score": 0.0297
+      },
+      {
         "keyword": "사람",
-        "count": 12,
-        "score": 0.023
+        "count": 25,
+        "score": 0.02
+      },
+      {
+        "keyword": "리스",
+        "count": 21,
+        "score": 0.0189
       },
       {
         "keyword": "만들",
-        "count": 9,
-        "score": 0.0166
+        "count": 21,
+        "score": 0.0187
       },
       {
-        "keyword": "의상",
-        "count": 9,
-        "score": 0.0147
+        "keyword": "유동",
+        "count": 17,
+        "score": 0.0165
       },
       {
-        "keyword": "카르마",
-        "count": 6,
-        "score": 0.0136
+        "keyword": "챗챈",
+        "count": 18,
+        "score": 0.016
       },
       {
-        "keyword": "바이퍼",
-        "count": 6,
-        "score": 0.013
+        "keyword": "나오",
+        "count": 18,
+        "score": 0.0144
       },
       {
-        "keyword": "뤼붕이",
-        "count": 6,
-        "score": 0.0125
+        "keyword": "ai",
+        "count": 8,
+        "score": 0.0119
       },
       {
-        "keyword": "시간",
-        "count": 6,
-        "score": 0.0122
+        "keyword": "재밌",
+        "count": 13,
+        "score": 0.0111
       },
       {
-        "keyword": "반납",
-        "count": 5,
-        "score": 0.0113
+        "keyword": "상태",
+        "count": 15,
+        "score": 0.0108
       },
       {
-        "keyword": "원피스",
-        "count": 5,
-        "score": 0.0113
+        "keyword": "프롬",
+        "count": 13,
+        "score": 0.0108
       },
       {
-        "keyword": "피카",
-        "count": 5,
-        "score": 0.0106
-      },
-      {
-        "keyword": "유저",
-        "count": 5,
-        "score": 0.0103
-      },
-      {
-        "keyword": "꼴리",
-        "count": 7,
+        "keyword": "생각",
+        "count": 12,
         "score": 0.0101
       },
       {
         "keyword": "정실",
-        "count": 5,
-        "score": 0.01
-      },
-      {
-        "keyword": "기능",
-        "count": 5,
-        "score": 0.0097
+        "count": 12,
+        "score": 0.0101
       },
       {
         "keyword": "단테",
-        "count": 4,
-        "score": 0.0096
+        "count": 10,
+        "score": 0.0091
       },
       {
-        "keyword": "밴스",
-        "count": 4,
-        "score": 0.0096
-      },
-      {
-        "keyword": "버기",
-        "count": 4,
-        "score": 0.0096
-      },
-      {
-        "keyword": "나오",
-        "count": 5,
-        "score": 0.0092
-      },
-      {
-        "keyword": "엘린",
-        "count": 4,
-        "score": 0.0089
-      },
-      {
-        "keyword": "보이",
-        "count": 5,
-        "score": 0.0088
-      },
-      {
-        "keyword": "아침",
-        "count": 4,
-        "score": 0.0088
-      },
-      {
-        "keyword": "제작",
-        "count": 4,
-        "score": 0.0088
-      },
-      {
-        "keyword": "출력",
-        "count": 4,
-        "score": 0.0088
-      },
-      {
-        "keyword": "만드",
-        "count": 4,
-        "score": 0.0087
-      },
-      {
-        "keyword": "미치",
-        "count": 4,
+        "keyword": "모르",
+        "count": 10,
         "score": 0.0086
       },
       {
-        "keyword": "ai",
-        "count": 2,
-        "score": 0.0082
+        "keyword": "반납",
+        "count": 9,
+        "score": 0.0086
       },
       {
-        "keyword": "당하",
-        "count": 4,
-        "score": 0.0082
+        "keyword": "미치",
+        "count": 9,
+        "score": 0.0083
       },
       {
-        "keyword": "리스",
-        "count": 4,
-        "score": 0.0082
+        "keyword": "nai",
+        "count": 6,
+        "score": 0.0081
+      },
+      {
+        "keyword": "뤼붕이",
+        "count": 8,
+        "score": 0.0076
+      },
+      {
+        "keyword": "제작",
+        "count": 8,
+        "score": 0.0076
+      },
+      {
+        "keyword": "제작자",
+        "count": 9,
+        "score": 0.0076
+      },
+      {
+        "keyword": "이유",
+        "count": 8,
+        "score": 0.0074
+      },
+      {
+        "keyword": "플러그인",
+        "count": 8,
+        "score": 0.0073
+      },
+      {
+        "keyword": "보이",
+        "count": 9,
+        "score": 0.0072
+      },
+      {
+        "keyword": "의상",
+        "count": 10,
+        "score": 0.0072
+      },
+      {
+        "keyword": "챗질",
+        "count": 8,
+        "score": 0.0072
       },
       {
         "keyword": "맛있",
-        "count": 4,
-        "score": 0.0082
+        "count": 8,
+        "score": 0.0071
       },
       {
-        "keyword": "요약",
-        "count": 4,
-        "score": 0.0076
+        "keyword": "시간",
+        "count": 8,
+        "score": 0.0071
+      },
+      {
+        "keyword": "밴스",
+        "count": 7,
+        "score": 0.0069
+      },
+      {
+        "keyword": "고닉",
+        "count": 7,
+        "score": 0.0067
       }
     ],
     "top_characters": [
@@ -193,6 +193,66 @@
         "name": "슈바",
         "mentions": 1,
         "rank": 7
+      },
+      {
+        "name": "언셒, 백합",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "케덕리뷰",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "케이브덕",
+        "mentions": 1,
+        "rank": 10
+      },
+      {
+        "name": "경매장",
+        "mentions": 1,
+        "rank": 11
+      },
+      {
+        "name": "듀오",
+        "mentions": 1,
+        "rank": 12
+      },
+      {
+        "name": "시뮬",
+        "mentions": 1,
+        "rank": 13
+      },
+      {
+        "name": "에셋 1399",
+        "mentions": 1,
+        "rank": 14
+      },
+      {
+        "name": "누나",
+        "mentions": 1,
+        "rank": 15
+      },
+      {
+        "name": "2/4",
+        "mentions": 1,
+        "rank": 16
+      },
+      {
+        "name": "플래폼 토막후기|유니챗",
+        "mentions": 1,
+        "rank": 17
+      },
+      {
+        "name": "케덕 리뷰",
+        "mentions": 1,
+        "rank": 18
+      },
+      {
+        "name": "에셋",
+        "mentions": 1,
+        "rank": 19
       }
     ],
     "trending_topics": []
