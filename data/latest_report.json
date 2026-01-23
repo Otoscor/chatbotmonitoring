@@ -1,0 +1,372 @@
+{
+  "id": 5,
+  "report_date": "2026-01-23T13:17:10.916892",
+  "total_posts": 416,
+  "total_views": 22182,
+  "total_recommends": 284,
+  "total_comments": 1524,
+  "top_keywords": [
+    {
+      "keyword": "ntr",
+      "count": 15,
+      "score": 0.0455
+    },
+    {
+      "keyword": "상태",
+      "count": 10,
+      "score": 0.0224
+    },
+    {
+      "keyword": "좋아하",
+      "count": 7,
+      "score": 0.0145
+    },
+    {
+      "keyword": "ai",
+      "count": 3,
+      "score": 0.0144
+    },
+    {
+      "keyword": "나오",
+      "count": 7,
+      "score": 0.0144
+    },
+    {
+      "keyword": "오늘",
+      "count": 6,
+      "score": 0.0144
+    },
+    {
+      "keyword": "돚거",
+      "count": 6,
+      "score": 0.0136
+    },
+    {
+      "keyword": "반납",
+      "count": 6,
+      "score": 0.0128
+    },
+    {
+      "keyword": "에덴",
+      "count": 5,
+      "score": 0.012
+    },
+    {
+      "keyword": "ntl",
+      "count": 2,
+      "score": 0.0119
+    },
+    {
+      "keyword": "제미니",
+      "count": 6,
+      "score": 0.0115
+    },
+    {
+      "keyword": "단테",
+      "count": 5,
+      "score": 0.0113
+    },
+    {
+      "keyword": "사칭",
+      "count": 5,
+      "score": 0.0113
+    },
+    {
+      "keyword": "제작자",
+      "count": 6,
+      "score": 0.0112
+    },
+    {
+      "keyword": "모르",
+      "count": 4,
+      "score": 0.0096
+    },
+    {
+      "keyword": "보이",
+      "count": 4,
+      "score": 0.009
+    },
+    {
+      "keyword": "느끼",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "설정",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "안경",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "이상",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "코파",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "번역",
+      "count": 4,
+      "score": 0.0083
+    },
+    {
+      "keyword": "표현",
+      "count": 4,
+      "score": 0.0083
+    },
+    {
+      "keyword": "기능",
+      "count": 4,
+      "score": 0.0082
+    },
+    {
+      "keyword": "맛있",
+      "count": 4,
+      "score": 0.0082
+    },
+    {
+      "keyword": "플폼",
+      "count": 4,
+      "score": 0.0082
+    },
+    {
+      "keyword": "미치",
+      "count": 5,
+      "score": 0.0079
+    },
+    {
+      "keyword": "만들",
+      "count": 4,
+      "score": 0.0078
+    },
+    {
+      "keyword": "만드",
+      "count": 4,
+      "score": 0.0077
+    },
+    {
+      "keyword": "서버",
+      "count": 4,
+      "score": 0.0075
+    }
+  ],
+  "top_characters": [
+    {
+      "name": "홍보/셒",
+      "mentions": 2,
+      "rank": 1
+    },
+    {
+      "name": "시뮬",
+      "mentions": 2,
+      "rank": 2
+    },
+    {
+      "name": "2/4",
+      "mentions": 1,
+      "rank": 3
+    },
+    {
+      "name": "4/4",
+      "mentions": 1,
+      "rank": 4
+    },
+    {
+      "name": "1/4",
+      "mentions": 1,
+      "rank": 5
+    },
+    {
+      "name": "헤헤 점심 뤼갤해야지",
+      "mentions": 1,
+      "rank": 6
+    },
+    {
+      "name": "백일장 아님",
+      "mentions": 1,
+      "rank": 7
+    },
+    {
+      "name": "뤼튼 백일장 2회",
+      "mentions": 1,
+      "rank": 8
+    },
+    {
+      "name": "문학",
+      "mentions": 1,
+      "rank": 9
+    },
+    {
+      "name": "플폼 짧은 후기",
+      "mentions": 1,
+      "rank": 10
+    },
+    {
+      "name": "운명",
+      "mentions": 1,
+      "rank": 11
+    },
+    {
+      "name": "케/블루",
+      "mentions": 1,
+      "rank": 12
+    },
+    {
+      "name": "케덕리뷰",
+      "mentions": 1,
+      "rank": 13
+    },
+    {
+      "name": "흑발적안사이코레즈여동생",
+      "mentions": 1,
+      "rank": 14
+    },
+    {
+      "name": "창작",
+      "mentions": 1,
+      "rank": 15
+    },
+    {
+      "name": "Gemini 3 Pro",
+      "mentions": 1,
+      "rank": 16
+    },
+    {
+      "name": "식인",
+      "mentions": 1,
+      "rank": 17
+    },
+    {
+      "name": "종원",
+      "mentions": 1,
+      "rank": 18
+    },
+    {
+      "name": "희미한 소독약 냄새",
+      "mentions": 1,
+      "rank": 19
+    },
+    {
+      "name": "AI에 모성 본능 심어야",
+      "mentions": 1,
+      "rank": 20
+    }
+  ],
+  "trending_topics": [
+    {
+      "topic": "설정",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "느끼",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "모르",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "돚거",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "제작자",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "코파",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "좋아하",
+      "current": 7,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "플폼",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "이상",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "번역",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "표현",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "서버",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "ntr",
+      "current": 15,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "안경",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "보이",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "사칭",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "기능",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "제미니",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    }
+  ]
+}
