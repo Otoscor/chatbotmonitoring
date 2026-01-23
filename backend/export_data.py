@@ -16,7 +16,7 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from models.database import (
     Post, PostKeyword, DailyReport, CharacterMention, 
-    ChatServiceCharacter, NewChatService, AsyncSessionLocal, init_db
+    ChatServiceCharacter, NewChatService, NewsArticle, AsyncSessionLocal, init_db
 )
 
 
@@ -353,6 +353,35 @@ async def export_new_chat_services(session: AsyncSession, output_dir: Path):
     print(f"  ✓ new_chat_services.json 생성 ({len(data)}개)")
 
 
+async def export_news(session: AsyncSession, output_dir: Path):
+    """뉴스 기사 export"""
+    print("📰 뉴스 기사 export 중...")
+    
+    # 최근 50개 뉴스 기사 조회
+    query = select(NewsArticle).order_by(desc(NewsArticle.crawled_at)).limit(50)
+    result = await session.execute(query)
+    articles = result.scalars(). all()
+    
+    data = []
+    for article in articles:
+        data.append({
+            "id": article.id,
+            "article_id": article.article_id,
+            "source": article.source,
+            "title": article.title,
+            "description": article.description,
+            "url": article.url,
+            "publisher": article.publisher,
+            "published_at": article.published_at.isoformat() if article.published_at else None,
+            "crawled_at": article.crawled_at.isoformat(),
+            "keyword": article.keyword,
+        })
+    
+    with open(output_dir / "news.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f"  ✓ news.json 생성 ({len(data)}개)")
+
 
 async def main():
     """메인 함수"""
@@ -382,6 +411,7 @@ async def main():
             await export_character_ranking(session, output_dir)
             await export_daily_stats(session, output_dir)
             await export_new_chat_services(session, output_dir)
+            await export_news(session, output_dir)
             
             print()
             print("=" * 60)
