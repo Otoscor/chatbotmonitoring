@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: '/chatbotmonitoring/',  // GitHub Pages 배포용 base path
+  base: '/',  // Vercel 배포용 base path
   define: {
     // 프로덕션 빌드에서는 정적 JSON 파일 사용
     'import.meta.env.VITE_USE_STATIC_DATA': mode === 'production' ? '"true"' : '"false"',

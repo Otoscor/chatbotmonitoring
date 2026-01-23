@@ -3,13 +3,11 @@ import { useParams, Link } from 'react-router-dom'
 import { format } from 'date-fns'
 import { ko } from 'date-fns/locale'
 import { useApi } from '../hooks/useApi'
-import { 
-  fetchReportByDate, 
+import {
+  fetchReportByDate,
   fetchReportKeywords,
   fetchReportCharacters,
   fetchReportTags,
-  type DailyReport,
-  type ReportKeyword,
   type ReportCharacter,
   type PopularTag
 } from '../utils/api'
@@ -47,7 +45,7 @@ export default function ReportDetail() {
     return (
       <div className="flex flex-col items-center justify-center h-96">
         <div className="text-sm text-gray-500 mb-4">해당 날짜의 리포트가 없습니다.</div>
-        <Link 
+        <Link
           to="/reports"
           className="px-4 py-2 text-sm bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
         >
@@ -61,7 +59,7 @@ export default function ReportDetail() {
     <div className="space-y-8">
       {/* Header with Back Button */}
       <div className="flex items-center gap-4 pb-6 border-b border-gray-200">
-        <Link 
+        <Link
           to="/reports"
           className="text-gray-500 hover:text-gray-900 transition-colors"
         >

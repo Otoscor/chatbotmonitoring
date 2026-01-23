@@ -1,258 +1,372 @@
 {
-  "id": 2,
-  "report_date": "2026-01-19T10:30:59.269736",
-  "total_posts": 1012,
-  "total_views": 42002,
-  "total_recommends": 506,
-  "total_comments": 3179,
+  "id": 5,
+  "report_date": "2026-01-23T13:17:10.916892",
+  "total_posts": 416,
+  "total_views": 22182,
+  "total_recommends": 284,
+  "total_comments": 1524,
   "top_keywords": [
     {
-      "keyword": "ooc",
-      "count": 13,
-      "score": 0.0297
-    },
-    {
-      "keyword": "사람",
-      "count": 25,
-      "score": 0.02
-    },
-    {
-      "keyword": "리스",
-      "count": 21,
-      "score": 0.0189
-    },
-    {
-      "keyword": "만들",
-      "count": 21,
-      "score": 0.0187
-    },
-    {
-      "keyword": "유동",
-      "count": 17,
-      "score": 0.0165
-    },
-    {
-      "keyword": "챗챈",
-      "count": 18,
-      "score": 0.016
-    },
-    {
-      "keyword": "나오",
-      "count": 18,
-      "score": 0.0144
-    },
-    {
-      "keyword": "ai",
-      "count": 8,
-      "score": 0.0119
-    },
-    {
-      "keyword": "재밌",
-      "count": 13,
-      "score": 0.0111
+      "keyword": "ntr",
+      "count": 15,
+      "score": 0.0455
     },
     {
       "keyword": "상태",
-      "count": 15,
-      "score": 0.0108
-    },
-    {
-      "keyword": "프롬",
-      "count": 13,
-      "score": 0.0108
-    },
-    {
-      "keyword": "생각",
-      "count": 12,
-      "score": 0.0101
-    },
-    {
-      "keyword": "정실",
-      "count": 12,
-      "score": 0.0101
-    },
-    {
-      "keyword": "단테",
       "count": 10,
-      "score": 0.0091
+      "score": 0.0224
     },
     {
-      "keyword": "모르",
-      "count": 10,
-      "score": 0.0086
+      "keyword": "좋아하",
+      "count": 7,
+      "score": 0.0145
+    },
+    {
+      "keyword": "ai",
+      "count": 3,
+      "score": 0.0144
+    },
+    {
+      "keyword": "나오",
+      "count": 7,
+      "score": 0.0144
+    },
+    {
+      "keyword": "오늘",
+      "count": 6,
+      "score": 0.0144
+    },
+    {
+      "keyword": "돚거",
+      "count": 6,
+      "score": 0.0136
     },
     {
       "keyword": "반납",
-      "count": 9,
-      "score": 0.0086
-    },
-    {
-      "keyword": "미치",
-      "count": 9,
-      "score": 0.0083
-    },
-    {
-      "keyword": "nai",
       "count": 6,
-      "score": 0.0081
+      "score": 0.0128
     },
     {
-      "keyword": "뤼붕이",
-      "count": 8,
-      "score": 0.0076
+      "keyword": "에덴",
+      "count": 5,
+      "score": 0.012
     },
     {
-      "keyword": "제작",
-      "count": 8,
-      "score": 0.0076
+      "keyword": "ntl",
+      "count": 2,
+      "score": 0.0119
+    },
+    {
+      "keyword": "제미니",
+      "count": 6,
+      "score": 0.0115
+    },
+    {
+      "keyword": "단테",
+      "count": 5,
+      "score": 0.0113
+    },
+    {
+      "keyword": "사칭",
+      "count": 5,
+      "score": 0.0113
     },
     {
       "keyword": "제작자",
-      "count": 9,
-      "score": 0.0076
+      "count": 6,
+      "score": 0.0112
     },
     {
-      "keyword": "이유",
-      "count": 8,
-      "score": 0.0074
-    },
-    {
-      "keyword": "플러그인",
-      "count": 8,
-      "score": 0.0073
+      "keyword": "모르",
+      "count": 4,
+      "score": 0.0096
     },
     {
       "keyword": "보이",
-      "count": 9,
-      "score": 0.0072
+      "count": 4,
+      "score": 0.009
     },
     {
-      "keyword": "의상",
-      "count": 10,
-      "score": 0.0072
+      "keyword": "느끼",
+      "count": 4,
+      "score": 0.0089
     },
     {
-      "keyword": "챗질",
-      "count": 8,
-      "score": 0.0072
+      "keyword": "설정",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "안경",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "이상",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "코파",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "번역",
+      "count": 4,
+      "score": 0.0083
+    },
+    {
+      "keyword": "표현",
+      "count": 4,
+      "score": 0.0083
+    },
+    {
+      "keyword": "기능",
+      "count": 4,
+      "score": 0.0082
     },
     {
       "keyword": "맛있",
-      "count": 8,
-      "score": 0.0071
+      "count": 4,
+      "score": 0.0082
     },
     {
-      "keyword": "시간",
-      "count": 8,
-      "score": 0.0071
+      "keyword": "플폼",
+      "count": 4,
+      "score": 0.0082
     },
     {
-      "keyword": "밴스",
-      "count": 7,
-      "score": 0.0069
+      "keyword": "미치",
+      "count": 5,
+      "score": 0.0079
     },
     {
-      "keyword": "고닉",
-      "count": 7,
-      "score": 0.0067
+      "keyword": "만들",
+      "count": 4,
+      "score": 0.0078
+    },
+    {
+      "keyword": "만드",
+      "count": 4,
+      "score": 0.0077
+    },
+    {
+      "keyword": "서버",
+      "count": 4,
+      "score": 0.0075
     }
   ],
   "top_characters": [
     {
-      "name": "케/블루",
-      "mentions": 1,
+      "name": "홍보/셒",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "계급장 떼고 한판 붙자",
-      "mentions": 1,
-      "rank": 2
-    },
-    {
-      "name": "만든",
-      "mentions": 1,
-      "rank": 3
-    },
-    {
-      "name": "단일",
-      "mentions": 1,
-      "rank": 4
-    },
-    {
-      "name": "원피스",
-      "mentions": 1,
-      "rank": 5
-    },
-    {
-      "name": "2차",
-      "mentions": 1,
-      "rank": 6
-    },
-    {
-      "name": "슈바",
-      "mentions": 1,
-      "rank": 7
-    },
-    {
-      "name": "언셒, 백합",
-      "mentions": 1,
-      "rank": 8
-    },
-    {
-      "name": "케덕리뷰",
-      "mentions": 1,
-      "rank": 9
-    },
-    {
-      "name": "케이브덕",
-      "mentions": 1,
-      "rank": 10
-    },
-    {
-      "name": "경매장",
-      "mentions": 1,
-      "rank": 11
-    },
-    {
-      "name": "듀오",
-      "mentions": 1,
-      "rank": 12
-    },
-    {
       "name": "시뮬",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "에셋 1399",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "누나",
-      "mentions": 1,
-      "rank": 15
+      "mentions": 2,
+      "rank": 2
     },
     {
       "name": "2/4",
       "mentions": 1,
+      "rank": 3
+    },
+    {
+      "name": "4/4",
+      "mentions": 1,
+      "rank": 4
+    },
+    {
+      "name": "1/4",
+      "mentions": 1,
+      "rank": 5
+    },
+    {
+      "name": "헤헤 점심 뤼갤해야지",
+      "mentions": 1,
+      "rank": 6
+    },
+    {
+      "name": "백일장 아님",
+      "mentions": 1,
+      "rank": 7
+    },
+    {
+      "name": "뤼튼 백일장 2회",
+      "mentions": 1,
+      "rank": 8
+    },
+    {
+      "name": "문학",
+      "mentions": 1,
+      "rank": 9
+    },
+    {
+      "name": "플폼 짧은 후기",
+      "mentions": 1,
+      "rank": 10
+    },
+    {
+      "name": "운명",
+      "mentions": 1,
+      "rank": 11
+    },
+    {
+      "name": "케/블루",
+      "mentions": 1,
+      "rank": 12
+    },
+    {
+      "name": "케덕리뷰",
+      "mentions": 1,
+      "rank": 13
+    },
+    {
+      "name": "흑발적안사이코레즈여동생",
+      "mentions": 1,
+      "rank": 14
+    },
+    {
+      "name": "창작",
+      "mentions": 1,
+      "rank": 15
+    },
+    {
+      "name": "Gemini 3 Pro",
+      "mentions": 1,
       "rank": 16
     },
     {
-      "name": "플래폼 토막후기|유니챗",
+      "name": "식인",
       "mentions": 1,
       "rank": 17
     },
     {
-      "name": "케덕 리뷰",
+      "name": "종원",
       "mentions": 1,
       "rank": 18
     },
     {
-      "name": "에셋",
+      "name": "희미한 소독약 냄새",
       "mentions": 1,
       "rank": 19
+    },
+    {
+      "name": "AI에 모성 본능 심어야",
+      "mentions": 1,
+      "rank": 20
     }
   ],
-  "trending_topics": []
+  "trending_topics": [
+    {
+      "topic": "설정",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "느끼",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "모르",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "돚거",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "제작자",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "코파",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "좋아하",
+      "current": 7,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "플폼",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "이상",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "번역",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "표현",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "서버",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "ntr",
+      "current": 15,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "안경",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "보이",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "사칭",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "기능",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "제미니",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    }
+  ]
 }

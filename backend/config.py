@@ -45,6 +45,76 @@ class Settings(BaseSettings):
         }
     ]
     
+    # 뉴스 검색 키워드 (구글 뉴스 RSS)
+    news_keywords: List[str] = ["AI 챗봇", "AI 캐릭터", "뤼튼"]
+    
+    # 앱 리뷰 크롤링 대상
+    target_apps: List[dict] = [
+        {
+            "name": "Character AI",
+            "google_play_id": "ai.character.app",
+            "app_store_id": "1547856149",
+            "app_store_name": "character-ai",
+            "country": "kr"
+        },
+        {
+            "name": "제타 (Zeta)",
+            "google_play_id": "com.scatterlab.messenger",
+            "app_store_id": "6450491005",
+            "app_store_name": "zeta-ai-chat-live-stories",
+            "country": "kr"
+        },
+        {
+            "name": "베이브챗 (Babechat)",
+            "google_play_id": "com.babechat.ai",
+            "app_store_id": "6479106254",
+            "app_store_name": "babechat-ai-character-chat",
+            "country": "kr"
+        },
+        {
+            "name": "루나톡 (Lunatalk)",
+            "google_play_id": "com.lunatalk.app",
+            "app_store_id": "6473849158",
+            "app_store_name": "lunatalk",
+            "country": "kr"
+        },
+        {
+            "name": "케이브덕 (Caveduck)",
+            "google_play_id": "io.caveduck.app",
+            "app_store_id": "6504139571",
+            "app_store_name": "caveduck",
+            "country": "kr"
+        },
+        {
+            "name": "크랙 (Crack)",
+            "google_play_id": "com.wrtn.crack",
+            "app_store_id": None,  # iOS 앱 없음
+            "app_store_name": None,
+            "country": "kr"
+        },
+        {
+            "name": "러비더비 (LoveyDovey)",
+            "google_play_id": "ai.tain.reelso",  # 실제 패키지명
+            "app_store_id": None,
+            "app_store_name": "loveydovey-dream-chats",
+            "country": "kr"
+        },
+        {
+            "name": "로판AI (Rofan AI)",
+            "google_play_id": "ai.rofan.app",
+            "app_store_id": None,  # 검색 필요
+            "app_store_name": "rofan-ai",
+            "country": "kr"
+        },
+        {
+            "name": "팅글 (Tingle)",
+            "google_play_id": "com.bubbletap.tinglechat",
+            "app_store_id": None,  # 검색 필요
+            "app_store_name": "tinglechat",
+            "country": "kr"
+        }
+    ]
+    
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

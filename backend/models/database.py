@@ -99,6 +99,82 @@ class ChatServiceCharacter(Base):
     )
 
 
+class NewsArticle(Base):
+    """뉴스 기사 모델"""
+    __tablename__ = "news_articles"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    article_id = Column(String(100), unique=True, nullable=False, index=True)  # 중복 방지용
+    source = Column(String(50), nullable=False, index=True)  # 'naver', 'google'
+    title = Column(String(500), nullable=False)
+    description = Column(Text, nullable=True)
+    url = Column(String(500), nullable=False)
+    publisher = Column(String(200), nullable=True)  # 언론사명
+    published_at = Column(DateTime, nullable=True)  # 기사 발행일
+    crawled_at = Column(DateTime, default=datetime.utcnow)  # 크롤링 시간
+    keyword = Column(String(100), nullable=True, index=True)  # 검색 키워드
+    
+    __table_args__ = (
+        Index('idx_source_published', 'source', 'published_at'),
+    )
+
+
+class AppReview(Base):
+    """앱 리뷰 모델"""
+    __tablename__ = "app_reviews"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    review_id = Column(String(100), unique=True, nullable=False, index=True)  # 중복 방지용
+    app_name = Column(String(100), nullable=False, index=True)  # 앱 이름
+    platform = Column(String(20), nullable=False, index=True)  # 'google_play', 'app_store'
+    
+    # 리뷰 정보
+    review_text = Column(Text, nullable=True)  # 리뷰 내용
+    rating = Column(Integer, nullable=False)  # 평점 (1-5)
+    reviewer_name = Column(String(200), nullable=True)  # 리뷰어 이름
+    
+    # 날짜 정보
+    review_date = Column(DateTime, nullable=True)  # 리뷰 작성일
+    crawled_at = Column(DateTime, default=datetime.utcnow)  # 크롤링 시간
+    
+    # 추가 메타데이터 (JSON)
+    extra_data = Column(JSON, nullable=True)  # thumbsUpCount, version 등
+    
+    __table_args__ = (
+        Index('idx_app_platform', 'app_name', 'platform'),
+        Index('idx_review_date', 'review_date'),
+        Index('idx_rating', 'rating'),
+    )
+
+
+class NewChatService(Base):
+    """신규 캐릭터챗 서비스 모델 (2025-2026 런칭)"""
+    __tablename__ = "new_chat_services"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    service_name = Column(String(100), nullable=False)  # 서비스명 (한글)
+    service_name_en = Column(String(100), nullable=False)  # 서비스명 (영문)
+    service_type = Column(String(20), nullable=False)  # 'web', 'app', 'both'
+    description = Column(Text, nullable=True)  # 서비스 설명
+    launch_date = Column(DateTime, nullable=True)  # 런칭 날짜
+    
+    # URL 정보
+    web_url = Column(String(500), nullable=True)  # 웹 서비스 URL
+    ios_url = Column(String(500), nullable=True)  # 앱스토어 URL
+    android_url = Column(String(500), nullable=True)  # 구글 플레이 URL
+    logo_url = Column(String(500), nullable=True)  # 로고 이미지 URL
+    
+    # 추가 정보
+    features = Column(JSON, nullable=True)  # 주요 기능 리스트
+    status = Column(String(20), default='active')  # 'active', 'beta', 'closed'
+    created_at = Column(DateTime, default=datetime.utcnow)
+    
+    __table_args__ = (
+        Index('idx_service_status', 'status'),
+        Index('idx_launch_date', 'launch_date'),
+    )
+
+
 # 데이터베이스 엔진 및 세션
 settings = get_settings()
 async_engine = create_async_engine(settings.database_url, echo=False)

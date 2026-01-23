@@ -3,6 +3,9 @@ import axios from 'axios'
 // 환경 변수에서 API URL 가져오기 (프로덕션) 또는 로컬 프록시 사용 (개발)
 const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
 
+// API URL export (다른 컴포넌트에서 사용)
+export const API_URL = API_BASE_URL
+
 // 정적 데이터 모드 확인 (GitHub Pages 배포용)
 export const USE_STATIC_DATA = import.meta.env.VITE_USE_STATIC_DATA === 'true'
 
@@ -251,6 +254,62 @@ export const fetchReportTags = async (date: string, limit = 20): Promise<Popular
     return fetchStaticData<PopularTag[]>('popular_tags.json')
   }
   const { data } = await api.get(`/reports/${date}/tags`, { params: { limit } })
+  return data
+}
+
+// ========== 뉴스 API ==========
+
+export interface NewsArticle {
+  id: number
+  article_id: string
+  source: string  // 'naver' | 'google'
+  title: string
+  description: string | null
+  url: string
+  publisher: string | null
+  published_at: string | null
+  crawled_at: string
+  keyword: string | null
+}
+
+export const fetchNews = async (
+  source?: string,
+  keyword?: string,
+  limit = 50,
+  skip = 0
+): Promise<NewsArticle[]> => {
+  if (USE_STATIC_DATA) {
+    // 정적 모드에서는 빈 배열 반환
+    return []
+  }
+  const params: Record<string, any> = { limit, skip }
+  if (source) params.source = source
+  if (keyword) params.keyword = keyword
+  const { data } = await api.get('/news', { params })
+  return data
+}
+
+export const fetchLatestNews = async (limit = 20): Promise<NewsArticle[]> => {
+  if (USE_STATIC_DATA) {
+    return []
+  }
+  const { data } = await api.get('/news/latest', { params: { limit } })
+  return data
+}
+
+export const fetchNewsSources = async (): Promise<Array<{ source: string; count: number }>> => {
+  if (USE_STATIC_DATA) {
+    return []
+  }
+  const { data } = await api.get('/news/sources')
+  return data
+}
+
+export const triggerNewsCrawl = async (sources?: string[], keywords?: string[]) => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 크롤링을 사용할 수 없습니다.')
+  }
+  const { data } = await api.post('/news/crawl', { sources, keywords })
   return data
 }
 

@@ -16,7 +16,7 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from models.database import (
     Post, PostKeyword, DailyReport, CharacterMention, 
-    ChatServiceCharacter, AsyncSessionLocal, init_db
+    ChatServiceCharacter, NewChatService, AsyncSessionLocal, init_db
 )
 
 
@@ -320,6 +320,40 @@ async def export_daily_stats(session: AsyncSession, output_dir: Path):
     print(f"  ✓ daily_stats.json 생성")
 
 
+async def export_new_chat_services(session: AsyncSession, output_dir: Path):
+    """신규 캐릭터챗 서비스 export"""
+    print("🆕 신규 캐릭터챗 서비스 export 중...")
+    
+    # 모든 신규 서비스 조회
+    query = select(NewChatService).order_by(desc(NewChatService.launch_date))
+    result = await session.execute(query)
+    services = result.scalars().all()
+    
+    data = []
+    for service in services:
+        data.append({
+            "id": service.id,
+            "service_name": service.service_name,
+            "service_name_en": service.service_name_en,
+            "service_type": service.service_type,
+            "description": service.description,
+            "launch_date": service.launch_date.isoformat() if service.launch_date else None,
+            "web_url": service.web_url,
+            "ios_url": service.ios_url,
+            "android_url": service.android_url,
+            "logo_url": service.logo_url,
+            "features": service.features or [],
+            "status": service.status,
+            "created_at": service.created_at.isoformat(),
+        })
+    
+    with open(output_dir / "new_chat_services.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f"  ✓ new_chat_services.json 생성 ({len(data)}개)")
+
+
+
 async def main():
     """메인 함수"""
     print("=" * 60)
@@ -347,6 +381,7 @@ async def main():
             await export_trending_keywords(session, output_dir)
             await export_character_ranking(session, output_dir)
             await export_daily_stats(session, output_dir)
+            await export_new_chat_services(session, output_dir)
             
             print()
             print("=" * 60)

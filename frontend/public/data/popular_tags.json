@@ -1,42 +1,54 @@
 [
   {
     "tag": "시뮬레이션",
-    "count": 16
+    "count": 19
   },
   {
     "tag": "순애",
-    "count": 15
-  },
-  {
-    "tag": "판타지",
-    "count": 15
-  },
-  {
-    "tag": "시뮬",
-    "count": 11
-  },
-  {
-    "tag": "BL",
-    "count": 8
+    "count": 17
   },
   {
     "tag": "로맨스",
-    "count": 8
+    "count": 12
   },
   {
-    "tag": "추천",
-    "count": 8
+    "tag": "판타지",
+    "count": 12
+  },
+  {
+    "tag": "시뮬",
+    "count": 12
   },
   {
     "tag": "HL",
+    "count": 10
+  },
+  {
+    "tag": "여성",
+    "count": 9
+  },
+  {
+    "tag": "추천",
     "count": 7
   },
   {
-    "tag": "현대판타지",
+    "tag": "대체역사",
     "count": 7
   },
   {
-    "tag": "학생",
+    "tag": "언리밋",
+    "count": 6
+  },
+  {
+    "tag": "hl",
+    "count": 6
+  },
+  {
+    "tag": "BL",
+    "count": 6
+  },
+  {
+    "tag": "하렘",
     "count": 6
   },
   {
@@ -44,39 +56,27 @@
     "count": 6
   },
   {
+    "tag": "무뚝뚝",
+    "count": 5
+  },
+  {
+    "tag": "현대판타지",
+    "count": 5
+  },
+  {
+    "tag": "게임",
+    "count": 5
+  },
+  {
+    "tag": "아포칼립스",
+    "count": 5
+  },
+  {
+    "tag": "능글",
+    "count": 4
+  },
+  {
     "tag": "bl",
-    "count": 5
-  },
-  {
-    "tag": "혐관",
-    "count": 5
-  },
-  {
-    "tag": "여성",
-    "count": 5
-  },
-  {
-    "tag": "대체역사",
-    "count": 5
-  },
-  {
-    "tag": "아카데미",
-    "count": 5
-  },
-  {
-    "tag": "오메가버스",
-    "count": 4
-  },
-  {
-    "tag": "로판",
-    "count": 4
-  },
-  {
-    "tag": "일진",
-    "count": 4
-  },
-  {
-    "tag": "양아치",
     "count": 4
   }
 ]

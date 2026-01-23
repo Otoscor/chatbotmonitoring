@@ -12,10 +12,14 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from pydantic import BaseModel
 
-from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter
+from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview, NewChatService
 from crawler.multi_crawler import crawl_all_targets
 from crawler.character_service_crawler import crawl_all_character_services
+from crawler.news_crawler import crawl_all_news
 from analyzer.trend_analyzer import generate_daily_report
+
+import logging
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -91,6 +95,31 @@ class CrawlResponse(BaseModel):
     success: bool
     message: str
     posts_count: int
+
+
+class AppReviewResponse(BaseModel):
+    """앱 리뷰 응답 모델"""
+    id: int
+    review_id: str
+    app_name: str
+    platform: str
+    review_text: Optional[str]
+    rating: int
+    reviewer_name: Optional[str]
+    review_date: Optional[datetime]
+    crawled_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+
+class AppReviewStatsResponse(BaseModel):
+    """앱 리뷰 통계 응답 모델"""
+    app_name: str
+    total_reviews: int
+    average_rating: float
+    rating_distribution: dict  # {1: count, 2: count, ...}
+    platform_distribution: dict  # {google_play: count, app_store: count}
 
 
 # ========== 게시글 API ==========
@@ -778,3 +807,369 @@ async def get_popular_tags(
     ]
     
     return popular_tags
+
+
+# ========== 뉴스 API ==========
+
+class NewsArticleResponse(BaseModel):
+    """뉴스 기사 응답 모델"""
+    id: int
+    article_id: str
+    source: str
+    title: str
+    description: Optional[str]
+    url: str
+    publisher: Optional[str]
+    published_at: Optional[datetime]
+    crawled_at: datetime
+    keyword: Optional[str]
+    
+    class Config:
+        from_attributes = True
+
+
+class CrawlNewsRequest(BaseModel):
+    """뉴스 크롤링 요청 모델"""
+    sources: Optional[List[str]] = None  # ['naver', 'google']
+    keywords: Optional[List[str]] = None  # 사용자 정의 키워드
+
+
+@router.get("/news", response_model=List[NewsArticleResponse])
+async def get_news(
+    source: Optional[str] = Query(None, description="소스 필터 (naver, google)"),
+    keyword: Optional[str] = Query(None, description="키워드 필터"),
+    limit: int = Query(50, ge=1, le=200),
+    skip: int = Query(0, ge=0),
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    뉴스 기사 목록 조회
+    최신 기사순으로 정렬
+    """
+    query = select(NewsArticle).order_by(desc(NewsArticle.published_at))
+    
+    if source:
+        query = query.where(NewsArticle.source == source)
+    if keyword:
+        query = query.where(NewsArticle.keyword == keyword)
+    
+    query = query.offset(skip).limit(limit)
+    
+    result = await db.execute(query)
+    articles = result.scalars().all()
+    
+    return articles
+
+
+@router.get("/news/latest", response_model=List[NewsArticleResponse])
+async def get_latest_news(
+    limit: int = Query(20, ge=1, le=100),
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    최신 뉴스 기사 조회 (24시간 이내)
+    """
+    since = datetime.now() - timedelta(hours=24)
+    
+    query = select(NewsArticle).where(
+        NewsArticle.crawled_at >= since
+    ).order_by(desc(NewsArticle.published_at)).limit(limit)
+    
+    result = await db.execute(query)
+    articles = result.scalars().all()
+    
+    return articles
+
+
+@router.get("/news/sources")
+async def get_news_sources(db: AsyncSession = Depends(get_db)):
+    """
+    뉴스 소스별 기사 수 조회
+    """
+    query = select(
+        NewsArticle.source,
+        func.count(NewsArticle.id).label("count")
+    ).group_by(NewsArticle.source)
+    
+    result = await db.execute(query)
+    sources = result.all()
+    
+    return [{"source": s.source, "count": s.count} for s in sources]
+
+
+@router.post("/news/crawl")
+async def crawl_news_endpoint(
+    request: CrawlNewsRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    뉴스 크롤링 트리거
+    네이버 + 구글 뉴스 수집
+    """
+    try:
+        # 크롤링 실행
+        results = await crawl_all_news(
+            sources=request.sources,
+            keywords=request.keywords,
+            limit_per_keyword=20
+        )
+        
+        # DB에 저장 (중복 제거)
+        saved_count = 0
+        for source_name, articles in results.items():
+            for article_data in articles:
+                # 중복 체크
+                existing = await db.execute(
+                    select(NewsArticle).where(NewsArticle.article_id == article_data.article_id)
+                )
+                if existing.scalar_one_or_none():
+                    continue
+                
+                article = NewsArticle(
+                    article_id=article_data.article_id,
+                    source=article_data.source,
+                    title=article_data.title,
+                    description=article_data.description,
+                    url=article_data.url,
+                    publisher=article_data.publisher,
+                    published_at=article_data.published_at,
+                    keyword=article_data.keyword
+                )
+                db.add(article)
+                saved_count += 1
+        
+        await db.commit()
+        
+        total_crawled = sum(len(articles) for articles in results.values())
+        
+        return {
+            "success": True,
+            "message": f"뉴스 크롤링 완료: {total_crawled}개 수집, {saved_count}개 저장",
+            "results": {
+                source: len(articles) for source, articles in results.items()
+            }
+        }
+    except Exception as e:
+        logger.error(f"뉴스 크롤링 실패: {e}")
+        return {
+            "success": False,
+            "message": f"크롤링 실패: {str(e)}",
+            "results": {}
+        }
+
+
+# ========== 앱 리뷰 API ==========
+
+@router.get("/app-reviews", response_model=List[AppReviewResponse])
+async def get_app_reviews(
+    app_name: Optional[str] = Query(None, description="앱 이름 필터"),
+    platform: Optional[str] = Query(None, description="플랫폼 필터 (google_play, app_store)"),
+    min_rating: Optional[int] = Query(None, ge=1, le=5, description="최소 평점"),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(50, ge=1, le=200),
+    db: AsyncSession = Depends(get_db)
+):
+    """앱 리뷰 목록 조회"""
+    query = select(AppReview).order_by(desc(AppReview.review_date))
+    
+    if app_name:
+        query = query.where(AppReview.app_name == app_name)
+    if platform:
+        query = query.where(AppReview.platform == platform)
+    if min_rating:
+        query = query.where(AppReview.rating >= min_rating)
+    
+    query = query.offset(skip).limit(limit)
+    
+    result = await db.execute(query)
+    reviews = result.scalars().all()
+    
+    return reviews
+
+
+@router.get("/app-reviews/stats", response_model=List[AppReviewStatsResponse])
+async def get_app_review_stats(
+    db: AsyncSession = Depends(get_db)
+):
+    """앱별 리뷰 통계"""
+    # 앱별로 그룹화하여 통계 계산
+    query = select(AppReview.app_name).distinct()
+    result = await db.execute(query)
+    app_names = result.scalars().all()
+    
+    stats_list = []
+    
+    for app_name in app_names:
+        # 해당 앱의 모든 리뷰 조회
+        app_reviews_query = select(AppReview).where(AppReview.app_name == app_name)
+        app_reviews_result = await db.execute(app_reviews_query)
+        app_reviews = app_reviews_result.scalars().all()
+        
+        if not app_reviews:
+            continue
+        
+        # 통계 계산
+        total_reviews = len(app_reviews)
+        avg_rating = sum(r.rating for r in app_reviews) / total_reviews
+        
+        # 평점 분포
+        rating_dist = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+        for review in app_reviews:
+            rating_dist[review.rating] = rating_dist.get(review.rating, 0) + 1
+        
+        # 플랫폼 분포
+        platform_dist = {}
+        for review in app_reviews:
+            platform_dist[review.platform] = platform_dist.get(review.platform, 0) + 1
+        
+        stats_list.append(AppReviewStatsResponse(
+            app_name=app_name,
+            total_reviews=total_reviews,
+            average_rating=round(avg_rating, 2),
+            rating_distribution=rating_dist,
+            platform_distribution=platform_dist
+        ))
+    
+    return stats_list
+
+
+@router.post("/app-reviews/crawl")
+async def crawl_app_reviews(
+    db: AsyncSession = Depends(get_db)
+):
+    """앱 리뷰 크롤링 트리거"""
+    try:
+        from crawler.app_review_crawler import AppReviewCrawler
+        
+        crawler = AppReviewCrawler()
+        await crawler.crawl_all_apps(max_reviews_per_app=100)
+        
+        return {
+            "success": True,
+            "message": "앱 리뷰 크롤링이 완료되었습니다."
+        }
+    except Exception as e:
+        logger.error(f"앱 리뷰 크롤링 실패: {e}")
+        return {
+            "success": False,
+            "message": f"크롤링 실패: {str(e)}"
+        }
+
+
+@router.get("/app-reviews/keywords")
+async def get_app_review_keywords(
+    app_name: Optional[str] = Query(None, description="앱 이름 필터"),
+    limit: int = Query(20, ge=1, le=50),
+    db: AsyncSession = Depends(get_db)
+):
+    """앱 리뷰에서 가장 많이 나온 키워드 추출"""
+    try:
+        # 리뷰 조회
+        query = select(AppReview.review_text).where(AppReview.review_text.isnot(None))
+        
+        if app_name:
+            query = query.where(AppReview.app_name == app_name)
+        
+        result = await db.execute(query)
+        reviews = result.scalars().all()
+        
+        if not reviews:
+            return []
+        
+        # 간단한 키워드 추출 (한글/영문 단어)
+        from collections import Counter
+        import re
+        
+        word_counter = Counter()
+        
+        # 불용어 리스트 (의미없는 단어 제거)
+        stopwords = {
+            '그', '이', '저', '것', '수', '등', '들', '및', '를', '을', '가', '이', '은', '는', '하', '에', '의', '도', '로',
+            'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'is', 'are', 'was', 'were',
+            '있', '없', '되', '함', '하다', '있다', '없다', '같다', '와', '과', '네요', '요', '습니다', '이다'
+        }
+        
+        for review_text in reviews:
+            if not review_text:
+                continue
+            
+            # 한글 단어 추출 (2자 이상)
+            korean_words = re.findall(r'[가-힣]{2,}', review_text)
+            # 영문 단어 추출 (2자 이상)
+            english_words = re.findall(r'[a-zA-Z]{2,}', review_text.lower())
+            
+            # 단어 카운트
+            for word in korean_words + english_words:
+                if word not in stopwords and len(word) >= 2:
+                    word_counter[word] += 1
+        
+        # 상위 N개 키워드 반환
+        top_keywords = [
+            {"text": word, "value": count}
+            for word, count in word_counter.most_common(limit)
+        ]
+        
+        return top_keywords
+        
+    except Exception as e:
+        logger.error(f"리뷰 키워드 추출 실패: {e}")
+        return []
+
+
+# ========== 신규 캐릭터챗 서비스 API ==========
+
+class NewChatServiceResponse(BaseModel):
+    """신규 캐릭터챗 서비스 응답 모델"""
+    id: int
+    service_name: str
+    service_name_en: str
+    service_type: str
+    description: Optional[str]
+    launch_date: Optional[datetime]
+    web_url: Optional[str]
+    ios_url: Optional[str]
+    android_url: Optional[str]
+    logo_url: Optional[str]
+    features: Optional[List[str]]
+    status: str
+    created_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+
+@router.get("/new-chat-services", response_model=List[NewChatServiceResponse])
+async def get_new_chat_services(
+    status: Optional[str] = Query(None, description="상태 필터 (active, beta, closed)"),
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    2025-2026년 런칭한 신규 캐릭터챗 서비스 목록 조회
+    """
+    query = select(NewChatService).order_by(desc(NewChatService.launch_date))
+    
+    if status:
+        query = query.where(NewChatService.status == status)
+    
+    result = await db.execute(query)
+    services = result.scalars().all()
+    
+    return services
+
+
+@router.get("/new-chat-services/{service_id}", response_model=NewChatServiceResponse)
+async def get_new_chat_service(
+    service_id: int,
+    db: AsyncSession = Depends(get_db)
+):
+    """특정 신규 캐릭터챗 서비스 상세 조회"""
+    result = await db.execute(
+        select(NewChatService).where(NewChatService.id == service_id)
+    )
+    service = result.scalar_one_or_none()
+    
+    if not service:
+        raise HTTPException(status_code=404, detail="서비스를 찾을 수 없습니다")
+    
+    return service
+
