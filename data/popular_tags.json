@@ -5,10 +5,10 @@
   },
   {
     "tag": "순애",
-    "count": 17
+    "count": 16
   },
   {
-    "tag": "로맨스",
+    "tag": "시뮬",
     "count": 12
   },
   {
@@ -16,35 +16,31 @@
     "count": 12
   },
   {
-    "tag": "시뮬",
-    "count": 12
+    "tag": "HL",
+    "count": 11
   },
   {
-    "tag": "HL",
+    "tag": "로맨스",
     "count": 10
   },
   {
     "tag": "여성",
-    "count": 9
+    "count": 8
+  },
+  {
+    "tag": "BL",
+    "count": 7
   },
   {
     "tag": "추천",
     "count": 7
   },
   {
-    "tag": "대체역사",
-    "count": 7
-  },
-  {
-    "tag": "언리밋",
-    "count": 6
-  },
-  {
     "tag": "hl",
     "count": 6
   },
   {
-    "tag": "BL",
+    "tag": "집착",
     "count": 6
   },
   {
@@ -52,11 +48,15 @@
     "count": 6
   },
   {
+    "tag": "대체역사",
+    "count": 6
+  },
+  {
     "tag": "여자",
     "count": 6
   },
   {
-    "tag": "무뚝뚝",
+    "tag": "후회",
     "count": 5
   },
   {
@@ -68,15 +68,15 @@
     "count": 5
   },
   {
+    "tag": "남성",
+    "count": 5
+  },
+  {
     "tag": "아포칼립스",
     "count": 5
   },
   {
-    "tag": "능글",
-    "count": 4
-  },
-  {
-    "tag": "bl",
+    "tag": "언리밋",
     "count": 4
   }
 ]
