@@ -344,7 +344,9 @@ export const addBookmark = async (url: string): Promise<Bookmark> => {
 
 export const fetchBookmarks = async (skip = 0, limit = 50): Promise<Bookmark[]> => {
   if (USE_STATIC_DATA) {
-    return []
+    const allBookmarks = await fetchStaticData<Bookmark[]>('bookmarks.json')
+    // skip/limit 적용
+    return allBookmarks.slice(skip, skip + limit)
   }
   const { data } = await api.get('/bookmarks', { params: { skip, limit } })
   return data
