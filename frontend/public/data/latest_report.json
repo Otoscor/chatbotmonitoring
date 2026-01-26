@@ -1,384 +1,223 @@
 {
-  "id": 5,
-  "report_date": "2026-01-23T13:17:10.916892",
-  "total_posts": 763,
-  "total_views": 43911,
-  "total_recommends": 773,
-  "total_comments": 2859,
+  "id": 6,
+  "report_date": "2026-01-26T08:34:30.321837",
+  "total_posts": 418,
+  "total_views": 23044,
+  "total_recommends": 234,
+  "total_comments": 1199,
   "top_keywords": [
     {
-      "keyword": "ntr",
-      "count": 17,
-      "score": 0.0286
+      "keyword": "만들",
+      "count": 10,
+      "score": 0.0202
     },
     {
       "keyword": "상태",
-      "count": 13,
-      "score": 0.0157
-    },
-    {
-      "keyword": "에덴",
-      "count": 13,
-      "score": 0.0157
-    },
-    {
-      "keyword": "나오",
-      "count": 14,
-      "score": 0.015
-    },
-    {
-      "keyword": "반납",
-      "count": 11,
-      "score": 0.014
-    },
-    {
-      "keyword": "ai",
-      "count": 6,
-      "score": 0.0128
-    },
-    {
-      "keyword": "좋아하",
-      "count": 11,
-      "score": 0.0121
-    },
-    {
-      "keyword": "프롬",
-      "count": 12,
-      "score": 0.0115
-    },
-    {
-      "keyword": "만들",
-      "count": 11,
-      "score": 0.0113
-    },
-    {
-      "keyword": "이상",
-      "count": 9,
-      "score": 0.0111
-    },
-    {
-      "keyword": "요즘",
-      "count": 10,
-      "score": 0.0106
-    },
-    {
-      "keyword": "돚거",
       "count": 8,
-      "score": 0.0105
+      "score": 0.0176
     },
     {
-      "keyword": "리뷰",
-      "count": 8,
-      "score": 0.0101
-    },
-    {
-      "keyword": "생각",
+      "keyword": "정실",
       "count": 9,
-      "score": 0.0101
+      "score": 0.0167
     },
     {
-      "keyword": "질문",
-      "count": 9,
-      "score": 0.0098
+      "keyword": "크래커",
+      "count": 7,
+      "score": 0.016
     },
     {
-      "keyword": "재밌",
+      "keyword": "맛있",
       "count": 8,
-      "score": 0.0093
+      "score": 0.0155
     },
     {
       "keyword": "사람",
-      "count": 8,
-      "score": 0.0092
+      "count": 7,
+      "score": 0.0141
+    },
+    {
+      "keyword": "러브",
+      "count": 7,
+      "score": 0.014
+    },
+    {
+      "keyword": "이상",
+      "count": 6,
+      "score": 0.0129
+    },
+    {
+      "keyword": "아침",
+      "count": 5,
+      "score": 0.012
+    },
+    {
+      "keyword": "에덴",
+      "count": 6,
+      "score": 0.012
+    },
+    {
+      "keyword": "캐챗",
+      "count": 5,
+      "score": 0.012
     },
     {
       "keyword": "사칭",
-      "count": 7,
-      "score": 0.0088
-    },
-    {
-      "keyword": "제작자",
-      "count": 8,
-      "score": 0.0087
-    },
-    {
-      "keyword": "올리",
-      "count": 7,
-      "score": 0.0084
-    },
-    {
-      "keyword": "크랙",
-      "count": 7,
-      "score": 0.0083
-    },
-    {
-      "keyword": "번역",
-      "count": 8,
-      "score": 0.0082
-    },
-    {
-      "keyword": "제미니",
-      "count": 7,
-      "score": 0.0081
-    },
-    {
-      "keyword": "순애",
-      "count": 8,
-      "score": 0.0078
-    },
-    {
-      "keyword": "문체",
       "count": 6,
-      "score": 0.0075
+      "score": 0.0116
+    },
+    {
+      "keyword": "대사",
+      "count": 5,
+      "score": 0.0113
     },
     {
       "keyword": "오늘",
-      "count": 6,
+      "count": 5,
+      "score": 0.0112
+    },
+    {
+      "keyword": "프롬",
+      "count": 7,
+      "score": 0.0109
+    },
+    {
+      "keyword": "송지은즈",
+      "count": 5,
+      "score": 0.0107
+    },
+    {
+      "keyword": "ai",
+      "count": 2,
+      "score": 0.0105
+    },
+    {
+      "keyword": "그림",
+      "count": 5,
+      "score": 0.0105
+    },
+    {
+      "keyword": "유저",
+      "count": 5,
+      "score": 0.0098
+    },
+    {
+      "keyword": "단테",
+      "count": 4,
+      "score": 0.0096
+    },
+    {
+      "keyword": "버기",
+      "count": 4,
+      "score": 0.0096
+    },
+    {
+      "keyword": "이유",
+      "count": 4,
+      "score": 0.0088
+    },
+    {
+      "keyword": "케덕",
+      "count": 4,
+      "score": 0.0077
+    },
+    {
+      "keyword": "산타",
+      "count": 4,
       "score": 0.0075
     },
     {
-      "keyword": "시뮬",
-      "count": 6,
+      "keyword": "루카스",
+      "count": 4,
+      "score": 0.0074
+    },
+    {
+      "keyword": "나쁘",
+      "count": 3,
       "score": 0.0072
     },
     {
-      "keyword": "모르",
-      "count": 6,
-      "score": 0.0071
+      "keyword": "동안",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "출력",
-      "count": 6,
-      "score": 0.0071
+      "keyword": "망원경",
+      "count": 5,
+      "score": 0.0072
     },
     {
-      "keyword": "코파",
-      "count": 6,
-      "score": 0.0071
+      "keyword": "반납",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "새끼",
+      "count": 3,
+      "score": 0.0072
     }
   ],
   "top_characters": [
     {
       "name": "시뮬",
-      "mentions": 6,
+      "mentions": 3,
       "rank": 1
     },
     {
-      "name": "1/4",
+      "name": "개인",
       "mentions": 2,
       "rank": 2
     },
     {
-      "name": "홍보/셒",
+      "name": "레즈",
       "mentions": 2,
       "rank": 3
     },
     {
-      "name": "케덕리뷰",
+      "name": "2차",
       "mentions": 2,
       "rank": 4
     },
     {
-      "name": "창작",
-      "mentions": 2,
+      "name": "3/4",
+      "mentions": 1,
       "rank": 5
     },
     {
-      "name": "케덕",
-      "mentions": 2,
+      "name": "케덕 첫제작",
+      "mentions": 1,
       "rank": 6
     },
     {
-      "name": "2/4",
+      "name": "케덕 리뷰",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "4/4",
+      "name": "케덕",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "헤헤 점심 뤼갤해야지",
+      "name": "야유로",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "백일장 아님",
+      "name": "통합",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "뤼튼 백일장 2회",
+      "name": "필레아",
       "mentions": 1,
       "rank": 11
     },
     {
-      "name": "문학",
+      "name": "이리",
       "mentions": 1,
       "rank": 12
-    },
-    {
-      "name": "플폼 짧은 후기",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "운명",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "케/블루",
-      "mentions": 1,
-      "rank": 15
-    },
-    {
-      "name": "흑발적안사이코레즈여동생",
-      "mentions": 1,
-      "rank": 16
-    },
-    {
-      "name": "Gemini 3 Pro",
-      "mentions": 1,
-      "rank": 17
-    },
-    {
-      "name": "식인",
-      "mentions": 1,
-      "rank": 18
-    },
-    {
-      "name": "종원",
-      "mentions": 1,
-      "rank": 19
-    },
-    {
-      "name": "희미한 소독약 냄새",
-      "mentions": 1,
-      "rank": 20
     }
   ],
-  "trending_topics": [
-    {
-      "topic": "순애",
-      "current": 8,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "출력",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "문체",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "크랙",
-      "current": 7,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "재밌",
-      "current": 8,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "리뷰",
-      "current": 8,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "제미니",
-      "current": 7,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "번역",
-      "current": 8,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "제작자",
-      "current": 8,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "ntr",
-      "current": 17,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "올리",
-      "current": 7,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "코파",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "좋아하",
-      "current": 11,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "시뮬",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "돚거",
-      "current": 8,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "사칭",
-      "current": 7,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "요즘",
-      "current": 10,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "모르",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "이상",
-      "current": 9,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "에덴",
-      "current": 13,
-      "previous": 7,
-      "growth": 85.7
-    }
-  ]
+  "trending_topics": []
 }

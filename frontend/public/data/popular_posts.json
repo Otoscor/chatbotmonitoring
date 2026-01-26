@@ -48,6 +48,18 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=213543&page=3"
   },
   {
+    "id": 4470,
+    "post_id": "218580",
+    "gallery_id": "aichatting",
+    "title": "이거 나한테 한 말임?ㄷㄷ",
+    "author": "ㅇㅇ",
+    "created_at": "2026-01-26T04:47:33",
+    "view_count": 443,
+    "recommend_count": 23,
+    "comment_count": 11,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=218580&page=2"
+  },
+  {
     "id": 1514,
     "post_id": "207399",
     "gallery_id": "aichatting",
@@ -94,6 +106,18 @@
     "recommend_count": 16,
     "comment_count": 9,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=213512&page=3"
+  },
+  {
+    "id": 4498,
+    "post_id": "218550",
+    "gallery_id": "aichatting",
+    "title": "젬 중간에 진짜 수정안되나봄",
+    "author": "ㅇㅇ",
+    "created_at": "2026-01-26T03:59:44",
+    "view_count": 400,
+    "recommend_count": 18,
+    "comment_count": 10,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=218550&page=3"
   },
   {
     "id": 2122,
@@ -154,29 +178,5 @@
     "recommend_count": 9,
     "comment_count": 4,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=212024&page=3"
-  },
-  {
-    "id": 4121,
-    "post_id": "213698",
-    "gallery_id": "aichatting",
-    "title": "졸ㄹㅏ 문체",
-    "author": "담령",
-    "created_at": "2026-01-23T14:13:01",
-    "view_count": 307,
-    "recommend_count": 19,
-    "comment_count": 11,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=213698&page=3"
-  },
-  {
-    "id": 3106,
-    "post_id": "212058",
-    "gallery_id": "aichatting",
-    "title": "갤러리 규칙 개정 완료 하였습니다",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-22T13:24:26",
-    "view_count": 305,
-    "recommend_count": 22,
-    "comment_count": 15,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=212058&page=2"
   }
 ]
