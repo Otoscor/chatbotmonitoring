@@ -302,8 +302,24 @@ export const fetchNews = async (
   skip = 0
 ): Promise<NewsArticle[]> => {
   if (USE_STATIC_DATA) {
-    // 정적 모드에서는 빈 배열 반환
-    return []
+    const allNews = await fetchStaticData<NewsArticle[]>('news.json')
+    let filtered = allNews
+
+    // 필터링
+    if (source) {
+      filtered = filtered.filter(n => n.source === source)
+    }
+    if (keyword) {
+      const lowerKeyword = keyword.toLowerCase()
+      filtered = filtered.filter(n =>
+        n.title.toLowerCase().includes(lowerKeyword) ||
+        (n.description && n.description.toLowerCase().includes(lowerKeyword)) ||
+        (n.keyword && n.keyword.toLowerCase().includes(lowerKeyword))
+      )
+    }
+
+    // 페이지네이션
+    return filtered.slice(skip, skip + limit)
   }
   const params: Record<string, any> = { limit, skip }
   if (source) params.source = source
@@ -314,7 +330,8 @@ export const fetchNews = async (
 
 export const fetchLatestNews = async (limit = 20): Promise<NewsArticle[]> => {
   if (USE_STATIC_DATA) {
-    return []
+    const allNews = await fetchStaticData<NewsArticle[]>('news.json')
+    return allNews.slice(0, limit)
   }
   const { data } = await api.get('/news/latest', { params: { limit } })
   return data

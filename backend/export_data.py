@@ -327,8 +327,8 @@ async def export_news(session: AsyncSession, output_dir: Path):
     """뉴스 기사 export"""
     print("📰 뉴스 기사 export 중...")
     
-    # 최근 50개 뉴스 기사 조회
-    query = select(NewsArticle).order_by(desc(NewsArticle.crawled_at)).limit(50)
+    # 최근 30개 뉴스 기사 조회
+    query = select(NewsArticle).order_by(desc(NewsArticle.crawled_at)).limit(30)
     result = await session.execute(query)
     articles = result.scalars(). all()
     
