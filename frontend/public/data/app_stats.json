@@ -1,0 +1,47 @@
+[
+  {
+    "app_name": "제타 (Zeta)",
+    "total_reviews": 31,
+    "average_rating": 3.4193548387096775,
+    "rating_distribution": {
+      "1": 5,
+      "2": 4,
+      "3": 4,
+      "4": 9,
+      "5": 9
+    },
+    "platform_distribution": {
+      "google_play": 31
+    }
+  },
+  {
+    "app_name": "Character AI",
+    "total_reviews": 30,
+    "average_rating": 3.4,
+    "rating_distribution": {
+      "1": 8,
+      "2": 2,
+      "3": 4,
+      "4": 2,
+      "5": 14
+    },
+    "platform_distribution": {
+      "google_play": 30
+    }
+  },
+  {
+    "app_name": "팅글 (Tingle)",
+    "total_reviews": 30,
+    "average_rating": 3.2,
+    "rating_distribution": {
+      "1": 8,
+      "2": 2,
+      "3": 6,
+      "4": 4,
+      "5": 10
+    },
+    "platform_distribution": {
+      "google_play": 30
+    }
+  }
+]
