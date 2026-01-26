@@ -12,7 +12,7 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from pydantic import BaseModel
 
-from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview, NewChatService
+from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview
 from crawler.multi_crawler import crawl_all_targets
 from crawler.character_service_crawler import crawl_all_character_services
 from crawler.news_crawler import crawl_all_news
@@ -128,17 +128,28 @@ class AppReviewStatsResponse(BaseModel):
 async def get_posts(
     skip: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=100),
+    days: int = Query(30, ge=1, le=365, description="최근 N일 이내 게시글 조회"),
     date_from: Optional[datetime] = None,
     date_to: Optional[datetime] = None,
     db: AsyncSession = Depends(get_db)
 ):
-    """게시글 목록 조회"""
+    """
+    게시글 목록 조회
+    
+    기본적으로 최근 30일 이내 크롤링된 게시글만 반환합니다.
+    date_from 또는 date_to를 명시적으로 지정하면 days 파라미터는 무시됩니다.
+    """
     query = select(Post).order_by(desc(Post.crawled_at))
     
-    if date_from:
-        query = query.where(Post.crawled_at >= date_from)
-    if date_to:
-        query = query.where(Post.crawled_at <= date_to)
+    # date_from/date_to가 지정되지 않으면 기본 유효기간(days) 적용
+    if not date_from and not date_to:
+        cutoff_date = datetime.now() - timedelta(days=days)
+        query = query.where(Post.crawled_at >= cutoff_date)
+    else:
+        if date_from:
+            query = query.where(Post.crawled_at >= date_from)
+        if date_to:
+            query = query.where(Post.crawled_at <= date_to)
     
     query = query.offset(skip).limit(limit)
     
@@ -152,6 +163,7 @@ async def get_posts(
 async def get_popular_posts(
     limit: int = Query(15, ge=1, le=50),
     days: int = Query(7, ge=1, le=30),
+    gallery_id: Optional[str] = Query(None, description="갤러리 ID 필터 (wrtnai, aichatting, characterai)"),
     exclude_notices: bool = Query(True, description="공지사항 제외 여부"),
     db: AsyncSession = Depends(get_db)
 ):
@@ -162,6 +174,7 @@ async def get_popular_posts(
     - 추천수(recommend_count) 우선
     - 최근 N일 이내 크롤링된 데이터
     - 공지사항/안내글 자동 제외 (exclude_notices=True)
+    - 갤러리별 필터링 가능 (gallery_id)
     """
     # 기준 날짜 계산 (최근 N일)
     cutoff_date = datetime.now() - timedelta(days=days)
@@ -179,7 +192,13 @@ async def get_popular_posts(
     # 더 많은 게시글을 가져와서 필터링 (limit * 5)
     query = select(Post).where(
         Post.crawled_at >= cutoff_date
-    ).order_by(
+    )
+    
+    # 갤러리 필터 적용
+    if gallery_id:
+        query = query.where(Post.gallery_id == gallery_id)
+    
+    query = query.order_by(
         desc(Post.recommend_count),
         desc(Post.view_count)
     ).limit(limit * 5)
@@ -537,24 +556,42 @@ async def generate_report(
     db: AsyncSession = Depends(get_db)
 ):
     """수동 리포트 생성"""
-    try:
-        target_date = datetime.strptime(date, "%Y-%m-%d") if date else datetime.now()
-    except ValueError:
-        raise HTTPException(status_code=400, detail="날짜 형식이 올바르지 않습니다 (YYYY-MM-DD)")
-    
-    start_of_day = target_date.replace(hour=0, minute=0, second=0, microsecond=0)
-    end_of_day = start_of_day + timedelta(days=1)
-    
-    # 오늘 게시글 조회
-    query = select(Post).where(
-        Post.crawled_at >= start_of_day,
-        Post.crawled_at < end_of_day
-    )
-    result = await db.execute(query)
-    posts = result.scalars().all()
-    
-    if not posts:
-        raise HTTPException(status_code=404, detail="해당 날짜의 게시글이 없습니다")
+    if date:
+        # 날짜가 지정된 경우
+        try:
+            target_date = datetime.strptime(date, "%Y-%m-%d")
+        except ValueError:
+            raise HTTPException(status_code=400, detail="날짜 형식이 올바르지 않습니다 (YYYY-MM-DD)")
+        
+        start_of_day = target_date.replace(hour=0, minute=0, second=0, microsecond=0)
+        end_of_day = start_of_day + timedelta(days=1)
+        
+        # 지정된 날짜의 게시글 조회
+        query = select(Post).where(
+            Post.crawled_at >= start_of_day,
+            Post.crawled_at < end_of_day
+        )
+        result = await db.execute(query)
+        posts = result.scalars().all()
+        
+        if not posts:
+            raise HTTPException(status_code=404, detail="해당 날짜의 게시글이 없습니다")
+    else:
+        # 날짜가 지정되지 않은 경우: 최근 24시간 이내 크롤링된 게시글 사용
+        since = datetime.now() - timedelta(hours=24)
+        query = select(Post).where(
+            Post.crawled_at >= since
+        )
+        result = await db.execute(query)
+        posts = result.scalars().all()
+        
+        if not posts:
+            raise HTTPException(status_code=404, detail="최근 24시간 이내 크롤링된 게시글이 없습니다")
+        
+        # 가장 최근 크롤링 시간을 target_date로 설정
+        target_date = datetime.now()
+        start_of_day = target_date.replace(hour=0, minute=0, second=0, microsecond=0)
+        end_of_day = start_of_day + timedelta(days=1)
     
     # 이전 날짜 게시글 (비교용)
     prev_start = start_of_day - timedelta(days=1)
@@ -1114,62 +1151,4 @@ async def get_app_review_keywords(
     except Exception as e:
         logger.error(f"리뷰 키워드 추출 실패: {e}")
         return []
-
-
-# ========== 신규 캐릭터챗 서비스 API ==========
-
-class NewChatServiceResponse(BaseModel):
-    """신규 캐릭터챗 서비스 응답 모델"""
-    id: int
-    service_name: str
-    service_name_en: str
-    service_type: str
-    description: Optional[str]
-    launch_date: Optional[datetime]
-    web_url: Optional[str]
-    ios_url: Optional[str]
-    android_url: Optional[str]
-    logo_url: Optional[str]
-    features: Optional[List[str]]
-    status: str
-    created_at: datetime
-    
-    class Config:
-        from_attributes = True
-
-
-@router.get("/new-chat-services", response_model=List[NewChatServiceResponse])
-async def get_new_chat_services(
-    status: Optional[str] = Query(None, description="상태 필터 (active, beta, closed)"),
-    db: AsyncSession = Depends(get_db)
-):
-    """
-    2025-2026년 런칭한 신규 캐릭터챗 서비스 목록 조회
-    """
-    query = select(NewChatService).order_by(desc(NewChatService.launch_date))
-    
-    if status:
-        query = query.where(NewChatService.status == status)
-    
-    result = await db.execute(query)
-    services = result.scalars().all()
-    
-    return services
-
-
-@router.get("/new-chat-services/{service_id}", response_model=NewChatServiceResponse)
-async def get_new_chat_service(
-    service_id: int,
-    db: AsyncSession = Depends(get_db)
-):
-    """특정 신규 캐릭터챗 서비스 상세 조회"""
-    result = await db.execute(
-        select(NewChatService).where(NewChatService.id == service_id)
-    )
-    service = result.scalar_one_or_none()
-    
-    if not service:
-        raise HTTPException(status_code=404, detail="서비스를 찾을 수 없습니다")
-    
-    return service
 

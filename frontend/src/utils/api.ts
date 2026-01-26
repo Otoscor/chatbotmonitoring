@@ -107,11 +107,15 @@ export const fetchPosts = async (skip = 0, limit = 50): Promise<Post[]> => {
   return data
 }
 
-export const fetchPopularPosts = async (limit = 15, days = 7): Promise<Post[]> => {
+export const fetchPopularPosts = async (limit = 15, days = 7, galleryId?: string): Promise<Post[]> => {
   if (USE_STATIC_DATA) {
     return fetchStaticData<Post[]>('popular_posts.json')
   }
-  const { data } = await api.get('/posts/popular', { params: { limit, days } })
+  const params: any = { limit, days }
+  if (galleryId) {
+    params.gallery_id = galleryId
+  }
+  const { data } = await api.get('/posts/popular', { params })
   return data
 }
 
