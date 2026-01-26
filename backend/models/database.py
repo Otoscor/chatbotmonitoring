@@ -175,6 +175,34 @@ class NewChatService(Base):
     )
 
 
+class Bookmark(Base):
+    """북마크 모델"""
+    __tablename__ = "bookmarks"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    url = Column(String(1000), nullable=False)  # 북마크 URL
+    title = Column(String(500), nullable=True)  # 페이지 제목
+    description = Column(Text, nullable=True)  # 메타 설명
+    ai_summary = Column(Text, nullable=True)  # AI 요약
+    thumbnail_url = Column(String(500), nullable=True)  # 썸네일 이미지
+    site_name = Column(String(200), nullable=True)  # 사이트명
+    
+    # 사용자 기능
+    tags = Column(JSON, nullable=True)  # 태그 리스트
+    user_note = Column(Text, nullable=True)  # 사용자 메모
+    
+    # 상태
+    is_summarized = Column(Integer, default=0)  # AI 요약 완료 여부 (0: 미완료, 1: 완료, 2: 실패)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    __table_args__ = (
+        Index('idx_created_at', 'created_at'),
+        Index('idx_is_summarized', 'is_summarized'),
+    )
+
+
+
 # 데이터베이스 엔진 및 세션
 settings = get_settings()
 async_engine = create_async_engine(settings.database_url, echo=False)

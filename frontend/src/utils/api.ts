@@ -70,6 +70,21 @@ export interface Stats {
   avg_comments: number
 }
 
+export interface Bookmark {
+  id: number
+  url: string
+  title?: string
+  description?: string
+  ai_summary?: string
+  thumbnail_url?: string
+  site_name?: string
+  tags?: string[]
+  user_note?: string
+  is_summarized: number  // 0: 대기, 1: 완료, 2: 실패
+  created_at: string
+  updated_at: string
+}
+
 export interface KeywordTrend {
   keyword: string
   total_count: number
@@ -314,6 +329,55 @@ export const triggerNewsCrawl = async (sources?: string[], keywords?: string[]) 
     throw new Error('정적 모드에서는 크롤링을 사용할 수 없습니다.')
   }
   const { data } = await api.post('/news/crawl', { sources, keywords })
+  return data
+}
+
+// ========== 북마크 API ==========
+
+export const addBookmark = async (url: string): Promise<Bookmark> => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 북마크를 추가할 수 없습니다.')
+  }
+  const { data } = await api.post('/bookmarks', { url })
+  return data
+}
+
+export const fetchBookmarks = async (skip = 0, limit = 50): Promise<Bookmark[]> => {
+  if (USE_STATIC_DATA) {
+    return []
+  }
+  const { data } = await api.get('/bookmarks', { params: { skip, limit } })
+  return data
+}
+
+export const fetchBookmark = async (id: number): Promise<Bookmark> => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 북마크를 조회할 수 없습니다.')
+  }
+  const { data } = await api.get(`/bookmarks/${id}`)
+  return data
+}
+
+export const updateBookmark = async (id: number, updates: { tags?: string[]; user_note?: string }): Promise<Bookmark> => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 북마크를 수정할 수 없습니다.')
+  }
+  const { data } = await api.put(`/bookmarks/${id}`, updates)
+  return data
+}
+
+export const deleteBookmark = async (id: number): Promise<void> => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 북마크를 삭제할 수 없습니다.')
+  }
+  await api.delete(`/bookmarks/${id}`)
+}
+
+export const resummaryBookmark = async (id: number): Promise<Bookmark> => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 요약을 재생성할 수 없습니다.')
+  }
+  const { data } = await api.post(`/bookmarks/${id}/summarize`)
   return data
 }
 

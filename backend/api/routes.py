@@ -12,7 +12,7 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from pydantic import BaseModel
 
-from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview
+from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview, Bookmark
 from crawler.multi_crawler import crawl_all_targets
 from crawler.character_service_crawler import crawl_all_character_services
 from crawler.news_crawler import crawl_all_news
@@ -1151,4 +1151,193 @@ async def get_app_review_keywords(
     except Exception as e:
         logger.error(f"리뷰 키워드 추출 실패: {e}")
         return []
+
+
+
+# ========== 북마크 API ==========
+
+class BookmarkCreate(BaseModel):
+    """북마크 생성 요청"""
+    url: str
+
+class BookmarkUpdate(BaseModel):
+    """북마크 수정 요청"""
+    tags: Optional[List[str]] = None
+    user_note: Optional[str] = None
+
+class BookmarkResponse(BaseModel):
+    """북마크 응답 모델"""
+    id: int
+    url: str
+    title: Optional[str]
+    description: Optional[str]
+    ai_summary: Optional[str]
+    thumbnail_url: Optional[str]
+    site_name: Optional[str]
+    tags: Optional[List[str]]
+    user_note: Optional[str]
+    is_summarized: int
+    created_at: datetime
+    updated_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+
+@router.post("/bookmarks", response_model=BookmarkResponse)
+async def create_bookmark(
+    bookmark: BookmarkCreate,
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    북마크 추가
+    
+    URL에서 자동으로 메타데이터를 추출하고, 백그라운드에서 AI 요약을 생성합니다.
+    """
+    import asyncio
+    from utils.url_parser import extract_url_metadata
+    from utils.gemini_summarizer import summarize_url
+    
+    # URL 메타데이터 추출
+    metadata = await extract_url_metadata(bookmark.url)
+    
+    # 북마크 생성
+    new_bookmark = Bookmark(
+        url=bookmark.url,
+        title=metadata.get('title'),
+        description=metadata.get('description'),
+        thumbnail_url=metadata.get('thumbnail'),
+        site_name=metadata.get('site_name'),
+        is_summarized=0  # 요약 대기 중
+    )
+    
+    db.add(new_bookmark)
+    await db.commit()
+    await db.refresh(new_bookmark)
+    
+    # 백그라운드에서 AI 요약 생성 (비동기)
+    asyncio.create_task(generate_summary_background(new_bookmark.id, bookmark.url, db))
+    
+    return new_bookmark
+
+
+async def generate_summary_background(bookmark_id: int, url: str, db: AsyncSession):
+    """백그라운드에서 AI 요약 생성"""
+    from utils.gemini_summarizer import summarize_url
+    
+    try:
+        summary = await summarize_url(url)
+        
+        # 북마크 업데이트
+        result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+        bookmark = result.scalar_one_or_none()
+        
+        if bookmark:
+            bookmark.ai_summary = summary
+            bookmark.is_summarized = 1 if summary else 2  # 1: 성공, 2: 실패
+            await db.commit()
+            
+    except Exception as e:
+        logger.error(f"Error generating summary for bookmark {bookmark_id}: {e}")
+        # 실패 상태로 업데이트
+        result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+        bookmark = result.scalar_one_or_none()
+        if bookmark:
+            bookmark.is_summarized = 2
+            await db.commit()
+
+
+@router.get("/bookmarks", response_model=List[BookmarkResponse])
+async def get_bookmarks(
+    skip: int = Query(0, ge=0),
+    limit: int = Query(50, ge=1, le=100),
+    db: AsyncSession = Depends(get_db)
+):
+    """북마크 목록 조회 (최신순)"""
+    query = select(Bookmark).order_by(desc(Bookmark.created_at)).offset(skip).limit(limit)
+    result = await db.execute(query)
+    bookmarks = result.scalars().all()
+    return bookmarks
+
+
+@router.get("/bookmarks/{bookmark_id}", response_model=BookmarkResponse)
+async def get_bookmark(
+    bookmark_id: int,
+    db: AsyncSession = Depends(get_db)
+):
+    """북마크 상세 조회"""
+    result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+    bookmark = result.scalar_one_or_none()
+    
+    if not bookmark:
+        raise HTTPException(status_code=404, detail="북마크를 찾을 수 없습니다")
+    
+    return bookmark
+
+
+@router.put("/bookmarks/{bookmark_id}", response_model=BookmarkResponse)
+async def update_bookmark(
+    bookmark_id: int,
+    update_data: BookmarkUpdate,
+    db: AsyncSession = Depends(get_db)
+):
+    """북마크 수정 (태그, 메모)"""
+    result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+    bookmark = result.scalar_one_or_none()
+    
+    if not bookmark:
+        raise HTTPException(status_code=404, detail="북마크를 찾을 수 없습니다")
+    
+    if update_data.tags is not None:
+        bookmark.tags = update_data.tags
+    if update_data.user_note is not None:
+        bookmark.user_note = update_data.user_note
+    
+    await db.commit()
+    await db.refresh(bookmark)
+    
+    return bookmark
+
+
+@router.delete("/bookmarks/{bookmark_id}")
+async def delete_bookmark(
+    bookmark_id: int,
+    db: AsyncSession = Depends(get_db)
+):
+    """북마크 삭제"""
+    result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+    bookmark = result.scalar_one_or_none()
+    
+    if not bookmark:
+        raise HTTPException(status_code=404, detail="북마크를 찾을 수 없습니다")
+    
+    await db.delete(bookmark)
+    await db.commit()
+    
+    return {"message": "북마크가 삭제되었습니다"}
+
+
+@router.post("/bookmarks/{bookmark_id}/summarize", response_model=BookmarkResponse)
+async def resummarize_bookmark(
+    bookmark_id: int,
+    db: AsyncSession = Depends(get_db)
+):
+    """AI 요약 재생성"""
+    from utils.gemini_summarizer import summarize_url
+    
+    result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+    bookmark = result.scalar_one_or_none()
+    
+    if not bookmark:
+        raise HTTPException(status_code=404, detail="북마크를 찾을 수 없습니다")
+    
+    # AI 요약 생성
+    summary = await summarize_url(bookmark.url)
+    bookmark.ai_summary = summary
+    bookmark.is_summarized = 1 if summary else 2
+    
+    await db.commit()
+    await db.refresh(bookmark)
+    
+    return bookmark
 

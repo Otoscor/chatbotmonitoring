@@ -11,6 +11,7 @@ const navItems = [
   { path: '/character-rankings', label: '캐릭터 순위' },
   { path: '/app-reviews', label: '리뷰' },
   { path: '/news', label: '뉴스' },
+  { path: '/bookmarks', label: '북마크' },
   { path: '/reports', label: '리포트' },
 ]
 

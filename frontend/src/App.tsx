@@ -6,6 +6,7 @@ import ReportDetail from './pages/ReportDetail'
 import CharacterRankings from './pages/CharacterRankings'
 import News from './pages/News'
 import AppReviews from './pages/AppReviews'
+import Bookmarks from './pages/Bookmarks'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/character-rankings" element={<CharacterRankings />} />
           <Route path="/news" element={<News />} />
           <Route path="/app-reviews" element={<AppReviews />} />
+          <Route path="/bookmarks" element={<Bookmarks />} />
         </Routes>
       </Layout>
     </Router>
