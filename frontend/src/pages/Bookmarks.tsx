@@ -13,7 +13,8 @@ import {
 export default function Bookmarks() {
     // 개발 환경 확인 (개발 환경에서만 URL 추가 가능)
     const isDevelopment = import.meta.env.DEV
-    const canEdit = !USE_STATIC_DATA // 데이터 수정 권한
+    // 배포 환경에서는 무조건 수정 불가 (개발 환경에서만 가능)
+    const canEdit = isDevelopment
 
     const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
     const [loading, setLoading] = useState(false)
