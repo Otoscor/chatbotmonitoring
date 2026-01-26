@@ -124,7 +124,11 @@ export const fetchPosts = async (skip = 0, limit = 50): Promise<Post[]> => {
 
 export const fetchPopularPosts = async (limit = 15, days = 7, galleryId?: string): Promise<Post[]> => {
   if (USE_STATIC_DATA) {
-    return fetchStaticData<Post[]>('popular_posts.json')
+    const allPosts = await fetchStaticData<Post[]>('popular_posts.json')
+    if (galleryId) {
+      return allPosts.filter(post => post.gallery_id === galleryId).slice(0, limit)
+    }
+    return allPosts.slice(0, limit)
   }
   const params: any = { limit, days }
   if (galleryId) {
