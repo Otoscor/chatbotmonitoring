@@ -16,7 +16,7 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from models.database import (
     Post, PostKeyword, DailyReport, CharacterMention, 
-    ChatServiceCharacter, NewsArticle, AsyncSessionLocal, init_db
+    ChatServiceCharacter, NewsArticle, Bookmark, AsyncSessionLocal, init_db
 )
 
 
@@ -353,6 +353,39 @@ async def export_news(session: AsyncSession, output_dir: Path):
     print(f"  ✓ news.json 생성 ({len(data)}개)")
 
 
+async def export_bookmarks(session: AsyncSession, output_dir: Path):
+    """북마크 export"""
+    print("🔖 북마크 export 중...")
+    
+    # 모든 북마크 조회
+    query = select(Bookmark).order_by(desc(Bookmark.created_at))
+    result = await session.execute(query)
+    bookmarks = result.scalars().all()
+    
+    data = []
+    for bookmark in bookmarks:
+        data.append({
+            "id": bookmark.id,
+            "url": bookmark.url,
+            "title": bookmark.title,
+            "description": bookmark.description,
+            "ai_summary": bookmark.ai_summary,
+            "thumbnail_url": bookmark.thumbnail_url,
+            "site_name": bookmark.site_name,
+            "tags": bookmark.tags or [],
+            "user_note": bookmark.user_note,
+            "is_summarized": bookmark.is_summarized,
+            "created_at": bookmark.created_at.isoformat(),
+            "updated_at": bookmark.updated_at.isoformat(),
+        })
+    
+    with open(output_dir / "bookmarks.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f"  ✓ bookmarks.json 생성 ({len(data)}개)")
+
+
+
 async def main():
     """메인 함수"""
     print("=" * 60)
@@ -381,6 +414,7 @@ async def main():
             await export_character_ranking(session, output_dir)
             await export_daily_stats(session, output_dir)
             await export_news(session, output_dir)
+            await export_bookmarks(session, output_dir)
             
             print()
             print("=" * 60)
