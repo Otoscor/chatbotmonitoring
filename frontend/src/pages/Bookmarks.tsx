@@ -6,12 +6,14 @@ import {
     fetchBookmarks,
     deleteBookmark,
     resummaryBookmark,
-    type Bookmark
+    type Bookmark,
+    USE_STATIC_DATA
 } from '../utils/api'
 
 export default function Bookmarks() {
     // 개발 환경 확인 (개발 환경에서만 URL 추가 가능)
     const isDevelopment = import.meta.env.DEV
+    const canEdit = !USE_STATIC_DATA // 데이터 수정 권한
 
     const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
     const [loading, setLoading] = useState(false)
@@ -96,8 +98,8 @@ export default function Bookmarks() {
                 </p>
             </div>
 
-            {/* URL 입력 폼 (개발 환경에서만 표시) */}
-            {isDevelopment && (
+            {/* URL 입력 폼 (수정 권한이 있을 때만 표시) */}
+            {canEdit && (
                 <form onSubmit={handleAddBookmark} className="bg-white border border-gray-200 rounded p-6">
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                         URL 추가
@@ -130,7 +132,7 @@ export default function Bookmarks() {
             ) : bookmarks.length === 0 ? (
                 <div className="bg-white border border-gray-200 rounded p-12 text-center">
                     <p className="text-gray-500 mb-2">저장된 북마크가 없습니다</p>
-                    {isDevelopment && (
+                    {canEdit && (
                         <p className="text-sm text-gray-400">위에서 URL을 입력하여 첫 북마크를 추가해보세요</p>
                     )}
                 </div>
@@ -191,7 +193,7 @@ export default function Bookmarks() {
 
                                         {/* 버튼들 */}
                                         <div className="flex gap-2 ml-auto">
-                                            {bookmark.is_summarized === 2 && (
+                                            {bookmark.is_summarized === 2 && canEdit && (
                                                 <button
                                                     onClick={() => handleResummary(bookmark.id)}
                                                     className="text-blue-600 hover:text-blue-800"
@@ -199,12 +201,14 @@ export default function Bookmarks() {
                                                     요약 재생성
                                                 </button>
                                             )}
-                                            <button
-                                                onClick={() => handleDelete(bookmark.id)}
-                                                className="text-red-600 hover:text-red-800"
-                                            >
-                                                삭제
-                                            </button>
+                                            {canEdit && (
+                                                <button
+                                                    onClick={() => handleDelete(bookmark.id)}
+                                                    className="text-red-600 hover:text-red-800"
+                                                >
+                                                    삭제
+                                                </button>
+                                            )}
                                         </div>
                                     </div>
                                 </div>

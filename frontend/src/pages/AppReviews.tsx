@@ -1,29 +1,13 @@
 import { useState, useEffect, useCallback } from 'react'
-import axios from 'axios'
 import { useApi } from '../hooks/useApi'
 import KeywordCloud from '../components/KeywordCloud'
-
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8001/api'
-
-interface AppReview {
-    id: number
-    app_name: string
-    platform: string
-    review_text: string | null
-    rating: number
-    reviewer_name: string | null
-    review_date: string | null
-}
-
-interface AppStats {
-    app_name: string
-    total_reviews: number
-    average_rating: number
-    rating_distribution: { [key: number]: number }
-    platform_distribution: { [key: string]: number }
-}
-
-
+import {
+    fetchAppStats,
+    fetchAppReviews,
+    fetchAppKeywords,
+    type AppStats,
+    type AppReview
+} from '../utils/api'
 
 export default function AppReviews() {
     const [stats, setStats] = useState<AppStats[]>([])
@@ -32,33 +16,27 @@ export default function AppReviews() {
     const [loading, setLoading] = useState(true)
 
     // 선택된 앱에 따라 키워드 가져오기
-    const fetchKeywords = useCallback(async () => {
-        if (!selectedApp) return []
-        const response = await axios.get(`${API_URL}/app-reviews/keywords`, {
-            params: { app_name: selectedApp, limit: 20 }
-        })
-        return response.data
-    }, [selectedApp])
+    const fetchKeywords = useCallback(() => fetchAppKeywords(selectedApp), [selectedApp])
 
     const { data: keywords, loading: keywordsLoading } = useApi(fetchKeywords, [selectedApp])
 
     useEffect(() => {
-        fetchStats()
+        loadStats()
     }, [])
 
     useEffect(() => {
         if (selectedApp) {
-            fetchReviews(selectedApp)
+            loadReviews(selectedApp)
         }
     }, [selectedApp])
 
-    const fetchStats = async () => {
+    const loadStats = async () => {
         try {
             setLoading(true)
-            const response = await axios.get(`${API_URL}/app-reviews/stats`)
-            setStats(response.data)
-            if (response.data.length > 0) {
-                setSelectedApp(response.data[0].app_name)
+            const data = await fetchAppStats()
+            setStats(data)
+            if (data.length > 0) {
+                setSelectedApp(data[0].app_name)
             }
         } catch (error) {
             console.error('Failed to fetch stats:', error)
@@ -67,12 +45,10 @@ export default function AppReviews() {
         }
     }
 
-    const fetchReviews = async (appName: string) => {
+    const loadReviews = async (appName: string) => {
         try {
-            const response = await axios.get(`${API_URL}/app-reviews`, {
-                params: { app_name: appName, limit: 100 }
-            })
-            setReviews(response.data)
+            const data = await fetchAppReviews(appName)
+            setReviews(data)
         } catch (error) {
             console.error('Failed to fetch reviews:', error)
         }
@@ -142,7 +118,12 @@ export default function AppReviews() {
                         키워드 데이터가 없습니다.
                     </div>
                 ) : (
-                    <KeywordCloud keywords={keywords} />
+                    <KeywordCloud
+                        keywords={keywords?.map(k => ({
+                            text: k.keyword,
+                            value: k.total_count
+                        })) || []}
+                    />
                 )}
             </div>
 

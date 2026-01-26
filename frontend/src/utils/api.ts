@@ -383,4 +383,56 @@ export const resummaryBookmark = async (id: number): Promise<Bookmark> => {
   return data
 }
 
+// ========== 앱 리뷰 API ==========
+export interface AppReview {
+  id: number
+  app_name: string
+  platform: string
+  review_text: string | null
+  rating: number
+  reviewer_name: string | null
+  review_date: string | null
+}
+
+export interface AppStats {
+  app_name: string
+  total_reviews: number
+  average_rating: number
+  rating_distribution: { [key: number]: number }
+  platform_distribution: { [key: string]: number }
+}
+
+export const fetchAppStats = async (): Promise<AppStats[]> => {
+  if (USE_STATIC_DATA) {
+    return fetchStaticData<AppStats[]>('app_stats.json')
+  }
+  const { data } = await api.get('/app-reviews/stats')
+  return data
+}
+
+export const fetchAppReviews = async (appName?: string, limit = 100): Promise<AppReview[]> => {
+  if (USE_STATIC_DATA) {
+    const allReviews = await fetchStaticData<AppReview[]>('app_reviews.json')
+    // 정적 모드 필터링
+    if (appName) {
+      return allReviews.filter(r => r.app_name === appName).slice(0, limit)
+    }
+    return allReviews.slice(0, limit)
+  }
+  const params: any = { limit }
+  if (appName) params.app_name = appName
+  const { data } = await api.get('/app-reviews', { params })
+  return data
+}
+
+export const fetchAppKeywords = async (appName?: string, limit = 20): Promise<KeywordTrend[]> => {
+  if (USE_STATIC_DATA) {
+    return fetchStaticData<KeywordTrend[]>('app_keywords.json')
+  }
+  const params: any = { limit }
+  if (appName) params.app_name = appName
+  const { data } = await api.get('/app-reviews/keywords', { params })
+  return data
+}
+
 export default api
