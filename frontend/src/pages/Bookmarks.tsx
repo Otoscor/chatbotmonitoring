@@ -6,15 +6,15 @@ import {
     fetchBookmarks,
     deleteBookmark,
     resummaryBookmark,
-    type Bookmark,
-    USE_STATIC_DATA
+    type Bookmark
 } from '../utils/api'
 
 export default function Bookmarks() {
-    // 개발 환경 확인 (개발 환경에서만 URL 추가 가능)
-    const isDevelopment = import.meta.env.DEV
     // 배포 환경에서는 무조건 수정 불가 (개발 환경에서만 가능)
-    const canEdit = isDevelopment
+    const canEdit = import.meta.env.DEV
+
+    // 개발 환경 확인용 (삭제 불가) - URL 입력 폼 등에서 사용될 수 있음
+    // 하지만 canEdit와 동일한 의미이므로 canEdit만 사용
 
     const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
     const [loading, setLoading] = useState(false)
