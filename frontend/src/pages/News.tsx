@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 import { useApi } from '../hooks/useApi'
-import { fetchNews, NewsArticle, USE_STATIC_DATA } from '../utils/api'
+import { fetchNews, NewsArticle } from '../utils/api'
 
 export default function News() {
   // 뉴스 데이터 조회 - useApi 훅 사용
@@ -24,20 +24,7 @@ export default function News() {
   }
 
 
-  if (USE_STATIC_DATA) {
-    return (
-      <div className="space-y-6">
-        <div>
-          <h1 className="text-xl font-semibold text-gray-900">뉴스</h1>
-          <p className="text-sm text-gray-500 mt-1">AI 챗봇 관련 최신 뉴스</p>
-        </div>
-        <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 text-center">
-          <p className="text-gray-500">정적 모드에서는 뉴스 기능을 사용할 수 없습니다.</p>
-          <p className="text-sm text-gray-400 mt-2">로컬 개발 환경에서 백엔드 서버를 실행해주세요.</p>
-        </div>
-      </div>
-    )
-  }
+
 
   return (
     <div className="space-y-6">
@@ -67,7 +54,7 @@ export default function News() {
       {articles && articles.length > 0 && (
         <div className="space-y-3">
           <p className="text-sm text-gray-500">{articles.length}개의 뉴스</p>
-          
+
           <div className="grid gap-4">
             {articles.map((article: NewsArticle) => (
               <a
@@ -80,13 +67,13 @@ export default function News() {
                 <h3 className="text-sm font-medium text-gray-900 line-clamp-2 leading-snug">
                   {article.title}
                 </h3>
-                
+
                 {article.description && (
                   <p className="mt-1.5 text-xs text-gray-500 line-clamp-2">
                     {article.description}
                   </p>
                 )}
-                
+
                 <div className="mt-2 flex items-center gap-3 text-xs text-gray-400">
                   {article.publisher && (
                     <span>{article.publisher}</span>
