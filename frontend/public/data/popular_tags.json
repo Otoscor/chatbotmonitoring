@@ -1,30 +1,26 @@
 [
   {
-    "tag": "시뮬레이션",
-    "count": 17
+    "tag": "순애",
+    "count": 15
   },
   {
     "tag": "판타지",
-    "count": 14
+    "count": 15
   },
   {
-    "tag": "순애",
-    "count": 14
+    "tag": "시뮬레이션",
+    "count": 15
   },
   {
     "tag": "로맨스",
-    "count": 13
-  },
-  {
-    "tag": "추천",
-    "count": 12
-  },
-  {
-    "tag": "여성",
-    "count": 11
+    "count": 14
   },
   {
     "tag": "HL",
+    "count": 11
+  },
+  {
+    "tag": "추천",
     "count": 9
   },
   {
@@ -32,19 +28,27 @@
     "count": 8
   },
   {
+    "tag": "여성",
+    "count": 8
+  },
+  {
     "tag": "BL",
     "count": 8
   },
   {
+    "tag": "hl",
+    "count": 7
+  },
+  {
+    "tag": "하렘",
+    "count": 7
+  },
+  {
     "tag": "시뮬",
-    "count": 6
+    "count": 7
   },
   {
-    "tag": "남성",
-    "count": 6
-  },
-  {
-    "tag": "게임",
+    "tag": "집착",
     "count": 6
   },
   {
@@ -56,27 +60,23 @@
     "count": 6
   },
   {
+    "tag": "게임",
+    "count": 5
+  },
+  {
+    "tag": "일진",
+    "count": 4
+  },
+  {
+    "tag": "로판",
+    "count": 4
+  },
+  {
     "tag": "후회",
-    "count": 5
+    "count": 4
   },
   {
-    "tag": "하렘",
-    "count": 5
-  },
-  {
-    "tag": "학생",
-    "count": 5
-  },
-  {
-    "tag": "일상",
-    "count": 5
-  },
-  {
-    "tag": "집착",
-    "count": 5
-  },
-  {
-    "tag": "언리밋",
+    "tag": "피폐",
     "count": 4
   }
 ]
