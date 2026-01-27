@@ -1,222 +1,197 @@
 {
-  "id": 6,
-  "report_date": "2026-01-26T08:34:30.321837",
-  "total_posts": 418,
-  "total_views": 23044,
-  "total_recommends": 234,
-  "total_comments": 1199,
+  "id": 7,
+  "report_date": "2026-01-27T10:25:02.650143",
+  "total_posts": 411,
+  "total_views": 25000,
+  "total_recommends": 323,
+  "total_comments": 1364,
   "top_keywords": [
     {
       "keyword": "만들",
-      "count": 10,
-      "score": 0.0202
+      "count": 12,
+      "score": 0.0255
     },
     {
-      "keyword": "상태",
-      "count": 8,
+      "keyword": "리뷰",
+      "count": 13,
+      "score": 0.024
+    },
+    {
+      "keyword": "송지은즈",
+      "count": 11,
+      "score": 0.0179
+    },
+    {
+      "keyword": "오늘",
+      "count": 9,
       "score": 0.0176
     },
     {
-      "keyword": "정실",
-      "count": 9,
-      "score": 0.0167
-    },
-    {
-      "keyword": "크래커",
-      "count": 7,
-      "score": 0.016
-    },
-    {
-      "keyword": "맛있",
-      "count": 8,
-      "score": 0.0155
-    },
-    {
-      "keyword": "사람",
-      "count": 7,
-      "score": 0.0141
-    },
-    {
-      "keyword": "러브",
-      "count": 7,
-      "score": 0.014
-    },
-    {
-      "keyword": "이상",
-      "count": 6,
-      "score": 0.0129
-    },
-    {
       "keyword": "아침",
-      "count": 5,
-      "score": 0.012
+      "count": 8,
+      "score": 0.0163
     },
     {
-      "keyword": "에덴",
+      "keyword": "오일",
+      "count": 8,
+      "score": 0.0163
+    },
+    {
+      "keyword": "일어나",
+      "count": 7,
+      "score": 0.0159
+    },
+    {
+      "keyword": "상태",
       "count": 6,
-      "score": 0.012
+      "score": 0.0146
     },
     {
-      "keyword": "캐챗",
-      "count": 5,
-      "score": 0.012
-    },
-    {
-      "keyword": "사칭",
+      "keyword": "프롬",
       "count": 6,
+      "score": 0.0131
+    },
+    {
+      "keyword": "부기",
+      "count": 5,
+      "score": 0.0122
+    },
+    {
+      "keyword": "nai",
+      "count": 4,
       "score": 0.0116
     },
     {
-      "keyword": "대사",
+      "keyword": "미치",
       "count": 5,
       "score": 0.0113
     },
     {
-      "keyword": "오늘",
-      "count": 5,
-      "score": 0.0112
-    },
-    {
-      "keyword": "프롬",
+      "keyword": "생각",
       "count": 7,
-      "score": 0.0109
+      "score": 0.0107
     },
     {
-      "keyword": "송지은즈",
+      "keyword": "젬삼",
       "count": 5,
       "score": 0.0107
     },
     {
-      "keyword": "ai",
-      "count": 2,
-      "score": 0.0105
+      "keyword": "이상",
+      "count": 5,
+      "score": 0.0104
     },
     {
       "keyword": "그림",
       "count": 5,
-      "score": 0.0105
+      "score": 0.0103
     },
     {
-      "keyword": "유저",
+      "keyword": "돌리",
       "count": 5,
-      "score": 0.0098
+      "score": 0.0103
     },
     {
-      "keyword": "단테",
+      "keyword": "게이",
       "count": 4,
-      "score": 0.0096
+      "score": 0.0097
     },
     {
-      "keyword": "버기",
+      "keyword": "루이즈",
       "count": 4,
-      "score": 0.0096
+      "score": 0.0097
     },
     {
-      "keyword": "이유",
+      "keyword": "좋아하",
+      "count": 5,
+      "score": 0.0097
+    },
+    {
+      "keyword": "앵챗",
+      "count": 6,
+      "score": 0.0093
+    },
+    {
+      "keyword": "블루",
+      "count": 5,
+      "score": 0.0092
+    },
+    {
+      "keyword": "재밌",
+      "count": 5,
+      "score": 0.0092
+    },
+    {
+      "keyword": "정실",
+      "count": 5,
+      "score": 0.009
+    },
+    {
+      "keyword": "설정",
       "count": 4,
       "score": 0.0088
     },
     {
-      "keyword": "케덕",
-      "count": 4,
-      "score": 0.0077
-    },
-    {
-      "keyword": "산타",
-      "count": 4,
-      "score": 0.0075
-    },
-    {
-      "keyword": "루카스",
-      "count": 4,
-      "score": 0.0074
-    },
-    {
-      "keyword": "나쁘",
-      "count": 3,
-      "score": 0.0072
-    },
-    {
-      "keyword": "동안",
-      "count": 3,
-      "score": 0.0072
-    },
-    {
-      "keyword": "망원경",
+      "keyword": "불법",
       "count": 5,
-      "score": 0.0072
+      "score": 0.0084
     },
     {
-      "keyword": "반납",
-      "count": 3,
-      "score": 0.0072
+      "keyword": "괜찮",
+      "count": 4,
+      "score": 0.0081
     },
     {
-      "keyword": "새끼",
-      "count": 3,
-      "score": 0.0072
+      "keyword": "느낌",
+      "count": 4,
+      "score": 0.008
+    },
+    {
+      "keyword": "모르",
+      "count": 4,
+      "score": 0.008
+    },
+    {
+      "keyword": "요즘",
+      "count": 4,
+      "score": 0.008
     }
   ],
   "top_characters": [
     {
-      "name": "시뮬",
+      "name": "케덕 리뷰",
       "mentions": 3,
       "rank": 1
     },
     {
-      "name": "개인",
+      "name": "케덕리뷰",
       "mentions": 2,
       "rank": 2
     },
     {
-      "name": "레즈",
-      "mentions": 2,
+      "name": "엘린",
+      "mentions": 1,
       "rank": 3
     },
     {
-      "name": "2차",
-      "mentions": 2,
+      "name": "솔로 롤플(소설 모드)",
+      "mentions": 1,
       "rank": 4
     },
     {
-      "name": "3/4",
+      "name": "그건 핑계겠고, 뭐하러 나한테 왔냐",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "케덕 첫제작",
+      "name": "불법 테토남고생 송지은즈 DLC",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "케덕 리뷰",
+      "name": "일상",
       "mentions": 1,
       "rank": 7
-    },
-    {
-      "name": "케덕",
-      "mentions": 1,
-      "rank": 8
-    },
-    {
-      "name": "야유로",
-      "mentions": 1,
-      "rank": 9
-    },
-    {
-      "name": "통합",
-      "mentions": 1,
-      "rank": 10
-    },
-    {
-      "name": "필레아",
-      "mentions": 1,
-      "rank": 11
-    },
-    {
-      "name": "이리",
-      "mentions": 1,
-      "rank": 12
     }
   ],
   "trending_topics": []
