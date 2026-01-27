@@ -78,19 +78,43 @@ async def export_reports(session: AsyncSession, output_dir: Path):
 
 
 async def export_popular_posts(session: AsyncSession, output_dir: Path):
-    """인기 게시글 export"""
+    """인기 게시글 export (각 갤러리별 데이터 포함)"""
     print("📝 인기 게시글 export 중...")
     
-    # 최근 7일 데이터
     days_ago = datetime.utcnow() - timedelta(days=7)
-    query = (
+    all_posts_map = {}  # 중복 제거를 위한 맵 {id: post_obj}
+
+    # 1. 전체 인기 게시글 (기존 로직)
+    query_all = (
         select(Post)
         .where(Post.created_at >= days_ago)
         .order_by(desc(Post.view_count))
-        .limit(15)
+        .limit(20)
     )
-    result = await session.execute(query)
-    posts = result.scalars().all()
+    result_all = await session.execute(query_all)
+    for post in result_all.scalars().all():
+        all_posts_map[post.id] = post
+
+    # 2. 각 갤러리별 인기 게시글 추가 (필터링 시 데이터 부족 방지)
+    target_galleries = ['wrtnai', 'aichatting', 'characterai']
+    
+    for gallery_id in target_galleries:
+        query_gallery = (
+            select(Post)
+            .where(
+                Post.created_at >= days_ago,
+                Post.gallery_id == gallery_id
+            )
+            .order_by(desc(Post.view_count))
+            .limit(15)
+        )
+        result_gallery = await session.execute(query_gallery)
+        for post in result_gallery.scalars().all():
+            all_posts_map[post.id] = post
+    
+    # 리스트로 변환 및 정렬 (전체 조회수 순)
+    posts = list(all_posts_map.values())
+    posts.sort(key=lambda x: x.view_count, reverse=True)
     
     data = []
     for post in posts:
@@ -110,7 +134,7 @@ async def export_popular_posts(session: AsyncSession, output_dir: Path):
     with open(output_dir / "popular_posts.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    print(f"  ✓ popular_posts.json 생성 ({len(data)}개)")
+    print(f"  ✓ popular_posts.json 생성 ({len(data)}개 - 갤러리별 확인 완료)")
 
 
 async def export_chat_characters(session: AsyncSession, output_dir: Path):
