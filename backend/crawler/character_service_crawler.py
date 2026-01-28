@@ -9,6 +9,8 @@ from .zeta_crawler import ZetaCrawler, CharacterData as ZetaCharacterData
 from .babechat_crawler import BabeChatCrawler, CharacterData as BabeChatCharacterData
 from .lunatalk_crawler import LunaTalkCrawler, CharacterData as LunaTalkCharacterData
 from .crack_crawler import CrackCrawler, CharacterData as CrackCharacterData
+from .elyn_crawler import ElynCrawler, CharacterData as ElynCharacterData
+from .caveduck_crawler import CaveduckCrawler, CharacterData as CaveduckCharacterData
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +27,7 @@ async def crawl_all_character_services(services: List[str] = None) -> Dict[str, 
         {'zeta': [CharacterData, ...], 'babechat': [CharacterData, ...], 'lunatalk': [CharacterData, ...], 'crack': [CharacterData, ...]}
     """
     if services is None:
-        services = ['zeta', 'lunatalk', 'babechat', 'crack']  # 기본: 제타, 루나톡, 베이비챗, 크랙
+        services = ['zeta', 'lunatalk', 'babechat', 'crack', 'elyn', 'caveduck']  # 기본: 제타, 루나톡, 베이비챗, 크랙, 엘린, 케이브덕
     
     logger.info(f"캐릭터 서비스 크롤링 시작: {services}")
     
@@ -75,6 +77,28 @@ async def crawl_all_character_services(services: List[str] = None) -> Dict[str, 
         except Exception as e:
             logger.error(f"❌ crack 크롤링 실패: {e}")
             results['crack'] = []
+    
+    # 엘린 크롤링
+    if 'elyn' in services:
+        try:
+            crawler = ElynCrawler()
+            elyn_results = await crawler.crawl_rankings(30)
+            results['elyn'] = elyn_results
+            logger.info(f"✅ elyn 크롤링 완료: {len(elyn_results)}개")
+        except Exception as e:
+            logger.error(f"❌ elyn 크롤링 실패: {e}")
+            results['elyn'] = []
+
+    # 케이브덕 크롤링
+    if 'caveduck' in services:
+        try:
+            crawler = CaveduckCrawler()
+            caveduck_results = await crawler.crawl_rankings(30)
+            results['caveduck'] = caveduck_results
+            logger.info(f"✅ caveduck 크롤링 완료: {len(caveduck_results)}개")
+        except Exception as e:
+            logger.error(f"❌ caveduck 크롤링 실패: {e}")
+            results['caveduck'] = []
     
     total_count = sum(len(chars) for chars in results.values())
     logger.info(f"전체 크롤링 완료: {total_count}개 캐릭터 수집")

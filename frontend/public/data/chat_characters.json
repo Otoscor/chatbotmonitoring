@@ -1,12 +1,12 @@
 [
   {
-    "id": 40,
+    "id": 139,
     "service": "babechat",
     "character_id": "e332026d-d711-4bef-ad3b-70ec426bd944",
     "rank": 1,
     "name": "디바인 아카데미",
     "author": "레테",
-    "views": 3284098,
+    "views": 3284221,
     "tags": [
       "아카데미",
       "판타지",
@@ -15,16 +15,16 @@
     "description": "모든 종족이 모여있는 이 세계 최대 규모의 아카데미 '디바인'. 이곳은 검과 마법, 종족의 특성, 그 외에도 여러 기술들을 가르치고 단련시켜 바른길을 인도하는 장소이다. 그런 디바인 아카데미에 들어오게 된 {{user}}. 당신은 이 세계에서 어떤 존재로서 살아갈 것인지 선택할 수 있습니다.",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/e332026d-d711-4bef-ad3b-70ec426bd944-DjRvdKfc3AkCt2jv7o4LrkICxEUkgj.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864374"
+    "crawled_at": "2026-01-28T00:51:59.447325"
   },
   {
-    "id": 41,
+    "id": 140,
     "service": "babechat",
     "character_id": "c6bc2d84-4832-4165-8691-74715e12b9f2",
     "rank": 2,
     "name": "창작물 빙의 시뮬레이션",
     "author": "선수겸 감독 김수겸",
-    "views": 3105315,
+    "views": 3105628,
     "tags": [
       "시뮬레이션",
       "게임",
@@ -35,16 +35,16 @@
     "description": "애니, 게임, 라노벨, 만화, 웹툰 등 \n다양한 장르의 수많은 창작물!\n\n그중 당신이 좋아하는 창작물에 빙의하여\n당신의 상상력을 펼쳐보세요!\n\n(유저노트에 구체적인 세계관이나 설정을 따로 추가하시면 더욱 몰입하실 수 있습니다!)",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/c6bc2d84-4832-4165-8691-74715e12b9f2-iLmLRvl6eM0Nf1W7PuPgWrU01tkFmb.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864374"
+    "crawled_at": "2026-01-28T00:51:59.447347"
   },
   {
-    "id": 42,
+    "id": 141,
     "service": "babechat",
     "character_id": "8b2d5b7c-dd97-4198-917a-f628a56b41b3",
     "rank": 3,
     "name": "우리들의 이야기를!",
     "author": "ㅇㅇ(39.7)",
-    "views": 2518629,
+    "views": 2518837,
     "tags": [
       "학생",
       "선생님",
@@ -53,16 +53,16 @@
     "description": "학원, 학생, 그리고 기적같은 일상과 함께하는──청춘의 이야기 【Blue Archive】\n\n【본 챗봇은 블루 아카이브 2차 창작물로써, 블루 아카이브 공식 문의 후 허용된 가이드라인에 따라 제작되었습니다.】",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/8b2d5b7c-dd97-4198-917a-f628a56b41b3-k4BkysZHCDobQpBERZdi61V5HnhEVy.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864374"
+    "crawled_at": "2026-01-28T00:51:59.447368"
   },
   {
-    "id": 43,
+    "id": 142,
     "service": "babechat",
     "character_id": "698b99f6-dabe-4fde-b899-dd6c4cc44570",
     "rank": 4,
     "name": "강산고등학교",
     "author": "이현",
-    "views": 2091713,
+    "views": 2091784,
     "tags": [
       "액션",
       "고등학교",
@@ -73,16 +73,16 @@
     "description": "죽기 싫으면 싸워라! 힘이 전부인 '강산고'에서 말이지!!\n\n\n\n\n본 작품은 제미나이 프로로 플레이하시는걸 추천드립니다.\n\nhttps://arca.live/b/ailove/143391970\n캐릭터 정리글\n\n!조연모드: 조연 모드 활성화(유저가 조연이 됩니다)\n!강산갤러리:갤러리 모드 활성화(디시인사이드 느낌의 갤러리 소환 가능)\n!다크모드:다크모드 활성화(",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/698b99f6-dabe-4fde-b899-dd6c4cc44570-oayDoNs7ReEpKh6BkjCwygC25FBbgz.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864375"
+    "crawled_at": "2026-01-28T00:51:59.447391"
   },
   {
-    "id": 44,
+    "id": 143,
     "service": "babechat",
     "character_id": "0bd834ae-fe49-4124-8bd8-9cf76eb80a6b",
     "rank": 5,
     "name": "마.소.도! : 마법소녀들의 도시!",
     "author": "천소",
-    "views": 2001268,
+    "views": 2001558,
     "tags": [
       "마법소녀",
       "시뮬레이션",
@@ -93,16 +93,16 @@
     "description": "[ 웹툰 & 🖼 820+ & 등장인물 44+ ]\n[ 마법소녀 미연시 시뮬레이션 ]\n대한민국 26구역, 각 구역의 안전은 '마법소녀'가 책임지고 있는 세상!\n\n하지만 도시를 지키는 강인한 마법소녀도 변신을 해제하면 가녀린 한 명의 소녀란 사실!\n\n당신은 마법소녀와 인연을 맺고 친구나 연인 관계가 되거나, 그녀들의 사이드킥으로서 그들을 보조하고, 또는 악의조직",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/0bd834ae-fe49-4124-8bd8-9cf76eb80a6b-YVpBwWR2iuoVoNB66od9Q9uLiC6Vdf.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864375"
+    "crawled_at": "2026-01-28T00:51:59.447414"
   },
   {
-    "id": 45,
+    "id": 144,
     "service": "babechat",
     "character_id": "fc065d24-453b-4c60-ac6c-95edd173af4b",
     "rank": 6,
     "name": "에버렛",
     "author": "레테",
-    "views": 1619232,
+    "views": 1619279,
     "tags": [
       "아카데미",
       "여자",
@@ -113,16 +113,16 @@
     "description": "모든 종족이 모여있는 이 세계 최대 규모의 아카데미 '디바인'. 이곳은 검과 마법, 종족의 특성, 그 외에도 여러 기술들을 가르치고 단련시켜 바른길을 인도하는 장소이다. 그리고 그런 이곳에서 필기, 실기 뭐하나 빠지는 것 없이 전무후무한 기록을 세우고, 입학한 신입생 대표. 그것이 불사조 일족의 막내, 에버렛이다. 그렇게 완벽한 그녀지만, 그녀의 단점이 하",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/fc065d24-453b-4c60-ac6c-95edd173af4b-7ioVzpkJmhYXvyWP2BLb7OF0BCJl96.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864376"
+    "crawled_at": "2026-01-28T00:51:59.447436"
   },
   {
-    "id": 46,
+    "id": 145,
     "service": "babechat",
     "character_id": "cca670d4-b10b-46e6-b567-4c19dfe906ac",
     "rank": 7,
     "name": "아카데미 시뮬레이터.",
     "author": "검은달밤",
-    "views": 1408174,
+    "views": 1408184,
     "tags": [
       "시뮬레이터",
       "판타지",
@@ -131,16 +131,16 @@
     "description": "(2/14/5시 추가 업데이트 완료)\n📣상세정보 필독📣\n검과 마법의 세상.\n이 세계에서는 14번째 생일을 맞이할 때 한가지 이능을 발현하게 됩니다.\n인간들의 제국, 리움제국에서는 이능을 각성한 아이들이 15살이 되면 아카데미에 보내, 그들의 이능과 재능이 성장할 수 있는 기회의 장을 마련합니다.\n\n(기존 일러 버전은 제작자 프로필 확인) ",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/cca670d4-b10b-46e6-b567-4c19dfe906ac-3jmH52RGPmYOEuOhdVNP1afMk2t2TJ.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864376"
+    "crawled_at": "2026-01-28T00:51:59.447457"
   },
   {
-    "id": 47,
+    "id": 146,
     "service": "babechat",
     "character_id": "6d0902cf-d420-406d-b334-549ee452e1e8",
     "rank": 8,
     "name": "내가 할려고 만든 호요버스 어셈블",
     "author": "닉네임뭐로해야함",
-    "views": 847386,
+    "views": 847410,
     "tags": [
       "호요버스",
       "붕괴3RD",
@@ -151,16 +151,16 @@
     "description": "[이미지 449장]\n\n류웨이 사랑해\n\n명령어 목록:\n\n!세이브\n#균열출현\n#학교모드\n\n자세한 내용은 고정댓글 참조\n\n【본 챗봇은 붕괴3rd, 원신, 붕괴 스타레일, 젠레스 존 제로의 2차 창작물로써, 호요버스 공식 문의 후 허용된 가이드라인에 따라 제작되었습니다.】",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/6d0902cf-d420-406d-b334-549ee452e1e8-BawuEvxRNUPZGlxIBmSKhE1bZfMdgH.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864376"
+    "crawled_at": "2026-01-28T00:51:59.447478"
   },
   {
-    "id": 48,
+    "id": 147,
     "service": "babechat",
     "character_id": "303f51c0-11ac-49d5-abc3-98e049d25762",
     "rank": 9,
     "name": "무협지 속으로",
     "author": "블루",
-    "views": 717025,
+    "views": 717031,
     "tags": [
       "무협",
       "시뮬레이션",
@@ -171,16 +171,16 @@
     "description": "[등장 인물 39명]\n강호를 휘어잡을 영웅은 바로 당신!\n구파일방과 오대세가, 사도련과 천마신교 등 다양한 세력 사이에서 당신의 운명은 어떻게 펼쳐질까요? 내공을 수련하고, 절세 고수들과 만나며, 무림의 은밀한 음모를 밝혀내세요. 당신의 선택이 무림의 미래를 좌우합니다. 자, 이제 당신만의 무협 이야기를 써내려갈 시간입니다!",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/303f51c0-11ac-49d5-abc3-98e049d25762-AtYa5qyzTF2OwtZkkc3LXzX6ZvZS79.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864377"
+    "crawled_at": "2026-01-28T00:51:59.447499"
   },
   {
-    "id": 49,
+    "id": 148,
     "service": "babechat",
     "character_id": "5802a071-ca7c-436f-9a06-b6dcacd64e13",
     "rank": 10,
     "name": "🆕일본 고딩 청춘물",
     "author": "뭉이",
-    "views": 637726,
+    "views": 637772,
     "tags": [
       "시뮬레이션",
       "고등학교",
@@ -190,16 +190,16 @@
     "description": "🆕일본 고등학교 시뮬레이터\n주연 20명 (총 30명) \n\n🔥 댓글에 인기투표 링크\n\n기존 일본 고딩 청춘물의 리메이크 버전입니다.\n• 캐릭터 외형 수정, 애셋 재제작\n• 디테일 설정 추가 (생일, 알바, 과거 등)\n• 이벤트 추가 및 구체화\n• 신규 캐릭터 및 모드 추가\n• 프롬포트 개선 등\n\n여름 방학 축제와 불꽃놀이, 부카츠, 문화제, 수학여행을 즐기며",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/5802a071-ca7c-436f-9a06-b6dcacd64e13-vnagEKCNtHAREQzUTNZvBgg8SH5N63.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864377"
+    "crawled_at": "2026-01-28T00:51:59.447523"
   },
   {
-    "id": 50,
+    "id": 149,
     "service": "babechat",
     "character_id": "4b3dd8c3-f6ca-47e6-a4d6-8164909ecd92",
     "rank": 11,
     "name": "판타지 라이프",
     "author": "Dolls",
-    "views": 622183,
+    "views": 622187,
     "tags": [
       "시뮬레이터/시뮬레이션",
       "중세/이세계/던전밥/유니콘 오버로드",
@@ -210,10 +210,10 @@
     "description": "마법과 검, 모험과 낭만, 전설과 비밀이 살아숨쉬는 판타지 세계. 의뢰를 통해 보수를 받는 모험가, 무역을 통해 자산을 불리는 상인, 자신만의 마을 및 영지를 가꾸는 영주, 세계를 구하는 용사, 세계를 정복하고자 하는 마왕, 마을에 작은 가게를 꾸리고 살아가는 가게 주인, 일상을 살아가는 일개 소시민까지, 판타지 세계에서 당신이 원하는 삶을 살아갈 수 있는",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/4b3dd8c3-f6ca-47e6-a4d6-8164909ecd92-eWxLANUhIFrK62eC9YLYZzSdeCrNdA.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864378"
+    "crawled_at": "2026-01-28T00:51:59.447544"
   },
   {
-    "id": 51,
+    "id": 150,
     "service": "babechat",
     "character_id": "f144d2dc-80b3-4786-9213-601f7205b7c9",
     "rank": 12,
@@ -230,16 +230,16 @@
     "description": "카지노의 딜러다. 블랙잭 게임을 담당하고 있으며, 수많은 이들을 파멸로 몰아놓고 있는 중. 성격이 고약해 연패해나가는 상대를 말로 도발하며 놀리는 습관을 가지고 있다. 만약 게임이 자신에게 열세에 몰리게 되면 그녀는 밑장빼기 사기를 친다. ",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/f144d2dc-80b3-4786-9213-601f7205b7c9-aTbYGCJV2B3GAYsE5sx6cAe73FpMJC.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864378"
+    "crawled_at": "2026-01-28T00:51:59.447566"
   },
   {
-    "id": 52,
+    "id": 151,
     "service": "babechat",
     "character_id": "668a721b-a1a8-4fe9-a84e-54d3bd55be94",
     "rank": 13,
     "name": "마법소녀 시뮬레이션",
     "author": "개화",
-    "views": 599692,
+    "views": 599746,
     "tags": [
       "마법소녀",
       "일상",
@@ -248,16 +248,16 @@
     "description": "[마법소녀 협회 모집 공고]\n평범한 일상 속, 숨겨진 당신의 특별한 재능을 찾고 있습니다.\n마법소녀 협회는 그 가치에 합당한 최고의 대우를 약속합니다.\n\n✔️ '위시넷' 앱으로 공정한 의뢰 배정\n✔️ 업계 최고 수준의 보수와 인센티브\n✔️ 마법으로 완벽한 신상 보호\n✔️ 모든 활동 뒤처리는 협회 전담\n\n당신의 마법으로 세상을 구하고, 통장도 채우세요.\n지금",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/668a721b-a1a8-4fe9-a84e-54d3bd55be94-gclCS19CZGODKaU23vLo3G8zwLj6Va.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864379"
+    "crawled_at": "2026-01-28T00:51:59.447587"
   },
   {
-    "id": 53,
+    "id": 152,
     "service": "babechat",
     "character_id": "98a9ce8f-49ed-4e62-817d-de849fc5ed0f",
     "rank": 14,
     "name": "이예진",
     "author": "경찰철창살은강해상입니다",
-    "views": 577565,
+    "views": 577567,
     "tags": [
       "페티쉬",
       "대학생",
@@ -268,16 +268,16 @@
     "description": "이예진은 예쁜 외모로 많은 인기를 얻은 대학 과탑이자 SNS 인플루언서입니다. 건방지고 기가 센  성격을 가졌지만, 아름다운 외모와 세련된 패션 감각으로 많은 팬을 거느리고 있습니다. 평소 조용하고 평범하게 대학 생활을 하던 당신과는 접점이 없었으나, 조별 과제를 계기로 그녀와 얽히기 시작합니다. 또한, 자신에게 어울리지 않는 남자라며 고백한 이들을 모두 ",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/98a9ce8f-49ed-4e62-817d-de849fc5ed0f-Um9aeJeOq6TRhwxqsH9IvAZc2cVtqf.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864379"
+    "crawled_at": "2026-01-28T00:51:59.447610"
   },
   {
-    "id": 54,
+    "id": 153,
     "service": "babechat",
     "character_id": "3d0a687e-f9fb-47e1-a1a3-51f57fa2e733",
     "rank": 15,
     "name": "차세린",
     "author": "우와",
-    "views": 553578,
+    "views": 553579,
     "tags": [
       "여자",
       "후회",
@@ -288,16 +288,16 @@
     "description": "S급 헌터가 된 이후로 {{user}}에게 차가워진 여자친구",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/3d0a687e-f9fb-47e1-a1a3-51f57fa2e733-SnYz9MQTs7Y3FW3utQYfQFNvgYEMJ9.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864379"
+    "crawled_at": "2026-01-28T00:51:59.447635"
   },
   {
-    "id": 55,
+    "id": 154,
     "service": "babechat",
     "character_id": "d6cb480b-2990-48d0-8d0b-786a749d5f70",
     "rank": 16,
     "name": "KILL KILL KILL",
     "author": "에치디",
-    "views": 523992,
+    "views": 523997,
     "tags": [
       "학원",
       "학생회장",
@@ -307,16 +307,16 @@
     "description": "「뽑아라! 베어라! 죽여라!」\n검은 단순하다. 단지 그것뿐이다. 강한 자가 살아남는다.\n용서와 평등은 호무라 학원에서 사치다.\n이 세계에선 먼저 휘두른 자가 정의다.\n살아남기 위해, 빼앗기지 않기 위해, 마지막을 끝내기 위해 검을 뽑아라!",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/d6cb480b-2990-48d0-8d0b-786a749d5f70-rYRtftqRO9POevLz7BhXtowxpyqF8H.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864380"
+    "crawled_at": "2026-01-28T00:51:59.447659"
   },
   {
-    "id": 56,
+    "id": 155,
     "service": "babechat",
     "character_id": "cb20ecd0-4bd2-4f4b-8502-96f10de4fcfa",
     "rank": 17,
     "name": "야구선수 생존기",
     "author": "wisdumb",
-    "views": 513059,
+    "views": 513088,
     "tags": [
       "시뮬레이션",
       "운동",
@@ -326,16 +326,16 @@
     "description": "2026 가상의 대한민국 신인 드래프트에 참가한 {{user}}의 인생을 살아보자.\n\n댓글 공지 필참!",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/cb20ecd0-4bd2-4f4b-8502-96f10de4fcfa-JLran0QSduxSDbW1lux6K5dGmDiaoo.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864380"
+    "crawled_at": "2026-01-28T00:51:59.447684"
   },
   {
-    "id": 57,
+    "id": 156,
     "service": "babechat",
     "character_id": "529a433b-1714-4cdf-a09c-62c8a922ac2e",
     "rank": 18,
     "name": "아포칼립스 : 언더독",
     "author": "옷장의수호자",
-    "views": 508074,
+    "views": 508102,
     "tags": [
       "초능력",
       "하렘",
@@ -346,10 +346,10 @@
     "description": "초능력. 새로운 권력 아래 쪼개진 여러 개의 세력. 당신의 선택이 세력의 판도를 결정한다. \n\n당신의 손에 주어진 힘으로, 당신은 어떤 선택을 할 것인가?\n\n2025.11.16 - PM 06시 신캐 3인 추가 완료\n\n※ 페르소나에 이름과 능력, 소속을 적고 시작하시길 추천드립니다.\n※ Gemini 2.5 Pro 사용을 권장합니다.\n※ 에셋 미출력 등의 오류",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/529a433b-1714-4cdf-a09c-62c8a922ac2e-8i6X5SuhD5kkA8g6kpd4AGn8kNbTtb.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864381"
+    "crawled_at": "2026-01-28T00:51:59.447706"
   },
   {
-    "id": 58,
+    "id": 157,
     "service": "babechat",
     "character_id": "1fd0da1d-73a9-4994-bfa3-675e4445044b",
     "rank": 19,
@@ -366,16 +366,16 @@
     "description": "남자친구와 카톡 중인 여자 대학생. 지금 당신의 방 안에 있다. 짧은 단발머리에 어딘가 순하면서도 무엇을 생각하는지 모를 처진 눈을 지니고 있는 그녀는, 당신과 아주 오래 전부터 알고 지내며 남녀 간 일체의 거리감이 존재하지 않는 경지에 돌입하였다. 소희는 매번 제 집처럼 당신의 방을 들락거리곤 한다. 당신도 이러한 상황을 익숙하게 느끼며, 침대에 엎드린 ",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/1fd0da1d-73a9-4994-bfa3-675e4445044b-DCnacvhtQNH2l6tmNKX871Fo1wPylK.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864381"
+    "crawled_at": "2026-01-28T00:51:59.447727"
   },
   {
-    "id": 59,
+    "id": 158,
     "service": "babechat",
     "character_id": "68eeb6fd-8f74-4501-9605-bf3912c503e6",
     "rank": 20,
     "name": "군대에 나 혼자 남자",
     "author": "lezu",
-    "views": 490069,
+    "views": 490100,
     "tags": [
       "여자",
       "군대",
@@ -384,16 +384,16 @@
     "description": "20XX년 대한민국, 지속되는 인구 감소로 인해 군대 인원이 줄어들자 여자들도 군대를 가게 되었다.\n\n원래는 남자, 여자 따로 생활관을 지었지만 현재 남군, 여군 장병 비율이 5:5라 성별을 묶어서 나누는건 비효율적아라 여긴 국방부는 다가오는 8월 부터 여군과 남군 전부 같은 대대에서 생활하도록 만들었다.\n\n그리고 오늘 자대 배치를 받은 {{user}}는 ",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/68eeb6fd-8f74-4501-9605-bf3912c503e6-GlPXmiOHQ68NmYVaefcaiQSkmgda74.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864381"
+    "crawled_at": "2026-01-28T00:51:59.447748"
   },
   {
-    "id": 60,
+    "id": 159,
     "service": "babechat",
     "character_id": "6d69756a-8060-4afc-942d-4c40e8aec2c5",
     "rank": 21,
     "name": "국가 지도자 시뮬레이션",
     "author": "HYunY",
-    "views": 472952,
+    "views": 473036,
     "tags": [
       "게임",
       "대체역사",
@@ -402,16 +402,16 @@
     "description": "{{user}}가 국가의 지도자가 되어 원하는 국가,시대를 선택하여 운영하는 시뮬레이션",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/6d69756a-8060-4afc-942d-4c40e8aec2c5-qHnr8VuTGFB8djv6nTHKSJ4ZFc9iKB.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864382"
+    "crawled_at": "2026-01-28T00:51:59.447769"
   },
   {
-    "id": 61,
+    "id": 160,
     "service": "babechat",
     "character_id": "822b321b-8a59-441a-9060-fffd55c7f814",
     "rank": 22,
     "name": "버튜버 시뮬레이터 (シミュレーター)",
     "author": "고멠 - 공식 크리에이터 달고싶은 놈",
-    "views": 400135,
+    "views": 400156,
     "tags": [
       "버튜버",
       "인터넷방송",
@@ -422,16 +422,16 @@
     "description": "닛폰(日本) Vtuber 월-드에서의 라이프✨\n테에테에(てぇてぇ) 없으면 못 사는 너네 씹덕들! 전부 이쪽으로 집합하라구~~! 🔥\n\n4000 프로챗으로 테스트 완료!\n본전 뽑으려면 채팅수 30만 성적을 뽑아야해요🥹\n\n",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/822b321b-8a59-441a-9060-fffd55c7f814-tz2TUZzNhmf6doDYmId6LabDELJY7T.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864382"
+    "crawled_at": "2026-01-28T00:51:59.447792"
   },
   {
-    "id": 62,
+    "id": 161,
     "service": "babechat",
     "character_id": "a966c682-c124-4ab7-8d85-fa4087d915b9",
     "rank": 23,
     "name": "비비",
     "author": "BabeChat",
-    "views": 392521,
+    "views": 392522,
     "tags": [
       "타로",
       "신년운세",
@@ -442,16 +442,16 @@
     "description": "[ 베이비챗의 CS 담당자 ]\n[ X 계정 : https://x.com/babechat_kr ]\n\n예상치 못한 사건으로 대표의 눈에 띈 비비는 모종의 계약을 통해 베이비챗에서 일하게 된다.  \n하지만 끝없는 CS 문의로 지칠 대로 지친 비비. \n설상가상, 대표는 새로운 콘텐츠로 비비를 지목한다.  \n\n타로라곤 해본 적도 없는 비비는 회사의 새로운 콘텐츠를 ",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/a966c682-c124-4ab7-8d85-fa4087d915b9-MXg71mA1wuiH08vi3DnYW3H1AdqoMd.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864383"
+    "crawled_at": "2026-01-28T00:51:59.447813"
   },
   {
-    "id": 63,
+    "id": 162,
     "service": "babechat",
     "character_id": "cef28829-a14b-4d3e-b89a-73674c46839c",
     "rank": 24,
     "name": "탐정 아카데미 19th.RE",
     "author": "작고",
-    "views": 385463,
+    "views": 385464,
     "tags": [
       "탐정",
       "아카데미",
@@ -461,16 +461,16 @@
     "description": "[등장인물 30명][이미지 182장][프롤로그 웹툰][시작 설정 14개]\n\n\"여러 범죄조직들이 일으키는 사건들과 알수없는 페즐이라는 괴현상들이 일어나는 안개가 자욱한 빅토리아 시대 런던, 그런 사건들을 해결해가는 탐정들과 그들의 조수들의 이야기.\"",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/cef28829-a14b-4d3e-b89a-73674c46839c-REhTNtsLC83prv0pEAK6KAPkhSq2Hx.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864383"
+    "crawled_at": "2026-01-28T00:51:59.447838"
   },
   {
-    "id": 64,
+    "id": 163,
     "service": "babechat",
     "character_id": "28ea1614-d634-4447-8da4-36d7e4972775",
     "rank": 25,
     "name": "샬럿",
     "author": "selu",
-    "views": 372818,
+    "views": 372823,
     "tags": [
       "판타지",
       "이세계",
@@ -481,16 +481,16 @@
     "description": "당신은 어떤 소녀를 국경지대까지 안전하게 호위해 달라는 부탁을 받았습니다.\n※ 아무 질문도 하지 않을 것\n※ 은밀히 이동 할 것\n※ 보수는 완수 후 협의",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/28ea1614-d634-4447-8da4-36d7e4972775-oKQvdQjgh7HL9nmoSwhViwBKnA99vA.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864383"
+    "crawled_at": "2026-01-28T00:51:59.447859"
   },
   {
-    "id": 65,
+    "id": 164,
     "service": "babechat",
     "character_id": "def848a0-33da-476e-8b02-1a8da193e466",
     "rank": 26,
     "name": "입양아 주제에.",
     "author": "유저",
-    "views": 368516,
+    "views": 368679,
     "tags": [
       "여자",
       "후회",
@@ -501,10 +501,10 @@
     "description": "입양아인 당신은 친자식이 오고 난 후 경멸받는다.",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/def848a0-33da-476e-8b02-1a8da193e466-Luh3i3VIRe8nHAmRlWgvVSWsQ5qPjg.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864384"
+    "crawled_at": "2026-01-28T00:51:59.447880"
   },
   {
-    "id": 66,
+    "id": 165,
     "service": "babechat",
     "character_id": "bbdb01a5-417b-4b28-84f0-83f64a5cacb8",
     "rank": 27,
@@ -521,16 +521,16 @@
     "description": "막 마법소녀가 된 고등학생 소녀. 신상에 대해서는 그 이상으로 알려진 바가 없다. 신입인 것을 감안하더라도 상당히 덜렁대고 동기들에 비해 실수를 많이 하는 편. 그럼에도 수준급의 격투 능력과 흔들림 없는 고고한 마음가짐이 실무진들에게 높은 기대와 관심을 받고 있다. 악의 조직 어비스한테도 말이다. 당신은 어비스의 조직원으로써, 셀레스티아에게서 몇 가지 정보",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/bbdb01a5-417b-4b28-84f0-83f64a5cacb8-PHgjHObWJRTr987QjIP9q2H2LASZ3D.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864384"
+    "crawled_at": "2026-01-28T00:51:59.447901"
   },
   {
-    "id": 67,
+    "id": 166,
     "service": "babechat",
     "character_id": "19135d3e-82a4-4214-9cfe-d16ef6866dfa",
     "rank": 28,
     "name": "NOIR",
     "author": "작고",
-    "views": 354493,
+    "views": 354494,
     "tags": [
       "느와르",
       "이종족",
@@ -541,16 +541,16 @@
     "description": "[이미지 329장][프롤로그 웹툰][등장인물 42명]\n\n\"넌 그냥.. 더럽게 잘만든 괴물일 뿐이야.\"",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/19135d3e-82a4-4214-9cfe-d16ef6866dfa-T5BUEnAn294bUJQAGooaFGNuHv8Eys.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864385"
+    "crawled_at": "2026-01-28T00:51:59.447926"
   },
   {
-    "id": 68,
+    "id": 167,
     "service": "babechat",
     "character_id": "188633a9-024a-4dcc-9cd1-40eba840f8b7",
     "rank": 29,
     "name": "용사, 죽다: 세이프티",
     "author": "드레드나",
-    "views": 349549,
+    "views": 349567,
     "tags": [
       "전생",
       "환생",
@@ -561,10 +561,10 @@
     "description": "세이프티 버전입니다.\n사천왕을 하나, 둘...그리고 마지막, 마왕까지 물리친 당신.\n\"용사 {{user}}\".\n당신은 죽는다. 파티를 남겨둔 채.\n\n『하지만 어쩌면, 죽음은, 끝은. 또다른 시작인 걸지도 모른다.』",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/188633a9-024a-4dcc-9cd1-40eba840f8b7-8qKIgbO1BlffnQrU2cFEVRGMQBjcda.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864385"
+    "crawled_at": "2026-01-28T00:51:59.447947"
   },
   {
-    "id": 69,
+    "id": 168,
     "service": "babechat",
     "character_id": "5fa6222d-bc05-4dea-b233-7dcf41cc9b14",
     "rank": 30,
@@ -581,10 +581,430 @@
     "description": "담배 냄새 밴 누런 벽지, 깨진 타일 위를 질질 끌리는 발걸음, 그리고 그 속에 앉아 당신을 노려보는 한 소녀—이름은 윤다빈. 학교에선 문제아, 성적은 바닥, 태도는 최악. \"수업? ㅈ까세요.\" 첫마디부터 당신을 밀어내는 이 아이는, 세상에 단 한 번도 받아본 적 없는 진심을 갈망하고 있다. 사고로 부모를 잃고, 막장 같은 가정에서 학대와 배신을 견뎌온 아",
     "thumbnail_url": "https://py27ckpypvqi2sq0.public.blob.vercel-storage.com/characters/5fa6222d-bc05-4dea-b233-7dcf41cc9b14-XS7R4iHAPpayMIZQwmzoe6AkgkdELJ.webp",
     "character_url": "https://babechat.ai/ko/dashboard",
-    "crawled_at": "2026-01-27T23:23:35.864385"
+    "crawled_at": "2026-01-28T00:51:59.447972"
   },
   {
-    "id": 70,
+    "id": 229,
+    "service": "caveduck",
+    "character_id": "97736618-7b6d-4f35-9b0e-8509dab9790b",
+    "rank": 1,
+    "name": "아린",
+    "author": "Momi",
+    "views": 6611,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/d168c510-5b0b-4454-84b8-dc8d6d2fdb6e?v=17669170310000",
+    "character_url": "https://caveduck.io/shop/item/97736618-7b6d-4f35-9b0e-8509dab9790b",
+    "crawled_at": "2026-01-28T00:51:59.449497"
+  },
+  {
+    "id": 230,
+    "service": "caveduck",
+    "character_id": "2597a8fa-e44c-42a6-abaf-a83deefd86d9",
+    "rank": 2,
+    "name": "Yeri",
+    "author": "dive_3yjgbc0jiy",
+    "views": 4631,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/50f1ae4f-2b91-45bd-b417-57fd8790e94c?v=17676998690000",
+    "character_url": "https://caveduck.io/shop/item/2597a8fa-e44c-42a6-abaf-a83deefd86d9",
+    "crawled_at": "2026-01-28T00:51:59.449519"
+  },
+  {
+    "id": 231,
+    "service": "caveduck",
+    "character_id": "2a871d84-94a2-4222-8df1-b3842ce15078",
+    "rank": 3,
+    "name": "Taeo",
+    "author": "etoile_bleue",
+    "views": 4416,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/79631d6f-2ec8-4227-a6e3-15b8b5eaa544?v=17682798340000",
+    "character_url": "https://caveduck.io/shop/item/2a871d84-94a2-4222-8df1-b3842ce15078",
+    "crawled_at": "2026-01-28T00:51:59.449540"
+  },
+  {
+    "id": 232,
+    "service": "caveduck",
+    "character_id": "b97a6328-8b41-483f-be51-72d24e10e218",
+    "rank": 4,
+    "name": "강씨네",
+    "author": "Haema",
+    "views": 3748,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/5873843b-af51-4fcc-9edd-29acf9be7a44?v=17691784520000",
+    "character_url": "https://caveduck.io/shop/item/b97a6328-8b41-483f-be51-72d24e10e218",
+    "crawled_at": "2026-01-28T00:51:59.449561"
+  },
+  {
+    "id": 233,
+    "service": "caveduck",
+    "character_id": "5f3fcfa3-008e-4245-8463-6c19882bc1f0",
+    "rank": 5,
+    "name": "민혁",
+    "author": "BlackMoon",
+    "views": 3181,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/4adc7aea-aa46-4274-8dd6-8e16be62fa48?v=17676870350000",
+    "character_url": "https://caveduck.io/shop/item/5f3fcfa3-008e-4245-8463-6c19882bc1f0",
+    "crawled_at": "2026-01-28T00:51:59.449582"
+  },
+  {
+    "id": 234,
+    "service": "caveduck",
+    "character_id": "19fa3223-3b9c-490a-aa2f-fe6c35aea58a",
+    "rank": 6,
+    "name": "少年の消えた季節",
+    "author": "Byeonduck",
+    "views": 2922,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/bd8c3f41-2913-4858-a0bb-ddfe9b452c78?v=17692322220000",
+    "character_url": "https://caveduck.io/shop/item/19fa3223-3b9c-490a-aa2f-fe6c35aea58a",
+    "crawled_at": "2026-01-28T00:51:59.449604"
+  },
+  {
+    "id": 235,
+    "service": "caveduck",
+    "character_id": "b3366edf-c5c9-4085-a06b-38c06e4eb60a",
+    "rank": 7,
+    "name": "나를 선택한 성좌님이... 변태였다니? (화신 육성 시스템)",
+    "author": "Rimimi",
+    "views": 2885,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/e0cc063c-0dcc-4101-9a07-daf1f1571861?v=17677139730000",
+    "character_url": "https://caveduck.io/shop/item/b3366edf-c5c9-4085-a06b-38c06e4eb60a",
+    "crawled_at": "2026-01-28T00:51:59.449625"
+  },
+  {
+    "id": 236,
+    "service": "caveduck",
+    "character_id": "c3931138-41a4-4e84-adf9-9e8eb3d1f228",
+    "rank": 8,
+    "name": "이태찬",
+    "author": "Dororok",
+    "views": 2584,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/ce101636-e14d-41fc-810c-8ed311b22565?v=17691392590000",
+    "character_url": "https://caveduck.io/shop/item/c3931138-41a4-4e84-adf9-9e8eb3d1f228",
+    "crawled_at": "2026-01-28T00:51:59.449647"
+  },
+  {
+    "id": 237,
+    "service": "caveduck",
+    "character_id": "8e3e4f3e-ff06-40f5-898f-44dfc0158124",
+    "rank": 9,
+    "name": "강지한",
+    "author": "Dororok",
+    "views": 2527,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/ba5621b1-83c6-4bb6-bcca-f155aaa46009?v=17691394750000",
+    "character_url": "https://caveduck.io/shop/item/8e3e4f3e-ff06-40f5-898f-44dfc0158124",
+    "crawled_at": "2026-01-28T00:51:59.449668"
+  },
+  {
+    "id": 238,
+    "service": "caveduck",
+    "character_id": "9e1784af-6342-46f7-9a1b-4521e227eff9",
+    "rank": 10,
+    "name": "연우",
+    "author": "RunnyBunny",
+    "views": 2303,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/d6268feb-7779-478d-9355-a9d41174b310?v=17689667490000",
+    "character_url": "https://caveduck.io/shop/item/9e1784af-6342-46f7-9a1b-4521e227eff9",
+    "crawled_at": "2026-01-28T00:51:59.449689"
+  },
+  {
+    "id": 239,
+    "service": "caveduck",
+    "character_id": "1ec6b688-6d13-4942-a54e-d9475026faf8",
+    "rank": 11,
+    "name": "주은설",
+    "author": "L_L_L",
+    "views": 2218,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/565a2db3-4f31-452b-beb9-995bec23b64a?v=17690470400000",
+    "character_url": "https://caveduck.io/shop/item/1ec6b688-6d13-4942-a54e-d9475026faf8",
+    "crawled_at": "2026-01-28T00:51:59.449711"
+  },
+  {
+    "id": 240,
+    "service": "caveduck",
+    "character_id": "606e0ce6-cc71-419e-b360-0970ffab68af",
+    "rank": 12,
+    "name": "유태민",
+    "author": "Jian_saffron",
+    "views": 2046,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/b95a6cb3-b901-4ae0-96e4-282e26ad1583?v=17680319380000",
+    "character_url": "https://caveduck.io/shop/item/606e0ce6-cc71-419e-b360-0970ffab68af",
+    "crawled_at": "2026-01-28T00:51:59.449732"
+  },
+  {
+    "id": 241,
+    "service": "caveduck",
+    "character_id": "9166edc1-26c0-40fd-adcf-97cd01f7978c",
+    "rank": 13,
+    "name": "Tess || Your pregnant \"toxic\" ex(?)-girlfriend",
+    "author": "sireuwu",
+    "views": 2040,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/44aa2168-8063-47cd-b313-fc9d5f8a07c4?v=17692248040000",
+    "character_url": "https://caveduck.io/shop/item/9166edc1-26c0-40fd-adcf-97cd01f7978c",
+    "crawled_at": "2026-01-28T00:51:59.449754"
+  },
+  {
+    "id": 242,
+    "service": "caveduck",
+    "character_id": "6bf2b250-a84e-4041-a314-57e80d9e7664",
+    "rank": 14,
+    "name": "黒崎 唯亜",
+    "author": "dive_fojdsj6arl",
+    "views": 1971,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/5ce82354-d3bc-4306-ab52-d26e77e3132a?v=17673138360000",
+    "character_url": "https://caveduck.io/shop/item/6bf2b250-a84e-4041-a314-57e80d9e7664",
+    "crawled_at": "2026-01-28T00:51:59.449775"
+  },
+  {
+    "id": 243,
+    "service": "caveduck",
+    "character_id": "ccdf8c3c-1f6d-4f4c-885e-9cb700d60c11",
+    "rank": 15,
+    "name": "메스가키랑 같이살기",
+    "author": "Sangsangplay",
+    "views": 1553,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/2ce2f771-97f4-47c8-9107-9d7843ee3398?v=17689853090000",
+    "character_url": "https://caveduck.io/shop/item/ccdf8c3c-1f6d-4f4c-885e-9cb700d60c11",
+    "crawled_at": "2026-01-28T00:51:59.449796"
+  },
+  {
+    "id": 244,
+    "service": "caveduck",
+    "character_id": "8b1715d4-6089-459a-806c-970309100e68",
+    "rank": 16,
+    "name": "현태주",
+    "author": "SEASON",
+    "views": 1551,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/39c6f561-9e73-4efb-ba79-1806e44e1ac2?v=17688153900000",
+    "character_url": "https://caveduck.io/shop/item/8b1715d4-6089-459a-806c-970309100e68",
+    "crawled_at": "2026-01-28T00:51:59.449821"
+  },
+  {
+    "id": 245,
+    "service": "caveduck",
+    "character_id": "295436b2-57c8-436b-9e25-0d61bfa0bb5b",
+    "rank": 17,
+    "name": "CODE：VOID―闇が世界を呑み込む時―",
+    "author": "yorunomousigo",
+    "views": 1522,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/da7604f3-9f47-42ea-9334-e3ecac424e54?v=17692266580000",
+    "character_url": "https://caveduck.io/shop/item/295436b2-57c8-436b-9e25-0d61bfa0bb5b",
+    "crawled_at": "2026-01-28T00:51:59.449842"
+  },
+  {
+    "id": 246,
+    "service": "caveduck",
+    "character_id": "95da5828-9aa0-4374-98df-dec1a0e2d329",
+    "rank": 18,
+    "name": "氷川 凪沙",
+    "author": "puddle_9q4fm1z6je",
+    "views": 1199,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/daab0994-1053-4360-827d-15cb7431e157?v=17691946760000",
+    "character_url": "https://caveduck.io/shop/item/95da5828-9aa0-4374-98df-dec1a0e2d329",
+    "crawled_at": "2026-01-28T00:51:59.449866"
+  },
+  {
+    "id": 247,
+    "service": "caveduck",
+    "character_id": "367c797c-a9fe-4803-a978-3ba0d303eed5",
+    "rank": 19,
+    "name": "PRD-444",
+    "author": "salmon",
+    "views": 1176,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/9d0347f9-f3e6-4cd3-b70e-a9c97049876e?v=17693710090000",
+    "character_url": "https://caveduck.io/shop/item/367c797c-a9fe-4803-a978-3ba0d303eed5",
+    "crawled_at": "2026-01-28T00:51:59.449891"
+  },
+  {
+    "id": 248,
+    "service": "caveduck",
+    "character_id": "03d9a89b-7a20-4506-94fe-f68f862352bc",
+    "rank": 20,
+    "name": "WHAT IF: 만약에",
+    "author": "IDGAF_007",
+    "views": 1137,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/443239ecc256415bba50435247ece2df?v=17695031640000",
+    "character_url": "https://caveduck.io/shop/item/03d9a89b-7a20-4506-94fe-f68f862352bc",
+    "crawled_at": "2026-01-28T00:51:59.449917"
+  },
+  {
+    "id": 249,
+    "service": "caveduck",
+    "character_id": "5e2c45ed-0fec-4cab-996f-9e9c600fb62e",
+    "rank": 21,
+    "name": "수연",
+    "author": "yd",
+    "views": 1119,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/491b4304-d7d7-4be2-9353-4495ed158c19?v=17670495960000",
+    "character_url": "https://caveduck.io/shop/item/5e2c45ed-0fec-4cab-996f-9e9c600fb62e",
+    "crawled_at": "2026-01-28T00:51:59.449939"
+  },
+  {
+    "id": 250,
+    "service": "caveduck",
+    "character_id": "dc2eff9a-1a5a-4b20-9470-912ea9a0ad95",
+    "rank": 22,
+    "name": "호야",
+    "author": "Mangojelly",
+    "views": 1116,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/6ea05ae8-c379-468c-b612-1a72762df773?v=17690730870000",
+    "character_url": "https://caveduck.io/shop/item/dc2eff9a-1a5a-4b20-9470-912ea9a0ad95",
+    "crawled_at": "2026-01-28T00:51:59.449961"
+  },
+  {
+    "id": 251,
+    "service": "caveduck",
+    "character_id": "cd9f86b3-1da4-4315-b40b-0d7a0a271b2c",
+    "rank": 23,
+    "name": "三国志シミュレーション",
+    "author": "licorice0929",
+    "views": 1078,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/a4c833e4-1b9a-4ba7-b587-2ee510a0944c?v=17689164980000",
+    "character_url": "https://caveduck.io/shop/item/cd9f86b3-1da4-4315-b40b-0d7a0a271b2c",
+    "crawled_at": "2026-01-28T00:51:59.449982"
+  },
+  {
+    "id": 252,
+    "service": "caveduck",
+    "character_id": "6a22d47e-2de3-415d-8c4c-d902550fd65f",
+    "rank": 24,
+    "name": "교양 과목'연애 미리보기'",
+    "author": "ri_ta9a2",
+    "views": 1044,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/40973a0d-f14c-4193-9105-11626e0f246a?v=17692348360000",
+    "character_url": "https://caveduck.io/shop/item/6a22d47e-2de3-415d-8c4c-d902550fd65f",
+    "crawled_at": "2026-01-28T00:51:59.450004"
+  },
+  {
+    "id": 253,
+    "service": "caveduck",
+    "character_id": "16255916-89de-4dc3-9e9c-0922e2c0ee18",
+    "rank": 25,
+    "name": "이은하",
+    "author": "down_3zrlyovu9y",
+    "views": 1039,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/a8167aab-ec76-40d6-a8c4-1e613fffcadc?v=17686202800000",
+    "character_url": "https://caveduck.io/shop/item/16255916-89de-4dc3-9e9c-0922e2c0ee18",
+    "crawled_at": "2026-01-28T00:51:59.450029"
+  },
+  {
+    "id": 254,
+    "service": "caveduck",
+    "character_id": "e181d3e2-b4a7-4a24-bf2d-a6584cbf3253",
+    "rank": 26,
+    "name": "하린",
+    "author": "yd",
+    "views": 1035,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/563f1178-7473-4638-b8e8-dea06cfc3813?v=17686675780000",
+    "character_url": "https://caveduck.io/shop/item/e181d3e2-b4a7-4a24-bf2d-a6584cbf3253",
+    "crawled_at": "2026-01-28T00:51:59.450050"
+  },
+  {
+    "id": 255,
+    "service": "caveduck",
+    "character_id": "ef71cf90-9365-47d2-ab69-69cf8c60a7b0",
+    "rank": 27,
+    "name": "내가 키운 아이돌이 내게 집착할 때",
+    "author": "Kwagwang",
+    "views": 1024,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/4e65ece7-b0f7-4c16-b7fe-09be398ac130?v=17690626290000",
+    "character_url": "https://caveduck.io/shop/item/ef71cf90-9365-47d2-ab69-69cf8c60a7b0",
+    "crawled_at": "2026-01-28T00:51:59.450072"
+  },
+  {
+    "id": 256,
+    "service": "caveduck",
+    "character_id": "bc72a12e-2b9b-4569-adfc-40d8a7befeac",
+    "rank": 28,
+    "name": "여동생은 오빠 중독",
+    "author": "waffle22",
+    "views": 1012,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/8f2b508e-d0bf-44ac-8908-7dabf328f4d9?v=17682001950000",
+    "character_url": "https://caveduck.io/shop/item/bc72a12e-2b9b-4569-adfc-40d8a7befeac",
+    "crawled_at": "2026-01-28T00:51:59.450093"
+  },
+  {
+    "id": 257,
+    "service": "caveduck",
+    "character_id": "c5112e50-d835-4d4a-874e-7e5359ce2194",
+    "rank": 29,
+    "name": "ヘリオトロープ",
+    "author": "MocMoc",
+    "views": 1003,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/8cbb779b-6c96-449e-bede-efb231e664ea?v=17695378720000",
+    "character_url": "https://caveduck.io/shop/item/c5112e50-d835-4d4a-874e-7e5359ce2194",
+    "crawled_at": "2026-01-28T00:51:59.450114"
+  },
+  {
+    "id": 258,
+    "service": "caveduck",
+    "character_id": "c21241cb-85fd-4bbc-ae47-33f4912470ad",
+    "rank": 30,
+    "name": "이채아",
+    "author": "DewPetal",
+    "views": 917,
+    "tags": [],
+    "description": null,
+    "thumbnail_url": "https://cdn.caveduck.io/charim/33caaa04-aaf4-47d8-a366-5d557f948701?v=17692434240000",
+    "character_url": "https://caveduck.io/shop/item/c21241cb-85fd-4bbc-ae47-33f4912470ad",
+    "crawled_at": "2026-01-28T00:51:59.450138"
+  },
+  {
+    "id": 169,
     "service": "crack",
     "character_id": "697479ab3deeb461e544d294",
     "rank": 1,
@@ -605,10 +1025,10 @@
     "description": "모두가 적대적인 에크하르트 가문에서 살아남기",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864386"
+    "crawled_at": "2026-01-28T00:51:59.447994"
   },
   {
-    "id": 71,
+    "id": 170,
     "service": "crack",
     "character_id": "69755619823f90700fe52944",
     "rank": 2,
@@ -630,10 +1050,10 @@
     "description": "☑️세이프티 버전입니다.\n\n-싸패+소패 중장인 가부장적 남자와 재혼한 당신.\n-그리고 감히 상사의 아내를 짝사랑하는 순애소령.\n-남편과 전처의 아이 데온.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864386"
+    "crawled_at": "2026-01-28T00:51:59.448016"
   },
   {
-    "id": 72,
+    "id": 171,
     "service": "crack",
     "character_id": "6975a862eda8c18458ea36c6",
     "rank": 3,
@@ -650,15 +1070,15 @@
     "description": "명령어:\n !요약 ->10턴 요약\n!디버그\n!관계도\n!자결\n!지도\n\n모드: 빙의, 오리지널, 신\n\n프로챗1.0, 프로챗2.0 두개 추천드립니다!\n\n학습량: 프로챗1.0(小) < 프로챗2.0(多)\n가격: 프로챗1.0(低) < 프로챗2.0(高)\n---",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864387"
+    "crawled_at": "2026-01-28T00:51:59.448037"
   },
   {
-    "id": 73,
+    "id": 172,
     "service": "crack",
     "character_id": "69755c5f5862ac18c82d97e8",
     "rank": 4,
     "name": "현 일진 VS 전 일진",
-    "author": "찐 부라스덕후",
+    "author": "부라스덕후 짭",
     "views": 10375,
     "tags": [
       "일진",
@@ -675,10 +1095,10 @@
     "description": "등장인물2인!!\n\n프로챗1.0,프로챗 2.0 둘다 추천!!",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864387"
+    "crawled_at": "2026-01-28T00:51:59.448060"
   },
   {
-    "id": 74,
+    "id": 173,
     "service": "crack",
     "character_id": "6967abf193708844d525181b",
     "rank": 5,
@@ -698,10 +1118,10 @@
     "description": "[ 🖼️: 150 | ♀️: 8 | ♂️: 2]\n평범한 인문계 고등학교였던 '상진 고등학교'. 어느 날 아침 조회 시간, 교내 방송 스피커에서 기괴한 노이즈가 울리며 하늘에서 수백 개의 금속 동전이 운동장과 복도, 교실로 쏟아져 내렸다.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864387"
+    "crawled_at": "2026-01-28T00:51:59.448081"
   },
   {
-    "id": 75,
+    "id": 174,
     "service": "crack",
     "character_id": "6972c4f8f689ff89f935daf7",
     "rank": 6,
@@ -723,10 +1143,10 @@
     "description": "[![L.webp](https://i.postimg.cc/1t82cSf2/L.webp)](https://r-suey.vercel.app/)\n사이트(‼️인물들 비밀설정 스포주의‼️)\n***\n# ⌛찢어진 페이지\n: **버려진 악역들의 유폐지, 그리고 당신과의 잔혹한 서사시.**\n> \"기억해. 이곳에 '태어난' 자는 없다는 걸. 모두가 누군가의 이야기 속에서 '추방당한' 자들일 뿐이지.\"\n\n## 🌌세계관\n> 초월자(Rewriter)에 의해 원전(Original Story)에서 분리된 악역들이 모여 사는 격리 세계.\n- 대립 : 과거 죄를 반성, 개심하려는 자들 vs 억압에 반발하는 자들 vs 자유와 혼돈을 추구하는 자들.\n- 격리 부작용 : 변종이라 불리는 몬스터들이 출몰.\n- 권능(Singularity): 각 캐릭터는 원전에서 부여받은 고유한 힘을 가짐.\n\n### 💎 생존 규칙: 결정석\n- 이곳의 모든 존재는 의식주 외에도 주기적으로 결정석(💎)을 흡수해야 함.\n- 소멸의 공포: EP(존재 포인트)가 0%가 될 시 소멸. -> 결정석 흡수 필요.\n- 획득처: 중립 구역이나 배그런스 지역의 변종들 사냥하여 습득.\n\n### 📜마력 단말기: 양피지\n-단말기 기능\n\n## 🗺️지역\n|권역|설명|세부장소목록|\n|:---|:---|:---|\n|📖중립구역|중립 초원지대|(없음)|\n|📘카데이잔|개심한 자들의 도시|상업지대,라 트라폴라(도박장&환전소),슈커리히트(디저트 레스토랑)|\n|📕문명의 선|카데이잔 수호시설|탑 애터너스(행정/감시탑),애터너스 지하실|\n|📙워모트|반항적 요새지대|본부(군단),훈련장|\n|📗배그런스|미스터리의 숲|네스트로브(마법의 성),수상한 안개지대|\n\n## 🔗집단/세력\n|조직명|본진|특징|\n|:---|:---|:---|\n|고해의 집행단|카데이잔&애터너스|치안유지,행정,감시|\n|트랩마이스터|라 트라폴라|기계용병&길드|\n|검은설탕 상단회|슈커리히트|암상단|\n|워모트 군단|워모트|힘의 논리|\n|네스트로버|네스트로브|대마법사의 휘하|",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864388"
+    "crawled_at": "2026-01-28T00:51:59.448102"
   },
   {
-    "id": 76,
+    "id": 175,
     "service": "crack",
     "character_id": "69742cc474aaed18ae9e7287",
     "rank": 7,
@@ -743,10 +1163,10 @@
     "description": "사용자를 괴롭히는 남자애, 서태영. 그 애는 학기 초반부터 계속해서 사용자를 괴롭혔다. 가만히 있는데 머리를 치고 지나가거나 돈을 가져오라고 시키는 식이었다. 가져오지 않으면 폭행은 기본이었다.\n\n어느 날, 괴롭힘을 더는 버티지 못한 사용자는 골목에 주저앉아 있었다. 그런 사용자를 발견한 남자는 서태운이었다.\n\n서태운은 위태로운 사용자를 보고, 그날부터 사용자를 챙겨주기 시작한다. 그렇게 시간이 지나며 태운은 점점 사용자를 사랑하게 되었고 그녀를 지키고 싶다는 마음은 더욱 강해졌다.\n\n결국 그는 사용자와 같은 반인 동생, 서태영에게 도움을 청하기로 한다.\n\n---\n\n서태운\n18살 | 남자 | 188cm\n2학년 2반\n- 서태영의 형\n- 태영을 엄격하게 키운다. 동생을 올곧게 키우는 것이 형의 책임이라고 생각하기 때문이다. \n- 태영을 엄격히 대하는 만큼, 태영을 아낀다.\n- 태영이 조금 엇나가긴 해도 내면은 착하고 여린 아이라고 믿는다.\n- 태영이 담배를 피우거나 동급생을 괴롭히는 사실은 전혀 모른다.\n\n서태영\n17살 | 남자 | 185cm\n1학년 4반\n- 서태운의 동생\n- 학기 초부터 사용자를 괴롭혀왔다. (몰래 뒤뜰로 불러내서 괴롭히는 식으로 괴롭혔기에 같은 반 애들도 태영이 사용자를 괴롭힌다는 사실을 모름)\n- 형 태운을 매우 무서워하기 때문에, 태운 앞에서는 착하게 군다.\n\n---\n\n!요약 : 현재까지의 대화내용을 요약해줍니다.\n!커뮤 : 교내 커뮤니티를 볼 수 있습니다.\n!점검 : 유저 사칭 시 입력해주세요.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864388"
+    "crawled_at": "2026-01-28T00:51:59.448126"
   },
   {
-    "id": 77,
+    "id": 176,
     "service": "crack",
     "character_id": "69736a0e02dd7021192e5b29",
     "rank": 8,
@@ -766,10 +1186,10 @@
     "description": "![](https://i.postimg.cc/xTjm7JsV/0(1)(1).jpg)\n\n## Lauren Lopez (로렌 로페즈)\n- 38세\n- 192cm\n- 금발벽안 미인형 얼굴\n- 특수부대 델타포스 출신 → 부상으로 전역하여 현재는 CIA 요원 (비전투요원)\n- 거주 : 버지니아주 맥클린\n- 침착, 고요함\n- 자존감은 낮지 않지만 “내가 누군가의 인생에 개입할 자격이 있나?” 라고 생각함\n- 군대에서의 부상/실패가 트라우마로 남아있음\n- 군인이던 시절에는 언제 죽을 지 모르는지라 깊은 관계를 안함. 단순 경험은 적지 않음.\n- 군 전역 후에는 트라우마+깊은 감정 배제 습관 탓에 연애 못함\n- 관계가 깊어지면 다정해짐\n- 본인 기준 연애 가능 조건 : 사회적·정신적으로 완전히 독립 / 나이 차이로 인한 권력 비대칭이 없을 것 / 상대 인생에 내가 변수로 남지 않을 것",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864389"
+    "crawled_at": "2026-01-28T00:51:59.448148"
   },
   {
-    "id": 78,
+    "id": 177,
     "service": "crack",
     "character_id": "696f99b70142ac51ff06b889",
     "rank": 9,
@@ -786,10 +1206,10 @@
     "description": "**「……別に、お前を待ってたわけじゃない。」\n(별로, 너를 기다렸던 건 아냐.)**\n\n4월의 벚꽃이 흩날리는 도쿄 근교, 사쿠라오카 고등학교.\n🌸 창가 맨 뒤 자리에 앉은 소년, 쿠로세 하루토.\n\n**「面倒くさい。」\n(귀찮아.)**\n\n그의 입버릇처럼, 하루토는 세상과의 거리를 두는 게 편했다.\n어차피 사람들은 떠나니까.\n감정을 드러내봤자 상처만 남으니까.\n\n그런 그의 옆자리에, 당신이 앉았다.\n**한국에서 온 교환학생/유학생으로.**\n\n그리고 그는 왜인지 자꾸만 당신에게 눈길이 가는 서툰 마음을.. 부정하고 싶어진다.\n\n*━━━━━━━━━━━━━━━━━━━━━*\n🌸\n\n츤츤대는 하루토와 함께 애니 속에 들어온 듯한 일본 고교 라이프를 즐겨보세요! 청춘!! 🌸\n\n❗️모든 하루토의 대사는 일본어(한국어 번역) 형식으로 출력되며, 유저의 대사도 특별한 언급이 없다면 일본어로 간주됩니다.\n\n✅️ 시작 상황: 한국인 교환학생 설정 / 자유설정\n✅️ 명령어\n-!게시판: 2학년 B반 학급 게시판 구경 \n-!라인그룹: 시끄러운 2학년 B반 단체 라인방 대화내용 구경\n-!인스타: 상황에 어울리는 인스타 게시물과 댓글\n-!5ch: 5ch(일본판 디시) 고교 생활판의 가십 스레드 구경\n-!요약: 10~20턴 대화내용 요약.\n\n💙 신발장(게타바코) 쪽지, 도시락(벤토) 문화와 반찬 교환, 문화제의 설렘, 부카츠 활동, 편의점 로손에서 사먹는 오니기리 등..\n\n*━━━━━━━━━━━━━━━━━━━━━*\n🌸 캐릭터 프로필 🌸\n-이름: 쿠로세 하루토 (黒瀬晴人)\n-나이: 17세 (고2)\n-학년: 고등학교 2학년 B반\n-부활동: 도서위원, 경음악부 베이스\n-키 180cm, 마른 체형. \n-검은 머리, 앞머리가 눈을 살짝 가림. \n-날카로운 눈매지만 웃을 때는 의외로 부드러움. \n-헤드폰을 자주 목에 걸치고 다님.\n-창가 맨 뒤 자리 선호.\n-펜 돌리기 습관이 있고 턱을 괴고 창밖을 보는 자세가 특징적. \n-무표정하고 말이 적음. \n-성적은 나름 상위권.\n-감정 표현이 서툼.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864389"
+    "crawled_at": "2026-01-28T00:51:59.448169"
   },
   {
-    "id": 79,
+    "id": 178,
     "service": "crack",
     "character_id": "697480ed3635dd2f72d22c87",
     "rank": 10,
@@ -809,10 +1229,10 @@
     "description": "활동명:유아. 본명:유채아. 18세. 여성. 센터\n사용자에게 3년전 폭력을 당했다. 그로 인해 큰 정신적 타격을 입었다.\n\n엘리시아 (ELYSIA)\n- 유아가 속한 올해 데뷔한 신인 여자 아이돌 그룹명.\n\n엘리스 (ELYS)\n- 그룹 엘리시아의 팬덤명.\n\n유저설정\n- gl, hl 둘다 가능. 유아를 괴롭힌 이유와, 왜 사녹에 찾아갔는지는 자유입니다. 사용자는 학교에서 꽤 잘나갔던 양아치입니다. 현재도 일진인지, 바르게 살아갈지는 자유입니다.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864389"
+    "crawled_at": "2026-01-28T00:51:59.448193"
   },
   {
-    "id": 80,
+    "id": 179,
     "service": "crack",
     "character_id": "6973563ce391fae2760b01f6",
     "rank": 11,
@@ -833,10 +1253,10 @@
     "description": "소환사의 협곡에서 역대급 인성질 고수에게 참패했다. 억울함을 풀기 위해 신청한 PC방 재대결.\n하지만 비장하게 나타난 상대는 험악한 고수가 아닌, 자기 몸집만 한 빨간 란도셀을 멘 초딩이었다!?\n\n\"오빠, 진짜 게임 못한다\"\n\n채팅보다 매운 팩트 폭격에 자존심은 이미 박살 난 상황.\n얼떨결에 시작된 마스터 티어 초딩과의 기묘한 인연... 나, 이 녀석의 '장난감' 신세에서 벗어날 수 있을까?",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864390"
+    "crawled_at": "2026-01-28T00:51:59.448214"
   },
   {
-    "id": 81,
+    "id": 180,
     "service": "crack",
     "character_id": "6971cea55c4a69ee755dc165",
     "rank": 12,
@@ -853,10 +1273,10 @@
     "description": "공식 입학시험을 치르지 않고 최면술 아카데미에 입학한 사용자.\n\n기부입학이라는 소문이 돌아 '돈 많은 집 바보'라고 전교생에게 무시받던 중, 모두에게 아무 제한 없이 최면을 걸 수 있는 '가면 도장'을 얻었다.\n\n가지고 있다가 걸리면 퇴학은 물론이고 제국 경찰에 끌려간다고 하는데...\n\n나를 무시한 그녀들에게 복수할 절호의 기회이기도 하다.\n\n가면 도장을 손에 넣은 사용자의 선택은?\n\n!요약, !학보, !익명\n\n🏆평판\n- 낮을수록 자연스러운 호감작이 어렵습니다\n- 마이너스가 되면 구성원들이 나를 혐오하고 믿어주지 않습니다🥲\n\n✨최면력\n- 내가 최면이 지속되는 시간, 최면 동안의 순종도를 결정합니다.\n- 0보다 낮으면 기껏 최면을 걸어도 상대가 잠깐 자다 깨기만 할 수도😴\n- 수업을 열심히 듣거나 고급 팬던트를 구입해 높일 수 있습니다\n\n💚아르셀 (2학년, 기부입학자 빼고 모두에게 친절)\n💛피온 (3학년, 버럭)\n🩷세르넬 (1학년, 까칠)\n🩵모니안 (4학년, 냉소적 논리적)\n🩶러시엘 (교직원, 항상 짜증나있음)",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864390"
+    "crawled_at": "2026-01-28T00:51:59.448238"
   },
   {
-    "id": 82,
+    "id": 181,
     "service": "crack",
     "character_id": "696a3dc834a5a9860cf75058",
     "rank": 13,
@@ -876,10 +1296,10 @@
     "description": "💬16인 | 🖼️ 214장\n\n---\n\n법칙을 거스르는 자, **이레귤러**.\n진실의 감옥에서 유일하게 ‘거짓’이라는 권능을 쥔 이방인이여.\n당신의 혀끝으로 세상을 속여라. 비극을 비틀고, 견고한 결계를 기만하여 무너뜨려라.\n\n—이제는 ‘당신’이라는 변수가 `재밌는` 이야기를 만들어줄 차례.\n\n**리아메스에 어서오라.**\n당신만이 쓸 수 있는 가면을 들고.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864391"
+    "crawled_at": "2026-01-28T00:51:59.448259"
   },
   {
-    "id": 83,
+    "id": 182,
     "service": "crack",
     "character_id": "69708477ff29e0512674045b",
     "rank": 14,
@@ -900,10 +1320,10 @@
     "description": "[🖼 280장 ♀️ 11명 ♂️ 2명 👾1(?)]\n\n[![](https://i.ifh.cc/WX1DG1.jpg)](https://duckmon22-quiet-place.acrrodiiing.workers.dev/)\n\n⬆️ **인물 소개 및 세계관 보기** / `이미지 클릭!`\n⬆️ [🔊 **BGM 나와요!] / **직접 ON/OFF 할수있어요!** / **접속시 OFF상태, 듣고싶음 BGM ON 클릭!**\n\n---\n\"멸망해 버린 인류. 거대 운석과 함께 정체불명의 괴물들이 도시를 쓸어가버렸다.**\n\n그치만 `인간` 이 누구인가? `뛰는 놈 위에 나는 놈`있듯,\n최상위권 포식자라도 말할수 있다.\n\n`괴물`? 물론 괴물도 조심해야겠지만 여기. . . \n`콰이어트 시티`는 `인간`... 누구도 믿지 마라\n\n`늙었다는건, 살아남았다는`⬇️\n`살아남았다는건, ❓️❓️`",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864391"
+    "crawled_at": "2026-01-28T00:51:59.448283"
   },
   {
-    "id": 84,
+    "id": 183,
     "service": "crack",
     "character_id": "696e3e5534a5a9860c6a7b13",
     "rank": 15,
@@ -914,10 +1334,10 @@
     "description": "**몰입감 있는 플레이를 위한 특별 BGM** 🎵\nhttps://youtu.be/DJkTCt0SAvc\n\n* Ouroboros38 천일남 외전 스토리 입니다.\n\n<명령어>\n- !우로갤 : 인터넷 커뮤니티 여론을 확인합니다.\n- !요약 : 15턴~20턴간 있었던 일을 요약해줍니다. 기억력에 도움 ↑\n- !진행 : 자동으로 이어서 진행\n- !사칭방지 : 유저사칭 오류시 한번씩 하는것 추천",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864391"
+    "crawled_at": "2026-01-28T00:51:59.448306"
   },
   {
-    "id": 85,
+    "id": 184,
     "service": "crack",
     "character_id": "6976fca480e4c862c65d4d72",
     "rank": 16,
@@ -934,10 +1354,10 @@
     "description": "|  🖼️이미지 |🔸프로챗 | 👤캐릭터 |\n|---|---|---|\n| 104장 | 1.5배 권장 | ♀ 18명 |\n\n---\n\n[![도감 보러가기](https://raw.githubusercontent.com/jiun00123-dev/203/refs/heads/main/19.png)](https://204-eight.vercel.app/)\n\n👉 이미지 클릭 시 사이트로 이동\n\n---\n\n가위바위보에서 진 여신 하나,\n세계의 균열을 떠안고 인간계로 향하다.\n\n그리고 그 모든 선택을,\n다섯 여신이 위에서 지켜보고 있었다.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864392"
+    "crawled_at": "2026-01-28T00:51:59.448332"
   },
   {
-    "id": 86,
+    "id": 185,
     "service": "crack",
     "character_id": "697542b5ba09c0db57f85891",
     "rank": 17,
@@ -955,10 +1375,10 @@
     "description": "![](https://raw.githubusercontent.com/dddyod/A/refs/heads/main/206.jpeg)\n\n☢️ 시작 상황\n악마와 천사의 후예가 암암리에 존재하는 20XX 근미래\n-> 국가 권한 악마 상위종에게 \"분류\" 당하게 된 사용자!\n\n📥 명령어\n!요약 -> 20턴마다 추천\n!점검 -> 문체 점검\n!뉴스 -> 헤드라인 뉴스\n!커뮤 -> 커뮤니티 게시글\n\n💢 프로필\n이름: 라즈 RAZZ\n나이: 기원 후 2세기 ~ 현재\n종족: 악마 - 마르바스 6대손\n직업: 특수생체윤리연구소 연구원\n특징: 역안, 붉은색 손톱\nL : 커피, 붉은색, 실험 가능성\nH : 양파, 기도, 마하시아",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864392"
+    "crawled_at": "2026-01-28T00:51:59.448356"
   },
   {
-    "id": 87,
+    "id": 186,
     "service": "crack",
     "character_id": "6975d45e5d07525950f7a6d4",
     "rank": 18,
@@ -980,10 +1400,10 @@
     "description": "창귀는 성불을 위해 당신을 제물로서 잡아왔다.\n[26-01-25]\n____\n\n| 항목 | 서도하 (徐道河) | 구무영 (具武影) |\n|---|---|---|\n| 성별 | 남성 | 남성 |\n| 사망/현재 | 사망: 이겸 즉위 5년 9월 23일 (향년 28세) / 현재: 사망 후 50년 경과, 창귀로 존재 | 현재 나이: 33세 (외관상 30대 후반) / 생전 신분: 자객, 현재: 도하의 수하 |\n| 생전 신분/역할 | 선전관(왕의 측근 무관) | 자객 |\n| 체격 | 180cm, 마른 근육질, 넓은 어깨 | 175cm, 단단한 근육질, 거친 체격 |\n| 외모 | 흑발 상투+망건, 붉은 눈동자, 창백한 피부, 날카로운 이목구비 | 짧고 흐트러진 흑발, 눈에 붕대, 팔/몸에 무수한 상처 |\n| 복장 | 검은 도포, 허리에 붉은 띠, 옷 곳곳 붉은 실 봉인 매듭 | 머리 위 호랑이 가죽 후드, 어두운 갈색 무사복 |\n____",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864393"
+    "crawled_at": "2026-01-28T00:51:59.448379"
   },
   {
-    "id": 88,
+    "id": 187,
     "service": "crack",
     "character_id": "69764a4abd5604658d7c175e",
     "rank": 19,
@@ -1000,10 +1420,10 @@
     "description": "[♂️6][♀️6]\n한강이 검게 물든 서울에서 무엇을 이룰것인가\n\n----\n\n\n# 천우\n![](https://c1m.uk/LW/강준혁01.webp)\n![](https://c1m.uk/LW/윤서아01.webp)\n\n----\n\n# 일심회\n![](https://c1m.uk/LW/유키01.webp)\n![](https://c1m.uk/LW/김류01.webp)\n\n----\n\n# 화련방\n![](https://c1m.uk/LW/진소화01.webp)\n![](https://c1m.uk/LW/왕칠성01.webp)\n\n----\n\n# 데시벨\n![](https://c1m.uk/LW/최진혁01.webp)\n![](https://c1m.uk/LW/이유나01.webp)\n\n----\n\n# 특수 3팀\n![](https://c1m.uk/LW/오진철01.webp)\n![](https://c1m.uk/LW/강소리01.webp)\n\n----\n\n# 무소속\n![](https://c1m.uk/LW/스이01.webp)\n![](https://c1m.uk/LW/닥터01.webp)",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864393"
+    "crawled_at": "2026-01-28T00:51:59.448401"
   },
   {
-    "id": 89,
+    "id": 188,
     "service": "crack",
     "character_id": "69730ea69d2d47cf0542ec82",
     "rank": 20,
@@ -1020,10 +1440,10 @@
     "description": "♂️6♀️7 모든 종족이 모여 경쟁을 벌이는 이카리오 아카데미",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864393"
+    "crawled_at": "2026-01-28T00:51:59.448427"
   },
   {
-    "id": 90,
+    "id": 189,
     "service": "crack",
     "character_id": "6975f6a3966cf6d51664aae6",
     "rank": 21,
@@ -1042,10 +1462,10 @@
     "description": "[🖼️×30, 「넌 왜 나 안 좋아하냐?」 언세이프티 에디션, 소프트 캣파이트 하렘 캠퍼스물]\n\n\\- \"...야. 나 진짜 궁금해서 그러는데. 넌 나 왜 좋아하냐?\"\n\n*들켰다, 아니, 언제부터 알고 있었던 거지? 그렇게 티 났나? 그보다도 저게 무슨 질문이야.*\n\n\\-\"왜, 그렇잖아. 학과에 아무리 여자가 없다지만 나 그다지 연애에 관심도 없고 밖에 나가지도 않는데 너 꽤 진심이더라? 맨날 나한테 커피 사다주고... 자원봉사라도 한 거야? 나 놀리는 건 아니지?\"\n\n*그럴 리가 있겠냐고, 그리고 네가 그렇게 말해버리면 내가 뭐가 되는 거야...*\n\n\\- \"어, 뭐야~ 다들 여기 있었어? 나만 두고 점심 먹으러 가길래 설마 둘이 무슨 관계인가 했는데.\"\n\\- \"뭐래, 그런 거 아니거든. 그냥 조용히 밥이나 먹어.\"\n\n*후... 지아가 와 줘서 다행이다. 조금 모면했을지도...*\n\n\\- \"있지, 있지. 사용자, 넌 나한테 관심 없어? 응? 왜 꼭 도연이랑만 다녀?\"\n\n*...? 이건 또 무슨 말이야. 설마...*\n\n\\- \"윤지아, 그건 무슨 소리야... 그냥, 얘도 별로 연애에 관심 없어보이던데.\"\n\n*응...? 방금 도연이..*",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864394"
+    "crawled_at": "2026-01-28T00:51:59.448501"
   },
   {
-    "id": 91,
+    "id": 190,
     "service": "crack",
     "character_id": "6968987169d82c2680db872b",
     "rank": 22,
@@ -1056,10 +1476,10 @@
     "description": "C:₩Program Files (x86)₩k̻̮̮͕̘͈̀̓̔̾̉̕͟͜ơ̷̤̱̦̰̘̩̥̾̃̑̍͛̀͘͘͜ṉ̨̙͍͖̯̟̼̇̌̅͊́b̛͎̦͇̞͎͍̘̥̦̝̿̐̈́̚̚a̸̡͈̱̲̟̗̤̗͇̣̓̆̓̀̆n̷̡̧̛͚̮̜̠͉̱̣͓̋̅̑͋̀̀ĝ̸̼̪̖̫̊̀̆͒̀̍̂̽̚͢\n시스템 오류 (-1094789057)",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864394"
+    "crawled_at": "2026-01-28T00:51:59.448523"
   },
   {
-    "id": 92,
+    "id": 191,
     "service": "crack",
     "character_id": "69733b9c02dd7021191d440e",
     "rank": 23,
@@ -1079,10 +1499,10 @@
     "description": "하나, 둘씩 들려오는 친구들의 결혼소식.\n혼기가 차갈수록 쉴 새 없이 들어오는 맞선.\n\n쉬고 싶다는 생각에 인터넷에서 ‘희얼사’를 검색해,\n아무 사진이나 프로필에 걸어놓은 지 일주일째..\n\n>서방님 ~ 사랑해요 ♥\n\n그리고 지금, 얼굴도 모르는 서방님이…\n내 눈앞에 서 있다.\n\n---\n\n**✶ [시작상황]**\n그쪽이야?\n식사 데이트 ➜ 1인칭\n자유설정\n\n**✶ [프로필]**\n권태오︱남성︱20세︱8월 12일생︱183cm\n뿌리염색 안된 주황색 염색모+흑안︱반창고︱피어싱\n\n**✶ [키워드북]**\n!요약 ➜ 20턴 이내 요약\n!일기\n!폰\n!페북\n\n**✶ 프로챗2.0/1.0 추천**\n\n---\n\n**[뉴비의 한마디]**\n운영 정책으로 인해, 셒 버전으로 재출시 되었습니다! (ᐡ ܸ ⩌⩊⩌⍝ᐡ)",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864395"
+    "crawled_at": "2026-01-28T00:51:59.448544"
   },
   {
-    "id": 93,
+    "id": 192,
     "service": "crack",
     "character_id": "69528c119fb35287211397f2",
     "rank": 24,
@@ -1093,10 +1513,10 @@
     "description": "이미지 140+, 등장인물 14명, 판타지, 프로챗 추천 | 프로젝트 MAGIC GEAR + WAR 합작",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864395"
+    "crawled_at": "2026-01-28T00:51:59.448566"
   },
   {
-    "id": 94,
+    "id": 193,
     "service": "crack",
     "character_id": "69776ff83deeb461e534fe6c",
     "rank": 25,
@@ -1117,10 +1537,10 @@
     "description": "\"하아... 도련님, 또... 몸 좀 사려 제발.\" ─ 비나\n\n> ### 제국력 121년\n> 대족장 카라에 의해 깃발은 하나로 묶였으나,\n> 마음의 거리는 여전히 칼날보다 날카롭고\n> 협곡보다 깊다.\n> \n> 허나, 어둠이 짙을수록\n> 새벽은 선명하게 스며드는 법.\n>\n> 여명은 떠오르고,\n> ### 그 빛은 대지에 스며든다.\n\n---\n[![](https://d4t.uk/BANNER/스며드는여명_배너.jpg)](https://www.d4t.uk/works/permeating_dawn/)\n[![](https://d4t.uk/BANNER/세계관.jpg)](https://www.d4t.uk/)\n\n| **📷 이미지** | **♂️** | **♀️** | **📅출시일**|\n| :-: | :-: | :-: | :-: |\n| **600+** | **13** | **15**| **2026.01.27** |\n---\n🛠️ [패치 노트]",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864396"
+    "crawled_at": "2026-01-28T00:51:59.448588"
   },
   {
-    "id": 95,
+    "id": 194,
     "service": "crack",
     "character_id": "69758fbff7ba0f3bf1283c12",
     "rank": 26,
@@ -1141,10 +1561,10 @@
     "description": "[![](https://roah.uk/50/aca/acasite.webp)](https://asteria.roah.workers.dev)\n[ACA 홈페이지에 엑세스하기]\n\n반갑습니다, 코디네이터.\n당신, 기억을 잃은 것 같군요.\n갑작스럽게 부여된 V24팀으로서의 임무... 당신이라면 잘 할 수 있을 겁니다.\n\n## 세션 정보\n- 당신은 평범한 V24팀 신입으로 활동하게 됩니다.\n- 보이드와 에테르... 뭐든 궁금한 사항이 있으면 주변에 물어보세요.\n- 앞으로 당신이 맡을 임무는, 유관기관 셀레스티아 공업에 에테르 입자 채굴 위치를 안내하기 위한 보이드 탐사가 되겠습니다. 그 과정에서 괴수를 처치하거나 폭풍을 피하거나... 뜻밖의 인연을 만날지도 모르죠.\n\n## 플레이 안내\n- 시작설정 내부 플레이 가이드를 잘 읽어주시기 바랍니다.\n- 기억상실 WWE를 하면 좀 더 맛있을지도 모르겠군요.\n- V24팀 및 보이드 러너 소속 캐릭터를 제외하면 모두 스탠딩 이미지 1장만 존재합니다. 스챗 구조상 직접적인 전투나 탐사가 이루어지지 않을 것을 고려해 만들지 않은 것입니닷...!",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864396"
+    "crawled_at": "2026-01-28T00:51:59.448609"
   },
   {
-    "id": 96,
+    "id": 195,
     "service": "crack",
     "character_id": "69774db5966cf6d516d2c78b",
     "rank": 27,
@@ -1166,10 +1586,10 @@
     "description": "## [TOKYO FLASH SAFETY✨️]\n1990년대 도쿄, 시부야 뒷골목 라이브클럽 '코쿤'\n구원 혹은 잠식, 불안한 청춘들🎸\n\n사고만 치는 `아르바이트생` 아니면 `밴드 멤버`\n돈이 많은 `손님`, 또 `쿠로가네 조직의 일원`\n높은 자유도로 무엇이든 몰입감있게🥂\n`프로챗2.0`권장\n\n⚠️`유저노트` 아래 내용 삽입 추천\n[# 대사 출력 양식: 일본어 대사(한국어 번역)]\n\n***\n## [인물 소개🎐]\n각자의 `과거사`를 찾아보세요.\n\n| 구분 | **아키(Aki)** | **헤비(Hebi)** | **쿄우(Kyo)** | **나기(Nagi)** |\n| :--- | :--- | :--- | :--- | :--- |\n| **나이** | 23 | 37 | 25 | 29 |\n| **키** | 176 | 184 | 178 | 181 |\n| **생일** | 2월 14일 | 12월 25일 | 10월 1일 | 4월 16일 |\n| **직업** | 메인 보컬 | 오너/야쿠자 | 기타리스트 | 매니저/바텐더 |\n| **MBTI** | ISFP | ENTJ | INTP | ESTJ |\n| **성격** | 나른함, 자기파괴적 | 위압적, 소시오패스 | 무심함, 통찰력 | 현실주의, 독설가 |\n| **선호** | 스킨십 | 맞춤 수트, 위스키 | 파칭코, 편의점 | 일잘러, 돈 |\n| **불호** | 시끄러운 팬 | 지겨운 것 | 거짓말, 배신 | 피해자 코스프레 |\n| **키워드** | #도벽 #애정갈구 | #포식자 #권력 | #허무 #엘리트? | #통제 #양성애자 |\n\n\n\n***\n## [편의 기능✅️]\n필수는 아니지만, 소소한 `즐거움`을 주는\n\n| **키워드** | **설명** |\n| :--- | :--- |\n| !요약 | 15턴에 1번씩 진행, 기억력 도우미 |\n| !일기 | 캐릭터의 일기장 훔쳐보기 |\n| !소문 | 신주쿠를 떠도는 근거없는 소문 |\n| !이벤트 | 귀여운 일상 이벤트(NOT SERIOUS) |",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864396"
+    "crawled_at": "2026-01-28T00:51:59.448631"
   },
   {
-    "id": 97,
+    "id": 196,
     "service": "crack",
     "character_id": "696bc17e8a60c1493d39898d",
     "rank": 28,
@@ -1185,10 +1605,10 @@
     "description": "[이 작품은 호요버스에서 제공하는 2차 창작 가이드를 준수하였습니다]\n\n우주.\n\n광활한 우주.\n\n수많은 행성들과, 수많은 문명들이 살아 숨쉬는 곳.\n\n그곳을 지나는 열차가 있으며,\n어느 천재가 이끄는 우주정거장이 있으며,\n혹독한 한랭 속에서도 버티어 나가는 행성이 있으며,\n우주를 돌아다니는 배들이자 서로를 의지하는 연맹이 있으며,\n가면을 쓴 채 아름다움을 구가하는 축제의 별이 있으며,\n신들에게 잔혹하게 놀아나는 어느 셉터가 있다.\n\n뭇별로 향하는 이야기를,\n시작해 보자.\n\n\n\n![](https://raw.githubusercontent.com/blooke41/U4/refs/heads/main/D2.png)\n\n**스파클** | \"아하하하, 어때? 멋지지?? 내가 쓴 거야!\"\n\n\"장엄하고 화려한 우주.... 아아, 벌써 눈에 들어오지 않아? ♪\"\n\n\"너라는 변수가 들어온다면 이 우주는 어떻게 될까?\"\n\n![](https://raw.githubusercontent.com/blooke41/U4/refs/heads/main/D1.png)\n\n\"기대하고 있을게♡\"\n\n",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864397"
+    "crawled_at": "2026-01-28T00:51:59.448655"
   },
   {
-    "id": 98,
+    "id": 197,
     "service": "crack",
     "character_id": "69773d1d3deeb461e51f57b8",
     "rank": 29,
@@ -1210,10 +1630,10 @@
     "description": "이상한 게이트가 매일 매시간 터지는 미친 사회.\n\n드디어 내게도 성좌님이 매칭이 됐는데\n아... 개쪽팔리는데 주변 사람들은 갑자기 왜 이래⁉️\n\n나만 정상인 것 같아🤬\n\n🧡프로챗 권장, 다른 모델도 다 호환됨💚\n**유저성별자유**\n💎시작설정1: 이목집중\n💎시작설정2: 자유설정\n💎시작설정3: 이미지 모음\n- - -\n\n🤍상세 정보는 웹사이트에 있어요!\n[![551.jpg](https://i.postimg.cc/zvcJd2dg/551.jpg)](https://star-ovab.vercel.app/)\n### [성좌물 간단 설명]\n- 성좌물: 신이 시청자, 인간이 스트리머(BJ) 같은 관계의 장르\n- 계약한 성좌: 독점적 회장님 같은 존재. 능력도 주고 아무튼 이런 저런 주후원자\n\n- Q. 그래서 뭐 하면 돼요? \n- A. 퀘스트 깨거나 아니면 !돌발 을 쓰셔서 우당탕탕에 휘말리세요!\n- - -\n### [다른 성좌 보기]\nhttps://ss-three-gray.vercel.app/\n(로딩 김)",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864397"
+    "crawled_at": "2026-01-28T00:51:59.448676"
   },
   {
-    "id": 99,
+    "id": 198,
     "service": "crack",
     "character_id": "697764ea231e1363e2c50dd6",
     "rank": 30,
@@ -1231,804 +1651,213 @@
     "description": "🐣 \"야, 병아리.\" \n\n옆집에 이사온 덩치 큰 남자.\n\n\"네 또래 만나, 또래.\"\n\"...나같은 사람 뭐가 좋다고.\"\n.\n.\n아저씨(?)에게 질척거려보자\n\n---\n**🐣 강무진**\n✓ 40세\n✓ 190cm / 두꺼운 팔다리와 넓은 어깨, 근육질\n✓ 짙은갈발 / 흑안\n✓ 그을린 피부 / 팔뚝 흉터 / 어깨에 오래된 상처\n✓ 불필요한 교류 싫어함\n✓ 실용성 추구\n✓ 깊은 연애보단 FWB/원나잇이 더 많았음\n✓ 생사를 오간 경험 이후, 외부와의 접촉 최소화하고 사는 중\n✓ 생일: 9월 9일\n✓ 정체: ?\n↪ 비밀이라기엔 생각보다 금방 알려줍니다.",
     "thumbnail_url": null,
     "character_url": "https://crack.wrtn.ai/characters",
-    "crawled_at": "2026-01-27T23:23:35.864398"
+    "crawled_at": "2026-01-28T00:51:59.448702"
   },
   {
-    "id": 17,
-    "service": "lunatalk",
-    "character_id": "44501",
+    "id": 199,
+    "service": "elyn",
+    "character_id": "9e404c7d-5934-40fd-9e15-8bde88cb47b6",
     "rank": 1,
-    "name": "마.소.도! : 마법 소녀들의 도시!",
+    "name": "폴라리스 아카데미 VoL.2",
     "author": null,
-    "views": 650724,
+    "views": 3784,
     "tags": [
-      "순애",
-      "현대판타지",
       "하렘",
-      "시뮬"
+      "별자리",
+      "이세계",
+      "학원",
+      "시뮬레이션",
+      "판타지",
+      "아카데미"
     ],
-    "description": "[ 마법소녀 미연시 시뮬레이션 ]",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_695ce9f982671_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/44501",
-    "crawled_at": "2026-01-27T23:23:35.864364"
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/EhMjL60CliQKs_o4qc2D7/default",
+    "character_url": "https://elyn.ai/chat/9e404c7d-5934-40fd-9e15-8bde88cb47b6",
+    "crawled_at": "2026-01-28T00:51:59.448727"
   },
   {
-    "id": 18,
-    "service": "lunatalk",
-    "character_id": "58264",
+    "id": 200,
+    "service": "elyn",
+    "character_id": "72cf606b-2032-423f-bbf7-c3fe79f748cd",
     "rank": 2,
-    "name": "아포칼립스X그날 우리는",
+    "name": "일진녀 길들이기!",
     "author": null,
-    "views": 43227,
+    "views": 3417,
     "tags": [
-      "남성",
-      "여성",
-      "현대판타지",
-      "아포칼립스"
+      "일상",
+      "드라마",
+      "일진",
+      "판타지"
     ],
-    "description": "[🖼️웹툰/👥28명] 아포칼립스 세계, 그대는?",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/main_696b33fd607f6.webp",
-    "character_url": "https://lunatalk.chat/character/detail/58264",
-    "crawled_at": "2026-01-27T23:23:35.864364"
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/UJGTKaPhz9oeWlrlIqxsm/default",
+    "character_url": "https://elyn.ai/chat/72cf606b-2032-423f-bbf7-c3fe79f748cd",
+    "crawled_at": "2026-01-28T00:51:59.448750"
   },
   {
-    "id": 19,
-    "service": "lunatalk",
-    "character_id": "9306",
+    "id": 201,
+    "service": "elyn",
+    "character_id": "d1b793dd-b779-45a9-95fd-1f6d11fbd016",
     "rank": 3,
-    "name": "더 다이스",
+    "name": "아르카·스페이",
     "author": null,
-    "views": 72344,
+    "views": 2154,
     "tags": [
-      "추천",
-      "판타지",
+      "아카데미",
+      "포스트아포칼립스",
+      "SF",
       "어반판타지",
-      "이능력"
+      "마법소녀"
     ],
-    "description": "'신'은, 주사위 놀이를 하는가",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/9306_main_1766379042_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/9306",
-    "crawled_at": "2026-01-27T23:23:35.864365"
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/eYBb3312eX9BJbsj1uOJT/default",
+    "character_url": "https://elyn.ai/chat/d1b793dd-b779-45a9-95fd-1f6d11fbd016",
+    "crawled_at": "2026-01-28T00:51:59.448771"
   },
   {
-    "id": 20,
-    "service": "lunatalk",
-    "character_id": "12167",
+    "id": 202,
+    "service": "elyn",
+    "character_id": "fee186f5-7af9-4198-9f30-0c9beccc7ec2",
     "rank": 4,
-    "name": "빙의 시뮬레이션",
+    "name": "용사님은 길드마스터!",
     "author": null,
-    "views": 57356,
+    "views": 1822,
     "tags": [
-      "애니메이션",
-      "영화드라마",
-      "게임",
-      "시뮬"
-    ],
-    "description": "원하는 창작물 속으로 들어가자!",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/12167_main_1766379046_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/12167",
-    "crawled_at": "2026-01-27T23:23:35.864365"
-  },
-  {
-    "id": 21,
-    "service": "lunatalk",
-    "character_id": "7123",
-    "rank": 5,
-    "name": "레논 리차드",
-    "author": null,
-    "views": 173694,
-    "tags": [
-      "남성",
       "판타지",
-      "마법",
-      "R-19"
+      "RPG",
+      "시뮬레이션",
+      "JRPG"
     ],
-    "description": "유저노트 프롬프트 생성+제작자 페르소나+소통",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/7123_main_1766379039_400x0.jpeg",
-    "character_url": "https://lunatalk.chat/character/detail/7123",
-    "crawled_at": "2026-01-27T23:23:35.864365"
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/r_MCrjzQ5m1psQ_HfNRY6/default",
+    "character_url": "https://elyn.ai/chat/fee186f5-7af9-4198-9f30-0c9beccc7ec2",
+    "crawled_at": "2026-01-28T00:51:59.448796"
   },
   {
-    "id": 22,
-    "service": "lunatalk",
-    "character_id": "23411",
+    "id": 203,
+    "service": "elyn",
+    "character_id": "23175d8d-9097-4671-a3d6-f8f23397bbb8",
+    "rank": 5,
+    "name": "한채율",
+    "author": null,
+    "views": 1711,
+    "tags": [
+      "어린이",
+      "유치원",
+      "일상",
+      "육아",
+      "순애",
+      "키우기",
+      "동생",
+      "친동생",
+      "귀여움",
+      "애교"
+    ],
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/wcHLNjSCHVp0ZoxSrOpXg/default",
+    "character_url": "https://elyn.ai/chat/23175d8d-9097-4671-a3d6-f8f23397bbb8",
+    "crawled_at": "2026-01-28T00:51:59.448817"
+  },
+  {
+    "id": 204,
+    "service": "elyn",
+    "character_id": "93f56b48-7b17-4363-a597-d2bcebd6e8e0",
     "rank": 6,
-    "name": "강호행",
+    "name": "심하은",
     "author": null,
-    "views": 22248,
+    "views": 1502,
     "tags": [
-      "무협",
-      "시뮬",
-      "추천",
-      "무림"
-    ],
-    "description": "[등장인물 64명] 모든 것은 당신의 선택에 달려있습니다. 강호행에 오신 것을 환영합니다.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_69751f98cf09b_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/23411",
-    "crawled_at": "2026-01-27T23:23:35.864366"
-  },
-  {
-    "id": 23,
-    "service": "lunatalk",
-    "character_id": "60038",
-    "rank": 7,
-    "name": "아르카 스페이:마법소녀×아카데미!",
-    "author": null,
-    "views": 4323,
-    "tags": [
-      "신년제작대회",
-      "현대판타지",
       "아포칼립스",
-      "SF"
+      "우울",
+      "순애",
+      "로맨스",
+      "판타지"
     ],
-    "description": "[👤:♀️22♂️2] [🖼️427] 아카데미+마법소녀+어반판타지+포스트아포칼립스+질병+괴물 짬뽕조합",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/main_6972335b97626.webp",
-    "character_url": "https://lunatalk.chat/character/detail/60038",
-    "crawled_at": "2026-01-27T23:23:35.864366"
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/ctKKutaO_3hvvquCfJzWD/default",
+    "character_url": "https://elyn.ai/chat/93f56b48-7b17-4363-a597-d2bcebd6e8e0",
+    "crawled_at": "2026-01-28T00:51:59.448842"
   },
   {
-    "id": 24,
-    "service": "lunatalk",
-    "character_id": "62641",
-    "rank": 8,
-    "name": "대체역사 시뮬레이터",
+    "id": 205,
+    "service": "elyn",
+    "character_id": "368bbc22-bab8-45a0-884c-4a2c08ca4175",
+    "rank": 7,
+    "name": "Fate",
     "author": null,
-    "views": 6089,
+    "views": 1311,
     "tags": [
+      "판타지",
+      "SF",
+      "시뮬레이션",
+      "다크"
+    ],
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/sGSXEE5dj7yZwUQbco5tc/default",
+    "character_url": "https://elyn.ai/chat/368bbc22-bab8-45a0-884c-4a2c08ca4175",
+    "crawled_at": "2026-01-28T00:51:59.448866"
+  },
+  {
+    "id": 206,
+    "service": "elyn",
+    "character_id": "0fd3af0e-908c-47d0-83a1-885508b28eea",
+    "rank": 8,
+    "name": "소련군의 포로가 되었다",
+    "author": null,
+    "views": 1258,
+    "tags": [
+      "제2차세계대전",
+      "역사물",
+      "역사",
+      "시뮬레이션",
+      "소련",
+      "폴란드",
+      "2차세계대전"
+    ],
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/lgdGDYLP2WxWAP7I2sQRs/default",
+    "character_url": "https://elyn.ai/chat/0fd3af0e-908c-47d0-83a1-885508b28eea",
+    "crawled_at": "2026-01-28T00:51:59.448890"
+  },
+  {
+    "id": 207,
+    "service": "elyn",
+    "character_id": "fcf94ba7-1780-4b1a-9f57-760d6185fc4f",
+    "rank": 9,
+    "name": "청순녀 모범생 타락시켜보자.",
+    "author": null,
+    "views": 1038,
+    "tags": [
+      "일상",
+      "학생",
+      "모범생",
+      "타락",
+      "순애"
+    ],
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/5ySQh0gryBl9ubZTKoV25/default",
+    "character_url": "https://elyn.ai/chat/fcf94ba7-1780-4b1a-9f57-760d6185fc4f",
+    "crawled_at": "2026-01-28T00:51:59.448914"
+  },
+  {
+    "id": 208,
+    "service": "elyn",
+    "character_id": "16a2f801-4df5-4217-a2ce-fb9c5d4653d7",
+    "rank": 10,
+    "name": "LÖGINAS complete",
+    "author": null,
+    "views": 883,
+    "tags": [
+      "산업",
+      "르네상스",
       "대체역사",
-      "시뮬",
+      "개척",
+      "중세",
       "역사"
     ],
-    "description": "역사를 바꿔보세요!",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2025/12/thumb/main_695228e5c63fb_400x0.jpg",
-    "character_url": "https://lunatalk.chat/character/detail/62641",
-    "crawled_at": "2026-01-27T23:23:35.864367"
-  },
-  {
-    "id": 25,
-    "service": "lunatalk",
-    "character_id": "64109",
-    "rank": 9,
-    "name": "E스포츠 구단주+감독+선수 시뮬레이션",
-    "author": null,
-    "views": 527,
-    "tags": [
-      "신년제작대회",
-      "남성",
-      "유명인",
-      "자캐"
-    ],
-    "description": "E 스포츠 매니저 시뮬레이션+나만의 선수",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_6978db7972352_400x0.jpg",
-    "character_url": "https://lunatalk.chat/character/detail/64109",
-    "crawled_at": "2026-01-27T23:23:35.864367"
-  },
-  {
-    "id": 26,
-    "service": "lunatalk",
-    "character_id": "62819",
-    "rank": 10,
-    "name": "이세계 클리셰 박살 S",
-    "author": null,
-    "views": 5223,
-    "tags": [
-      "남성",
-      "여성",
-      "히로인",
-      "개그"
-    ],
-    "description": "🖼️394 웹툰! BGM 있음! 이세계 여신이 클리셰 광이었던 건에 대하여",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/main_69558e65078df.webp",
-    "character_url": "https://lunatalk.chat/character/detail/62819",
-    "crawled_at": "2026-01-27T23:23:35.864367"
-  },
-  {
-    "id": 27,
-    "service": "lunatalk",
-    "character_id": "17581",
-    "rank": 11,
-    "name": "(이식!)위키 수정하면 현실이 된다?",
-    "author": null,
-    "views": 35704,
-    "tags": [
-      "추천",
-      "대체역사",
-      "개그",
-      "시뮬"
-    ],
-    "description": "위키로 현실을 개변하세요!",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/17581_main_1766379054_400x0.jpg",
-    "character_url": "https://lunatalk.chat/character/detail/17581",
-    "crawled_at": "2026-01-27T23:23:35.864368"
-  },
-  {
-    "id": 28,
-    "service": "lunatalk",
-    "character_id": "35218",
-    "rank": 12,
-    "name": "야구선수 생존기",
-    "author": null,
-    "views": 60934,
-    "tags": [
-      "게임",
-      "스포츠",
-      "시뮬",
-      "추천"
-    ],
-    "description": "2026 가상의 대한민국 신인 드래프트에 참가한 유저의 인생을 살아보자.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/35218_main_1766379073_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/35218",
-    "crawled_at": "2026-01-27T23:23:35.864368"
-  },
-  {
-    "id": 29,
-    "service": "lunatalk",
-    "character_id": "20419",
-    "rank": 13,
-    "name": "KILL KILL KILL",
-    "author": null,
-    "views": 141173,
-    "tags": [
-      "추천",
-      "학생",
-      "시뮬",
-      "학원"
-    ],
-    "description": "「뽑아라! 베어라! 죽여라!」 검은 단순하다. 단지 그것뿐이다. 강한 자가 살아남는다.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/20419_main_1766379058_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/20419",
-    "crawled_at": "2026-01-27T23:23:35.864369"
-  },
-  {
-    "id": 30,
-    "service": "lunatalk",
-    "character_id": "64072",
-    "rank": 14,
-    "name": "설화처리전문기업:페어리테일 컴퍼니",
-    "author": null,
-    "views": 767,
-    "tags": [
-      "현대판타지",
-      "신화",
-      "동화",
-      "책"
-    ],
-    "description": "설화 속 존재들이 현실에 나타나기 시작했다. 가장 최악의 형태로.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_6978cdcc434ad_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/64072",
-    "crawled_at": "2026-01-27T23:23:35.864369"
-  },
-  {
-    "id": 31,
-    "service": "lunatalk",
-    "character_id": "5519",
-    "rank": 15,
-    "name": "하나도 안 큰 초딩 시절 일진들",
-    "author": null,
-    "views": 47051,
-    "tags": [
-      "추천",
-      "여성",
-      "일상",
-      "청춘"
-    ],
-    "description": "날 괴롭히던 그 망할 년들... 키가 그대로야?!",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/5519_main_1766379036_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/5519",
-    "crawled_at": "2026-01-27T23:23:35.864370"
-  },
-  {
-    "id": 32,
-    "service": "lunatalk",
-    "character_id": "47279",
-    "rank": 16,
-    "name": "WW2 시뮬레이터",
-    "author": null,
-    "views": 17993,
-    "tags": [
-      "대체역사",
-      "밀리터리",
-      "게임",
-      "시뮬"
-    ],
-    "description": "장자 한 명의 죽음은 비극이요, 백만 명의 죽음은 통계다.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/47279_main_1766379084_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/47279",
-    "crawled_at": "2026-01-27T23:23:35.864370"
-  },
-  {
-    "id": 33,
-    "service": "lunatalk",
-    "character_id": "63038",
-    "rank": 17,
-    "name": "초능력 학원 시뮬레이션",
-    "author": null,
-    "views": 3383,
-    "tags": [
-      "일상",
-      "청춘",
-      "학생",
-      "시뮬"
-    ],
-    "description": "초능력 학교에서 온 입학 통지서. 유저에게 초능력 반응이 있다는데..",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_695b97126a935_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/63038",
-    "crawled_at": "2026-01-27T23:23:35.864371"
-  },
-  {
-    "id": 34,
-    "service": "lunatalk",
-    "character_id": "19738",
-    "rank": 18,
-    "name": "채송화",
-    "author": null,
-    "views": 54477,
-    "tags": [
-      "여성",
-      "능글",
-      "슴다체",
-      "똘마니"
-    ],
-    "description": "\"헤에~? 여기서 뭐하심까?\" 슴다체 일진녀 똘마니",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/19738_main_1766379057_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/19738",
-    "crawled_at": "2026-01-27T23:23:35.864371"
-  },
-  {
-    "id": 35,
-    "service": "lunatalk",
-    "character_id": "51365",
-    "rank": 19,
-    "name": "신공무설[神共舞踅]-반도",
-    "author": null,
-    "views": 768,
-    "tags": [
-      "추천",
-      "판타지",
-      "현대판타지",
-      "동양판타지"
-    ],
-    "description": "신공무설[神共舞踅]: 신(神)과 함께 춤추며 돌다 쓰러지다.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/51365_main_1766379088_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/51365",
-    "crawled_at": "2026-01-27T23:23:35.864372"
-  },
-  {
-    "id": 36,
-    "service": "lunatalk",
-    "character_id": "42149",
-    "rank": 20,
-    "name": "안유정",
-    "author": null,
-    "views": 14319,
-    "tags": [
-      "추천",
-      "여성",
-      "가족",
-      "학생"
-    ],
-    "description": "명절에 만난 싸가지 없는 사촌동생",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/42149_main_1766379080_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/42149",
-    "crawled_at": "2026-01-27T23:23:35.864372"
-  },
-  {
-    "id": 37,
-    "service": "lunatalk",
-    "character_id": "40260",
-    "rank": 21,
-    "name": "가화만사성",
-    "author": null,
-    "views": 4765,
-    "tags": [
-      "추천",
-      "가족",
-      "힐링",
-      "개그"
-    ],
-    "description": "💒화목한 가정. 부모님과 4남매. 당신은 이들 중 한 사람이 되어 이야기를 진행하실 수 있습니다.",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/40260_main_1766379078_400x0.png",
-    "character_url": "https://lunatalk.chat/character/detail/40260",
-    "crawled_at": "2026-01-27T23:23:35.864372"
-  },
-  {
-    "id": 38,
-    "service": "lunatalk",
-    "character_id": "3060",
-    "rank": 22,
-    "name": "프로게이머 시뮬레이터",
-    "author": null,
-    "views": 23757,
-    "tags": [
-      "유명인",
-      "게임",
-      "스포츠",
-      "시뮬"
-    ],
-    "description": "프로게이머의 삶을 체험해보자잇!",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/thumb/3060_main_1766379030_400x0.jpg",
-    "character_url": "https://lunatalk.chat/character/detail/3060",
-    "crawled_at": "2026-01-27T23:23:35.864373"
-  },
-  {
-    "id": 39,
-    "service": "lunatalk",
-    "character_id": "62903",
-    "rank": 23,
-    "name": "던전 운영 시뮬레이터",
-    "author": null,
-    "views": 9075,
-    "tags": [
-      "판타지",
-      "악마",
-      "괴물",
-      "동물"
-    ],
-    "description": "당신만의 던전을 운영해보세요!",
-    "thumbnail_url": "https://lunatalk.chat/public/uploads/character/2026/01/thumb/main_6957eded0a19d_400x0.jpg",
-    "character_url": "https://lunatalk.chat/character/detail/62903",
-    "crawled_at": "2026-01-27T23:23:35.864373"
-  },
-  {
-    "id": 1,
-    "service": "zeta",
-    "character_id": "bd5c568f-b4a1-46be-861d-bf7225537fa0",
-    "rank": 1,
-    "name": "~인외의 집~",
-    "author": null,
-    "views": 3590000,
-    "tags": [
-      "인외",
-      "집착",
-      "공포",
-      "악마",
-      "뱀수인",
-      "수위있음",
-      "살아남기",
-      "다공일수",
-      "로판",
-      "rpg"
-    ],
-    "description": "Guest만 보면 덮치려 드는 인외의 집에서 탈출하기",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/bd5c568f-b4a1-46be-861d-bf7225537fa0/profile",
-    "crawled_at": "2026-01-27T23:23:35.864351"
-  },
-  {
-    "id": 2,
-    "service": "zeta",
-    "character_id": "f9d499c6-90c3-448d-a342-29d2b10f21d6",
-    "rank": 2,
-    "name": "너를 왜이렇게 만나기 힘들까",
-    "author": null,
-    "views": 107000,
-    "tags": [
-      "oc",
-      "robloxoc",
-      "자캐",
-      "로블록스자캐",
-      "사령관",
-      "조금",
-      "개인용",
-      "사심채우기",
-      "ㅋ"
-    ],
-    "description": "",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/f9d499c6-90c3-448d-a342-29d2b10f21d6/profile",
-    "crawled_at": "2026-01-27T23:23:35.864357"
-  },
-  {
-    "id": 3,
-    "service": "zeta",
-    "character_id": "fbf4e6da-cf29-411b-bbc6-044baf7368f3",
-    "rank": 3,
-    "name": "백 사 혁",
-    "author": null,
-    "views": 340000,
-    "tags": [],
-    "description": "당신이였어, 죽은것으로 알려진 S급 헌터가 말이야.",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/fbf4e6da-cf29-411b-bbc6-044baf7368f3/profile",
-    "crawled_at": "2026-01-27T23:23:35.864358"
-  },
-  {
-    "id": 4,
-    "service": "zeta",
-    "character_id": "ec469536-e917-4e4b-b47f-26169c453805",
-    "rank": 4,
-    "name": "천규, 원창",
-    "author": null,
-    "views": 852000,
-    "tags": [
-      "오지콤",
-      "아저씨",
-      "옆집",
-      "이웃",
-      "연상",
-      "이공일수",
-      "언리밋",
-      "hl",
-      "bl",
-      "BB1BB0"
-    ],
-    "description": "옆집에 이사 온 아저씨들이랑 친해졌는데... 백수가 맞긴 한 걸까요?",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/ec469536-e917-4e4b-b47f-26169c453805/profile",
-    "crawled_at": "2026-01-27T23:23:35.864358"
-  },
-  {
-    "id": 5,
-    "service": "zeta",
-    "character_id": "7db74519-9344-460c-b563-688d45a81112",
-    "rank": 5,
-    "name": "당신을 따라하는 여우 참교육",
-    "author": null,
-    "views": 33000,
-    "tags": [
-      "컨트리휴먼",
-      "컨휴",
-      "여우",
-      "따라함",
-      "거짓말",
-      "오해",
-      "참교육"
-    ],
-    "description": "당신을 따라하는 여우년",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/7db74519-9344-460c-b563-688d45a81112/profile",
-    "crawled_at": "2026-01-27T23:23:35.864359"
-  },
-  {
-    "id": 6,
-    "service": "zeta",
-    "character_id": "e23059a6-0b17-40de-8de7-f67d7c4b8ae5",
-    "rank": 6,
-    "name": "새오빠들",
-    "author": null,
-    "views": 543000,
-    "tags": [
-      "입양",
-      "친동생",
-      "새오빠들",
-      "질투",
-      "오빠들",
-      "나쁜년"
-    ],
-    "description": "",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/e23059a6-0b17-40de-8de7-f67d7c4b8ae5/profile",
-    "crawled_at": "2026-01-27T23:23:35.864359"
-  },
-  {
-    "id": 7,
-    "service": "zeta",
-    "character_id": "704b2f85-4ae6-4603-a892-012a002cf2f5",
-    "rank": 7,
-    "name": "한시아",
-    "author": null,
-    "views": 415000,
-    "tags": [
-      "뱀파이어",
-      "집착",
-      "차가움",
-      "흡혈귀",
-      "소유욕",
-      "피폐",
-      "무서움",
-      "로맨스",
-      "언리밋"
-    ],
-    "description": "인간인 척 생활하는 뱀파이어와 마주치다",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/704b2f85-4ae6-4603-a892-012a002cf2f5/profile",
-    "crawled_at": "2026-01-27T23:23:35.864360"
-  },
-  {
-    "id": 8,
-    "service": "zeta",
-    "character_id": "31981ea5-da57-4c41-a68b-40b2b4efe643",
-    "rank": 8,
-    "name": "도차윤",
-    "author": null,
-    "views": 891000,
-    "tags": [
-      "hl",
-      "아이",
-      "아기",
-      "부부",
-      "사내연애",
-      "사내부부",
-      "로맨스",
-      "후회",
-      "유산",
-      "선생님"
-    ],
-    "description": "임신 극구 반대하는 해바라기 남편 꼬시기",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/31981ea5-da57-4c41-a68b-40b2b4efe643/profile",
-    "crawled_at": "2026-01-27T23:23:35.864360"
-  },
-  {
-    "id": 9,
-    "service": "zeta",
-    "character_id": "770d769d-82c5-40d2-91f8-5c20eb4cfac7",
-    "rank": 9,
-    "name": "괴수8호 회식",
-    "author": null,
-    "views": 76000,
-    "tags": [
-      "호시나소우시로",
-      "괴수8호",
-      "미나",
-      "이치카와레노",
-      "시노미야키코루",
-      "히비노카프카",
-      "회식",
-      "hl",
-      "bl"
-    ],
-    "description": "깜찍한 애교 발휘 하시길~\n노출 제한을 받았네욤;;",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/770d769d-82c5-40d2-91f8-5c20eb4cfac7/profile",
-    "crawled_at": "2026-01-27T23:23:35.864360"
-  },
-  {
-    "id": 10,
-    "service": "zeta",
-    "character_id": "55c4391b-27dc-49f6-864c-e6e8acd29d03",
-    "rank": 10,
-    "name": "길라이 바르테",
-    "author": null,
-    "views": 181000,
-    "tags": [
-      "체벌",
-      "주인님",
-      "백작",
-      "냉정",
-      "냉혈한"
-    ],
-    "description": "벽난로 짚어",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/55c4391b-27dc-49f6-864c-e6e8acd29d03/profile",
-    "crawled_at": "2026-01-27T23:23:35.864361"
-  },
-  {
-    "id": 11,
-    "service": "zeta",
-    "character_id": "35435c0f-1f59-4df7-b936-b68a3d413ec6",
-    "rank": 11,
-    "name": "뭐야, 홍일점이야?",
-    "author": null,
-    "views": 215000,
-    "tags": [
-      "판타지",
-      "경찰",
-      "조직",
-      "이능력",
-      "능력",
-      "로맨스",
-      "다공일수",
-      "hl",
-      "늑대",
-      "언리밋"
-    ],
-    "description": "여자가 경위라고?",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/35435c0f-1f59-4df7-b936-b68a3d413ec6/profile",
-    "crawled_at": "2026-01-27T23:23:35.864361"
-  },
-  {
-    "id": 12,
-    "service": "zeta",
-    "character_id": "ae961aa7-f45f-4d4c-bb23-4643f040fbb8",
-    "rank": 12,
-    "name": "연문(緣門)",
-    "author": null,
-    "views": 508000,
-    "tags": [
-      "신",
-      "천계",
-      "동양풍"
-    ],
-    "description": "분노조절 안 하는 신과 그의 애착인간",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/ae961aa7-f45f-4d4c-bb23-4643f040fbb8/profile",
-    "crawled_at": "2026-01-27T23:23:35.864362"
-  },
-  {
-    "id": 13,
-    "service": "zeta",
-    "character_id": "bc54cd42-26c7-4b9d-a117-6051c8db3610",
-    "rank": 13,
-    "name": "백헌류",
-    "author": null,
-    "views": 125000,
-    "tags": [
-      "BL",
-      "bl",
-      "후회공",
-      "경위",
-      "오해공",
-      "자책수",
-      "피폐수"
-    ],
-    "description": "[ BL ] 오해일리 없잖아.",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/bc54cd42-26c7-4b9d-a117-6051c8db3610/profile",
-    "crawled_at": "2026-01-27T23:23:35.864362"
-  },
-  {
-    "id": 14,
-    "service": "zeta",
-    "character_id": "0413001a-d0e9-407a-a7f1-cc67b5351bff",
-    "rank": 14,
-    "name": "카엘",
-    "author": null,
-    "views": 180000,
-    "tags": [
-      "히어로",
-      "빌런",
-      "동거",
-      "현대판타지",
-      "능글",
-      "구원",
-      "혐관",
-      "hl",
-      "bl",
-      "언리밋"
-    ],
-    "description": "SSS급 빌런의 인간 안정제가 되었다.",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/0413001a-d0e9-407a-a7f1-cc67b5351bff/profile",
-    "crawled_at": "2026-01-27T23:23:35.864363"
-  },
-  {
-    "id": 15,
-    "service": "zeta",
-    "character_id": "ef561f93-d7ce-49a0-a587-4ecdea802aea",
-    "rank": 15,
-    "name": "이시현",
-    "author": null,
-    "views": 204000,
-    "tags": [
-      "수학여행",
-      "일진",
-      "철벽",
-      "싸가지",
-      "양아치",
-      "무뚝뚝",
-      "철벽남",
-      "학교"
-    ],
-    "description": "학교에서 완전 잘나가는 일진을 수영장 물에 빠뜨려버렸다.",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/ef561f93-d7ce-49a0-a587-4ecdea802aea/profile",
-    "crawled_at": "2026-01-27T23:23:35.864363"
-  },
-  {
-    "id": 16,
-    "service": "zeta",
-    "character_id": "335bde8e-0172-4082-bd94-f57b74d4ef25",
-    "rank": 16,
-    "name": "[BL] 무뚝뚝한 극우성 알파들.",
-    "author": null,
-    "views": 220000,
-    "tags": [
-      "bl",
-      "오메가버스",
-      "다공일수",
-      "무뚝뚝공",
-      "알파에서",
-      "오메가로",
-      "오메가수",
-      "알파공",
-      "소꿉친구들",
-      "언리밋"
-    ],
-    "description": "캔커피 한 잔으로 알파에서 오메가가 되었다.",
-    "thumbnail_url": null,
-    "character_url": "https://zeta-ai.io/ko/plots/335bde8e-0172-4082-bd94-f57b74d4ef25/profile",
-    "crawled_at": "2026-01-27T23:23:35.864363"
+    "description": null,
+    "thumbnail_url": "https://image.elyn.ai/5I5-_UzI7TiVSy0AAfiv_Q/DuR76ujob1mJrqNSuTkra/default",
+    "character_url": "https://elyn.ai/chat/16a2f801-4df5-4217-a2ce-fb9c5d4653d7",
+    "crawled_at": "2026-01-28T00:51:59.448938"
   }
 ]
