@@ -2,171 +2,171 @@
   {
     "id": 9,
     "report_date": "2026-01-29T08:21:15.176298",
-    "total_posts": 1048,
-    "total_views": 54300,
-    "total_recommends": 712,
-    "total_comments": 3907,
+    "total_posts": 1319,
+    "total_views": 66925,
+    "total_recommends": 930,
+    "total_comments": 4994,
     "top_keywords": [
       {
+        "keyword": "프롬",
+        "count": 32,
+        "score": 0.0186
+      },
+      {
         "keyword": "나오",
-        "count": 23,
-        "score": 0.0199
+        "count": 26,
+        "score": 0.0175
       },
       {
         "keyword": "만들",
-        "count": 22,
-        "score": 0.018
+        "count": 26,
+        "score": 0.0173
+      },
+      {
+        "keyword": "단테",
+        "count": 23,
+        "score": 0.0148
+      },
+      {
+        "keyword": "ai",
+        "count": 6,
+        "score": 0.014
       },
       {
         "keyword": "요즘",
-        "count": 17,
-        "score": 0.0153
-      },
-      {
-        "keyword": "프롬",
-        "count": 20,
-        "score": 0.0153
+        "count": 19,
+        "score": 0.0135
       },
       {
         "keyword": "pc",
         "count": 11,
-        "score": 0.0142
-      },
-      {
-        "keyword": "단테",
-        "count": 16,
-        "score": 0.0136
+        "score": 0.0111
       },
       {
         "keyword": "뤼갤",
-        "count": 14,
-        "score": 0.0129
+        "count": 15,
+        "score": 0.0109
+      },
+      {
+        "keyword": "크랙",
+        "count": 15,
+        "score": 0.0102
+      },
+      {
+        "keyword": "앵챗",
+        "count": 15,
+        "score": 0.01
+      },
+      {
+        "keyword": "제작",
+        "count": 15,
+        "score": 0.0097
+      },
+      {
+        "keyword": "사람",
+        "count": 15,
+        "score": 0.0095
       },
       {
         "keyword": "그림",
         "count": 14,
-        "score": 0.0116
+        "score": 0.0094
       },
       {
         "keyword": "맛있",
-        "count": 12,
-        "score": 0.0109
-      },
-      {
-        "keyword": "웃기",
         "count": 13,
-        "score": 0.0106
+        "score": 0.0094
       },
       {
         "keyword": "미치",
-        "count": 12,
-        "score": 0.0103
-      },
-      {
-        "keyword": "모르",
-        "count": 13,
-        "score": 0.0099
-      },
-      {
-        "keyword": "재밌",
-        "count": 12,
-        "score": 0.0095
-      },
-      {
-        "keyword": "유저",
-        "count": 13,
+        "count": 14,
         "score": 0.0092
       },
       {
-        "keyword": "ai",
-        "count": 3,
-        "score": 0.009
+        "keyword": "웃기",
+        "count": 14,
+        "score": 0.0092
+      },
+      {
+        "keyword": "유저",
+        "count": 16,
+        "score": 0.0092
+      },
+      {
+        "keyword": "재밌",
+        "count": 15,
+        "score": 0.0092
       },
       {
         "keyword": "ooc",
-        "count": 7,
-        "score": 0.0087
-      },
-      {
-        "keyword": "앵챗",
-        "count": 11,
-        "score": 0.0087
+        "count": 10,
+        "score": 0.0089
       },
       {
         "keyword": "반납",
-        "count": 10,
-        "score": 0.0085
+        "count": 13,
+        "score": 0.0088
+      },
+      {
+        "keyword": "수정",
+        "count": 13,
+        "score": 0.0087
+      },
+      {
+        "keyword": "돌리",
+        "count": 15,
+        "score": 0.0084
+      },
+      {
+        "keyword": "리뷰",
+        "count": 15,
+        "score": 0.0084
+      },
+      {
+        "keyword": "모르",
+        "count": 14,
+        "score": 0.0082
       },
       {
         "keyword": "오류",
+        "count": 12,
+        "score": 0.0073
+      },
+      {
+        "keyword": "좋아하",
         "count": 11,
-        "score": 0.0084
+        "score": 0.0073
+      },
+      {
+        "keyword": "케덕",
+        "count": 13,
+        "score": 0.0072
+      },
+      {
+        "keyword": "돚거",
+        "count": 11,
+        "score": 0.0067
+      },
+      {
+        "keyword": "상태",
+        "count": 11,
+        "score": 0.0067
       },
       {
         "keyword": "출력",
         "count": 10,
-        "score": 0.0082
-      },
-      {
-        "keyword": "사람",
-        "count": 10,
-        "score": 0.008
-      },
-      {
-        "keyword": "오늘",
-        "count": 9,
-        "score": 0.008
-      },
-      {
-        "keyword": "크랙",
-        "count": 10,
-        "score": 0.0077
-      },
-      {
-        "keyword": "케덕",
-        "count": 11,
-        "score": 0.0075
-      },
-      {
-        "keyword": "리뷰",
-        "count": 10,
-        "score": 0.007
-      },
-      {
-        "keyword": "사칭",
-        "count": 10,
-        "score": 0.007
-      },
-      {
-        "keyword": "생각",
-        "count": 9,
-        "score": 0.0069
-      },
-      {
-        "keyword": "헌단테",
-        "count": 8,
-        "score": 0.0069
-      },
-      {
-        "keyword": "제미니",
-        "count": 8,
-        "score": 0.0068
-      },
-      {
-        "keyword": "이미지",
-        "count": 9,
         "score": 0.0066
       }
     ],
     "top_characters": [
       {
-        "name": "케덕리뷰",
-        "mentions": 7,
+        "name": "비공",
+        "mentions": 10,
         "rank": 1
       },
       {
-        "name": "비공",
-        "mentions": 5,
+        "name": "케덕리뷰",
+        "mentions": 8,
         "rank": 2
       },
       {
@@ -262,39 +262,75 @@
     ],
     "trending_topics": [
       {
+        "topic": "프롬",
+        "current": 32,
+        "previous": 8,
+        "growth": 300.0
+      },
+      {
         "topic": "나오",
+        "current": 26,
+        "previous": 8,
+        "growth": 225.0
+      },
+      {
+        "topic": "단테",
         "current": 23,
         "previous": 8,
         "growth": 187.5
       },
       {
-        "topic": "프롬",
-        "current": 20,
-        "previous": 8,
+        "topic": "유저",
+        "current": 16,
+        "previous": 6,
+        "growth": 166.7
+      },
+      {
+        "topic": "반납",
+        "current": 13,
+        "previous": 5,
+        "growth": 160.0
+      },
+      {
+        "topic": "ooc",
+        "current": 10,
+        "previous": 4,
         "growth": 150.0
       },
       {
-        "topic": "유저",
-        "current": 13,
+        "topic": "사람",
+        "current": 15,
         "previous": 6,
-        "growth": 116.7
+        "growth": 150.0
       },
       {
         "topic": "요즘",
-        "current": 17,
+        "current": 19,
         "previous": 8,
-        "growth": 112.5
+        "growth": 137.5
       },
       {
-        "topic": "출력",
-        "current": 10,
+        "topic": "돌리",
+        "current": 15,
+        "previous": 7,
+        "growth": 114.3
+      },
+      {
+        "topic": "뤼갤",
+        "current": 15,
+        "previous": 7,
+        "growth": 114.3
+      },
+      {
+        "topic": "웃기",
+        "current": 14,
         "previous": 0,
         "growth": 100.0
       },
       {
-        "topic": "반납",
-        "current": 10,
-        "previous": 5,
+        "topic": "수정",
+        "current": 13,
+        "previous": 0,
         "growth": 100.0
       },
       {
@@ -304,82 +340,46 @@
         "growth": 100.0
       },
       {
-        "topic": "제미니",
-        "current": 8,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "오늘",
-        "current": 9,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "재밌",
-        "current": 12,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "단테",
-        "current": 16,
-        "previous": 8,
-        "growth": 100.0
-      },
-      {
-        "topic": "웃기",
-        "current": 13,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
         "topic": "모르",
-        "current": 13,
+        "current": 14,
         "previous": 0,
         "growth": 100.0
       },
       {
         "topic": "앵챗",
+        "current": 15,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "좋아하",
         "current": 11,
         "previous": 0,
         "growth": 100.0
       },
       {
         "topic": "크랙",
+        "current": 15,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "ai",
+        "current": 6,
+        "previous": 3,
+        "growth": 100.0
+      },
+      {
+        "topic": "돚거",
+        "current": 11,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "출력",
         "current": 10,
         "previous": 0,
         "growth": 100.0
-      },
-      {
-        "topic": "미치",
-        "current": 12,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "사칭",
-        "current": 10,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "뤼갤",
-        "current": 14,
-        "previous": 7,
-        "growth": 100.0
-      },
-      {
-        "topic": "ooc",
-        "current": 7,
-        "previous": 4,
-        "growth": 75.0
-      },
-      {
-        "topic": "만들",
-        "current": 22,
-        "previous": 13,
-        "growth": 69.2
       }
     ]
   },

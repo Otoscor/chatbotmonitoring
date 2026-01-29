@@ -9,58 +9,54 @@
   },
   {
     "tag": "로맨스",
-    "count": 27
+    "count": 28
   },
   {
     "tag": "순애",
-    "count": 23
+    "count": 22
   },
   {
     "tag": "original-character",
-    "count": 19
+    "count": 20
   },
   {
     "tag": "Romance",
-    "count": 17
+    "count": 18
   },
   {
     "tag": "male",
     "count": 16
   },
   {
-    "tag": "일상",
+    "tag": "HL",
     "count": 14
+  },
+  {
+    "tag": "BL",
+    "count": 12
+  },
+  {
+    "tag": "일상",
+    "count": 12
+  },
+  {
+    "tag": "Tsundere",
+    "count": 12
   },
   {
     "tag": "female",
     "count": 12
   },
   {
-    "tag": "HL",
-    "count": 11
-  },
-  {
     "tag": "아카데미",
     "count": 11
   },
   {
-    "tag": "Tsundere",
-    "count": 11
-  },
-  {
-    "tag": "BL",
+    "tag": "modern",
     "count": 10
   },
   {
-    "tag": "modern",
-    "count": 9
-  },
-  {
-    "tag": "hl",
-    "count": 8
-  },
-  {
-    "tag": "현대판타지",
+    "tag": "하렘",
     "count": 8
   },
   {
@@ -77,6 +73,10 @@
   },
   {
     "tag": "School Life",
+    "count": 8
+  },
+  {
+    "tag": "Simulator",
     "count": 8
   }
 ]

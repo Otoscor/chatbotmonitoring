@@ -36,42 +36,42 @@
   },
   {
     "keyword": "상태",
-    "total_count": 46,
+    "total_count": 45,
     "rank": 8
-  },
-  {
-    "keyword": "생각",
-    "total_count": 43,
-    "rank": 9
   },
   {
     "keyword": "에덴",
     "total_count": 42,
+    "rank": 9
+  },
+  {
+    "keyword": "생각",
+    "total_count": 41,
     "rank": 10
   },
   {
     "keyword": "사람",
-    "total_count": 41,
+    "total_count": 40,
     "rank": 11
   },
   {
     "keyword": "맛있",
-    "total_count": 40,
+    "total_count": 39,
     "rank": 12
   },
   {
     "keyword": "ai",
-    "total_count": 39,
+    "total_count": 38,
     "rank": 13
   },
   {
     "keyword": "반납",
-    "total_count": 39,
+    "total_count": 38,
     "rank": 14
   },
   {
     "keyword": "유저",
-    "total_count": 35,
+    "total_count": 34,
     "rank": 15
   },
   {
@@ -85,18 +85,18 @@
     "rank": 17
   },
   {
-    "keyword": "ooc",
+    "keyword": "이상",
     "total_count": 29,
     "rank": 18
   },
   {
-    "keyword": "나오",
-    "total_count": 29,
+    "keyword": "ooc",
+    "total_count": 28,
     "rank": 19
   },
   {
-    "keyword": "이상",
-    "total_count": 29,
+    "keyword": "나오",
+    "total_count": 28,
     "rank": 20
   }
 ]

@@ -1,47 +1,92 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 31,
-    "average_rating": 3.4193548387096775,
+    "total_reviews": 131,
+    "average_rating": 3.519083969465649,
     "rating_distribution": {
-      "1": 5,
-      "2": 4,
-      "3": 4,
-      "4": 9,
-      "5": 9
+      "1": 20,
+      "2": 11,
+      "3": 25,
+      "4": 31,
+      "5": 44
     },
     "platform_distribution": {
-      "google_play": 31
-    }
-  },
-  {
-    "app_name": "Character AI",
-    "total_reviews": 30,
-    "average_rating": 3.4,
-    "rating_distribution": {
-      "1": 8,
-      "2": 2,
-      "3": 4,
-      "4": 2,
-      "5": 14
-    },
-    "platform_distribution": {
-      "google_play": 30
+      "google_play": 131
     }
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 30,
-    "average_rating": 3.2,
+    "total_reviews": 101,
+    "average_rating": 3.6831683168316833,
     "rating_distribution": {
-      "1": 8,
-      "2": 2,
-      "3": 6,
-      "4": 4,
-      "5": 10
+      "1": 15,
+      "2": 6,
+      "3": 17,
+      "4": 21,
+      "5": 42
     },
     "platform_distribution": {
-      "google_play": 30
+      "google_play": 101
+    }
+  },
+  {
+    "app_name": "Character AI",
+    "total_reviews": 100,
+    "average_rating": 3.19,
+    "rating_distribution": {
+      "1": 27,
+      "2": 10,
+      "3": 13,
+      "4": 17,
+      "5": 33
+    },
+    "platform_distribution": {
+      "google_play": 100
+    }
+  },
+  {
+    "app_name": "러비더비 (LoveyDovey)",
+    "total_reviews": 100,
+    "average_rating": 2.54,
+    "rating_distribution": {
+      "1": 39,
+      "2": 15,
+      "3": 19,
+      "4": 7,
+      "5": 20
+    },
+    "platform_distribution": {
+      "google_play": 100
+    }
+  },
+  {
+    "app_name": "베이브챗 (Babechat)",
+    "total_reviews": 100,
+    "average_rating": 2.15,
+    "rating_distribution": {
+      "1": 57,
+      "2": 6,
+      "3": 14,
+      "4": 11,
+      "5": 12
+    },
+    "platform_distribution": {
+      "google_play": 100
+    }
+  },
+  {
+    "app_name": "케이브덕 (Caveduck)",
+    "total_reviews": 100,
+    "average_rating": 3.45,
+    "rating_distribution": {
+      "1": 24,
+      "2": 9,
+      "3": 9,
+      "4": 14,
+      "5": 44
+    },
+    "platform_distribution": {
+      "google_play": 100
     }
   }
 ]
