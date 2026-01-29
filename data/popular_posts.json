@@ -156,6 +156,18 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=220353&page=2"
   },
   {
+    "id": 6292,
+    "post_id": "223814",
+    "gallery_id": "aichatting",
+    "title": "얘들아 당장 폰 제미니 메세지 연동 꺼라",
+    "author": "ㅇㅇ",
+    "created_at": "2026-01-29T10:42:21",
+    "view_count": 311,
+    "recommend_count": 26,
+    "comment_count": 10,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=223814&page=1"
+  },
+  {
     "id": 3754,
     "post_id": "213529",
     "gallery_id": "aichatting",
@@ -226,18 +238,6 @@
     "recommend_count": 0,
     "comment_count": 12,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=218509&page=3"
-  },
-  {
-    "id": 5312,
-    "post_id": "222058",
-    "gallery_id": "aichatting",
-    "title": "진짜 시발 인간적으로 유노 안늘릴거면",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-28T04:30:23",
-    "view_count": 291,
-    "recommend_count": 27,
-    "comment_count": 1,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=222058&page=2"
   },
   {
     "id": 4792,
@@ -336,16 +336,16 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=907833&page=3"
   },
   {
-    "id": 2399,
-    "post_id": "901720",
+    "id": 6270,
+    "post_id": "910411",
     "gallery_id": "wrtnai",
-    "title": "파딱 여름휴가 도촬",
-    "author": "몽맥",
-    "created_at": "2026-01-22T03:49:40",
+    "title": "오늘이 무슨날인지 알면 이렇게 갤질 못할걸?",
+    "author": "달가루",
+    "created_at": "2026-01-29T09:36:13",
     "view_count": 232,
-    "recommend_count": 0,
-    "comment_count": 6,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=901720&page=2"
+    "recommend_count": 16,
+    "comment_count": 40,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=910411&page=2"
   },
   {
     "id": 4801,
@@ -358,18 +358,6 @@
     "recommend_count": 0,
     "comment_count": 7,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=907837&page=3"
-  },
-  {
-    "id": 2415,
-    "post_id": "901704",
-    "gallery_id": "wrtnai",
-    "title": "검색용 제미니도 이 오류를 피해갈 수 없구나",
-    "author": "츠빌링",
-    "created_at": "2026-01-22T03:01:26",
-    "view_count": 216,
-    "recommend_count": 0,
-    "comment_count": 7,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=901704&page=3"
   },
   {
     "id": 5801,
@@ -418,6 +406,18 @@
     "recommend_count": 0,
     "comment_count": 0,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=901755&page=2"
+  },
+  {
+    "id": 5765,
+    "post_id": "910250",
+    "gallery_id": "wrtnai",
+    "title": "Cypher",
+    "author": "2성캐스터",
+    "created_at": "2026-01-29T03:16:51",
+    "view_count": 186,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=910250&page=3"
   },
   {
     "id": 3853,
@@ -504,6 +504,18 @@
     "url": "https://arca.live/b/characterai/160878688?p=3"
   },
   {
+    "id": 6646,
+    "post_id": "160898868",
+    "gallery_id": "characterai",
+    "title": "교황이 Ai챗봇에 대해 발언한 이유",
+    "author": "stoejin",
+    "created_at": "2026-01-29T00:00:00",
+    "view_count": 24,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/160898868?p=2"
+  },
+  {
     "id": 3835,
     "post_id": "160371913",
     "gallery_id": "characterai",
@@ -586,17 +598,5 @@
     "recommend_count": 0,
     "comment_count": 0,
     "url": "https://arca.live/b/characterai/160786598?p=3"
-  },
-  {
-    "id": 6045,
-    "post_id": "160879473",
-    "gallery_id": "characterai",
-    "title": "교황의 AI 경고는 그냥 사회적 해악만 걱정한게 아님",
-    "author": "ㅇㅇ0",
-    "created_at": "2026-01-28T00:00:00",
-    "view_count": 10,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160879473?p=3"
   }
 ]
