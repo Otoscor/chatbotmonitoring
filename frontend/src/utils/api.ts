@@ -368,9 +368,12 @@ export const addBookmark = async (url: string, category = 'post'): Promise<Bookm
 export const fetchBookmarks = async (skip = 0, limit = 50, category?: string) => {
   if (USE_STATIC_DATA) {
     const allBookmarks = await fetchStaticData<Bookmark[]>('bookmarks.json')
-    // skip/limit 적용
-    // 정적 모드에서는 카테고리 필터링 미지원
-    return allBookmarks.slice(skip, skip + limit)
+    let filtered = allBookmarks
+    // 정적 모드 카테고리 필터링
+    if (category) {
+      filtered = allBookmarks.filter(b => b.category === category)
+    }
+    return filtered.slice(skip, skip + limit)
   }
   const params: any = { skip, limit }
   if (category) {
