@@ -13,9 +13,6 @@ export default function Bookmarks() {
     // 배포 환경에서는 무조건 수정 불가 (개발 환경에서만 가능)
     const canEdit = import.meta.env.DEV
 
-    // 개발 환경 확인용 (삭제 불가) - URL 입력 폼 등에서 사용될 수 있음
-    // 하지만 canEdit와 동일한 의미이므로 canEdit만 사용
-
     const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
     const [loading, setLoading] = useState(false)
     const [urlInput, setUrlInput] = useState('')
@@ -90,18 +87,22 @@ export default function Bookmarks() {
     }
 
     return (
-        <div className="space-y-6">
+        <div className="space-y-6" data-page="bookmarks">
             {/* Header */}
-            <div className="pb-6 border-b border-gray-200">
-                <h1 className="text-2xl font-semibold text-gray-900 mb-1">북마크</h1>
-                <p className="text-sm text-gray-500">
+            <header className="page-header" data-section="header">
+                <h1 className="page-title">북마크</h1>
+                <p className="page-description">
                     링크를 저장하고 AI가 자동으로 요약해드립니다
                 </p>
-            </div>
+            </header>
 
             {/* URL 입력 폼 (수정 권한이 있을 때만 표시) */}
             {canEdit && (
-                <form onSubmit={handleAddBookmark} className="bg-white border border-gray-200 rounded p-6">
+                <form
+                    onSubmit={handleAddBookmark}
+                    className="card p-6"
+                    data-component="bookmark-form"
+                >
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                         URL 추가
                     </label>
@@ -127,22 +128,23 @@ export default function Bookmarks() {
 
             {/* 북마크 리스트 */}
             {loading ? (
-                <div className="text-center py-12 text-gray-500">
+                <div className="empty-state py-12" data-state="loading">
                     북마크를 불러오는 중...
                 </div>
             ) : bookmarks.length === 0 ? (
-                <div className="bg-white border border-gray-200 rounded p-12 text-center">
+                <div className="empty-state-card" data-state="empty">
                     <p className="text-gray-500 mb-2">저장된 북마크가 없습니다</p>
                     {canEdit && (
                         <p className="text-sm text-gray-400">위에서 URL을 입력하여 첫 북마크를 추가해보세요</p>
                     )}
                 </div>
             ) : (
-                <div className="grid grid-cols-1 gap-4">
+                <div className="grid grid-cols-1 gap-4" data-component="bookmark-list">
                     {bookmarks.map((bookmark) => (
-                        <div
+                        <article
                             key={bookmark.id}
-                            className="bg-white border border-gray-200 rounded p-4 hover:border-gray-300 transition-colors"
+                            className="bookmark-card"
+                            data-bookmark-id={bookmark.id}
                         >
                             <div className="flex gap-4">
                                 {/* 썸네일 */}
@@ -151,7 +153,7 @@ export default function Bookmarks() {
                                         <img
                                             src={bookmark.thumbnail_url}
                                             alt={bookmark.title || 'Thumbnail'}
-                                            className="w-32 h-24 object-cover rounded"
+                                            className="bookmark-thumbnail"
                                             onError={(e) => {
                                                 e.currentTarget.style.display = 'none'
                                             }}
@@ -160,44 +162,45 @@ export default function Bookmarks() {
                                 )}
 
                                 {/* 내용 */}
-                                <div className="flex-1 min-w-0">
+                                <div className="bookmark-content">
                                     {/* 제목 */}
                                     <a
                                         href={bookmark.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-lg font-medium text-gray-900 hover:text-gray-600 line-clamp-2 block mb-1"
+                                        className="bookmark-title"
                                     >
                                         {bookmark.title || bookmark.url}
                                     </a>
 
                                     {/* 사이트명 */}
                                     {bookmark.site_name && (
-                                        <p className="text-xs text-gray-500 mb-2">{bookmark.site_name}</p>
+                                        <p className="bookmark-site-name">{bookmark.site_name}</p>
                                     )}
 
                                     {/* AI 요약 또는 설명 */}
                                     {bookmark.is_summarized === 1 && bookmark.ai_summary ? (
-                                        <div className="mb-2">
+                                        <div className="mb-2" data-summary="ai">
                                             <div className="text-xs text-blue-600 font-medium mb-1">✨ AI 요약</div>
-                                            <p className="text-sm text-gray-700 line-clamp-3">{bookmark.ai_summary}</p>
+                                            <p className="bookmark-summary">{bookmark.ai_summary}</p>
                                         </div>
                                     ) : bookmark.is_summarized === 0 ? (
-                                        <p className="text-sm text-gray-400 italic mb-2">요약 생성 중...</p>
+                                        <p className="text-sm text-gray-400 italic mb-2" data-summary="pending">요약 생성 중...</p>
                                     ) : bookmark.description ? (
                                         <p className="text-sm text-gray-600 line-clamp-2 mb-2">{bookmark.description}</p>
                                     ) : null}
 
                                     {/* 메타 정보 */}
-                                    <div className="flex items-center gap-4 text-xs text-gray-500">
+                                    <div className="bookmark-meta">
                                         <span>{format(new Date(bookmark.created_at), 'yyyy년 MM월 dd일', { locale: ko })}</span>
 
                                         {/* 버튼들 */}
-                                        <div className="flex gap-2 ml-auto">
+                                        <div className="bookmark-actions">
                                             {bookmark.is_summarized === 2 && canEdit && (
                                                 <button
                                                     onClick={() => handleResummary(bookmark.id)}
                                                     className="text-blue-600 hover:text-blue-800"
+                                                    data-action="resummary"
                                                 >
                                                     요약 재생성
                                                 </button>
@@ -206,6 +209,7 @@ export default function Bookmarks() {
                                                 <button
                                                     onClick={() => handleDelete(bookmark.id)}
                                                     className="text-red-600 hover:text-red-800"
+                                                    data-action="delete"
                                                 >
                                                     삭제
                                                 </button>
@@ -214,7 +218,7 @@ export default function Bookmarks() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </article>
                     ))}
                 </div>
             )}

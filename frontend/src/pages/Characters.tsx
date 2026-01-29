@@ -25,7 +25,7 @@ export default function Characters() {
   return (
     <div className="space-y-6">
       <div className="pb-6 border-b border-gray-200">
-        <h1 className="text-2xl font-semibold text-gray-900 mb-1">키워드 순위</h1>
+        <h1 className="page-title">키워드 순위</h1>
         <p className="text-sm text-gray-500">인기 키워드 랭킹을 확인하세요</p>
       </div>
 

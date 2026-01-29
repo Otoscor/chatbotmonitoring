@@ -73,18 +73,18 @@ export default function Dashboard() {
 
   if (reportLoading) {
     return (
-      <div className="flex items-center justify-center h-96">
-        <div className="text-sm text-gray-400">데이터를 불러오는 중...</div>
+      <div className="loading-state h-96" data-state="loading">
+        <div className="loading-text">데이터를 불러오는 중...</div>
       </div>
     )
   }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8" data-page="dashboard">
       {/* Header */}
-      <div className="pb-6 border-b border-gray-200">
-        <h1 className="text-2xl font-semibold text-gray-900 mb-1">대시보드</h1>
-        <p className="text-sm text-gray-500">
+      <header className="page-header" data-section="header">
+        <h1 className="page-title">대시보드</h1>
+        <p className="page-description">
           {latestReport
             ? `최근 업데이트: ${format(new Date(latestReport.report_date), 'yyyy년 MM월 dd일', { locale: ko })}`
             : '데이터가 없습니다. 크롤링을 시작하세요.'
@@ -93,10 +93,10 @@ export default function Dashboard() {
         <p className="text-xs text-gray-400 mt-1">
           뤼튼 마이너갤 | AI챗팅 마이너갤 | 아카라이브 캐릭터AI
         </p>
-      </div>
+      </header>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <section className="grid grid-cols-1 md:grid-cols-4 gap-4" data-section="stats">
         <StatCard
           title="게시글"
           value={latestReport?.total_posts || 0}
@@ -113,68 +113,64 @@ export default function Dashboard() {
           title="댓글"
           value={latestReport?.total_comments || 0}
         />
-      </div>
+      </section>
 
       {/* 인기 게시글 with Tabs */}
-      <div className="bg-white border border-gray-200 rounded p-6">
+      <section className="card p-6" data-section="popular-posts">
         <div className="mb-4">
-          <h3 className="text-sm font-semibold text-gray-900 mb-3">인기 게시글</h3>
+          <h3 className="section-title mb-3">인기 게시글</h3>
 
           {/* Tabs */}
-          <div className="flex space-x-1 border-b border-gray-200">
+          <div className="tab-list" data-component="gallery-tabs">
             {GALLERY_TABS.map(tab => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`
-                  px-4 py-2 text-sm font-medium transition-colors
-                  ${activeTab === tab.id
-                    ? 'text-gray-900 border-b-2 border-gray-900'
-                    : 'text-gray-500 hover:text-gray-700'
-                  }
-                `}
+                className={`tab-item ${activeTab === tab.id ? 'tab-item--active' : ''}`}
+                data-tab={tab.id}
               >
                 {tab.label}
               </button>
             ))}
           </div>
 
-          <p className="text-xs text-gray-500 mt-3">
+          <p className="section-subtitle mt-3">
             최근 7일 추천수 기준 TOP 15 (공지사항 제외)
           </p>
         </div>
 
         {postsLoading ? (
-          <div className="text-center py-8 text-sm text-gray-400">
+          <div className="empty-state" data-state="loading">
             데이터를 불러오는 중...
           </div>
         ) : !popularPosts || popularPosts.length === 0 ? (
-          <div className="text-center py-8 text-sm text-gray-500">
+          <div className="empty-state" data-state="empty">
             인기 게시글이 없습니다. 크롤링을 시작하세요.
           </div>
         ) : (
           <div className="overflow-x-auto">
-            <table className="w-full text-sm">
+            <table className="data-table" data-component="posts-table">
               <thead>
-                <tr className="border-b border-gray-200">
-                  <th className="text-left py-2 px-3 font-medium text-gray-700 w-12">순위</th>
-                  <th className="text-left py-2 px-3 font-medium text-gray-700">제목</th>
+                <tr className="table-header-row">
+                  <th className="table-header-cell text-left w-12">순위</th>
+                  <th className="table-header-cell text-left">제목</th>
                   {activeTab === 'all' && (
-                    <th className="text-left py-2 px-3 font-medium text-gray-700 w-32">갤러리</th>
+                    <th className="table-header-cell text-left w-32">갤러리</th>
                   )}
-                  <th className="text-right py-2 px-3 font-medium text-gray-700 w-20">추천</th>
-                  <th className="text-right py-2 px-3 font-medium text-gray-700 w-20">조회</th>
-                  <th className="text-right py-2 px-3 font-medium text-gray-700 w-20">댓글</th>
+                  <th className="table-header-cell text-right w-20">추천</th>
+                  <th className="table-header-cell text-right w-20">조회</th>
+                  <th className="table-header-cell text-right w-20">댓글</th>
                 </tr>
               </thead>
               <tbody>
                 {popularPosts.map((post: Post, idx: number) => (
                   <tr
                     key={post.id}
-                    className="border-b border-gray-100 hover:bg-gray-50 transition-colors"
+                    className="table-row"
+                    data-post-id={post.id}
                   >
-                    <td className="py-2 px-3 text-gray-700 font-medium">{idx + 1}</td>
-                    <td className="py-2 px-3">
+                    <td className="table-cell text-gray-700 font-medium">{idx + 1}</td>
+                    <td className="table-cell">
                       {post.url ? (
                         <a
                           href={post.url}
@@ -192,15 +188,15 @@ export default function Dashboard() {
                       )}
                     </td>
                     {activeTab === 'all' && (
-                      <td className="py-2 px-3 text-gray-600 text-xs">{post.gallery_id}</td>
+                      <td className="table-cell text-gray-600 text-xs">{post.gallery_id}</td>
                     )}
-                    <td className="py-2 px-3 text-right text-gray-900 font-medium">
+                    <td className="table-cell text-right text-gray-900 font-medium">
                       {post.recommend_count.toLocaleString()}
                     </td>
-                    <td className="py-2 px-3 text-right text-gray-600">
+                    <td className="table-cell text-right text-gray-600">
                       {post.view_count.toLocaleString()}
                     </td>
-                    <td className="py-2 px-3 text-right text-gray-600">
+                    <td className="table-cell text-right text-gray-600">
                       {post.comment_count.toLocaleString()}
                     </td>
                   </tr>
@@ -209,13 +205,13 @@ export default function Dashboard() {
             </table>
           </div>
         )}
-      </div>
+      </section>
 
       {/* Charts */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-section="charts">
         {/* 게시글 트렌드 */}
-        <div className="bg-white border border-gray-200 rounded p-6">
-          <h3 className="text-sm font-semibold text-gray-900 mb-4">게시글 트렌드</h3>
+        <div className="card p-6" data-chart="posts-trend">
+          <h3 className="section-title mb-4">게시글 트렌드</h3>
           <ResponsiveContainer width="100%" height={200}>
             <AreaChart data={chartData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#E0E0E0" />
@@ -248,8 +244,8 @@ export default function Dashboard() {
         </div>
 
         {/* 조회수 트렌드 */}
-        <div className="bg-white border border-gray-200 rounded p-6">
-          <h3 className="text-sm font-semibold text-gray-900 mb-4">조회수 트렌드</h3>
+        <div className="card p-6" data-chart="views-trend">
+          <h3 className="section-title mb-4">조회수 트렌드</h3>
           <ResponsiveContainer width="100%" height={200}>
             <AreaChart data={chartData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#E0E0E0" />
@@ -280,12 +276,12 @@ export default function Dashboard() {
             </AreaChart>
           </ResponsiveContainer>
         </div>
-      </div>
+      </section>
 
       {/* 키워드 분석 */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-6" data-section="keywords">
         <div className="lg:col-span-2">
-          <h3 className="text-sm font-semibold text-gray-900 mb-3">인기 키워드</h3>
+          <h3 className="section-title mb-3">인기 키워드</h3>
           <KeywordCloud
             keywords={latestReport?.top_keywords?.map((k: any) => ({
               text: k.keyword,
@@ -294,7 +290,7 @@ export default function Dashboard() {
           />
         </div>
         <div>
-          <h3 className="text-sm font-semibold text-gray-900 mb-3">키워드 순위</h3>
+          <h3 className="section-title mb-3">키워드 순위</h3>
           <RankingList
             title="TOP 10"
             items={latestReport?.top_keywords?.slice(0, 10).map((k: any, idx: number) => ({
@@ -304,7 +300,7 @@ export default function Dashboard() {
             })) || []}
           />
         </div>
-      </div>
+      </section>
     </div>
   )
 }

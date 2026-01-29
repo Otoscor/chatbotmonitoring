@@ -19,61 +19,59 @@ export default function Layout({ children }: LayoutProps) {
   const location = useLocation()
   const [crawling, setCrawling] = useState(false)
 
-  const handleRefreshAll = async () => {
+  const handleRefreshAll = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault()
+    e.stopPropagation() // 이벤트 버블링 중단
+    e.currentTarget.blur() // 버튼 포커스 해제
+
     if (USE_STATIC_DATA) {
       alert('정적 모드에서는 데이터 갱신을 사용할 수 없습니다.')
       return
     }
 
-    const isConfirmed = window.confirm(
-      '모든 데이터를 크롤링하시겠습니까?\n' +
-      '• 커뮤니티 게시글\n' +
-      '• 캐릭터챗 서비스\n' +
-      '• 뉴스 기사\n' +
-      '• 리포트 생성\n\n' +
-      '(약 1-2분 소요)'
-    )
-    if (!isConfirmed) return
+    // 렌더링 사이클과 브라우저 팝업 충돌 방지를 위해 약간의 지연 추가
+    // 사용자 요청으로 confirm/alert 제거 후 즉시 실행
+    setTimeout(async () => {
+      setCrawling(true)
 
-    setCrawling(true)
+      try {
+        // 1. 커뮤니티 게시글 크롤링 + 리포트 생성
+        await triggerCrawl(undefined, 3)
+        await generateReport()
 
-    try {
-      alert('데이터 갱신을 시작합니다. 잠시만 기다려주세요...')
+        // 2. 캐릭터챗 서비스 크롤링
+        await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk', 'crack', 'caveduck', 'elyn'])
 
-      // 1. 커뮤니티 게시글 크롤링 + 리포트 생성
-      await triggerCrawl(undefined, 3)
-      await generateReport()
+        // 3. 뉴스 크롤링
+        await triggerNewsCrawl()
 
-      // 2. 캐릭터챗 서비스 크롤링
-      await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk', 'crack'])
-
-      // 3. 뉴스 크롤링
-      await triggerNewsCrawl()
-
-      alert('모든 데이터 갱신이 완료되었습니다!')
-      window.location.reload()
-    } catch (error: any) {
-      const errorMsg = error.response?.data?.message || error.message || '알 수 없는 오류'
-      alert(`데이터 갱신 중 오류가 발생했습니다: ${errorMsg}`)
-      console.error(error)
-    } finally {
-      setCrawling(false)
-    }
+        // 완료 알림 없이 바로 새로고침하거나, 토스트 메시지 등을 고려할 수 있음.
+        // 여기서는 새로고침만 수행
+        window.location.reload()
+      } catch (error: any) {
+        const errorMsg = error.response?.data?.message || error.message || '알 수 없는 오류'
+        // 에러 상황에서는 최소한의 알림이 필요할 수 있으나, 요청에 따라 console.error로 대체하거나 간소화
+        console.error(`데이터 갱신 중 오류가 발생했습니다: ${errorMsg}`)
+        alert(`데이터 갱신 중 오류가 발생했습니다: ${errorMsg}`) // 에러는 알려주는 게 좋음
+      } finally {
+        setCrawling(false)
+      }
+    }, 50)
   }
 
   return (
-    <div className="min-h-screen flex bg-white">
+    <div className="app-container">
       {/* Sidebar */}
-      <aside className="fixed top-0 left-0 h-screen w-60 bg-gray-50 border-r border-gray-200 flex flex-col">
+      <aside className="app-sidebar" data-component="sidebar">
         {/* Logo */}
-        <div className="px-6 py-5 border-b border-gray-200">
-          <h1 className="text-sm font-semibold text-gray-900">챗봇 모니터링</h1>
-          <p className="text-xs text-gray-500 mt-0.5">캐릭터 챗을 이해하기 위한 모니터링</p>
+        {/* Logo */}
+        <div className="sidebar-header" data-section="header">
+          <img src="/logo.png" alt="Logo" className="h-6 w-auto" />
         </div>
 
         {/* Navigation */}
-        <nav className="flex-1 px-3 py-3">
-          <ul className="space-y-0.5">
+        <nav className="sidebar-nav" data-section="navigation">
+          <ul className="nav-list">
             {navItems.map(({ path, label }) => {
               const isActive = location.pathname === path
               return (
@@ -81,12 +79,14 @@ export default function Layout({ children }: LayoutProps) {
                   <Link
                     to={path}
                     className={`
-                      block px-3 py-1.5 rounded text-sm transition-colors
+                      nav-item
+                      block px-3 py-1.5 rounded transition-colors
                       ${isActive
                         ? 'bg-gray-200 text-gray-900 font-medium'
                         : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
                       }
                     `}
+                    data-nav-item={path}
                   >
                     {label}
                   </Link>
@@ -97,12 +97,14 @@ export default function Layout({ children }: LayoutProps) {
         </nav>
 
         {/* Footer - Data Refresh Button */}
-        <div className="px-3 py-3 border-t border-gray-200">
+        <div className="sidebar-footer" data-section="footer">
           {!USE_STATIC_DATA && (
             <button
+              type="button"
               onClick={handleRefreshAll}
               disabled={crawling}
-              className="w-full px-3 py-2 text-sm font-medium bg-gray-900 text-white rounded hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="crawl-button"
+              data-action="crawl"
             >
               {crawling ? '크롤링 중...' : '크롤링 시작'}
             </button>
@@ -112,8 +114,8 @@ export default function Layout({ children }: LayoutProps) {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 overflow-auto ml-60">
-        <div className="max-w-6xl mx-auto px-12 py-10">
+      <main className="app-main-content" data-component="main">
+        <div className="main-content-wrapper">
           {children}
         </div>
       </main>

@@ -1,31 +1,67 @@
 [
   {
-    "tag": "로맨스",
-    "count": 20
-  },
-  {
     "tag": "판타지",
-    "count": 18
+    "count": 35
   },
   {
     "tag": "시뮬레이션",
-    "count": 16
+    "count": 29
+  },
+  {
+    "tag": "로맨스",
+    "count": 27
   },
   {
     "tag": "순애",
-    "count": 15
+    "count": 23
   },
   {
-    "tag": "hl",
-    "count": 10
+    "tag": "original-character",
+    "count": 19
+  },
+  {
+    "tag": "Romance",
+    "count": 17
+  },
+  {
+    "tag": "male",
+    "count": 16
+  },
+  {
+    "tag": "일상",
+    "count": 14
+  },
+  {
+    "tag": "female",
+    "count": 12
   },
   {
     "tag": "HL",
+    "count": 11
+  },
+  {
+    "tag": "아카데미",
+    "count": 11
+  },
+  {
+    "tag": "Tsundere",
+    "count": 11
+  },
+  {
+    "tag": "BL",
     "count": 10
   },
   {
-    "tag": "추천",
+    "tag": "modern",
     "count": 9
+  },
+  {
+    "tag": "hl",
+    "count": 8
+  },
+  {
+    "tag": "현대판타지",
+    "count": 8
   },
   {
     "tag": "시뮬",
@@ -36,47 +72,11 @@
     "count": 8
   },
   {
-    "tag": "언리밋",
-    "count": 7
+    "tag": "추천",
+    "count": 8
   },
   {
-    "tag": "일상",
-    "count": 7
-  },
-  {
-    "tag": "집착",
-    "count": 7
-  },
-  {
-    "tag": "현대판타지",
-    "count": 7
-  },
-  {
-    "tag": "여성",
-    "count": 7
-  },
-  {
-    "tag": "BL",
-    "count": 7
-  },
-  {
-    "tag": "하렘",
-    "count": 6
-  },
-  {
-    "tag": "아카데미",
-    "count": 6
-  },
-  {
-    "tag": "여자",
-    "count": 6
-  },
-  {
-    "tag": "다정",
-    "count": 5
-  },
-  {
-    "tag": "무뚝뚝",
-    "count": 5
+    "tag": "School Life",
+    "count": 8
   }
 ]

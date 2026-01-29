@@ -1,24 +1,31 @@
-import { useCallback } from 'react'
+import { useCallback, useState } from 'react'
 import { useApi } from '../hooks/useApi'
 import { fetchChatServiceCharacters, fetchPopularTags, ChatServiceCharacter, PopularTag } from '../utils/api'
 import KeywordCloud from '../components/KeywordCloud'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
+
+// 서비스 설정
+const SERVICE_CONFIG = [
+  { id: 'zeta', label: 'Zeta', subtext: '전체 인기순', directLink: true },
+  { id: 'lunatalk', label: 'LUNATALK', subtext: '일간 랭킹', directLink: true },
+  { id: 'babechat', label: 'BabeChat', subtext: '인기순', directLink: false },
+  { id: 'crack', label: 'Crack', subtext: '대화 횟수순', directLink: false },
+  { id: 'elyn', label: 'Elyn', subtext: '랭킹', directLink: true },
+  { id: 'caveduck', label: 'Caveduck', subtext: '랭킹', directLink: true }
+]
+
+const ITEMS_PER_PAGE = 4
 
 export default function CharacterRankings() {
+  const [currentPage, setCurrentPage] = useState(0)
+
   const { data: characters, loading } = useApi(
-    useCallback(() => fetchChatServiceCharacters(undefined, 150), [])
+    useCallback(() => fetchChatServiceCharacters(undefined, 180), []) // 30 per service * 6 = 180
   )
 
   const { data: popularTags, loading: tagsLoading } = useApi(
     useCallback(() => fetchPopularTags(20), [])
   )
-
-  // 서비스별로 그룹화
-  const groupedCharacters = {
-    zeta: characters?.filter((c: ChatServiceCharacter) => c.service === 'zeta') || [],
-    lunatalk: characters?.filter((c: ChatServiceCharacter) => c.service === 'lunatalk') || [],
-    babechat: characters?.filter((c: ChatServiceCharacter) => c.service === 'babechat') || [],
-    crack: characters?.filter((c: ChatServiceCharacter) => c.service === 'crack') || []
-  }
 
   const formatViews = (views: number) => {
     if (views >= 10000) {
@@ -30,31 +37,42 @@ export default function CharacterRankings() {
     return views.toString()
   }
 
+  // 페이지 이동 핸들러
+  const totalPages = Math.ceil(SERVICE_CONFIG.length / ITEMS_PER_PAGE)
+  const nextPage = () => setCurrentPage(prev => Math.min(prev + 1, totalPages - 1))
+  const prevPage = () => setCurrentPage(prev => Math.max(prev - 1, 0))
+
+  // 현재 페이지에 보여줄 서비스들
+  const currentServices = SERVICE_CONFIG.slice(
+    currentPage * ITEMS_PER_PAGE,
+    (currentPage + 1) * ITEMS_PER_PAGE
+  )
+
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-96">
-        <div className="text-sm text-gray-400">데이터를 불러오는 중...</div>
+      <div className="loading-state h-96" data-state="loading">
+        <div className="loading-text">데이터를 불러오는 중...</div>
       </div>
     )
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6" data-page="character-rankings">
       {/* 헤더 */}
-      <div className="pb-6 border-b border-gray-200">
-        <h1 className="text-2xl font-semibold text-gray-900 mb-1">캐릭터 순위</h1>
-        <p className="text-sm text-gray-500">인기 캐릭터챗 서비스의 TOP 캐릭터</p>
-      </div>
+      <header className="page-header" data-section="header">
+        <h1 className="page-title">캐릭터 순위</h1>
+        <p className="page-description">인기 캐릭터챗 서비스의 TOP 캐릭터</p>
+      </header>
 
       {/* 인기 해시태그 */}
-      <div className="bg-white border border-gray-200 rounded p-6">
-        <h3 className="text-sm font-semibold text-gray-900 mb-4">인기 해시태그</h3>
+      <section className="card p-6" data-section="popular-hashtags">
+        <h3 className="section-title mb-4">인기 해시태그</h3>
         {tagsLoading ? (
-          <div className="text-center py-8 text-sm text-gray-400">
+          <div className="empty-state" data-state="loading">
             데이터를 불러오는 중...
           </div>
         ) : !popularTags || popularTags.length === 0 ? (
-          <div className="text-center py-8 text-sm text-gray-500">
+          <div className="empty-state" data-state="empty">
             태그 데이터가 없습니다.
           </div>
         ) : (
@@ -65,82 +83,74 @@ export default function CharacterRankings() {
             }))}
           />
         )}
-      </div>
+      </section>
 
-      {/* 4열 레이아웃 - 반응형 (데스크톱 4열, 태블릿 2열, 모바일 1열) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {/* 제타 섹션 */}
-        {groupedCharacters.zeta.length > 0 && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-lg font-medium text-gray-900">Zeta</h2>
-              <span className="text-sm text-gray-500">{groupedCharacters.zeta.length}개</span>
-            </div>
-            <div className="text-xs text-gray-500 -mt-2 mb-2">전체 인기순</div>
-            
-            <div className="space-y-3">
-              {groupedCharacters.zeta.map((char: ChatServiceCharacter) => (
-                <CharacterCard key={char.id} character={char} formatViews={formatViews} />
-              ))}
-            </div>
-          </div>
+      {/* 캐릭터 순위 캐러셀 영역 */}
+      <section className="relative" data-section="character-carousel">
+        {/* 네비게이션 버튼 (좌) - Fixed Position */}
+        {currentPage > 0 && (
+          <button
+            onClick={prevPage}
+            className="carousel-nav-button carousel-nav-prev group"
+            aria-label="이전 페이지"
+            data-action="prev"
+          >
+            <ChevronLeft className="carousel-nav-icon group-hover:text-gray-900" />
+          </button>
         )}
 
-        {/* 루나톡 섹션 */}
-        {groupedCharacters.lunatalk.length > 0 && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-lg font-medium text-gray-900">LUNATALK</h2>
-              <span className="text-sm text-gray-500">{groupedCharacters.lunatalk.length}개</span>
-            </div>
-            <div className="text-xs text-gray-500 -mt-2 mb-2">일간 랭킹</div>
-            
-            <div className="space-y-3">
-              {groupedCharacters.lunatalk.map((char: ChatServiceCharacter) => (
-                <CharacterCard key={char.id} character={char} formatViews={formatViews} />
-              ))}
-            </div>
-          </div>
+        {/* 네비게이션 버튼 (우) - Fixed Position */}
+        {currentPage < totalPages - 1 && (
+          <button
+            onClick={nextPage}
+            className="carousel-nav-button carousel-nav-next group"
+            aria-label="다음 페이지"
+            data-action="next"
+          >
+            <ChevronRight className="carousel-nav-icon group-hover:text-gray-900" />
+          </button>
         )}
 
-        {/* 베이비챗 섹션 */}
-        {groupedCharacters.babechat.length > 0 && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-lg font-medium text-gray-900">BabeChat</h2>
-              <span className="text-sm text-gray-500">{groupedCharacters.babechat.length}개</span>
-            </div>
-            <div className="text-xs text-gray-500 -mt-2 mb-2">인기순</div>
-            
-            <div className="space-y-3">
-              {groupedCharacters.babechat.map((char: ChatServiceCharacter) => (
-                <CharacterCard key={char.id} character={char} formatViews={formatViews} />
-              ))}
-            </div>
-          </div>
-        )}
+        {/* 4열 그리드 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-component="service-grid">
+          {currentServices.map((serviceConfig) => {
+            const serviceCharacters = characters?.filter(
+              (c: ChatServiceCharacter) => c.service === serviceConfig.id
+            ) || []
 
-        {/* 크랙 섹션 */}
-        {groupedCharacters.crack.length > 0 && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-lg font-medium text-gray-900">Crack</h2>
-              <span className="text-sm text-gray-500">{groupedCharacters.crack.length}개</span>
-            </div>
-            <div className="text-xs text-gray-500 -mt-2 mb-2">대화 횟수순</div>
-            
-            <div className="space-y-3">
-              {groupedCharacters.crack.map((char: ChatServiceCharacter) => (
-                <CharacterCard key={char.id} character={char} formatViews={formatViews} />
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
+            return (
+              <div key={serviceConfig.id} className="space-y-4" data-service={serviceConfig.id}>
+                <div className="flex items-center justify-between">
+                  <h2 className="text-lg font-medium text-gray-900">{serviceConfig.label}</h2>
+                  <span className="text-sm text-gray-500">{serviceCharacters.length}개</span>
+                </div>
+                <div className="section-subtitle -mt-2 mb-2">{serviceConfig.subtext}</div>
 
-      {/* 데이터 없음 */}
-      {groupedCharacters.zeta.length === 0 && groupedCharacters.babechat.length === 0 && groupedCharacters.lunatalk.length === 0 && groupedCharacters.crack.length === 0 && (
-        <div className="text-center py-12">
+                <div className="space-y-3">
+                  {serviceCharacters.length > 0 ? (
+                    serviceCharacters.map((char: ChatServiceCharacter) => (
+                      <CharacterCard
+                        key={char.id}
+                        character={char}
+                        formatViews={formatViews}
+                        directLink={serviceConfig.directLink}
+                      />
+                    ))
+                  ) : (
+                    <div className="text-center py-8 bg-gray-50 rounded border border-dashed border-gray-200" data-state="empty">
+                      <p className="text-xs text-gray-400">데이터가 없습니다</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </section>
+
+      {/* 전체 데이터 없음 */}
+      {(!characters || characters.length === 0) && (
+        <div className="empty-state py-12" data-state="no-data">
           <p className="text-gray-500">크롤링된 캐릭터 데이터가 없습니다.</p>
         </div>
       )}
@@ -149,50 +159,49 @@ export default function CharacterRankings() {
 }
 
 // 캐릭터 카드 컴포넌트
-function CharacterCard({ 
-  character, 
-  formatViews 
-}: { 
+function CharacterCard({
+  character,
+  formatViews,
+  directLink
+}: {
   character: ChatServiceCharacter
   formatViews: (views: number) => string
+  directLink: boolean
 }) {
-  // BabeChat과 Crack은 모달 형식이므로 직접 링크 없음
-  const hasDirectLink = !['babechat', 'crack'].includes(character.service)
-  
   const cardContent = (
-    <div className="flex gap-3">
+    <div className="character-card-content">
       {/* 순위 */}
       <div className="flex-shrink-0">
-        <span className="inline-flex items-center justify-center w-7 h-7 text-sm font-medium text-gray-700 bg-gray-100 rounded">
+        <span className="character-rank-badge">
           {character.rank}
         </span>
       </div>
 
       {/* 컨텐츠 */}
-      <div className="flex-1 min-w-0 space-y-2">
+      <div className="character-info">
         {/* 이름 - 최대 2줄 */}
-        <h3 className="text-sm font-medium text-gray-900 line-clamp-2 leading-snug" title={character.name}>
+        <h3 className="character-name" title={character.name}>
           {character.name}
         </h3>
 
         {/* 조회수 */}
         {character.views > 0 && (
-          <p className="text-xs text-gray-500">{formatViews(character.views)} 조회</p>
+          <p className="character-views">{formatViews(character.views)} 조회</p>
         )}
 
         {/* 해시태그 - 최대 3개 */}
         {character.tags && Array.isArray(character.tags) && character.tags.length > 0 && (
-          <div className="flex flex-wrap gap-1">
+          <div className="character-tags">
             {character.tags.slice(0, 3).map((tag, idx) => (
-              <span 
+              <span
                 key={idx}
-                className="inline-block px-1.5 py-0.5 text-xs bg-gray-100 text-gray-600 rounded"
+                className="character-tag"
               >
                 #{tag}
               </span>
             ))}
             {character.tags.length > 3 && (
-              <span className="inline-block px-1.5 py-0.5 text-xs text-gray-400">
+              <span className="character-tag-more">
                 +{character.tags.length - 3}
               </span>
             )}
@@ -201,24 +210,30 @@ function CharacterCard({
       </div>
     </div>
   )
-  
-  // 직접 링크가 있는 경우 (Zeta, LunaTalk) - <a> 태그 사용
-  if (hasDirectLink) {
+
+  // 직접 링크가 있는 경우 (Zeta, LunaTalk, Elyn, Caveduck) - <a> 태그 사용
+  if (directLink) {
     return (
       <a
         href={character.character_url || '#'}
         target="_blank"
         rel="noopener noreferrer"
-        className="block bg-white border border-gray-200 rounded p-4 hover:border-gray-300 hover:shadow-sm transition-all overflow-hidden"
+        className="character-card"
+        data-component="character-card"
+        data-character-id={character.id}
       >
         {cardContent}
       </a>
     )
   }
-  
+
   // 직접 링크가 없는 경우 (BabeChat, Crack) - <div> 태그로 동일한 스타일 적용
   return (
-    <div className="block bg-white border border-gray-200 rounded p-4 hover:border-gray-300 hover:shadow-sm transition-all overflow-hidden">
+    <div
+      className="character-card"
+      data-component="character-card"
+      data-character-id={character.id}
+    >
       {cardContent}
     </div>
   )

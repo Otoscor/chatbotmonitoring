@@ -24,7 +24,7 @@ export default function Keywords() {
   return (
     <div className="space-y-6">
       <div className="pb-6 border-b border-gray-200">
-        <h1 className="text-2xl font-semibold text-gray-900 mb-1">키워드 분석</h1>
+        <h1 className="page-title">키워드 분석</h1>
         <p className="text-sm text-gray-500">주요 키워드 트렌드를 확인하세요</p>
       </div>
 

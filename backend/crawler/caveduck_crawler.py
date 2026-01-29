@@ -35,84 +35,114 @@ class CaveduckCrawler:
             'Origin': 'https://caveduck.io'
         }
 
-    async def crawl_rankings(self, limit: int = 30) -> List[CharacterData]:
-        logger.info(f"케이브덕 API 크롤링 시작 (상위 {limit}개)")
-        characters = []
+    def extract_hashtags(self, text: str) -> List[str]:
+        if not text:
+            return []
+        import re
+        # HTML 태그 제거
+        clean_text = re.sub(r'<[^>]+>', ' ', str(text))
+        # #해시태그 추출
+        return re.findall(r'#([\w가-힣]+)', clean_text)
 
+    async def fetch_character_detail(self, client: httpx.AsyncClient, uuid: str) -> dict:
+        """캐릭터 상세 정보를 비동기로 가져옴"""
         try:
-            async with httpx.AsyncClient(headers=self.headers, timeout=self.timeout) as client:
-                params = {
-                    'includeAdminMainView': 'true',
-                    'numPerPage': max(limit, 40),
-                    'page': 0,
-                    'showNsfw': 'false',
-                    'view': 'popular', # 'recent', 'popular' works. 'daily' failed in test. 'popular' seems best for ranking.
-                    'locale': 'ko'
-                }
+            url = f"{self.BASE_URL}/api/character/{uuid}"
+            resp = await client.get(url, params={'locale': 'ko'})
+            if resp.status_code == 200:
+                return resp.json()
+        except Exception:
+            pass
+        return {}
+
+    async def crawl_rankings(self, limit: int = 30) -> List[CharacterData]:
+        logger.info(f"[{self.SERVICE_NAME if hasattr(self, 'SERVICE_NAME') else 'caveduck'}] Crawling started...")
+        characters = []
+        
+        url = f"{self.BASE_URL}/api/character/public"
+        params = {
+            'includeAdminMainView': 'true',
+            'numPerPage': limit,
+            'page': 0,
+            'showNsfw': 'false',
+            'view': 'popular',
+            'locale': 'ko'
+        }
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json',
+            'Referer': self.BASE_URL
+        }
+        
+        try:
+            async with httpx.AsyncClient(headers=headers, timeout=30.0) as client:
+                resp = await client.get(url, params=params)
+                resp.raise_for_status()
+                data = resp.json()
                 
-                response = await client.get(self.API_URL, params=params)
-                response.raise_for_status()
-                data = response.json()
-                
-                # Check for 'items' list
                 items = data.get('items', [])
-                if not items:
-                    logger.warning("No items found in Caveduck API response")
-                    return []
+                logger.info(f"Found {len(items)} items from list API")
                 
-                logger.info(f"Found {len(items)} items from API")
-
-                rank = 1
-                seen_ids = set()
-
+                # 상세 정보 병렬 요청
+                tasks = []
+                valid_items = []
+                
                 for item in items:
-                    if len(characters) >= limit:
-                        break
-
+                    uuid = item.get('uuid')
+                    if uuid:
+                        tasks.append(self.fetch_character_detail(client, uuid))
+                        valid_items.append(item)
+                
+                details_results = await asyncio.gather(*tasks, return_exceptions=True)
+                
+                seen_ids = set()
+                rank = 1
+                
+                for item, detail_result in zip(valid_items, details_results):
                     try:
-                        # item structure: {id, name, creator: {nickname}, profile_image_url, ...}
-                        # Need to inspect fields carefully. Assuming standard naming.
-                        
-                        # Use id (int) or uuid
-                        # API returns integer id
-                        char_id = str(item.get('id'))
-                        if not char_id or char_id == 'None':
-                            char_id = item.get('uuid')
+                        char_id = str(item.get('id') or item.get('uuid'))
+                        if char_id in seen_ids:
+                            continue
                             
-                        if not char_id or char_id in seen_ids:
-                             continue
-
-                        name = item.get('name', 'Unknown')
+                        details = item.get('details', {})
+                        name = item.get('name') or details.get('char_name') or "Unknown"
                         
-                        # Author
-                        author = None
-                        creator = item.get('creator')
+                        creator = item.get('creator', 'Unknown')
                         if isinstance(creator, dict):
                             author = creator.get('nickname')
                         elif isinstance(creator, str):
                             author = creator
+                        else:
+                            author = "Unknown"
                         
-                        # Views / Usage
-                        # Use messages or chats
                         views = item.get('messages') or item.get('chats') or 0
                         
-                        # Tags
-                        tags_data = item.get('tags', [])
+                        # --- tags ---
                         tags = []
-                        if isinstance(tags_data, list):
-                            tags = [str(t) for t in tags_data]
+                        if isinstance(detail_result, dict):
+                            official_tags = detail_result.get('tags', [])
+                            if official_tags:
+                                tags.extend([str(t) for t in official_tags])
                         
-                        # Description
-                        description = item.get('short_description') or item.get('description')
-
-                        # Thumbnail matches
-                        # Caveduck images are usually on cdn.caveduck.io
-                        # 'image' field contains URL
+                        texts_to_scan = [
+                            details.get('user_desc'),
+                            item.get('short_description'),
+                            details.get('short_description'),
+                            details.get('creator_comment')
+                        ]
+                        
+                        for text in texts_to_scan:
+                            found = self.extract_hashtags(text)
+                            tags.extend(found)
+                            
+                        tags = sorted(list(set(tags)))
+                        
+                        description = item.get('short_description') or item.get('description') or details.get('short_description')
                         thumbnail_url = item.get('image') or item.get('profile_image_url')
                         
-                        # Character URL
-                        # /shop/item/{id}
-                        character_url = f"{self.BASE_URL}/shop/item/{char_id}"
+                        item_uuid = item.get('uuid')
+                        character_url = f"{self.BASE_URL}/character-info/{item_uuid}" if item_uuid else f"{self.BASE_URL}/character-info/{char_id}"
                         
                         characters.append(CharacterData(
                             character_id=char_id,
@@ -129,13 +159,11 @@ class CaveduckCrawler:
                         rank += 1
                         
                     except Exception as e:
-                        logger.warning(f"Error parsing Caveduck item: {e}")
+                        logger.warning(f"Error parsing item {rank}: {e}")
                         continue
                         
-        except Exception as e:
-            logger.error(f"Caveduck API request failed: {e}")
-            import traceback
-            traceback.print_exc()
+                return characters
 
-        logger.info(f"케이브덕 크롤링 완료: {len(characters)}개 수집")
-        return characters
+        except Exception as e:
+            logger.error(f"Error: {str(e)}")
+            return []

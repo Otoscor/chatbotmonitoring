@@ -67,3 +67,8 @@ frontend/.vite/
 # Backend specific
 backend/api/monitoring.db
 backend/monitoring.db
+
+# Test and inspection scripts (temporary development files)
+backend/test_*.py
+backend/inspect_*.py
+backend/find_*.py

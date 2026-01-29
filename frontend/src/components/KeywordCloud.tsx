@@ -10,7 +10,7 @@ interface KeywordCloudProps {
 export default function KeywordCloud({ keywords }: KeywordCloudProps) {
   if (keywords.length === 0) {
     return (
-      <div className="bg-white border border-gray-200 rounded p-8">
+      <div className="keyword-cloud--empty" data-component="keyword-cloud" data-state="empty">
         <p className="text-sm text-gray-400 text-center">키워드 데이터가 없습니다</p>
       </div>
     )
@@ -26,13 +26,14 @@ export default function KeywordCloud({ keywords }: KeywordCloudProps) {
   }
 
   return (
-    <div className="bg-white border border-gray-200 rounded p-6">
-      <div className="flex flex-wrap gap-3 items-center justify-center">
+    <div className="keyword-cloud" data-component="keyword-cloud">
+      <div className="keyword-cloud-container">
         {keywords.map((keyword, index) => (
           <span
             key={index}
-            className="text-gray-700 hover:text-gray-900 transition-colors cursor-default"
+            className="keyword-item"
             style={{ fontSize: `${getFontSize(keyword.value)}px` }}
+            data-keyword={keyword.text}
           >
             {keyword.text}
           </span>

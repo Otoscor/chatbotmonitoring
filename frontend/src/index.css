@@ -6,13 +6,368 @@
   * {
     @apply border-gray-200;
   }
-  
+
   body {
     @apply bg-white text-gray-900 antialiased;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold text-gray-900;
+  }
+}
+
+/* ================================
+   시맨틱 컴포넌트 클래스
+   ================================ */
+
+@layer components {
+
+  /* --- 레이아웃 --- */
+  .app-container {
+    @apply min-h-screen flex bg-white;
+  }
+
+  .app-sidebar {
+    @apply fixed top-0 left-0 h-screen w-60 bg-gray-50 border-r border-gray-200 flex flex-col;
+  }
+
+  .sidebar-header {
+    @apply h-[64px] px-6 border-b border-gray-200 flex items-center;
+  }
+
+  .sidebar-logo {
+    @apply text-sm font-semibold text-gray-900;
+  }
+
+  .sidebar-description {
+    @apply text-xs text-gray-500 mt-0.5;
+  }
+
+  .sidebar-nav {
+    @apply flex-1 px-3 py-3;
+  }
+
+  .nav-list {
+    @apply space-y-0.5;
+  }
+
+  .nav-item {
+    @apply block px-3 py-1.5 rounded text-[13px] transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900;
+    font-family: 'Galmuri11', sans-serif !important;
+  }
+
+  .nav-item--active {
+    @apply bg-gray-200 text-gray-900 font-medium;
+  }
+
+  .sidebar-footer {
+    @apply px-3 py-3 border-t border-gray-200;
+  }
+
+  .crawl-button {
+    @apply w-full h-[44px] px-3 text-[14px] font-medium text-white rounded disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center;
+    font-family: 'Galmuri11', sans-serif !important;
+    background: linear-gradient(135deg, #1f2937, #6b7280, #374151, #9ca3af, #1f2937);
+    background-size: 400% 400%;
+    animation: gradient-flow 15s ease-in-out infinite;
+  }
+
+  .crawl-button:hover:not(:disabled) {
+    background: linear-gradient(135deg, #111827, #4b5563, #1f2937, #6b7280, #111827);
+    background-size: 400% 400%;
+    animation: gradient-flow 10s ease-in-out infinite;
+  }
+
+  .app-main-content {
+    @apply flex-1 overflow-auto ml-60;
+  }
+
+  .main-content-wrapper {
+    @apply max-w-6xl mx-auto px-12 py-10;
+  }
+
+  /* --- 페이지 헤더 --- */
+  .page-header {
+    @apply pb-6 border-b border-gray-200;
+  }
+
+  .page-title {
+    @apply text-2xl font-semibold text-gray-900 mb-1;
+    font-family: 'Galmuri11', sans-serif !important;
+  }
+
+  .page-description {
+    @apply text-sm text-gray-500;
+  }
+
+  /* --- 카드 --- */
+  .card {
+    @apply bg-white border border-gray-200 rounded;
+  }
+
+  .card--hoverable {
+    @apply hover:border-gray-300 transition-colors;
+  }
+
+  .card--with-shadow {
+    @apply hover:shadow-sm;
+  }
+
+  /* --- 통계 카드 --- */
+  .stat-card {
+    @apply bg-white border border-gray-200 rounded p-4 hover:border-gray-300 transition-colors;
+  }
+
+  .stat-card-title {
+    @apply text-xs text-gray-500 mb-1;
+  }
+
+  .stat-card-value {
+    @apply text-2xl font-semibold text-gray-900 mb-0.5;
+  }
+
+  .stat-card-description {
+    @apply text-xs text-gray-400 mt-1;
+  }
+
+  /* --- 탭 --- */
+  .tab-list {
+    @apply flex space-x-1 border-b border-gray-200;
+  }
+
+  .tab-item {
+    @apply px-4 py-2 text-sm font-medium transition-colors text-gray-500 hover:text-gray-700;
+  }
+
+  .tab-item--active {
+    @apply text-gray-900 border-b-2 border-gray-900;
+  }
+
+  /* --- 테이블 --- */
+  .data-table {
+    @apply w-full text-sm;
+  }
+
+  .table-header-row {
+    @apply border-b border-gray-200;
+  }
+
+  .table-header-cell {
+    @apply py-2 px-3 font-medium text-gray-700;
+  }
+
+  .table-row {
+    @apply border-b border-gray-100 hover:bg-gray-50 transition-colors;
+  }
+
+  .table-cell {
+    @apply py-2 px-3;
+  }
+
+  /* --- 키워드 클라우드 --- */
+  .keyword-cloud {
+    @apply bg-white border border-gray-200 rounded p-6;
+  }
+
+  .keyword-cloud-container {
+    @apply flex flex-wrap gap-3 items-center justify-center;
+  }
+
+  .keyword-item {
+    @apply text-gray-700 hover:text-gray-900 transition-colors cursor-default;
+  }
+
+  .keyword-cloud--empty {
+    @apply bg-white border border-gray-200 rounded p-8;
+  }
+
+  /* --- 랭킹 리스트 --- */
+  .ranking-list {
+    @apply bg-white border border-gray-200 rounded;
+  }
+
+  .ranking-list-header {
+    @apply px-4 py-3 border-b border-gray-200;
+  }
+
+  .ranking-list-title {
+    @apply text-sm font-semibold text-gray-900;
+  }
+
+  .ranking-list-body {
+    @apply divide-y divide-gray-100;
+  }
+
+  .ranking-list-item {
+    @apply px-4 py-2.5 flex items-center justify-between hover:bg-gray-50 transition-colors;
+  }
+
+  .ranking-position {
+    @apply text-xs font-medium text-gray-400 w-6;
+  }
+
+  .ranking-name {
+    @apply text-sm text-gray-900;
+  }
+
+  .ranking-score {
+    @apply text-xs text-gray-500;
+  }
+
+  /* --- 캐릭터 카드 --- */
+  .character-card {
+    @apply block bg-white border border-gray-200 rounded p-4 hover:border-gray-300 hover:shadow-sm transition-all overflow-hidden;
+  }
+
+  .character-card-content {
+    @apply flex gap-3;
+  }
+
+  .character-rank-badge {
+    @apply inline-flex items-center justify-center w-7 h-7 text-sm font-medium text-gray-700 bg-gray-100 rounded;
+  }
+
+  .character-info {
+    @apply flex-1 min-w-0 space-y-2;
+  }
+
+  .character-name {
+    @apply text-sm font-medium text-gray-900 line-clamp-2 leading-snug;
+  }
+
+  .character-views {
+    @apply text-xs text-gray-500;
+  }
+
+  .character-tags {
+    @apply flex flex-wrap gap-1;
+  }
+
+  .character-tag {
+    @apply inline-block px-1.5 py-0.5 text-xs bg-gray-100 text-gray-600 rounded;
+  }
+
+  .character-tag-more {
+    @apply inline-block px-1.5 py-0.5 text-xs text-gray-400;
+  }
+
+  /* --- 북마크 --- */
+  .bookmark-card {
+    @apply bg-white border border-gray-200 rounded p-4 hover:border-gray-300 transition-colors;
+  }
+
+  .bookmark-thumbnail {
+    @apply w-32 h-24 object-cover rounded;
+  }
+
+  .bookmark-content {
+    @apply flex-1 min-w-0;
+  }
+
+  .bookmark-title {
+    @apply text-lg font-medium text-gray-900 hover:text-gray-600 line-clamp-2 block mb-1;
+  }
+
+  .bookmark-site-name {
+    @apply text-xs text-gray-500 mb-2;
+  }
+
+  .bookmark-summary {
+    @apply text-sm text-gray-700 line-clamp-3;
+  }
+
+  .bookmark-meta {
+    @apply flex items-center gap-4 text-xs text-gray-500;
+  }
+
+  .bookmark-actions {
+    @apply flex gap-2 ml-auto;
+  }
+
+  /* --- 뉴스 카드 --- */
+  .news-card {
+    @apply block bg-white border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-sm transition-all;
+  }
+
+  .news-title {
+    @apply text-sm font-medium text-gray-900 line-clamp-2 leading-snug;
+  }
+
+  .news-description {
+    @apply mt-1.5 text-xs text-gray-500 line-clamp-2;
+  }
+
+  .news-meta {
+    @apply mt-2 flex items-center gap-3 text-xs text-gray-400;
+  }
+
+  .news-keyword {
+    @apply px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded;
+  }
+
+  /* --- 리뷰 --- */
+  .review-card {
+    @apply bg-white border border-gray-200 rounded p-4;
+  }
+
+  .review-rating {
+    @apply text-sm font-medium;
+  }
+
+  .review-meta {
+    @apply text-xs text-gray-500 mt-1;
+  }
+
+  .review-text {
+    @apply text-sm text-gray-700 leading-relaxed;
+  }
+
+  /* --- 상태 표시 --- */
+  .loading-state {
+    @apply flex items-center justify-center;
+  }
+
+  .loading-text {
+    @apply text-sm text-gray-400;
+  }
+
+  .empty-state {
+    @apply text-center py-8 text-sm text-gray-500;
+  }
+
+  .empty-state-card {
+    @apply bg-white border border-gray-200 rounded p-12 text-center;
+  }
+
+  /* --- 캐러셀 네비게이션 --- */
+  .carousel-nav-button {
+    @apply fixed top-1/2 z-50 w-10 h-10 bg-white border border-[#eee] rounded-[4px] shadow-none flex items-center justify-center hover:bg-gray-50 transition-colors -translate-y-1/2 focus:outline-none;
+  }
+
+  .carousel-nav-prev {
+    @apply left-[20rem];
+  }
+
+  .carousel-nav-next {
+    @apply right-20;
+  }
+
+  .carousel-nav-icon {
+    @apply w-6 h-6 text-gray-600 transition-colors;
+  }
+
+  /* --- 섹션 --- */
+  .section-title {
+    @apply text-sm font-semibold text-gray-900;
+  }
+
+  .section-subtitle {
+    @apply text-xs text-gray-500;
   }
 }
 
@@ -34,11 +389,34 @@ body {
   margin: 0;
   font-family: 'Pretendard Variable', 'Pretendard', system-ui, -apple-system, sans-serif;
   background: var(--bg-primary);
-  background-image: 
+  background-image:
     radial-gradient(ellipse at 20% 0%, rgba(90, 101, 255, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 100%, rgba(255, 107, 91, 0.1) 0%, transparent 50%);
   color: var(--text-primary);
   min-height: 100vh;
+}
+
+/* Gradient animation for crawl button - diagonal irregular movement */
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  25% {
+    background-position: 100% 50%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  75% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 /* Custom scrollbar */

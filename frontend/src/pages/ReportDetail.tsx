@@ -66,7 +66,7 @@ export default function ReportDetail() {
           ← 리포트 목록
         </Link>
         <div className="flex-1">
-          <h1 className="text-2xl font-semibold text-gray-900 mb-1">
+          <h1 className="page-title">
             {date && format(new Date(date), 'yyyy년 MM월 dd일', { locale: ko })} 리포트
           </h1>
           <p className="text-sm text-gray-500">

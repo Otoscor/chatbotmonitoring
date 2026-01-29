@@ -159,7 +159,7 @@ async def export_chat_characters(session: AsyncSession, output_dir: Path):
                 ChatServiceCharacter.crawled_at <= recent_crawl_time
             )
             .order_by(ChatServiceCharacter.service, ChatServiceCharacter.rank)
-            .limit(100)
+            .limit(300)
         )
         result = await session.execute(query)
         characters = result.scalars().all()
