@@ -78,6 +78,7 @@ export interface Bookmark {
   ai_summary?: string
   thumbnail_url?: string
   site_name?: string
+  category: string
   tags?: string[]
   user_note?: string
   is_summarized: number  // 0: 대기, 1: 완료, 2: 실패
@@ -355,21 +356,27 @@ export const triggerNewsCrawl = async (sources?: string[], keywords?: string[]) 
 
 // ========== 북마크 API ==========
 
-export const addBookmark = async (url: string): Promise<Bookmark> => {
+export const addBookmark = async (url: string, category = 'post'): Promise<Bookmark> => {
   if (USE_STATIC_DATA) {
     throw new Error('정적 모드에서는 북마크를 추가할 수 없습니다.')
   }
-  const { data } = await api.post('/bookmarks', { url })
+  const { data } = await api.post('/bookmarks', { url, category })
   return data
 }
 
-export const fetchBookmarks = async (skip = 0, limit = 50): Promise<Bookmark[]> => {
+// 북마크 목록 조회
+export const fetchBookmarks = async (skip = 0, limit = 50, category?: string) => {
   if (USE_STATIC_DATA) {
     const allBookmarks = await fetchStaticData<Bookmark[]>('bookmarks.json')
     // skip/limit 적용
+    // 정적 모드에서는 카테고리 필터링 미지원
     return allBookmarks.slice(skip, skip + limit)
   }
-  const { data } = await api.get('/bookmarks', { params: { skip, limit } })
+  const params: any = { skip, limit }
+  if (category) {
+    params.category = category
+  }
+  const { data } = await api.get('/bookmarks', { params })
   return data
 }
 
@@ -453,6 +460,14 @@ export const fetchAppKeywords = async (appName?: string, limit = 20): Promise<Ke
   const params: any = { limit }
   if (appName) params.app_name = appName
   const { data } = await api.get('/app-reviews/keywords', { params })
+  return data
+}
+
+export const triggerAppReviewCrawl = async () => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 앱 리뷰 크롤링을 사용할 수 없습니다.')
+  }
+  const { data } = await api.post('/app-reviews/crawl')
   return data
 }
 

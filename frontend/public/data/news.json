@@ -1,5 +1,53 @@
 [
   {
+    "id": 248,
+    "article_id": "f250522f648d5db0",
+    "source": "google",
+    "title": "[AI혁명]\"AI로 만든 캐릭터, 블록체인 통해 저작권 증명 가능\"",
+    "description": "[AI혁명]\"AI로 만든 캐릭터, 블록체인 통해 저작권 증명 가능\"&nbsp;&nbsp;v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1naTdlQmRSc2NtNDJCVWJWeWVfNVBtd1Jib1FtV083dXFfeUVsbVVadDB4UmNjanRDejNIN1dDaHVRU2V2MGFTN3V0NnN3TDA?oc=5",
+    "publisher": "v.daum.net",
+    "published_at": "2026-01-23T21:32:15",
+    "crawled_at": "2026-01-29T05:49:44.079971",
+    "keyword": "AI 캐릭터"
+  },
+  {
+    "id": 247,
+    "article_id": "1ebefd117e60e15e",
+    "source": "google",
+    "title": "포항시, 경북 시군 최초 생성형 AI 챗봇 '포항봇' 2월 정식 운영",
+    "description": "포항시, 경북 시군 최초 생성형 AI 챗봇 '포항봇' 2월 정식 운영&nbsp;&nbsp;전자신문",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIdUJTeGNZQVdodVNVOWE1Z0FaR3ZsUHZYQzE4YXc1SnNpWF9mb09WUk1OckpJd0VFbHlGSDNFWEw1NEQxOGNNLXZYNDhRQQ?oc=5",
+    "publisher": "전자신문",
+    "published_at": "2026-01-29T02:06:22",
+    "crawled_at": "2026-01-29T05:38:38.578091",
+    "keyword": "AI 챗봇"
+  },
+  {
+    "id": 246,
+    "article_id": "0481297f9dbbf9ad",
+    "source": "google",
+    "title": "포항시, 경북 최초 생성형 AI 챗봇 ‘포항봇’ 2월 정식 운영",
+    "description": "포항시, 경북 최초 생성형 AI 챗봇 ‘포항봇’ 2월 정식 운영&nbsp;&nbsp;kbsm.net",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16bTY0WVA3S0hjbTNscnJqRWFFWGpCaXBmajlaOG1Fd1N2U2tKOTRGdWlvdEZjeU5YUkxodkhOOXZEb2JtZ2U1dThTMzE3S0xfdE94Y3V1MXo?oc=5",
+    "publisher": "kbsm.net",
+    "published_at": "2026-01-29T04:26:00",
+    "crawled_at": "2026-01-29T05:38:38.576934",
+    "keyword": "AI 챗봇"
+  },
+  {
+    "id": 245,
+    "article_id": "dbd5c9d152283140",
+    "source": "google",
+    "title": "포항시, 경북 시군 최초 생성형 AI 챗봇 ‘포항봇’ 2월 정식 운영",
+    "description": "포항시, 경북 시군 최초 생성형 AI 챗봇 ‘포항봇’ 2월 정식 운영&nbsp;&nbsp;스트레이트뉴스포항시, 경북 최초 생성형 AI 챗봇 '포항봇' 내달 2일 오픈&nbsp;&nbsp;뉴시스이제는 행정도 AI시대…포항시, 경북 시군 첫 생성형 AI 행정 챗봇 ‘포항봇’ 운영&nbsp;&nbsp;프레시안",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hekhCU19zeFNub292ZW1wVFpvbjR4bVVRcVc3enF0OVZUTGhvVWdRaW5zXy1qMUljMUFtV0JiQk43dXp2ZlhlNW93Tk1uR3Z0dWE3QVBGOGVQRm9BLTJGMTliUmhsdDBvazZuVUszOTRxdGvSAXdBVV95cUxPN1psWEdPaEkzSGt2UnpTZmdkOVc0dC1za1h0ZjZnMXpnTTBhZ0JCaGNtUFNhZEwxQUZfbC0zUG5FV0lzb2w3UHdmcVJJMGJhRFhFdjNmMmlIVzE3Mk12bHU4SGNyMVZmWGNvYTEwVnktUnpSNUxHOA?oc=5",
+    "publisher": "스트레이트뉴스",
+    "published_at": "2026-01-29T04:24:55",
+    "crawled_at": "2026-01-29T05:38:38.571076",
+    "keyword": "AI 챗봇"
+  },
+  {
     "id": 244,
     "article_id": "50a0106433d0fad2",
     "source": "google",
@@ -309,54 +357,6 @@
     "publisher": "디지털투데이",
     "published_at": "2026-01-28T22:30:00",
     "crawled_at": "2026-01-28T23:21:29.454837",
-    "keyword": "AI 챗봇"
-  },
-  {
-    "id": 218,
-    "article_id": "6f2f61ac6daae00a",
-    "source": "google",
-    "title": "AI 챗봇 선두주자 오픈AI·앤트로픽, 몸값 높이기 경쟁 가열",
-    "description": "AI 챗봇 선두주자 오픈AI·앤트로픽, 몸값 높이기 경쟁 가열&nbsp;&nbsp;livebiz.today",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IbW0wUDg5M3NELTZxREdPZjY2UllJZ1lLQkFVLUVMOFdsXzRJR1VmNlpxQXVXM1FLTk5RRTlvbUZ0YmgxXzdFXzNYLVVyTFFtMF80bWNudWNHUWxobjdLX1VMWFNuUnplYWtaNg?oc=5",
-    "publisher": "livebiz.today",
-    "published_at": "2026-01-28T02:55:38",
-    "crawled_at": "2026-01-28T23:21:29.453758",
-    "keyword": "AI 챗봇"
-  },
-  {
-    "id": 217,
-    "article_id": "5b3a590e9a4476ed",
-    "source": "google",
-    "title": "SK텔레콤, AI 챗봇 적용 ESG 데이터 통합 플랫폼 구축",
-    "description": "SK텔레콤, AI 챗봇 적용 ESG 데이터 통합 플랫폼 구축&nbsp;&nbsp;포인트경제",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZNE0yU0hlRmN3SVNYejBucVdRN2NKS1VCNWR3RUVWN3Y3TG95RzNnalVlejZIQVctVjNjdG9SQ21ZNDNiVk5KYldHeUc2ckNZVGNycXBIbTVSQmltalJlNnJlM0FnZ2ZnRVE?oc=5",
-    "publisher": "포인트경제",
-    "published_at": "2026-01-28T06:30:40",
-    "crawled_at": "2026-01-28T23:21:29.452834",
-    "keyword": "AI 챗봇"
-  },
-  {
-    "id": 216,
-    "article_id": "bdcbc9728c4a9866",
-    "source": "google",
-    "title": "앤트로픽, 몸값 500조원 눈앞…투자 유치 규모 두 배 늘렸다",
-    "description": "앤트로픽, 몸값 500조원 눈앞…투자 유치 규모 두 배 늘렸다&nbsp;&nbsp;지디넷코리아",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TMnJhanBqQkVqOVVWcFE5NWl0c3VfT0FqOVAwSmZOOWJTZHQyQmZKR2RMOUkzRkF4MVNBTG5mLWJoYkdueGo5QzBlVWFfSnI4UnFDNkVB?oc=5",
-    "publisher": "지디넷코리아",
-    "published_at": "2026-01-28T07:33:54",
-    "crawled_at": "2026-01-28T23:21:29.450679",
-    "keyword": "AI 챗봇"
-  },
-  {
-    "id": 215,
-    "article_id": "151d8a2f000a71da",
-    "source": "google",
-    "title": "“인류 깨어나야”… AI CEO ‘섬뜩경고’",
-    "description": "“인류 깨어나야”… AI CEO ‘섬뜩경고’&nbsp;&nbsp;미주한국일보",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiOEhmSlpidnFaVjIwQXNuSTVTTzFZZU15VHljNUN3Y1U1Tnc5Y21IZlV1QnZaMXU4LUU5VVJXMXV6cGNCWkNyeWktX3Buenk5eGdF?oc=5",
-    "publisher": "미주한국일보",
-    "published_at": "2026-01-28T03:00:00",
-    "crawled_at": "2026-01-28T23:21:29.448672",
     "keyword": "AI 챗봇"
   }
 ]

@@ -1142,7 +1142,7 @@ async def get_app_review_keywords(
         
         # 상위 N개 키워드 반환
         top_keywords = [
-            {"text": word, "value": count}
+            {"keyword": word, "total_count": count}
             for word, count in word_counter.most_common(limit)
         ]
         
@@ -1159,11 +1159,13 @@ async def get_app_review_keywords(
 class BookmarkCreate(BaseModel):
     """북마크 생성 요청"""
     url: str
+    category: str = 'post'
 
 class BookmarkUpdate(BaseModel):
     """북마크 수정 요청"""
     tags: Optional[List[str]] = None
     user_note: Optional[str] = None
+    category: Optional[str] = None
 
 class BookmarkResponse(BaseModel):
     """북마크 응답 모델"""
@@ -1174,6 +1176,7 @@ class BookmarkResponse(BaseModel):
     ai_summary: Optional[str]
     thumbnail_url: Optional[str]
     site_name: Optional[str]
+    category: str
     tags: Optional[List[str]]
     user_note: Optional[str]
     is_summarized: int
@@ -1208,6 +1211,7 @@ async def create_bookmark(
         description=metadata.get('description'),
         thumbnail_url=metadata.get('thumbnail'),
         site_name=metadata.get('site_name'),
+        category=bookmark.category,
         is_summarized=0  # 요약 대기 중
     )
     
@@ -1249,12 +1253,18 @@ async def generate_summary_background(bookmark_id: int, url: str, db: AsyncSessi
 
 @router.get("/bookmarks", response_model=List[BookmarkResponse])
 async def get_bookmarks(
+    category: Optional[str] = Query(None, description="카테고리 필터 (post, news, creation)"),
     skip: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=100),
     db: AsyncSession = Depends(get_db)
 ):
     """북마크 목록 조회 (최신순)"""
-    query = select(Bookmark).order_by(desc(Bookmark.created_at)).offset(skip).limit(limit)
+    query = select(Bookmark).order_by(desc(Bookmark.created_at))
+    
+    if category:
+        query = query.where(Bookmark.category == category)
+        
+    query = query.offset(skip).limit(limit)
     result = await db.execute(query)
     bookmarks = result.scalars().all()
     return bookmarks

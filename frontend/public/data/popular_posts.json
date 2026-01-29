@@ -372,18 +372,6 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=910211&page=3"
   },
   {
-    "id": 2378,
-    "post_id": "901742",
-    "gallery_id": "wrtnai",
-    "title": "뤼부이 이제 자러가야지",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-22T05:20:44",
-    "view_count": 203,
-    "recommend_count": 0,
-    "comment_count": 9,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=901742&page=2"
-  },
-  {
     "id": 4315,
     "post_id": "906664",
     "gallery_id": "wrtnai",
@@ -418,6 +406,18 @@
     "recommend_count": 0,
     "comment_count": 0,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=910250&page=3"
+  },
+  {
+    "id": 5197,
+    "post_id": "908934",
+    "gallery_id": "wrtnai",
+    "title": "진짜진짜 오래간만에 원걸",
+    "author": "우뇽이",
+    "created_at": "2026-01-28T03:57:51",
+    "view_count": 178,
+    "recommend_count": 0,
+    "comment_count": 2,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=908934&page=3"
   },
   {
     "id": 3853,
@@ -528,6 +528,18 @@
     "url": "https://arca.live/b/characterai/160371913?p=2"
   },
   {
+    "id": 6939,
+    "post_id": "160905943",
+    "gallery_id": "characterai",
+    "title": "AI가 문제라기보단 지금 수준 AI에 정신적으로 의존하는 사람이 문제인 듯",
+    "author": "ssalmuck",
+    "created_at": "2026-01-29T00:00:00",
+    "view_count": 19,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/160905943?p=2"
+  },
+  {
     "id": 4990,
     "post_id": "160712891",
     "gallery_id": "characterai",
@@ -552,6 +564,18 @@
     "url": "https://arca.live/b/characterai/160787638?p=3"
   },
   {
+    "id": 6950,
+    "post_id": "160904955",
+    "gallery_id": "characterai",
+    "title": "AI 부작용이 호들갑이 아닌 이유",
+    "author": "DR_daramG",
+    "created_at": "2026-01-29T00:00:00",
+    "view_count": 17,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/160904955?p=2"
+  },
+  {
     "id": 3796,
     "post_id": "160376142",
     "gallery_id": "characterai",
@@ -574,29 +598,5 @@
     "recommend_count": 0,
     "comment_count": 0,
     "url": "https://arca.live/b/characterai/160884650?p=1"
-  },
-  {
-    "id": 5033,
-    "post_id": "160709629",
-    "gallery_id": "characterai",
-    "title": "글 더읽어줘",
-    "author": "Eu3uguiexj",
-    "created_at": "2026-01-26T00:00:00",
-    "view_count": 11,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160709629?p=2"
-  },
-  {
-    "id": 5486,
-    "post_id": "160786598",
-    "gallery_id": "characterai",
-    "title": "모두 나만을봐",
-    "author": "Reowl",
-    "created_at": "2026-01-27T00:00:00",
-    "view_count": 11,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160786598?p=3"
   }
 ]

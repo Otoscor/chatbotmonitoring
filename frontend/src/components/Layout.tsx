@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
-import { triggerCrawl, generateReport, triggerChatServiceCrawl, triggerNewsCrawl, USE_STATIC_DATA } from '../utils/api'
+import { triggerCrawl, generateReport, triggerChatServiceCrawl, triggerNewsCrawl, triggerAppReviewCrawl, USE_STATIC_DATA } from '../utils/api'
 
 interface LayoutProps {
   children: React.ReactNode
@@ -42,7 +42,10 @@ export default function Layout({ children }: LayoutProps) {
         // 2. 캐릭터챗 서비스 크롤링
         await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk', 'crack', 'caveduck', 'elyn'])
 
-        // 3. 뉴스 크롤링
+        // 3. 앱 리뷰 크롤링
+        await triggerAppReviewCrawl()
+
+        // 4. 뉴스 크롤링
         await triggerNewsCrawl()
 
         // 완료 알림 없이 바로 새로고침하거나, 토스트 메시지 등을 고려할 수 있음.

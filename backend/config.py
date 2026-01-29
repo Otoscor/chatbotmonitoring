@@ -65,13 +65,6 @@ class Settings(BaseSettings):
             "country": "kr"
         },
         {
-            "name": "베이브챗 (Babechat)",
-            "google_play_id": "com.babechat.ai",
-            "app_store_id": "6479106254",
-            "app_store_name": "babechat-ai-character-chat",
-            "country": "kr"
-        },
-        {
             "name": "루나톡 (Lunatalk)",
             "google_play_id": "com.lunatalk.app",
             "app_store_id": "6473849158",
@@ -79,17 +72,24 @@ class Settings(BaseSettings):
             "country": "kr"
         },
         {
+            "name": "베이브챗 (Babechat)",
+            "google_play_id": "ai.babechat.app",
+            "app_store_id": "6479106254",
+            "app_store_name": "babechat-ai-character-chat",
+            "country": "kr"
+        },
+        {
             "name": "케이브덕 (Caveduck)",
-            "google_play_id": "io.caveduck.app",
+            "google_play_id": "com.warpspace.caveduckaos",
             "app_store_id": "6504139571",
             "app_store_name": "caveduck",
             "country": "kr"
         },
         {
             "name": "크랙 (Crack)",
-            "google_play_id": "com.wrtn.crack",
-            "app_store_id": None,  # iOS 앱 없음
-            "app_store_name": None,
+            "google_play_id": None,
+            "app_store_id": "6740223370",
+            "app_store_name": "crack",
             "country": "kr"
         },
         {
@@ -99,6 +99,7 @@ class Settings(BaseSettings):
             "app_store_name": "loveydovey-dream-chats",
             "country": "kr"
         },
+
         {
             "name": "로판AI (Rofan AI)",
             "google_play_id": "ai.rofan.app",

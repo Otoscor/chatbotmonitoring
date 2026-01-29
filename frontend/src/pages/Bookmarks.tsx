@@ -18,15 +18,23 @@ export default function Bookmarks() {
     const [urlInput, setUrlInput] = useState('')
     const [addingBookmark, setAddingBookmark] = useState(false)
 
+    // 탭 설정 (게시글, 뉴스, 창작물)
+    const [activeTab, setActiveTab] = useState('post')
+    const tabs = [
+        { id: 'post', label: '게시글' },
+        { id: 'news', label: '뉴스' },
+        { id: 'creation', label: '창작물' }
+    ]
+
     // 북마크 목록 로드
     useEffect(() => {
         loadBookmarks()
-    }, [])
+    }, [activeTab]) // 탭 변경 시 재로딩
 
     const loadBookmarks = async () => {
         setLoading(true)
         try {
-            const data = await fetchBookmarks(0, 50)
+            const data = await fetchBookmarks(0, 50, activeTab)
             setBookmarks(data)
         } catch (error) {
             console.error('Failed to load bookmarks:', error)
@@ -51,8 +59,12 @@ export default function Bookmarks() {
 
         setAddingBookmark(true)
         try {
-            const newBookmark = await addBookmark(urlInput)
-            setBookmarks([newBookmark, ...bookmarks])
+            // 현재 활성화된 탭의 카테고리로 북마크 추가
+            const newBookmark = await addBookmark(urlInput, activeTab)
+            // 현재 탭과 일치하는 경우에만 리스트에 추가 (보통 최신순이므로 맨 앞)
+            if (newBookmark.category === activeTab) {
+                setBookmarks([newBookmark, ...bookmarks])
+            }
             setUrlInput('')
         } catch (error) {
             console.error('Failed to add bookmark:', error)
@@ -96,6 +108,25 @@ export default function Bookmarks() {
                 </p>
             </header>
 
+            {/* Tabs */}
+            <div className="flex border-b border-gray-200 mb-6">
+                {tabs.map((tab) => (
+                    <button
+                        key={tab.id}
+                        onClick={() => setActiveTab(tab.id)}
+                        className={`flex items-center gap-2 px-6 py-3 font-medium text-sm transition-colors relative ${activeTab === tab.id
+                            ? 'text-gray-900'
+                            : 'text-gray-500 hover:text-gray-700'
+                            }`}
+                    >
+                        <span>{tab.label}</span>
+                        {activeTab === tab.id && (
+                            <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-900" />
+                        )}
+                    </button>
+                ))}
+            </div>
+
             {/* URL 입력 폼 (수정 권한이 있을 때만 표시) */}
             {canEdit && (
                 <form
@@ -104,14 +135,14 @@ export default function Bookmarks() {
                     data-component="bookmark-form"
                 >
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                        URL 추가
+                        {tabs.find(t => t.id === activeTab)?.label} 추가
                     </label>
                     <div className="flex gap-2">
                         <input
                             type="url"
                             value={urlInput}
                             onChange={(e) => setUrlInput(e.target.value)}
-                            placeholder="https://example.com/article"
+                            placeholder={`https://example.com/article (${activeTab})`}
                             className="flex-1 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                             disabled={addingBookmark}
                         />
@@ -133,7 +164,7 @@ export default function Bookmarks() {
                 </div>
             ) : bookmarks.length === 0 ? (
                 <div className="empty-state-card" data-state="empty">
-                    <p className="text-gray-500 mb-2">저장된 북마크가 없습니다</p>
+                    <p className="text-gray-500 mb-2">저장된 {tabs.find(t => t.id === activeTab)?.label} 북마크가 없습니다</p>
                     {canEdit && (
                         <p className="text-sm text-gray-400">위에서 URL을 입력하여 첫 북마크를 추가해보세요</p>
                     )}
