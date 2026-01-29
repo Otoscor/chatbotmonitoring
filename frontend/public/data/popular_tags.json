@@ -1,74 +1,70 @@
 [
   {
-    "tag": "판타지",
-    "count": 33
-  },
-  {
-    "tag": "시뮬레이션",
-    "count": 30
-  },
-  {
-    "tag": "순애",
-    "count": 21
-  },
-  {
     "tag": "로맨스",
+    "count": 20
+  },
+  {
+    "tag": "판타지",
     "count": 18
   },
   {
-    "tag": "HL",
-    "count": 13
+    "tag": "시뮬레이션",
+    "count": 16
   },
   {
-    "tag": "아카데미",
-    "count": 13
+    "tag": "순애",
+    "count": 15
   },
   {
-    "tag": "하렘",
-    "count": 11
-  },
-  {
-    "tag": "일상",
-    "count": 11
-  },
-  {
-    "tag": "BL",
+    "tag": "hl",
     "count": 10
   },
   {
-    "tag": "시뮬",
+    "tag": "HL",
     "count": 10
   },
   {
     "tag": "추천",
-    "count": 10
+    "count": 9
   },
   {
-    "tag": "게임",
-    "count": 10
+    "tag": "시뮬",
+    "count": 8
+  },
+  {
+    "tag": "남성",
+    "count": 8
+  },
+  {
+    "tag": "언리밋",
+    "count": 7
+  },
+  {
+    "tag": "일상",
+    "count": 7
   },
   {
     "tag": "집착",
-    "count": 8
-  },
-  {
-    "tag": "학생",
-    "count": 8
+    "count": 7
   },
   {
     "tag": "현대판타지",
     "count": 7
   },
   {
-    "tag": "대체역사",
-    "count": 7
-  },
-  {
-    "tag": "개그",
-    "count": 7
-  },
-  {
     "tag": "여성",
+    "count": 7
+  },
+  {
+    "tag": "BL",
+    "count": 7
+  },
+  {
+    "tag": "하렘",
+    "count": 6
+  },
+  {
+    "tag": "아카데미",
     "count": 6
   },
   {
@@ -76,7 +72,11 @@
     "count": 6
   },
   {
-    "tag": "싸가지",
+    "tag": "다정",
+    "count": 5
+  },
+  {
+    "tag": "무뚝뚝",
     "count": 5
   }
 ]

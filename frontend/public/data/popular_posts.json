@@ -24,6 +24,18 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=213539&page=3"
   },
   {
+    "id": 5946,
+    "post_id": "223569",
+    "gallery_id": "aichatting",
+    "title": "PC와 잠시 소통하기 OOC",
+    "author": "ㅇㅇ",
+    "created_at": "2026-01-29T03:15:55",
+    "view_count": 543,
+    "recommend_count": 19,
+    "comment_count": 26,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=223569&page=3"
+  },
+  {
     "id": 3151,
     "post_id": "212011",
     "gallery_id": "aichatting",
@@ -192,6 +204,18 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=212058&page=2"
   },
   {
+    "id": 5899,
+    "post_id": "223620",
+    "gallery_id": "aichatting",
+    "title": "{{char}} 사이에서 유저의 평판을 알아보자",
+    "author": "ㅇㅇ",
+    "created_at": "2026-01-29T04:21:12",
+    "view_count": 299,
+    "recommend_count": 16,
+    "comment_count": 5,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=223620&page=2"
+  },
+  {
     "id": 4538,
     "post_id": "218509",
     "gallery_id": "aichatting",
@@ -214,30 +238,6 @@
     "recommend_count": 27,
     "comment_count": 1,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=222058&page=2"
-  },
-  {
-    "id": 4026,
-    "post_id": "213800",
-    "gallery_id": "aichatting",
-    "title": "지침 짤때 이거 ㄹㅇ 중요한데 모르는 갤러들 많더라",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-23T15:27:02",
-    "view_count": 281,
-    "recommend_count": 19,
-    "comment_count": 8,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=213800&page=1"
-  },
-  {
-    "id": 4062,
-    "post_id": "213763",
-    "gallery_id": "aichatting",
-    "title": "[📢채용] 인하우스 캐릭터 크리에이터 모집 (+간단 Q&A)",
-    "author": "Loveduck",
-    "created_at": "2026-01-23T15:01:40",
-    "view_count": 279,
-    "recommend_count": 16,
-    "comment_count": 11,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=213763&page=2"
   },
   {
     "id": 4792,
@@ -372,6 +372,18 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=901704&page=3"
   },
   {
+    "id": 5801,
+    "post_id": "910211",
+    "gallery_id": "wrtnai",
+    "title": "후추는 pepper 고추는 chili pepper",
+    "author": "아논",
+    "created_at": "2026-01-29T02:15:19",
+    "view_count": 214,
+    "recommend_count": 12,
+    "comment_count": 12,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=910211&page=3"
+  },
+  {
     "id": 2378,
     "post_id": "901742",
     "gallery_id": "wrtnai",
@@ -408,18 +420,6 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=901755&page=2"
   },
   {
-    "id": 5197,
-    "post_id": "908934",
-    "gallery_id": "wrtnai",
-    "title": "진짜진짜 오래간만에 원걸",
-    "author": "우뇽이",
-    "created_at": "2026-01-28T03:57:51",
-    "view_count": 178,
-    "recommend_count": 0,
-    "comment_count": 2,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=908934&page=3"
-  },
-  {
     "id": 3853,
     "post_id": "160369870",
     "gallery_id": "characterai",
@@ -442,30 +442,6 @@
     "recommend_count": 0,
     "comment_count": 0,
     "url": "https://arca.live/b/characterai/160363456?p=3"
-  },
-  {
-    "id": 3290,
-    "post_id": "160276735",
-    "gallery_id": "characterai",
-    "title": "Claude의 헌법이 개정됨 (내용 정리)",
-    "author": "몽상봉인",
-    "created_at": "2026-01-22T00:00:00",
-    "view_count": 34,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160276735?p=3"
-  },
-  {
-    "id": 3289,
-    "post_id": "160276772",
-    "gallery_id": "characterai",
-    "title": "8번출구 개발현황",
-    "author": "당장시작해",
-    "created_at": "2026-01-22T00:00:00",
-    "view_count": 29,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160276772?p=3"
   },
   {
     "id": 5050,
@@ -504,16 +480,28 @@
     "url": "https://arca.live/b/characterai/160790603?p=2"
   },
   {
-    "id": 3256,
-    "post_id": "160280496",
+    "id": 6053,
+    "post_id": "160878908",
     "gallery_id": "characterai",
-    "title": "PSYCHE(프시케) v0.4 : 업데이트",
-    "author": "zocuna",
-    "created_at": "2026-01-22T00:00:00",
-    "view_count": 21,
+    "title": "???:와이푸, 허스반도 다 지워라",
+    "author": "차칸사람",
+    "created_at": "2026-01-28T00:00:00",
+    "view_count": 25,
     "recommend_count": 0,
     "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160280496?p=2"
+    "url": "https://arca.live/b/characterai/160878908?p=3"
+  },
+  {
+    "id": 6058,
+    "post_id": "160878688",
+    "gallery_id": "characterai",
+    "title": "조잡하게 적은 먹은 봇들 후기 1편",
+    "author": "고트",
+    "created_at": "2026-01-28T00:00:00",
+    "view_count": 25,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/160878688?p=3"
   },
   {
     "id": 3835,
@@ -552,18 +540,6 @@
     "url": "https://arca.live/b/characterai/160787638?p=3"
   },
   {
-    "id": 3226,
-    "post_id": "160284341",
-    "gallery_id": "characterai",
-    "title": "과거 챗 시스템 롤에 대한 경험적 이야기 (GPT 한정) + 프롬얘기",
-    "author": "21773",
-    "created_at": "2026-01-22T00:00:00",
-    "view_count": 16,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160284341?p=2"
-  },
-  {
     "id": 3796,
     "post_id": "160376142",
     "gallery_id": "characterai",
@@ -576,27 +552,51 @@
     "url": "https://arca.live/b/characterai/160376142?p=1"
   },
   {
-    "id": 3273,
-    "post_id": "160278284",
+    "id": 5976,
+    "post_id": "160884650",
     "gallery_id": "characterai",
-    "title": "나 최근에 3.7 소넷 장점 장편 연재글 몇편 안트로픽에 보내고있는데",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-22T00:00:00",
-    "view_count": 11,
+    "title": "잼 추론이 진짜 병신인 게",
+    "author": "Daydric",
+    "created_at": "2026-01-28T00:00:00",
+    "view_count": 15,
     "recommend_count": 0,
     "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160278284?p=3"
+    "url": "https://arca.live/b/characterai/160884650?p=1"
   },
   {
-    "id": 3275,
-    "post_id": "160278094",
+    "id": 5033,
+    "post_id": "160709629",
     "gallery_id": "characterai",
-    "title": "선협은 중국의 문화 그리고 사회상과 관련 있음",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-22T00:00:00",
+    "title": "글 더읽어줘",
+    "author": "Eu3uguiexj",
+    "created_at": "2026-01-26T00:00:00",
     "view_count": 11,
     "recommend_count": 0,
     "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160278094?p=3"
+    "url": "https://arca.live/b/characterai/160709629?p=2"
+  },
+  {
+    "id": 5486,
+    "post_id": "160786598",
+    "gallery_id": "characterai",
+    "title": "모두 나만을봐",
+    "author": "Reowl",
+    "created_at": "2026-01-27T00:00:00",
+    "view_count": 11,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/160786598?p=3"
+  },
+  {
+    "id": 6045,
+    "post_id": "160879473",
+    "gallery_id": "characterai",
+    "title": "교황의 AI 경고는 그냥 사회적 해악만 걱정한게 아님",
+    "author": "ㅇㅇ0",
+    "created_at": "2026-01-28T00:00:00",
+    "view_count": 10,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/160879473?p=3"
   }
 ]

@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "keyword": "프롬",
+    "total_count": 72,
+    "rank": 1
+  },
+  {
+    "keyword": "만들",
+    "total_count": 69,
+    "rank": 2
+  },
+  {
+    "keyword": "단테",
+    "total_count": 61,
+    "rank": 3
+  },
+  {
+    "keyword": "오늘",
+    "total_count": 52,
+    "rank": 4
+  },
+  {
+    "keyword": "에덴",
+    "total_count": 51,
+    "rank": 5
+  },
+  {
+    "keyword": "요즘",
+    "total_count": 49,
+    "rank": 6
+  },
+  {
+    "keyword": "케덕",
+    "total_count": 49,
+    "rank": 7
+  },
+  {
+    "keyword": "리뷰",
+    "total_count": 48,
+    "rank": 8
+  },
+  {
+    "keyword": "상태",
+    "total_count": 47,
+    "rank": 9
+  },
+  {
+    "keyword": "사람",
+    "total_count": 44,
+    "rank": 10
+  },
+  {
+    "keyword": "생각",
+    "total_count": 43,
+    "rank": 11
+  },
+  {
+    "keyword": "ai",
+    "total_count": 42,
+    "rank": 12
+  },
+  {
+    "keyword": "맛있",
+    "total_count": 41,
+    "rank": 13
+  },
+  {
+    "keyword": "반납",
+    "total_count": 39,
+    "rank": 14
+  },
+  {
+    "keyword": "유저",
+    "total_count": 36,
+    "rank": 15
+  },
+  {
+    "keyword": "제작",
+    "total_count": 36,
+    "rank": 16
+  },
+  {
+    "keyword": "그림",
+    "total_count": 33,
+    "rank": 17
+  },
+  {
+    "keyword": "ooc",
+    "total_count": 31,
+    "rank": 18
+  },
+  {
+    "keyword": "나오",
+    "total_count": 30,
+    "rank": 19
+  },
+  {
+    "keyword": "이상",
+    "total_count": 30,
+    "rank": 20
+  }
+]
