@@ -392,6 +392,7 @@ async def export_bookmarks(session: AsyncSession, output_dir: Path):
             "id": bookmark.id,
             "url": bookmark.url,
             "title": bookmark.title,
+            "category": bookmark.category,
             "description": bookmark.description,
             "ai_summary": bookmark.ai_summary,
             "thumbnail_url": bookmark.thumbnail_url,
@@ -480,13 +481,43 @@ async def export_app_reviews(session: AsyncSession, output_dir: Path):
     print(f"  ✓ app_reviews.json 생성 ({len(reviews_data)} reviews)")
     
     # 3. 키워드 (app_keywords.json)
-    # 간단하게 전체 키워드 뭉뚱그려서 빈 파일 또는 더미 생성 (키워드 추출 로직이 복잡하므로 여기선 생략하거나 간단히 구현)
-    # 실제로는 형태소 분석 등이 필요하므로 여기서는 빈 리스트로 처리하거나 
-    # 기존 API 로직을 가져와야 하지만, 의존성 문제로 인해 빈 리스트로 처리
-    keywords_data = []
+    print("  ➤ 키워드 분석 중...")
+    from collections import Counter
+    import re
+    
+    # 분석 대상 리뷰 (위에서 조회한 500개 활용)
+    word_counter = Counter()
+    
+    # 불용어 리스트
+    stopwords = {
+        '그', '이', '저', '것', '수', '등', '들', '및', '를', '을', '가', '이', '은', '는', '하', '에', '의', '도', '로',
+        'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'is', 'are', 'was', 'were',
+        '있', '없', '되', '함', '하다', '있다', '없다', '같다', '와', '과', '네요', '요', '습니다', '이다'
+    }
+    
+    for review in reviews:
+        if not review.review_text:
+            continue
+            
+        # 한글 단어 (2자 이상)
+        korean_words = re.findall(r'[가-힣]{2,}', review.review_text)
+        # 영문 단어 (2자 이상)
+        english_words = re.findall(r'[a-zA-Z]{2,}', review.review_text.lower())
+        
+        for word in korean_words + english_words:
+            if word not in stopwords and len(word) >= 2:
+                word_counter[word] += 1
+    
+    # 앱별 키워드도 추출하면 좋겠지만, 현재 구조상 전체 키워드를 app_keywords.json에 저장
+    # (실제로는 앱별로 파일이 나뉘거나 구조가 달라야 하지만, 간단히 전체 Top 50 저장)
+    keywords_data = [
+        {"keyword": word, "total_count": count}
+        for word, count in word_counter.most_common(50)
+    ]
+    
     with open(output_dir / "app_keywords.json", "w", encoding="utf-8") as f:
         json.dump(keywords_data, f, ensure_ascii=False, indent=2)
-    print(f"  ✓ app_keywords.json 생성")
+    print(f"  ✓ app_keywords.json 생성 ({len(keywords_data)} keywords)")
 
 
 async def main():
