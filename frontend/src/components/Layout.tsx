@@ -1,18 +1,19 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import { triggerCrawl, generateReport, triggerChatServiceCrawl, triggerNewsCrawl, triggerAppReviewCrawl, USE_STATIC_DATA } from '../utils/api'
+import { Users, Trophy, Message, Article, Bookmarks, ChartBar } from '@nsmr/pixelart-react'
 
 interface LayoutProps {
   children: React.ReactNode
 }
 
 const navItems = [
-  { path: '/', label: '커뮤니티' },
-  { path: '/character-rankings', label: '캐릭터 순위' },
-  { path: '/app-reviews', label: '리뷰' },
-  { path: '/news', label: '뉴스' },
-  { path: '/bookmarks', label: '북마크' },
-  { path: '/reports', label: '리포트' },
+  { path: '/', label: '커뮤니티', icon: Users },
+  { path: '/character-rankings', label: '캐릭터 순위', icon: Trophy },
+  { path: '/app-reviews', label: '리뷰', icon: Message },
+  { path: '/news', label: '뉴스', icon: Article },
+  { path: '/bookmarks', label: '북마크', icon: Bookmarks },
+  { path: '/reports', label: '리포트', icon: ChartBar },
 ]
 
 export default function Layout({ children }: LayoutProps) {
@@ -75,7 +76,7 @@ export default function Layout({ children }: LayoutProps) {
         {/* Navigation */}
         <nav className="sidebar-nav" data-section="navigation">
           <ul className="nav-list">
-            {navItems.map(({ path, label }) => {
+            {navItems.map(({ path, label, icon: Icon }) => {
               const isActive = location.pathname === path
               return (
                 <li key={path}>
@@ -84,6 +85,7 @@ export default function Layout({ children }: LayoutProps) {
                     className={`
                       nav-item
                       block px-3 py-1.5 rounded transition-colors
+                      flex items-center gap-[8px]
                       ${isActive
                         ? 'bg-gray-200 text-gray-900 font-medium'
                         : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
@@ -91,7 +93,8 @@ export default function Layout({ children }: LayoutProps) {
                     `}
                     data-nav-item={path}
                   >
-                    {label}
+                    <Icon className="w-[18px] h-[18px]" />
+                    <span>{label}</span>
                   </Link>
                 </li>
               )
