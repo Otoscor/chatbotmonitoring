@@ -780,3 +780,217 @@ body {
 .glow-mint {
   box-shadow: 0 0 30px rgba(58, 224, 174, 0.3);
 }
+
+/* ================================
+   반응형 스타일 (Mobile First)
+   ================================ */
+
+/* 모바일 헤더 - 기본적으로 숨김 */
+.mobile-header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-primary);
+  z-index: 40;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.hamburger-button:hover {
+  background: var(--state-hover-bg);
+}
+
+.theme-toggle-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.theme-toggle-mobile:hover {
+  background: var(--state-hover-bg);
+}
+
+/* 사이드바 오버레이 - 모바일에서만 표시 */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 45;
+  backdrop-filter: blur(2px);
+}
+
+/* 사이드바 닫기 버튼 - 기본적으로 숨김 */
+.sidebar-close-button {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color 0.2s;
+}
+
+.sidebar-close-button:hover {
+  background: var(--state-hover-bg);
+}
+
+/* 모바일 브레이크포인트 (768px 이하) */
+@media (max-width: 768px) {
+
+  /* 모바일 헤더 표시 */
+  .mobile-header {
+    display: flex;
+  }
+
+  /* 사이드바 오버레이 표시 */
+  .sidebar-overlay {
+    display: block;
+  }
+
+  /* 사이드바 슬라이드 변환 */
+  .app-sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 50;
+    width: 280px;
+  }
+
+  .app-sidebar.sidebar-open {
+    transform: translateX(0);
+  }
+
+  /* 사이드바 헤더에서 닫기 버튼 표시 */
+  .sidebar-header {
+    justify-content: space-between;
+  }
+
+  .sidebar-close-button {
+    display: flex;
+  }
+
+  /* 메인 콘텐츠 마진 제거 및 상단 여백 */
+  .app-main-content {
+    margin-left: 0;
+    margin-top: 56px;
+  }
+
+  /* 콘텐츠 래퍼 패딩 축소 */
+  .main-content-wrapper {
+    padding: 24px 16px;
+    max-width: 100%;
+  }
+
+  /* 페이지 타이틀 축소 */
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  /* 카드 패딩 축소 */
+  .card {
+    padding: 16px;
+  }
+
+  /* 통계 카드 그리드 조정 */
+  .stat-card {
+    padding: 12px;
+  }
+
+  /* 리뷰 카드 패딩 축소 */
+  .review-card {
+    padding: 12px;
+  }
+
+  /* 캐릭터 카드 조정 */
+  .character-card {
+    padding: 12px;
+  }
+
+  /* 북마크 썸네일 축소 */
+  .bookmark-thumbnail {
+    width: 80px;
+    height: 60px;
+  }
+
+  /* 캐러셀 네비게이션 숨김 */
+  .carousel-nav-button {
+    display: none;
+  }
+
+  /* 섹션 타이틀 크기 조정 */
+  .section-title {
+    font-size: 0.875rem;
+  }
+
+  /* 폼 셀렉트 풀 와이드 */
+  .form-select {
+    width: 100%;
+  }
+
+  /* 테이블 열 숨김 (모바일) */
+  .mobile-hidden {
+    display: none;
+  }
+
+  /* 강제 흰색 아이콘 (테마 토글용) */
+  .force-white-icon {
+    color: white !important;
+    stroke: white !important;
+  }
+
+  .force-white-icon * {
+    stroke: white !important;
+  }
+
+  /* 스크롤바 숨김 유틸리티 */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+  }
+}
+
+/* 태블릿 브레이크포인트 (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-content-wrapper {
+    padding: 32px 24px;
+  }
+}

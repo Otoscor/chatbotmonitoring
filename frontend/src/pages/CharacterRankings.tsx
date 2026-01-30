@@ -18,6 +18,7 @@ const ITEMS_PER_PAGE = 4
 
 export default function CharacterRankings() {
   const [currentPage, setCurrentPage] = useState(0)
+  const [activeService, setActiveService] = useState('zeta') // For mobile tabs
 
   const { data: characters, loading } = useApi(
     useCallback(() => fetchChatServiceCharacters(undefined, 180), []) // 30 per service * 6 = 180
@@ -91,35 +92,55 @@ export default function CharacterRankings() {
         )}
       </section>
 
-      {/* 캐릭터 순위 캐러셀 영역 */}
-      <section className="relative" data-section="character-carousel">
-        {/* 네비게이션 버튼 (좌) - Fixed Position */}
-        {currentPage > 0 && (
-          <button
-            onClick={prevPage}
-            className="carousel-nav-button carousel-nav-prev group"
-            aria-label="이전 페이지"
-            data-action="prev"
-          >
-            <ChevronLeft className="carousel-nav-icon group-hover:text-gray-900" />
-          </button>
-        )}
+      {/* 캐릭터 순위 영역 */}
+      <section className="relative" data-section="character-rankings">
+        {/* 모바일 서비스 탭 */}
+        <div className="md:hidden mb-6">
+          <div className="tab-list overflow-x-auto whitespace-nowrap flex-nowrap scrollbar-hide" data-component="service-tabs">
+            {SERVICE_CONFIG.map(service => (
+              <button
+                key={service.id}
+                onClick={() => setActiveService(service.id)}
+                className={`tab-item ${activeService === service.id ? 'tab-item--active' : ''} inline-block px-4 py-2`}
+                data-tab={service.id}
+              >
+                {service.label}
+              </button>
+            ))}
+          </div>
+        </div>
 
-        {/* 네비게이션 버튼 (우) - Fixed Position */}
-        {currentPage < totalPages - 1 && (
-          <button
-            onClick={nextPage}
-            className="carousel-nav-button carousel-nav-next group"
-            aria-label="다음 페이지"
-            data-action="next"
-          >
-            <ChevronRight className="carousel-nav-icon group-hover:text-gray-900" />
-          </button>
-        )}
+        {/* 데스크톱 네비게이션 버튼 (좌) */}
+        <div className="hidden md:block">
+          {currentPage > 0 && (
+            <button
+              onClick={prevPage}
+              className="carousel-nav-button carousel-nav-prev group"
+              aria-label="이전 페이지"
+              data-action="prev"
+            >
+              <ChevronLeft className="carousel-nav-icon group-hover:text-gray-900" />
+            </button>
+          )}
+        </div>
 
-        {/* 4열 그리드 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-component="service-grid">
-          {currentServices.map((serviceConfig) => {
+        {/* 데스크톱 네비게이션 버튼 (우) */}
+        <div className="hidden md:block">
+          {currentPage < totalPages - 1 && (
+            <button
+              onClick={nextPage}
+              className="carousel-nav-button carousel-nav-next group"
+              aria-label="다음 페이지"
+              data-action="next"
+            >
+              <ChevronRight className="carousel-nav-icon group-hover:text-gray-900" />
+            </button>
+          )}
+        </div>
+
+        {/* 모바일: 선택된 서비스만 표시 */}
+        <div className="md:hidden space-y-6">
+          {SERVICE_CONFIG.filter(s => s.id === activeService).map((serviceConfig) => {
             const serviceCharacters = characters?.filter(
               (c: ChatServiceCharacter) => c.service === serviceConfig.id
             ) || []
@@ -151,6 +172,44 @@ export default function CharacterRankings() {
               </div>
             )
           })}
+        </div>
+
+        {/* 데스크톱: 4열 그리드 캐러셀 */}
+        <div className="hidden md:block">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-component="service-grid">
+            {currentServices.map((serviceConfig) => {
+              const serviceCharacters = characters?.filter(
+                (c: ChatServiceCharacter) => c.service === serviceConfig.id
+              ) || []
+
+              return (
+                <div key={serviceConfig.id} className="space-y-4" data-service={serviceConfig.id}>
+                  <div className="flex items-center justify-between">
+                    <h2 className="service-title">{serviceConfig.label}</h2>
+                    <span className="text-count">{serviceCharacters.length}개</span>
+                  </div>
+                  <div className="section-subtitle -mt-2 mb-2">{serviceConfig.subtext}</div>
+
+                  <div className="space-y-3">
+                    {serviceCharacters.length > 0 ? (
+                      serviceCharacters.map((char: ChatServiceCharacter) => (
+                        <CharacterCard
+                          key={char.id}
+                          character={char}
+                          formatViews={formatViews}
+                          directLink={serviceConfig.directLink}
+                        />
+                      ))
+                    ) : (
+                      <div className="empty-state--dashed" data-state="empty">
+                        <p>데이터가 없습니다</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </section>
 

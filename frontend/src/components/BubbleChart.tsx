@@ -28,14 +28,23 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
         config: { ...config.gentle, friction: 40 } // Higher friction for smoother inertia decay
     }))
 
-    // Update dimensions on mount
+    // Update dimensions on mount and resize
     useEffect(() => {
-        if (containerRef.current) {
-            const { width } = containerRef.current.getBoundingClientRect()
-            setDimensions({ width, height: 300 })
-            // Center the initial position
-            api.start({ x: width / 2, y: 150 })
+        const updateDimensions = () => {
+            if (containerRef.current) {
+                const { width } = containerRef.current.getBoundingClientRect()
+                // Responsive height: smaller on mobile
+                const isMobile = window.innerWidth <= 768
+                const height = isMobile ? 220 : 300
+                setDimensions({ width, height })
+                // Center the initial position
+                api.start({ x: width / 2, y: height / 2 })
+            }
         }
+
+        updateDimensions()
+        window.addEventListener('resize', updateDimensions)
+        return () => window.removeEventListener('resize', updateDimensions)
     }, [api])
 
     // Drag gesture binding (using bind() approach)

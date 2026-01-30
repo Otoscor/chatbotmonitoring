@@ -38,17 +38,23 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
         config: { ...config.gentle, friction: 40 }
     }))
 
-    // Update dimensions on mount
+    // Update dimensions on mount and resize
     useEffect(() => {
-        if (containerRef.current) {
-            const { width } = containerRef.current.getBoundingClientRect()
-            setDimensions({ width, height: 320 })
-            // Center the initial position with zoom 2
-            // d3.zoomIdentity.translate(width/2, height/2).scale(2).translate(-width/2, -height/2)
-            // Equivalent to: x = width/2 - (width/2)*2 = -width/2, y = height/2 - (height/2)*2 = -height/2
-            // simplified: we want the center of the graph (width/2, height/2) to be at the center of the view.
-            api.start({ x: -width / 2, y: -160, scale: 2 })
+        const updateDimensions = () => {
+            if (containerRef.current) {
+                const { width } = containerRef.current.getBoundingClientRect()
+                // Responsive height: smaller on mobile
+                const isMobile = window.innerWidth <= 768
+                const height = isMobile ? 250 : 320
+                setDimensions({ width, height })
+                // Center the initial position with zoom 2
+                api.start({ x: -width / 2, y: -height / 2, scale: 2 })
+            }
         }
+
+        updateDimensions()
+        window.addEventListener('resize', updateDimensions)
+        return () => window.removeEventListener('resize', updateDimensions)
     }, [api])
 
     // Drag gesture binding (using bind() approach)

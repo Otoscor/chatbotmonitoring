@@ -126,7 +126,7 @@ export default function Dashboard() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`tab-item ${activeTab === tab.id ? 'tab-item--active' : ''}`}
+                className={`tab-item ${activeTab === tab.id ? 'tab-item--active' : ''} text-xs px-2 py-1.5 whitespace-nowrap`}
                 data-tab={tab.id}
               >
                 {tab.label}
@@ -155,11 +155,11 @@ export default function Dashboard() {
                   <th className="table-header-cell text-left w-12">순위</th>
                   <th className="table-header-cell text-left">제목</th>
                   {activeTab === 'all' && (
-                    <th className="table-header-cell text-left w-32">갤러리</th>
+                    <th className="table-header-cell text-left w-32 mobile-hidden">갤러리</th>
                   )}
                   <th className="table-header-cell text-right w-20">추천</th>
-                  <th className="table-header-cell text-right w-20">조회</th>
-                  <th className="table-header-cell text-right w-20">댓글</th>
+                  <th className="table-header-cell text-right w-20 mobile-hidden">조회</th>
+                  <th className="table-header-cell text-right w-20 mobile-hidden">댓글</th>
                 </tr>
               </thead>
               <tbody>
@@ -188,15 +188,15 @@ export default function Dashboard() {
                       )}
                     </td>
                     {activeTab === 'all' && (
-                      <td className="table-cell text-gray-600 text-xs">{post.gallery_id}</td>
+                      <td className="table-cell text-gray-600 text-xs mobile-hidden">{post.gallery_id}</td>
                     )}
                     <td className="table-cell text-right text-gray-900 font-medium">
                       {post.recommend_count.toLocaleString()}
                     </td>
-                    <td className="table-cell text-right text-gray-600">
+                    <td className="table-cell text-right text-gray-600 mobile-hidden">
                       {post.view_count.toLocaleString()}
                     </td>
-                    <td className="table-cell text-right text-gray-600">
+                    <td className="table-cell text-right text-gray-600 mobile-hidden">
                       {post.comment_count.toLocaleString()}
                     </td>
                   </tr>
