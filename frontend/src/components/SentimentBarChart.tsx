@@ -105,7 +105,7 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
 
         // Add interactivity
         g.selectAll('rect')
-            .on('mouseover', function (event, d: any) {
+            .on('mouseover', function (_event, d: any) {
                 d3.select(this)
                     .transition()
                     .duration(150)

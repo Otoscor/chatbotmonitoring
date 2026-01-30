@@ -135,7 +135,6 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
 
         const { width } = containerRef.current.getBoundingClientRect()
         const height = 320
-        const svg = d3.select(svgRef.current)
         const contentGroup = d3.select(gRef.current)
 
         // Clear previous content

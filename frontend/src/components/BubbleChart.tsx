@@ -219,7 +219,7 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
 
         // Interactivity
         bubbleGroup.selectAll('circle')
-            .on('mouseover', function (event, d: any) {
+            .on('mouseover', function (_event, d: any) {
                 const currentOpacity = getOpacity(d)
                 d3.select(this)
                     .transition()
@@ -245,7 +245,7 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
                     .style('top', (event.pageY - 10) + 'px')
                     .style('left', (event.pageX + 10) + 'px')
             })
-            .on('mouseout', function (event, d: any) {
+            .on('mouseout', function (_event, d: any) {
                 d3.select(this)
                     .transition()
                     .duration(200)
