@@ -92,15 +92,15 @@ export default function AppReviews() {
 
             {/* 앱 선택 */}
             <section className="mb-6" data-section="app-selector">
-                <label className="block text-sm font-medium text-gray-700 mb-2">앱 선택</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2 dark:text-gray-300">앱 선택</label>
                 <select
                     value={selectedApp}
                     onChange={(e) => setSelectedApp(e.target.value)}
-                    className="w-full px-3 py-2 border border-gray-200 rounded text-sm text-gray-900 focus:outline-none focus:border-gray-400"
+                    className="w-full px-3 py-2 border border-gray-200 rounded text-sm text-gray-900 focus:outline-none focus:border-gray-400 dark:bg-[#1a1a1a] dark:border-gray-700 dark:text-white dark:focus:border-gray-500"
                     data-component="app-select"
                 >
                     {stats.map((stat) => (
-                        <option key={stat.app_name} value={stat.app_name} className="text-gray-900 bg-white">
+                        <option key={stat.app_name} value={stat.app_name} className="text-gray-900 bg-white dark:bg-[#1a1a1a] dark:text-white">
                             {stat.app_name} ({stat.total_reviews}개 리뷰, 평점 {stat.average_rating.toFixed(1)})
                         </option>
                     ))}

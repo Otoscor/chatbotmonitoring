@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import { triggerCrawl, generateReport, triggerChatServiceCrawl, triggerNewsCrawl, triggerAppReviewCrawl, USE_STATIC_DATA } from '../utils/api'
-import { Users, Trophy, Message, Article, Bookmarks, ChartBar } from '@nsmr/pixelart-react'
+import { Users, Trophy, Message, Article, Bookmarks, ChartBar, Sun, Moon } from '@nsmr/pixelart-react'
+import { useTheme } from '../hooks/useTheme'
 
 interface LayoutProps {
   children: React.ReactNode
@@ -19,6 +20,7 @@ const navItems = [
 export default function Layout({ children }: LayoutProps) {
   const location = useLocation()
   const [crawling, setCrawling] = useState(false)
+  const { theme, toggleTheme } = useTheme()
 
   const handleRefreshAll = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault()
@@ -68,9 +70,12 @@ export default function Layout({ children }: LayoutProps) {
       {/* Sidebar */}
       <aside className="app-sidebar" data-component="sidebar">
         {/* Logo */}
-        {/* Logo */}
         <div className="sidebar-header" data-section="header">
-          <img src="/logo.png" alt="Logo" className="h-6 w-auto" />
+          <img
+            src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'}
+            alt="Logo"
+            className="h-6 w-auto"
+          />
         </div>
 
         {/* Navigation */}
@@ -84,12 +89,8 @@ export default function Layout({ children }: LayoutProps) {
                     to={path}
                     className={`
                       nav-item
-                      block px-3 py-1.5 rounded transition-colors
                       flex items-center gap-[8px]
-                      ${isActive
-                        ? 'bg-gray-200 text-gray-900 font-medium'
-                        : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
-                      }
+                      ${isActive ? 'nav-item--active' : ''}
                     `}
                     data-nav-item={path}
                   >
@@ -102,20 +103,53 @@ export default function Layout({ children }: LayoutProps) {
           </ul>
         </nav>
 
+        {/* Theme Toggle Section */}
+        <div className="border-t border-gray-200 dark:border-gray-900 px-3 py-3 shrink-0">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="
+                nav-item
+                w-full px-3 py-1.5 rounded transition-colors
+                flex items-center gap-[8px]
+                dark:text-white
+              "
+            style={{ fontSize: '13px' }}
+            data-action="theme-toggle"
+          >
+            {theme === 'dark' ? (
+              <>
+                <span className="force-white-icon flex items-center justify-center">
+                  <Moon className="w-[18px] h-[18px]" />
+                </span>
+                <span className="text-white" style={{ color: '#ffffff' }}>Dark Mode</span>
+              </>
+            ) : (
+              <>
+                <Sun className="w-[18px] h-[18px] text-gray-600" />
+                <span>Light Mode</span>
+              </>
+            )}
+          </button>
+        </div>
+
         {/* Footer - Data Refresh Button */}
-        <div className="sidebar-footer" data-section="footer">
+        <div
+          className="sidebar-footer p-3 border-t border-gray-200 dark:border-gray-900 shrink-0 flex items-center justify-center"
+          data-section="footer"
+          style={{ height: '72px', minHeight: '72px' }}
+        >
           {!USE_STATIC_DATA && (
             <button
               type="button"
               onClick={handleRefreshAll}
               disabled={crawling}
-              className="crawl-button"
+              className="crawl-button w-full"
               data-action="crawl"
             >
               {crawling ? '크롤링 중...' : '크롤링 시작'}
             </button>
           )}
-          <p className="text-xs text-gray-400 text-center mt-3">모니터링 v1.0</p>
         </div>
       </aside>
 
@@ -125,6 +159,6 @@ export default function Layout({ children }: LayoutProps) {
           {children}
         </div>
       </main>
-    </div>
+    </div >
   )
 }

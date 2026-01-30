@@ -176,7 +176,7 @@ export default function Dashboard() {
                           href={post.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-gray-900 hover:text-gray-600 transition-colors line-clamp-1"
+                          className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors line-clamp-1"
                           title={post.title}
                         >
                           {post.title}

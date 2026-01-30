@@ -4,11 +4,12 @@
 
 @layer base {
   * {
-    @apply border-gray-200;
+    @apply border-gray-200 dark:border-gray-700;
   }
 
   body {
     @apply bg-white text-gray-900 antialiased;
+    @apply dark:bg-gray-900 dark:text-gray-100;
   }
 
   h1,
@@ -17,7 +18,7 @@
   h4,
   h5,
   h6 {
-    @apply font-semibold text-gray-900;
+    @apply font-semibold text-gray-900 dark:text-gray-100;
   }
 }
 
@@ -29,15 +30,17 @@
 
   /* --- 레이아웃 --- */
   .app-container {
-    @apply min-h-screen flex bg-white;
+    @apply min-h-screen flex bg-white dark:bg-[#050505];
   }
 
   .app-sidebar {
     @apply fixed top-0 left-0 h-screen w-60 bg-gray-50 border-r border-gray-200 flex flex-col;
+    @apply dark:bg-black dark:border-gray-900;
   }
 
   .sidebar-header {
     @apply h-[64px] px-6 border-b border-gray-200 flex items-center;
+    @apply dark:border-gray-900;
   }
 
   .sidebar-logo {
@@ -58,15 +61,22 @@
 
   .nav-item {
     @apply block px-3 py-1.5 rounded text-[13px] transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900;
+    @apply dark:text-gray-300 dark:hover:bg-[#1a1a1a] dark:hover:text-white;
     font-family: 'Galmuri11', sans-serif !important;
+  }
+
+  .nav-item svg {
+    @apply text-current;
   }
 
   .nav-item--active {
     @apply bg-gray-200 text-gray-900 font-medium;
+    @apply dark:bg-[#222] dark:text-white;
   }
 
   .sidebar-footer {
-    @apply px-3 py-3 border-t border-gray-200;
+    @apply px-3 py-3 border-t border-gray-200 h-[72px];
+    @apply dark:border-gray-900;
   }
 
   .crawl-button {
@@ -94,24 +104,29 @@
   /* --- 페이지 헤더 --- */
   .page-header {
     @apply pb-6 border-b border-gray-200;
+    @apply dark:border-gray-800;
   }
 
   .page-title {
     @apply text-2xl font-semibold text-gray-900 mb-1;
+    @apply dark:text-white;
     font-family: 'Galmuri11', sans-serif !important;
   }
 
   .page-description {
     @apply text-sm text-gray-500;
+    @apply dark:text-gray-400;
   }
 
   /* --- 카드 --- */
   .card {
     @apply bg-white border border-gray-200 rounded;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
   .card--hoverable {
     @apply hover:border-gray-300 transition-colors;
+    @apply dark:hover:border-gray-600;
   }
 
   .card--with-shadow {
@@ -121,31 +136,38 @@
   /* --- 통계 카드 --- */
   .stat-card {
     @apply bg-white border border-gray-200 rounded p-4 hover:border-gray-300 transition-colors;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800 dark:hover:border-gray-700;
   }
 
   .stat-card-title {
     @apply text-xs text-gray-500 mb-1;
+    @apply dark:text-gray-400;
   }
 
   .stat-card-value {
     @apply text-2xl font-semibold text-gray-900 mb-0.5;
+    @apply dark:text-white;
   }
 
   .stat-card-description {
     @apply text-xs text-gray-400 mt-1;
+    @apply dark:text-gray-500;
   }
 
   /* --- 탭 --- */
   .tab-list {
     @apply flex space-x-1 border-b border-gray-200;
+    @apply dark:border-gray-800;
   }
 
   .tab-item {
     @apply px-4 py-2 text-sm font-medium transition-colors text-gray-500 hover:text-gray-700;
+    @apply dark:text-gray-400 dark:hover:text-white;
   }
 
   .tab-item--active {
     @apply text-gray-900 border-b-2 border-gray-900;
+    @apply dark:text-white dark:border-gray-700;
   }
 
   /* --- 테이블 --- */
@@ -155,23 +177,28 @@
 
   .table-header-row {
     @apply border-b border-gray-200;
+    @apply dark:border-gray-800;
   }
 
   .table-header-cell {
     @apply py-2 px-3 font-medium text-gray-700;
+    @apply dark:text-gray-300;
   }
 
   .table-row {
     @apply border-b border-gray-100 hover:bg-gray-50 transition-colors;
+    @apply dark:border-gray-800 dark:hover:bg-gray-800;
   }
 
   .table-cell {
     @apply py-2 px-3;
+    @apply dark:text-gray-200;
   }
 
   /* --- 키워드 클라우드 --- */
   .keyword-cloud {
     @apply bg-white border border-gray-200 rounded p-6;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
   .keyword-cloud-container {
@@ -180,48 +207,59 @@
 
   .keyword-item {
     @apply text-gray-700 hover:text-gray-900 transition-colors cursor-default;
+    @apply dark:text-gray-300 dark:hover:text-white;
   }
 
   .keyword-cloud--empty {
     @apply bg-white border border-gray-200 rounded p-8;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
   /* --- 랭킹 리스트 --- */
   .ranking-list {
     @apply bg-white border border-gray-200 rounded;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
   .ranking-list-header {
     @apply px-4 py-3 border-b border-gray-200;
+    @apply dark:border-gray-800;
   }
 
   .ranking-list-title {
     @apply text-sm font-semibold text-gray-900;
+    @apply dark:text-white;
   }
 
   .ranking-list-body {
     @apply divide-y divide-gray-100;
+    @apply dark:divide-gray-800;
   }
 
   .ranking-list-item {
     @apply px-4 py-2.5 flex items-center justify-between hover:bg-gray-50 transition-colors;
+    @apply dark:hover:bg-gray-800;
   }
 
   .ranking-position {
     @apply text-xs font-medium text-gray-400 w-6;
+    @apply dark:text-gray-500;
   }
 
   .ranking-name {
     @apply text-sm text-gray-900;
+    @apply dark:text-white;
   }
 
   .ranking-score {
     @apply text-xs text-gray-500;
+    @apply dark:text-gray-400;
   }
 
   /* --- 캐릭터 카드 --- */
   .character-card {
     @apply block bg-white border border-gray-200 rounded p-4 hover:border-gray-300 hover:shadow-sm transition-all overflow-hidden;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800 dark:hover:border-gray-700;
   }
 
   .character-card-content {
@@ -230,6 +268,7 @@
 
   .character-rank-badge {
     @apply inline-flex items-center justify-center w-7 h-7 text-sm font-medium text-gray-700 bg-gray-100 rounded;
+    @apply dark:text-gray-300 dark:bg-gray-800;
   }
 
   .character-info {
@@ -238,10 +277,12 @@
 
   .character-name {
     @apply text-sm font-medium text-gray-900 line-clamp-2 leading-snug;
+    @apply dark:text-white;
   }
 
   .character-views {
     @apply text-xs text-gray-500;
+    @apply dark:text-gray-400;
   }
 
   .character-tags {
@@ -250,15 +291,18 @@
 
   .character-tag {
     @apply inline-block px-1.5 py-0.5 text-xs bg-gray-100 text-gray-600 rounded;
+    @apply dark:bg-gray-800 dark:text-gray-300;
   }
 
   .character-tag-more {
     @apply inline-block px-1.5 py-0.5 text-xs text-gray-400;
+    @apply dark:text-gray-500;
   }
 
   /* --- 북마크 --- */
   .bookmark-card {
     @apply bg-white border border-gray-200 rounded p-4 hover:border-gray-300 transition-colors;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800 dark:hover:border-gray-700;
   }
 
   .bookmark-thumbnail {
@@ -271,18 +315,22 @@
 
   .bookmark-title {
     @apply text-lg font-medium text-gray-900 hover:text-gray-600 line-clamp-2 block mb-1;
+    @apply dark:text-white dark:hover:text-gray-300;
   }
 
   .bookmark-site-name {
     @apply text-xs text-gray-500 mb-2;
+    @apply dark:text-gray-400;
   }
 
   .bookmark-summary {
     @apply text-sm text-gray-700 line-clamp-3;
+    @apply dark:text-gray-300;
   }
 
   .bookmark-meta {
     @apply flex items-center gap-4 text-xs text-gray-500;
+    @apply dark:text-gray-400;
   }
 
   .bookmark-actions {
@@ -292,39 +340,48 @@
   /* --- 뉴스 카드 --- */
   .news-card {
     @apply block bg-white border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-sm transition-all;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800 dark:hover:border-gray-700;
   }
 
   .news-title {
     @apply text-sm font-medium text-gray-900 line-clamp-2 leading-snug;
+    @apply dark:text-white;
   }
 
   .news-description {
     @apply mt-1.5 text-xs text-gray-500 line-clamp-2;
+    @apply dark:text-gray-400;
   }
 
   .news-meta {
     @apply mt-2 flex items-center gap-3 text-xs text-gray-400;
+    @apply dark:text-gray-500;
   }
 
   .news-keyword {
     @apply px-1.5 py-0.5 bg-gray-100 text-gray-600 rounded;
+    @apply dark:bg-gray-800 dark:text-gray-300;
   }
 
   /* --- 리뷰 --- */
   .review-card {
     @apply bg-white border border-gray-200 rounded p-4;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
   .review-rating {
     @apply text-sm font-medium;
+    @apply dark:text-white;
   }
 
   .review-meta {
     @apply text-xs text-gray-500 mt-1;
+    @apply dark:text-gray-400;
   }
 
   .review-text {
     @apply text-sm text-gray-700 leading-relaxed;
+    @apply dark:text-gray-300;
   }
 
   /* --- 상태 표시 --- */
@@ -334,19 +391,23 @@
 
   .loading-text {
     @apply text-sm text-gray-400;
+    @apply dark:text-gray-500;
   }
 
   .empty-state {
     @apply text-center py-8 text-sm text-gray-500;
+    @apply dark:text-gray-400;
   }
 
   .empty-state-card {
     @apply bg-white border border-gray-200 rounded p-12 text-center;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
   /* --- 캐러셀 네비게이션 --- */
   .carousel-nav-button {
     @apply fixed top-1/2 z-50 w-10 h-10 bg-white border border-[#eee] rounded-[4px] shadow-none flex items-center justify-center hover:bg-gray-50 transition-colors -translate-y-1/2 focus:outline-none;
+    @apply dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white;
   }
 
   .carousel-nav-prev {
@@ -359,6 +420,7 @@
 
   .carousel-nav-icon {
     @apply w-6 h-6 text-gray-600 transition-colors;
+    @apply dark:text-gray-400 dark:group-hover:text-white;
   }
 
   /* --- 섹션 --- */
@@ -369,16 +431,138 @@
   .section-subtitle {
     @apply text-xs text-gray-500;
   }
+
+  /* --- 아이콘 색상 강제 (라이브러리 오버라이드) --- */
+  .force-white-icon svg,
+  .force-white-icon path {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+  }
 }
 
+/* Light mode 변수 (기본값) */
 :root {
+  /* 배경색 */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-card: #ffffff;
+  --bg-sidebar: #f9fafb;
+
+  /* 텍스트 색상 */
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-tertiary: #9ca3af;
+  --text-quaternary: #d1d5db;
+
+  /* 보더 색상 */
+  --border-primary: #e5e7eb;
+  --border-secondary: #f3f4f6;
+  --border-hover: #d1d5db;
+
+  /* 상태 색상 */
+  --state-hover-bg: #f3f4f6;
+  --state-active-bg: #e5e7eb;
+
+  /* 강조 색상 */
+  --accent-coral: #ef4444;
+  --accent-mint: #10b981;
+  --accent-blue: #3b82f6;
+
+  /* 그라데이션 */
+  --gradient-start: #1f2937;
+  --gradient-mid1: #6b7280;
+  --gradient-mid2: #374151;
+  --gradient-mid3: #9ca3af;
+  --gradient-end: #1f2937;
+
+  /* 스크롤바 */
+  --scrollbar-track: #f3f4f6;
+  --scrollbar-thumb: #d1d5db;
+  --scrollbar-thumb-hover: #9ca3af;
+}
+
+/* Dark mode 변수 */
+.dark {
+  /* 배경색 */
   --bg-primary: #0c0a2e;
   --bg-secondary: #151241;
   --bg-card: #1a1650;
+  --bg-sidebar: #0f0d36;
+
+  /* 텍스트 색상 */
   --text-primary: #ffffff;
   --text-secondary: #a3b7ff;
+  --text-tertiary: #7b8cde;
+  --text-quaternary: #5a6cb8;
+
+  /* 보더 색상 */
+  --border-primary: rgba(167, 139, 250, 0.2);
+  --border-secondary: rgba(167, 139, 250, 0.1);
+  --border-hover: rgba(167, 139, 250, 0.3);
+
+  /* 상태 색상 */
+  --state-hover-bg: rgba(90, 101, 255, 0.1);
+  --state-active-bg: rgba(90, 101, 255, 0.2);
+
+  /* 강조 색상 */
   --accent-coral: #ff6b5b;
   --accent-mint: #3ae0ae;
+  --accent-blue: #5a65ff;
+
+  /* 그라데이션 */
+  --gradient-start: #5a65ff;
+  --gradient-mid1: #7b8cde;
+  --gradient-mid2: #ff6b5b;
+  --gradient-mid3: #a3b7ff;
+  --gradient-end: #5a65ff;
+
+  /* 스크롤바 */
+  --scrollbar-track: var(--bg-secondary);
+  --scrollbar-thumb: var(--bg-card);
+  --scrollbar-thumb-hover: #2e2a89;
+}
+
+/* prefers-color-scheme을 사용한 자동 다크모드 (선택사항) */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    /* 배경색 */
+    --bg-primary: #0c0a2e;
+    --bg-secondary: #151241;
+    --bg-card: #1a1650;
+    --bg-sidebar: #0f0d36;
+
+    /* 텍스트 색상 */
+    --text-primary: #ffffff;
+    --text-secondary: #a3b7ff;
+    --text-tertiary: #7b8cde;
+    --text-quaternary: #5a6cb8;
+
+    /* 보더 색상 */
+    --border-primary: rgba(167, 139, 250, 0.2);
+    --border-secondary: rgba(167, 139, 250, 0.1);
+    --border-hover: rgba(167, 139, 250, 0.3);
+
+    /* 상태 색상 */
+    --state-hover-bg: rgba(90, 101, 255, 0.1);
+    --state-active-bg: rgba(90, 101, 255, 0.2);
+
+    /* 강조 색상 */
+    --accent-coral: #ff6b5b;
+    --accent-mint: #3ae0ae;
+    --accent-blue: #5a65ff;
+
+    /* 그라데이션 */
+    --gradient-start: #5a65ff;
+    --gradient-mid1: #7b8cde;
+    --gradient-mid2: #ff6b5b;
+    --gradient-mid3: #a3b7ff;
+    --gradient-end: #5a65ff;
+
+    /* 스크롤바 */
+    --scrollbar-track: #151241;
+    --scrollbar-thumb: #1a1650;
+    --scrollbar-thumb-hover: #2e2a89;
+  }
 }
 
 * {
@@ -389,11 +573,15 @@ body {
   margin: 0;
   font-family: 'Pretendard Variable', 'Pretendard', system-ui, -apple-system, sans-serif;
   background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* Dark mode에서만 그라데이션 배경 추가 */
+.dark body {
   background-image:
     radial-gradient(ellipse at 20% 0%, rgba(90, 101, 255, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 100%, rgba(255, 107, 91, 0.1) 0%, transparent 50%);
-  color: var(--text-primary);
-  min-height: 100vh;
 }
 
 /* Gradient animation for crawl button - diagonal irregular movement */
@@ -426,23 +614,30 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-secondary);
+  background: var(--scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--bg-card);
+  background: var(--scrollbar-thumb);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2e2a89;
+  background: var(--scrollbar-thumb-hover);
 }
 
-/* Glass effect */
-.glass {
+/* Glass effect (Dark mode only) */
+.dark .glass {
   background: rgba(26, 22, 80, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(167, 139, 250, 0.1);
+}
+
+/* Light mode glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 231, 235, 0.5);
 }
 
 /* Gradient text */

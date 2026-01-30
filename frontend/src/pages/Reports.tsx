@@ -30,14 +30,14 @@ export default function Reports() {
           <table className="data-table" data-component="reports-table">
             <thead>
               <tr className="table-header-row">
-                <th className="px-4 py-3 text-left text-xs font-semibold text-gray-900">날짜</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900">게시글</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900">조회수</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900">추천수</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900">댓글</th>
+                <th className="px-4 py-3 text-left text-xs font-semibold text-gray-900 dark:text-white">날짜</th>
+                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">게시글</th>
+                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">조회수</th>
+                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">추천수</th>
+                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">댓글</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-100">
+            <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
               {!reports || reports.length === 0 ? (
                 <tr>
                   <td colSpan={5} className="px-4 py-8 text-center text-sm text-gray-400" data-state="empty">
@@ -56,22 +56,22 @@ export default function Reports() {
                       <td className="px-4 py-3">
                         <Link
                           to={`/reports/${dateStr}`}
-                          className="text-gray-900 hover:text-gray-600 font-medium"
+                          className="text-gray-900 hover:text-gray-600 font-medium dark:text-white dark:hover:text-gray-300"
                           data-link="report-detail"
                         >
                           {format(new Date(report.report_date), 'yyyy년 MM월 dd일', { locale: ko })}
                         </Link>
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700">
+                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
                         {report.total_posts.toLocaleString()}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700">
+                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
                         {report.total_views.toLocaleString()}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700">
+                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
                         {report.total_recommends.toLocaleString()}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700">
+                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
                         {report.total_comments.toLocaleString()}
                       </td>
                     </tr>
