@@ -1,5 +1,4 @@
 import { useCallback } from 'react'
-import { Link } from 'react-router-dom'
 import { format } from 'date-fns'
 import { ko } from 'date-fns/locale'
 import { useApi } from '../hooks/useApi'
@@ -22,7 +21,7 @@ export default function Reports() {
     <div className="space-y-6" data-page="reports">
       <header className="page-header" data-section="header">
         <h1 className="page-title">리포트</h1>
-        <p className="page-description">일별 크롤링 리포트 내역 (클릭하여 상세보기)</p>
+        <p className="page-description">일별 크롤링 리포트 내역</p>
       </header>
 
       <section className="card" data-section="reports-table">
@@ -30,11 +29,11 @@ export default function Reports() {
           <table className="data-table" data-component="reports-table">
             <thead>
               <tr className="table-header-row">
-                <th className="px-4 py-3 text-left text-xs font-semibold text-gray-900 dark:text-white">날짜</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">게시글</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">조회수</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">추천수</th>
-                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-900 dark:text-white">댓글</th>
+                <th className="table-header-cell--left">날짜</th>
+                <th className="table-header-cell--right">게시글</th>
+                <th className="table-header-cell--right">조회수</th>
+                <th className="table-header-cell--right">추천수</th>
+                <th className="table-header-cell--right">댓글</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
@@ -46,32 +45,25 @@ export default function Reports() {
                 </tr>
               ) : (
                 reports.map((report: DailyReport) => {
-                  const dateStr = format(new Date(report.report_date), 'yyyy-MM-dd')
                   return (
                     <tr
                       key={report.id}
                       className="table-row"
                       data-report-id={report.id}
                     >
-                      <td className="px-4 py-3">
-                        <Link
-                          to={`/reports/${dateStr}`}
-                          className="text-gray-900 hover:text-gray-600 font-medium dark:text-white dark:hover:text-gray-300"
-                          data-link="report-detail"
-                        >
-                          {format(new Date(report.report_date), 'yyyy년 MM월 dd일', { locale: ko })}
-                        </Link>
+                      <td className="table-cell--left">
+                        {format(new Date(report.report_date), 'yyyy년 MM월 dd일', { locale: ko })}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
+                      <td className="table-cell--right">
                         {report.total_posts.toLocaleString()}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
+                      <td className="table-cell--right">
                         {report.total_views.toLocaleString()}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
+                      <td className="table-cell--right">
                         {report.total_recommends.toLocaleString()}
                       </td>
-                      <td className="px-4 py-3 text-right text-gray-700 dark:text-gray-300">
+                      <td className="table-cell--right">
                         {report.total_comments.toLocaleString()}
                       </td>
                     </tr>
@@ -85,3 +77,4 @@ export default function Reports() {
     </div>
   )
 }
+

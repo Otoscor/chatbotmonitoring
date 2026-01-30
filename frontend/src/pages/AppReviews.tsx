@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useApi } from '../hooks/useApi'
-import KeywordCloud from '../components/KeywordCloud'
+import BubbleChart from '../components/BubbleChart'
 import {
     fetchAppStats,
     fetchAppReviews,
@@ -92,15 +92,15 @@ export default function AppReviews() {
 
             {/* 앱 선택 */}
             <section className="mb-6" data-section="app-selector">
-                <label className="block text-sm font-medium text-gray-700 mb-2 dark:text-gray-300">앱 선택</label>
+                <label className="form-label">앱 선택</label>
                 <select
                     value={selectedApp}
                     onChange={(e) => setSelectedApp(e.target.value)}
-                    className="w-full px-3 py-2 border border-gray-200 rounded text-sm text-gray-900 focus:outline-none focus:border-gray-400 dark:bg-[#1a1a1a] dark:border-gray-700 dark:text-white dark:focus:border-gray-500"
+                    className="form-select"
                     data-component="app-select"
                 >
                     {stats.map((stat) => (
-                        <option key={stat.app_name} value={stat.app_name} className="text-gray-900 bg-white dark:bg-[#1a1a1a] dark:text-white">
+                        <option key={stat.app_name} value={stat.app_name}>
                             {stat.app_name} ({stat.total_reviews}개 리뷰, 평점 {stat.average_rating.toFixed(1)})
                         </option>
                     ))}
@@ -108,7 +108,7 @@ export default function AppReviews() {
             </section>
 
             {/* 인기 키워드 */}
-            <section className="card p-6 mb-6" data-section="review-keywords">
+            <section className="card p-6 mb-6 relative" data-section="review-keywords">
                 <h3 className="section-title mb-4">리뷰에서 자주 언급된 키워드</h3>
                 {keywordsLoading ? (
                     <div className="empty-state" data-state="loading">
@@ -119,12 +119,28 @@ export default function AppReviews() {
                         키워드 데이터가 없습니다.
                     </div>
                 ) : (
-                    <KeywordCloud
-                        keywords={keywords?.map(k => ({
-                            text: k.keyword,
-                            value: k.total_count
-                        })) || []}
-                    />
+                    <>
+                        <BubbleChart
+                            keywords={keywords?.map(k => {
+                                // 데모를 위한 임시 로직: 실제 점수가 없으면 키워드 해시 기반으로 가짜 점수 생성
+                                let sentiment = k.sentiment_score
+                                if (typeof sentiment === 'undefined') {
+                                    const hash = k.keyword.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0)
+                                    sentiment = (hash % 200 - 100) / 100 // -1.0 ~ 1.0
+                                }
+
+                                return {
+                                    text: k.keyword,
+                                    value: k.total_count,
+                                    sentiment: sentiment
+                                }
+                            }) || []}
+                        />
+                        <div className="absolute bottom-4 right-4 flex flex-row items-end gap-3 pointer-events-none select-none opacity-60 z-10">
+                            <span className="text-[12px] text-gray-500 dark:text-gray-400 font-medium">마우스 휠 확대/축소</span>
+                            <span className="text-[12px] text-gray-500 dark:text-gray-400 font-medium">마우스 패닝 이동</span>
+                        </div>
+                    </>
                 )}
             </section>
 

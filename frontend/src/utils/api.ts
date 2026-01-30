@@ -90,6 +90,7 @@ export interface KeywordTrend {
   keyword: string
   total_count: number
   rank: number
+  sentiment_score?: number // -1.0 to 1.0
 }
 
 export interface CharacterRanking {

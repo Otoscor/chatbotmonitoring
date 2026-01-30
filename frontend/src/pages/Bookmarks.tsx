@@ -128,7 +128,7 @@ export default function Bookmarks() {
                     className="card p-6"
                     data-component="bookmark-form"
                 >
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="form-label">
                         {tabs.find(t => t.id === activeTab)?.label} 추가
                     </label>
                     <div className="flex gap-2">
@@ -137,13 +137,13 @@ export default function Bookmarks() {
                             value={urlInput}
                             onChange={(e) => setUrlInput(e.target.value)}
                             placeholder={`https://example.com/article (${activeTab})`}
-                            className="flex-1 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent dark:bg-[#1a1a1a] dark:border-gray-700 dark:text-white dark:focus:ring-white dark:placeholder-gray-500"
+                            className="form-input flex-1"
                             disabled={addingBookmark}
                         />
                         <button
                             type="submit"
                             disabled={addingBookmark || !urlInput.trim()}
-                            className="px-6 py-2 bg-gray-900 text-white rounded hover:bg-gray-800 disabled:bg-gray-400 transition-colors dark:bg-[#1a1a1a] dark:hover:bg-[#333333] dark:disabled:bg-gray-800"
+                            className="btn-primary"
                         >
                             {addingBookmark ? '추가 중...' : '북마크 추가'}
                         </button>

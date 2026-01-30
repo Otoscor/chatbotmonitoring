@@ -215,6 +215,48 @@
     @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
+  /* --- 버블 차트 --- */
+  .bubble-chart {
+    @apply w-full overflow-hidden;
+  }
+
+  .bubble-chart svg {
+    @apply w-full;
+  }
+
+  .bubble-chart--empty {
+    @apply bg-white border border-gray-200 rounded p-8;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
+  }
+
+  /* --- 감정 막대 차트 --- */
+  .sentiment-bar-chart {
+    @apply w-full overflow-hidden;
+  }
+
+  .sentiment-bar-chart svg {
+    @apply w-full;
+  }
+
+  .sentiment-bar-chart--empty {
+    @apply bg-white border border-gray-200 rounded p-8;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
+  }
+
+  /* --- 네트워크 그래프 --- */
+  .network-graph {
+    @apply w-full overflow-hidden;
+  }
+
+  .network-graph svg {
+    @apply w-full;
+  }
+
+  .network-graph--empty {
+    @apply bg-white border border-gray-200 rounded p-8;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-800;
+  }
+
   /* --- 랭킹 리스트 --- */
   .ranking-list {
     @apply bg-white border border-gray-200 rounded;
@@ -438,6 +480,84 @@
     fill: #ffffff !important;
     color: #ffffff !important;
   }
+
+  /* --- 폼 요소 --- */
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+    @apply dark:text-gray-300;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded text-sm text-gray-900;
+    @apply focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent;
+    @apply dark:bg-[#1a1a1a] dark:border-gray-700 dark:text-white dark:focus:ring-white dark:placeholder-gray-500;
+  }
+
+  .form-select {
+    @apply w-full px-3 py-2 border border-gray-200 rounded text-sm text-gray-900;
+    @apply focus:outline-none focus:border-gray-400;
+    @apply dark:bg-[#1a1a1a] dark:border-gray-700 dark:text-white dark:focus:border-gray-500;
+  }
+
+  .form-select option {
+    @apply text-gray-900 bg-white;
+    @apply dark:bg-[#1a1a1a] dark:text-white;
+  }
+
+  /* --- 테이블 셀 (확장) --- */
+  .table-header-cell--left {
+    @apply px-4 py-3 text-left text-xs font-semibold text-gray-900;
+    @apply dark:text-white;
+  }
+
+  .table-header-cell--right {
+    @apply px-4 py-3 text-right text-xs font-semibold text-gray-900;
+    @apply dark:text-white;
+  }
+
+  .table-cell--left {
+    @apply px-4 py-3 text-left text-gray-700;
+    @apply dark:text-gray-300;
+  }
+
+  .table-cell--right {
+    @apply px-4 py-3 text-right text-gray-700;
+    @apply dark:text-gray-300;
+  }
+
+  /* --- 링크 & 텍스트 --- */
+  .link-primary {
+    @apply text-gray-900 hover:text-gray-600 font-medium;
+    @apply dark:text-white dark:hover:text-gray-300;
+  }
+
+  .text-count {
+    @apply text-sm text-gray-500;
+    @apply dark:text-gray-400;
+  }
+
+  .service-title {
+    @apply text-lg font-medium text-gray-900;
+    @apply dark:text-white;
+  }
+
+  /* --- 빈 상태 변형 --- */
+  .empty-state--dashed {
+    @apply text-center py-8 bg-gray-50 rounded border border-dashed border-gray-200;
+    @apply dark:bg-[#0a0a0a] dark:border-gray-700;
+  }
+
+  .empty-state--dashed p {
+    @apply text-xs text-gray-400;
+    @apply dark:text-gray-500;
+  }
+
+  /* --- 버튼 --- */
+  .btn-primary {
+    @apply px-6 py-2 bg-gray-900 text-white rounded;
+    @apply hover:bg-gray-800 disabled:bg-gray-400 transition-colors;
+    @apply dark:bg-[#1a1a1a] dark:hover:bg-[#333333] dark:disabled:bg-gray-800;
+  }
 }
 
 /* Light mode 변수 (기본값) */
@@ -483,85 +603,85 @@
 
 /* Dark mode 변수 */
 .dark {
-  /* 배경색 */
-  --bg-primary: #0c0a2e;
-  --bg-secondary: #151241;
-  --bg-card: #1a1650;
-  --bg-sidebar: #0f0d36;
+  /* 배경색 - Neutral Black */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #121212;
+  --bg-card: #1a1a1a;
+  --bg-sidebar: #0f0f0f;
 
-  /* 텍스트 색상 */
+  /* 텍스트 색상 - Neutral Gray */
   --text-primary: #ffffff;
-  --text-secondary: #a3b7ff;
-  --text-tertiary: #7b8cde;
-  --text-quaternary: #5a6cb8;
+  --text-secondary: #a3a3a3;
+  --text-tertiary: #737373;
+  --text-quaternary: #525252;
 
   /* 보더 색상 */
-  --border-primary: rgba(167, 139, 250, 0.2);
-  --border-secondary: rgba(167, 139, 250, 0.1);
-  --border-hover: rgba(167, 139, 250, 0.3);
+  --border-primary: #262626;
+  --border-secondary: #171717;
+  --border-hover: #404040;
 
   /* 상태 색상 */
-  --state-hover-bg: rgba(90, 101, 255, 0.1);
-  --state-active-bg: rgba(90, 101, 255, 0.2);
+  --state-hover-bg: rgba(255, 255, 255, 0.05);
+  --state-active-bg: rgba(255, 255, 255, 0.1);
 
   /* 강조 색상 */
-  --accent-coral: #ff6b5b;
-  --accent-mint: #3ae0ae;
-  --accent-blue: #5a65ff;
+  --accent-coral: #ef4444;
+  --accent-mint: #10b981;
+  --accent-blue: #3b82f6;
 
   /* 그라데이션 */
-  --gradient-start: #5a65ff;
-  --gradient-mid1: #7b8cde;
-  --gradient-mid2: #ff6b5b;
-  --gradient-mid3: #a3b7ff;
-  --gradient-end: #5a65ff;
+  --gradient-start: #171717;
+  --gradient-mid1: #262626;
+  --gradient-mid2: #1f1f1f;
+  --gradient-mid3: #404040;
+  --gradient-end: #171717;
 
   /* 스크롤바 */
-  --scrollbar-track: var(--bg-secondary);
-  --scrollbar-thumb: var(--bg-card);
-  --scrollbar-thumb-hover: #2e2a89;
+  --scrollbar-track: #0a0a0a;
+  --scrollbar-thumb: #262626;
+  --scrollbar-thumb-hover: #404040;
 }
 
 /* prefers-color-scheme을 사용한 자동 다크모드 (선택사항) */
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
-    /* 배경색 */
-    --bg-primary: #0c0a2e;
-    --bg-secondary: #151241;
-    --bg-card: #1a1650;
-    --bg-sidebar: #0f0d36;
+    /* 배경색 - Neutral Black */
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #121212;
+    --bg-card: #1a1a1a;
+    --bg-sidebar: #0f0f0f;
 
-    /* 텍스트 색상 */
+    /* 텍스트 색상 - Neutral Gray */
     --text-primary: #ffffff;
-    --text-secondary: #a3b7ff;
-    --text-tertiary: #7b8cde;
-    --text-quaternary: #5a6cb8;
+    --text-secondary: #a3a3a3;
+    --text-tertiary: #737373;
+    --text-quaternary: #525252;
 
     /* 보더 색상 */
-    --border-primary: rgba(167, 139, 250, 0.2);
-    --border-secondary: rgba(167, 139, 250, 0.1);
-    --border-hover: rgba(167, 139, 250, 0.3);
+    --border-primary: #262626;
+    --border-secondary: #171717;
+    --border-hover: #404040;
 
     /* 상태 색상 */
-    --state-hover-bg: rgba(90, 101, 255, 0.1);
-    --state-active-bg: rgba(90, 101, 255, 0.2);
+    --state-hover-bg: rgba(255, 255, 255, 0.05);
+    --state-active-bg: rgba(255, 255, 255, 0.1);
 
     /* 강조 색상 */
-    --accent-coral: #ff6b5b;
-    --accent-mint: #3ae0ae;
-    --accent-blue: #5a65ff;
+    --accent-coral: #ef4444;
+    --accent-mint: #10b981;
+    --accent-blue: #3b82f6;
 
     /* 그라데이션 */
-    --gradient-start: #5a65ff;
-    --gradient-mid1: #7b8cde;
-    --gradient-mid2: #ff6b5b;
-    --gradient-mid3: #a3b7ff;
-    --gradient-end: #5a65ff;
+    --gradient-start: #171717;
+    --gradient-mid1: #262626;
+    --gradient-mid2: #1f1f1f;
+    --gradient-mid3: #404040;
+    --gradient-end: #171717;
 
     /* 스크롤바 */
-    --scrollbar-track: #151241;
-    --scrollbar-thumb: #1a1650;
-    --scrollbar-thumb-hover: #2e2a89;
+    --scrollbar-track: #0a0a0a;
+    --scrollbar-thumb: #262626;
+    --scrollbar-thumb-hover: #404040;
   }
 }
 
@@ -578,10 +698,10 @@ body {
 }
 
 /* Dark mode에서만 그라데이션 배경 추가 */
+/* Dark mode에서만 그라데이션 배경 추가 - REMOVED (Clean Black) */
 .dark body {
-  background-image:
-    radial-gradient(ellipse at 20% 0%, rgba(90, 101, 255, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 100%, rgba(255, 107, 91, 0.1) 0%, transparent 50%);
+  background-image: none;
+  background-color: var(--bg-primary);
 }
 
 /* Gradient animation for crawl button - diagonal irregular movement */
@@ -628,9 +748,9 @@ body {
 
 /* Glass effect (Dark mode only) */
 .dark .glass {
-  background: rgba(26, 22, 80, 0.6);
+  background: rgba(10, 10, 10, 0.8);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(167, 139, 250, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Light mode glass effect */

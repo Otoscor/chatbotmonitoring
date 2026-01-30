@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react'
 import { useApi } from '../hooks/useApi'
 import { fetchChatServiceCharacters, fetchPopularTags, ChatServiceCharacter, PopularTag } from '../utils/api'
-import KeywordCloud from '../components/KeywordCloud'
+import NetworkGraph from '../components/NetworkGraph'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 // 서비스 설정
@@ -65,7 +65,7 @@ export default function CharacterRankings() {
       </header>
 
       {/* 인기 해시태그 */}
-      <section className="card p-6" data-section="popular-hashtags">
+      <section className="card p-6 relative" data-section="popular-hashtags">
         <h3 className="section-title mb-4">인기 해시태그</h3>
         {tagsLoading ? (
           <div className="empty-state" data-state="loading">
@@ -76,12 +76,18 @@ export default function CharacterRankings() {
             태그 데이터가 없습니다.
           </div>
         ) : (
-          <KeywordCloud
-            keywords={popularTags.map((tag: PopularTag) => ({
-              text: `#${tag.tag}`,
-              value: tag.count
-            }))}
-          />
+          <>
+            <NetworkGraph
+              keywords={popularTags.map((tag: PopularTag) => ({
+                text: `#${tag.tag}`,
+                value: tag.count
+              }))}
+            />
+            <div className="absolute bottom-4 right-4 flex flex-row items-end gap-3 pointer-events-none select-none opacity-60 z-10">
+              <span className="text-[12px] text-gray-500 dark:text-gray-400 font-medium">마우스 휠 확대/축소</span>
+              <span className="text-[12px] text-gray-500 dark:text-gray-400 font-medium">마우스 패닝 이동</span>
+            </div>
+          </>
         )}
       </section>
 
@@ -121,8 +127,8 @@ export default function CharacterRankings() {
             return (
               <div key={serviceConfig.id} className="space-y-4" data-service={serviceConfig.id}>
                 <div className="flex items-center justify-between">
-                  <h2 className="text-lg font-medium text-gray-900">{serviceConfig.label}</h2>
-                  <span className="text-sm text-gray-500">{serviceCharacters.length}개</span>
+                  <h2 className="service-title">{serviceConfig.label}</h2>
+                  <span className="text-count">{serviceCharacters.length}개</span>
                 </div>
                 <div className="section-subtitle -mt-2 mb-2">{serviceConfig.subtext}</div>
 
@@ -137,8 +143,8 @@ export default function CharacterRankings() {
                       />
                     ))
                   ) : (
-                    <div className="text-center py-8 bg-gray-50 rounded border border-dashed border-gray-200" data-state="empty">
-                      <p className="text-xs text-gray-400">데이터가 없습니다</p>
+                    <div className="empty-state--dashed" data-state="empty">
+                      <p>데이터가 없습니다</p>
                     </div>
                   )}
                 </div>
