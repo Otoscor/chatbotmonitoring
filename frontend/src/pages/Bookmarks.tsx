@@ -5,7 +5,6 @@ import {
     addBookmark,
     fetchBookmarks,
     deleteBookmark,
-    resummaryBookmark,
     type Bookmark
 } from '../utils/api'
 
@@ -88,16 +87,7 @@ export default function Bookmarks() {
         }
     }
 
-    // AI 요약 재생성
-    const handleResummary = async (id: number) => {
-        try {
-            const updated = await resummaryBookmark(id)
-            setBookmarks(bookmarks.map(b => b.id === id ? updated : b))
-        } catch (error) {
-            console.error('Failed to regenerate summary:', error)
-            alert('요약 재생성에 실패했습니다.')
-        }
-    }
+
 
     return (
         <div className="space-y-6" data-page="bookmarks">
