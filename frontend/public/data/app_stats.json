@@ -1,32 +1,32 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 364,
-    "average_rating": 3.239010989010989,
+    "total_reviews": 464,
+    "average_rating": 3.247844827586207,
     "rating_distribution": {
-      "1": 83,
-      "2": 34,
-      "3": 63,
-      "4": 81,
-      "5": 103
+      "1": 104,
+      "2": 49,
+      "3": 76,
+      "4": 98,
+      "5": 137
     },
     "platform_distribution": {
-      "google_play": 364
+      "google_play": 464
     }
   },
   {
     "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 105,
-    "average_rating": 2.5904761904761906,
+    "total_reviews": 106,
+    "average_rating": 2.5754716981132075,
     "rating_distribution": {
-      "1": 40,
+      "1": 41,
       "2": 15,
       "3": 20,
       "4": 8,
       "5": 22
     },
     "platform_distribution": {
-      "google_play": 105
+      "google_play": 106
     }
   },
   {

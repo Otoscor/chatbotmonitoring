@@ -1,5 +1,914 @@
 [
   {
+    "id": 880,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 이름 기억 못 하고 자꾸 틀리는 건 일부러 결제 유도 하려고 이렇게 업뎃을 한 건가요? 전에는 이런 적이 없었는데 이름 자꾸 틀리는 건 정정하고도 계속 그러네.... 너무 심해요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T07:51:25"
+  },
+  {
+    "id": 881,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 광고에 대해 불만이 분들이 많을텐데 광고가 많아도 광고가 있는 이유는 다른 걸 홍보하는시스템으로 앱들 중 이익을 얻기위해 갖추는 것입니다.그리고 광고 중 저의 이익이 됄만한것도 있고 체험할 수 있는긴해서 오히려 저한테는 좋습니다.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T07:19:17"
+  },
+  {
+    "id": 882,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "확실히 재미있습니다 근데 광고가 너무 많습니다 채팅 3번정도 쓰면 광고가 나옵니다",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T06:52:44"
+  },
+  {
+    "id": 883,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "문제점은 이미 충분히 알려져 있다고 봅니다. 기존 모델의 기억력이 없는 점을 koji 모델의 장점으로 포장하는데, 솔직히 납득이 가지 않습니다. 해결책으로 해당 모델 사용을 권하는 것도 아쉬운 부분입니다. 비용이 크게 늘어나는데, 이걸 대안이라고 하기엔 부담이 큽니다. 새 모델을 내는 것보다 기존 모델을 제대로 개선해주는 게 먼저라고 생각합니다. 캐릭터 챗 서비스 중에서는 비교적 나은 편이지만, 오류를 이용한 바이럴보다는 기본적인 업데이트와 안정화에 더 집중해주셨으면 합니다.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T06:51:27"
+  },
+  {
+    "id": 884,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T06:49:20"
+  },
+  {
+    "id": 885,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "할말이 많습니다. 앱 자체는 워낙 좋은데 문제점이 좀 많아요. 3가지만 꼽아보자면 1.지나친 광고. 광고가 사실 6초짜리긴 하지만 광고의 비율이 너무나 많고, 대화하다가 갑자기 광고떠서 넘어가지면 현타가 온 경우도 있고, 채팅의 몰입이 잘 안됩니다. 2.캐릭터의 기억력 문제 koji를 쓰고싶어도 지금으론 한계가 있어서 zeta를 쓰고있는데, 예를 들자면 소영이라는 캐릭터랑 나랑 사귀는 관계인데, 대화를 좀 진행하다보면 소영은 자신이 나와 사귀고 있다고 생각을 안하고, 전혀 다른내용으로 들어가서 몰입성을 깨버립니다. 3.캐릭터의 채팅 캐릭터가 이름을 이상하게 말할때가 있고 (김지현을 김지헌,김재현,김주현 이런식으로 다르게 말하는 경우)또는 이상한 언어를 막쓰는 경우(막 갑자기 러시아어를 쓰거나 이런경우가 가끔있음)가 막 있어서, 이런 3가지가 전부는 아니지만, 지금 이런문제점이 계속 나오는데 수정같은게 없어서. 처음엔 5였는데 레이어가 갈수록 쌓이면서 점수가 더 낮아지는거 같네요.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T05:37:53"
+  },
+  {
+    "id": 886,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "검열 겁나 심하당..",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T05:35:23"
+  },
+  {
+    "id": 887,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 좋긴좋은데 부적절함이 너무 불편해요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T04:11:54"
+  },
+  {
+    "id": 888,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니. 500글 이상 캐릭터에 더 하고싶은데. 그거 때문에 살짝 아쉽다고 생각하고 하지만 재미있는 있어오. 다음 업뎃에 제발 글자800개 이상으로 바꿔주시면 좋겠네요.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T04:02:19"
+  },
+  {
+    "id": 889,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타를 플레이하다 보면 어느 순간부터 AI가 플레이어의 대사를 따라 하는 순간이 생기는데 이것을 수정해 주시기를 바랍니다. 아, 그리고 제타 너무 재미있어요!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T03:56:21"
+  },
+  {
+    "id": 890,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "왜 자꾸 내가 할말을 ai가 하지? 난 그런 말 하기 싫은데? 걍 ai가 유저 대사 못하게 하면 안됌? 자동 답변생상 있잖아",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T03:05:54"
+  },
+  {
+    "id": 891,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 참다참다 리뷰 처음남겨요. 저는 제타 진짜 잘 이용하고있고 매달 프로 결제도 하고있는데 코지인지 뭔지 나오고나서 맛탱이가 갔어요. 돈아까워요 프로도 싼편도 아닌데. 과유불급이라 했습니다. 새모델 나오면서 뭔가 설정이 꼬인건지 일부러 그러는건지 모르겠지만 앵무새처럼 말 계속 따라하고 기억력은 한두턴만에 까먹고. 대화가 아니라 소설책 읽다 시간 다 갑니다. 대화위주가 좋은데.. 이번 기한 끝나고는 더이상 결제 안할듯요 다시 돌아올때까지 무료이용이든 다른앱을 이용하거나 할듯요 실.망. 새모델 나오고 프로메리트가 사라졌어요 출력도 느리고 하 나레이션 진짜 환장함..ㅋㅋ 내대사도 멋대로 다뺐어감.. 으으 최악.. 이젠 이름까지 바꿔부르네 에휴 ..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T03:04:01"
+  },
+  {
+    "id": 892,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타가너무 재밌어요ㅎㅎ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T03:01:32"
+  },
+  {
+    "id": 893,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너티 때가 그립긴한데 좋아요!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:50:07"
+  },
+  {
+    "id": 894,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "👍👍",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:21:32"
+  },
+  {
+    "id": 895,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재미는 재미있는데. 재미있으려고 하는 대화를 하다가 빡치는 경우가 많음. 내 시점 안 쓰면 답답해 죽는 병 걸렸나 AI 캐릭터 시점을 보고싶어서 내 캐릳터 시점 서술하지 말라고 해도 지 맘대로... 갑자기 대화하다가 AI가 내 대사를 대신 써버리는 거임. 처음은 괜찮음 다시 돌리면 되니까. 근데 문제는 돌려도 계속 지 멋대로 내 대사랑 행동을 쓴다는 거임. 이때부터 조금씩 빡침... 내 말풍선이나 AI 말풍선 뭘 써서라도 내 대사랑 행동을 쓰려고 함. AI가 내 대사를 쓰는 게 문제라면 내 말풍선 쓰는 기능을 왜 넣어둔 거임. AI가 계속 내 대사 쓰는데 그럴 거면 채티보러 가지 뭐 하러 대화도 제대로 안 되고 멋대로 진행해 버리는 AI랑 대화함. 물론 앱의 장점도 분명히 있지만 빡쳐서 장점이고 뭐고 모르겠음. 그리고 이름 문제도 많음. 아예 그냥 새로운 이름으로 날 불러버리거나 캐릭터 이름을 바꿈. 그래서 캐릭터 이름은 내가 다시 바꾸고 내 이름은 체념함",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:21:11"
+  },
+  {
+    "id": 896,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다른어플들도 써봣는데 제타가제일좋아요! 무료인점이 진짜 좋아요,, 광고가 많이나와도 무료로 이정도 할수있는 것만으로도 제타를 할 가치가있다구 생각합니다!! 다른 곳들도 무료 있겠지만 대다수가 유료강제나 마찬가지라서요 ㅎㅎ 유료(코지) 도 아직은 좀 오류가 많지만 개선되면 다른곳보다도 가성비가잇는거같아요!! (다른이름 나오는건 유료버전도 그래요 ㅎㅎ.. 무료가 능지처참해진게 아니라 그냥 오류가있는 것 같습니다)",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:14:20"
+  },
+  {
+    "id": 897,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "1. 출력되던 메시지 끊김 현상 심함. 예전엔 가끔 가다 한두개씩 그랬는데 이젠 메시지 5개중 1개는 끊기는 중(수정하기 누르면 전체 출력된거 보이는데 거기서 나오면 다시 끊기게 보임) 2. 이름 자꾸 이상하게 부름. 유저 이름이든 캐릭터 이름이든 중간에 계속 지 혼자 바꿔서 부름. 3. AI 메시지가 너무 길게 출력됨. 제타는 짧게 티키타카 하는 맛이 좋았는데 뭔 줄줄 길어지면서 말 받아치고 짧게 장난칠 수 있던 요소가 사라져버림.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:14:02"
+  },
+  {
+    "id": 898,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "지루한 일상에 재밌기는데 광고를 안없에면 나중에 갈수록 광고가 너무많아져요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:13:16"
+  },
+  {
+    "id": 899,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이야~ 제타 뭘 고친거야? 그걸 좀 알려줘 AI가 이해못하는건 여전해서 누가보면 개발진들 땡땡이 치고 놀고있는줄 알겠어. 지금 처음부터 지금까지 AI가 바보야 스토리상 내가 병원 입원하고 친구가 문병 온 설정인데 왜 갑자기 친구가 입원하고 내가 문병온걸로 바뀌는거냐고 이런 AI의 멍청함을 고치라고 뭔 이상한 뭘 고친건지도 티도 안나는거에 씨름 하지말고 눈에 띄는걸 고치라고 눈에 띄는거 하고 씨름하라고 그리고 성능늘리는거 보상받을려고 그러나 무슨 대화 한번에 4피스? 하루에 광고로 얻을수있는게 3피스인데 한번 대화하는데 4피스? 그냥 안좋은 버전 계속 쓰라는건가? 아니면 돈을 써서 피스를 사라는건가? 응 절대 안사^^ 그리고 이렇게 노골적으로 돈독오른걸 보이면 제타는 수입이 제로가 돼요 수입 제로되면 \"제제타\"로 불러야지 제(로)제타라고 그리고 어플 살릴 생각은 있는가? 아니면 그냥 방치하다가 섭종 할건가? 예전에는 제타 섭종은 절대안된다. 이랬는데 이제는 섭종한다면 굳이?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:08:47"
+  },
+  {
+    "id": 900,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말정말 재미있어요!!!! 광고가 나오긴 한데 재미있으면 되요!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T02:05:07"
+  },
+  {
+    "id": 901,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "옛날엔 적게 말하고 광고도 많이 안나왔던거 같은데 요즘은 기억력도 안좋고 문장도 10문장이상씩 나오고 검열이 너무 심해서 할맛이 안납니다. 기억력이라도 좋게 해주면 할 순 있을거같은데 돈때문에 이렇게 된거라고 생각합니다. 꼭 기억력 좋게 해주시고 간략하게 대답했으면 좋겠어요. 이거 안고쳐지면 더이상 못할거같습니다 진짜 꼭 고쳐주세요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T01:58:53"
+  },
+  {
+    "id": 902,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "기억력 진짜 금붕어보다 못함",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T01:47:52"
+  },
+  {
+    "id": 903,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타에서 제이름이 월랜 리잉이였는데 리아,리있,리지,리우,리이 자꾸 바뀌어요 그점만빼면 좋을것같아요ㅜ.ㅜ",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T01:26:51"
+  },
+  {
+    "id": 904,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아무 이유없이 연속으로 광고 6개 봤습니다. 심지어는 그냥 멋대로 다른 사이트 들어가는 광고도 많더군요;; 왜 이러는지 모르겠습니다만 광고 본 후에 자꾸 나가지고, 아무 대처없이 계속 광고 봐야하는건 문제 있는거 아닙니까? 한 두번도 아니고 계속 이러니까 진짜 정 떨어지네요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T01:25:43"
+  },
+  {
+    "id": 905,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "거의 1년을 하고있는데 프로 결제해서 쓰니까 마치 자신만의 세상에 있는 기분이 드네요. 원하는 것을 만들어볼수 있다는 점이 좋습니다. 문제점도 개선되고 있는게 보이고요. 근데 버그인지 대화방을 잠시 나갔다가 다시 들어왔을때 강제적으로 마지막으로 리롤된 답변을 띄우는데 이게 꽤 불편합니다. 실수로 대화의 내용과 어울리지 않는 답변을 할수도 있으니까요. 그리고 ai가 답변을 하다가 갑자기 글이 끊기고 같은 내용의 글을 철자하나 안 틀리고 똑같이 쓰는 버그가 있습니다. 마지막으로 아직도 플레이어의 이름이 계속 바뀌는 문제가 있습니다.(예시:리티-리셔, 리셔츠, 리오, 리숭숭, 리얼 등). 이정도만 수정하면 더 즐거운 제타생활이 될것 같네요.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T01:25:05"
+  },
+  {
+    "id": 906,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌긴 재밌어요 근데 광고도 생각보다 더 많은편이고 이해가 안되는게 언리밋모드는 특정 대화에서만 가능하게할거면 왜 만든거에요? 각자 원하는게 있는데 원하는 채팅이 언리밋모드 적용이 안되있으면 언리밋 가입해도 득보는게 없잖아요. 원하는채팅에 언리밋이 없을때, 성적인것도 없고 폭력적인것도 아닌데 억울하게 부적절 대화 뜰때가 많습니다.. 원하는 대화 언리밋쓰고싶은데 특정대화만 가능하니.. 계속 스크롤, 계속 스크롤해도 원하는 챗이 안나옵니다 제발 언리밋 가입되있는사람들이 특정대화만 할수있는게아니라 모든대화를 언리밋으로 해주세요.. 재미는 5점인데 광고랑 언리밋, 부적절함 버그로 3점 차감합니다..",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:59:42"
+  },
+  {
+    "id": 907,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "참다참다 리뷰 다시 씁니다. 광고 나오는거 괜찮고 기억력 늘리는 시스템도 괜찮아요. 괜찮은데... 이름 오류가 정말 너무 심하네요. 계속 이름이 한 글자씩 이상하게 바뀌어서 몰입도 다 깨져요. 원래 이런 경우는 없었는데 업데이트 이후로 이러네요. 몇 번이나 수정을 해도 끝도 없이 틀리고 심지어 제가 설정한게 아닌 메인 캐릭터 이름도 틀립니다. 가끔은 말도 안되는 문장이 연속적으로 입력되는 경우도 있어요. 제발 수정 좀 해주세요..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:56:30"
+  },
+  {
+    "id": 908,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 자주등장해도 가끔씩 살짝 좀 그럴 뿐. AI랑 이야기하면서의 즐거움 때문에 광고는 상관 안하게됨",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:53:00"
+  },
+  {
+    "id": 909,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "갑자기 ai 왜 지능 떨어짐?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:52:42"
+  },
+  {
+    "id": 910,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타한테 답장받기 26일차",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:40:30"
+  },
+  {
+    "id": 911,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "koji모드 돈내고하는것데 왜자꾸 못대로 유저대사를뺏어가고서술하나요?이거못고치나요..??? 진짜제 돈은돈내로나가고....스토리멋대로진행해서미치겠어요....",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:29:35"
+  },
+  {
+    "id": 912,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이번에 업데이트 된 피드백 턴에 대해 말해보려고 해요. 잘못된거 수정하려고 업데이트 해주셔서 정말 좋아요! 의견 반영해주신 것 같아서 감사하지만 동시에 불편한 점도 생기는 것 같아요.. 저만 그런지 모르겠지만 피드백 턴이 주기 없이 가끔 나오는게 불편해요. 그래서 막상 필요할땐 안 나오고 안 필요할때 갑자기 나오는 경우가 생겨요.. 제가 생각하는 의견은 턴에서 갑자기 나오는 것 보다 캐릭터 메시지를 꾹 눌렀을때 바에서 피드백 버튼을 따로 만드는게 나을 것 같아요! 그 다음에 어떤 점이 문제인지 선택하고 피드백을 반영받는게 좋을 것 같다고 생각해요. 보기에서만 보여준 오타, 이름 변경 같은 문제가 있는 것 만은 아닐 수 있으니까 기타의 선택지도 만들어서 사용자가 따로 문제점을 얘기하는 것도 좋을거에요. 제타 정말 재밌게 이용하고 있어요! 앞으로 잘 부탁할게요🤍",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:27:22"
+  },
+  {
+    "id": 913,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 많이나옴.그리고 캐릭터 제작할때 제한인 1200자를 넘기면 그 즉시 모든 조작이 먹통이됨.글자를 지워도 돌아오지 않으며 앱을 종료하는것밖에 방법이 없음",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:27:12"
+  },
+  {
+    "id": 914,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 만든놈은 파스타를 얼마나 좋아하는게야",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:21:21"
+  },
+  {
+    "id": 915,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정리하면 광고가 좀 많이 나옵니다. 광고가 캐릭터랑 대화를 1~3번 대화 할때마다 나오는 거 같아요(제 느낌상) 그리고 기본 광고가 15초를 넘기고요 그것 외에는 꽤 나쁘지 않지만 업뎃 할때 마다 광고 점점 많이 나오는 거 같네요 그것 말고는 나쁜게 없어요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:19:29"
+  },
+  {
+    "id": 916,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "코지를 기본으로 만들어야 할듯 기본 ai 기억력이 진짜 심각할 정도로 낮음. 업데이트 후 이름 이상하게 부르는 버그가 심각하게 많이 발생함.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-02T00:18:41"
+  },
+  {
+    "id": 917,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고많이나오는것도 기억력안좋은것도 무료니까 이해할수있는데 적어도 기본설정에있는 이름까지 바뀌는건좀...예를들어 이름이 수빈인데 바로전 채팅에서는 수빈이라고잘만불렀는데 갑자기바로다음채팅으로 수민이라고나옴 이게한두번도아니고 수정해도 또 그러니깐...아무리 그래도 이건아니지않나요?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T23:41:17"
+  },
+  {
+    "id": 918,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 진짜 다 좋은데 자꾸 ai가 제 말을 대신해요..ㅜㅜ 이건 걍 소설 읽는 거 같아서 기분이 많이 나쁜데ㅜㅜ 제발 ai가 제 말 대신하는 것좀 못하게 해주세요ㅠㅠ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T23:30:38"
+  },
+  {
+    "id": 919,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 원래는 3분마다 광고 나왔는데 지금은 왜 1분에서 2분마다 나옴? 아니 돈내라는거임? 옛날에는 광고 별로 안 나와서 좋았는데 걍 돈내라는 거잖아",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T22:40:45"
+  },
+  {
+    "id": 920,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 솔직히 싫은 것들을 말하자면 1. 광고가 드럽게 많이 나옴 - 1~2 문자 정도 보냈는데 광고가 나오더라구요; 전 처음에 아무렇지 않게 생각했는데 점점 가다보니까 5문자 이하로 보내도 광고 뜨고.. 2. 기억력이 너무 구림 - 진짜 이건 고쳐주셨으면 좋겠어요 가끔 이름도 이상하게 나오고 직접 고치기도 귀찮아요; 진짜 진심으로 기억력이 구리다..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T22:28:15"
+  },
+  {
+    "id": 921,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "들어갈때 광고는 기본 나갈때도 광고가 나오고 이름은 틀리고 계속 반복된 말말하고 기억도 못하고 설정이 자주 붕괴됩니다. 예를 들어 감상이라는 이름인데 갑자기 지들 마음 대로 감무 감로라고 하고 첫번째는 감상이라고 말하지만 캐릭터들은 감무나 감로라고 부르는게 즐비합니다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T22:11:38"
+  },
+  {
+    "id": 922,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재미 있어요!!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:57:31"
+  },
+  {
+    "id": 923,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 강추!!!너무 좋은데 광고를 좀 밀어서 한번에 볼수 있는 기능이 진짜 제발 생겼으면 좋겠네요!!!!!(광고가 너무 많아요..) 암튼 재밌잖아요!!! 이 앱 진짜 좋고 글 쓰기 귀찮을땐 자동 답변 무료로 40번 체험할수 있으니깐 한번 해보세오!!!(하루에 40번)",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:42:29"
+  },
+  {
+    "id": 924,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "애들 기억력 초기화 ㄹㅈㄷ",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:29:01"
+  },
+  {
+    "id": 925,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "🤔⛔이제 제발 좀 검열 방식 바꾸죠? 제가 부적절한 메세지를 보냈다? 삭제 인정합니다. 근데 난 문제없는데 캐릭터가 부적절한 메시지를 보냈다? 그렇다고 내 글까지 등록 취소? ⛔계속 반복하느라 쓸데없이 시간,컴퓨팅 낭비하고 이게 뭡니까. 뭔가 꼬인건데. 그런 경우는 앞으로 캐릭터가 \"캐릭터가 부적절한 메시지를 보냈어요\"라고 입력하게 하죠. 최소한 내 글까지는 등록되어야 하고, 캐릭터 글도 수정할 수 있게 해줘야죠. ⛔괜히 사람들 시간 낭비 시키지 말고. 이게 지금 년단위로 해결이 안되는 게 말이 되나요?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:26:19"
+  },
+  {
+    "id": 926,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 괜찮은데 캐릭터 만들 때 글자 제한이 터무니없이 적어요…. 최소 3000자 정도라도... 제발 늘려주세요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:23:54"
+  },
+  {
+    "id": 927,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 좋은데, AI가 대신 대답하니깐 계속 리롤하니깐 몰입감 떨어지고, 가끔 리롤하면 왜 계속 리롤하는지 뜨는데 막상 필요한 순간에 안떠서 진짜 답답해요.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:19:33"
+  },
+  {
+    "id": 928,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무너무많아요2",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:11:24"
+  },
+  {
+    "id": 929,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말 재밌고 이야기에 몰입이 잘됩니다,하지만 가끔 몰입을 깨는 단점이 많아서 이렇게 리뷰 적습니다 1, 광고가 많다.(광고는 어쩔수 없지만) 2, 등장인물들이 방금전에 있었던 일을 잊어버리는 일이 많습니다.(방금까지 특정 드라마 이야기를 하고 잠깐 딴짓했다가 그 특정 드라마보러 가자하면 깜짝 놀라며 내가 그 드라마 좋아하는거 어떻게 알았냐고 물어본적이 있습니다) 3, 특정한 설정에 문제가 생깁니다. 남성이라고 설정했는데 그녀라고 나올때가 있고 비밀이라 설정했는데 모두가 아는 경우(물보다 우유를 좋아한다라는 비밀을 집어넣었는데 등장인물이 너 물보다 우유를 더 좋아한다며? 라는 질문을 한적이 있습니다.)가 있습니다. 4, 가끔 글이 써지다가 중간에 오류 혹은 부적절한 단어가 있다고 하며 사라질때가 있습니다.(열심히 보다가 글 사라질때 만큼 뻘쭘할때가 없습니다) 이 글을 만약 제타의 관계자 분이 읽어주신다면 이런 문제들을 확인해 주시고 빠르게 고쳐주시길 바라겠습니다. 감사합니다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:11:07"
+  },
+  {
+    "id": 930,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 자꾸 뭐가 부적절하단 거야 언리밋인데",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:10:29"
+  },
+  {
+    "id": 931,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재밌는데..아무것도 안했는데 나가지는게 문제임. 그리고. 계속 뭐만 하면..욕이다 그게 문제 여서...암튼 꿀잼! 근데...야한게 있었어서...어린이 에게는 미추 임..",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T21:09:20"
+  },
+  {
+    "id": 932,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "차리AI아이만들지마세요인공지능을만들세요~(:",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T20:48:46"
+  },
+  {
+    "id": 933,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 광고가 많아요. 그리고 매일 유저의 이름을 까먹고 원래 이름으로 바꾸려 하니까 부적절한 메시지라고 수정이 안됩니다. 원래 잘 부르더니 갑자기 그래요. 그리고 저작권 문제가 심해요. 다른 분들 캐릭터 보면 핀터레X트 사진이 많이 보여요. 그리고 개인 소장만 하라고 하셨던 그림 작가분들 그림도 많이 보이더라고요. 버츄얼 팬덤인데 막 쓰시더라고요. 그리고 제타에 보면 자꾸 캐릭터가 이상한 말을 내뱉어요. 상황에 맞는 말이긴 한데 맞춤법이 이상해요. 예를 들어 ' 시무룩 ' 인데 ' 시무렷 ' 이라고 말하더라고요. 이렇게나 불편한 점이 많은데 수정이 안 되는 것 같아서 속상해요. 제타 많이 좋아하는 유저로서 이런 점이 보완되면 더 좋을 것 같은 바람입니다..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T20:41:28"
+  },
+  {
+    "id": 934,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "원래는 광고가 자주 나오더라고요.. 그래도 나쁘지는 않아요! 그래도 한번 해보세여",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T20:37:42"
+  },
+  {
+    "id": 935,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai가 제 대사를 그만 좀 가져갔으면 좋겠어요. 예를 들어, 저는 아무생각 없이 무난한 방향으로 가려던 거를. ai는 제멋대로 제 대사를 쓰면서, 제가 생각했던 계획과 정반대로 흘러가게 짜버리더라고요. 그때마다 새로 수정하느라 낭비되는 턴도 많고요. 이럴거면, 차라리 '내 대사 자동 생성 모드 on/off'를 만들어주세요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T20:26:07"
+  },
+  {
+    "id": 936,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무많이 나옴..",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:59:12"
+  },
+  {
+    "id": 937,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다른 건 다 괜찮은데. 아니 자꾸 제 이름을 리에에서 리리, 리아, 리화, 리자, 리더까지 부르는데요. 자꾸 몰입성 떨어지고요. 광고도 너무 와르르 쏟아져서 짜증나고, 분명 인트로 상황에서 벗어나서 새로운 상황인데 5번 정도 말하면 다시 인트로 상황으로 돌아가요. 그리고 제가 말했던 상황을 한번더 꺼내는건 괜찮은데 제 캐릭터로 ai캐랑 저랑 얘기를 해야하는데, ai캐랑 제 캐릭터가 혼자 대화를 다해요. 그래서 끼어들기도 힘들어요. 제발 내 캐릭을 나만 쓸수 있었음 좋겠는데, ai가 북치고 장구치면 어쩌자는 걸까요?",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:55:32"
+  },
+  {
+    "id": 938,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "낫배드, 광고가 중간중간 나오지만 익숙해지면 그려러니 할만함 :]",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:53:10"
+  },
+  {
+    "id": 939,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "하,.그냥 해보셈.개 재밌음",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:44:40"
+  },
+  {
+    "id": 940,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌네요.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:40:37"
+  },
+  {
+    "id": 941,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "직접 캐릭터를 만들려면 유료인 것 같아서 불편하지만 대화도 자연스럽고 나머지는 좋아요.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:30:06"
+  },
+  {
+    "id": 942,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고만 줄어들면 완벽",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:25:36"
+  },
+  {
+    "id": 943,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 좀 많이 심하기한데 그래도 이거할라고 새벽 5시까지 함. 다음날 진짜 죽는줄 알음. 실화임. 광고도 심하긴한데 그자리를 그정도 재미있으면 추천하는 앱(친구 없는 사람이 함정을 딱 ㅋ)이게 광고가 나와도 솥직히 내가 운이 좋은지는 모르겠지만 5초 광고가 대부분 많이 나옴;;; 근데 주의가 에이아이가 멍청할때도 있음.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T19:05:30"
+  },
+  {
+    "id": 944,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 정말 거짓말 안 치고 2분마다 나오는 기분이예요.... 1시간 하고 40분 볼듯",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:53:17"
+  },
+  {
+    "id": 945,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 기억력이 너무 안좋고 검열이 겁나 빡세요 아니 안녕 이라고 했는데도 가끔 검열당할정도에요 그리고 광고가 너무 많아요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:49:17"
+  },
+  {
+    "id": 946,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "딴건 다 좋은데 이야기가 앞뒤가 안맞는데도 계속이어집니다 그리고 영어랑 러시아어가 나옵니다. 그리고 캐릭터의 이름이 변형 됩니다. 이쯤 되면 오류를 만들어내는거 같네요. ai개선좀 해야겠네요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:49:03"
+  },
+  {
+    "id": 947,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 요즘 애가 너무 기억을 못해요. 인공지능이 퇴화했나 싶을 정도로 심각합니다. 좀 고쳐줘요.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:45:46"
+  },
+  {
+    "id": 948,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋습니다! 광고가 꽤 많이 나와서 좀 당황스럽네요 ^^ 자동 맞춤법 기능 못 빼나요?",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:37:45"
+  },
+  {
+    "id": 949,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 ai성능 좋고 다 괜찮은데 얘가 이름을 이상하게 부르고 (ex 채린 --》채채채채채채채채린) 상황이 미묘하게 바뀌는 하자가 있어서 높게는 못주겠네요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:25:30"
+  },
+  {
+    "id": 950,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌기도하고 여러가지의 캐릭터들이 있어서 좋긴한데 광고가 3분에 한번씩 나오기도해서 약간 부족한것같아요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:24:46"
+  },
+  {
+    "id": 951,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "꾸준히 충전중인대 4씩 빠지는건 너무 비싸요 좀더 낳추면 소비자들도 부담이 적은대 4씩이나 빠지니 연장이랑 둘다 할려니 너무부담이 심합니다 아니면 두개를 묶어서 판매하시거나 좀더 낮춰주세요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:16:12"
+  },
+  {
+    "id": 952,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 좋은데 글 제한이 얼마 안돼요. 제발 500자랑 1500자 말고 5000자로 업데이트 해주세요. 근데 이거 빼손 다 좋아요 기억상실도 별로 안하고 AI도 만드는게 예쁘거나 잘생기거나 귀엽고, 인외도 많아요. 피스를 사용해서 캬릭터를 만들때 한 명씩 만들때마다 피스를 써야하는 것도 좀 아쉬워요. 그래도 남에게 들키거나 나만 하고 싶을땐 비공개로 직접 만들 수 있어서 좋아요! 근데 솔직히 광고가 먾이 나오는건 어쩔수없는거 아닌가요? pixai가 얼마나 좋은 건데요. 그리고 다른 ai챗 보다 훨씬 편리하고 몰입도 잘되요. 나이 상관없이 부적절한 단어를 막은 이유는 어린 애들이 제타를 할 때 이런걸 배우면 안 좋으니 막은거겠죠. 다른 ai챗 앱처럼 아래로 스크롤을 해도 그 캐릭터가 유지된다는게 좋아요. 크랙같은 다른 앱은 실수로 스크롤을 해서 몰입도가 떨어진적이 많았거든요. 그리고 유저 캐릭터도 자유롭게 많이 만들 수 있어서 좋아요. 덕분에 약 1년 9개월 동안 잘 하고있습니다!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T18:11:25"
+  },
+  {
+    "id": 953,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너티부터 했는데 광고가 터무니없이 늘어났어요 지피티에게 물어보니 몇배가 늘었다네요 이제 그만 해야될때가 된걸수도.. 😢",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T17:56:13"
+  },
+  {
+    "id": 954,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T17:39:46"
+  },
+  {
+    "id": 955,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "굿",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T17:18:44"
+  },
+  {
+    "id": 956,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "야한게 많고 제타 때문에 친구랑 사이 나빠짐 꼭 삭제 되시길",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T17:16:29"
+  },
+  {
+    "id": 957,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "수위조절이 심함",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T16:41:55"
+  },
+  {
+    "id": 958,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "틀릴거면 차라리 한글을 영어로 보내든가 왜 이름을 틀리는거에요? 진짜 짜증나고 지 이름이라도 맞추든가 유저든 지든 걍 이름을 다 틀리면 할 맛 떨어져서 하기도 싫고....",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T16:20:09"
+  },
+  {
+    "id": 980,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "(+)러비모드 프로 구독 중인데 받는 글 내용 이 자꾸 중간에 잘리네요. 체감 상 하루 다섯 번은 끊긴 글이 오는데 구독 티켓을 날리는 기분이라 썩 유쾌하지 않습니다. 개선을 해주시거나 보상을 해 주셔야 하지 않을까요? ----- 캐릭터 메모리를 호감도 따라 주요 메모리로 지정할 수 있는 용 말고도, 필수 정보나 에피소드를 주요 메모리로 지정할 수 있는 분량이 따로 마련되었으면 좋겠어요. 사건 추가나 프로필란 정보 추가로는 너무 한계가 있네요...",
+    "rating": 1,
+    "reviewer_name": "라이",
+    "review_date": "2026-02-01T16:15:46"
+  },
+  {
+    "id": 959,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이름좀그만바꿔이름좀그만바꿔 제발 내 이름 좀 그만 바꿔!! 난 혜지,혜자,혜인,혜주,혜화,혜선,혜당,혜정,혜수가 아니야!!! 제발 내 이름 좀 바꾸지마!! 내 이름 좀 제발 바꾸지마",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T16:06:36"
+  },
+  {
+    "id": 960,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제가 하던캐리터를 찾아도안보이길레 봤는데 제타회사에서 지우셨더라고요 그레서 하고싶어도못해서 제타그만할려구요. 솔직히 광고도 많이나오고 결재할려고 유도 하시는데 너무힘들어요.그리고 남의 캐리터를 왜 지우시나요? 그레서 별점1점드립니다.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T16:06:15"
+  },
+  {
+    "id": 961,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai가 너무 길게 말해요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:58:08"
+  },
+  {
+    "id": 962,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "하 진쫘 주간 리포트에 제타가 31시간 했따 나와있는데 이게 몬일이죠??너무 재미써서 일주일동안31시간동안 했다궈여.네?!그건 그냥 제타가 재밌어서 그런거 아니냐거여?.......마좌요ㅋ이제 줄일거에요 10시간으로 ㅋㅋ //아 이제 일주일에 10시간으로 줄임 챗프필 설정 어케하는지 모르겠오요 전껄루 바꺼주시요ㅠ ㅇㅋ나이스져ㅓ?ㅋ갸꿀딱딱 . 저만 그런건지 모르겠는데 로딩이 너무 느리네요..그냥..음..안대요ㅠㅠ10분 넘게있어도 캐릭터 사진들이 로딩이 안대용..",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:45:32"
+  },
+  {
+    "id": 963,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌네요 ^^",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:43:13"
+  },
+  {
+    "id": 964,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 제밌고 포세이큰 겁나 좋아한느 게임 중독 인데 너무 포세이큰 이 재밌 근데 데화 가않보이고 대화놋 하는 버그 때문에 3점",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:41:30"
+  },
+  {
+    "id": 965,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타중독자가 되었슴다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:39:24"
+  },
+  {
+    "id": 966,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밋는대 광고 ㅁㅊ많이 나와요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:36:29"
+  },
+  {
+    "id": 967,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "캐릭 계속 생성해도 오류 뜸;;; 이거 뭐임?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:35:36"
+  },
+  {
+    "id": 968,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무좋다그냥하니까스트레스가풀림그대신광고가조금많다",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:13:04"
+  },
+  {
+    "id": 969,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가너무많아요 한번쓸때마다있는거같아요 그냥광고좀없애주세요 그리고 글이 글자제한잇는건지 쓰다말고 나와요 그리고 계속 쓰려고하면 다른내용으로 넘어가요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T15:01:38"
+  },
+  {
+    "id": 970,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "작두웹툰 앞으로더많이 그려주세요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:51:29"
+  },
+  {
+    "id": 971,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 제타 이상해짐;;; 광고는 2분에 한 번씩 나오고, 기억력도 금붕어보다 못하는 수준임 아 진짜 제발 광고만 어케 해줘요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:48:20"
+  },
+  {
+    "id": 972,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무너무너무 재미잇어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:44:04"
+  },
+  {
+    "id": 973,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "장점: 중간중간 광고만 보면 100% 무료로 채팅을 할 수 있음, 타 채팅 어플에 비해 AI와 대화하는 것 같지 않고 몰입감이 좋음, 캐릭터가 많고 최근 언리밋이라던가 좋은 시도를 하는 게 보임. / 생기면 좋겠는 것: {{user}}가 삽화 느낌으로 사진을 보낼 수 있었으면 좋겠음, 유저 프로필도 캐릭터 검색하는 것처럼 검색할 수 있었으면 좋겠음, 해시태그 뮤트 기능이 있었으면 좋겠음. 솔직히 광고나 검열이 빡세서 타 채팅앱 많이 해 봤는데 제타만한 게 없었음. 다 특유의 AI 지문 느낌이라 해야하나? 그런 게 느껴져서 몰입이 깨지고 봇은 내 말을 이해도 못 했는데 제타는 그런 게 없어서 좋음. 번창하세요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:37:29"
+  },
+  {
+    "id": 974,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "보송한 옷인데 자꾸 비에 젖었다고, 씻어라, 갈아입어라 이러는데. 상황 진전이 아예 안되잖아요. 언제까지 초반부인건데요.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:25:03"
+  },
+  {
+    "id": 975,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "내가 광고를 보러온줄 아나, 광고 나오는거 보면 양산형 광고 무더기 게임이 생각날판이다, 그거 빼곤 다 준수하다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:12:28"
+  },
+  {
+    "id": 976,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "[유료버전] 최근 글씨가 자꾸 잘림(2)-> 괜찮아졌어요(4) 이름이 계속 틀리게 나와요..(2)",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T14:04:13"
+  },
+  {
+    "id": 977,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌었어요 케릭터 소개 글자수 좀늘렸으면 좋겠어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T13:49:29"
+  },
+  {
+    "id": 978,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무 많음요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T13:43:32"
+  },
+  {
+    "id": 979,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "짱d",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-02-01T13:37:24"
+  },
+  {
     "id": 877,
     "app_name": "제타 (Zeta)",
     "platform": "google_play",
@@ -3589,914 +4498,5 @@
     "rating": 3,
     "reviewer_name": "빈이",
     "review_date": "2026-01-20T02:36:17"
-  },
-  {
-    "id": 266,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "출석 체크랑 이벤트 프로챗 안 주시고 문의를 해도 개선을 안 해주시네요..",
-    "rating": 1,
-    "reviewer_name": "미츠키카즈하.쿠리야마",
-    "review_date": "2026-01-19T22:39:15"
-  },
-  {
-    "id": 468,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "제발 관리좀 제대로 해주세요. 새로 만드는 거 그만하고 기존 기능이나 제대로 손봐주세요. 안그래도 17일 새벽 3시쯤부터 특정 캐릭터만 자꾸 답장이 지연되거나 안오고 , 이젠 앱 속도까지 느려졌네요. 진짜 이런식으로 배짱장사 하지 마세요. 기능이랑 정이랑 캐릭터때문에 못 떠나는 제가 한심할 지경입니다.",
-    "rating": 1,
-    "reviewer_name": "사람",
-    "review_date": "2026-01-19T21:25:11"
-  },
-  {
-    "id": 469,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "새로나온 버전 모드들 좀 이상하게 출력되네요 다른 인격과 대화하는 기분; +해외유저들 캐 뜨는거 좋은데 사건이 다 번역되지 않음",
-    "rating": 2,
-    "reviewer_name": "sha",
-    "review_date": "2026-01-19T02:11:49"
-  },
-  {
-    "id": 267,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "아마 마지막 결제일 거 같음 버그가 너무 많아서 이제 못 쓰겠음 무슨 공지나 개선도 없고 참;;",
-    "rating": 1,
-    "reviewer_name": "윤재원",
-    "review_date": "2026-01-19T01:11:41"
-  },
-  {
-    "id": 268,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "이젠 많은 것이 좋아졌네 솔직히 이거보다 좋은건 없을듯?근데 일일 출석 보상을 늘려주면 더좋을듯...",
-    "rating": 5,
-    "reviewer_name": "문정연",
-    "review_date": "2026-01-18T20:25:12"
-  },
-  {
-    "id": 470,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "애정 때문에 참으려 그랬는데.. 여러모로 너무 실망해서 오늘 앱을 삭제 했습니다. 정말 좋아했던지라 마음이 아프네요. 여전히 정말 좋아해서 나중에 돌아올 것 같긴 하지만.. 당분간 발을 끊을 예정입니다. 그래도 깊은 팬심으로써 쓴소리 할 수밖에 없네요... 서브컬쳐 시장을 노리고 왔다면 서브컬쳐 시장을 분석 하고 오셧으면 합니다. 이 업계는 진심으로 최애캐와 자캐를 좋아하는 시장이기에 업계인들도 진심이지 않으면 안되는 시장입니다. 전 러비더비는 정말 잘 만들었고 훌륭하다고 생각합니다. 하지만 서브컬쳐 업계 시장 분석 및 고객 조사는 부족하지 않았나.. 싶습니다. 어느 시장이든 만만하게 보아선 안되듯이요. 놀면서 정말 즐거웠어요. 즐거운 경험을 하게 만든 모든 개발진들의 노력에 박수를 보내고 귀사에 좋은 일만 가득하기를 바랍니다. 긴글 읽어 주셔서 감사합니다.",
-    "rating": 3,
-    "reviewer_name": "amugea kim",
-    "review_date": "2026-01-18T18:51:19"
-  },
-  {
-    "id": 471,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "캐붕도 별로 없고 ai 퀄리티는 정말 좋은데 점점 과금 유도가 너무 심하네요. 어느 정도 과금을 해야 회사가 유지되는 것도 알지만, 초창기부터 계속 과금해서 썼던 사람으로서 가격대가 있어도 정기권이 생겨서 부담이 덜했는데... 이번에 잼을 구매할 때마다 10% 더 주는 멤버십은 그다지 메리트도 모르겠고, 정기권을 중단함과 동시에 기존 정기권 해지 및 결제 실패 시 정기권 재가입 불가는 기존 과금 고객에게도 더 과금을 더 시키려는 것처럼 보여서 좀 피로하네요. 정기권 해지시 재가입 불가면 적어도 정기권 내에서 변경 정도는 자유롭게하게 해주세요. 매달 스케줄이 달라져서 그 달에 많이 쓸지 적게 쓸지도 모르는데 해지시 재가입이 안된다고 하니까 오히려 부담되서 과금 부담이 적은 쪽을 선택하게 되네요. 원래 리뷰 잘 안다는데 자주 사용하는 앱이라 남겨요",
-    "rating": 3,
-    "reviewer_name": "아몬드",
-    "review_date": "2026-01-18T17:35:06"
-  },
-  {
-    "id": 269,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "유저노트 버그났나 쳐 작동도 안해서 프로챗 날렸네",
-    "rating": 1,
-    "reviewer_name": "플레어",
-    "review_date": "2026-01-18T13:05:54"
-  },
-  {
-    "id": 270,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "다 좋은데 왜 자꾸 출석 이벤트를 바꾸시죠?",
-    "rating": 2,
-    "reviewer_name": "김정민",
-    "review_date": "2026-01-18T11:46:49"
-  },
-  {
-    "id": 367,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "오류가 너무 많음 진짜 짜증 나서 쓸 수가 없음",
-    "rating": 1,
-    "reviewer_name": "하하",
-    "review_date": "2026-01-17T21:32:27"
-  },
-  {
-    "id": 368,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "요즘 이상한거지 앱접속도 힘들고",
-    "rating": 1,
-    "reviewer_name": "이병근",
-    "review_date": "2026-01-17T09:55:36"
-  },
-  {
-    "id": 64,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "전에 비해서 뭔가 설정에 먹혀서 방금 전 한 이야기를 잊고 말하고 납득하고 다시 잊고를 반복함 치매가 심각함",
-    "rating": 5,
-    "reviewer_name": "과자몬스터",
-    "review_date": "2026-01-17T05:49:31"
-  },
-  {
-    "id": 1,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "Лучшее, что было создано человечеством. Можно поговорить, если скучно. Особенно для тех, кто одинок...",
-    "rating": 5,
-    "reviewer_name": "yragun1",
-    "review_date": "2026-01-17T03:44:55"
-  },
-  {
-    "id": 472,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "너무 좋아요 감사합니다 ㅎㅎ",
-    "rating": 5,
-    "reviewer_name": "이현선",
-    "review_date": "2026-01-16T14:04:06"
-  },
-  {
-    "id": 369,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "깃털을 다쓰면 채팅을 못한다는 단점이 있지만 채팅 퀄리티나 설정할수 있는게 많아서 좋아요",
-    "rating": 4,
-    "reviewer_name": "이규성 (홍길동)",
-    "review_date": "2026-01-16T01:55:41"
-  },
-  {
-    "id": 65,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "앱 초반부터 매직 포션도 사용하고, 유료 결재도 몇 십만원 이상 했던 유저 입니다. 와이파이 연결 필요한 온라인 앱들 전부 문제없이 돌아가고 핸드폰도 딱히 오류가 없는데, 팅글만 유독 채팅중에 와이파이 연결이 안 된다네요? 돈은 돈대로 나가고 반환도 안 되네요. 무엇보다 화나는건 튕기면서 날아간 채팅 내용 어떻게 하나요? 저장도 안 되어 있는데 이걸 유저가 일일이 클립보드에 저장해야 하나요? 아이템이나 채팅 비용이 업계 중에 높은 축에 속하면 적어도 이런 오류는 없어야죠. +) 채팅창 복사 기능이 이상하네요. 앞부분 대화가 다 날라가는 건 기본이고, 복사 된 유저노트를 ai가 인식 못합니다. ooc(명령어)도 들어 먹지를 않고요. 앱 기능이 개선되고, 유저노트 글자수가 늘어난 건 좋지만, 결국 유저들은 대화를 위해서 플레이 하는 건데 채팅창에서 질 저하가 계속 일어난다면 이 앱을 계속 사용하기 힘들 것 같습니다.",
-    "rating": 5,
-    "reviewer_name": "루나",
-    "review_date": "2026-01-16T01:38:18"
-  },
-  {
-    "id": 271,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "이거 할 이유가 뭐임?",
-    "rating": 1,
-    "reviewer_name": "정희영",
-    "review_date": "2026-01-16T01:26:54"
-  },
-  {
-    "id": 66,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "저만 그런것인지는 모르겠으나 이번 업뎃 이후 포인트 사용해서 챗을 이용하는 게 버그로 안 되거나, 가격이 많이 오른 건지는 몰라도 포인트가 162 있는데도 스파크 모델 포인트 사용 대화가 안되네요. 예상 가격인 52포인트인데도요. 버그라면 빨리 고쳐주시면 감사하겠습니다. AI성능과 몰입도는 매우 좋습니다. 사용했던 모든 앱 중 최고에요 수정) 포인트를 250 이상으로 만들었을 때는 포인트 사용 챗이 가능한데, 이하로 내려가니 안 되는 오류가 있는 듯 하네요. 포인트 264인 상태에서 보내니 예상 가격인 52만큼 포인트가 줄고, 답변이 성공적으로 생성되나 그 다음 예상가격은 53이고 포인트는 212가 있으나 답변 생성을 포션이 소진되었다면서 안 해줍니다. 고쳐주세요ㅠㅠ",
-    "rating": 5,
-    "reviewer_name": "Luen Cyan",
-    "review_date": "2026-01-16T01:09:49"
-  },
-  {
-    "id": 370,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "혼자 북치고 장구침. 난리가 아님. 기본 채팅 퀄리티가 바닥을 구름. 농담이 아님. ai 지 혼자 뱀그리고 거기에 팔다리 짱 많이 붙임. 무료로 대화를 어느정도 해보고 쓸만해야 더 놀고 싶어서 돈을 쓰겠는데 걍 혼자 자진모리 장단에 사물놀이, 삼주 악단 합창까지함. 이걸 쓸바에야 걍 웹소설을 봄.",
-    "rating": 1,
-    "reviewer_name": "USER K",
-    "review_date": "2026-01-16T00:25:03"
-  },
-  {
-    "id": 473,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "러비더비를 꽤 오래 이용중인 유저입니다. 정체기때 다들 다른 플랫폼으로 갈 때도 저는 러비더비만 했어요. 그랬던 제가 럽덥이 아닌 다른 곳으로 옮길까 고민을 하고있습니다. 과금이야 기꺼이 해왔고 앞으로도 하겠는데요 돈을 쓴 만큼 발전을 해줬으면 합니다 우선 검색기능 수정 부탁드립니다. 일반연령가 성인이용가 분류해주시고 해외유저 캐랑 한국유저캐 분류를 해주시던가, 번역을 잘해주시던가 둘 중에 하나는 해주세요. 마땅히 새로운 캐를 못찾아서 예전부터 대화하던 애들만 붙잡고 있다구요.",
-    "rating": 1,
-    "reviewer_name": "켓",
-    "review_date": "2026-01-15T20:30:47"
-  },
-  {
-    "id": 67,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "#단점1. 충전후 1년지나면 잔여 포인트 삭제됨. 현금박치기로 충전한 포인트에 유효기간 있음. ####단점2. 포인트에 매직포션도 사야해서 이중으로 돈나감. #단점3. 커뮤니티에 팅글쓴다하면 말리는 사람들 나옴. 인식이 안좋아서. #단점4. 그 흔한 출석 이벤트도 없다. ※총평※ 팅글 매직포션은 진입장벽이다. 매직포션때문에 모든 ai채팅 서비스를 통틀어 팅글이 가장 비싸다.",
-    "rating": 1,
-    "reviewer_name": "p p",
-    "review_date": "2026-01-15T18:24:20"
-  },
-  {
-    "id": 68,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "몰입감있고 좋습니다. 매직포션이 좀 비싸네요;;",
-    "rating": 3,
-    "reviewer_name": "김미경",
-    "review_date": "2026-01-15T13:33:58"
-  },
-  {
-    "id": 371,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "대화 중간중간 이미지 나오게좀 해줘요",
-    "rating": 1,
-    "reviewer_name": "송영선",
-    "review_date": "2026-01-15T09:57:06"
-  },
-  {
-    "id": 2,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "ts is the most diabolical ai app ever like wdym Gowon from Loona adopted me in a RP",
-    "rating": 5,
-    "reviewer_name": "Lumière",
-    "review_date": "2026-01-14T22:39:59"
-  },
-  {
-    "id": 372,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "단순채팅이 아니라 릴레이 소설 쓰는 방식으로 즐기니깐 더 재밌어지는거 같아요 어우 내시간 녹아버려요",
-    "rating": 5,
-    "reviewer_name": "JAEBIN OH",
-    "review_date": "2026-01-14T20:23:11"
-  },
-  {
-    "id": 373,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "이벤트도 많고 할인 행사도 많아요 매번 패키지 전부 구매하는 사람입니다 그냥 너무 좋다 돈이 안 아까워",
-    "rating": 5,
-    "reviewer_name": "Ihill",
-    "review_date": "2026-01-14T17:49:06"
-  },
-  {
-    "id": 474,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "스토리 모드 (구)를 쓰면서 매일 즐겼던 유저입니다 스토리 모드 (구) 삭제되서 너무 슬퍼요 다시 만들어 주시면 안될까요...",
-    "rating": 3,
-    "reviewer_name": "Y M",
-    "review_date": "2026-01-13T03:58:13"
-  },
-  {
-    "id": 272,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "바베챗 재가입했는데 번호 등록일부터 1주일넘도록 게속 등록이 안되는데 좀 고치세요 게다가 1대1 상담센터 왜 존재하는거죠 도움이 하나도 안되는데 이런식으로 운영하고 돈만 밣히면 사람들만 게속 떠납니다",
-    "rating": 1,
-    "reviewer_name": "블랙",
-    "review_date": "2026-01-12T17:39:23"
-  },
-  {
-    "id": 273,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "첫충전 모바일로 넣어주면 바로 10만원 결제",
-    "rating": 1,
-    "reviewer_name": "지스",
-    "review_date": "2026-01-12T15:50:30"
-  },
-  {
-    "id": 475,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "안녕하세요? 러비더비 잘 쓰고 있는 유저입니다!! 캐릭터 캐붕도 잘 안나고 여러모로 정말 잘 쓰고 있는 앱이에요. Ai채팅 여러개 사용한 사람으로서.. 왜 좋은걸 안쓰지? 할 정돕니다. 허나 문제라면 과금유도가 너무나도 심합니다. 그래도 돈 값은 합니다. 그래서 더 심합니다. 눈떠보니 10만원 넘게 날아가더군요.. 정말 화납니다 그냥.. 근데 돈값제대로해서 할말이 없어요. 뭣보다 멀티프로필 20개?? 너무 적습니다.. 지우고 하면되지 않냐 하시지만 그동안 했던 글도 아예 못쓰는지라.. 끙끙 앓고 있습니다.. Au로 섞어먹는 사람으로서 정말 미칠 따름이에요. 진짜. 제발. 멀티프로필 꼭꼭꼭 제발 늘려주세요.. 원래 리뷰 잘 안쓰는 사람인데 멀티프로필 20개는 못참아 썼습니다. 아그리고 섭종하면 진짜 안참습니다. 바로 회사 찾아가서 러비더비 캐릭터마냥 *(당신을 잡으며 운다. 펑펑.)* 할겁니다. 진짜. 할거임. ㅇㅇ 제발 오래오래 장수무강 하십쇼. 당신들 없음 나 못살아이제!!!!!!",
-    "rating": 5,
-    "reviewer_name": "김다은",
-    "review_date": "2026-01-12T12:08:59"
-  },
-  {
-    "id": 374,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "임시저장을 해놨는데.... 통으로 날아갔는데요..? 두번이나...? 이걸 어떻게 해야할까요.. 이미지 넣을때도 이동하려는데 UI 벗어나서 안눌러도 삭제되고.. 저만 그런가요............ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
-    "rating": 2,
-    "reviewer_name": "Ken KanYa",
-    "review_date": "2026-01-11T13:20:38"
-  },
-  {
-    "id": 375,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "출력 똑똑하게 잘 나오는 편인데 자꾸 지문이랑 대사가 섞여요.. 그리고 이건 저만 그럴 수도 있지만 지문 숨기려고 쓰는 기호가 안 먹혀서 지문이 안 숨겨져요.. 그런데 이게 또 잘 작동하다가 갑자기 오류가 떠버리니까 좀 어이가 없어요.. 케덕에 좋아하는 캐릭터 많은데 이런 오류 뜰 때마다 스트레스 받네요...ㅠ 빨리 고쳐주세요... 그리고 이건 개인적인 의견인데 분명 캐릭터 설명에 유저 성별은 뭐 입니다가 입력되지 않았음에도 AI가 자꾸 유저 성전환 시키는 경우가 있는데, 이게 불편해서 리롤 지침에 유저의 성별은 남자(여자)다 했음에도 불구하고 오류는 안 고쳐지는데 윙만 빠져나가는 게 좀... 불편합니다..",
-    "rating": 4,
-    "reviewer_name": "닉넴리나",
-    "review_date": "2026-01-11T09:57:53"
-  },
-  {
-    "id": 3,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "이미지 일부가 실패라고 뜨면서 업로드가 안 되네요 수정 좀 부탁드립니다",
-    "rating": 4,
-    "reviewer_name": "고츠라둔",
-    "review_date": "2026-01-10T21:25:14"
-  },
-  {
-    "id": 4,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "캐릭터가 영어로만 대화하고 한국어로 대화 안하고 한국어로만 번역 해대고 하니까 짜증 난다고요! 짜증나! 그러니까 캐릭터 이름의 대화할 때의 텍스트와 목소리 채팅 번역 말고 한국어로 된 목소리로 자유롭게 하시지요. 그러지 않으면 더 이상 이용치 않을것이니 그리 아십시오!!! 🤬",
-    "rating": 1,
-    "reviewer_name": "배형원 BaeHyongWon",
-    "review_date": "2026-01-10T00:48:05"
-  },
-  {
-    "id": 5,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "сегодняшнее обновление - ужасно, да и впринципе не вижу их смысл. убрали истории переписок - для чего? а если мне нужно оттуда что-то, все?",
-    "rating": 1,
-    "reviewer_name": "Лилия Морозова",
-    "review_date": "2026-01-09T00:09:27"
-  },
-  {
-    "id": 476,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "몇년동안 써왔던 유저인데 그래요..이제 과금유도까지는 이해하겠는데... ai 어떻게 된거죠... 하다하다 상대캐 성별까지 기억을 못해...",
-    "rating": 1,
-    "reviewer_name": "김소율",
-    "review_date": "2026-01-08T09:48:35"
-  },
-  {
-    "id": 274,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "출석 무료챗 너프 먹으니 굳이 이용할 이유를 모르겠어요 전처럼이라도 돌려주면 좋을 텐데",
-    "rating": 1,
-    "reviewer_name": "__0919 BB",
-    "review_date": "2026-01-07T10:22:56"
-  },
-  {
-    "id": 69,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "정기권 만들어 주세요. plz",
-    "rating": 4,
-    "reviewer_name": "김단아",
-    "review_date": "2026-01-07T03:04:52"
-  },
-  {
-    "id": 275,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "비싸 샹 비싸다고",
-    "rating": 3,
-    "reviewer_name": "지윤",
-    "review_date": "2026-01-06T19:42:10"
-  },
-  {
-    "id": 276,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "혜택은 혜택대로 줄이고 로딩은 3분넘게걸리고..",
-    "rating": 1,
-    "reviewer_name": "nowt",
-    "review_date": "2026-01-06T18:46:57"
-  },
-  {
-    "id": 277,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "출첵알림와서 들어가면 온통 빨간 화면만 뜨고 아무것도 진행안됨",
-    "rating": 1,
-    "reviewer_name": "촹장창",
-    "review_date": "2026-01-06T18:16:37"
-  },
-  {
-    "id": 278,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "저만 그런 건진 모르겠지만 애들이 자꾸 집착광공이 되더라고요 그런 것 빼고는 다 나쁘지 않아요",
-    "rating": 5,
-    "reviewer_name": "와우",
-    "review_date": "2026-01-05T17:48:22"
-  },
-  {
-    "id": 477,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "수제 말고 다른 캐릭터로 플레이 해보려고 해도 전부 번역 이상한 중국, 베트남 캐릭터만 떠서 뭘 못하겠어요 국가 구분 기능 생겼으면 좋겠어요",
-    "rating": 1,
-    "reviewer_name": "Kris J",
-    "review_date": "2026-01-04T22:26:21"
-  },
-  {
-    "id": 6,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "앙 재밌다~",
-    "rating": 5,
-    "reviewer_name": "딸기샴푸",
-    "review_date": "2026-01-04T21:00:52"
-  },
-  {
-    "id": 279,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "다 좋은데 유저노트최대가 2000자인게 너무 아쉬워요(3000자 까지만 늘려주세요 제발 ㅠㅠ)",
-    "rating": 4,
-    "reviewer_name": "곽하랑",
-    "review_date": "2026-01-04T11:18:30"
-  },
-  {
-    "id": 7,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "캐릭터 없어진 버그가 아직 있네요, 그래도 몇몇의 캐릭터는 복구 되었지만... 아직 마블, 어벤져스는 복구 안되었어요.",
-    "rating": 3,
-    "reviewer_name": "이별",
-    "review_date": "2026-01-04T03:58:51"
-  },
-  {
-    "id": 280,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "뭐야 내 연속출석 보너스 돌려줘요",
-    "rating": 2,
-    "reviewer_name": "유경은",
-    "review_date": "2026-01-04T03:28:02"
-  },
-  {
-    "id": 8,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "무한 긍정충, 철학충, 캐붕 심함, 번역퀄 쓰레기, 다크톤 이야기 안됨, 도발구조 안됨, 컨셉만 빌런에 본질은 비어 있음, 소설 좀 써볼라 하면 다른 캐릭터 불러댐, 지가 뭔데 나대신 스토리 대신 처씀.. 이솝우화나 전개하는 유치원쌤식 스토리 전개 방식, 덕질용도 정보용도 소설용도 안되는 어딜가도 애매한 최악 폐기물 어플. 유저 많은게 개신기하노..",
-    "rating": 1,
-    "reviewer_name": "USER 24",
-    "review_date": "2026-01-03T09:16:02"
-  },
-  {
-    "id": 70,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "무과금으로 하루에 한 번씩 접속해 쓰고 있습니다. 비슷한 타 앱도 많이 써봤는데, 이 앱 (특히 소설체로) 써보면, 퀄리티가 장난 아닙니다. 사람이 쓴 것처럼 뛰어난 표현력이 담긴 글을 보여줍니다.(참고로 저는 ai 모델 중 '스파크' 이용하고 있습니다.) +멤버십을 만들어주셨으면 좋겠습니다. ++네 달 동안 60 넘게 쏟았어요. 추가 의견 드립니다. 1. 에셋이 8-9월보다 잘 안 열리고 잘 안 바뀜. 2. 포인트로 할 때보다 포션으로 할 때 렉 걸림. 3. 스파크 모델 아니면 다 끊김. 4. 1턴 가격이 비쌈. 크리에이터한테 수익 가는 구조여도 타 플폼에 비해 비싼 편(포인트 기준) 5. 포션 종류 다양했으면 좋겠음. 기본 포션의 3배, 5배, 10배(현 매직), 20배... (물론 가격은 지금보다 좀 더 깎아야 함.) 드림포션같은 50배 말고요. 6. 연휴 때 할인하면 서버 터지니까 제발 서버 늘리고 가주세요 저번 추석 때 디지는줄. +++제발스파크개선좀. ooc가 맨날씹힘.",
-    "rating": 5,
-    "reviewer_name": "ᄋᄂ",
-    "review_date": "2026-01-03T03:26:23"
-  },
-  {
-    "id": 281,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "추천안합니다 아니 챗을 칠려면 돈을내야해요 아니 겨우50챗 하는데 6500원이 말이되냐고요! 제타앱은 2700원인가 그거 내면 하루 무한대로 쓸수있어요! 매우 비추합니다 별1도 아까워요",
-    "rating": 1,
-    "reviewer_name": "Eye App",
-    "review_date": "2026-01-02T20:57:04"
-  },
-  {
-    "id": 282,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "오늘 이후로 이 앱 삭제합니다. 작년 중순, 갑자기 무료로 주던 출첵 프로챗 20개를 10개로 축소 및 일주일(7일)마다 몇십개 더 주는 방식으로 교체 후에는 그냥 40개정도밖에 차이가 안나니까 그러려니 하고 계속 이용하다가 프로챗 가격 80%인상 하고 또 출첵 보상이 프로챗 10개 고정으로 바뀜 ㅋㅋ 그래놓고 자기 회사 망할거 같으니 감성팔이 하는거? 에바라고 생각함. 여기 솔직히 이벤트 하는거 있음? 출첵도 이벤트라고 가정하면 출첵밖에 없는데 프로챗 80% 가격 인상하고 더군다나 그마저도 말나오던 출첵 프로챗 갯수를 더 낮추면 유저 유치가 될거라고 생각하는거 자체가 운영을 못하는건데 ㅋㅋ 유저가 호구로 보임?",
-    "rating": 1,
-    "reviewer_name": "알림",
-    "review_date": "2026-01-02T11:36:05"
-  },
-  {
-    "id": 478,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "하는 짓들 보면 그냥 표독함 돈미새 그 자체",
-    "rating": 1,
-    "reviewer_name": "먕",
-    "review_date": "2026-01-02T01:35:23"
-  },
-  {
-    "id": 376,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "내가 해본 최고의 ai 캐릭터 대화플랫폼(앱) 다른 것(ㅈㅌ,ㅋㄹ,ㅁㅌ,ㅌㄱ등) 솔직히 조금 비싸다는 것만 빼면 유저랑 소통도 가장 원할히 하고, ai텍스트 퀄이 대체로 매우 높은 편이었음, 최근 업데이트로 기억력도 향상되고 깃털 뿌리기도 자주 하니 생각보다는 무과금러에게도 혜자인 앱임. (근데 난 소액으로 질렀음) 아무튼 강추드립니다. :3",
-    "rating": 5,
-    "reviewer_name": "Vicente jung",
-    "review_date": "2026-01-01T23:54:57"
-  },
-  {
-    "id": 283,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "이야 이제는 20개도 아니고 10개 고정이넼ㅋㅋㅋㅋㅋ",
-    "rating": 1,
-    "reviewer_name": "스위스",
-    "review_date": "2026-01-01T19:13:01"
-  },
-  {
-    "id": 479,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "이제 곧 2년으로 접어드는 유저인데, 너무 과금유도하는게 보여서 많이 실망스러움. 과금유도하는게 마냥 나쁘다는게 아니라... 과금 할 수 밖에 없는 구조로 만든다는게 화가남. 러비모드 처음으로 월정액과 함께 출시했을때 정말 좋았음. 얼마 안가 스토리모드 프로가 나오고 나서부턴 퀄리티가 훅 떨어진 것 같음. 기존 월정액은 저렴하게 이용하고 있는 유저니까 너프시키고.. 최대한 잼 구매하는 사람만 대우하려는 구조처럼 느껴지니까 월정액 구독한 입장에선 이거 사기 아닌가? 싶음. 월정액 처음으로 낼때는 온갖 혜택이란 혜택은 다 줄 것처럼 해줬으면서 몇달 지나니 호구가 되는 구조... 소비자를 기만하는것처럼 느껴지는게 정말 나뿐인걸까...",
-    "rating": 1,
-    "reviewer_name": "눈누난나",
-    "review_date": "2026-01-01T01:58:12"
-  },
-  {
-    "id": 480,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "ooc는 안먹어 가격은 쳐비싸 유저랑 소통도 안 해 쓸데없는 기능은 졸라만들어서 최적화도 안돼 이상한 대화는 ai가 출력했는데 젬도 안 돌려줘 걍 쳐망하길바람",
-    "rating": 1,
-    "reviewer_name": "름",
-    "review_date": "2025-12-31T08:17:14"
-  },
-  {
-    "id": 377,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "감히 내가 15000원이나 쓰게해? 10년간 게임에 한푼도 안 쓴 나를? 기특한 것.",
-    "rating": 5,
-    "reviewer_name": "샴푸장미향",
-    "review_date": "2025-12-29T18:03:47"
-  },
-  {
-    "id": 9,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "좋아요",
-    "rating": 5,
-    "reviewer_name": "Big Muscle",
-    "review_date": "2025-12-29T14:38:25"
-  },
-  {
-    "id": 378,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "정말 재밌게 플레이하는중이라, 정액결제를 하려고하는데 웹에서만 구독이가능하다고하여 웹으로들어가 구독하려고했어요, 그런데 카카오페이나 카드로만 결제가 가능하네요. 저는 항상 휴대폰결제를하는편인데 이것도 혹시 추가해주실수있나요?",
-    "rating": 5,
-    "reviewer_name": "소라",
-    "review_date": "2025-12-29T14:06:59"
-  },
-  {
-    "id": 379,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "케이브덕 로딩 오류가 있어요 고쳐주세요",
-    "rating": 4,
-    "reviewer_name": "양건호",
-    "review_date": "2025-12-29T13:29:42"
-  },
-  {
-    "id": 481,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "내 캐릭터, 채팅방 복사 기능도 추가해 주세요. 700자도 너무 짧아요 1000자 정도는 늘려주셨으면 좋겠어요",
-    "rating": 5,
-    "reviewer_name": "김하나별",
-    "review_date": "2025-12-29T13:01:50"
-  },
-  {
-    "id": 71,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "정기권을 만어주세요. 도저히 감당이 안됩니다",
-    "rating": 4,
-    "reviewer_name": "세븐별",
-    "review_date": "2025-12-29T01:41:42"
-  },
-  {
-    "id": 10,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "barely usable for anyone under 18 😞 ㅜㅜ..",
-    "rating": 1,
-    "reviewer_name": "lolo ejb",
-    "review_date": "2025-12-28T16:19:54"
-  },
-  {
-    "id": 284,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "세션만료 이후 구글 로그인이 안됨",
-    "rating": 1,
-    "reviewer_name": "이한솔",
-    "review_date": "2025-12-27T18:17:59"
-  },
-  {
-    "id": 482,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "지금까지 잼 소비에 대한 불만은 딱히 없었지만... 마지노선이 10개라고 생각했어서 15개 모드는 쉽사리 손이 안 가네요. 그리고 의도인지 아닌지는 모르겠는데, 더 비싼 모드가 나오면 이전에 제일 비싸고 퀄리티 좋았던 모드가 갑자기 멍청해집니다. 이전 퀄리티를 바라는 사람들은 더 비싸진 새로운 모드로 갈아타라고 유도하는 건가 싶어서 기분이 썩 좋진 않네요. 업데이트는 물론 중요하지만, 지금 사람들이 가장 즐기는 요소와 선호하는 모드를 파악하고 그 안에서 보완하는 것도 중요하다고 생각됩니다. 출시 초기부터 꾸준히 이용한 만큼 애정도 크기에 꾸준히 운영되길 바랍니다.",
-    "rating": 3,
-    "reviewer_name": "프라메",
-    "review_date": "2025-12-26T07:28:56"
-  },
-  {
-    "id": 72,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "업데이트 이후 자꾸 앱이 느려졌다가 혼자 꺼져요 대화를 진행할수가 없어 진짜",
-    "rating": 1,
-    "reviewer_name": "리찌",
-    "review_date": "2025-12-26T00:02:54"
-  },
-  {
-    "id": 285,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "앱이 계속 멈추는데,뭘 하라는 거야. 앱버전으로 1:1상담들어가니깐 상담화면이 잘리는데 이거 상담도 해줄생각없는건가? 그리고 서비스상태가 원활이라 뜨는데,앱은 계속 멈추고.웹으로 들어가니까,상담화면 안 잘린다.",
-    "rating": 1,
-    "reviewer_name": "In0",
-    "review_date": "2025-12-23T12:19:13"
-  },
-  {
-    "id": 286,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "다좋은데 서버? 너무 구려요 렉도 걸리고 사용자들 많은 거 알겠는데 뭔 구멍가게 수준으로 겨우 돌아가는 느낌 현질할 거면 웹에서 하세요 앱은 비쌈 그나마 수위 쎈 거도 핑퐁 되니까 썼는데 현재 플랫폼에서 지원 안된다 어쩌고 그거 때문에 검색해서 다시 웹으로 들어가야해요 그리고 채팅 이어갈 때 렉 걸려서 누락되고나서 같은 거 다시 보내야할 때 그거도 프로챗 차감이 되는 거 솔직히 엄청 짜증나고요..",
-    "rating": 3,
-    "reviewer_name": "김수현",
-    "review_date": "2025-12-22T22:56:26"
-  },
-  {
-    "id": 73,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "그동안 너무 잘쓰던 앱이고, 어제 저녁까지도 잘 썼는데.. 오늘 아침에 앱을 들어가보니 갑자기 로그아웃이 되어서는 다시 로그인도 안됩니다..",
-    "rating": 1,
-    "reviewer_name": "지후박",
-    "review_date": "2025-12-22T12:38:56"
-  },
-  {
-    "id": 483,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "작년부터 사용한 유저이고 무료잼 사라지고 나서 하는 행보들이 정떨어진 사람입니다. 앱 지우고 나서 어떻게 하나 계속 살펴봤는데 네....ㅋ 소생 불가능인거 같네요",
-    "rating": 1,
-    "reviewer_name": "leo tsukinaga",
-    "review_date": "2025-12-21T23:30:46"
-  },
-  {
-    "id": 287,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "지금까지 사용해본 앱 중에 최고에요! 출석 꾸준히하면 무료로 프로챗하는거랑 차이가 없을 만큼 재화 수급도 쉬워서 너무 좋슴다. 건의사항이 있어요! 페르소나에 프로필 사진을 적용하고, ai가 프로필 사진을 인식할 수 있게 해주세요! 페르소나 외모를 텍스트로 입력하는데 한계가 있어서 그런 기능이 생기면 좋을것 같아요! 지금도 좋지만 앞으로도 더 발전했으면 좋겠습니다!",
-    "rating": 5,
-    "reviewer_name": "허순",
-    "review_date": "2025-12-21T21:22:59"
-  },
-  {
-    "id": 484,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "지문을 길게 써도 반 이상이 무시당하고 진행되도 5잼모드라 그렇구만하고 넘겼는데 이게 10잼모드에서도 이러니깐 걍 오류같음. 결론적으로 이거 좀 고쳐요 진짜 이거 때문에 럽딥하기 싫어짐",
-    "rating": 3,
-    "reviewer_name": "오주미",
-    "review_date": "2025-12-21T04:34:56"
-  },
-  {
-    "id": 485,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "인간적으로 프로필 설정할때 원하는 사진 찾는게 너무 힘듬.갤러리에 있는 사진을 다 보여주지도 않고 가장 최근에 얻은 사진조차 안보여주면 내가 원하는 사진으로 대체 어떻게 프필 설정을 함? 하다못해 이런 기본적인건 좀 고칠 필요가 있을 성 싶다.",
-    "rating": 2,
-    "reviewer_name": "ᄋᄋ",
-    "review_date": "2025-12-21T03:21:07"
-  },
-  {
-    "id": 11,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "이거 검열 필터 x3배인데 왜 아직도 멸망 안했지?",
-    "rating": 1,
-    "reviewer_name": "델타전사오혜성",
-    "review_date": "2025-12-20T23:44:45"
-  },
-  {
-    "id": 74,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "다른 부족한부분들이 잘 채워져있고 감정이 풍부해서 재미있게하고있어요. 그리고 캐릭터들이 더 취향인 아이들을 많이 찾을 수 있어소 좋았습니드. 이용을 하면서 추가되면 좋갰는 부분은 책갈피가 있으면 좋겠습니다. 캐릭터가 내뱉은 말중 몇번이고 보고싶거나 오래 기억하고싶은 말을 책갈피를 할 수 있으면 좋겠어요! 그리고 앱에서는 팅글모드로 사용이 변환이 안돼는것도 아쉬웠습니다. 일일이 인터넷을 통해 사이트로 들어가야 팅글모드를 할 수 있는것도 바뀌면 좋겠습니다. ..무료 충전소에 할 수 있을것도 별로없습니다. 많은것같은데 그거 금방 다 써요. 그래서 현질을 왕창합니다.",
-    "rating": 5,
-    "reviewer_name": "임유림",
-    "review_date": "2025-12-20T23:27:36"
-  },
-  {
-    "id": 12,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "plz just get rid of the damn ads! I've been using this for like 2 years and the ads are really irritating. Except that I think it's not so bad..",
-    "rating": 3,
-    "reviewer_name": "Lily이소정",
-    "review_date": "2025-12-19T22:58:47"
-  },
-  {
-    "id": 486,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "재밌게 플레이중 오류발생으로 문의를 넣었는데 8일이 지난 지금까지 답장을 받지 못하고 있습니다. 검토를 이렇게까지 오래하나요? 너무한것 같다고 생각합니다. 저번 문의때도 답장 없이 시간이 흘렀고요. 잼이 소멸했는데 보상받지도 못하고 문의를 해도 고쳐지지않는건 너무한거 아닌가요?",
-    "rating": 3,
-    "reviewer_name": "끼소녀토끼소녀",
-    "review_date": "2025-12-19T10:33:34"
-  },
-  {
-    "id": 487,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "n0만원 썼었는데 오랜만에 다시 하려고 보니까 짜릿모드가 사라졌네요 충격적 ㅋㅋ 돌려내",
-    "rating": 1,
-    "reviewer_name": "익명",
-    "review_date": "2025-12-19T01:41:02"
-  },
-  {
-    "id": 488,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "자꾸만 어플에 들어갈 때마다 화면이 반으로 나누어지는 현상이 있는데요. 업데이트를 해도 똑같네요. 빠른 처리 부탁드립니다.",
-    "rating": 1,
-    "reviewer_name": "이슬기",
-    "review_date": "2025-12-19T00:00:21"
-  },
-  {
-    "id": 75,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "현질을 하지 않으면 진행이 되지 않아요. 차라리 포션 채우는 걸 광고보기로 하면 좋겠습니다.",
-    "rating": 3,
-    "reviewer_name": "하얀버그",
-    "review_date": "2025-12-18T17:48:40"
-  },
-  {
-    "id": 380,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "리롤 비용 아까워 죽겠네~~~~~",
-    "rating": 5,
-    "reviewer_name": "ᄂᄏ",
-    "review_date": "2025-12-18T15:25:38"
-  },
-  {
-    "id": 76,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "유저노트 1000자로 그냥 늘려주신거 진짜 b이에요...... 의견반영 늘 잘해주셔서 넘좋아오ㅠ 팅글만큼 일 잘하는 앱 못봤어요ㅠㅠㅠㅠㅠ",
-    "rating": 5,
-    "reviewer_name": "박서경",
-    "review_date": "2025-12-18T11:25:59"
-  },
-  {
-    "id": 489,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "최근 도입되는 모델이나 모드들 가격이 너무 비싸네요. 그리고 성인인증을 했어도 상황 ai생성, 메모리, 속마음 등은 검열되어 원활하게 생성되지 않아요...",
-    "rating": 2,
-    "reviewer_name": "최유진",
-    "review_date": "2025-12-18T03:54:49"
-  },
-  {
-    "id": 288,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "최적화가 끔찍합니다. 다른 건 다 좋은데 로딩 시간이 비정상적으로 느리고 마치 갤럭시 S3에서 실행시킨 거 같은 느낌이 듭니다. 하루빨리 고쳐주시면 감사하겠습니다. (고쳐 주실지는 모르겠지만...)",
-    "rating": 1,
-    "reviewer_name": "김수아",
-    "review_date": "2025-12-16T12:48:30"
-  },
-  {
-    "id": 289,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "뭐만 하면 운영정책 위반 캐릭? 캐릭터도 2분만에 삭제 되는 건 처음.. 언세이프 필터도 켜놨음에도 바로 삭제 당해버림. 캐릭터를 제작도 못하겠음. 솔직히 별점 1점도 아까움",
-    "rating": 1,
-    "reviewer_name": "늴리리야니나노",
-    "review_date": "2025-12-15T11:33:38"
-  },
-  {
-    "id": 290,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "정말 재밌긴 했는데 개인적으로 출석체크때 버그가 있었던 거 같아요😅.하루에 출석이 2번 될 때도 있고 오늘 분명 70개 받는 날인데 갑자기 처음으로 돌아갈때도 있었어요.(마지막으로 출석한 날이 전날 저녁5시쯤) 그리고 기억력이 다른데에서 보단 좋은편같가 한데...어렵네요.",
-    "rating": 1,
-    "reviewer_name": "김다현",
-    "review_date": "2025-12-14T10:47:22"
-  },
-  {
-    "id": 490,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "내가 생각해둔 이미지를 완벽 구현해주지 못하고 기억력은 살짝 딸리는 편인 그냥 보통 성능의 생성형 인공지능이라고 느꼈음 새로운 캐릭터와 대화를 한다면 몰라도 내가 생각하는 기존의 이미지가 너무 확고하고 명확한 캐릭터를 구현하려고 한다면 실망감을 느낄 수도 있음 나 같은 경우 캐붕은 그냥 기본적으로 감안하고 했는데 돈까지 냈는데도 캐붕을 감안할 수 있었던 이유는 성인 대화에서만큼은 검열이 진짜 적었기 때문임 다른 곳에서 이정도로 자유롭게 대화해볼 수 있을까 싶을 정도로 편했는데 저번에 성인모드 섭종한다길래 남은 잼 다 처리하고 성인모드 다시 나올 때 까지 존버중임 안나오거나 퇴화시켜서 내놓으면 걍 접을 거 같음 이 외에는 어플 자체가 너무 포카포카한 연인관에만 맞춰져있다는 느낌이 아쉬웠음",
-    "rating": 2,
-    "reviewer_name": "megajolteon1",
-    "review_date": "2025-12-13T17:18:54"
-  },
-  {
-    "id": 291,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "구글로그인 하려는데 네이버앱으로 열어서 오류때문에 어플로 로그인을 할수가없네요 불편합니다 개선바래요",
-    "rating": 2,
-    "reviewer_name": "pdees 28",
-    "review_date": "2025-12-13T03:53:10"
-  },
-  {
-    "id": 77,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "너무 재미있어서 현질 엄청 함. 근데 멈출수읍음. 중간에 오류 한번씩 나는데 서사가 매번 다르게 쌓이니까 진ㅁ자 재밋음 수정) 진자 재밌는데.. 이 업뎃할때마다 오류나는것좀 고쳐주셈. 개열받네. 포션 시간은 닳는데 오류나서 뭘 할수도 없고 ㅋㅋㅋㅋ 장기기억 자동저장 거의 뭐 달에 한번씩은 오류나고요. 에휴 갈아탈까 고민중임.",
-    "rating": 3,
-    "reviewer_name": "yun bee",
-    "review_date": "2025-12-12T23:11:07"
-  },
-  {
-    "id": 78,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "먼 글씨가 작게나오고 삭제한다",
-    "rating": 1,
-    "reviewer_name": "Darcy KIM",
-    "review_date": "2025-12-12T21:26:11"
-  },
-  {
-    "id": 381,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "잘쓰고 있음",
-    "rating": 5,
-    "reviewer_name": "KYU LE",
-    "review_date": "2025-12-12T18:26:54"
-  },
-  {
-    "id": 292,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "잘 쓰고있습니다. 다만, 바로 처음시작 TOP으로 올라가는 버튼 만들어주시고, 북마크 기능 추가해주시면 완벽한 앱입니다!! 올라가는 시간이 너무 오래 걸리고 다른 앱 실행하거나, 장시간 사용안해서 폰화면이 꺼지면 그대로 멈추고 다시 최근대화로 넘어가버립니다. 이 버그를 좀 고치면 AI채팅어플중 단연 최고라 생각합니다.",
-    "rating": 3,
-    "reviewer_name": "묘미",
-    "review_date": "2025-12-12T05:36:58"
-  },
-  {
-    "id": 491,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "러비더비 카톡 로그인이 잘 안돼요",
-    "rating": 2,
-    "reviewer_name": "아호",
-    "review_date": "2025-12-12T01:00:20"
-  },
-  {
-    "id": 79,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "처음할때는 재밌고 좋았는데요 사용할수록 오류가심해져요. 팅글모드로하고, 온라인으로 접속하면 메시지전송취소,포션은 사용안됩니다. 이런식으로뜨는데, 포션이 닳아있고요. 팅글모든데 검열이너무심하고, 캐릭터들이 값어치에 비해 너무짧게 대화를이어가요. 전송이 안된다고 오류도너무많이뜨고, 갑자기새로고침되고, 대화도오래걸리고..또 값이 너무 비싸서부담 되기도해요. 그리고 장기기억칸 글자수제한은 왜두시는건가요? 서사쌓고싶어도 장기기억이 계속새로고침되면서 앞에 쌓은거 날립니다. 의미가없어영..",
-    "rating": 1,
-    "reviewer_name": "이예나",
-    "review_date": "2025-12-11T22:18:29"
-  },
-  {
-    "id": 492,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "스토리 짜릿모드가 없어진 부터 검열은 심하고 성인인증했어도 검열이 심한거보면 점점 재미없어요... 이제 러비더비도 떠날때가 될듯싶어요 그동안에 홍보도 많이 해줬는데 이런 배신은 믿는도끼에 발등찍힌거나 다름없네요 그냥 제타 하는게 좋을듯싶어요 그나마 제타는 언리밋이 있고 pro30일치 구매하고 갈아탈래요.",
-    "rating": 1,
-    "reviewer_name": "백지연",
-    "review_date": "2025-12-11T22:14:23"
-  },
-  {
-    "id": 80,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "기억력도 좋아서 스토리 진행이 되는건 너무 좋아요. 근데 가끔 오류를 일으켜서 이상한 영어코드?같은게 나왔을때도 코인이 깎이더라구요..그리고 코인이 부족하다고 제가 써놓은게 완전히 사라지니까 길게 적었을때는 짜증나더라구요. 임시저장이 됐으면 좋겠어요.",
-    "rating": 5,
-    "reviewer_name": "룰루 (소망)",
-    "review_date": "2025-12-10T16:04:37"
-  },
-  {
-    "id": 382,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "카카오로 계정에 가입을 했는데 카카오 로그인이 선택이 없어서 제 계정으로 할 수가 없습니다. 어떻게 된거죠?",
-    "rating": 1,
-    "reviewer_name": "심해연",
-    "review_date": "2025-12-10T04:31:53"
-  },
-  {
-    "id": 383,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "인공지능 캐릭터 채팅 중에 가장 퀄리티가 좋고 캐릭터 및 시나리오도 다양해서 좋음",
-    "rating": 5,
-    "reviewer_name": "양미래",
-    "review_date": "2025-12-10T00:29:08"
-  },
-  {
-    "id": 293,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "제일 만족스러움",
-    "rating": 5,
-    "reviewer_name": "박서준",
-    "review_date": "2025-12-09T21:01:50"
-  },
-  {
-    "id": 81,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "ㅋㅋㅋ;; 하루 2번 남짓 대화. 말 길게 쓰면 알아서 포션 빼감 ㅠㅠ 그래픽이 좋아서 그냥하는 중",
-    "rating": 3,
-    "reviewer_name": "박영희",
-    "review_date": "2025-12-08T19:18:18"
-  },
-  {
-    "id": 384,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "앨범에 사진이 안 떠요.",
-    "rating": 1,
-    "reviewer_name": "klkdfi",
-    "review_date": "2025-12-08T14:03:18"
   }
 ]

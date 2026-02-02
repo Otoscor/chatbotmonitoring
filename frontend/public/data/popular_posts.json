@@ -12,6 +12,30 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=220845&page=1"
   },
   {
+    "id": 9245,
+    "post_id": "230386",
+    "gallery_id": "aichatting",
+    "title": "갤러리 신문고 시스템 개편 안내 (미니갤 이전)",
+    "author": "ㅇㅇ",
+    "created_at": "2026-02-02T15:10:49",
+    "view_count": 775,
+    "recommend_count": 61,
+    "comment_count": 10,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=230386&page=1"
+  },
+  {
+    "id": 9262,
+    "post_id": "230725",
+    "gallery_id": "aichatting",
+    "title": "[불판] 잠깐만 케덕 여기로",
+    "author": "ㅇㅇ",
+    "created_at": "2026-02-02T18:46:40",
+    "view_count": 706,
+    "recommend_count": 12,
+    "comment_count": 22,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=230725&page=1"
+  },
+  {
     "id": 9019,
     "post_id": "230111",
     "gallery_id": "aichatting",
@@ -48,16 +72,16 @@
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=229933&page=2"
   },
   {
-    "id": 4470,
-    "post_id": "218580",
+    "id": 9340,
+    "post_id": "231814",
     "gallery_id": "aichatting",
-    "title": "이거 나한테 한 말임?ㄷㄷ",
+    "title": "케젬삼베타 출력량 제한 3000자로 빡세게 걸어놓은 듯...?",
     "author": "ㅇㅇ",
-    "created_at": "2026-01-26T04:47:33",
-    "view_count": 443,
-    "recommend_count": 23,
-    "comment_count": 11,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=218580&page=2"
+    "created_at": "2026-02-03T04:46:23",
+    "view_count": 459,
+    "recommend_count": 24,
+    "comment_count": 22,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=231814&page=3"
   },
   {
     "id": 7356,
@@ -70,18 +94,6 @@
     "recommend_count": 0,
     "comment_count": 23,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=911723&page=3"
-  },
-  {
-    "id": 4498,
-    "post_id": "218550",
-    "gallery_id": "aichatting",
-    "title": "젬 중간에 진짜 수정안되나봄",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-26T03:59:44",
-    "view_count": 400,
-    "recommend_count": 18,
-    "comment_count": 10,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=218550&page=3"
   },
   {
     "id": 5298,
@@ -142,6 +154,18 @@
     "recommend_count": 21,
     "comment_count": 16,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=220366&page=2"
+  },
+  {
+    "id": 9321,
+    "post_id": "231833",
+    "gallery_id": "aichatting",
+    "title": "그냥 12월로 돌아갈래",
+    "author": "ㅇㅇ",
+    "created_at": "2026-02-03T05:02:32",
+    "view_count": 343,
+    "recommend_count": 22,
+    "comment_count": 9,
+    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=231833&page=2"
   },
   {
     "id": 9005,
@@ -214,30 +238,6 @@
     "recommend_count": 0,
     "comment_count": 12,
     "url": "https://gall.dcinside.com/mgallery/board/view/?id=wrtnai&no=911784&page=2"
-  },
-  {
-    "id": 7492,
-    "post_id": "225243",
-    "gallery_id": "aichatting",
-    "title": "갤에 아무도 리뷰를 써주진 않지만",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-30T03:32:15",
-    "view_count": 313,
-    "recommend_count": 16,
-    "comment_count": 4,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=225243&page=3"
-  },
-  {
-    "id": 6292,
-    "post_id": "223814",
-    "gallery_id": "aichatting",
-    "title": "얘들아 당장 폰 제미니 메세지 연동 꺼라",
-    "author": "ㅇㅇ",
-    "created_at": "2026-01-29T10:42:21",
-    "view_count": 311,
-    "recommend_count": 26,
-    "comment_count": 10,
-    "url": "https://gall.dcinside.com/mgallery/board/view/?id=aichatting&no=223814&page=1"
   },
   {
     "id": 7280,
@@ -408,6 +408,18 @@
     "url": "https://arca.live/b/characterai/160980995?p=3"
   },
   {
+    "id": 9416,
+    "post_id": "161317270",
+    "gallery_id": "characterai",
+    "title": "NovelAI 정밀 참조(Precise Reference) 기능 출시",
+    "author": "hr51",
+    "created_at": "2026-02-02T00:00:00",
+    "view_count": 27,
+    "recommend_count": 0,
+    "comment_count": 0,
+    "url": "https://arca.live/b/characterai/161317270?p=1"
+  },
+  {
     "id": 9034,
     "post_id": "161249365",
     "gallery_id": "characterai",
@@ -538,17 +550,5 @@
     "recommend_count": 0,
     "comment_count": 0,
     "url": "https://arca.live/b/characterai/160905943?p=2"
-  },
-  {
-    "id": 4990,
-    "post_id": "160712891",
-    "gallery_id": "characterai",
-    "title": "개인적으로 메타 프롬이라는 말도 언어 순화가 필요하다 생각함",
-    "author": "마스터독따지휘관센세교주미호요",
-    "created_at": "2026-01-27T00:00:00",
-    "view_count": 18,
-    "recommend_count": 0,
-    "comment_count": 0,
-    "url": "https://arca.live/b/characterai/160712891?p=1"
   }
 ]

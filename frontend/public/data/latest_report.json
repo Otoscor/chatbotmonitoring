@@ -1,253 +1,286 @@
 {
-  "id": 11,
-  "report_date": "2026-02-02T09:14:24.025373",
-  "total_posts": 437,
-  "total_views": 24352,
-  "total_recommends": 296,
-  "total_comments": 1419,
+  "id": 12,
+  "report_date": "2026-02-03T08:23:15.662711",
+  "total_posts": 410,
+  "total_views": 26589,
+  "total_recommends": 302,
+  "total_comments": 1714,
   "top_keywords": [
     {
       "keyword": "진짜",
       "count": 12,
-      "score": 0.0235
+      "score": 0.0275
     },
     {
-      "keyword": "블루",
-      "count": 8,
-      "score": 0.0183
+      "keyword": "너무",
+      "count": 10,
+      "score": 0.0187
     },
     {
       "keyword": "이거",
       "count": 9,
-      "score": 0.0175
+      "score": 0.0177
     },
     {
-      "keyword": "에셋",
-      "count": 8,
-      "score": 0.0156
+      "keyword": "베타",
+      "count": 9,
+      "score": 0.0157
     },
     {
-      "keyword": "잼민이",
+      "keyword": "레퍼",
+      "count": 7,
+      "score": 0.0147
+    },
+    {
+      "keyword": "출력량",
       "count": 8,
-      "score": 0.0149
+      "score": 0.0143
+    },
+    {
+      "keyword": "존나",
+      "count": 6,
+      "score": 0.0133
+    },
+    {
+      "keyword": "자꾸",
+      "count": 6,
+      "score": 0.0127
+    },
+    {
+      "keyword": "nai",
+      "count": 4,
+      "score": 0.0123
     },
     {
       "keyword": "ooc",
-      "count": 2,
-      "score": 0.013
+      "count": 3,
+      "score": 0.0111
     },
     {
-      "keyword": "프롬",
-      "count": 6,
-      "score": 0.013
+      "keyword": "있음",
+      "count": 5,
+      "score": 0.0109
     },
     {
-      "keyword": "갑자기",
-      "count": 7,
-      "score": 0.0122
-    },
-    {
-      "keyword": "내가",
+      "keyword": "근데",
       "count": 6,
       "score": 0.0108
     },
     {
-      "keyword": "무슨",
+      "keyword": "많이",
       "count": 5,
-      "score": 0.0108
+      "score": 0.0107
     },
     {
-      "keyword": "먹는데",
+      "keyword": "다들",
       "count": 5,
+      "score": 0.0103
+    },
+    {
+      "keyword": "엘린",
+      "count": 6,
       "score": 0.01
     },
     {
-      "keyword": "뭔가",
+      "keyword": "대이강",
       "count": 5,
-      "score": 0.0099
+      "score": 0.0098
     },
     {
-      "keyword": "판도라",
+      "keyword": "지금",
       "count": 5,
-      "score": 0.0094
+      "score": 0.0096
     },
     {
-      "keyword": "너무",
+      "keyword": "나만",
+      "count": 5,
+      "score": 0.0093
+    },
+    {
+      "keyword": "누가",
       "count": 4,
       "score": 0.0092
     },
     {
-      "keyword": "데려가",
+      "keyword": "나이",
       "count": 4,
-      "score": 0.0092
+      "score": 0.009
+    },
+    {
+      "keyword": "요즘",
+      "count": 4,
+      "score": 0.009
+    },
+    {
+      "keyword": "이건",
+      "count": 4,
+      "score": 0.009
+    },
+    {
+      "keyword": "하나",
+      "count": 4,
+      "score": 0.0085
     },
     {
       "keyword": "ai",
       "count": 2,
-      "score": 0.0085
+      "score": 0.0084
     },
     {
-      "keyword": "계속",
+      "keyword": "스챗에",
       "count": 4,
-      "score": 0.0085
+      "score": 0.0084
     },
     {
-      "keyword": "벌써",
+      "keyword": "그림체",
       "count": 4,
-      "score": 0.0085
+      "score": 0.0083
     },
     {
-      "keyword": "이제",
+      "keyword": "윶캐",
       "count": 4,
-      "score": 0.0079
+      "score": 0.0082
     },
     {
-      "keyword": "존나",
+      "keyword": "상태창",
       "count": 4,
-      "score": 0.0079
+      "score": 0.0081
     },
     {
-      "keyword": "쓰는",
+      "keyword": "뭐야",
       "count": 4,
+      "score": 0.0077
+    },
+    {
+      "keyword": "같네",
+      "count": 3,
       "score": 0.0073
-    },
-    {
-      "keyword": "vs",
-      "count": 2,
-      "score": 0.0069
-    },
-    {
-      "keyword": "네페",
-      "count": 3,
-      "score": 0.0069
-    },
-    {
-      "keyword": "다시",
-      "count": 3,
-      "score": 0.0069
-    },
-    {
-      "keyword": "많이",
-      "count": 3,
-      "score": 0.0069
-    },
-    {
-      "keyword": "바니걸",
-      "count": 3,
-      "score": 0.0069
-    },
-    {
-      "keyword": "반납",
-      "count": 3,
-      "score": 0.0069
-    },
-    {
-      "keyword": "한번",
-      "count": 3,
-      "score": 0.0069
-    },
-    {
-      "keyword": "근데",
-      "count": 4,
-      "score": 0.0068
-    },
-    {
-      "keyword": "헌단테",
-      "count": 4,
-      "score": 0.0065
     }
   ],
   "top_characters": [
     {
-      "name": "술탄",
-      "mentions": 3,
+      "name": "블리치",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "블리치",
-      "mentions": 2,
+      "name": "🔰홍보/셒",
+      "mentions": 1,
       "rank": 2
     },
     {
-      "name": "이런 아줌마도 좋다는거니..",
+      "name": "3/4",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "만해(卍解)",
+      "name": "嗡-",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "4/2",
+      "name": "불판",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "게임",
+      "name": "술탄",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "유니챗",
+      "name": "슈바",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "케덕리뷰",
+      "name": "돈키호테",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "깡통",
+      "name": "남캐",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "에셋",
+      "name": "시뮬",
       "mentions": 1,
       "rank": 10
-    },
-    {
-      "name": "사펑",
-      "mentions": 1,
-      "rank": 11
-    },
-    {
-      "name": "남캐",
-      "mentions": 1,
-      "rank": 12
-    },
-    {
-      "name": "동방",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "돈키",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "혁도",
-      "mentions": 1,
-      "rank": 15
-    },
-    {
-      "name": "홍보/셒",
-      "mentions": 1,
-      "rank": 16
-    },
-    {
-      "name": "사실 유저는 캐가 아는 사람",
-      "mentions": 1,
-      "rank": 17
-    },
-    {
-      "name": "럽코히오스",
-      "mentions": 1,
-      "rank": 18
     }
   ],
-  "trending_topics": []
+  "trending_topics": [
+    {
+      "topic": "누가",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "나이",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "출력량",
+      "current": 8,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "하나",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "윶캐",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "있음",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "그림체",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "같네",
+      "current": 3,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "레퍼",
+      "current": 7,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "이건",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "스챗에",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "나만",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    }
+  ]
 }
