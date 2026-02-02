@@ -1,5 +1,594 @@
 [
   {
+    "id": 11,
+    "report_date": "2026-02-02T09:14:24.025373",
+    "total_posts": 437,
+    "total_views": 24352,
+    "total_recommends": 296,
+    "total_comments": 1419,
+    "top_keywords": [
+      {
+        "keyword": "진짜",
+        "count": 12,
+        "score": 0.0235
+      },
+      {
+        "keyword": "블루",
+        "count": 8,
+        "score": 0.0183
+      },
+      {
+        "keyword": "이거",
+        "count": 9,
+        "score": 0.0175
+      },
+      {
+        "keyword": "에셋",
+        "count": 8,
+        "score": 0.0156
+      },
+      {
+        "keyword": "잼민이",
+        "count": 8,
+        "score": 0.0149
+      },
+      {
+        "keyword": "ooc",
+        "count": 2,
+        "score": 0.013
+      },
+      {
+        "keyword": "프롬",
+        "count": 6,
+        "score": 0.013
+      },
+      {
+        "keyword": "갑자기",
+        "count": 7,
+        "score": 0.0122
+      },
+      {
+        "keyword": "내가",
+        "count": 6,
+        "score": 0.0108
+      },
+      {
+        "keyword": "무슨",
+        "count": 5,
+        "score": 0.0108
+      },
+      {
+        "keyword": "먹는데",
+        "count": 5,
+        "score": 0.01
+      },
+      {
+        "keyword": "뭔가",
+        "count": 5,
+        "score": 0.0099
+      },
+      {
+        "keyword": "판도라",
+        "count": 5,
+        "score": 0.0094
+      },
+      {
+        "keyword": "너무",
+        "count": 4,
+        "score": 0.0092
+      },
+      {
+        "keyword": "데려가",
+        "count": 4,
+        "score": 0.0092
+      },
+      {
+        "keyword": "ai",
+        "count": 2,
+        "score": 0.0085
+      },
+      {
+        "keyword": "계속",
+        "count": 4,
+        "score": 0.0085
+      },
+      {
+        "keyword": "벌써",
+        "count": 4,
+        "score": 0.0085
+      },
+      {
+        "keyword": "이제",
+        "count": 4,
+        "score": 0.0079
+      },
+      {
+        "keyword": "존나",
+        "count": 4,
+        "score": 0.0079
+      },
+      {
+        "keyword": "쓰는",
+        "count": 4,
+        "score": 0.0073
+      },
+      {
+        "keyword": "vs",
+        "count": 2,
+        "score": 0.0069
+      },
+      {
+        "keyword": "네페",
+        "count": 3,
+        "score": 0.0069
+      },
+      {
+        "keyword": "다시",
+        "count": 3,
+        "score": 0.0069
+      },
+      {
+        "keyword": "많이",
+        "count": 3,
+        "score": 0.0069
+      },
+      {
+        "keyword": "바니걸",
+        "count": 3,
+        "score": 0.0069
+      },
+      {
+        "keyword": "반납",
+        "count": 3,
+        "score": 0.0069
+      },
+      {
+        "keyword": "한번",
+        "count": 3,
+        "score": 0.0069
+      },
+      {
+        "keyword": "근데",
+        "count": 4,
+        "score": 0.0068
+      },
+      {
+        "keyword": "헌단테",
+        "count": 4,
+        "score": 0.0065
+      }
+    ],
+    "top_characters": [
+      {
+        "name": "술탄",
+        "mentions": 3,
+        "rank": 1
+      },
+      {
+        "name": "블리치",
+        "mentions": 2,
+        "rank": 2
+      },
+      {
+        "name": "이런 아줌마도 좋다는거니..",
+        "mentions": 1,
+        "rank": 3
+      },
+      {
+        "name": "만해(卍解)",
+        "mentions": 1,
+        "rank": 4
+      },
+      {
+        "name": "4/2",
+        "mentions": 1,
+        "rank": 5
+      },
+      {
+        "name": "게임",
+        "mentions": 1,
+        "rank": 6
+      },
+      {
+        "name": "유니챗",
+        "mentions": 1,
+        "rank": 7
+      },
+      {
+        "name": "케덕리뷰",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "깡통",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "에셋",
+        "mentions": 1,
+        "rank": 10
+      },
+      {
+        "name": "사펑",
+        "mentions": 1,
+        "rank": 11
+      },
+      {
+        "name": "남캐",
+        "mentions": 1,
+        "rank": 12
+      },
+      {
+        "name": "동방",
+        "mentions": 1,
+        "rank": 13
+      },
+      {
+        "name": "돈키",
+        "mentions": 1,
+        "rank": 14
+      },
+      {
+        "name": "혁도",
+        "mentions": 1,
+        "rank": 15
+      },
+      {
+        "name": "홍보/셒",
+        "mentions": 1,
+        "rank": 16
+      },
+      {
+        "name": "사실 유저는 캐가 아는 사람",
+        "mentions": 1,
+        "rank": 17
+      },
+      {
+        "name": "럽코히오스",
+        "mentions": 1,
+        "rank": 18
+      }
+    ],
+    "trending_topics": []
+  },
+  {
+    "id": 10,
+    "report_date": "2026-01-30T08:23:21.272115",
+    "total_posts": 1117,
+    "total_views": 66853,
+    "total_recommends": 696,
+    "total_comments": 4391,
+    "top_keywords": [
+      {
+        "keyword": "진짜",
+        "count": 25,
+        "score": 0.0193
+      },
+      {
+        "keyword": "지금",
+        "count": 20,
+        "score": 0.0153
+      },
+      {
+        "keyword": "근데",
+        "count": 18,
+        "score": 0.014
+      },
+      {
+        "keyword": "너무",
+        "count": 17,
+        "score": 0.0128
+      },
+      {
+        "keyword": "잼민이",
+        "count": 16,
+        "score": 0.0124
+      },
+      {
+        "keyword": "키링",
+        "count": 17,
+        "score": 0.0113
+      },
+      {
+        "keyword": "아니",
+        "count": 14,
+        "score": 0.0111
+      },
+      {
+        "keyword": "ooc",
+        "count": 10,
+        "score": 0.011
+      },
+      {
+        "keyword": "이거",
+        "count": 14,
+        "score": 0.0104
+      },
+      {
+        "keyword": "에리키링",
+        "count": 12,
+        "score": 0.0102
+      },
+      {
+        "keyword": "서버",
+        "count": 12,
+        "score": 0.0097
+      },
+      {
+        "keyword": "에리",
+        "count": 15,
+        "score": 0.0097
+      },
+      {
+        "keyword": "그냥",
+        "count": 12,
+        "score": 0.0088
+      },
+      {
+        "keyword": "갑자기",
+        "count": 11,
+        "score": 0.0087
+      },
+      {
+        "keyword": "판타지",
+        "count": 10,
+        "score": 0.0087
+      },
+      {
+        "keyword": "에셋",
+        "count": 10,
+        "score": 0.0079
+      },
+      {
+        "keyword": "프롬",
+        "count": 10,
+        "score": 0.0078
+      },
+      {
+        "keyword": "있음",
+        "count": 9,
+        "score": 0.0077
+      },
+      {
+        "keyword": "코파",
+        "count": 9,
+        "score": 0.0074
+      },
+      {
+        "keyword": "반납",
+        "count": 8,
+        "score": 0.0072
+      },
+      {
+        "keyword": "뭔가",
+        "count": 9,
+        "score": 0.007
+      },
+      {
+        "keyword": "소악마",
+        "count": 9,
+        "score": 0.007
+      },
+      {
+        "keyword": "ai",
+        "count": 1,
+        "score": 0.0069
+      },
+      {
+        "keyword": "좋다",
+        "count": 9,
+        "score": 0.0069
+      },
+      {
+        "keyword": "에덴",
+        "count": 8,
+        "score": 0.0068
+      },
+      {
+        "keyword": "케덕리뷰",
+        "count": 8,
+        "score": 0.0064
+      },
+      {
+        "keyword": "하나",
+        "count": 8,
+        "score": 0.0062
+      },
+      {
+        "keyword": "존나",
+        "count": 7,
+        "score": 0.0059
+      },
+      {
+        "keyword": "뭐야",
+        "count": 7,
+        "score": 0.0058
+      },
+      {
+        "keyword": "질문",
+        "count": 7,
+        "score": 0.0058
+      }
+    ],
+    "top_characters": [
+      {
+        "name": "케덕리뷰",
+        "mentions": 8,
+        "rank": 1
+      },
+      {
+        "name": "에셋",
+        "mentions": 3,
+        "rank": 2
+      },
+      {
+        "name": "1/4",
+        "mentions": 2,
+        "rank": 3
+      },
+      {
+        "name": "시뮬",
+        "mentions": 2,
+        "rank": 4
+      },
+      {
+        "name": "케이브덕",
+        "mentions": 2,
+        "rank": 5
+      },
+      {
+        "name": "홍보/언셒",
+        "mentions": 1,
+        "rank": 6
+      },
+      {
+        "name": "야 찐따 또 공부해?",
+        "mentions": 1,
+        "rank": 7
+      },
+      {
+        "name": "외국어",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "응, 내꺼.",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "유저가 먼저 밥 먹자고 했다.",
+        "mentions": 1,
+        "rank": 10
+      },
+      {
+        "name": "블아",
+        "mentions": 1,
+        "rank": 11
+      },
+      {
+        "name": "김종원",
+        "mentions": 1,
+        "rank": 12
+      },
+      {
+        "name": "깡통",
+        "mentions": 1,
+        "rank": 13
+      },
+      {
+        "name": "남캐퍼리",
+        "mentions": 1,
+        "rank": 14
+      },
+      {
+        "name": "지니",
+        "mentions": 1,
+        "rank": 15
+      },
+      {
+        "name": "무협",
+        "mentions": 1,
+        "rank": 16
+      },
+      {
+        "name": "언셒/홍보",
+        "mentions": 1,
+        "rank": 17
+      },
+      {
+        "name": "이봐, 마이클! 드디어 은신술을 터득한거야?",
+        "mentions": 1,
+        "rank": 18
+      },
+      {
+        "name": "...어, 어이! 저기 봐! 저 녀석...",
+        "mentions": 1,
+        "rank": 19
+      },
+      {
+        "name": "저기, 키링 파시는 분 혹시... 제작자세요?",
+        "mentions": 1,
+        "rank": 20
+      }
+    ],
+    "trending_topics": [
+      {
+        "topic": "하나",
+        "current": 8,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "키링",
+        "current": 17,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "판타지",
+        "current": 10,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "질문",
+        "current": 7,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "뭐야",
+        "current": 7,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "소악마",
+        "current": 9,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "에덴",
+        "current": 8,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "에리",
+        "current": 15,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "있음",
+        "current": 9,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "코파",
+        "current": 9,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "에리키링",
+        "current": 12,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "케덕리뷰",
+        "current": 8,
+        "previous": 0,
+        "growth": 100.0
+      }
+    ]
+  },
+  {
     "id": 9,
     "report_date": "2026-01-29T08:21:15.176298",
     "total_posts": 1319,
