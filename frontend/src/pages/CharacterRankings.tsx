@@ -234,7 +234,7 @@ function CharacterCard({
   directLink: boolean
 }) {
   const cardContent = (
-    <div className="character-card-content">
+    <div className="character-card-content h-full">
       {/* 순위 */}
       <div className="flex-shrink-0">
         <span className="character-rank-badge">
@@ -243,35 +243,34 @@ function CharacterCard({
       </div>
 
       {/* 컨텐츠 */}
-      <div className="character-info">
-        {/* 이름 - 최대 2줄 */}
-        <h3 className="character-name" title={character.name}>
-          {character.name}
-        </h3>
+      <div className="character-info flex flex-col h-full">
+        <div className="flex-1 min-h-0">
+          {/* 이름 - 최대 2줄 */}
+          <h3 className="character-name text-sm font-medium leading-snug line-clamp-2 mb-1" title={character.name}>
+            {character.name}
+          </h3>
 
-        {/* 조회수 */}
-        {character.views > 0 && (
-          <p className="character-views">{formatViews(character.views)} 조회</p>
-        )}
+          {/* 조회수 */}
+          {character.views > 0 && (
+            <p className="character-views text-xs text-gray-500 dark:text-gray-400 mb-2">{formatViews(character.views)} 조회</p>
+          )}
+        </div>
 
-        {/* 해시태그 - 최대 3개 */}
-        {character.tags && Array.isArray(character.tags) && character.tags.length > 0 && (
-          <div className="character-tags">
-            {character.tags.slice(0, 3).map((tag, idx) => (
-              <span
-                key={idx}
-                className="character-tag"
-              >
-                #{tag}
-              </span>
-            ))}
-            {character.tags.length > 3 && (
-              <span className="character-tag-more">
-                +{character.tags.length - 3}
-              </span>
-            )}
-          </div>
-        )}
+        {/* 해시태그 - 가로 스크롤 */}
+        <div className="h-6 flex items-end overflow-hidden">
+          {character.tags && Array.isArray(character.tags) && character.tags.length > 0 && (
+            <div className="character-tags flex flex-nowrap gap-1 overflow-x-auto scrollbar-hide w-full mask-linear-fade">
+              {character.tags.map((tag, idx) => (
+                <span
+                  key={idx}
+                  className="character-tag text-[10px] px-1.5 py-0.5 whitespace-nowrap bg-gray-100 dark:bg-gray-800 rounded text-gray-600 dark:text-gray-300 flex-shrink-0"
+                >
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
@@ -283,7 +282,7 @@ function CharacterCard({
         href={character.character_url || '#'}
         target="_blank"
         rel="noopener noreferrer"
-        className="character-card"
+        className="character-card h-[134px] flex flex-col"
         data-component="character-card"
         data-character-id={character.id}
       >
@@ -295,7 +294,7 @@ function CharacterCard({
   // 직접 링크가 없는 경우 (BabeChat, Crack) - <div> 태그로 동일한 스타일 적용
   return (
     <div
-      className="character-card"
+      className="character-card h-[134px] flex flex-col"
       data-component="character-card"
       data-character-id={character.id}
     >

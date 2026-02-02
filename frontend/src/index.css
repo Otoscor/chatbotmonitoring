@@ -801,6 +801,25 @@ body {
   justify-content: space-between;
 }
 
+/* 스크롤바 숨김 유틸리티 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+/* 좌우 페이드 마스크 효과 */
+.mask-linear-fade {
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+}
+
 .hamburger-button {
   display: flex;
   align-items: center;
@@ -974,18 +993,7 @@ body {
     stroke: white !important;
   }
 
-  /* 스크롤바 숨김 유틸리티 */
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-  }
 
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-    /* Chrome, Safari, Opera */
-  }
 }
 
 /* 태블릿 브레이크포인트 (769px - 1024px) */

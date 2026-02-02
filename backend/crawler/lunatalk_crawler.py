@@ -189,8 +189,107 @@ class LunaTalkCrawler:
                 logger.error(f"루나톡 캐릭터 파싱 오류 (카드 {idx}): {e}")
                 continue
         
+        # 초기 수집된 캐릭터 수
+        initial_count = len(characters)
+        
+        # 추가 데이터 수집이 필요한 경우 (limit > initial_count)
+        if limit > initial_count:
+            needed = limit - initial_count
+            logger.info(f"추가 데이터 수집 필요: {needed}개 (현재 {initial_count}개)")
+            
+            # API 호출을 위한 루프
+            current_offset = initial_count
+            
+            while len(characters) < limit:
+                # 한 번에 요청할 개수 (최대 20개 등 적절히 조절)
+                batch_size = min(20, limit - len(characters))
+                
+                # API 파라미터 준비
+                api_url = f"{self.BASE_URL}/character/api"
+                # period 값을 API에 맞게 변환 (daily -> daily 등, 필요시 매핑 추가)
+                # 여기서는 period 그대로 사용
+                
+                payload = {
+                    "action": "rank_list",
+                    "offset": str(current_offset),
+                    "limit": str(batch_size),
+                    "period": period,
+                    "v": "1" # 일부 사이트는 버전 파라미터 필요할 수 있음
+                }
+                
+                logger.info(f"API 요청: offset={current_offset}, limit={batch_size}")
+                
+                try:
+                    async with httpx.AsyncClient(headers={"User-Agent": self.ua.random}) as client:
+                        response = await client.post(api_url, data=payload)
+                        response.raise_for_status()
+                        data = response.json()
+                        
+                    if not data.get("success"):
+                        logger.warning("API 요청 실패")
+                        break
+                        
+                    new_characters = data.get("characters", [])
+                    if not new_characters:
+                        logger.info("더 이상 데이터가 없습니다.")
+                        break
+                        
+                    logger.info(f"API 응답에서 {len(new_characters)}개 추가 발견")
+                    
+                    for idx, item in enumerate(new_characters, start=len(characters) + 1):
+                        try:
+                            char_id = str(item.get("idx"))
+                            name = item.get("char_name")
+                            description = item.get("char_summary")
+                            
+                            # 태그 처리 (콤마로 구분된 문자열)
+                            tags_str = item.get("char_tags", "")
+                            tags = [t.strip() for t in tags_str.split(',')] if tags_str else []
+                            
+                            # 조회수 (chat_count 사용)
+                            views = int(item.get("chat_count", 0))
+                            
+                            # 작성자
+                            author = item.get("mb_nick")
+                            
+                            # 썸네일 URL
+                            img_path = item.get("img_main")
+                            thumbnail_url = None
+                            if img_path:
+                                thumbnail_url = f"{self.BASE_URL}{img_path}" if img_path.startswith('/') else img_path
+                            
+                            character_url = f"{self.BASE_URL}/character/detail/{char_id}"
+                            
+                            characters.append(CharacterData(
+                                character_id=char_id,
+                                rank=idx,
+                                name=name,
+                                author=author,
+                                views=views,
+                                tags=tags,
+                                description=description,
+                                thumbnail_url=thumbnail_url,
+                                character_url=character_url
+                            ))
+                            
+                            logger.debug(f"#{idx} {name} - {views:,}회 (추가)")
+                            
+                        except Exception as e:
+                            logger.error(f"추가 데이터 파싱 중 오류: {e}")
+                            continue
+                            
+                    current_offset += len(new_characters)
+                    
+                    # 원하는 수량에 도달했으면 종료
+                    if len(characters) >= limit:
+                        break
+                        
+                except Exception as e:
+                    logger.error(f"API 요청 중 오류: {e}")
+                    break
+        
         logger.info(f"루나톡 크롤링 완료: {len(characters)}개 수집")
-        return characters
+        return characters[:limit]
 
 
 # 테스트용 코드

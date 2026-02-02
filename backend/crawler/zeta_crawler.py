@@ -93,105 +93,75 @@ class ZetaCrawler:
         return url
     
     async def crawl_rankings(self, limit: int = 30) -> List[CharacterData]:
-        """인기 캐릭터 순위 크롤링"""
+        """인기 캐릭터 순위 크롤링 (API 사용)"""
         logger.info(f"제타 크롤링 시작 (상위 {limit}개)")
         
-        html = await self._fetch_html(self.RANKING_URL)
-        if not html:
-            logger.error("HTML을 가져오지 못했습니다.")
-            return []
+        # API 엔드포인트 및 파라미터
+        api_url = "https://api.zeta-ai.io/v1/plots/ranking"
+        params = {
+            "limit": limit,
+            "genres": "ALL",
+            "type": "TRENDING",
+            "filterType": "GENRE",
+            "filterValues": "all"
+        }
         
-        soup = BeautifulSoup(html, "html.parser")
-        characters = []
+        headers = {
+            "User-Agent": self.ua.random,
+            "Accept": "application/json",
+            "Referer": "https://zeta-ai.io/"
+        }
         
-        # /ko/plots/{UUID}/profile 형식의 링크 찾기
-        plot_links = soup.find_all('a', href=re.compile(r'/ko/plots/[^/]+/profile'))
-        logger.info(f"발견된 캐릭터 링크: {len(plot_links)}개")
-        
-        # 중복 제거를 위해 이미 처리한 캐릭터 ID 추적
-        seen_ids = set()
-        rank = 1
-        
-        for link in plot_links:
-            if rank > limit:
-                break
+        try:
+            async with httpx.AsyncClient(timeout=30.0) as client:
+                response = await client.get(api_url, params=params, headers=headers)
+                response.raise_for_status()
+            data = response.json()
+                
+            rankings = data.get("rankings", [])
+            logger.info(f"API 응답에서 {len(rankings)}개 캐릭터 발견")
             
-            href = link.get('href', '')
-            char_id = self._extract_character_id(href)
-            
-            # 중복 체크
-            if char_id in seen_ids:
-                continue
-            
-            try:
-                text = link.get_text(strip=True)
+            characters = []
+            for idx, item in enumerate(rankings, 1):
+                if idx > limit:
+                    break
                 
-                # 조회수 링크인지 확인 (숫자만 있는 텍스트)
-                if not re.match(r'^[\d,\.]+[만천]?$', text):
-                    continue
+                character_id = item.get("id")
+                name = item.get("name")
+                description = item.get("shortDescription")
+                view_count = item.get("interactionCount", 0)
+                thumbnail_url = item.get("imageUrl")
                 
-                views = self._parse_views(text)
+                # 작성자 정보
+                creator = item.get("creator", {})
+                author = creator.get("nickname")
                 
-                # 같은 href를 가진 다른 링크에서 이름 링크 찾기
-                all_same_href = soup.find_all('a', href=href)
-                name_link = None
-                for l in all_same_href:
-                    l_text = l.get_text(strip=True)
-                    if l_text != text:  # 조회수가 아닌 링크
-                        name_link = l
-                        break
+                # 태그 처리
+                tags = item.get("hashtags", [])
                 
-                if not name_link:
-                    continue
-                
-                # 이름 링크에서 span 요소들 추출
-                spans = name_link.find_all('span')
-                if len(spans) < 2:
-                    continue
-                
-                name = spans[0].get_text(strip=True)
-                description = spans[1].get_text(strip=True) if len(spans) > 1 else None
-                
-                if not name:
-                    continue
-                
-                # 태그 추출 (부모에서 찾기)
-                tags = None
-                parent = name_link.parent
-                if parent:
-                    # 부모 내의 모든 div를 검색하여 '#'로 시작하는 텍스트 찾기
-                    all_divs = parent.find_all('div')
-                    for div in all_divs:
-                        div_text = div.get_text(strip=True)
-                        if div_text and div_text.startswith('#'):
-                            # '#'로 구분하여 태그 리스트 생성
-                            tags = [t.strip() for t in div_text.split('#') if t.strip()]
-                            break
-                
-                character_url = f"{self.BASE_URL}{href}"
+                # 캐릭터 URL 구성
+                character_url = f"{self.BASE_URL}/ko/plots/{character_id}/profile"
                 
                 characters.append(CharacterData(
-                    character_id=char_id,
-                    rank=rank,
+                    character_id=character_id,
+                    rank=idx,
                     name=name,
-                    author=None,
-                    views=views,
+                    author=author,
+                    views=view_count,
                     tags=tags,
                     description=description,
-                    thumbnail_url=None,
+                    thumbnail_url=thumbnail_url,
                     character_url=character_url
                 ))
                 
-                seen_ids.add(char_id)
-                rank += 1
-                logger.debug(f"#{rank-1} {name} - {views:,}회")
+                logger.debug(f"#{idx} {name} - {view_count:,}회")
+                
+            logger.info(f"제타 크롤링 완료: {len(characters)}개 수집")
+            return characters
             
-            except Exception as e:
-                logger.warning(f"캐릭터 파싱 중 오류: {e}")
-                continue
-        
-        logger.info(f"제타 크롤링 완료: {len(characters)}개 수집")
-        return characters
+        except Exception as e:
+            logger.error(f"제타 API 크롤링 중 오류: {e}")
+            return []
 
 
 # 테스트용 코드
