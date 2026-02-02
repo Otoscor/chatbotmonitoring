@@ -1,102 +1,102 @@
 [
   {
     "keyword": "만들",
-    "total_count": 35,
+    "total_count": 33,
     "rank": 1
   },
   {
-    "keyword": "케덕",
-    "total_count": 33,
+    "keyword": "리뷰",
+    "total_count": 29,
     "rank": 2
   },
   {
-    "keyword": "리뷰",
-    "total_count": 32,
+    "keyword": "프롬",
+    "total_count": 29,
     "rank": 3
   },
   {
-    "keyword": "단테",
-    "total_count": 30,
+    "keyword": "케덕",
+    "total_count": 28,
     "rank": 4
   },
   {
-    "keyword": "프롬",
-    "total_count": 30,
+    "keyword": "단테",
+    "total_count": 27,
     "rank": 5
   },
   {
-    "keyword": "오늘",
-    "total_count": 25,
+    "keyword": "요즘",
+    "total_count": 23,
     "rank": 6
   },
   {
     "keyword": "생각",
-    "total_count": 24,
+    "total_count": 22,
     "rank": 7
   },
   {
-    "keyword": "요즘",
-    "total_count": 24,
+    "keyword": "오늘",
+    "total_count": 21,
     "rank": 8
   },
   {
-    "keyword": "맛있",
-    "total_count": 20,
-    "rank": 9
-  },
-  {
     "keyword": "그림",
-    "total_count": 19,
-    "rank": 10
-  },
-  {
-    "keyword": "아침",
-    "total_count": 19,
-    "rank": 11
-  },
-  {
-    "keyword": "사람",
     "total_count": 18,
-    "rank": 12
+    "rank": 9
   },
   {
     "keyword": "구글",
     "total_count": 17,
-    "rank": 13
+    "rank": 10
+  },
+  {
+    "keyword": "맛있",
+    "total_count": 17,
+    "rank": 11
   },
   {
     "keyword": "나오",
-    "total_count": 17,
-    "rank": 14
-  },
-  {
-    "keyword": "반납",
-    "total_count": 17,
-    "rank": 15
-  },
-  {
-    "keyword": "시간",
-    "total_count": 17,
-    "rank": 16
-  },
-  {
-    "keyword": "유저",
-    "total_count": 17,
-    "rank": 17
-  },
-  {
-    "keyword": "정실",
-    "total_count": 17,
-    "rank": 18
+    "total_count": 16,
+    "rank": 12
   },
   {
     "keyword": "ai",
-    "total_count": 16,
-    "rank": 19
+    "total_count": 15,
+    "rank": 13
   },
   {
     "keyword": "뤼갤",
-    "total_count": 16,
+    "total_count": 15,
+    "rank": 14
+  },
+  {
+    "keyword": "사람",
+    "total_count": 15,
+    "rank": 15
+  },
+  {
+    "keyword": "유저",
+    "total_count": 15,
+    "rank": 16
+  },
+  {
+    "keyword": "ooc",
+    "total_count": 14,
+    "rank": 17
+  },
+  {
+    "keyword": "반납",
+    "total_count": 14,
+    "rank": 18
+  },
+  {
+    "keyword": "시간",
+    "total_count": 14,
+    "rank": 19
+  },
+  {
+    "keyword": "아침",
+    "total_count": 14,
     "rank": 20
   }
 ]
