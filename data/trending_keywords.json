@@ -1,7 +1,7 @@
 [
   {
     "keyword": "만들",
-    "total_count": 37,
+    "total_count": 35,
     "rank": 1
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "keyword": "단테",
-    "total_count": 31,
+    "total_count": 30,
     "rank": 4
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "keyword": "오늘",
-    "total_count": 26,
+    "total_count": 25,
     "rank": 6
   },
   {
     "keyword": "생각",
-    "total_count": 25,
+    "total_count": 24,
     "rank": 7
   },
   {
@@ -40,63 +40,63 @@
     "rank": 8
   },
   {
-    "keyword": "그림",
-    "total_count": 21,
+    "keyword": "맛있",
+    "total_count": 20,
     "rank": 9
   },
   {
-    "keyword": "맛있",
-    "total_count": 21,
-    "rank": 10
-  },
-  {
-    "keyword": "사람",
-    "total_count": 20,
-    "rank": 11
-  },
-  {
-    "keyword": "유저",
-    "total_count": 20,
-    "rank": 12
-  },
-  {
-    "keyword": "상태",
+    "keyword": "그림",
     "total_count": 19,
-    "rank": 13
+    "rank": 10
   },
   {
     "keyword": "아침",
     "total_count": 19,
-    "rank": 14
+    "rank": 11
   },
   {
-    "keyword": "정실",
-    "total_count": 19,
-    "rank": 15
-  },
-  {
-    "keyword": "시간",
+    "keyword": "사람",
     "total_count": 18,
-    "rank": 16
+    "rank": 12
   },
   {
     "keyword": "구글",
     "total_count": 17,
-    "rank": 17
+    "rank": 13
   },
   {
     "keyword": "나오",
     "total_count": 17,
-    "rank": 18
+    "rank": 14
   },
   {
     "keyword": "반납",
     "total_count": 17,
+    "rank": 15
+  },
+  {
+    "keyword": "시간",
+    "total_count": 17,
+    "rank": 16
+  },
+  {
+    "keyword": "유저",
+    "total_count": 17,
+    "rank": 17
+  },
+  {
+    "keyword": "정실",
+    "total_count": 17,
+    "rank": 18
+  },
+  {
+    "keyword": "ai",
+    "total_count": 16,
     "rank": 19
   },
   {
-    "keyword": "이상",
-    "total_count": 17,
+    "keyword": "뤼갤",
+    "total_count": 16,
     "rank": 20
   }
 ]
