@@ -1,102 +1,102 @@
 [
   {
     "keyword": "만들",
-    "total_count": 69,
+    "total_count": 37,
     "rank": 1
   },
   {
-    "keyword": "프롬",
-    "total_count": 69,
+    "keyword": "케덕",
+    "total_count": 33,
     "rank": 2
   },
   {
-    "keyword": "단테",
-    "total_count": 60,
+    "keyword": "리뷰",
+    "total_count": 32,
     "rank": 3
   },
   {
-    "keyword": "오늘",
-    "total_count": 52,
+    "keyword": "단테",
+    "total_count": 31,
     "rank": 4
   },
   {
-    "keyword": "리뷰",
-    "total_count": 48,
+    "keyword": "프롬",
+    "total_count": 30,
     "rank": 5
   },
   {
-    "keyword": "요즘",
-    "total_count": 47,
+    "keyword": "오늘",
+    "total_count": 26,
     "rank": 6
   },
   {
-    "keyword": "케덕",
-    "total_count": 47,
+    "keyword": "생각",
+    "total_count": 25,
     "rank": 7
   },
   {
-    "keyword": "상태",
-    "total_count": 45,
+    "keyword": "요즘",
+    "total_count": 24,
     "rank": 8
   },
   {
-    "keyword": "에덴",
-    "total_count": 42,
+    "keyword": "그림",
+    "total_count": 21,
     "rank": 9
   },
   {
-    "keyword": "생각",
-    "total_count": 41,
+    "keyword": "맛있",
+    "total_count": 21,
     "rank": 10
   },
   {
     "keyword": "사람",
-    "total_count": 40,
+    "total_count": 20,
     "rank": 11
   },
   {
-    "keyword": "맛있",
-    "total_count": 39,
+    "keyword": "유저",
+    "total_count": 20,
     "rank": 12
   },
   {
-    "keyword": "반납",
-    "total_count": 38,
+    "keyword": "상태",
+    "total_count": 19,
     "rank": 13
   },
   {
-    "keyword": "ai",
-    "total_count": 37,
+    "keyword": "아침",
+    "total_count": 19,
     "rank": 14
   },
   {
-    "keyword": "유저",
-    "total_count": 34,
+    "keyword": "정실",
+    "total_count": 19,
     "rank": 15
   },
   {
-    "keyword": "제작",
-    "total_count": 34,
+    "keyword": "시간",
+    "total_count": 18,
     "rank": 16
   },
   {
-    "keyword": "그림",
-    "total_count": 32,
+    "keyword": "구글",
+    "total_count": 17,
     "rank": 17
   },
   {
-    "keyword": "이상",
-    "total_count": 29,
+    "keyword": "나오",
+    "total_count": 17,
     "rank": 18
   },
   {
-    "keyword": "ooc",
-    "total_count": 28,
+    "keyword": "반납",
+    "total_count": 17,
     "rank": 19
   },
   {
-    "keyword": "나오",
-    "total_count": 28,
+    "keyword": "이상",
+    "total_count": 17,
     "rank": 20
   }
 ]

@@ -1,32 +1,77 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 131,
-    "average_rating": 3.519083969465649,
+    "total_reviews": 364,
+    "average_rating": 3.239010989010989,
     "rating_distribution": {
-      "1": 20,
-      "2": 11,
-      "3": 25,
-      "4": 31,
-      "5": 44
+      "1": 83,
+      "2": 34,
+      "3": 63,
+      "4": 81,
+      "5": 103
     },
     "platform_distribution": {
-      "google_play": 131
+      "google_play": 364
+    }
+  },
+  {
+    "app_name": "러비더비 (LoveyDovey)",
+    "total_reviews": 105,
+    "average_rating": 2.5904761904761906,
+    "rating_distribution": {
+      "1": 40,
+      "2": 15,
+      "3": 20,
+      "4": 8,
+      "5": 22
+    },
+    "platform_distribution": {
+      "google_play": 105
+    }
+  },
+  {
+    "app_name": "베이브챗 (Babechat)",
+    "total_reviews": 104,
+    "average_rating": 2.1153846153846154,
+    "rating_distribution": {
+      "1": 60,
+      "2": 7,
+      "3": 14,
+      "4": 11,
+      "5": 12
+    },
+    "platform_distribution": {
+      "google_play": 104
     }
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 101,
-    "average_rating": 3.6831683168316833,
+    "total_reviews": 104,
+    "average_rating": 3.6634615384615383,
     "rating_distribution": {
-      "1": 15,
+      "1": 16,
       "2": 6,
-      "3": 17,
+      "3": 18,
       "4": 21,
-      "5": 42
+      "5": 43
     },
     "platform_distribution": {
-      "google_play": 101
+      "google_play": 104
+    }
+  },
+  {
+    "app_name": "케이브덕 (Caveduck)",
+    "total_reviews": 102,
+    "average_rating": 3.4215686274509802,
+    "rating_distribution": {
+      "1": 25,
+      "2": 9,
+      "3": 10,
+      "4": 14,
+      "5": 44
+    },
+    "platform_distribution": {
+      "google_play": 102
     }
   },
   {
@@ -39,51 +84,6 @@
       "3": 13,
       "4": 17,
       "5": 33
-    },
-    "platform_distribution": {
-      "google_play": 100
-    }
-  },
-  {
-    "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 100,
-    "average_rating": 2.54,
-    "rating_distribution": {
-      "1": 39,
-      "2": 15,
-      "3": 19,
-      "4": 7,
-      "5": 20
-    },
-    "platform_distribution": {
-      "google_play": 100
-    }
-  },
-  {
-    "app_name": "베이브챗 (Babechat)",
-    "total_reviews": 100,
-    "average_rating": 2.15,
-    "rating_distribution": {
-      "1": 57,
-      "2": 6,
-      "3": 14,
-      "4": 11,
-      "5": 12
-    },
-    "platform_distribution": {
-      "google_play": 100
-    }
-  },
-  {
-    "app_name": "케이브덕 (Caveduck)",
-    "total_reviews": 100,
-    "average_rating": 3.45,
-    "rating_distribution": {
-      "1": 24,
-      "2": 9,
-      "3": 9,
-      "4": 14,
-      "5": 44
     },
     "platform_distribution": {
       "google_play": 100

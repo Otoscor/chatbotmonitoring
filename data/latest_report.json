@@ -1,384 +1,253 @@
 {
-  "id": 9,
-  "report_date": "2026-01-29T08:21:15.176298",
-  "total_posts": 1319,
-  "total_views": 66925,
-  "total_recommends": 930,
-  "total_comments": 4994,
+  "id": 11,
+  "report_date": "2026-02-02T09:14:24.025373",
+  "total_posts": 437,
+  "total_views": 24352,
+  "total_recommends": 296,
+  "total_comments": 1419,
   "top_keywords": [
     {
-      "keyword": "프롬",
-      "count": 32,
-      "score": 0.0186
+      "keyword": "진짜",
+      "count": 12,
+      "score": 0.0235
     },
     {
-      "keyword": "나오",
-      "count": 26,
+      "keyword": "블루",
+      "count": 8,
+      "score": 0.0183
+    },
+    {
+      "keyword": "이거",
+      "count": 9,
       "score": 0.0175
     },
     {
-      "keyword": "만들",
-      "count": 26,
-      "score": 0.0173
+      "keyword": "에셋",
+      "count": 8,
+      "score": 0.0156
     },
     {
-      "keyword": "단테",
-      "count": 23,
-      "score": 0.0148
-    },
-    {
-      "keyword": "ai",
-      "count": 6,
-      "score": 0.014
-    },
-    {
-      "keyword": "요즘",
-      "count": 19,
-      "score": 0.0135
-    },
-    {
-      "keyword": "pc",
-      "count": 11,
-      "score": 0.0111
-    },
-    {
-      "keyword": "뤼갤",
-      "count": 15,
-      "score": 0.0109
-    },
-    {
-      "keyword": "크랙",
-      "count": 15,
-      "score": 0.0102
-    },
-    {
-      "keyword": "앵챗",
-      "count": 15,
-      "score": 0.01
-    },
-    {
-      "keyword": "제작",
-      "count": 15,
-      "score": 0.0097
-    },
-    {
-      "keyword": "사람",
-      "count": 15,
-      "score": 0.0095
-    },
-    {
-      "keyword": "그림",
-      "count": 14,
-      "score": 0.0094
-    },
-    {
-      "keyword": "맛있",
-      "count": 13,
-      "score": 0.0094
-    },
-    {
-      "keyword": "미치",
-      "count": 14,
-      "score": 0.0092
-    },
-    {
-      "keyword": "웃기",
-      "count": 14,
-      "score": 0.0092
-    },
-    {
-      "keyword": "유저",
-      "count": 16,
-      "score": 0.0092
-    },
-    {
-      "keyword": "재밌",
-      "count": 15,
-      "score": 0.0092
+      "keyword": "잼민이",
+      "count": 8,
+      "score": 0.0149
     },
     {
       "keyword": "ooc",
-      "count": 10,
-      "score": 0.0089
+      "count": 2,
+      "score": 0.013
+    },
+    {
+      "keyword": "프롬",
+      "count": 6,
+      "score": 0.013
+    },
+    {
+      "keyword": "갑자기",
+      "count": 7,
+      "score": 0.0122
+    },
+    {
+      "keyword": "내가",
+      "count": 6,
+      "score": 0.0108
+    },
+    {
+      "keyword": "무슨",
+      "count": 5,
+      "score": 0.0108
+    },
+    {
+      "keyword": "먹는데",
+      "count": 5,
+      "score": 0.01
+    },
+    {
+      "keyword": "뭔가",
+      "count": 5,
+      "score": 0.0099
+    },
+    {
+      "keyword": "판도라",
+      "count": 5,
+      "score": 0.0094
+    },
+    {
+      "keyword": "너무",
+      "count": 4,
+      "score": 0.0092
+    },
+    {
+      "keyword": "데려가",
+      "count": 4,
+      "score": 0.0092
+    },
+    {
+      "keyword": "ai",
+      "count": 2,
+      "score": 0.0085
+    },
+    {
+      "keyword": "계속",
+      "count": 4,
+      "score": 0.0085
+    },
+    {
+      "keyword": "벌써",
+      "count": 4,
+      "score": 0.0085
+    },
+    {
+      "keyword": "이제",
+      "count": 4,
+      "score": 0.0079
+    },
+    {
+      "keyword": "존나",
+      "count": 4,
+      "score": 0.0079
+    },
+    {
+      "keyword": "쓰는",
+      "count": 4,
+      "score": 0.0073
+    },
+    {
+      "keyword": "vs",
+      "count": 2,
+      "score": 0.0069
+    },
+    {
+      "keyword": "네페",
+      "count": 3,
+      "score": 0.0069
+    },
+    {
+      "keyword": "다시",
+      "count": 3,
+      "score": 0.0069
+    },
+    {
+      "keyword": "많이",
+      "count": 3,
+      "score": 0.0069
+    },
+    {
+      "keyword": "바니걸",
+      "count": 3,
+      "score": 0.0069
     },
     {
       "keyword": "반납",
-      "count": 13,
-      "score": 0.0088
+      "count": 3,
+      "score": 0.0069
     },
     {
-      "keyword": "수정",
-      "count": 13,
-      "score": 0.0087
+      "keyword": "한번",
+      "count": 3,
+      "score": 0.0069
     },
     {
-      "keyword": "돌리",
-      "count": 15,
-      "score": 0.0084
+      "keyword": "근데",
+      "count": 4,
+      "score": 0.0068
     },
     {
-      "keyword": "리뷰",
-      "count": 15,
-      "score": 0.0084
-    },
-    {
-      "keyword": "모르",
-      "count": 14,
-      "score": 0.0082
-    },
-    {
-      "keyword": "오류",
-      "count": 12,
-      "score": 0.0073
-    },
-    {
-      "keyword": "좋아하",
-      "count": 11,
-      "score": 0.0073
-    },
-    {
-      "keyword": "케덕",
-      "count": 13,
-      "score": 0.0072
-    },
-    {
-      "keyword": "돚거",
-      "count": 11,
-      "score": 0.0067
-    },
-    {
-      "keyword": "상태",
-      "count": 11,
-      "score": 0.0067
-    },
-    {
-      "keyword": "출력",
-      "count": 10,
-      "score": 0.0066
+      "keyword": "헌단테",
+      "count": 4,
+      "score": 0.0065
     }
   ],
   "top_characters": [
     {
-      "name": "비공",
-      "mentions": 10,
+      "name": "술탄",
+      "mentions": 3,
       "rank": 1
     },
     {
-      "name": "케덕리뷰",
-      "mentions": 8,
+      "name": "블리치",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "에셋",
-      "mentions": 2,
+      "name": "이런 아줌마도 좋다는거니..",
+      "mentions": 1,
       "rank": 3
     },
     {
-      "name": "이런 흔갤에 먹을게 뭐가 있다고...",
+      "name": "만해(卍解)",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "로리",
+      "name": "4/2",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "시물",
+      "name": "게임",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "남캐퍼리",
+      "name": "유니챗",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "동방",
+      "name": "케덕리뷰",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "라르&딜런",
+      "name": "깡통",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "3/4",
+      "name": "에셋",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "보추 아카데미",
+      "name": "사펑",
       "mentions": 1,
       "rank": 11
     },
     {
-      "name": "닛타 미나미의 남동생",
+      "name": "남캐",
       "mentions": 1,
       "rank": 12
     },
     {
-      "name": "하지만... 자O가 달려있다니...♡",
+      "name": "동방",
       "mentions": 1,
       "rank": 13
     },
     {
-      "name": "동방의 수호자들",
+      "name": "돈키",
       "mentions": 1,
       "rank": 14
     },
     {
-      "name": "제작",
+      "name": "혁도",
       "mentions": 1,
       "rank": 15
     },
     {
-      "name": "크랙의 후피집이 보고싶다.",
+      "name": "홍보/셒",
       "mentions": 1,
       "rank": 16
     },
     {
-      "name": "언셒/홍보",
+      "name": "사실 유저는 캐가 아는 사람",
       "mentions": 1,
       "rank": 17
     },
     {
-      "name": "홍보/셒",
+      "name": "럽코히오스",
       "mentions": 1,
       "rank": 18
-    },
-    {
-      "name": "엘린",
-      "mentions": 1,
-      "rank": 19
-    },
-    {
-      "name": "AGI",
-      "mentions": 1,
-      "rank": 20
     }
   ],
-  "trending_topics": [
-    {
-      "topic": "프롬",
-      "current": 32,
-      "previous": 8,
-      "growth": 300.0
-    },
-    {
-      "topic": "나오",
-      "current": 26,
-      "previous": 8,
-      "growth": 225.0
-    },
-    {
-      "topic": "단테",
-      "current": 23,
-      "previous": 8,
-      "growth": 187.5
-    },
-    {
-      "topic": "유저",
-      "current": 16,
-      "previous": 6,
-      "growth": 166.7
-    },
-    {
-      "topic": "반납",
-      "current": 13,
-      "previous": 5,
-      "growth": 160.0
-    },
-    {
-      "topic": "ooc",
-      "current": 10,
-      "previous": 4,
-      "growth": 150.0
-    },
-    {
-      "topic": "사람",
-      "current": 15,
-      "previous": 6,
-      "growth": 150.0
-    },
-    {
-      "topic": "요즘",
-      "current": 19,
-      "previous": 8,
-      "growth": 137.5
-    },
-    {
-      "topic": "돌리",
-      "current": 15,
-      "previous": 7,
-      "growth": 114.3
-    },
-    {
-      "topic": "뤼갤",
-      "current": 15,
-      "previous": 7,
-      "growth": 114.3
-    },
-    {
-      "topic": "웃기",
-      "current": 14,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "수정",
-      "current": 13,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "그림",
-      "current": 14,
-      "previous": 7,
-      "growth": 100.0
-    },
-    {
-      "topic": "모르",
-      "current": 14,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "앵챗",
-      "current": 15,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "좋아하",
-      "current": 11,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "크랙",
-      "current": 15,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "ai",
-      "current": 6,
-      "previous": 3,
-      "growth": 100.0
-    },
-    {
-      "topic": "돚거",
-      "current": 11,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "출력",
-      "current": 10,
-      "previous": 0,
-      "growth": 100.0
-    }
-  ]
+  "trending_topics": []
 }
