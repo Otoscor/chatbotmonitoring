@@ -18,9 +18,10 @@ export default function Bookmarks() {
     const [urlInput, setUrlInput] = useState('')
     const [addingBookmark, setAddingBookmark] = useState(false)
 
-    // 탭 설정 (게시글, 뉴스, 창작물)
-    const [activeTab, setActiveTab] = useState('post')
+    // 탭 설정 (서비스, 게시글, 뉴스, 창작물)
+    const [activeTab, setActiveTab] = useState('service')
     const tabs = [
+        { id: 'service', label: '캐릭터 챗 서비스' },
         { id: 'post', label: '게시글' },
         { id: 'news', label: '뉴스' },
         { id: 'creation', label: '창작물' }
@@ -203,15 +204,8 @@ export default function Bookmarks() {
                                         <p className="bookmark-site-name">{bookmark.site_name}</p>
                                     )}
 
-                                    {/* AI 요약 또는 설명 */}
-                                    {bookmark.is_summarized === 1 && bookmark.ai_summary ? (
-                                        <div className="mb-2" data-summary="ai">
-                                            <div className="text-xs text-blue-600 font-medium mb-1">✨ AI 요약</div>
-                                            <p className="bookmark-summary">{bookmark.ai_summary}</p>
-                                        </div>
-                                    ) : bookmark.is_summarized === 0 ? (
-                                        <p className="text-sm text-gray-400 italic mb-2" data-summary="pending">요약 생성 중...</p>
-                                    ) : bookmark.description ? (
+                                    {/* 설명 (메타데이터 description만 표시) */}
+                                    {bookmark.description ? (
                                         <p className="text-sm text-gray-600 line-clamp-2 mb-2">{bookmark.description}</p>
                                     ) : null}
 
@@ -221,15 +215,6 @@ export default function Bookmarks() {
 
                                         {/* 버튼들 */}
                                         <div className="bookmark-actions">
-                                            {bookmark.is_summarized === 2 && canEdit && (
-                                                <button
-                                                    onClick={() => handleResummary(bookmark.id)}
-                                                    className="text-blue-600 hover:text-blue-800"
-                                                    data-action="resummary"
-                                                >
-                                                    요약 재생성
-                                                </button>
-                                            )}
                                             {canEdit && (
                                                 <button
                                                     onClick={() => handleDelete(bookmark.id)}

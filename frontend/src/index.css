@@ -94,7 +94,7 @@
   }
 
   .app-main-content {
-    @apply flex-1 overflow-auto ml-60;
+    @apply flex-1 ml-60;
   }
 
   .main-content-wrapper {

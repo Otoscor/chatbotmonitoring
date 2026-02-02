@@ -91,7 +91,7 @@ export default function AppReviews() {
             </header>
 
             {/* 앱 선택 */}
-            <section className="mb-6" data-section="app-selector">
+            <section className="mb-6 sticky top-[56px] z-30 bg-[var(--bg-primary)] py-4 -mx-4 px-4 border-b border-[var(--border-primary)] shadow-sm transition-all" data-section="app-selector">
                 <label className="form-label">앱 선택</label>
                 <select
                     value={selectedApp}

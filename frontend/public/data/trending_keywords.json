@@ -31,7 +31,7 @@
   },
   {
     "keyword": "생각",
-    "total_count": 25,
+    "total_count": 24,
     "rank": 7
   },
   {
@@ -60,18 +60,18 @@
     "rank": 12
   },
   {
-    "keyword": "상태",
+    "keyword": "아침",
     "total_count": 19,
     "rank": 13
   },
   {
-    "keyword": "아침",
+    "keyword": "정실",
     "total_count": 19,
     "rank": 14
   },
   {
-    "keyword": "정실",
-    "total_count": 19,
+    "keyword": "상태",
+    "total_count": 18,
     "rank": 15
   },
   {
@@ -95,8 +95,8 @@
     "rank": 19
   },
   {
-    "keyword": "이상",
-    "total_count": 17,
+    "keyword": "ai",
+    "total_count": 16,
     "rank": 20
   }
 ]

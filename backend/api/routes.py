@@ -12,7 +12,7 @@ from sqlalchemy import select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
 from pydantic import BaseModel
 
-from models.database import get_db, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview, Bookmark
+from models.database import get_db, AsyncSessionLocal, Post, DailyReport, CharacterMention, ChatServiceCharacter, NewsArticle, AppReview, Bookmark
 from crawler.multi_crawler import crawl_all_targets
 from crawler.character_service_crawler import crawl_all_character_services
 from crawler.news_crawler import crawl_all_news
@@ -1195,60 +1195,76 @@ async def create_bookmark(
     """
     북마크 추가
     
-    URL에서 자동으로 메타데이터를 추출하고, 백그라운드에서 AI 요약을 생성합니다.
+    URL을 즉시 저장하고, 메타데이터 추출 및 AI 요약은 백그라운드에서 처리합니다.
+    (팝업/블로킹 문제 해결)
     """
     import asyncio
-    from utils.url_parser import extract_url_metadata
-    from utils.gemini_summarizer import summarize_url
     
-    # URL 메타데이터 추출
-    metadata = await extract_url_metadata(bookmark.url)
-    
-    # 북마크 생성
+    # 1. 북마크 즉시 생성 (기본 정보만)
     new_bookmark = Bookmark(
         url=bookmark.url,
-        title=metadata.get('title'),
-        description=metadata.get('description'),
-        thumbnail_url=metadata.get('thumbnail'),
-        site_name=metadata.get('site_name'),
         category=bookmark.category,
-        is_summarized=0  # 요약 대기 중
+        title=bookmark.url,  # 임시 제목 (URL)
+        is_summarized=0
     )
     
     db.add(new_bookmark)
     await db.commit()
     await db.refresh(new_bookmark)
     
-    # 백그라운드에서 AI 요약 생성 (비동기)
-    asyncio.create_task(generate_summary_background(new_bookmark.id, bookmark.url, db))
+    # 2. 백그라운드 작업 시작 (메타데이터 + 요약)
+    # 주의: 요청 세션(db)은 종료되므로 사용 불가. 새 세션을 만들어야 함.
+    asyncio.create_task(process_bookmark_background(new_bookmark.id, bookmark.url))
     
     return new_bookmark
 
 
-async def generate_summary_background(bookmark_id: int, url: str, db: AsyncSession):
-    """백그라운드에서 AI 요약 생성"""
+async def process_bookmark_background(bookmark_id: int, url: str):
+    """백그라운드에서 메타데이터 추출 및 AI 요약 수행"""
+    from utils.url_parser import extract_url_metadata
     from utils.gemini_summarizer import summarize_url
     
-    try:
-        summary = await summarize_url(url)
-        
-        # 북마크 업데이트
-        result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
-        bookmark = result.scalar_one_or_none()
-        
-        if bookmark:
-            bookmark.ai_summary = summary
-            bookmark.is_summarized = 1 if summary else 2  # 1: 성공, 2: 실패
-            await db.commit()
+    async with AsyncSessionLocal() as session:
+        try:
+            # 1. 메타데이터 추출
+            metadata = await extract_url_metadata(url)
             
-    except Exception as e:
-        logger.error(f"Error generating summary for bookmark {bookmark_id}: {e}")
-        # 실패 상태로 업데이트
-        result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
-        bookmark = result.scalar_one_or_none()
-        if bookmark:
-            bookmark.is_summarized = 2
-            await db.commit()
+            # DB 업데이트
+            result = await session.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+            bookmark = result.scalar_one_or_none()
+            
+            if bookmark:
+                if metadata.get('title'):
+                    bookmark.title = metadata.get('title')
+                if metadata.get('description'):
+                    bookmark.description = metadata.get('description')
+                if metadata.get('thumbnail'):
+                    bookmark.thumbnail_url = metadata.get('thumbnail')
+                if metadata.get('site_name'):
+                    bookmark.site_name = metadata.get('site_name')
+                
+                await session.commit()
+            
+            # 2. AI 요약 생성 (기능 제거됨)
+            # summary = await summarize_url(url)
+            
+            # 다시 조회 (커밋 후 상태)
+            if bookmark:
+                bookmark.is_summarized = 1  # 요약 없이 완료 처리
+                # bookmark.ai_summary = summary
+                await session.commit()
+                
+        except Exception as e:
+            logger.error(f"Error processing bookmark {bookmark_id}: {e}")
+            # 에러 상태 표시
+            try:
+                result = await session.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
+                bookmark = result.scalar_one_or_none()
+                if bookmark:
+                    bookmark.is_summarized = 2
+                    await session.commit()
+            except Exception as db_err:
+                logger.error(f"Failed to update error status: {db_err}")
 
 
 @router.get("/bookmarks", response_model=List[BookmarkResponse])
@@ -1332,22 +1348,13 @@ async def resummarize_bookmark(
     bookmark_id: int,
     db: AsyncSession = Depends(get_db)
 ):
-    """AI 요약 재생성"""
-    from utils.gemini_summarizer import summarize_url
-    
+    """AI 요약 재생성 (기능 제거됨)"""
+    # 기능이 제거되었으므로 현재 상태 그대로 반환
     result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
     bookmark = result.scalar_one_or_none()
     
     if not bookmark:
         raise HTTPException(status_code=404, detail="북마크를 찾을 수 없습니다")
-    
-    # AI 요약 생성
-    summary = await summarize_url(bookmark.url)
-    bookmark.ai_summary = summary
-    bookmark.is_summarized = 1 if summary else 2
-    
-    await db.commit()
-    await db.refresh(bookmark)
     
     return bookmark
 

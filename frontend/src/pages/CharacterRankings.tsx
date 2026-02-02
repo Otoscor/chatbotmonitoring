@@ -95,7 +95,7 @@ export default function CharacterRankings() {
       {/* 캐릭터 순위 영역 */}
       <section className="relative" data-section="character-rankings">
         {/* 모바일 서비스 탭 */}
-        <div className="md:hidden mb-6">
+        <div className="md:hidden mb-6 sticky top-[56px] z-30 bg-[var(--bg-primary)] py-2 border-b border-[var(--border-primary)]">
           <div className="tab-list overflow-x-auto whitespace-nowrap flex-nowrap scrollbar-hide" data-component="service-tabs">
             {SERVICE_CONFIG.map(service => (
               <button
