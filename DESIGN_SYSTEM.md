@@ -1,173 +1,115 @@
-# 디자인 시스템 - Notion 스타일
 
-이 프로젝트는 Notion의 미니멀한 디자인 철학을 따릅니다.
+# Character Chatbot Monitoring Design System
 
-## 🎨 디자인 원칙
+This document outlines the design tokens, component classes, and visual patterns used in the Character Chatbot Monitoring application. Use this guide to maintain consistency across the application and when creating new features.
 
-### 1. 미니멀리즘
-- 불필요한 시각적 요소 제거
-- 콘텐츠 중심의 레이아웃
-- 깔끔하고 직관적인 인터페이스
+## 1. Color Palette
 
-### 2. 그레이스케일 컬러 팔레트
-- **이모티콘 사용 금지**
-- **컬러 사용 금지** (그레이스케일만 사용)
-- 흑백 및 회색 톤으로 차분한 분위기 조성
+The application uses CSS variables for theming, supporting both Light and Dark modes.
 
-### 3. 타이포그래피
-- 일관된 서체 크기 및 굵기
-- 명확한 정보 계층 구조
-- 최적의 가독성
+### Theme Variables
 
-### 4. 여백과 간격
-- 충분한 여백으로 시각적 여유 제공
-- 일관된 간격 시스템
+| Variable | Light Mode (Default) | Dark Mode | Description |
+|:---|:---|:---|:---|
+| `--bg-primary` | `#ffffff` | `#0a0a0a` | Main background color (Body) |
+| `--bg-secondary` | `#f9fafb` | `#121212` | Secondary background (Sidebar) |
+| `--bg-card` | `#ffffff` | `#1a1a1a` | Card background |
+| `--text-primary` | `#111827` | `#ffffff` | Primary text color |
+| `--text-secondary` | `#6b7280` | `#a3a3a3` | Secondary text (subtitles) |
+| `--border-primary` | `#e5e7eb` | `#262626` | Primary border color |
+| `--state-hover-bg` | `#f3f4f6` | `rgba(255,255,255, 0.05)` | Hover state background |
+| `--accent-coral` | `#ef4444` | `#ef4444` | Accent Color (Coral) |
+| `--accent-mint` | `#10b981` | `#10b981` | Accent Color (Mint) |
+| `--accent-blue` | `#3b82f6` | `#3b82f6` | Accent Color (Blue) |
 
----
+### Gradients
+Used for buttons and special text effects.
+- **Start**: `--gradient-start`
+- **Mid**: `--gradient-mid1`, `--gradient-mid2`, `--gradient-mid3`
+- **End**: `--gradient-end`
 
-## 🎨 컬러 팔레트
+## 2. Typography
 
-### Grayscale (그레이스케일만 사용)
+**Font Family**: `'Pretendard Variable', 'Pretendard', system-ui, sans-serif`
+**Headings/Special**: `'Galmuri11', sans-serif` (Used for sidebar items, crawl buttons, titles)
 
+| Class | Usage | Style |
+|:---|:---|:---|
+| `.page-title` | Page Header | 2xl, Semibold, Galmuri11 |
+| `.section-title` | Section Header | sm, Semibold |
+| `.form-label` | Input Label | sm, Medium |
+| `.menu-item` | Sidebar Item | 13px, Galmuri11 |
+
+## 3. Component Classes
+
+### Layout
+- **`.app-container`**: Flex container for Sidebar + Main Content.
+- **`.app-sidebar`**: Fixed sidebar (w-60). Handles mobile slide-in.
+- **`.app-main-content`**: Main content area (ml-60).
+- **`.main-content-wrapper`**: Max width container (max-w-6xl).
+
+### Buttons
+- **`.btn-primary`**: Standard action button.
+  - Light: Black bg, White text.
+  - Dark: Dark gray bg, White text.
+- **`.crawl-button`**: Special animated gradient button for actions.
+  - Animation: `gradient-flow` (continuous diagonal movement).
+
+### Cards
+- **`.card`**: Basic container. White/Dark bg, Bordered.
+- **`.card--hoverable`**: Adds border transition on hover.
+- **`.stat-card`**: Dashboard statistic card.
+
+### Forms
+- **`.form-input`**: Standard text input.
+- **`.form-select`**: Dropdown select.
+
+### Data Display
+- **`.data-table`**: Standard table style.
+- **`.ranking-list`**: List styling for rankings.
+- **`.character-card`**: Card for character profiles (includes rank badge, tags).
+- **`.bookmark-card`**: Card for saved links (includes thumbnail, summary).
+
+## 4. Visual Effects
+
+### Glassmorphism
+Use the `.glass` class to apply a backdrop blur effect.
+- **Light**: White opacity 0.8
+- **Dark**: Black opacity 0.8
+
+### Glow Effects
+- **`.glow`**: Blue glow box-shadow.
+- **`.glow-coral`**: Red glow.
+- **`.glow-mint`**: Green glow.
+
+### Fade Masks
+- **`.mask-linear-fade`**: Applies a left-to-right fade out mask (useful for overflowing text/tags).
+
+## 5. Utilities
+
+### Scrollbar Hiding
+Use `.scrollbar-hide` to hide scrollbars while preserving scroll functionality (cross-browser compatible).
 ```css
-gray-50:  #FAFAFA  /* 가장 밝은 배경 */
-gray-100: #F5F5F5  /* 밝은 배경 */
-gray-200: #EEEEEE  /* 테두리 */
-gray-300: #E0E0E0  /* 구분선 */
-gray-400: #BDBDBD  /* 비활성 텍스트 */
-gray-500: #9E9E9E  /* 보조 텍스트 */
-gray-600: #757575  /* 일반 텍스트 */
-gray-700: #616161  /* 강조 텍스트 */
-gray-800: #424242  /* 제목 */
-gray-900: #212121  /* 주요 텍스트 */
-gray-950: #0A0A0A  /* 가장 진한 검정 */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
 ```
 
----
+## 6. Iconography
+- **`.force-white-icon`**: Forces SVG icons to be white (useful for dark mode overrides or dark backgrounds).
 
-## 📝 타이포그래피
+## Usage Example
 
-### 폰트 패밀리
-```css
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif
+```tsx
+<div className="card p-6">
+  <h2 className="section-title mb-4">Card Title</h2>
+  <div className="flex gap-2">
+    <button className="btn-primary">Action</button>
+    <button className="crawl-button">Animated Action</button>
+  </div>
+</div>
 ```
-
-### 폰트 크기
-- **3xl** (1.875rem / 30px): 메인 제목
-- **2xl** (1.5rem / 24px): 섹션 제목
-- **xl** (1.25rem / 20px): 서브 제목
-- **lg** (1.125rem / 18px): 강조 텍스트
-- **base** (0.9375rem / 15px): 본문
-- **sm** (0.875rem / 14px): 보조 텍스트
-- **xs** (0.75rem / 12px): 작은 텍스트
-
-### 폰트 굵기
-- **semibold** (600): 제목, 강조
-- **medium** (500): 선택된 항목
-- **normal** (400): 일반 텍스트
-
----
-
-## 📐 간격 시스템
-
-### Padding
-- **컴포넌트 내부**: 4 (16px), 6 (24px)
-- **섹션 간격**: 6 (24px), 8 (32px)
-- **페이지 여백**: 10 (40px), 12 (48px)
-
-### Gap
-- **작은 간격**: 2 (8px), 3 (12px)
-- **중간 간격**: 4 (16px), 6 (24px)
-
----
-
-## 🔲 컴포넌트 스타일
-
-### 카드
-```css
-배경: bg-white
-테두리: border border-gray-200
-모서리: rounded (4px)
-호버: hover:border-gray-300
-```
-
-### 버튼
-```css
-기본: bg-gray-900 text-white
-호버: hover:bg-gray-800
-크기: px-4 py-2 text-sm
-```
-
-### 입력 필드
-```css
-테두리: border border-gray-200
-포커스: focus:border-gray-400
-배경: bg-white
-```
-
-### 테이블
-```css
-헤더: border-b border-gray-200
-행: hover:bg-gray-50
-구분선: divide-y divide-gray-100
-```
-
----
-
-## 🎯 레이아웃
-
-### 사이드바
-- **너비**: 240px (w-60)
-- **배경**: gray-50
-- **테두리**: border-r border-gray-200
-
-### 메인 콘텐츠
-- **최대 너비**: 1152px (max-w-6xl)
-- **여백**: px-12 py-10
-
-### 그리드
-- **1열**: 모바일
-- **2열**: md: 768px 이상
-- **4열**: lg: 1024px 이상
-
----
-
-## ✨ 인터랙션
-
-### Transition
-```css
-transition-colors: 색상 전환 (200ms)
-hover: 호버 효과 (미묘한 배경 변화)
-```
-
-### 상태
-- **기본**: text-gray-600
-- **호버**: hover:text-gray-900 hover:bg-gray-100
-- **활성**: bg-gray-200 text-gray-900 font-medium
-- **비활성**: text-gray-400
-
----
-
-## 🚫 금지 사항
-
-1. ❌ **이모티콘 사용 금지**
-2. ❌ **컬러 사용 금지** (그레이스케일만)
-3. ❌ **아이콘 과다 사용 금지**
-4. ❌ **그라데이션 사용 금지**
-5. ❌ **애니메이션 과다 사용 금지**
-
----
-
-## ✅ 권장 사항
-
-1. ✅ 단순하고 깔끔한 레이아웃
-2. ✅ 충분한 여백
-3. ✅ 명확한 계층 구조
-4. ✅ 일관된 간격
-5. ✅ 미묘한 호버 효과
-
----
-
-**디자인 철학**: "Less is More" - 단순함 속의 기능성
-
-**참고**: 이 디자인 시스템은 Notion의 디자인 철학을 참고하여 작성되었습니다.
