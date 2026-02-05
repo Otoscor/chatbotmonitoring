@@ -1,228 +1,272 @@
 {
-  "id": 13,
-  "report_date": "2026-02-04T09:26:53.630308",
-  "total_posts": 406,
-  "total_views": 26633,
-  "total_recommends": 317,
-  "total_comments": 1522,
+  "id": 15,
+  "report_date": "2026-02-06T08:19:20.482835",
+  "total_posts": 417,
+  "total_views": 27007,
+  "total_recommends": 227,
+  "total_comments": 1374,
   "top_keywords": [
     {
+      "keyword": "사육푸스",
+      "count": 17,
+      "score": 0.0315
+    },
+    {
+      "keyword": "지금",
+      "count": 13,
+      "score": 0.0244
+    },
+    {
       "keyword": "진짜",
-      "count": 16,
-      "score": 0.0339
-    },
-    {
-      "keyword": "너무",
-      "count": 16,
-      "score": 0.0334
-    },
-    {
-      "keyword": "이거",
       "count": 9,
-      "score": 0.0205
+      "score": 0.018
     },
     {
-      "keyword": "ai",
-      "count": 4,
-      "score": 0.0162
+      "keyword": "뭔가",
+      "count": 8,
+      "score": 0.0159
     },
     {
-      "keyword": "잼민이",
+      "keyword": "ntr",
+      "count": 2,
+      "score": 0.0152
+    },
+    {
+      "keyword": "반납",
       "count": 7,
-      "score": 0.0144
+      "score": 0.0152
     },
     {
-      "keyword": "뤼갤",
+      "keyword": "존나",
+      "count": 7,
+      "score": 0.0132
+    },
+    {
+      "keyword": "이제",
+      "count": 7,
+      "score": 0.0131
+    },
+    {
+      "keyword": "젬이오",
       "count": 6,
-      "score": 0.0139
+      "score": 0.0121
     },
     {
-      "keyword": "에셋",
+      "keyword": "클로드",
       "count": 6,
-      "score": 0.0126
+      "score": 0.0119
     },
     {
-      "keyword": "얼버기",
+      "keyword": "얼헌",
       "count": 5,
-      "score": 0.0123
+      "score": 0.0113
     },
     {
-      "keyword": "ooc",
-      "count": 4,
-      "score": 0.0116
+      "keyword": "있음",
+      "count": 6,
+      "score": 0.0108
     },
     {
-      "keyword": "내가",
+      "keyword": "프롬",
+      "count": 6,
+      "score": 0.0107
+    },
+    {
+      "keyword": "프리필",
+      "count": 6,
+      "score": 0.0101
+    },
+    {
+      "keyword": "오랜만에",
       "count": 5,
-      "score": 0.0105
+      "score": 0.0097
+    },
+    {
+      "keyword": "하이파",
+      "count": 5,
+      "score": 0.0097
+    },
+    {
+      "keyword": "오푸스",
+      "count": 5,
+      "score": 0.0096
     },
     {
       "keyword": "근데",
       "count": 5,
-      "score": 0.0103
+      "score": 0.0095
     },
     {
-      "keyword": "얼부기",
-      "count": 4,
-      "score": 0.0099
+      "keyword": "nai",
+      "count": 2,
+      "score": 0.0089
     },
     {
-      "keyword": "이게",
+      "keyword": "싶은데",
       "count": 4,
-      "score": 0.0099
+      "score": 0.0088
     },
     {
       "keyword": "아니",
       "count": 4,
-      "score": 0.0092
+      "score": 0.0082
     },
     {
-      "keyword": "오늘",
+      "keyword": "무영전",
       "count": 4,
-      "score": 0.0091
+      "score": 0.0081
     },
     {
-      "keyword": "이제",
+      "keyword": "혹시",
+      "count": 5,
+      "score": 0.008
+    },
+    {
+      "keyword": "성능",
       "count": 4,
-      "score": 0.0091
+      "score": 0.0079
     },
     {
-      "keyword": "azure",
-      "count": 0,
-      "score": 0.0089
+      "keyword": "너무",
+      "count": 4,
+      "score": 0.0078
+    },
+    {
+      "keyword": "크래커",
+      "count": 4,
+      "score": 0.0078
+    },
+    {
+      "keyword": "그거",
+      "count": 3,
+      "score": 0.0072
     },
     {
       "keyword": "질문",
       "count": 4,
-      "score": 0.0085
-    },
-    {
-      "keyword": "갑자기",
-      "count": 4,
-      "score": 0.0081
-    },
-    {
-      "keyword": "엘린",
-      "count": 4,
-      "score": 0.0081
-    },
-    {
-      "keyword": "좋아",
-      "count": 4,
-      "score": 0.0081
-    },
-    {
-      "keyword": "페르소나",
-      "count": 4,
-      "score": 0.008
+      "score": 0.0072
     },
     {
       "keyword": "요즘",
       "count": 4,
-      "score": 0.0077
+      "score": 0.0069
     },
     {
-      "keyword": "돚거",
-      "count": 3,
-      "score": 0.0074
-    },
-    {
-      "keyword": "루카스",
-      "count": 4,
-      "score": 0.0074
-    },
-    {
-      "keyword": "서버",
-      "count": 3,
-      "score": 0.0074
-    },
-    {
-      "keyword": "윶정",
-      "count": 3,
-      "score": 0.0074
-    },
-    {
-      "keyword": "자꾸",
-      "count": 3,
-      "score": 0.0074
-    },
-    {
-      "keyword": "지금",
-      "count": 4,
-      "score": 0.007
-    },
-    {
-      "keyword": "같음",
-      "count": 4,
-      "score": 0.0068
+      "keyword": "이거",
+      "count": 5,
+      "score": 0.0069
     }
   ],
   "top_characters": [
     {
-      "name": "시뮬",
-      "mentions": 3,
+      "name": "?질문",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "2차",
-      "mentions": 2,
+      "name": "1/4",
+      "mentions": 1,
       "rank": 2
     },
     {
-      "name": "쳇.... 이런 시골 촌구석에 볼게 뭐가 있다고...",
+      "name": "?홍보/셒",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "케/닥터밴스",
+      "name": "케이브덕 영상 공모전 관련 불판",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "케덕",
+      "name": "시뮬",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "❓질문",
+      "name": "이것은 단순한 구경거리가 아니다.",
       "mentions": 1,
       "rank": 6
-    },
-    {
-      "name": "케덕 리뷰",
-      "mentions": 1,
-      "rank": 7
-    },
-    {
-      "name": "돚거",
-      "mentions": 1,
-      "rank": 8
-    },
-    {
-      "name": "창작",
-      "mentions": 1,
-      "rank": 9
-    },
-    {
-      "name": "바벨",
-      "mentions": 1,
-      "rank": 10
-    },
-    {
-      "name": "블리치",
-      "mentions": 1,
-      "rank": 11
-    },
-    {
-      "name": "털/남캐",
-      "mentions": 1,
-      "rank": 12
-    },
-    {
-      "name": "통합",
-      "mentions": 1,
-      "rank": 13
     }
   ],
-  "trending_topics": []
+  "trending_topics": [
+    {
+      "topic": "혹시",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "크래커",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "클로드",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "싶은데",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "질문",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "성능",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "무영전",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "하이파",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "젬이오",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "얼헌",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "그거",
+      "current": 3,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "프리필",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "오푸스",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    }
+  ]
 }
