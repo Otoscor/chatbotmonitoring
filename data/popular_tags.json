@@ -1,82 +1,82 @@
 [
   {
     "tag": "로맨스",
-    "count": 42
-  },
-  {
-    "tag": "판타지",
     "count": 41
   },
   {
-    "tag": "시뮬레이션",
-    "count": 34
+    "tag": "판타지",
+    "count": 38
   },
   {
     "tag": "순애",
-    "count": 29
+    "count": 36
+  },
+  {
+    "tag": "시뮬레이션",
+    "count": 28
   },
   {
     "tag": "남성",
-    "count": 22
+    "count": 24
   },
   {
     "tag": "자작 캐릭터",
     "count": 19
   },
   {
+    "tag": "hl",
+    "count": 18
+  },
+  {
     "tag": "여성",
     "count": 18
+  },
+  {
+    "tag": "츤데레",
+    "count": 17
   },
   {
     "tag": "현대",
     "count": 16
   },
   {
-    "tag": "일상",
-    "count": 15
-  },
-  {
-    "tag": "hl",
-    "count": 14
-  },
-  {
     "tag": "추천",
     "count": 14
   },
   {
-    "tag": "후회",
-    "count": 13
+    "tag": "아카데미",
+    "count": 14
   },
   {
     "tag": "언리밋",
     "count": 13
   },
   {
-    "tag": "츤데레",
-    "count": 12
-  },
-  {
-    "tag": "게임",
-    "count": 12
-  },
-  {
-    "tag": "아카데미",
-    "count": 12
-  },
-  {
-    "tag": "다인",
-    "count": 12
-  },
-  {
-    "tag": "소꿉친구",
-    "count": 11
-  },
-  {
-    "tag": "시뮬",
-    "count": 11
+    "tag": "후회",
+    "count": 13
   },
   {
     "tag": "시뮬레이터",
+    "count": 12
+  },
+  {
+    "tag": "BL",
     "count": 11
+  },
+  {
+    "tag": "일상",
+    "count": 11
+  },
+  {
+    "tag": "다인",
+    "count": 11
+  },
+  {
+    "tag": "친구",
+    "count": 10
+  },
+  {
+    "tag": "학교 생활",
+    "count": 10
   }
 ]

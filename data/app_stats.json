@@ -1,32 +1,47 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 564,
-    "average_rating": 3.2411347517730498,
+    "total_reviews": 764,
+    "average_rating": 3.181937172774869,
     "rating_distribution": {
-      "1": 127,
-      "2": 62,
-      "3": 91,
-      "4": 116,
-      "5": 168
+      "1": 185,
+      "2": 82,
+      "3": 129,
+      "4": 145,
+      "5": 223
     },
     "platform_distribution": {
-      "google_play": 564
+      "google_play": 764
     }
   },
   {
     "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 108,
-    "average_rating": 2.564814814814815,
+    "total_reviews": 115,
+    "average_rating": 2.5043478260869567,
     "rating_distribution": {
-      "1": 42,
+      "1": 48,
       "2": 15,
       "3": 21,
       "4": 8,
-      "5": 22
+      "5": 23
     },
     "platform_distribution": {
-      "google_play": 108
+      "google_play": 115
+    }
+  },
+  {
+    "app_name": "팅글 (Tingle)",
+    "total_reviews": 105,
+    "average_rating": 3.657142857142857,
+    "rating_distribution": {
+      "1": 16,
+      "2": 6,
+      "3": 19,
+      "4": 21,
+      "5": 43
+    },
+    "platform_distribution": {
+      "google_play": 105
     }
   },
   {
@@ -39,21 +54,6 @@
       "3": 14,
       "4": 11,
       "5": 12
-    },
-    "platform_distribution": {
-      "google_play": 104
-    }
-  },
-  {
-    "app_name": "팅글 (Tingle)",
-    "total_reviews": 104,
-    "average_rating": 3.6634615384615383,
-    "rating_distribution": {
-      "1": 16,
-      "2": 6,
-      "3": 18,
-      "4": 21,
-      "5": 43
     },
     "platform_distribution": {
       "google_play": 104
@@ -76,17 +76,17 @@
   },
   {
     "app_name": "Character AI",
-    "total_reviews": 100,
-    "average_rating": 3.19,
+    "total_reviews": 101,
+    "average_rating": 3.207920792079208,
     "rating_distribution": {
       "1": 27,
       "2": 10,
       "3": 13,
       "4": 17,
-      "5": 33
+      "5": 34
     },
     "platform_distribution": {
-      "google_play": 100
+      "google_play": 101
     }
   }
 ]
