@@ -1,70 +1,78 @@
 [
   {
-    "keyword": "너무",
-    "total_count": 191
+    "keyword": "ai",
+    "total_count": 187
   },
   {
-    "keyword": "ai",
-    "total_count": 181
+    "keyword": "너무",
+    "total_count": 178
   },
   {
     "keyword": "그리고",
-    "total_count": 134
+    "total_count": 137
   },
   {
     "keyword": "광고가",
-    "total_count": 123
+    "total_count": 112
   },
   {
     "keyword": "진짜",
-    "total_count": 84
+    "total_count": 92
   },
   {
     "keyword": "계속",
-    "total_count": 83
-  },
-  {
-    "keyword": "광고",
-    "total_count": 83
-  },
-  {
-    "keyword": "캐릭터",
-    "total_count": 74
-  },
-  {
-    "keyword": "많이",
-    "total_count": 73
+    "total_count": 87
   },
   {
     "keyword": "자꾸",
-    "total_count": 72
+    "total_count": 74
+  },
+  {
+    "keyword": "광고",
+    "total_count": 71
+  },
+  {
+    "keyword": "많이",
+    "total_count": 65
+  },
+  {
+    "keyword": "캐릭터",
+    "total_count": 60
   },
   {
     "keyword": "갑자기",
+    "total_count": 59
+  },
+  {
+    "keyword": "제타",
     "total_count": 57
   },
   {
     "keyword": "그냥",
-    "total_count": 54
-  },
-  {
-    "keyword": "제발",
     "total_count": 53
   },
   {
-    "keyword": "제타",
+    "keyword": "아니",
     "total_count": 52
   },
   {
-    "keyword": "아니",
-    "total_count": 48
+    "keyword": "제발",
+    "total_count": 52
+  },
+  {
+    "keyword": "하고",
+    "total_count": 49
+  },
+  {
+    "keyword": "근데",
+    "total_count": 47
   },
   {
     "keyword": "제가",
-    "total_count": 45
+    "total_count": 47
   },
   {
-    "keyword": "이름을",
+    "keyword": "대화",
     "total_count": 44
   },
   {
@@ -72,28 +80,12 @@
     "total_count": 43
   },
   {
-    "keyword": "근데",
+    "keyword": "다시",
     "total_count": 40
   },
   {
     "keyword": "다른",
-    "total_count": 39
-  },
-  {
-    "keyword": "하고",
-    "total_count": 39
-  },
-  {
-    "keyword": "다시",
-    "total_count": 38
-  },
-  {
-    "keyword": "같아요",
-    "total_count": 37
-  },
-  {
-    "keyword": "대화",
-    "total_count": 37
+    "total_count": 40
   },
   {
     "keyword": "캐릭터가",
@@ -101,10 +93,10 @@
   },
   {
     "keyword": "말을",
-    "total_count": 36
+    "total_count": 33
   },
   {
-    "keyword": "있는",
+    "keyword": "좋은데",
     "total_count": 32
   },
   {
@@ -112,19 +104,23 @@
     "total_count": 32
   },
   {
-    "keyword": "이름",
+    "keyword": "같아요",
     "total_count": 31
   },
   {
-    "keyword": "좋은데",
+    "keyword": "이름을",
+    "total_count": 31
+  },
+  {
+    "keyword": "대화를",
     "total_count": 29
   },
   {
-    "keyword": "이런",
+    "keyword": "있는",
     "total_count": 29
   },
   {
-    "keyword": "하면",
+    "keyword": "기억력",
     "total_count": 29
   },
   {
@@ -132,63 +128,63 @@
     "total_count": 29
   },
   {
-    "keyword": "기억력",
+    "keyword": "이름",
     "total_count": 28
   },
   {
-    "keyword": "광고도",
+    "keyword": "하면",
     "total_count": 28
   },
   {
-    "keyword": "대화를",
-    "total_count": 27
-  },
-  {
-    "keyword": "분에",
-    "total_count": 27
-  },
-  {
-    "keyword": "업데이트",
+    "keyword": "이거",
     "total_count": 26
-  },
-  {
-    "keyword": "이름이",
-    "total_count": 25
-  },
-  {
-    "keyword": "koji",
-    "total_count": 25
-  },
-  {
-    "keyword": "그래도",
-    "total_count": 25
   },
   {
     "keyword": "있습니다",
     "total_count": 25
   },
   {
-    "keyword": "이거",
+    "keyword": "업데이트",
     "total_count": 24
   },
   {
-    "keyword": "나와요",
-    "total_count": 23
-  },
-  {
-    "keyword": "하는",
-    "total_count": 23
+    "keyword": "그래도",
+    "total_count": 24
   },
   {
     "keyword": "많아요",
-    "total_count": 23
-  },
-  {
-    "keyword": "조금",
-    "total_count": 22
+    "total_count": 24
   },
   {
     "keyword": "유저",
+    "total_count": 23
+  },
+  {
+    "keyword": "koji",
+    "total_count": 23
+  },
+  {
+    "keyword": "정말",
+    "total_count": 22
+  },
+  {
+    "keyword": "솔직히",
+    "total_count": 22
+  },
+  {
+    "keyword": "채팅",
+    "total_count": 22
+  },
+  {
+    "keyword": "이렇게",
+    "total_count": 22
+  },
+  {
+    "keyword": "이런",
+    "total_count": 22
+  },
+  {
+    "keyword": "광고도",
     "total_count": 22
   },
   {
@@ -196,7 +192,11 @@
     "total_count": 21
   },
   {
-    "keyword": "솔직히",
+    "keyword": "있어서",
+    "total_count": 21
+  },
+  {
+    "keyword": "조금",
     "total_count": 21
   }
 ]
