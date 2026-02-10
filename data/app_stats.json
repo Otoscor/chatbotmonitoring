@@ -1,17 +1,17 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 864,
-    "average_rating": 3.136574074074074,
+    "total_reviews": 964,
+    "average_rating": 3.1109958506224067,
     "rating_distribution": {
-      "1": 220,
-      "2": 97,
-      "3": 139,
-      "4": 161,
-      "5": 247
+      "1": 253,
+      "2": 109,
+      "3": 152,
+      "4": 178,
+      "5": 272
     },
     "platform_distribution": {
-      "google_play": 864
+      "google_play": 964
     }
   },
   {
@@ -46,17 +46,17 @@
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 105,
-    "average_rating": 3.657142857142857,
+    "total_reviews": 106,
+    "average_rating": 3.650943396226415,
     "rating_distribution": {
       "1": 16,
       "2": 6,
-      "3": 19,
+      "3": 20,
       "4": 21,
       "5": 43
     },
     "platform_distribution": {
-      "google_play": 105
+      "google_play": 106
     }
   },
   {
