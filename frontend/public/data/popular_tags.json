@@ -1,82 +1,82 @@
 [
   {
     "tag": "로맨스",
-    "count": 96
+    "count": 50
   },
   {
     "tag": "순애",
-    "count": 76
-  },
-  {
-    "tag": "판타지",
-    "count": 64
-  },
-  {
-    "tag": "시뮬레이션",
-    "count": 56
-  },
-  {
-    "tag": "자작 캐릭터",
-    "count": 46
-  },
-  {
-    "tag": "현대",
-    "count": 42
-  },
-  {
-    "tag": "hl",
-    "count": 40
-  },
-  {
-    "tag": "츤데레",
-    "count": 40
-  },
-  {
-    "tag": "여성",
     "count": 36
   },
   {
-    "tag": "남성",
+    "tag": "판타지",
     "count": 34
   },
   {
+    "tag": "시뮬레이션",
+    "count": 30
+  },
+  {
+    "tag": "남성",
+    "count": 20
+  },
+  {
+    "tag": "자작 캐릭터",
+    "count": 20
+  },
+  {
     "tag": "언리밋",
-    "count": 32
+    "count": 18
+  },
+  {
+    "tag": "후회",
+    "count": 16
+  },
+  {
+    "tag": "츤데레",
+    "count": 16
+  },
+  {
+    "tag": "여성",
+    "count": 15
   },
   {
     "tag": "시뮬레이터",
-    "count": 32
-  },
-  {
-    "tag": "추천",
-    "count": 30
+    "count": 15
   },
   {
     "tag": "다인",
-    "count": 30
-  },
-  {
-    "tag": "일상",
-    "count": 28
-  },
-  {
-    "tag": "contest-win",
-    "count": 28
-  },
-  {
-    "tag": "contest-win-15th",
-    "count": 28
-  },
-  {
-    "tag": "무뚝뚝",
-    "count": 26
+    "count": 15
   },
   {
     "tag": "시뮬",
-    "count": 26
+    "count": 14
   },
   {
-    "tag": "bl",
-    "count": 24
+    "tag": "게임",
+    "count": 14
+  },
+  {
+    "tag": "hl",
+    "count": 12
+  },
+  {
+    "tag": "소꿉친구",
+    "count": 12
+  },
+  {
+    "tag": "추천",
+    "count": 12
+  },
+  {
+    "tag": "현대",
+    "count": 12
+  },
+  {
+    "tag": "이세계",
+    "count": 11
+  },
+  {
+    "tag": "HL",
+    "count": 10
   }
 ]

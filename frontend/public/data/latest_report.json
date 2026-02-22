@@ -1,222 +1,202 @@
 {
-  "id": 17,
-  "report_date": "2026-02-10T10:49:36.910915",
-  "total_posts": 406,
-  "total_views": 26125,
-  "total_recommends": 186,
-  "total_comments": 1813,
+  "id": 19,
+  "report_date": "2026-02-23T08:28:19.010947",
+  "total_posts": 415,
+  "total_views": 35982,
+  "total_recommends": 288,
+  "total_comments": 1115,
   "top_keywords": [
     {
-      "keyword": "진짜",
+      "keyword": "잼삼일",
       "count": 16,
-      "score": 0.0352
+      "score": 0.0346
     },
     {
-      "keyword": "엘린",
-      "count": 9,
-      "score": 0.0215
+      "keyword": "진짜",
+      "count": 12,
+      "score": 0.026
     },
     {
-      "keyword": "근데",
-      "count": 9,
-      "score": 0.0178
+      "keyword": "너무",
+      "count": 14,
+      "score": 0.0226
     },
     {
-      "keyword": "얼버기",
-      "count": 7,
-      "score": 0.0172
-    },
-    {
-      "keyword": "빼꼼",
-      "count": 7,
-      "score": 0.0166
-    },
-    {
-      "keyword": "내가",
-      "count": 7,
-      "score": 0.0162
+      "keyword": "이거",
+      "count": 11,
+      "score": 0.0218
     },
     {
       "keyword": "아니",
       "count": 9,
-      "score": 0.0162
+      "score": 0.0178
     },
     {
-      "keyword": "ai",
-      "count": 2,
-      "score": 0.0148
+      "keyword": "단테",
+      "count": 8,
+      "score": 0.017
     },
     {
-      "keyword": "이거",
-      "count": 7,
-      "score": 0.0138
-    },
-    {
-      "keyword": "짚오삼",
-      "count": 6,
-      "score": 0.0127
-    },
-    {
-      "keyword": "케젬",
-      "count": 6,
-      "score": 0.012
-    },
-    {
-      "keyword": "사육푸스",
-      "count": 5,
-      "score": 0.0115
+      "keyword": "다이브",
+      "count": 8,
+      "score": 0.0166
     },
     {
       "keyword": "지금",
       "count": 6,
-      "score": 0.0114
+      "score": 0.0138
     },
     {
-      "keyword": "코파",
+      "keyword": "원래",
       "count": 6,
-      "score": 0.0114
+      "score": 0.013
     },
     {
-      "keyword": "사람",
+      "keyword": "ai",
+      "count": 5,
+      "score": 0.0129
+    },
+    {
+      "keyword": "있음",
+      "count": 6,
+      "score": 0.0129
+    },
+    {
+      "keyword": "하챗",
+      "count": 6,
+      "score": 0.0121
+    },
+    {
+      "keyword": "뤼비",
+      "count": 5,
+      "score": 0.012
+    },
+    {
+      "keyword": "젬이오",
+      "count": 5,
+      "score": 0.0112
+    },
+    {
+      "keyword": "뭔가",
       "count": 5,
       "score": 0.0106
     },
     {
-      "keyword": "요즘",
+      "keyword": "상태창",
       "count": 5,
-      "score": 0.0104
+      "score": 0.0103
     },
     {
-      "keyword": "블리치",
+      "keyword": "내가",
+      "count": 5,
+      "score": 0.0102
+    },
+    {
+      "keyword": "이제",
+      "count": 5,
+      "score": 0.0102
+    },
+    {
+      "keyword": "존나",
+      "count": 5,
+      "score": 0.01
+    },
+    {
+      "keyword": "유저캐",
       "count": 4,
-      "score": 0.0093
+      "score": 0.0096
     },
     {
-      "keyword": "님들",
+      "keyword": "있는",
+      "count": 5,
+      "score": 0.0091
+    },
+    {
+      "keyword": "얼헌",
       "count": 4,
-      "score": 0.0088
+      "score": 0.009
     },
     {
-      "keyword": "크랙",
+      "keyword": "잼삼이",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "윶캐",
       "count": 4,
       "score": 0.0086
     },
     {
-      "keyword": "어떻게",
+      "keyword": "하이퍼챗",
       "count": 4,
-      "score": 0.0084
+      "score": 0.0082
     },
     {
-      "keyword": "서버",
-      "count": 4,
-      "score": 0.0081
-    },
-    {
-      "keyword": "검열",
+      "keyword": "정말",
       "count": 4,
       "score": 0.0077
     },
     {
-      "keyword": "나는",
-      "count": 3,
-      "score": 0.0074
+      "keyword": "있어",
+      "count": 4,
+      "score": 0.0075
     },
     {
-      "keyword": "오늘",
+      "keyword": "시발",
       "count": 3,
-      "score": 0.0074
+      "score": 0.0072
     },
     {
-      "keyword": "이제",
+      "keyword": "어제",
       "count": 3,
-      "score": 0.0074
+      "score": 0.0072
     },
     {
-      "keyword": "케덕",
+      "keyword": "이건",
       "count": 3,
-      "score": 0.0074
-    },
-    {
-      "keyword": "번역",
-      "count": 3,
-      "score": 0.0067
-    },
-    {
-      "keyword": "프롬",
-      "count": 3,
-      "score": 0.0067
-    },
-    {
-      "keyword": "ooc",
-      "count": 1,
-      "score": 0.0066
-    },
-    {
-      "keyword": "좋음",
-      "count": 3,
-      "score": 0.0065
+      "score": 0.0072
     }
   ],
   "top_characters": [
     {
-      "name": "시뮬",
-      "mentions": 2,
+      "name": "유저캐",
+      "mentions": 3,
       "rank": 1
     },
     {
-      "name": "처녀가 천박한 농담이 된 시대에",
-      "mentions": 1,
+      "name": "시뮬",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "누나야쓰",
+      "name": "홍보/뉴비대회",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "1/4",
+      "name": "필독",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "인도인",
+      "name": "빌림",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "유틸",
+      "name": "컵케익 프로바이더 매니저",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "AI챗",
+      "name": "조직적인 저작권 침해",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "블리치",
+      "name": "뱅드림",
       "mentions": 1,
       "rank": 8
-    },
-    {
-      "name": "일상",
-      "mentions": 1,
-      "rank": 9
-    },
-    {
-      "name": "철제 무기는 뭐로 만들어지나요?",
-      "mentions": 1,
-      "rank": 10
-    },
-    {
-      "name": "동방",
-      "mentions": 1,
-      "rank": 11
-    },
-    {
-      "name": "에셋",
-      "mentions": 1,
-      "rank": 12
     }
   ],
   "trending_topics": []
