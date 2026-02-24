@@ -8,13 +8,17 @@ interface LayoutProps {
   children: React.ReactNode
 }
 
+const isDeployEnv = typeof window !== 'undefined' &&
+  window.location.hostname !== 'localhost' &&
+  window.location.hostname !== '127.0.0.1';
+
 const navItems = [
-  { path: '/', label: '커뮤니티', icon: Users },
-  { path: '/character-rankings', label: '캐릭터 순위', icon: Trophy },
-  { path: '/app-reviews', label: '리뷰', icon: Message },
-  { path: '/news', label: '뉴스', icon: Article },
-  { path: '/bookmarks', label: '북마크', icon: Bookmarks },
-  { path: '/reports', label: '리포트', icon: ChartBar },
+  { path: '/', label: '커뮤니티', icon: Users, animClass: 'anim-users' },
+  { path: '/character-rankings', label: '캐릭터 순위', icon: Trophy, animClass: 'anim-trophy' },
+  { path: '/app-reviews', label: '리뷰', icon: Message, animClass: 'anim-message' },
+  { path: '/news', label: '뉴스', icon: Article, animClass: 'anim-article' },
+  { path: '/bookmarks', label: '북마크', icon: Bookmarks, animClass: 'anim-bookmarks' },
+  ...(isDeployEnv ? [] : [{ path: '/reports', label: '리포트', icon: ChartBar, animClass: 'anim-chart' }]),
 ]
 
 export default function Layout({ children }: LayoutProps) {
@@ -149,7 +153,7 @@ export default function Layout({ children }: LayoutProps) {
         {/* Navigation */}
         <nav className="sidebar-nav" data-section="navigation">
           <ul className="nav-list">
-            {navItems.map(({ path, label, icon: Icon }) => {
+            {navItems.map(({ path, label, icon: Icon, animClass }) => {
               const isActive = location.pathname === path
               return (
                 <li key={path}>
@@ -163,7 +167,7 @@ export default function Layout({ children }: LayoutProps) {
                     data-nav-item={path}
                     onClick={() => setSidebarOpen(false)}
                   >
-                    <Icon className="w-[18px] h-[18px]" />
+                    <Icon className={`w-[18px] h-[18px] ${animClass}`} />
                     <span>{label}</span>
                   </Link>
                 </li>
@@ -189,13 +193,13 @@ export default function Layout({ children }: LayoutProps) {
             {theme === 'dark' ? (
               <>
                 <span className="force-white-icon flex items-center justify-center">
-                  <Moon className="w-[18px] h-[18px]" />
+                  <Moon className="w-[18px] h-[18px] anim-theme" />
                 </span>
                 <span className="text-white" style={{ color: '#ffffff' }}>Dark Mode</span>
               </>
             ) : (
               <>
-                <Sun className="w-[18px] h-[18px] text-gray-600" />
+                <Sun className="w-[18px] h-[18px] text-gray-600 anim-theme" />
                 <span>Light Mode</span>
               </>
             )}
