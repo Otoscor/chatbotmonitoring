@@ -412,6 +412,10 @@ async def export_app_reviews(session: AsyncSession, output_dir: Path):
     """앱 리뷰 데이터 export"""
     print("📱 앱 리뷰 export 중...")
     
+    from config import get_settings
+    settings = get_settings()
+    configured_app_names = [app['name'] for app in settings.target_apps]
+    
     # 1. 앱 통계 (app_stats.json)
     query = select(
         AppReview.app_name,
@@ -421,38 +425,55 @@ async def export_app_reviews(session: AsyncSession, output_dir: Path):
     
     result = await session.execute(query)
     app_stats = result.all()
+    stats_dict = {stat.app_name: stat for stat in app_stats}
     
     # 각 앱별 통계 상세 계산
     stats_data = []
     
-    for stat in app_stats:
-        app_name = stat.app_name
-        
-        # 별점 분포
-        rating_dist_query = select(
-            AppReview.rating, 
-            func.count(AppReview.id)
-        ).where(AppReview.app_name == app_name).group_by(AppReview.rating)
-        
-        rating_dist_result = await session.execute(rating_dist_query)
-        rating_dist = {r: c for r, c in rating_dist_result.all()}
-        
-        # 플랫폼 분포
-        platform_dist_query = select(
-            AppReview.platform,
-            func.count(AppReview.id)
-        ).where(AppReview.app_name == app_name).group_by(AppReview.platform)
-        
-        platform_dist_result = await session.execute(platform_dist_query)
-        platform_dist = {p: c for p, c in platform_dist_result.all()}
-        
-        stats_data.append({
-            "app_name": app_name,
-            "total_reviews": stat.total_reviews,
-            "average_rating": float(stat.average_rating or 0),
-            "rating_distribution": rating_dist,
-            "platform_distribution": platform_dist
-        })
+    # 설정된 모든 앱에 대해 통계 계산 (DB에 없는 앱도 0 리뷰로 포함)
+    for app_name in configured_app_names:
+        if app_name in stats_dict:
+            stat = stats_dict[app_name]
+            
+            # 별점 분포
+            rating_dist_query = select(
+                AppReview.rating, 
+                func.count(AppReview.id)
+            ).where(AppReview.app_name == app_name).group_by(AppReview.rating)
+            
+            rating_dist_result = await session.execute(rating_dist_query)
+            rating_dist = {r: c for r, c in rating_dist_result.all()}
+            
+            # 플랫폼 분포
+            platform_dist_query = select(
+                AppReview.platform,
+                func.count(AppReview.id)
+            ).where(AppReview.app_name == app_name).group_by(AppReview.platform)
+            
+            platform_dist_result = await session.execute(platform_dist_query)
+            platform_dist = {p: c for p, c in platform_dist_result.all()}
+            
+            stats_data.append({
+                "app_name": app_name,
+                "total_reviews": stat.total_reviews,
+                "average_rating": float(stat.average_rating or 0),
+                "rating_distribution": rating_dist,
+                "platform_distribution": platform_dist
+            })
+        else:
+            stats_data.append({
+                "app_name": app_name,
+                "total_reviews": 0,
+                "average_rating": 0.0,
+                "rating_distribution": {},
+                "platform_distribution": {}
+            })
+            
+    # DB에는 있지만 config에는 없는 앱(이전 크롤링 데이터)도 추가 유지하려면 아래 주석 해제 가능하나 
+    # 요구사항에 명시되지 않았으므로 생략
+    
+    # 리뷰 많은 순으로 다시 정렬
+    stats_data.sort(key=lambda x: x["total_reviews"], reverse=True)
     
     with open(output_dir / "app_stats.json", "w", encoding="utf-8") as f:
         json.dump(stats_data, f, ensure_ascii=False, indent=2)

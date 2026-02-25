@@ -174,6 +174,7 @@ async def get_popular_posts(
     - 추천수(recommend_count) 우선
     - 최근 N일 이내 크롤링된 데이터
     - 공지사항/안내글 자동 제외 (exclude_notices=True)
+    - gallery_id 없으면 갤러리별 균등 쿼터 적용 (독점 방지)
     - 갤러리별 필터링 가능 (gallery_id)
     """
     # 기준 날짜 계산 (최근 N일)
@@ -188,37 +189,61 @@ async def get_popular_posts(
         '전용', '통합',
         '디시콘', '공유전용'
     ]
-    
-    # 더 많은 게시글을 가져와서 필터링 (limit * 5)
-    query = select(Post).where(
-        Post.crawled_at >= cutoff_date
-    )
-    
-    # 갤러리 필터 적용
-    if gallery_id:
-        query = query.where(Post.gallery_id == gallery_id)
-    
-    query = query.order_by(
-        desc(Post.recommend_count),
-        desc(Post.view_count)
-    ).limit(limit * 5)
-    
-    result = await db.execute(query)
-    all_posts = result.scalars().all()
-    
-    # 공지사항 필터링
-    if exclude_notices:
-        filtered_posts = []
-        for post in all_posts:
-            # 제목에 공지 키워드가 포함되어 있는지 확인
-            is_notice = any(keyword in post.title for keyword in notice_keywords)
-            if not is_notice:
-                filtered_posts.append(post)
-                if len(filtered_posts) >= limit:
+
+    def filter_notices(posts, max_count):
+        """공지사항 제외 후 max_count개 반환"""
+        result = []
+        for post in posts:
+            if not any(kw in post.title for kw in notice_keywords):
+                result.append(post)
+                if len(result) >= max_count:
                     break
-        return filtered_posts
-    else:
+        return result
+
+    # ── 특정 갤러리 지정 시: 기존 단일 갤러리 로직 ──
+    if gallery_id:
+        query = select(Post).where(
+            Post.crawled_at >= cutoff_date,
+            Post.gallery_id == gallery_id
+        ).order_by(desc(Post.recommend_count), desc(Post.view_count)).limit(limit * 5)
+        result = await db.execute(query)
+        all_posts = result.scalars().all()
+        if exclude_notices:
+            return filter_notices(all_posts, limit)
         return all_posts[:limit]
+
+    # ── 전체 조회 시: 갤러리별 균등 쿼터제 ──
+    # 갤러리 목록 조회
+    gallery_query = select(Post.gallery_id).where(
+        Post.crawled_at >= cutoff_date
+    ).distinct()
+    gallery_result = await db.execute(gallery_query)
+    gallery_ids = [r[0] for r in gallery_result.fetchall()]
+
+    if not gallery_ids:
+        return []
+
+    # 갤러리당 쿼터: 전체 limit을 갤러리 수로 나눔 (최소 3개)
+    per_gallery = max(3, limit // len(gallery_ids))
+    fetch_per_gallery = per_gallery * 5  # 공지 필터 여유분
+
+    combined = []
+    for gid in gallery_ids:
+        q = select(Post).where(
+            Post.crawled_at >= cutoff_date,
+            Post.gallery_id == gid
+        ).order_by(desc(Post.recommend_count), desc(Post.view_count)).limit(fetch_per_gallery)
+        r = await db.execute(q)
+        posts = r.scalars().all()
+        if exclude_notices:
+            posts = filter_notices(posts, per_gallery)
+        else:
+            posts = list(posts[:per_gallery])
+        combined.extend(posts)
+
+    # 전체 합산 후 추천수 내림차순 정렬
+    combined.sort(key=lambda p: (p.recommend_count, p.view_count), reverse=True)
+    return combined[:limit]
 
 
 @router.get("/posts/{post_id}", response_model=PostResponse)
@@ -996,6 +1021,35 @@ async def crawl_news_endpoint(
 
 
 # ========== 앱 리뷰 API ==========
+
+@router.get("/app-reviews/today", response_model=List[AppReviewResponse])
+async def get_today_app_reviews(
+    db: AsyncSession = Depends(get_db)
+):
+    """오늘 크롤링한 리뷰 조회 (KST 기준 — crawled_at 기준)"""
+    from zoneinfo import ZoneInfo
+    
+    # KST(UTC+9) 기준 오늘 날짜 계산
+    kst = ZoneInfo("Asia/Seoul")
+    now_kst = datetime.now(kst)
+    start_of_day_kst = now_kst.replace(hour=0, minute=0, second=0, microsecond=0)
+    end_of_day_kst = start_of_day_kst + timedelta(days=1)
+    
+    # DB는 UTC로 저장되므로 KST → UTC 변환
+    start_of_day_utc = start_of_day_kst.astimezone(ZoneInfo("UTC")).replace(tzinfo=None)
+    end_of_day_utc = end_of_day_kst.astimezone(ZoneInfo("UTC")).replace(tzinfo=None)
+    
+    # crawled_at이 오늘인 리뷰 조회 (리뷰 작성일은 어제 이전일 수 있음)
+    query = select(AppReview).where(
+        AppReview.crawled_at >= start_of_day_utc,
+        AppReview.crawled_at < end_of_day_utc,
+    ).order_by(AppReview.app_name, desc(AppReview.rating))
+    
+    result = await db.execute(query)
+    reviews = result.scalars().all()
+    
+    return reviews
+
 
 @router.get("/app-reviews", response_model=List[AppReviewResponse])
 async def get_app_reviews(

@@ -85,13 +85,7 @@ class Settings(BaseSettings):
             "app_store_name": "caveduck",
             "country": "kr"
         },
-        {
-            "name": "크랙 (Crack)",
-            "google_play_id": None,
-            "app_store_id": "6740223370",
-            "app_store_name": "crack",
-            "country": "kr"
-        },
+
         {
             "name": "러비더비 (LoveyDovey)",
             "google_play_id": "ai.tain.reelso",  # 실제 패키지명
@@ -99,7 +93,6 @@ class Settings(BaseSettings):
             "app_store_name": "loveydovey-dream-chats",
             "country": "kr"
         },
-
         {
             "name": "로판AI (Rofan AI)",
             "google_play_id": "ai.rofan.app",
@@ -112,6 +105,13 @@ class Settings(BaseSettings):
             "google_play_id": "com.bubbletap.tinglechat",
             "app_store_id": None,  # 검색 필요
             "app_store_name": "tinglechat",
+            "country": "kr"
+        },
+        {
+            "name": "크랙 (Crack)",
+            "google_play_id": "com.wrtn.character",
+            "app_store_id": None,
+            "app_store_name": "wrtn-character",
             "country": "kr"
         }
     ]

@@ -151,16 +151,32 @@ class GoogleNewsCrawler:
             settings = get_settings()
             keywords = settings.news_keywords
         
+        from difflib import SequenceMatcher
+        
         all_articles = []
         seen_urls = set()
+        seen_titles = []
         
         for keyword in keywords:
             articles = await self.search_news(keyword, limit=limit_per_keyword)
             
             # 중복 제거
             for article in articles:
-                if article.url not in seen_urls:
+                if article.url in seen_urls:
+                    continue
+                    
+                # 제목 유사도 검사 (80% 이상 유사하면 중복으로 처리)
+                is_duplicate = False
+                for seen_title in seen_titles:
+                    similarity = SequenceMatcher(None, article.title, seen_title).ratio()
+                    if similarity > 0.8:
+                        is_duplicate = True
+                        logger.debug(f"중복 기사 스킵 (유사도 {similarity:.2f}): {article.title}")
+                        break
+                        
+                if not is_duplicate:
                     seen_urls.add(article.url)
+                    seen_titles.append(article.title)
                     all_articles.append(article)
             
             await asyncio.sleep(self.delay)

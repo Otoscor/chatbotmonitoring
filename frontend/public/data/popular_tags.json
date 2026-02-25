@@ -1,19 +1,23 @@
 [
   {
     "tag": "로맨스",
-    "count": 50
+    "count": 54
   },
   {
     "tag": "순애",
-    "count": 36
+    "count": 37
   },
   {
     "tag": "판타지",
-    "count": 34
+    "count": 33
   },
   {
     "tag": "시뮬레이션",
     "count": 30
+  },
+  {
+    "tag": "언리밋",
+    "count": 21
   },
   {
     "tag": "남성",
@@ -24,16 +28,12 @@
     "count": 20
   },
   {
-    "tag": "언리밋",
-    "count": 18
-  },
-  {
-    "tag": "후회",
-    "count": 16
+    "tag": "hl",
+    "count": 17
   },
   {
     "tag": "츤데레",
-    "count": 16
+    "count": 17
   },
   {
     "tag": "여성",
@@ -48,35 +48,35 @@
     "count": 15
   },
   {
-    "tag": "시뮬",
-    "count": 14
-  },
-  {
     "tag": "게임",
     "count": 14
   },
   {
-    "tag": "hl",
-    "count": 12
+    "tag": "후회",
+    "count": 13
   },
   {
-    "tag": "소꿉친구",
-    "count": 12
-  },
-  {
-    "tag": "추천",
-    "count": 12
+    "tag": "시뮬",
+    "count": 13
   },
   {
     "tag": "현대",
     "count": 12
   },
   {
+    "tag": "bl",
+    "count": 11
+  },
+  {
+    "tag": "추천",
+    "count": 11
+  },
+  {
     "tag": "이세계",
     "count": 11
   },
   {
-    "tag": "HL",
+    "tag": "소꿉친구",
     "count": 10
   }
 ]

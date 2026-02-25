@@ -475,4 +475,12 @@ export const triggerAppReviewCrawl = async () => {
   return data
 }
 
+export const fetchTodayReviews = async (): Promise<AppReview[]> => {
+  if (USE_STATIC_DATA) {
+    return []
+  }
+  const { data } = await api.get('/app-reviews/today')
+  return data
+}
+
 export default api

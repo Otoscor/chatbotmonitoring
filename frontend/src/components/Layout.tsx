@@ -97,11 +97,13 @@ export default function Layout({ children }: LayoutProps) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <img
-          src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'}
-          alt="Logo"
-          className="h-5 w-auto"
-        />
+        <Link to="/">
+          <img
+            src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'}
+            alt="Logo"
+            className="h-5 w-auto"
+          />
+        </Link>
         <button
           type="button"
           onClick={toggleTheme}
@@ -132,11 +134,13 @@ export default function Layout({ children }: LayoutProps) {
       >
         {/* Logo */}
         <div className="sidebar-header" data-section="header">
-          <img
-            src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'}
-            alt="Logo"
-            className="h-6 w-auto"
-          />
+          <Link to="/" onClick={() => setSidebarOpen(false)}>
+            <img
+              src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'}
+              alt="Logo"
+              className="h-6 w-auto"
+            />
+          </Link>
           {/* Close button for mobile */}
           <button
             type="button"

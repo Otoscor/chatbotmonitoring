@@ -5,9 +5,10 @@ interface KeywordItem {
 
 interface KeywordCloudProps {
   keywords: KeywordItem[]
+  className?: string
 }
 
-export default function KeywordCloud({ keywords }: KeywordCloudProps) {
+export default function KeywordCloud({ keywords, className = '' }: KeywordCloudProps) {
   if (keywords.length === 0) {
     return (
       <div className="keyword-cloud--empty" data-component="keyword-cloud" data-state="empty">
@@ -26,8 +27,8 @@ export default function KeywordCloud({ keywords }: KeywordCloudProps) {
   }
 
   return (
-    <div className="keyword-cloud" data-component="keyword-cloud">
-      <div className="keyword-cloud-container">
+    <div className={`keyword-cloud ${className}`} data-component="keyword-cloud">
+      <div className="keyword-cloud-container h-full">
         {keywords.map((keyword, index) => (
           <span
             key={index}

@@ -280,18 +280,20 @@ export default function Dashboard() {
 
       {/* 키워드 분석 */}
       <section className="grid grid-cols-1 lg:grid-cols-3 gap-6" data-section="keywords">
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2 flex flex-col h-full">
           <h3 className="section-title mb-3">인기 키워드</h3>
           <KeywordCloud
+            className="flex-1 h-full"
             keywords={latestReport?.top_keywords?.map((k: any) => ({
               text: k.keyword,
               value: k.count
             })) || []}
           />
         </div>
-        <div>
+        <div className="flex flex-col h-full">
           <h3 className="section-title mb-3">키워드 순위</h3>
           <RankingList
+            className="flex-1 h-full"
             title="TOP 10"
             items={latestReport?.top_keywords?.slice(0, 10).map((k: any, idx: number) => ({
               rank: idx + 1,
