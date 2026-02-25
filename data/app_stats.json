@@ -1,17 +1,17 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 1159,
-    "average_rating": 3.1044003451251077,
+    "total_reviews": 1160,
+    "average_rating": 3.1051724137931034,
     "rating_distribution": {
       "1": 308,
       "2": 130,
       "3": 183,
-      "4": 209,
+      "4": 210,
       "5": 329
     },
     "platform_distribution": {
-      "google_play": 1159
+      "google_play": 1160
     }
   },
   {
@@ -88,5 +88,26 @@
     "platform_distribution": {
       "google_play": 106
     }
+  },
+  {
+    "app_name": "루나톡 (Lunatalk)",
+    "total_reviews": 0,
+    "average_rating": 0.0,
+    "rating_distribution": {},
+    "platform_distribution": {}
+  },
+  {
+    "app_name": "로판AI (Rofan AI)",
+    "total_reviews": 0,
+    "average_rating": 0.0,
+    "rating_distribution": {},
+    "platform_distribution": {}
+  },
+  {
+    "app_name": "크랙 (Crack)",
+    "total_reviews": 0,
+    "average_rating": 0.0,
+    "rating_distribution": {},
+    "platform_distribution": {}
   }
 ]

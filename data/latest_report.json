@@ -1,160 +1,160 @@
 {
   "id": 19,
   "report_date": "2026-02-23T08:28:19.010947",
-  "total_posts": 415,
-  "total_views": 35982,
-  "total_recommends": 288,
-  "total_comments": 1115,
+  "total_posts": 470,
+  "total_views": 37879,
+  "total_recommends": 298,
+  "total_comments": 1356,
   "top_keywords": [
     {
       "keyword": "잼삼일",
-      "count": 16,
-      "score": 0.0346
-    },
-    {
-      "keyword": "진짜",
-      "count": 12,
-      "score": 0.026
+      "count": 18,
+      "score": 0.0319
     },
     {
       "keyword": "너무",
       "count": 14,
-      "score": 0.0226
+      "score": 0.0232
+    },
+    {
+      "keyword": "진짜",
+      "count": 13,
+      "score": 0.0231
     },
     {
       "keyword": "이거",
-      "count": 11,
-      "score": 0.0218
+      "count": 13,
+      "score": 0.0205
     },
     {
       "keyword": "아니",
-      "count": 9,
-      "score": 0.0178
+      "count": 10,
+      "score": 0.0187
     },
     {
       "keyword": "단테",
       "count": 8,
-      "score": 0.017
+      "score": 0.015
     },
     {
       "keyword": "다이브",
       "count": 8,
-      "score": 0.0166
-    },
-    {
-      "keyword": "지금",
-      "count": 6,
-      "score": 0.0138
+      "score": 0.0147
     },
     {
       "keyword": "원래",
-      "count": 6,
-      "score": 0.013
-    },
-    {
-      "keyword": "ai",
-      "count": 5,
-      "score": 0.0129
+      "count": 7,
+      "score": 0.0135
     },
     {
       "keyword": "있음",
       "count": 6,
-      "score": 0.0129
+      "score": 0.0121
     },
     {
       "keyword": "하챗",
+      "count": 7,
+      "score": 0.012
+    },
+    {
+      "keyword": "ai",
+      "count": 5,
+      "score": 0.0114
+    },
+    {
+      "keyword": "지금",
       "count": 6,
-      "score": 0.0121
+      "score": 0.0108
     },
     {
       "keyword": "뤼비",
       "count": 5,
-      "score": 0.012
+      "score": 0.0106
     },
     {
       "keyword": "젬이오",
       "count": 5,
-      "score": 0.0112
+      "score": 0.0106
     },
     {
       "keyword": "뭔가",
-      "count": 5,
-      "score": 0.0106
+      "count": 6,
+      "score": 0.0096
     },
     {
       "keyword": "상태창",
       "count": 5,
-      "score": 0.0103
+      "score": 0.0091
     },
     {
       "keyword": "내가",
       "count": 5,
-      "score": 0.0102
+      "score": 0.009
     },
     {
       "keyword": "이제",
       "count": 5,
-      "score": 0.0102
+      "score": 0.009
     },
     {
       "keyword": "존나",
       "count": 5,
-      "score": 0.01
-    },
-    {
-      "keyword": "유저캐",
-      "count": 4,
-      "score": 0.0096
+      "score": 0.0088
     },
     {
       "keyword": "있는",
       "count": 5,
-      "score": 0.0091
+      "score": 0.0083
+    },
+    {
+      "keyword": "뉴비",
+      "count": 4,
+      "score": 0.0079
     },
     {
       "keyword": "얼헌",
       "count": 4,
-      "score": 0.009
+      "score": 0.0079
+    },
+    {
+      "keyword": "유저캐",
+      "count": 4,
+      "score": 0.0079
     },
     {
       "keyword": "잼삼이",
       "count": 4,
-      "score": 0.0089
+      "score": 0.0079
     },
     {
       "keyword": "윶캐",
       "count": 4,
-      "score": 0.0086
+      "score": 0.0076
     },
     {
       "keyword": "하이퍼챗",
       "count": 4,
-      "score": 0.0082
+      "score": 0.0073
+    },
+    {
+      "keyword": "나도",
+      "count": 4,
+      "score": 0.0071
     },
     {
       "keyword": "정말",
       "count": 4,
-      "score": 0.0077
+      "score": 0.0068
     },
     {
-      "keyword": "있어",
+      "keyword": "어케",
       "count": 4,
-      "score": 0.0075
+      "score": 0.0067
     },
     {
-      "keyword": "시발",
-      "count": 3,
-      "score": 0.0072
-    },
-    {
-      "keyword": "어제",
-      "count": 3,
-      "score": 0.0072
-    },
-    {
-      "keyword": "이건",
-      "count": 3,
-      "score": 0.0072
+      "keyword": "갑자기",
+      "count": 4,
+      "score": 0.0066
     }
   ],
   "top_characters": [
@@ -197,7 +197,42 @@
       "name": "뱅드림",
       "mentions": 1,
       "rank": 8
+    },
+    {
+      "name": "에셋",
+      "mentions": 1,
+      "rank": 9
+    },
+    {
+      "name": "일주일. 고작 그정도였나...",
+      "mentions": 1,
+      "rank": 10
     }
   ],
-  "trending_topics": []
+  "trending_topics": [
+    {
+      "topic": "뉴비",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "나도",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "갑자기",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "어케",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    }
+  ]
 }
