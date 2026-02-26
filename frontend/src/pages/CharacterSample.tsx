@@ -555,7 +555,7 @@ export default function CharacterSample() {
         <div className="flex flex-col items-center gap-3">
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
-            <div className="flex flex-col items-center gap-3">
+            <div className="w-full">
               <form onSubmit={handlePasswordSubmit} className="flex items-center gap-2">
                 {/* 비밀번호 입력 컨테이너 */}
                 <div className="flex flex-1 items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
@@ -589,7 +589,7 @@ export default function CharacterSample() {
                 </button>
               </form>
               {passwordError && (
-                <p className="text-sm text-red-600 dark:text-red-400 flex items-center gap-1">
+                <p className="mt-3 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1">
                   <AlertCircle className="w-4 h-4" />
                   {passwordError}
                 </p>
