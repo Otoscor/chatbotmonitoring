@@ -556,10 +556,10 @@ export default function CharacterSample() {
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
             <div className="w-full">
-              <form onSubmit={handlePasswordSubmit} className="flex items-center gap-2">
+              <form onSubmit={handlePasswordSubmit} className="flex items-stretch gap-2">
                 {/* 비밀번호 입력 컨테이너 */}
                 <div className="flex flex-1 items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
-                  <Lock className="w-4 h-4 text-gray-400" />
+                  <Lock className="w-4 h-4 text-gray-400 flex-shrink-0" />
                   <input
                     type="password"
                     value={password}
@@ -568,22 +568,24 @@ export default function CharacterSample() {
                       setPasswordError('')
                     }}
                     placeholder="비밀번호를 입력하세요"
-                    className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm"
+                    className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm p-3"
                     autoFocus
                   />
-                  <button
-                    type="button"
-                    onClick={handleCancelPassword}
-                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
-                    title="취소"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
+                  {password && (
+                    <button
+                      type="button"
+                      onClick={handleCancelPassword}
+                      className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors flex-shrink-0"
+                      title="취소"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
                 </div>
                 {/* 확인 버튼 */}
                 <button
                   type="submit"
-                  className="px-6 py-3 bg-white dark:bg-white text-black border border-gray-200 dark:border-gray-800 rounded hover:bg-gray-50 transition-colors font-medium"
+                  className="px-6 bg-white dark:bg-white text-black border border-gray-200 dark:border-gray-800 rounded hover:bg-gray-50 transition-colors font-medium"
                 >
                   확인
                 </button>
