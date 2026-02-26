@@ -568,7 +568,7 @@ export default function CharacterSample() {
                       setPasswordError('')
                     }}
                     placeholder="비밀번호를 입력하세요"
-                    className="bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm w-48"
+                    className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm"
                     autoFocus
                   />
                   <button
