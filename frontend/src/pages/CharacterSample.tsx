@@ -456,7 +456,13 @@ export default function CharacterSample() {
     handleGenerate(enteredPassword)
   }
 
-  // 비밀번호 모달 닫기
+  // 비밀번호 값 지우기 (X 버튼)
+  const handleClearPassword = () => {
+    setPassword('')
+    setPasswordError('')
+  }
+
+  // 비밀번호 입력 모드 종료 (외부 클릭)
   const handleCancelPassword = () => {
     setShowPasswordInput(false)
     setPassword('')
@@ -555,8 +561,8 @@ export default function CharacterSample() {
         <div className="flex flex-col items-center gap-3">
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
-            <div className="w-full">
-              <form onSubmit={handlePasswordSubmit} className="flex items-stretch gap-2">
+            <div className="w-full" onClick={handleCancelPassword}>
+              <form onSubmit={handlePasswordSubmit} className="flex items-stretch gap-2" onClick={(e) => e.stopPropagation()}>
                 {/* 비밀번호 입력 컨테이너 */}
                 <div className="flex flex-1 items-center gap-2 h-14 px-6 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
                   <Lock className="w-4 h-full text-gray-400 flex-shrink-0" />
@@ -574,9 +580,9 @@ export default function CharacterSample() {
                   {password && (
                     <button
                       type="button"
-                      onClick={handleCancelPassword}
+                      onClick={handleClearPassword}
                       className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors flex-shrink-0 h-full"
-                      title="취소"
+                      title="지우기"
                     >
                       <X className="w-4 h-4" />
                     </button>
@@ -591,7 +597,7 @@ export default function CharacterSample() {
                 </button>
               </form>
               {passwordError && (
-                <p className="mt-3 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1">
+                <p className="mt-3 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1" onClick={(e) => e.stopPropagation()}>
                   <AlertCircle className="w-4 h-4" />
                   {passwordError}
                 </p>
