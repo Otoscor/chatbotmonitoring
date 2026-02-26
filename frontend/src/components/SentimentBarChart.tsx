@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import * as d3 from 'd3'
+import { useTheme } from '../hooks/useTheme'
 
 interface KeywordItem {
     text: string
@@ -14,6 +15,7 @@ interface SentimentBarChartProps {
 export default function SentimentBarChart({ keywords, maxItems = 10 }: SentimentBarChartProps) {
     const containerRef = useRef<HTMLDivElement>(null)
     const svgRef = useRef<SVGSVGElement>(null)
+    const { isDark } = useTheme()
 
     useEffect(() => {
         if (!keywords || keywords.length === 0 || !svgRef.current || !containerRef.current) return
@@ -39,10 +41,6 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
 
         svg.attr('width', containerWidth).attr('height', height)
 
-        // Check dark mode
-        const isDarkMode = document.documentElement.classList.contains('dark') ||
-            window.matchMedia('(prefers-color-scheme: dark)').matches
-
         // Create scales
         const xScale = d3.scaleLinear()
             .domain([0, d3.max(sortedData, d => d.value) || 1])
@@ -60,7 +58,7 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
             .attr('x1', '0%')
             .attr('x2', '100%')
 
-        if (isDarkMode) {
+        if (isDark) {
             gradient.append('stop').attr('offset', '0%').attr('stop-color', '#525252')
             gradient.append('stop').attr('offset', '100%').attr('stop-color', '#737373')
         } else {
@@ -76,12 +74,12 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
             .attr('class', 'bar-tooltip')
             .style('position', 'absolute')
             .style('visibility', 'hidden')
-            .style('background-color', isDarkMode ? '#1a1a1a' : '#ffffff')
-            .style('border', `1px solid ${isDarkMode ? '#333' : '#e5e7eb'}`)
+            .style('background-color', isDark ? '#1a1a1a' : '#ffffff')
+            .style('border', `1px solid ${isDark ? '#333' : '#e5e7eb'}`)
             .style('padding', '8px 12px')
             .style('border-radius', '4px')
             .style('font-size', '12px')
-            .style('color', isDarkMode ? '#ffffff' : '#111827')
+            .style('color', isDark ? '#ffffff' : '#111827')
             .style('pointer-events', 'none')
             .style('z-index', '9999')
             .style('box-shadow', '0 2px 8px rgba(0,0,0,0.15)')
@@ -139,7 +137,7 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
             .attr('dy', '0.35em')
             .attr('text-anchor', 'end')
             .style('font-size', '12px')
-            .style('fill', isDarkMode ? '#a3a3a3' : '#4b5563')
+            .style('fill', isDark ? '#a3a3a3' : '#4b5563')
             .text(d => {
                 const maxLen = 12
                 return d.text.length > maxLen ? d.text.slice(0, maxLen) + '…' : d.text
@@ -160,7 +158,7 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
             .attr('dy', '0.35em')
             .style('font-size', '11px')
             .style('font-weight', '500')
-            .style('fill', isDarkMode ? '#737373' : '#6b7280')
+            .style('fill', isDark ? '#737373' : '#6b7280')
             .text(d => d.value.toLocaleString())
             .style('opacity', 0)
             .transition()
@@ -172,7 +170,7 @@ export default function SentimentBarChart({ keywords, maxItems = 10 }: Sentiment
         return () => {
             tooltip.remove()
         }
-    }, [keywords, maxItems])
+    }, [keywords, maxItems, isDark])
 
     if (!keywords || keywords.length === 0) {
         return (

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { useSpring, animated, config } from '@react-spring/web'
 import { useGesture } from '@use-gesture/react'
+import { useTheme } from '../hooks/useTheme'
 
 interface BubbleItem {
     text: string
@@ -19,6 +20,7 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
     const gRef = useRef<SVGGElement>(null)
     const [dimensions, setDimensions] = useState({ width: 600, height: 300 })
     const scaleRef = useRef(1) // Track scale in ref for wheel handler
+    const { isDark } = useTheme()
 
     // Spring state for transform (x, y, scale)
     const [{ x, y, scale }, api] = useSpring(() => ({
@@ -125,13 +127,10 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
         simulation.stop() // Stop simulation to prevent continuous updates
 
         // Color helpers
-        const isDarkMode = document.documentElement.classList.contains('dark') ||
-            window.matchMedia('(prefers-color-scheme: dark)').matches
-
         const getFillColor = (d: any) => {
             const sentiment = d.sentiment
             if (typeof sentiment === 'undefined') {
-                if (isDarkMode) {
+                if (isDark) {
                     const scale = d3.scaleLinear<string>().domain([0, maxValue]).range(['#404040', '#a3a3a3'])
                     return scale(d.value)
                 } else {
@@ -141,7 +140,7 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
             }
             if (sentiment >= 0.3) return '#ACFFC4'
             if (sentiment <= -0.3) return '#FFACAC'
-            return isDarkMode ? '#525252' : '#9ca3af'
+            return isDark ? '#525252' : '#9ca3af'
         }
 
         const getOpacity = (d: any) => {
@@ -158,12 +157,12 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
             .attr('class', 'bubble-tooltip')
             .style('position', 'absolute')
             .style('visibility', 'hidden')
-            .style('background-color', isDarkMode ? '#1a1a1a' : '#ffffff')
-            .style('border', `1px solid ${isDarkMode ? '#333' : '#e5e7eb'}`)
+            .style('background-color', isDark ? '#1a1a1a' : '#ffffff')
+            .style('border', `1px solid ${isDark ? '#333' : '#e5e7eb'}`)
             .style('padding', '8px 12px')
             .style('border-radius', '4px')
             .style('font-size', '12px')
-            .style('color', isDarkMode ? '#ffffff' : '#111827')
+            .style('color', isDark ? '#ffffff' : '#111827')
             .style('pointer-events', 'none')
             .style('z-index', '9999')
             .style('box-shadow', '0 2px 8px rgba(0,0,0,0.15)')
@@ -200,7 +199,7 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
                 if (typeof sentiment !== 'undefined' && Math.abs(sentiment) >= 0.3) {
                     return '#1f2937'
                 }
-                if (isDarkMode) return '#ffffff'
+                if (isDark) return '#ffffff'
                 const maxVal = d3.max(keywords, k => k.value) || 1
                 return d.value > maxVal * 0.5 ? '#ffffff' : '#1f2937'
             })
@@ -265,7 +264,7 @@ export default function BubbleChart({ keywords }: BubbleChartProps) {
             simulation.stop()
             tooltip.remove()
         }
-    }, [keywords])
+    }, [keywords, isDark])
 
     if (!keywords || keywords.length === 0) {
         return (

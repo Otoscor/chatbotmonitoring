@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from config import get_settings
 from models.database import init_db
-from api.routes import router
+from api.routes import router  # 리팩토링된 라우터 (routes/__init__.py)
 
 
 @asynccontextmanager

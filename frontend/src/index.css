@@ -94,6 +94,10 @@
     animation: scale-up-chart 0.4s ease;
   }
 
+  .nav-item:hover .anim-sparkles {
+    animation: zap-flash 0.5s ease;
+  }
+
   .nav-item:hover .anim-theme {
     animation: spin-slow 1s ease;
   }
@@ -195,6 +199,28 @@
 
     100% {
       transform: rotate(180deg);
+    }
+  }
+
+  @keyframes zap-flash {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+
+    25% {
+      transform: scale(1.2) rotate(-8deg);
+    }
+
+    50% {
+      transform: scale(1.1) rotate(8deg);
+    }
+
+    75% {
+      transform: scale(1.2) rotate(-5deg);
+    }
+
+    100% {
+      transform: scale(1) rotate(0deg);
     }
   }
 
@@ -908,6 +934,52 @@ body {
 
 .glow-mint {
   box-shadow: 0 0 30px rgba(58, 224, 174, 0.3);
+}
+
+/* ================================
+   D3 차트 공통 스타일
+   ================================ */
+
+/* D3 툴팁 공통 스타일 */
+.d3-tooltip {
+  position: absolute;
+  visibility: hidden;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.d3-tooltip {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+}
+
+.dark .d3-tooltip {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+/* ================================
+   애니메이션
+   ================================ */
+
+/* 슬라이드업 애니메이션 (바텀시트용) */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
 }
 
 /* ================================

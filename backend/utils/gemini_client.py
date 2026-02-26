@@ -104,12 +104,26 @@ def create_prompt(tags: List[str], reference_characters: List[Dict], count: int)
 2. **작품 소개글 (description)**: 작품 전체를 소개하는 매력적인 문구 (100자 이상)
 3. **캐릭터명 (name)**: 태그와 어울리는 매력적인 이름
 4. **캐릭터 프로필 (profile)**: 외모, 성격, 말투를 포함한 상세 프로필 (200자 이상)
-5. **배경 소개글 (backgroundIntro)**: 세계관 배경 간단 소개 (50자 이상)
-6. **세계관 프롬프트 (worldPrompt)**: AI에게 전달할 세계관 시스템 프롬프트 (150자 이상, 구체적인 설정 포함)
-7. **첫날 상황 (firstDaySituation)**: 유저와 캐릭터가 처음 만나는 상황 설명 (100자 이상)
-8. **시작 메시지 (openingMessage)**: 캐릭터가 유저에게 보내는 첫 대사 (캐릭터의 말투와 성격이 드러나도록)
-9. **대표 장르 (genre)**: 로맨스, 판타지, 드라마, 무협, 공포, 스포츠, 기타 중 택1
-10. **해시태그 (hashtags)**: 검색용 해시태그 5개 (배열 형태)
+5. **외모 묘사 프롬프트 (appearancePrompt)**: Midjourney 이미지 생성용 영어 프롬프트 (아래 형식 참고)
+6. **배경 소개글 (backgroundIntro)**: 세계관 배경 간단 소개 (50자 이상)
+7. **세계관 프롬프트 (worldPrompt)**: AI에게 전달할 세계관 시스템 프롬프트 (150자 이상, 구체적인 설정 포함)
+8. **첫날 상황 (firstDaySituation)**: 유저와 캐릭터가 처음 만나는 상황 설명 (100자 이상)
+9. **시작 메시지 (openingMessage)**: 캐릭터가 유저에게 보내는 첫 대사 (캐릭터의 말투와 성격이 드러나도록)
+10. **대표 장르 (genre)**: 로맨스, 판타지, 드라마, 무협, 공포, 스포츠, 기타 중 택1
+11. **해시태그 (hashtags)**: 검색용 해시태그 5개 (배열 형태)
+
+## appearancePrompt 작성 가이드 (Midjourney용)
+반드시 영어로 작성하며, 다음 구조를 따르세요:
+- **Subject**: 캐릭터 기본 정보 (성별, 나이대, 전체적인 인상)
+- **Face**: 얼굴형, 눈 색상/형태, 코, 입술, 피부톤
+- **Hair**: 머리 색상, 길이, 스타일, 질감
+- **Body**: 체형, 키, 특징적인 신체 요소
+- **Clothing**: 의상 스타일, 색상, 액세서리
+- **Expression/Pose**: 표정, 자세, 분위기
+- **Style keywords**: 아트 스타일 (예: anime style, semi-realistic, illustration)
+- **Quality keywords**: high quality, detailed, masterpiece
+
+예시: "A young man in his early 20s with sharp features, pale skin, piercing crimson eyes, long silver hair flowing past shoulders, tall slender build, wearing a dark military uniform with gold epaulettes, confident smirk, arms crossed, anime style, high quality, detailed portrait, dramatic lighting"
 
 ## 응답 형식 (JSON)
 ```json
@@ -119,6 +133,7 @@ def create_prompt(tags: List[str], reference_characters: List[Dict], count: int)
     "description": "작품 소개글",
     "name": "캐릭터 이름",
     "profile": "외모, 성격, 말투를 포함한 상세 프로필",
+    "appearancePrompt": "Midjourney portrait prompt in English describing character appearance",
     "backgroundIntro": "세계관 배경 소개",
     "worldPrompt": "AI 시스템 프롬프트용 세계관 설정",
     "firstDaySituation": "첫 만남 상황 설명",
@@ -155,7 +170,7 @@ def parse_generated_samples(text: str, expected_count: int) -> List[Dict]:
 
         # 필수 필드 확인
         required_fields = [
-            "title", "description", "name", "profile", "backgroundIntro",
+            "title", "description", "name", "profile", "appearancePrompt", "backgroundIntro",
             "worldPrompt", "firstDaySituation", "openingMessage", "genre", "hashtags"
         ]
         for sample in samples:
@@ -176,6 +191,7 @@ def parse_generated_samples(text: str, expected_count: int) -> List[Dict]:
             "description": "Gemini API 응답 파싱에 실패했습니다.",
             "name": f"캐릭터 {i+1}",
             "profile": "생성 실패",
+            "appearancePrompt": "Generation failed",
             "backgroundIntro": "생성 실패",
             "worldPrompt": "생성 실패",
             "firstDaySituation": "생성 실패",

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { useSpring, animated, config } from '@react-spring/web'
 import { useGesture } from '@use-gesture/react'
+import { useTheme } from '../hooks/useTheme'
 
 interface NetworkNode {
     id: string
@@ -29,6 +30,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
     const gRef = useRef<SVGGElement>(null)
     const [dimensions, setDimensions] = useState({ width: 600, height: 320 })
     const scaleRef = useRef(2) // Track scale in ref for wheel handler (initial scale = 2)
+    const { isDark } = useTheme()
 
     // Spring state for transform (x, y, scale)
     const [{ x, y, scale }, api] = useSpring(() => ({
@@ -140,10 +142,6 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
         // Clear previous content
         contentGroup.selectAll('*').remove()
 
-        // Check dark mode
-        const isDarkMode = document.documentElement.classList.contains('dark') ||
-            window.matchMedia('(prefers-color-scheme: dark)').matches
-
         // Prepare nodes from keywords
         const nodes: NetworkNode[] = keywords.map(k => ({
             id: k.text,
@@ -187,19 +185,19 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
 
         const colorScale = d3.scaleLinear<string>()
             .domain([0, maxValue])
-            .range(isDarkMode ? ['#404040', '#a3a3a3'] : ['#d4d4d4', '#525252'])
+            .range(isDark ? ['#404040', '#a3a3a3'] : ['#d4d4d4', '#525252'])
 
         // Create tooltip
         const tooltip = d3.select('body').append('div')
             .attr('class', 'network-tooltip')
             .style('position', 'absolute')
             .style('visibility', 'hidden')
-            .style('background-color', isDarkMode ? '#1a1a1a' : '#ffffff')
-            .style('border', `1px solid ${isDarkMode ? '#333' : '#e5e7eb'}`)
+            .style('background-color', isDark ? '#1a1a1a' : '#ffffff')
+            .style('border', `1px solid ${isDark ? '#333' : '#e5e7eb'}`)
             .style('padding', '8px 12px')
             .style('border-radius', '4px')
             .style('font-size', '12px')
-            .style('color', isDarkMode ? '#ffffff' : '#111827')
+            .style('color', isDark ? '#ffffff' : '#111827')
             .style('pointer-events', 'none')
             .style('z-index', '9999')
             .style('box-shadow', '0 2px 8px rgba(0,0,0,0.15)')
@@ -219,7 +217,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
             .selectAll('line')
             .data(links)
             .join('line')
-            .attr('stroke', isDarkMode ? '#333' : '#e5e7eb')
+            .attr('stroke', isDark ? '#333' : '#e5e7eb')
             .attr('stroke-width', 1)
             .attr('stroke-opacity', 0.6)
 
@@ -253,7 +251,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
         node.append('circle')
             .attr('r', 0)
             .attr('fill', d => colorScale(d.value))
-            .attr('stroke', isDarkMode ? '#525252' : '#e5e7eb')
+            .attr('stroke', isDark ? '#525252' : '#e5e7eb')
             .attr('stroke-width', 1.5)
             .transition()
             .duration(600)
@@ -271,7 +269,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
             .style('font-size', d => `${Math.min(sizeScale(d.value) / 2.5, 11)}px`)
             .style('fill', d => {
                 const threshold = maxValue * 0.5
-                return isDarkMode
+                return isDark
                     ? (d.value > threshold ? '#1a1a1a' : '#ffffff')
                     : (d.value > threshold ? '#ffffff' : '#374151')
             })
@@ -289,7 +287,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
                 .transition()
                 .duration(150)
                 .attr('stroke-width', 3)
-                .attr('stroke', isDarkMode ? '#a3a3a3' : '#374151')
+                .attr('stroke', isDark ? '#a3a3a3' : '#374151')
 
             link
                 .attr('stroke-opacity', l =>
@@ -311,7 +309,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
                     .transition()
                     .duration(150)
                     .attr('stroke-width', 1.5)
-                    .attr('stroke', isDarkMode ? '#525252' : '#e5e7eb')
+                    .attr('stroke', isDark ? '#525252' : '#e5e7eb')
 
                 link
                     .attr('stroke-opacity', 0.6)
@@ -348,7 +346,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
             simulation.stop()
             tooltip.remove()
         }
-    }, [keywords])
+    }, [keywords, isDark])
 
     if (!keywords || keywords.length === 0) {
         return (

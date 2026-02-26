@@ -34,6 +34,41 @@ const fetchStaticData = async <T>(filename: string): Promise<T> => {
   return response.json()
 }
 
+// API 파라미터 타입 정의
+interface PopularPostsParams {
+  limit: number
+  days: number
+  gallery_id?: string
+}
+
+interface ChatCharactersParams {
+  limit: number
+  service?: string
+}
+
+interface PopularTagsParams {
+  limit: number
+  service?: string
+}
+
+interface NewsParams {
+  limit: number
+  skip: number
+  source?: string
+  keyword?: string
+}
+
+interface BookmarksParams {
+  skip: number
+  limit: number
+  category?: string
+}
+
+interface AppReviewsParams {
+  limit: number
+  app_name?: string
+}
+
 // 타입 정의
 export interface Post {
   id: number
@@ -132,7 +167,7 @@ export const fetchPopularPosts = async (limit = 15, days = 7, galleryId?: string
     }
     return allPosts.slice(0, limit)
   }
-  const params: any = { limit, days }
+  const params: PopularPostsParams = { limit, days }
   if (galleryId) {
     params.gallery_id = galleryId
   }
@@ -214,7 +249,7 @@ export const fetchChatServiceCharacters = async (service?: string, limit = 150):
     }
     return allCharacters.slice(0, limit)
   }
-  const params: any = { limit }
+  const params: ChatCharactersParams = { limit }
   if (service) {
     params.service = service
   }
@@ -241,7 +276,7 @@ export const fetchPopularTags = async (limit = 20, service?: string): Promise<Po
     // 정적 모드에서는 서비스 필터링 미지원
     return allTags.slice(0, limit)
   }
-  const params: any = { limit }
+  const params: PopularTagsParams = { limit }
   if (service) params.service = service
   const { data } = await api.get('/characters/popular-tags', { params })
   return data
@@ -323,7 +358,7 @@ export const fetchNews = async (
     // 페이지네이션
     return filtered.slice(skip, skip + limit)
   }
-  const params: Record<string, any> = { limit, skip }
+  const params: NewsParams = { limit, skip }
   if (source) params.source = source
   if (keyword) params.keyword = keyword
   const { data } = await api.get('/news', { params })
@@ -376,7 +411,7 @@ export const fetchBookmarks = async (skip = 0, limit = 50, category?: string) =>
     }
     return filtered.slice(skip, skip + limit)
   }
-  const params: any = { skip, limit }
+  const params: BookmarksParams = { skip, limit }
   if (category) {
     params.category = category
   }
@@ -451,7 +486,7 @@ export const fetchAppReviews = async (appName?: string, limit = 100): Promise<Ap
     }
     return allReviews.slice(0, limit)
   }
-  const params: any = { limit }
+  const params: AppReviewsParams = { limit }
   if (appName) params.app_name = appName
   const { data } = await api.get('/app-reviews', { params })
   return data
@@ -461,7 +496,7 @@ export const fetchAppKeywords = async (appName?: string, limit = 20): Promise<Ke
   if (USE_STATIC_DATA) {
     return fetchStaticData<KeywordTrend[]>('app_keywords.json')
   }
-  const params: any = { limit }
+  const params: AppReviewsParams = { limit }
   if (appName) params.app_name = appName
   const { data } = await api.get('/app-reviews/keywords', { params })
   return data
@@ -490,6 +525,7 @@ export interface CharacterSample {
   description: string        // 작품 소개글
   name: string               // 캐릭터명
   profile: string            // 캐릭터 프로필 (외모+성격+말투)
+  appearancePrompt?: string  // 미드저니용 외모 묘사 프롬프트 (영어)
   backgroundIntro: string    // 배경 소개글
   worldPrompt: string        // 세계관 프롬프트
   firstDaySituation: string  // 첫날 상황

@@ -3,6 +3,7 @@ import { useApi } from '../hooks/useApi'
 import { fetchChatServiceCharacters, fetchPopularTags, ChatServiceCharacter, PopularTag } from '../utils/api'
 import NetworkGraph from '../components/NetworkGraph'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { CHARACTER_RANKING } from '../config'
 
 // 서비스 설정
 const SERVICE_CONFIG = [
@@ -14,7 +15,7 @@ const SERVICE_CONFIG = [
   { id: 'caveduck', label: 'Caveduck', subtext: '랭킹', directLink: true }
 ]
 
-const ITEMS_PER_PAGE = 4
+const { ITEMS_PER_PAGE } = CHARACTER_RANKING
 
 export default function CharacterRankings() {
   const [currentPage, setCurrentPage] = useState(0)
