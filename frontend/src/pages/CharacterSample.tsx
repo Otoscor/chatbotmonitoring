@@ -1,4 +1,4 @@
-import { useCallback, useState, useMemo, useEffect } from 'react'
+import { useCallback, useState, useMemo, useEffect, useRef } from 'react'
 import { useApi } from '../hooks/useApi'
 import { fetchChatServiceCharacters, ChatServiceCharacter, generateCharacterSamples, PasswordRequiredError } from '../utils/api'
 import { RefreshCw, AlertCircle, Download, Save, ChevronDown, ChevronRight, Trash2, X, FolderOpen, Lock } from 'lucide-react'
@@ -271,10 +271,25 @@ export default function CharacterSample() {
   const [password, setPassword] = useState('')
   const [passwordError, setPasswordError] = useState('')
   const [pendingTagPairs, setPendingTagPairs] = useState<string[][] | null>(null)
+  const passwordFormRef = useRef<HTMLDivElement>(null)
 
   const { data: characters, loading } = useApi(
     useCallback(() => fetchChatServiceCharacters(undefined, 180), [])
   )
+
+  // 비밀번호 입력 폼 외부 클릭 감지
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (showPasswordInput && passwordFormRef.current && !passwordFormRef.current.contains(event.target as Node)) {
+        handleCancelPassword()
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [showPasswordInput])
 
   // CSV 다운로드 함수
   const downloadCSV = (sample: GeneratedSample | SavedSample) => {
@@ -561,8 +576,8 @@ export default function CharacterSample() {
         <div className="flex flex-col items-center gap-3">
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
-            <div className="w-full" onClick={handleCancelPassword}>
-              <form onSubmit={handlePasswordSubmit} className="flex items-stretch gap-2" onClick={(e) => e.stopPropagation()}>
+            <div className="w-full" ref={passwordFormRef}>
+              <form onSubmit={handlePasswordSubmit} className="flex items-stretch gap-2">
                 {/* 비밀번호 입력 컨테이너 */}
                 <div className="flex flex-1 items-center gap-2 h-14 px-6 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
                   <Lock className="w-4 h-full text-gray-400 flex-shrink-0" />
@@ -597,7 +612,7 @@ export default function CharacterSample() {
                 </button>
               </form>
               {passwordError && (
-                <p className="mt-3 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1" onClick={(e) => e.stopPropagation()}>
+                <p className="mt-3 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1">
                   <AlertCircle className="w-4 h-4" />
                   {passwordError}
                 </p>
