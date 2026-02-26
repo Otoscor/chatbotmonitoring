@@ -483,4 +483,33 @@ export const fetchTodayReviews = async (): Promise<AppReview[]> => {
   return data
 }
 
+// ========== 캐릭터 샘플 API ==========
+export interface CharacterSample {
+  id: number
+  title: string              // 작품 제목
+  description: string        // 작품 소개글
+  name: string               // 캐릭터명
+  profile: string            // 캐릭터 프로필 (외모+성격+말투)
+  backgroundIntro: string    // 배경 소개글
+  worldPrompt: string        // 세계관 프롬프트
+  firstDaySituation: string  // 첫날 상황
+  openingMessage: string     // 시작 메시지
+  genre: string              // 대표 장르
+  hashtags: string[]         // 해시태그
+  tags: string[]             // 기존 태그 (호환용)
+  basedOn: string[]          // 참고 캐릭터
+}
+
+export const generateCharacterSamples = async (
+  tagCombinations: string[][]
+): Promise<CharacterSample[]> => {
+  if (USE_STATIC_DATA) {
+    throw new Error('정적 모드에서는 캐릭터 샘플 생성을 사용할 수 없습니다.')
+  }
+  const { data } = await api.post('/character-samples/generate', {
+    tag_combinations: tagCombinations
+  })
+  return data.samples
+}
+
 export default api

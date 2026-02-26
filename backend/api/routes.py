@@ -1406,9 +1406,88 @@ async def resummarize_bookmark(
     # 기능이 제거되었으므로 현재 상태 그대로 반환
     result = await db.execute(select(Bookmark).where(Bookmark.id == bookmark_id))
     bookmark = result.scalar_one_or_none()
-    
+
     if not bookmark:
         raise HTTPException(status_code=404, detail="북마크를 찾을 수 없습니다")
-    
+
     return bookmark
+
+
+# ========== 캐릭터 샘플 생성 API ==========
+
+class CharacterSampleRequest(BaseModel):
+    """캐릭터 샘플 생성 요청"""
+    tag_combinations: List[List[str]]  # 예: [["판타지", "아카데미"], ["액션", "학교"]]
+
+
+class CharacterSampleResponse(BaseModel):
+    """캐릭터 샘플 응답"""
+    samples: List[dict]  # 생성된 캐릭터 샘플 리스트
+
+
+@router.post("/character-samples/generate", response_model=CharacterSampleResponse)
+async def generate_character_samples(
+    request: CharacterSampleRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    Gemini API를 사용하여 캐릭터 샘플 생성
+
+    - **tag_combinations**: 각 샘플에 사용할 태그 조합 리스트
+    """
+    try:
+        from utils.gemini_client import generate_character_samples as generate_samples
+
+        all_samples = []
+
+        for i, tags in enumerate(request.tag_combinations):
+            # 참고할 인기 캐릭터 조회 (해당 태그를 가진 캐릭터)
+            reference_chars = []
+
+            # 각 태그를 가진 캐릭터 검색
+            for tag in tags[:2]:  # 최대 2개 태그로 검색
+                result = await db.execute(
+                    select(ChatServiceCharacter)
+                    .where(ChatServiceCharacter.tags.contains([tag]))
+                    .order_by(desc(ChatServiceCharacter.views))
+                    .limit(3)
+                )
+                chars = result.scalars().all()
+
+                for char in chars:
+                    reference_chars.append({
+                        'name': char.name,
+                        'description': char.description,
+                        'tags': char.tags
+                    })
+
+            # 중복 제거 (이름 기준)
+            seen_names = set()
+            unique_refs = []
+            for ref in reference_chars:
+                if ref['name'] not in seen_names:
+                    seen_names.add(ref['name'])
+                    unique_refs.append(ref)
+
+            # Gemini API 호출 (1개씩 생성)
+            samples = await generate_samples(tags, unique_refs[:3], count=1)
+
+            # 태그 정보 추가
+            for sample in samples:
+                sample['id'] = i + 1
+                sample['tags'] = tags
+                sample['basedOn'] = [ref['name'] for ref in unique_refs[:2]]
+
+            all_samples.extend(samples)
+
+        logger.info(f"총 {len(all_samples)}개 캐릭터 샘플 생성 완료")
+
+        return CharacterSampleResponse(samples=all_samples)
+
+    except ValueError as e:
+        logger.error(f"설정 오류: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        logger.error(f"캐릭터 샘플 생성 실패: {str(e)}")
+        raise HTTPException(status_code=500, detail="캐릭터 샘플 생성에 실패했습니다")
 
