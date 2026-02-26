@@ -13,6 +13,7 @@
         "push-data": "npm run export && git add frontend/public/data/ && git commit -m \"chore: 수동 데이터 업데이트\" || echo \"변경사항 없음\" && git push origin main"
     },
     "devDependencies": {
-        "concurrently": "^8.2.2"
+        "concurrently": "^8.2.2",
+        "vercel": "^50.23.2"
     }
 }

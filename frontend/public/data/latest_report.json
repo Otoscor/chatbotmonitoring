@@ -1,238 +1,223 @@
 {
-  "id": 19,
-  "report_date": "2026-02-23T08:28:19.010947",
-  "total_posts": 470,
-  "total_views": 37879,
-  "total_recommends": 298,
-  "total_comments": 1356,
+  "id": 23,
+  "report_date": "2026-02-27T08:30:44.745204",
+  "total_posts": 416,
+  "total_views": 28912,
+  "total_recommends": 192,
+  "total_comments": 1071,
   "top_keywords": [
     {
-      "keyword": "잼삼일",
-      "count": 18,
-      "score": 0.0319
-    },
-    {
-      "keyword": "너무",
-      "count": 14,
-      "score": 0.0232
-    },
-    {
-      "keyword": "진짜",
-      "count": 13,
-      "score": 0.0231
-    },
-    {
-      "keyword": "이거",
-      "count": 13,
-      "score": 0.0205
+      "keyword": "젬삼이",
+      "count": 9,
+      "score": 0.0182
     },
     {
       "keyword": "아니",
-      "count": 10,
-      "score": 0.0187
-    },
-    {
-      "keyword": "단테",
-      "count": 8,
-      "score": 0.015
-    },
-    {
-      "keyword": "다이브",
-      "count": 8,
-      "score": 0.0147
-    },
-    {
-      "keyword": "원래",
       "count": 7,
-      "score": 0.0135
+      "score": 0.0158
     },
     {
-      "keyword": "있음",
+      "keyword": "ooc",
+      "count": 4,
+      "score": 0.0146
+    },
+    {
+      "keyword": "젬삼일",
       "count": 6,
-      "score": 0.0121
+      "score": 0.0137
     },
     {
-      "keyword": "하챗",
-      "count": 7,
+      "keyword": "질문",
+      "count": 6,
+      "score": 0.0122
+    },
+    {
+      "keyword": "젬삼",
+      "count": 5,
       "score": 0.012
     },
     {
-      "keyword": "ai",
+      "keyword": "뭔가",
       "count": 5,
-      "score": 0.0114
+      "score": 0.0113
     },
     {
-      "keyword": "지금",
+      "keyword": "잼삼일",
+      "count": 5,
+      "score": 0.0104
+    },
+    {
+      "keyword": "나노바나나",
       "count": 6,
-      "score": 0.0108
+      "score": 0.0102
     },
     {
-      "keyword": "뤼비",
-      "count": 5,
-      "score": 0.0106
+      "keyword": "그림체",
+      "count": 4,
+      "score": 0.0089
+    },
+    {
+      "keyword": "왤케",
+      "count": 4,
+      "score": 0.0087
     },
     {
       "keyword": "젬이오",
-      "count": 5,
-      "score": 0.0106
+      "count": 4,
+      "score": 0.0087
     },
     {
-      "keyword": "뭔가",
-      "count": 6,
-      "score": 0.0096
-    },
-    {
-      "keyword": "상태창",
-      "count": 5,
-      "score": 0.0091
-    },
-    {
-      "keyword": "내가",
-      "count": 5,
-      "score": 0.009
-    },
-    {
-      "keyword": "이제",
-      "count": 5,
-      "score": 0.009
-    },
-    {
-      "keyword": "존나",
-      "count": 5,
-      "score": 0.0088
-    },
-    {
-      "keyword": "있는",
-      "count": 5,
+      "keyword": "ai",
+      "count": 3,
       "score": 0.0083
     },
     {
-      "keyword": "뉴비",
-      "count": 4,
-      "score": 0.0079
+      "keyword": "공홈",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "얼헌",
-      "count": 4,
-      "score": 0.0079
+      "keyword": "되게",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "유저캐",
-      "count": 4,
-      "score": 0.0079
+      "keyword": "뤼붕아",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "잼삼이",
-      "count": 4,
-      "score": 0.0079
+      "keyword": "에셋",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "지침",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "취하면",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "나노빠나나",
+      "count": 3,
+      "score": 0.0066
     },
     {
       "keyword": "윶캐",
-      "count": 4,
-      "score": 0.0076
-    },
-    {
-      "keyword": "하이퍼챗",
-      "count": 4,
-      "score": 0.0073
-    },
-    {
-      "keyword": "나도",
-      "count": 4,
-      "score": 0.0071
-    },
-    {
-      "keyword": "정말",
-      "count": 4,
-      "score": 0.0068
-    },
-    {
-      "keyword": "어케",
-      "count": 4,
-      "score": 0.0067
-    },
-    {
-      "keyword": "갑자기",
-      "count": 4,
+      "count": 3,
       "score": 0.0066
+    },
+    {
+      "keyword": "있을까",
+      "count": 3,
+      "score": 0.0066
+    },
+    {
+      "keyword": "했는데",
+      "count": 3,
+      "score": 0.0065
+    },
+    {
+      "keyword": "리뷰",
+      "count": 3,
+      "score": 0.0062
+    },
+    {
+      "keyword": "맛있게",
+      "count": 3,
+      "score": 0.0058
+    },
+    {
+      "keyword": "잼삼",
+      "count": 3,
+      "score": 0.0058
+    },
+    {
+      "keyword": "유저",
+      "count": 3,
+      "score": 0.0057
+    },
+    {
+      "keyword": "후기",
+      "count": 3,
+      "score": 0.0057
+    },
+    {
+      "keyword": "있음",
+      "count": 3,
+      "score": 0.0055
+    },
+    {
+      "keyword": "캐챗",
+      "count": 3,
+      "score": 0.0052
     }
   ],
   "top_characters": [
     {
-      "name": "유저캐",
-      "mentions": 3,
+      "name": "김종원",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "시뮬",
+      "name": "에셋",
       "mentions": 2,
       "rank": 2
     },
     {
-      "name": "홍보/뉴비대회",
+      "name": "뤼붕아.. 엄마한테 이런 옷 입히면..",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "필독",
+      "name": "🔰홍보/셒",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "빌림",
+      "name": "행복해서 미칠 것 같음",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "컵케익 프로바이더 매니저",
+      "name": "라르&딜런",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "조직적인 저작권 침해",
+      "name": "와이푸",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "뱅드림",
+      "name": "에휴에요. 에휴.",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "에셋",
+      "name": "깡깡/강철의 장미",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "일주일. 고작 그정도였나...",
+      "name": "먹었던",
       "mentions": 1,
       "rank": 10
+    },
+    {
+      "name": "헌헌",
+      "mentions": 1,
+      "rank": 11
+    },
+    {
+      "name": "무협",
+      "mentions": 1,
+      "rank": 12
     }
   ],
-  "trending_topics": [
-    {
-      "topic": "뉴비",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "나도",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "갑자기",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "어케",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    }
-  ]
+  "trending_topics": []
 }
