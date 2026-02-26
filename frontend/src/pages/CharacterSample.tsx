@@ -556,7 +556,7 @@ export default function CharacterSample() {
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
             <form onSubmit={handlePasswordSubmit}>
-              <div className="flex items-center gap-2 px-6 py-3 bg-gray-100 dark:bg-gray-800 rounded-full">
+              <div className="flex items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
                 <div className="flex items-center justify-center text-gray-400">
                   <Lock className="w-4 h-4" />
                 </div>
@@ -581,7 +581,7 @@ export default function CharacterSample() {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-1.5 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-full transition-colors"
+                  className="px-4 py-1.5 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded transition-colors"
                 >
                   확인
                 </button>
