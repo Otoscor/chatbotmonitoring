@@ -558,8 +558,8 @@ export default function CharacterSample() {
             <div className="w-full">
               <form onSubmit={handlePasswordSubmit} className="flex items-stretch gap-2">
                 {/* 비밀번호 입력 컨테이너 */}
-                <div className="flex flex-1 items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
-                  <Lock className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                <div className="flex flex-1 items-center gap-2 h-14 px-6 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
+                  <Lock className="w-4 h-full text-gray-400 flex-shrink-0" />
                   <input
                     type="password"
                     value={password}
@@ -568,14 +568,14 @@ export default function CharacterSample() {
                       setPasswordError('')
                     }}
                     placeholder="비밀번호를 입력하세요"
-                    className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm p-3"
+                    className="flex-1 h-full bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm p-3"
                     autoFocus
                   />
                   {password && (
                     <button
                       type="button"
                       onClick={handleCancelPassword}
-                      className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors flex-shrink-0"
+                      className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors flex-shrink-0 h-full"
                       title="취소"
                     >
                       <X className="w-4 h-4" />
@@ -585,7 +585,7 @@ export default function CharacterSample() {
                 {/* 확인 버튼 */}
                 <button
                   type="submit"
-                  className="px-6 bg-white dark:bg-white text-black border border-gray-200 dark:border-gray-800 rounded hover:bg-gray-50 transition-colors font-medium"
+                  className="px-6 h-14 bg-white dark:bg-white text-black border border-gray-200 dark:border-gray-800 rounded hover:bg-gray-50 transition-colors font-medium"
                 >
                   확인
                 </button>
@@ -602,7 +602,7 @@ export default function CharacterSample() {
             <button
               onClick={() => handleGenerate()}
               disabled={generating || !characters || isLimitReached}
-              className="crawl-button flex items-center gap-2 px-6 py-3"
+              className="flex items-center justify-center gap-2 h-14 px-6 bg-black text-black border border-gray-200 dark:border-gray-800 rounded font-medium disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               data-action="generate"
             >
               <RefreshCw className={`w-4 h-4 ${generating ? 'animate-spin' : ''}`} />
