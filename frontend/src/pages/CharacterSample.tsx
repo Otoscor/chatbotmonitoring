@@ -1,7 +1,7 @@
 import { useCallback, useState, useMemo, useEffect, useRef } from 'react'
 import { useApi } from '../hooks/useApi'
 import { fetchChatServiceCharacters, ChatServiceCharacter, generateCharacterSamples, PasswordRequiredError } from '../utils/api'
-import { RefreshCw, AlertCircle, Download, Save, ChevronDown, ChevronRight, Trash2, X, FolderOpen, Lock } from 'lucide-react'
+import { Reload, Alert, Download, Save, ChevronDown, ChevronRight, Trash, Close, Folder, Lock } from '@nsmr/pixelart-react'
 
 // 금지 조합 (서로 어울리지 않는 태그 쌍)
 const FORBIDDEN_PAIRS: [string, string][] = [
@@ -209,7 +209,7 @@ function AccordionItem({
             className="p-1.5 text-gray-500 hover:text-red-600 dark:hover:text-red-400 transition-colors"
             title="삭제"
           >
-            <Trash2 className="w-3.5 h-3.5" />
+            <Trash className="w-3.5 h-3.5" />
           </button>
         </div>
       </button>
@@ -523,7 +523,7 @@ export default function CharacterSample() {
               onClick={() => setSidebarOpen(true)}
               className="lg:hidden flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
             >
-              <FolderOpen className="w-4 h-4" />
+              <Folder className="w-4 h-4" />
               <span>저장됨</span>
               {savedSamples.length > 0 && (
                 <span className="bg-blue-600 text-white text-xs px-1.5 py-0.5 rounded-full">
@@ -604,7 +604,7 @@ export default function CharacterSample() {
                       className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors flex-shrink-0 h-full"
                       title="지우기"
                     >
-                      <X className="w-4 h-4" />
+                      <Close className="w-4 h-4" />
                     </button>
                   )}
                 </div>
@@ -618,7 +618,7 @@ export default function CharacterSample() {
               </form>
               {passwordError && (
                 <p className="mt-3 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1">
-                  <AlertCircle className="w-4 h-4" />
+                  <Alert className="w-4 h-4" />
                   {passwordError}
                 </p>
               )}
@@ -631,7 +631,7 @@ export default function CharacterSample() {
               className="w-full flex items-center justify-center gap-2 h-14 px-6 bg-black text-white border border-gray-200 dark:border-gray-800 rounded font-medium disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               data-action="generate"
             >
-              <RefreshCw className={`w-4 h-4 ${generating ? 'animate-spin' : ''}`} />
+              <Reload className={`w-4 h-4 ${generating ? 'animate-spin' : ''}`} />
               {generating ? 'Gemini AI 생성 중...' : isLimitReached ? '오늘의 생성 횟수 초과' : '캐릭터 샘플 생성'}
             </button>
           )}
@@ -639,7 +639,7 @@ export default function CharacterSample() {
           {/* 에러 메시지 */}
           {error && (
             <div className="flex items-center gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-4 py-2 rounded">
-              <AlertCircle className="w-4 h-4" />
+              <Alert className="w-4 h-4" />
               <span>{error}</span>
             </div>
           )}
@@ -806,7 +806,7 @@ export default function CharacterSample() {
           <div className="card p-4">
             <div className="flex items-center justify-between mb-4">
               <h3 className="font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                <FolderOpen className="w-4 h-4" />
+                <Folder className="w-4 h-4" />
                 저장된 샘플
               </h3>
               <span className="text-xs text-gray-500 dark:text-gray-400">
@@ -816,7 +816,7 @@ export default function CharacterSample() {
 
             {savedSamples.length === 0 ? (
               <div className="text-center py-8 text-sm text-gray-500 dark:text-gray-400">
-                <FolderOpen className="w-8 h-8 mx-auto mb-2 opacity-30" />
+                <Folder className="w-8 h-8 mx-auto mb-2 opacity-30" />
                 <p>저장된 샘플이 없습니다.</p>
                 <p className="text-xs mt-1">캐릭터 생성 후 저장해보세요!</p>
               </div>
@@ -857,7 +857,7 @@ export default function CharacterSample() {
             {/* 헤더 */}
             <div className="flex items-center justify-between px-4 pb-3 border-b border-gray-200 dark:border-gray-700">
               <h3 className="font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                <FolderOpen className="w-4 h-4" />
+                <Folder className="w-4 h-4" />
                 저장된 샘플
                 <span className="text-xs text-gray-500 dark:text-gray-400">
                   ({savedSamples.length}개)
@@ -867,7 +867,7 @@ export default function CharacterSample() {
                 onClick={() => setSidebarOpen(false)}
                 className="p-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
               >
-                <X className="w-5 h-5" />
+                <Close className="w-5 h-5" />
               </button>
             </div>
 
@@ -875,7 +875,7 @@ export default function CharacterSample() {
             <div className="flex-1 overflow-y-auto p-4">
               {savedSamples.length === 0 ? (
                 <div className="text-center py-8 text-sm text-gray-500 dark:text-gray-400">
-                  <FolderOpen className="w-8 h-8 mx-auto mb-2 opacity-30" />
+                  <Folder className="w-8 h-8 mx-auto mb-2 opacity-30" />
                   <p>저장된 샘플이 없습니다.</p>
                   <p className="text-xs mt-1">캐릭터 생성 후 저장해보세요!</p>
                 </div>

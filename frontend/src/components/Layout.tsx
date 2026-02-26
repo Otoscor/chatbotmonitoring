@@ -1,8 +1,7 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { triggerCrawl, generateReport, triggerChatServiceCrawl, triggerNewsCrawl, triggerAppReviewCrawl, USE_STATIC_DATA } from '../utils/api'
-import { Users, Trophy, Message, Article, Bookmarks, ChartBar, Sun, Moon } from '@nsmr/pixelart-react'
-import { Sparkles } from 'lucide-react'
+import { Users, Trophy, Message, Article, Bookmarks, ChartBar, Sun, Moon, Zap } from '@nsmr/pixelart-react'
 import { useTheme } from '../hooks/useTheme'
 
 interface LayoutProps {
@@ -16,7 +15,7 @@ const isDeployEnv = typeof window !== 'undefined' &&
 const navItems = [
   { path: '/', label: '커뮤니티', icon: Users, animClass: 'anim-users' },
   { path: '/character-rankings', label: '캐릭터 순위', icon: Trophy, animClass: 'anim-trophy' },
-  { path: '/character-sample', label: '캐릭터 샘플', icon: Sparkles, animClass: 'anim-sparkles' },
+  { path: '/character-sample', label: '캐릭터 샘플', icon: Zap, animClass: 'anim-sparkles' },
   { path: '/app-reviews', label: '리뷰', icon: Message, animClass: 'anim-message' },
   { path: '/news', label: '뉴스', icon: Article, animClass: 'anim-article' },
   { path: '/bookmarks', label: '북마크', icon: Bookmarks, animClass: 'anim-bookmarks' },
