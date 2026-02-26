@@ -438,8 +438,13 @@ export default function CharacterSample() {
         return
       }
 
-      // 비밀번호 틀림 (입력된 비밀번호가 있는 경우)
-      if (inputPassword && err.message?.includes('비밀번호')) {
+      // 비밀번호 틀림 (401 에러이고 비밀번호를 입력한 경우)
+      const isPasswordError = inputPassword && (
+        err.response?.status === 401 ||
+        err.message === '비밀번호가 올바르지 않습니다.'
+      )
+
+      if (isPasswordError) {
         setPasswordError('비밀번호가 올바르지 않습니다.')
         // pendingTagPairs는 이미 저장되어 있음 (처음 시도 시 저장됨)
         setShowPasswordInput(true)
