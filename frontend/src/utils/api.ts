@@ -503,9 +503,22 @@ export interface CharacterSample {
 export const generateCharacterSamples = async (
   tagCombinations: string[][]
 ): Promise<CharacterSample[]> => {
+  // 정적 모드(Vercel 배포)에서는 Vercel Serverless Function 사용
   if (USE_STATIC_DATA) {
-    throw new Error('정적 모드에서는 캐릭터 샘플 생성을 사용할 수 없습니다.')
+    const response = await fetch('/api/generate-character', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ tag_combinations: tagCombinations })
+    })
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || '캐릭터 샘플 생성에 실패했습니다.')
+    }
+    const data = await response.json()
+    return data.samples
   }
+
+  // 로컬 개발 환경에서는 백엔드 API 사용
   const { data } = await api.post('/character-samples/generate', {
     tag_combinations: tagCombinations
   })
