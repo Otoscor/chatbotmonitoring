@@ -555,44 +555,46 @@ export default function CharacterSample() {
         <div className="flex flex-col items-center gap-3">
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
-            <form onSubmit={handlePasswordSubmit}>
-              <div className="flex items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
-                <div className="flex items-center justify-center text-gray-400">
-                  <Lock className="w-4 h-4" />
+            <div className="flex flex-col items-center gap-3">
+              <form onSubmit={handlePasswordSubmit} className="flex items-center gap-2">
+                {/* 비밀번호 입력 컨테이너 */}
+                <div className="flex items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
+                  <Lock className="w-4 h-4 text-gray-400" />
+                  <input
+                    type="password"
+                    value={password}
+                    onChange={(e) => {
+                      setPassword(e.target.value)
+                      setPasswordError('')
+                    }}
+                    placeholder="비밀번호를 입력하세요"
+                    className="bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm w-48"
+                    autoFocus
+                  />
+                  <button
+                    type="button"
+                    onClick={handleCancelPassword}
+                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                    title="취소"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
                 </div>
-                <input
-                  type="password"
-                  value={password}
-                  onChange={(e) => {
-                    setPassword(e.target.value)
-                    setPasswordError('')
-                  }}
-                  placeholder="비밀번호를 입력하세요"
-                  className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm"
-                  autoFocus
-                />
-                <button
-                  type="button"
-                  onClick={handleCancelPassword}
-                  className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
-                  title="취소"
-                >
-                  <X className="w-4 h-4" />
-                </button>
+                {/* 확인 버튼 */}
                 <button
                   type="submit"
-                  className="px-4 py-1.5 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded transition-colors"
+                  className="px-6 py-3 bg-white dark:bg-white text-black border border-gray-200 dark:border-gray-800 rounded hover:bg-gray-50 transition-colors font-medium"
                 >
                   확인
                 </button>
-              </div>
+              </form>
               {passwordError && (
-                <p className="mt-2 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1">
+                <p className="text-sm text-red-600 dark:text-red-400 flex items-center gap-1">
                   <AlertCircle className="w-4 h-4" />
                   {passwordError}
                 </p>
               )}
-            </form>
+            </div>
           ) : (
             /* 생성 버튼 */
             <button
