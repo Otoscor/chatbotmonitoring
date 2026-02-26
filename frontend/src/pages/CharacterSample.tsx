@@ -558,7 +558,7 @@ export default function CharacterSample() {
             <div className="flex flex-col items-center gap-3">
               <form onSubmit={handlePasswordSubmit} className="flex items-center gap-2">
                 {/* 비밀번호 입력 컨테이너 */}
-                <div className="flex items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
+                <div className="flex flex-1 items-center gap-2 px-6 py-3 bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded">
                   <Lock className="w-4 h-4 text-gray-400" />
                   <input
                     type="password"
