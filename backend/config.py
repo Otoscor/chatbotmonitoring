@@ -49,7 +49,7 @@ class Settings(BaseSettings):
     news_keywords: List[str] = ["AI 챗봇", "AI 캐릭터", "뤼튼"]
 
     # Gemini API Settings
-    gemini_api_key: str = "AIzaSyC_H4TSUr_wfnKxukyZjSpxzUWmm31QEgQ"  # 환경 변수 GEMINI_API_KEY 사용 권장
+    gemini_api_key: str = ""  # 환경 변수 GEMINI_API_KEY 필수
     
     # 앱 리뷰 크롤링 대상
     target_apps: List[dict] = [
