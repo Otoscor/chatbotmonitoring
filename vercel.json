@@ -3,9 +3,18 @@
     "outputDirectory": "frontend/dist",
     "installCommand": "cd frontend && npm install",
     "framework": "vite",
+    "functions": {
+        "frontend/api/*.ts": {
+            "maxDuration": 60
+        }
+    },
     "rewrites": [
         {
-            "source": "/(.*)",
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        },
+        {
+            "source": "/((?!api/).*)",
             "destination": "/index.html"
         }
     ]
