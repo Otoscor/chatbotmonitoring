@@ -555,9 +555,9 @@ export default function CharacterSample() {
         <div className="flex flex-col items-center gap-3">
           {showPasswordInput ? (
             /* 비밀번호 입력 폼 */
-            <form onSubmit={handlePasswordSubmit} className="w-full max-w-sm">
-              <div className="flex items-center gap-2 p-1 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-sm">
-                <div className="flex items-center justify-center w-10 h-10 text-gray-400">
+            <form onSubmit={handlePasswordSubmit}>
+              <div className="flex items-center gap-2 px-6 py-3 bg-gray-100 dark:bg-gray-800 rounded-full">
+                <div className="flex items-center justify-center text-gray-400">
                   <Lock className="w-4 h-4" />
                 </div>
                 <input
@@ -568,20 +568,20 @@ export default function CharacterSample() {
                     setPasswordError('')
                   }}
                   placeholder="비밀번호를 입력하세요"
-                  className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm py-2"
+                  className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm"
                   autoFocus
                 />
                 <button
                   type="button"
                   onClick={handleCancelPassword}
-                  className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                  className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
                   title="취소"
                 >
                   <X className="w-4 h-4" />
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors"
+                  className="px-4 py-1.5 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-full transition-colors"
                 >
                   확인
                 </button>
