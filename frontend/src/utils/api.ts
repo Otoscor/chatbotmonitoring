@@ -510,12 +510,29 @@ export const generateCharacterSamples = async (
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ tag_combinations: tagCombinations })
     })
+
+    // 응답 텍스트 먼저 확인
+    const responseText = await response.text()
+    console.log('Serverless function response:', responseText)
+
     if (!response.ok) {
-      const error = await response.json()
-      throw new Error(error.error || '캐릭터 샘플 생성에 실패했습니다.')
+      let errorMessage = '캐릭터 샘플 생성에 실패했습니다.'
+      try {
+        const error = JSON.parse(responseText)
+        errorMessage = error.error || errorMessage
+      } catch {
+        errorMessage = responseText || errorMessage
+      }
+      throw new Error(errorMessage)
     }
-    const data = await response.json()
-    return data.samples
+
+    try {
+      const data = JSON.parse(responseText)
+      return data.samples
+    } catch (e) {
+      console.error('JSON parse error:', e, 'Response:', responseText)
+      throw new Error('서버 응답을 파싱할 수 없습니다.')
+    }
   }
 
   // 로컬 개발 환경에서는 백엔드 API 사용

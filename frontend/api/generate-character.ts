@@ -144,18 +144,24 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   if (req.method !== 'POST') {
+    console.log('[generate-character] Method not allowed:', req.method)
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
   const apiKey = process.env.GEMINI_API_KEY
+  console.log('[generate-character] API Key exists:', !!apiKey)
+
   if (!apiKey) {
-    return res.status(500).json({ error: 'Gemini API 키가 설정되지 않았습니다.' })
+    console.error('[generate-character] Gemini API 키가 설정되지 않았습니다.')
+    return res.status(500).json({ error: 'Gemini API 키가 설정되지 않았습니다. Vercel 환경 변수를 확인하세요.' })
   }
 
   try {
     const { tag_combinations } = req.body as {
       tag_combinations: string[][]
     }
+
+    console.log('[generate-character] Received tag_combinations:', tag_combinations)
 
     if (!tag_combinations || !Array.isArray(tag_combinations)) {
       return res.status(400).json({ error: 'tag_combinations 배열이 필요합니다.' })
@@ -165,8 +171,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     for (let i = 0; i < tag_combinations.length; i++) {
       const tags = tag_combinations[i]
+      console.log(`[generate-character] Processing tag combination ${i + 1}:`, tags)
+
       const prompt = createPrompt(tags, [], 1)
 
+      console.log(`[generate-character] Calling Gemini API for combination ${i + 1}`)
       const geminiResponse = await fetch(`${GEMINI_API_URL}?key=${apiKey}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -185,13 +194,21 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
       if (!geminiResponse.ok) {
         const errorText = await geminiResponse.text()
-        console.error('Gemini API 오류:', errorText)
-        throw new Error(`Gemini API 오류: ${geminiResponse.status}`)
+        console.error('[generate-character] Gemini API 오류:', geminiResponse.status, errorText)
+        throw new Error(`Gemini API 오류 (${geminiResponse.status}): ${errorText.slice(0, 200)}`)
       }
 
       const result = await geminiResponse.json()
+      console.log('[generate-character] Gemini API response received')
+
       const generatedText = result.candidates?.[0]?.content?.parts?.[0]?.text || ''
+      if (!generatedText) {
+        console.error('[generate-character] Empty response from Gemini')
+        throw new Error('Gemini API에서 빈 응답을 받았습니다.')
+      }
+
       const samples = parseGeneratedSamples(generatedText, 1)
+      console.log(`[generate-character] Parsed ${samples.length} samples`)
 
       for (const sample of samples) {
         allSamples.push({
@@ -203,11 +220,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     }
 
+    console.log('[generate-character] Success! Returning', allSamples.length, 'samples')
     return res.status(200).json({ samples: allSamples })
   } catch (error) {
-    console.error('캐릭터 샘플 생성 오류:', error)
-    return res.status(500).json({
-      error: error instanceof Error ? error.message : '캐릭터 샘플 생성에 실패했습니다.'
-    })
+    console.error('[generate-character] Error:', error)
+    const errorMessage = error instanceof Error ? error.message : '캐릭터 샘플 생성에 실패했습니다.'
+    return res.status(500).json({ error: errorMessage })
   }
 }
