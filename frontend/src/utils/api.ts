@@ -500,15 +500,24 @@ export interface CharacterSample {
   basedOn: string[]          // 참고 캐릭터
 }
 
+// 비밀번호 필요 여부 에러
+export class PasswordRequiredError extends Error {
+  constructor(message: string = '비밀번호가 필요합니다.') {
+    super(message)
+    this.name = 'PasswordRequiredError'
+  }
+}
+
 export const generateCharacterSamples = async (
-  tagCombinations: string[][]
+  tagCombinations: string[][],
+  password?: string
 ): Promise<CharacterSample[]> => {
   // 정적 모드(Vercel 배포)에서는 Vercel Serverless Function 사용
   if (USE_STATIC_DATA) {
     const response = await fetch('/api/generate-character', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ tag_combinations: tagCombinations })
+      body: JSON.stringify({ tag_combinations: tagCombinations, password })
     })
 
     // 응답 텍스트 먼저 확인
@@ -520,7 +529,12 @@ export const generateCharacterSamples = async (
       try {
         const error = JSON.parse(responseText)
         errorMessage = error.error || errorMessage
-      } catch {
+        // 401 에러이고 비밀번호가 필요한 경우
+        if (response.status === 401 && error.requirePassword) {
+          throw new PasswordRequiredError(errorMessage)
+        }
+      } catch (e) {
+        if (e instanceof PasswordRequiredError) throw e
         errorMessage = responseText || errorMessage
       }
       throw new Error(errorMessage)

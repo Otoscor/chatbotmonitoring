@@ -1,7 +1,7 @@
 import { useCallback, useState, useMemo, useEffect } from 'react'
 import { useApi } from '../hooks/useApi'
-import { fetchChatServiceCharacters, ChatServiceCharacter, generateCharacterSamples } from '../utils/api'
-import { RefreshCw, AlertCircle, Download, Save, ChevronDown, ChevronRight, Trash2, X, FolderOpen } from 'lucide-react'
+import { fetchChatServiceCharacters, ChatServiceCharacter, generateCharacterSamples, PasswordRequiredError } from '../utils/api'
+import { RefreshCw, AlertCircle, Download, Save, ChevronDown, ChevronRight, Trash2, X, FolderOpen, Lock } from 'lucide-react'
 
 // 금지 조합 (서로 어울리지 않는 태그 쌍)
 const FORBIDDEN_PAIRS: [string, string][] = [
@@ -266,6 +266,12 @@ export default function CharacterSample() {
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set())
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
+  // 비밀번호 관련 state
+  const [showPasswordModal, setShowPasswordModal] = useState(false)
+  const [password, setPassword] = useState('')
+  const [passwordError, setPasswordError] = useState('')
+  const [pendingTagPairs, setPendingTagPairs] = useState<string[][] | null>(null)
+
   const { data: characters, loading } = useApi(
     useCallback(() => fetchChatServiceCharacters(undefined, 180), [])
   )
@@ -347,12 +353,13 @@ export default function CharacterSample() {
   }, [characters])
 
   // 샘플 생성 (Gemini API 사용)
-  const handleGenerate = async () => {
+  const handleGenerate = async (inputPassword?: string) => {
     if (!characters) return
     if (usageCount >= DAILY_LIMIT) return
 
     setGenerating(true)
     setError('')
+    setPasswordError('')
 
     try {
       // 태그 조합 선택 (공동 출현 빈도 기반)
@@ -363,13 +370,20 @@ export default function CharacterSample() {
 
       // 상위 20개 중에서 랜덤 1개 선택
       const topPairs = validPairs.slice(0, Math.min(20, validPairs.length))
-      const selectedPairs: string[][] = []
+      const selectedPairs: string[][] = pendingTagPairs || []
 
-      const pair = topPairs[Math.floor(Math.random() * topPairs.length)]
-      selectedPairs.push([pair.tag1, pair.tag2])
+      if (selectedPairs.length === 0) {
+        const pair = topPairs[Math.floor(Math.random() * topPairs.length)]
+        selectedPairs.push([pair.tag1, pair.tag2])
+      }
 
-      // Gemini API 호출
-      const apiSamples = await generateCharacterSamples(selectedPairs)
+      // Gemini API 호출 (비밀번호 포함)
+      const apiSamples = await generateCharacterSamples(selectedPairs, inputPassword)
+
+      // 성공 시 비밀번호 모달 닫기 및 pendingTagPairs 초기화
+      setShowPasswordModal(false)
+      setPassword('')
+      setPendingTagPairs(null)
 
       // GeneratedSample 형식으로 변환
       const newSamples: GeneratedSample[] = apiSamples.map((sample) => ({
@@ -396,10 +410,48 @@ export default function CharacterSample() {
 
     } catch (err: any) {
       console.error('샘플 생성 오류:', err)
+
+      // 비밀번호가 필요한 경우
+      if (err instanceof PasswordRequiredError) {
+        // 태그 조합 저장
+        const validPairs = cooccurrence.filter(p => !isForbiddenCombination([p.tag1, p.tag2]))
+        const topPairs = validPairs.slice(0, Math.min(20, validPairs.length))
+        const pair = topPairs[Math.floor(Math.random() * topPairs.length)]
+        setPendingTagPairs([[pair.tag1, pair.tag2]])
+        setShowPasswordModal(true)
+        setGenerating(false)
+        return
+      }
+
+      // 비밀번호 틀림 (모달에서 재시도한 경우)
+      if (showPasswordModal && err.message?.includes('비밀번호')) {
+        setPasswordError('비밀번호가 올바르지 않습니다.')
+        setGenerating(false)
+        return
+      }
+
       setError(err.message || '캐릭터 샘플 생성에 실패했습니다.')
     } finally {
       setGenerating(false)
     }
+  }
+
+  // 비밀번호 입력 후 재시도
+  const handlePasswordSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!password.trim()) {
+      setPasswordError('비밀번호를 입력해주세요.')
+      return
+    }
+    handleGenerate(password)
+  }
+
+  // 비밀번호 모달 닫기
+  const handleClosePasswordModal = () => {
+    setShowPasswordModal(false)
+    setPassword('')
+    setPasswordError('')
+    setPendingTagPairs(null)
   }
 
   // 남은 횟수 계산
@@ -492,7 +544,7 @@ export default function CharacterSample() {
         {/* 생성 버튼 */}
         <div className="flex flex-col items-center gap-3">
           <button
-            onClick={handleGenerate}
+            onClick={() => handleGenerate()}
             disabled={generating || !characters || isLimitReached}
             className="crawl-button flex items-center gap-2 px-6 py-3"
             data-action="generate"
@@ -777,6 +829,79 @@ export default function CharacterSample() {
           animation: slide-up 0.3s ease-out;
         }
       `}</style>
+
+      {/* 비밀번호 입력 모달 */}
+      {showPasswordModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          {/* 배경 오버레이 */}
+          <div
+            className="absolute inset-0 bg-black/50"
+            onClick={handleClosePasswordModal}
+          />
+
+          {/* 모달 */}
+          <div className="relative bg-white dark:bg-gray-900 rounded-xl shadow-xl w-full max-w-sm mx-4 p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                <Lock className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 dark:text-white">
+                  비밀번호 입력
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  캐릭터 샘플 생성 기능은 비밀번호가 필요합니다.
+                </p>
+              </div>
+            </div>
+
+            <form onSubmit={handlePasswordSubmit}>
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => {
+                  setPassword(e.target.value)
+                  setPasswordError('')
+                }}
+                placeholder="비밀번호를 입력하세요"
+                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                autoFocus
+              />
+
+              {passwordError && (
+                <p className="mt-2 text-sm text-red-600 dark:text-red-400 flex items-center gap-1">
+                  <AlertCircle className="w-4 h-4" />
+                  {passwordError}
+                </p>
+              )}
+
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={handleClosePasswordModal}
+                  className="flex-1 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                >
+                  취소
+                </button>
+                <button
+                  type="submit"
+                  disabled={generating}
+                  className="flex-1 px-4 py-2.5 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
+                >
+                  {generating ? (
+                    <>
+                      <RefreshCw className="w-4 h-4 animate-spin" />
+                      확인 중...
+                    </>
+                  ) : (
+                    '확인'
+                  )}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

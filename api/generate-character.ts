@@ -148,6 +148,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
+  // 비밀번호 검증 (환경 변수에 설정된 경우에만)
+  const requiredPassword = process.env.CHARACTER_SAMPLE_PASSWORD
+  if (requiredPassword) {
+    const { password } = req.body as { password?: string }
+    if (!password || password !== requiredPassword) {
+      console.log('[generate-character] 비밀번호 불일치')
+      return res.status(401).json({ error: '비밀번호가 올바르지 않습니다.', requirePassword: true })
+    }
+  }
+
   const apiKey = process.env.GEMINI_API_KEY
   console.log('[generate-character] API Key exists:', !!apiKey)
 
