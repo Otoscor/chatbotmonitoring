@@ -1491,3 +1491,15 @@ async def generate_character_samples(
         logger.error(f"캐릭터 샘플 생성 실패: {str(e)}")
         raise HTTPException(status_code=500, detail="캐릭터 샘플 생성에 실패했습니다")
 
+
+# Vercel Serverless Function과 동일한 경로 제공 (로컬 개발용)
+@router.post("/generate-character", response_model=CharacterSampleResponse)
+async def generate_character(
+    request: CharacterSampleRequest,
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    로컬 개발 환경용 엔드포인트 (Vercel Serverless Function과 동일한 경로)
+    """
+    return await generate_character_samples(request, db)
+

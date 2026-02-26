@@ -267,7 +267,7 @@ export default function CharacterSample() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   // 비밀번호 관련 state
-  const [showPasswordModal, setShowPasswordModal] = useState(false)
+  const [showPasswordInput, setShowPasswordInput] = useState(false)
   const [password, setPassword] = useState('')
   const [passwordError, setPasswordError] = useState('')
   const [pendingTagPairs, setPendingTagPairs] = useState<string[][] | null>(null)
@@ -381,7 +381,7 @@ export default function CharacterSample() {
       const apiSamples = await generateCharacterSamples(selectedPairs, inputPassword)
 
       // 성공 시 비밀번호 모달 닫기 및 pendingTagPairs 초기화
-      setShowPasswordModal(false)
+      setShowPasswordInput(false)
       setPassword('')
       setPendingTagPairs(null)
 
@@ -418,7 +418,7 @@ export default function CharacterSample() {
         const topPairs = validPairs.slice(0, Math.min(20, validPairs.length))
         const pair = topPairs[Math.floor(Math.random() * topPairs.length)]
         setPendingTagPairs([[pair.tag1, pair.tag2]])
-        setShowPasswordModal(true)
+        setShowPasswordInput(true)
         setGenerating(false)
         return
       }
@@ -427,7 +427,7 @@ export default function CharacterSample() {
       if (inputPassword && err.message?.includes('비밀번호')) {
         setPasswordError('비밀번호가 올바르지 않습니다.')
         // pendingTagPairs는 이미 저장되어 있음 (처음 시도 시 저장됨)
-        setShowPasswordModal(true)
+        setShowPasswordInput(true)
         setGenerating(false)
         return
       }
@@ -448,7 +448,7 @@ export default function CharacterSample() {
 
     // 모달을 즉시 닫고 메인 버튼에서 로딩 표시
     const enteredPassword = password
-    setShowPasswordModal(false)
+    setShowPasswordInput(false)
     setPassword('')
     setPasswordError('')
 
@@ -457,8 +457,8 @@ export default function CharacterSample() {
   }
 
   // 비밀번호 모달 닫기
-  const handleClosePasswordModal = () => {
-    setShowPasswordModal(false)
+  const handleCancelPassword = () => {
+    setShowPasswordInput(false)
     setPassword('')
     setPasswordError('')
     setPendingTagPairs(null)
@@ -551,17 +551,60 @@ export default function CharacterSample() {
           </div>
         </section>
 
-        {/* 생성 버튼 */}
+        {/* 생성 버튼 / 비밀번호 입력 */}
         <div className="flex flex-col items-center gap-3">
-          <button
-            onClick={() => handleGenerate()}
-            disabled={generating || !characters || isLimitReached}
-            className="crawl-button flex items-center gap-2 px-6 py-3"
-            data-action="generate"
-          >
-            <RefreshCw className={`w-4 h-4 ${generating ? 'animate-spin' : ''}`} />
-            {generating ? 'Gemini AI 생성 중...' : isLimitReached ? '오늘의 생성 횟수 초과' : '캐릭터 샘플 생성'}
-          </button>
+          {showPasswordInput ? (
+            /* 비밀번호 입력 폼 */
+            <form onSubmit={handlePasswordSubmit} className="w-full max-w-sm">
+              <div className="flex items-center gap-2 p-1 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-sm">
+                <div className="flex items-center justify-center w-10 h-10 text-gray-400">
+                  <Lock className="w-4 h-4" />
+                </div>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => {
+                    setPassword(e.target.value)
+                    setPasswordError('')
+                  }}
+                  placeholder="비밀번호를 입력하세요"
+                  className="flex-1 bg-transparent text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none text-sm py-2"
+                  autoFocus
+                />
+                <button
+                  type="button"
+                  onClick={handleCancelPassword}
+                  className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                  title="취소"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+                <button
+                  type="submit"
+                  className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors"
+                >
+                  확인
+                </button>
+              </div>
+              {passwordError && (
+                <p className="mt-2 text-sm text-red-600 dark:text-red-400 flex items-center justify-center gap-1">
+                  <AlertCircle className="w-4 h-4" />
+                  {passwordError}
+                </p>
+              )}
+            </form>
+          ) : (
+            /* 생성 버튼 */
+            <button
+              onClick={() => handleGenerate()}
+              disabled={generating || !characters || isLimitReached}
+              className="crawl-button flex items-center gap-2 px-6 py-3"
+              data-action="generate"
+            >
+              <RefreshCw className={`w-4 h-4 ${generating ? 'animate-spin' : ''}`} />
+              {generating ? 'Gemini AI 생성 중...' : isLimitReached ? '오늘의 생성 횟수 초과' : '캐릭터 샘플 생성'}
+            </button>
+          )}
 
           {/* 에러 메시지 */}
           {error && (
@@ -840,70 +883,6 @@ export default function CharacterSample() {
         }
       `}</style>
 
-      {/* 비밀번호 입력 모달 */}
-      {showPasswordModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
-          {/* 배경 오버레이 */}
-          <div
-            className="absolute inset-0 bg-black/50"
-            onClick={handleClosePasswordModal}
-          />
-
-          {/* 모달 */}
-          <div className="relative bg-white dark:bg-gray-900 rounded-xl shadow-xl w-full max-w-sm mx-4 p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
-                <Lock className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 dark:text-white">
-                  비밀번호 입력
-                </h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  캐릭터 샘플 생성 기능은 비밀번호가 필요합니다.
-                </p>
-              </div>
-            </div>
-
-            <form onSubmit={handlePasswordSubmit}>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => {
-                  setPassword(e.target.value)
-                  setPasswordError('')
-                }}
-                placeholder="비밀번호를 입력하세요"
-                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                autoFocus
-              />
-
-              {passwordError && (
-                <p className="mt-2 text-sm text-red-600 dark:text-red-400 flex items-center gap-1">
-                  <AlertCircle className="w-4 h-4" />
-                  {passwordError}
-                </p>
-              )}
-
-              <div className="flex gap-3 mt-4">
-                <button
-                  type="button"
-                  onClick={handleClosePasswordModal}
-                  className="flex-1 px-4 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                >
-                  취소
-                </button>
-                <button
-                  type="submit"
-                  className="flex-1 px-4 py-2.5 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                  확인
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
