@@ -602,7 +602,7 @@ export default function CharacterSample() {
             <button
               onClick={() => handleGenerate()}
               disabled={generating || !characters || isLimitReached}
-              className="flex items-center justify-center gap-2 h-14 px-6 bg-black text-black border border-gray-200 dark:border-gray-800 rounded font-medium disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="w-full flex items-center justify-center gap-2 h-14 px-6 bg-black text-white border border-gray-200 dark:border-gray-800 rounded font-medium disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               data-action="generate"
             >
               <RefreshCw className={`w-4 h-4 ${generating ? 'animate-spin' : ''}`} />
