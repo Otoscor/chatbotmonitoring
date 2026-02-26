@@ -423,9 +423,11 @@ export default function CharacterSample() {
         return
       }
 
-      // 비밀번호 틀림 (모달에서 재시도한 경우)
-      if (showPasswordModal && err.message?.includes('비밀번호')) {
+      // 비밀번호 틀림 (입력된 비밀번호가 있는 경우)
+      if (inputPassword && err.message?.includes('비밀번호')) {
         setPasswordError('비밀번호가 올바르지 않습니다.')
+        // pendingTagPairs는 이미 저장되어 있음 (처음 시도 시 저장됨)
+        setShowPasswordModal(true)
         setGenerating(false)
         return
       }
@@ -443,7 +445,15 @@ export default function CharacterSample() {
       setPasswordError('비밀번호를 입력해주세요.')
       return
     }
-    handleGenerate(password)
+
+    // 모달을 즉시 닫고 메인 버튼에서 로딩 표시
+    const enteredPassword = password
+    setShowPasswordModal(false)
+    setPassword('')
+    setPasswordError('')
+
+    // 메인 버튼에서 로딩하면서 생성 시도
+    handleGenerate(enteredPassword)
   }
 
   // 비밀번호 모달 닫기
@@ -885,17 +895,9 @@ export default function CharacterSample() {
                 </button>
                 <button
                   type="submit"
-                  disabled={generating}
-                  className="flex-1 px-4 py-2.5 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
+                  className="flex-1 px-4 py-2.5 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
                 >
-                  {generating ? (
-                    <>
-                      <RefreshCw className="w-4 h-4 animate-spin" />
-                      확인 중...
-                    </>
-                  ) : (
-                    '확인'
-                  )}
+                  확인
                 </button>
               </div>
             </form>
