@@ -16,11 +16,13 @@ Follow these steps:
    - Check git status to see all changes
    - Run git diff to review the changes (especially monitoring.db)
    - Check recent commit messages with git log to match the commit style
-   - Stage modified files (prefer specific files over "git add .")
+   - Stage the database file: `git add backend/monitoring.db`
+   - Stage any other modified files if needed
    - Create a commit with an appropriate message that:
      - Follows the repository's commit style (chore/feat/fix/refactor)
      - Describes what changed (e.g., "chore: 데이터베이스 업데이트")
      - Ends with: Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+   - IMPORTANT: Always include backend/monitoring.db in the commit after crawling
 
 4. **Push to remote**: Run `git push origin main`
 
