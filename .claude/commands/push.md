@@ -76,7 +76,17 @@ asyncio.run(crawl_and_save())
 "
 ```
 
-## 4. Export data to JSON
+## 4. Run crawling (app reviews)
+
+Execute the app review crawling process:
+```bash
+cd /Users/anipen/Desktop/monitoring/backend
+source venv/bin/activate
+python -m crawler.app_review_crawler
+```
+This collects app reviews from Google Play Store and App Store for 9 apps.
+
+## 5. Export data to JSON
 
 Export database data to static JSON files for Vercel deployment:
 ```bash
@@ -86,7 +96,7 @@ python export_data.py
 ```
 This creates JSON files in `frontend/public/data/` directory.
 
-## 5. Commit changes
+## 6. Commit changes
 
 - Check git status to see all changes
 - Stage the database file: `git add backend/monitoring.db`
@@ -98,17 +108,18 @@ This creates JSON files in `frontend/public/data/` directory.
   - Ends with: Co-Authored-By: Claude <model> <noreply@anthropic.com>
 - IMPORTANT: Always include backend/monitoring.db AND frontend/public/data/ in the commit
 
-## 6. Push to remote
+## 7. Push to remote
 
 Run `git push origin main`
 - This triggers automatic Vercel deployment
 - Vercel will rebuild and deploy the updated frontend with new JSON data
 
-## 7. Show final status
+## 8. Show final status
 
 Display the final git status and summary:
 - Number of posts crawled
 - Number of characters crawled
+- Number of app reviews crawled
 - Files committed
 - Vercel deployment status (auto-triggered by push)
 
