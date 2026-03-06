@@ -1,32 +1,32 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 1929,
-    "average_rating": 3.0544323483670297,
+    "total_reviews": 1979,
+    "average_rating": 3.045477513895907,
     "rating_distribution": {
-      "1": 549,
-      "2": 205,
-      "3": 305,
-      "4": 332,
-      "5": 538
+      "1": 567,
+      "2": 211,
+      "3": 315,
+      "4": 337,
+      "5": 549
     },
     "platform_distribution": {
-      "google_play": 1929
+      "google_play": 1979
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 210,
-    "average_rating": 2.380952380952381,
+    "total_reviews": 219,
+    "average_rating": 2.4337899543378994,
     "rating_distribution": {
-      "1": 99,
-      "2": 24,
+      "1": 101,
+      "2": 25,
       "3": 31,
-      "4": 20,
-      "5": 36
+      "4": 21,
+      "5": 41
     },
     "platform_distribution": {
-      "google_play": 210
+      "google_play": 219
     }
   },
   {
@@ -46,17 +46,17 @@
   },
   {
     "app_name": "베이브챗 (Babechat)",
-    "total_reviews": 132,
-    "average_rating": 2.007575757575758,
+    "total_reviews": 133,
+    "average_rating": 2.030075187969925,
     "rating_distribution": {
       "1": 81,
       "2": 9,
       "3": 16,
       "4": 12,
-      "5": 14
+      "5": 15
     },
     "platform_distribution": {
-      "google_play": 132
+      "google_play": 133
     }
   },
   {
@@ -76,32 +76,32 @@
   },
   {
     "app_name": "Character AI",
-    "total_reviews": 114,
-    "average_rating": 3.1315789473684212,
+    "total_reviews": 115,
+    "average_rating": 3.130434782608696,
     "rating_distribution": {
       "1": 33,
       "2": 11,
-      "3": 14,
+      "3": 15,
       "4": 20,
       "5": 36
     },
     "platform_distribution": {
-      "google_play": 114
+      "google_play": 115
     }
   },
   {
     "app_name": "케이브덕 (Caveduck)",
-    "total_reviews": 111,
+    "total_reviews": 114,
     "average_rating": 3.3333333333333335,
     "rating_distribution": {
-      "1": 30,
+      "1": 31,
       "2": 10,
       "3": 10,
-      "4": 15,
-      "5": 46
+      "4": 16,
+      "5": 47
     },
     "platform_distribution": {
-      "google_play": 111
+      "google_play": 114
     }
   },
   {
