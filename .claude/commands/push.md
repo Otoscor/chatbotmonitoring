@@ -14,13 +14,13 @@ Run `npm run start` in background to start both frontend (port 3000) and backend
 
 ## 2. Run crawling (posts)
 
-Execute the posts crawling process:
+Execute the posts crawling process via API (this saves to DB automatically):
 ```bash
-cd /Users/anipen/Desktop/monitoring/backend
-source venv/bin/activate
-python -m crawler.multi_crawler
+curl -X POST "http://localhost:8001/api/crawl" -H "Content-Type: application/json" -d '{"pages": 2}'
 ```
-This collects posts from DCInside and Arcalive communities.
+This collects posts from DCInside and Arcalive communities and saves them to the database.
+
+Target galleries: wrtnai, aichatting, babechat, characterai
 
 ## 3. Run crawling (characters)
 
