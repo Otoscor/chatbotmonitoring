@@ -28,6 +28,7 @@ const GALLERY_TABS = [
   { id: 'all', label: '전체', galleryId: undefined },
   { id: 'wrtnai', label: '뤼튼 마이너갤', galleryId: 'wrtnai' },
   { id: 'aichatting', label: 'AI챗팅 마이너갤', galleryId: 'aichatting' },
+  { id: 'babechat', label: '베이브챗 마이너갤', galleryId: 'babechat' },
   { id: 'characterai', label: '아카라이브 캐릭터AI', galleryId: 'characterai' },
 ]
 
@@ -91,7 +92,7 @@ export default function Dashboard() {
           }
         </p>
         <p className="text-xs text-gray-400 mt-1">
-          뤼튼 마이너갤 | AI챗팅 마이너갤 | 아카라이브 캐릭터AI
+          뤼튼 마이너갤 | AI챗팅 마이너갤 | 베이브챗 마이너갤 | 아카라이브 캐릭터AI
         </p>
       </header>
 
