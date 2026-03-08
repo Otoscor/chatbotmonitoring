@@ -1,47 +1,47 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 1979,
-    "average_rating": 3.045477513895907,
+    "total_reviews": 2029,
+    "average_rating": 3.042878265155249,
     "rating_distribution": {
-      "1": 567,
-      "2": 211,
-      "3": 315,
-      "4": 337,
-      "5": 549
+      "1": 583,
+      "2": 215,
+      "3": 325,
+      "4": 344,
+      "5": 562
     },
     "platform_distribution": {
-      "google_play": 1979
+      "google_play": 2029
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 219,
-    "average_rating": 2.4337899543378994,
+    "total_reviews": 247,
+    "average_rating": 2.4210526315789473,
     "rating_distribution": {
-      "1": 101,
-      "2": 25,
-      "3": 31,
-      "4": 21,
-      "5": 41
+      "1": 115,
+      "2": 28,
+      "3": 35,
+      "4": 23,
+      "5": 46
     },
     "platform_distribution": {
-      "google_play": 219
+      "google_play": 247
     }
   },
   {
     "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 138,
-    "average_rating": 2.398550724637681,
+    "total_reviews": 142,
+    "average_rating": 2.3943661971830985,
     "rating_distribution": {
-      "1": 62,
-      "2": 19,
+      "1": 64,
+      "2": 20,
       "3": 22,
       "4": 10,
-      "5": 25
+      "5": 26
     },
     "platform_distribution": {
-      "google_play": 138
+      "google_play": 142
     }
   },
   {
@@ -61,32 +61,32 @@
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 117,
-    "average_rating": 3.5811965811965814,
+    "total_reviews": 118,
+    "average_rating": 3.5847457627118646,
     "rating_distribution": {
       "1": 18,
       "2": 10,
       "3": 20,
-      "4": 24,
+      "4": 25,
       "5": 45
     },
     "platform_distribution": {
-      "google_play": 117
+      "google_play": 118
     }
   },
   {
     "app_name": "Character AI",
-    "total_reviews": 115,
-    "average_rating": 3.130434782608696,
+    "total_reviews": 116,
+    "average_rating": 3.1120689655172415,
     "rating_distribution": {
-      "1": 33,
+      "1": 34,
       "2": 11,
       "3": 15,
       "4": 20,
       "5": 36
     },
     "platform_distribution": {
-      "google_play": 115
+      "google_play": 116
     }
   },
   {
