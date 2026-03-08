@@ -1,17 +1,17 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 2029,
-    "average_rating": 3.042878265155249,
+    "total_reviews": 2079,
+    "average_rating": 3.034151034151034,
     "rating_distribution": {
-      "1": 583,
-      "2": 215,
-      "3": 325,
-      "4": 344,
-      "5": 562
+      "1": 603,
+      "2": 220,
+      "3": 333,
+      "4": 349,
+      "5": 574
     },
     "platform_distribution": {
-      "google_play": 2029
+      "google_play": 2079
     }
   },
   {

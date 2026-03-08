@@ -1,123 +1,98 @@
 {
-  "id": 26,
-  "report_date": "2026-03-05T08:12:29.929990",
-  "total_posts": 415,
-  "total_views": 31453,
-  "total_recommends": 231,
-  "total_comments": 1190,
+  "id": 27,
+  "report_date": "2026-03-09T08:27:21.439032",
+  "total_posts": 419,
+  "total_views": 28798,
+  "total_recommends": 327,
+  "total_comments": 1471,
   "top_keywords": [
     {
       "keyword": "내가",
-      "count": 7,
-      "score": 0.0153
+      "count": 6,
+      "score": 0.0135
     },
     {
       "keyword": "아니",
-      "count": 7,
-      "score": 0.015
-    },
-    {
-      "keyword": "반납",
-      "count": 11,
-      "score": 0.0139
-    },
-    {
-      "keyword": "공홈클",
-      "count": 6,
-      "score": 0.0118
-    },
-    {
-      "keyword": "모듈",
-      "count": 6,
-      "score": 0.0118
-    },
-    {
-      "keyword": "있어",
       "count": 5,
-      "score": 0.0113
+      "score": 0.0119
     },
     {
-      "keyword": "젬삼",
+      "keyword": "타일러",
       "count": 5,
-      "score": 0.0113
+      "score": 0.0111
     },
     {
-      "keyword": "서버",
+      "keyword": "잼민이",
       "count": 5,
-      "score": 0.011
-    },
-    {
-      "keyword": "토큰",
-      "count": 4,
-      "score": 0.0096
-    },
-    {
-      "keyword": "사육푸스",
-      "count": 5,
-      "score": 0.0095
-    },
-    {
-      "keyword": "페소",
-      "count": 5,
-      "score": 0.0091
-    },
-    {
-      "keyword": "나는",
-      "count": 4,
-      "score": 0.009
-    },
-    {
-      "keyword": "상태창",
-      "count": 4,
-      "score": 0.0089
-    },
-    {
-      "keyword": "소넷",
-      "count": 4,
-      "score": 0.0089
+      "score": 0.0108
     },
     {
       "keyword": "클로드",
-      "count": 4,
-      "score": 0.0089
+      "count": 5,
+      "score": 0.0103
     },
     {
-      "keyword": "다들",
+      "keyword": "얼버기",
       "count": 4,
-      "score": 0.0087
+      "score": 0.0088
     },
     {
-      "keyword": "ai",
+      "keyword": "어케",
+      "count": 4,
+      "score": 0.008
+    },
+    {
+      "keyword": "ais",
       "count": 2,
-      "score": 0.0086
+      "score": 0.0072
     },
     {
-      "keyword": "ooc",
+      "keyword": "npc",
       "count": 1,
-      "score": 0.0083
+      "score": 0.0072
     },
     {
-      "keyword": "상태",
-      "count": 4,
-      "score": 0.0082
+      "keyword": "리스라이크",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "유저노트",
-      "count": 4,
-      "score": 0.0082
+      "keyword": "빌림",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "있는데",
-      "count": 4,
-      "score": 0.0082
+      "keyword": "삽화모듈",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "삽화",
-      "count": 4,
-      "score": 0.0073
+      "keyword": "아이디어",
+      "count": 3,
+      "score": 0.0072
     },
     {
-      "keyword": "슈챗",
+      "keyword": "오랜만에",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "오푸스",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "은근",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "이새끼",
+      "count": 3,
+      "score": 0.0072
+    },
+    {
+      "keyword": "이유",
       "count": 3,
       "score": 0.0072
     },
@@ -127,111 +102,101 @@
       "score": 0.0072
     },
     {
-      "keyword": "뭐야",
-      "count": 4,
-      "score": 0.0071
-    },
-    {
-      "keyword": "설정을",
+      "keyword": "크래커",
       "count": 3,
-      "score": 0.0066
+      "score": 0.0072
     },
     {
-      "keyword": "오푸스",
+      "keyword": "크랙",
       "count": 3,
-      "score": 0.0066
+      "score": 0.0072
     },
     {
-      "keyword": "제미니",
+      "keyword": "페소",
       "count": 3,
-      "score": 0.0066
+      "score": 0.0072
     },
     {
-      "keyword": "티팟",
+      "keyword": "하챗",
       "count": 3,
-      "score": 0.0066
+      "score": 0.0072
     },
     {
-      "keyword": "라이트",
+      "keyword": "같은",
       "count": 3,
       "score": 0.0065
+    },
+    {
+      "keyword": "모델",
+      "count": 3,
+      "score": 0.0065
+    },
+    {
+      "keyword": "젬삼",
+      "count": 3,
+      "score": 0.0065
+    },
+    {
+      "keyword": "케덕",
+      "count": 3,
+      "score": 0.0062
+    },
+    {
+      "keyword": "되는",
+      "count": 3,
+      "score": 0.0061
+    },
+    {
+      "keyword": "사육푸스",
+      "count": 3,
+      "score": 0.0057
+    },
+    {
+      "keyword": "캐챗",
+      "count": 3,
+      "score": 0.0057
     }
   ],
   "top_characters": [
     {
-      "name": "반납",
-      "mentions": 6,
+      "name": "빌림",
+      "mentions": 3,
       "rank": 1
     },
     {
-      "name": "1/4",
-      "mentions": 1,
+      "name": "윶정",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "심장이 쿵",
+      "name": "가이딩이 필요하신가요?",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "윶캐",
+      "name": "케 이식",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "유저캐",
+      "name": "공포도 결국은 지루한 반복일 뿐이라서.",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "케/팊/엘",
+      "name": "4o",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "내 전부",
+      "name": "시뮬",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "붕스시뮬",
+      "name": "비밀번호를 입력하는 전자음",
       "mentions": 1,
       "rank": 8
-    },
-    {
-      "name": "전투에서 죽은 거였으면. 그러면 좀 나았을까.",
-      "mentions": 1,
-      "rank": 9
-    },
-    {
-      "name": "워해머",
-      "mentions": 1,
-      "rank": 10
-    },
-    {
-      "name": "원피스",
-      "mentions": 1,
-      "rank": 11
-    },
-    {
-      "name": "헌헌",
-      "mentions": 1,
-      "rank": 12
-    },
-    {
-      "name": "컵케익 프로바이더",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "강호무정: 여인천하",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "무협",
-      "mentions": 1,
-      "rank": 15
     }
   ],
   "trending_topics": []

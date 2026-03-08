@@ -38,6 +38,12 @@ class Settings(BaseSettings):
             "url": "https://gall.dcinside.com/mgallery/board/lists/?id=aichatting"
         },
         {
+            "id": "babechat",
+            "name": "베이브챗 마이너갤",
+            "type": "dcinside_minor",
+            "url": "https://gall.dcinside.com/mgallery/board/lists/?id=babechat"
+        },
+        {
             "id": "characterai",
             "name": "아카라이브 캐릭터AI",
             "type": "arcalive",
