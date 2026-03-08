@@ -1,5 +1,14 @@
 [
   {
+    "id": 3050,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "어플이 사용 안 되는데요 ..접속하려 하면 문제가 발생했다 그랬나 빨리 해결한다는데 하루 지나도 그대로고 뭐 업데이트도 아니고. 지웠다 깔면 로그인도 안 돼요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-08T08:36:30"
+  },
+  {
     "id": 2917,
     "app_name": "제타 (Zeta)",
     "platform": "google_play",
@@ -4489,14 +4498,5 @@
     "rating": 5,
     "reviewer_name": "Google 사용자",
     "review_date": "2026-03-01T22:40:12"
-  },
-  {
-    "id": 2517,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너무 상상력 있고 재밌어요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-01T22:39:50"
   }
 ]
