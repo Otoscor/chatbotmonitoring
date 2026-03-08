@@ -96,7 +96,7 @@ async def export_popular_posts(session: AsyncSession, output_dir: Path):
         all_posts_map[post.id] = post
 
     # 2. 각 갤러리별 인기 게시글 추가 (필터링 시 데이터 부족 방지)
-    target_galleries = ['wrtnai', 'aichatting', 'characterai']
+    target_galleries = ['wrtnai', 'aichatting', 'babechat', 'characterai']
     
     for gallery_id in target_galleries:
         query_gallery = (
