@@ -185,7 +185,6 @@ class Bookmark(Base):
     description = Column(Text, nullable=True)  # 메타 설명
     ai_summary = Column(Text, nullable=True)  # AI 요약
     thumbnail_url = Column(String(500), nullable=True)  # 썸네일 이미지
-    thumbnail_url = Column(String(500), nullable=True)  # 썸네일 이미지
     site_name = Column(String(200), nullable=True)  # 사이트명
     category = Column(String(50), nullable=False, default='post')  # 카테고리: post, news, creation
     

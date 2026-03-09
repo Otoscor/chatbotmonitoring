@@ -33,45 +33,61 @@ async def get_app_reviews(
 async def get_app_review_stats(
     db: AsyncSession = Depends(get_db)
 ):
-    """앱별 리뷰 통계"""
-    # 앱별로 그룹화하여 통계 계산
-    query = select(AppReview.app_name).distinct()
-    result = await db.execute(query)
-    app_names = result.scalars().all()
-    
+    """앱별 리뷰 통계 (최적화: N+1 문제 해결 - 3개의 집계 쿼리로 처리)"""
+    from sqlalchemy import func
+
+    # 1. 기본 통계: 앱별 총 리뷰 수, 평균 평점 (단일 쿼리)
+    base_stats_query = select(
+        AppReview.app_name,
+        func.count(AppReview.id).label('total_reviews'),
+        func.avg(AppReview.rating).label('avg_rating')
+    ).group_by(AppReview.app_name)
+
+    base_result = await db.execute(base_stats_query)
+    base_stats = {row.app_name: {
+        'total_reviews': row.total_reviews,
+        'avg_rating': round(float(row.avg_rating), 2) if row.avg_rating else 0
+    } for row in base_result}
+
+    # 2. 평점 분포: 앱별, 평점별 카운트 (단일 쿼리)
+    rating_dist_query = select(
+        AppReview.app_name,
+        AppReview.rating,
+        func.count(AppReview.id).label('count')
+    ).group_by(AppReview.app_name, AppReview.rating)
+
+    rating_result = await db.execute(rating_dist_query)
+    rating_dist = {}
+    for row in rating_result:
+        if row.app_name not in rating_dist:
+            rating_dist[row.app_name] = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+        rating_dist[row.app_name][row.rating] = row.count
+
+    # 3. 플랫폼 분포: 앱별, 플랫폼별 카운트 (단일 쿼리)
+    platform_dist_query = select(
+        AppReview.app_name,
+        AppReview.platform,
+        func.count(AppReview.id).label('count')
+    ).group_by(AppReview.app_name, AppReview.platform)
+
+    platform_result = await db.execute(platform_dist_query)
+    platform_dist = {}
+    for row in platform_result:
+        if row.app_name not in platform_dist:
+            platform_dist[row.app_name] = {}
+        platform_dist[row.app_name][row.platform] = row.count
+
+    # 결과 조합
     stats_list = []
-    
-    for app_name in app_names:
-        # 해당 앱의 모든 리뷰 조회
-        app_reviews_query = select(AppReview).where(AppReview.app_name == app_name)
-        app_reviews_result = await db.execute(app_reviews_query)
-        app_reviews = app_reviews_result.scalars().all()
-        
-        if not app_reviews:
-            continue
-        
-        # 통계 계산
-        total_reviews = len(app_reviews)
-        avg_rating = sum(r.rating for r in app_reviews) / total_reviews
-        
-        # 평점 분포
-        rating_dist = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
-        for review in app_reviews:
-            rating_dist[review.rating] = rating_dist.get(review.rating, 0) + 1
-        
-        # 플랫폼 분포
-        platform_dist = {}
-        for review in app_reviews:
-            platform_dist[review.platform] = platform_dist.get(review.platform, 0) + 1
-        
+    for app_name, stats in base_stats.items():
         stats_list.append(AppReviewStatsResponse(
             app_name=app_name,
-            total_reviews=total_reviews,
-            average_rating=round(avg_rating, 2),
-            rating_distribution=rating_dist,
-            platform_distribution=platform_dist
+            total_reviews=stats['total_reviews'],
+            average_rating=stats['avg_rating'],
+            rating_distribution=rating_dist.get(app_name, {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}),
+            platform_distribution=platform_dist.get(app_name, {})
         ))
-    
+
     return stats_list
 
 

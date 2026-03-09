@@ -38,9 +38,8 @@ class AppReviewCrawler:
         logger.info(f"[{app_name}] 구글 플레이 리뷰 크롤링 시작... (앱 ID: {app_id})")
         
         try:
-            # 동기 함수를 비동기로 실행
-            loop = asyncio.get_event_loop()
-            result = await loop.run_in_executor(
+            # 동기 함수를 비동기로 실행 (Python 3.10+ 호환)
+            result = await asyncio.get_running_loop().run_in_executor(
                 None,
                 lambda: reviews_all(
                     app_id,
@@ -95,10 +94,9 @@ class AppReviewCrawler:
         logger.info(f"[{app_display_name}] 앱스토어 리뷰 크롤링 시작... (앱 ID: {app_id})")
         
         try:
-            # AppStore 객체 생성 및 리뷰 수집
+            # AppStore 객체 생성 및 리뷰 수집 (Python 3.10+ 호환)
             app = AppStore(country=country, app_name=app_name_slug, app_id=app_id)
-            loop = asyncio.get_event_loop()
-            await loop.run_in_executor(None, app.review, max_reviews)
+            await asyncio.get_running_loop().run_in_executor(None, app.review, max_reviews)
             
             reviews_data = []
             for review in app.reviews:

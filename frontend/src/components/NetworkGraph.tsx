@@ -318,8 +318,10 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
                 tooltip.style('visibility', 'hidden')
             })
 
-        // Run simulation synchronously for stable layout
-        for (let i = 0; i < 300; ++i) simulation.tick()
+        // Run simulation with reduced ticks for better performance
+        // 120 ticks provides a good balance between layout quality and performance
+        simulation.alpha(1).alphaDecay(0.05)
+        for (let i = 0; i < 120; ++i) simulation.tick()
         simulation.stop()
 
         // Apply final positions statically (no continuous tick updates)

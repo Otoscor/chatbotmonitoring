@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 
 interface UseApiState<T> {
   data: T | null
@@ -20,15 +20,20 @@ export function useApi<T>(
     error: null,
   })
 
+  // Store fetchFn in a ref to avoid unnecessary re-renders
+  // This prevents infinite loops when callers don't memoize fetchFn
+  const fetchFnRef = useRef(fetchFn)
+  fetchFnRef.current = fetchFn
+
   const fetchData = useCallback(async () => {
     setState(prev => ({ ...prev, loading: true, error: null }))
     try {
-      const data = await fetchFn()
+      const data = await fetchFnRef.current()
       setState({ data, loading: false, error: null })
     } catch (error) {
       setState({ data: null, loading: false, error: error as Error })
     }
-  }, [fetchFn])
+  }, [])
 
   useEffect(() => {
     fetchData()
