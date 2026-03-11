@@ -1,32 +1,32 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 2130,
-    "average_rating": 3.028169014084507,
+    "total_reviews": 2180,
+    "average_rating": 3.020642201834862,
     "rating_distribution": {
-      "1": 623,
-      "2": 226,
-      "3": 338,
-      "4": 354,
-      "5": 589
+      "1": 644,
+      "2": 231,
+      "3": 342,
+      "4": 362,
+      "5": 601
     },
     "platform_distribution": {
-      "google_play": 2130
+      "google_play": 2180
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 259,
-    "average_rating": 2.4864864864864864,
+    "total_reviews": 265,
+    "average_rating": 2.479245283018868,
     "rating_distribution": {
-      "1": 116,
+      "1": 119,
       "2": 30,
-      "3": 36,
-      "4": 25,
+      "3": 38,
+      "4": 26,
       "5": 52
     },
     "platform_distribution": {
-      "google_play": 259
+      "google_play": 265
     }
   },
   {
