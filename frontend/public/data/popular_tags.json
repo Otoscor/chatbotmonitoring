@@ -1,82 +1,82 @@
 [
   {
     "tag": "로맨스",
-    "count": 51
-  },
-  {
-    "tag": "순애",
-    "count": 40
+    "count": 45
   },
   {
     "tag": "판타지",
-    "count": 32
+    "count": 36
+  },
+  {
+    "tag": "순애",
+    "count": 35
   },
   {
     "tag": "시뮬레이션",
-    "count": 29
+    "count": 35
   },
   {
     "tag": "자작 캐릭터",
-    "count": 23
-  },
-  {
-    "tag": "일상",
-    "count": 22
-  },
-  {
-    "tag": "남성",
-    "count": 20
-  },
-  {
-    "tag": "여성",
-    "count": 20
-  },
-  {
-    "tag": "언리밋",
-    "count": 18
-  },
-  {
-    "tag": "hl",
-    "count": 17
+    "count": 24
   },
   {
     "tag": "엘린봄맞이대회",
-    "count": 15
+    "count": 23
+  },
+  {
+    "tag": "남성",
+    "count": 21
   },
   {
     "tag": "현대",
+    "count": 21
+  },
+  {
+    "tag": "여성",
+    "count": 19
+  },
+  {
+    "tag": "일상",
+    "count": 16
+  },
+  {
+    "tag": "추천",
+    "count": 15
+  },
+  {
+    "tag": "hl",
+    "count": 14
+  },
+  {
+    "tag": "언리밋",
     "count": 14
   },
   {
     "tag": "하렘",
+    "count": 14
+  },
+  {
+    "tag": "아카데미",
     "count": 13
   },
   {
-    "tag": "추천",
-    "count": 13
-  },
-  {
-    "tag": "현대판타지",
-    "count": 12
-  },
-  {
-    "tag": "게임",
-    "count": 12
+    "tag": "bl",
+    "count": 11
   },
   {
     "tag": "시뮬",
-    "count": 11
+    "count": 10
   },
   {
     "tag": "시뮬레이터",
     "count": 10
   },
   {
-    "tag": "다정남",
+    "tag": "신학기제작대회",
     "count": 10
   },
   {
-    "tag": "학교",
-    "count": 8
+    "tag": "집착",
+    "count": 9
   }
 ]
