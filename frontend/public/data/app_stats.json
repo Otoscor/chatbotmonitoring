@@ -1,32 +1,32 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 2399,
-    "average_rating": 3.0245935806586077,
+    "total_reviews": 2599,
+    "average_rating": 3.0230858022316274,
     "rating_distribution": {
-      "1": 708,
-      "2": 256,
-      "3": 368,
-      "4": 403,
-      "5": 664
+      "1": 771,
+      "2": 273,
+      "3": 400,
+      "4": 435,
+      "5": 720
     },
     "platform_distribution": {
-      "google_play": 2399
+      "google_play": 2599
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 346,
-    "average_rating": 2.479768786127168,
+    "total_reviews": 359,
+    "average_rating": 2.467966573816156,
     "rating_distribution": {
-      "1": 156,
-      "2": 39,
-      "3": 49,
+      "1": 164,
+      "2": 40,
+      "3": 50,
       "4": 33,
-      "5": 69
+      "5": 72
     },
     "platform_distribution": {
-      "google_play": 346
+      "google_play": 359
     }
   },
   {
@@ -46,62 +46,62 @@
   },
   {
     "app_name": "베이브챗 (Babechat)",
-    "total_reviews": 139,
-    "average_rating": 2.0719424460431655,
+    "total_reviews": 140,
+    "average_rating": 2.0642857142857145,
     "rating_distribution": {
-      "1": 83,
+      "1": 84,
       "2": 9,
       "3": 18,
       "4": 12,
       "5": 17
     },
     "platform_distribution": {
-      "google_play": 139
-    }
-  },
-  {
-    "app_name": "Character AI",
-    "total_reviews": 128,
-    "average_rating": 3.0078125,
-    "rating_distribution": {
-      "1": 42,
-      "2": 12,
-      "3": 15,
-      "4": 21,
-      "5": 38
-    },
-    "platform_distribution": {
-      "google_play": 128
+      "google_play": 140
     }
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 127,
-    "average_rating": 3.4960629921259843,
+    "total_reviews": 131,
+    "average_rating": 3.4580152671755724,
     "rating_distribution": {
-      "1": 22,
-      "2": 11,
+      "1": 23,
+      "2": 13,
       "3": 22,
-      "4": 26,
+      "4": 27,
       "5": 46
     },
     "platform_distribution": {
-      "google_play": 127
+      "google_play": 131
+    }
+  },
+  {
+    "app_name": "Character AI",
+    "total_reviews": 130,
+    "average_rating": 3.0,
+    "rating_distribution": {
+      "1": 43,
+      "2": 12,
+      "3": 15,
+      "4": 22,
+      "5": 38
+    },
+    "platform_distribution": {
+      "google_play": 130
     }
   },
   {
     "app_name": "케이브덕 (Caveduck)",
-    "total_reviews": 118,
-    "average_rating": 3.364406779661017,
+    "total_reviews": 120,
+    "average_rating": 3.35,
     "rating_distribution": {
-      "1": 31,
+      "1": 32,
       "2": 10,
       "3": 10,
-      "4": 19,
+      "4": 20,
       "5": 48
     },
     "platform_distribution": {
-      "google_play": 118
+      "google_play": 120
     }
   },
   {
