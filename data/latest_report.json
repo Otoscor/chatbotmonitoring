@@ -1,195 +1,195 @@
 {
-  "id": 29,
-  "report_date": "2026-03-19T15:28:54.620190",
-  "total_posts": 557,
-  "total_views": 52136,
-  "total_recommends": 569,
-  "total_comments": 2235,
+  "id": 31,
+  "report_date": "2026-03-25T08:37:21.990278",
+  "total_posts": 555,
+  "total_views": 51573,
+  "total_recommends": 410,
+  "total_comments": 1557,
   "top_keywords": [
     {
       "keyword": "바베",
-      "count": 17,
-      "score": 0.0258
-    },
-    {
-      "keyword": "티팟",
       "count": 13,
-      "score": 0.0214
+      "score": 0.0205
     },
     {
-      "keyword": "ai",
-      "count": 8,
-      "score": 0.0178
-    },
-    {
-      "keyword": "신드롬",
-      "count": 8,
-      "score": 0.0138
-    },
-    {
-      "keyword": "있음",
-      "count": 8,
-      "score": 0.0122
-    },
-    {
-      "keyword": "코파",
-      "count": 8,
-      "score": 0.012
-    },
-    {
-      "keyword": "수채화",
-      "count": 6,
-      "score": 0.0108
-    },
-    {
-      "keyword": "얼헌",
-      "count": 7,
-      "score": 0.0107
-    },
-    {
-      "keyword": "소악마",
-      "count": 7,
-      "score": 0.0103
-    },
-    {
-      "keyword": "에덴",
-      "count": 7,
-      "score": 0.0103
-    },
-    {
-      "keyword": "질문",
-      "count": 7,
-      "score": 0.0098
-    },
-    {
-      "keyword": "님들",
-      "count": 5,
-      "score": 0.009
+      "keyword": "스냅샷",
+      "count": 12,
+      "score": 0.0201
     },
     {
       "keyword": "페소",
       "count": 6,
+      "score": 0.0108
+    },
+    {
+      "keyword": "업데이트",
+      "count": 8,
+      "score": 0.0105
+    },
+    {
+      "keyword": "ai",
+      "count": 4,
+      "score": 0.0104
+    },
+    {
+      "keyword": "분기",
+      "count": 6,
+      "score": 0.0102
+    },
+    {
+      "keyword": "뭐야",
+      "count": 6,
+      "score": 0.0098
+    },
+    {
+      "keyword": "아니",
+      "count": 6,
+      "score": 0.0094
+    },
+    {
+      "keyword": "내가",
+      "count": 5,
       "score": 0.009
     },
     {
-      "keyword": "혹시",
+      "keyword": "얼버기",
       "count": 5,
-      "score": 0.0085
+      "score": 0.009
     },
     {
-      "keyword": "모델",
-      "count": 6,
-      "score": 0.0084
+      "keyword": "에셋",
+      "count": 5,
+      "score": 0.009
     },
     {
       "keyword": "오푸스",
-      "count": 5,
-      "score": 0.0084
-    },
-    {
-      "keyword": "추론",
-      "count": 5,
-      "score": 0.0081
-    },
-    {
-      "keyword": "언셒",
       "count": 6,
-      "score": 0.0079
+      "score": 0.009
     },
     {
-      "keyword": "홍보",
+      "keyword": "잼삼",
       "count": 5,
-      "score": 0.0075
+      "score": 0.009
     },
     {
-      "keyword": "재밌네",
+      "keyword": "원래",
+      "count": 5,
+      "score": 0.0073
+    },
+    {
+      "keyword": "있음",
       "count": 4,
       "score": 0.0072
     },
     {
-      "keyword": "고슴도치",
+      "keyword": "질문",
       "count": 5,
-      "score": 0.007
+      "score": 0.0071
     },
     {
-      "keyword": "모듈",
-      "count": 6,
-      "score": 0.0069
-    },
-    {
-      "keyword": "갑자기",
+      "keyword": "오랜만에",
       "count": 4,
       "score": 0.0067
     },
     {
-      "keyword": "내가",
+      "keyword": "이건",
       "count": 4,
       "score": 0.0067
     },
     {
-      "keyword": "먹으니까",
+      "keyword": "짚오사",
       "count": 4,
       "score": 0.0067
     },
     {
-      "keyword": "젬이오",
+      "keyword": "출력량",
       "count": 4,
+      "score": 0.0067
+    },
+    {
+      "keyword": "프로챗",
+      "count": 5,
       "score": 0.0066
     },
     {
-      "keyword": "나만",
-      "count": 4,
-      "score": 0.0063
-    },
-    {
-      "keyword": "승수",
-      "count": 4,
-      "score": 0.0063
-    },
-    {
-      "keyword": "좋음",
+      "keyword": "미친",
       "count": 4,
       "score": 0.0062
     },
     {
-      "keyword": "삽화",
+      "keyword": "나는",
       "count": 4,
-      "score": 0.006
+      "score": 0.0061
+    },
+    {
+      "keyword": "하나",
+      "count": 4,
+      "score": 0.0061
+    },
+    {
+      "keyword": "캐시키퍼",
+      "count": 4,
+      "score": 0.0055
+    },
+    {
+      "keyword": "돌렸는데",
+      "count": 3,
+      "score": 0.0054
+    },
+    {
+      "keyword": "루나",
+      "count": 3,
+      "score": 0.0054
+    },
+    {
+      "keyword": "바베는",
+      "count": 3,
+      "score": 0.0054
+    },
+    {
+      "keyword": "상태",
+      "count": 3,
+      "score": 0.0054
+    },
+    {
+      "keyword": "왤케",
+      "count": 3,
+      "score": 0.0054
     }
   ],
   "top_characters": [
     {
-      "name": "셒/홍보",
+      "name": "반납",
       "mentions": 2,
       "rank": 1
     },
     {
-      "name": "네코",
+      "name": "이세계트럭",
       "mentions": 2,
       "rank": 2
     },
     {
-      "name": "홍보/언셒",
-      "mentions": 1,
+      "name": "드메",
+      "mentions": 2,
       "rank": 3
     },
     {
-      "name": "케/엘/팊/잍",
+      "name": "개꼴야스",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "반납",
+      "name": "롶/팅/팊",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "바베/언솊",
+      "name": "케이브덕",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "리루AI베타",
+      "name": "Deev",
       "mentions": 1,
       "rank": 7
     },
@@ -199,59 +199,24 @@
       "rank": 8
     },
     {
-      "name": "마을의 공공재가 된 여기사",
+      "name": "무사 무휼",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "2차",
+      "name": "소드실드",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "치즈",
+      "name": "무림",
       "mentions": 1,
       "rank": 11
     },
     {
-      "name": "1/4",
+      "name": "시뮬",
       "mentions": 1,
       "rank": 12
-    },
-    {
-      "name": "홍보/셒/언셒/여성향",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "홍보/언셒/여성향",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "바베/언셒",
-      "mentions": 1,
-      "rank": 15
-    },
-    {
-      "name": "이세계트럭",
-      "mentions": 1,
-      "rank": 16
-    },
-    {
-      "name": "송하리",
-      "mentions": 1,
-      "rank": 17
-    },
-    {
-      "name": "메인",
-      "mentions": 1,
-      "rank": 18
-    },
-    {
-      "name": "로그컵케익",
-      "mentions": 1,
-      "rank": 19
     }
   ],
   "trending_topics": []

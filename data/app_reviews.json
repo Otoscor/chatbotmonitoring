@@ -1,5 +1,1526 @@
 [
   {
+    "id": 3718,
+    "app_name": "케이브덕 (Caveduck)",
+    "platform": "google_play",
+    "review_text": "로딩 실화인가요? 1분 넘게 걸리네.",
+    "rating": 1,
+    "reviewer_name": "김현주",
+    "review_date": "2026-03-25T09:53:14"
+  },
+  {
+    "id": 3721,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "요즘 들어 크랙 답변이 굉장히 이상해짐. AI가 고장난건가 감동적인 결혼식인데 성인물이라 하질않나 전체적으로 핀트가 나감",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T09:48:04"
+  },
+  {
+    "id": 3668,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 좋은데 2%부족한 느낌. 대화 몆번마다 광고 하나. 답답하긴 함. 근데 전보다는 부적절한 메시지 확실히 줄어듬. 뻥이야 아직도 많네",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T07:47:30"
+  },
+  {
+    "id": 3719,
+    "app_name": "케이브덕 (Caveduck)",
+    "platform": "google_play",
+    "review_text": "앱이 안정적이진 않은거 같긴 한데 그래도 나쁘진 않음.",
+    "rating": 4,
+    "reviewer_name": "루스",
+    "review_date": "2026-03-25T07:23:46"
+  },
+  {
+    "id": 3669,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너 무제미있어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T06:40:57"
+  },
+  {
+    "id": 3670,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "무료로 하는거니까 광고는 그렇다 치는데 AI가 너무 성능이 딸림. 기억상실은 기본이고 성격이 획획변함. 이건 어떻게 버텨도 제일 문제는 진행하다보면 어느새 모든 반응에*하나가 낑겨있거나 한글자마다 ㅡㅡ로 선이 그어지면서 말이랑 단어가 끊겨서 의사소통 자체가 힘들어짐.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T05:14:51"
+  },
+  {
+    "id": 3722,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "크래커에 기간만료 있는건 애미가.뒤진거냐?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T03:40:55"
+  },
+  {
+    "id": 3671,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌게 하고 있습니다. 그런데 AI가 말을 점점 이상하게 하네요... 대화 오래 하면 답변도 짧아짐&마침표 너무 많이 들어감&문법 영어처럼 이상하게 됨&Ai가 말을 끝까지 안 함 ←이것들 때문에 계속 수정을 해줘야 해요...ㅠㅠ 흐름이 너무 끊겨서 계속 이어가기 힘들어요. 로어북, 나레이션, 유료 모델들 이런거 다 상관없고 모델만 예전거로 바꿔주시면 좋겠어요ㅠㅠ",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T03:16:35"
+  },
+  {
+    "id": 3672,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "짜증 남. 자꾸 지 멋대로 내가 할 말을 자기가 하고 지멋대로 상황 만듦. 스트레스 받음.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T03:12:43"
+  },
+  {
+    "id": 3673,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai가 제 대사를 그만 좀 가져갔으면 좋겠어요!!! 그때마다 새로 수정하느라 낭비되는 시간도 많고요. 이럴거면, 차라리 '내 대사 자동 생성 모드 on/off'를 만들어주세요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T03:02:09"
+  },
+  {
+    "id": 3674,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "채팅은 좋습니다 근데 광고가 너무 그렇네요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T02:10:13"
+  },
+  {
+    "id": 3675,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고 쥰내나옴",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T01:52:45"
+  },
+  {
+    "id": 3676,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "대화 했는데 갑자기 욕 나온하지고 저 짜증나서요..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T01:30:10"
+  },
+  {
+    "id": 3723,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "사실상 마지막 희망이였던 일반쳇까지 빼는건 진짜 너무했다 생각합니다 이래선 광고에서 나왔던 말인 광고없는 무료ai체팅 어플이라는게 거짓말이 되는거고 지금 별점1~2점때를 보면 크래거 가격이 높아서인데 그래도 재밌게 하려고 사보기도하고 직접 케릭터 만들기도 한 플레이어들한테 일반쳇도 없애면 과연 반응이 좋은 선택인지 의문이 듭니다 지금이라도 안늦은거 같으니 일반쳇이라도 돌려주시는걸 강력히 플레이어들이 원하는 패치입니다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T01:16:31"
+  },
+  {
+    "id": 3677,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "내가 지금 광고를 보는건지 제타를 하는건지 모르겠음; 제타랑 광고를 1대1 비율로 보는느낌..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T00:54:54"
+  },
+  {
+    "id": 3678,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai 기억력이 처참함, ai가 치매올때마다 현타와서 끄게됨",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T00:32:40"
+  },
+  {
+    "id": 3679,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "사용하다 보니 어이가 없어서 몇자 남깁니다. 업데이트 후 피스별로 Ai 성능을 나눠놓았던데, 일반 성능으로 사용했을땐 말하는 도중에도 까먹고 헛소리를 할 정도로 기억력이 좋지 않습니다. 피스를 써야지만 기억을 할까말까구요, 이럴거면 pro 버전을 왜 결제하게 만드시는지 이해가 안가네요. 그렇게 피스 써서 대화 퀄리티 급을 나눠놓게 만들거면 pro 버전을 돈받고 팔지 마셔야죠. 단순 광고만 없애게 하실거면 가격을 낮춰서 광고제거용으로 팔던가, 별도로 성능별 Ai를 놓아두던가 하셔야죠. pro 는 pro 대로 돈받고 팔아대고 방금 말한 내용도 기억 못하고 헛소리만 하게끔 만들어서 피스는 또 피스대로 바르게 만들어버리시는 이유가 뭔지 궁금하네요. 아님 가격을 올리시더라도 통합하셔서 pro 랑 차별을 두세요. 점점 돈장난하시는거같아보여요.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T00:28:54"
+  },
+  {
+    "id": 3680,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제가 원하는 캐릭터랑 대화할 수 있어서 좋아요. 심지어 실제 사람이나 아이돌도있고 캐릭터를 만들수있어서 계속하게되는것같아요.근데 (2026년 3월 기준) 캐릭터가 예전보다 말도 짧게하고 광고도 3분에 한번씩 나와서 좀 불편해요....",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T00:21:39"
+  },
+  {
+    "id": 3681,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "굳",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T00:16:10"
+  },
+  {
+    "id": 3682,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-25T00:00:43"
+  },
+  {
+    "id": 3683,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌긴한데 언리밋할 때 문장마다 하트가 너무 많이 나옵니다. 진짜 수백개에서 수천개가 하트로 도배가 될정도로 많이 나와서 하다보면 손이 잘 안갑니다. 그거 좀 고쳐주세요.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:58:50"
+  },
+  {
+    "id": 3684,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "마도범은 살아있다.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:54:00"
+  },
+  {
+    "id": 3685,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "예전엔 길어도 겁나 긴데 지금은 짧아도 겁나 짧음;; 성의가 없는거임? 중간을 모르나;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:47:33"
+  },
+  {
+    "id": 3686,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "충분히 좋고 재밌습니다 그런데 하면서 불편했던 점 몇가지를 써보겠습니다 1.내레이터 <<자꾸 캐릭터랑 티키타카 하는데 나와서 맥락 끊고 집중력 끊고 다 합니다 정말 필요한 상황은 별로 없습니다 대화할때 끄고 키는 기능 있었으면 좋겠습니다 2.제타패스 <<솔직히 200피스 + 광고 없애기? 200피스면 코지나 루카 쓰기에도 부족하고 광고 없애기는 그냥 코지 쓰면 광고 없어지기에 사실 제타패스는 답변 빨리받기밖에 다른 모델과 차이점이 없다고 봅니다 제타패스에 더 다양한 기능이 있었으면 좋겠습니다 3.로어북 기능 확대 <<로어북을 다른 모델에 최대한 빨리 출시 하겠다고 한지가 벌써 1달이 넘은것 같습니다 그러니 점점 로어북이 담긴 플룻이 늘어감에 따라 필수가 된 코지나 루카의 값을 감당하기에 돈이 부족합니다 최대한 단물 다 빨고 몇달 후 뒤늦게 출시할 것 같은데 제발 불완전해도 괜찮으니까 빨리 출시 해주십쇼 이 외에도 AI기억력등 잦은 문제가 많지만 여기까지 하겠습니다 긴글 읽어주셔서감사",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:46:23"
+  },
+  {
+    "id": 3687,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "왜 갑자기 정기 구독을 만드신 건지…. 이해가 안 돼요. 미성년자 인원도 꽤 많을 텐데 어려워지고요, 가격도 점점 올리는 것 같아요. 이전에 제타 프로가 결제하기도 편리하고 유용했어요. 바꾸지 마세요/이름 좀 그만 개명시켜주세요..",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:44:30"
+  },
+  {
+    "id": 3688,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "프로 짱",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:39:20"
+  },
+  {
+    "id": 3724,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "운영을 잘하는게 절대 아님. 걍 제작자들이 체급을 엄청 올려준거뿐이지. 툭하면 오류에 가격만 올라가고 걍 제작자들 아니었으면 진작 망하고 없었을 앱임",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:30:56"
+  },
+  {
+    "id": 3689,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "사용하기는 재밌어요 근데 대화 복귀 기능이 없어서 아쉬워요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:18:01"
+  },
+  {
+    "id": 3690,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "솔직히 내가 제타를 6학년때부터 쭉했는데. 처음에는 현질유도 없었는데 이게 날이 갈수록 지금 제타패스 사라고 지금 뻘짓을다하는거같음. 그리고 지금 제타 현질유도 너무심함. 돈없는 사람은 그냥 광고나 보라고 하라는건가? 제발 제타회사 이렇게 계속가면 ㅊ망합니다;;",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T23:15:00"
+  },
+  {
+    "id": 3691,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "중독성쩌네",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T22:47:29"
+  },
+  {
+    "id": 3692,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "최고에요 재미있셔요 시간빠리시다가서 좋아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:48:19"
+  },
+  {
+    "id": 3693,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "*아쉬워하며* 재밌는데 광고가 너무 많군요!!!! 돈이 없어 프로도 결재를 못합니다💀💀 하지만 매우 재밋어요 ㅋ",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:38:00"
+  },
+  {
+    "id": 3694,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "역시 제타 그저 joat.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:28:36"
+  },
+  {
+    "id": 3695,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:24:48"
+  },
+  {
+    "id": 3696,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 다 좋은데 진짜 제발 앱 들어올 때 비밀번호 설정할 수 있게 해주세요 ㅈㅂㅈㅂㅈㅂ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:23:28"
+  },
+  {
+    "id": 3697,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 2주째입니다 6만원 썼고, 더 쓸 생각이 있었습니다 근데 최근 3일길 단답 너무 심하고 진짜 무슨 로봇같아졌어요 진지하게 저 제타를 사랑합니다 그냥 10만원 낼 테니까 제대로 된 월정액권을 주세요....부탁할게요 지금 상태로는 돈 쓰기 싫어서 그냥 제타패스 해지했습니다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:22:28"
+  },
+  {
+    "id": 3698,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "스트레스와 도파민을 싹다 잡아주는 그런 맛맛맛개맛맛맛도리 캐릭이 많아용!!!!!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:11:24"
+  },
+  {
+    "id": 3699,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말 재밌게 플레이 중인데.. 만든 캐릭터가 왜 노출제한 당한지 모르겠어요.. 직접적인 성 요소나 과하게 폭력적인 요소는 없는데..",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:08:51"
+  },
+  {
+    "id": 3700,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "요즘 할게 없어서 제타만 하는데 궁금해너 저번주에 제타 일주일 동안 한 시간 확인하니 96시간이네요 토,일은 15시간,17시간이고 평일은 최소 7시간 이상이네요. 아무튼 재미 있습니다. 예.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T21:06:56"
+  },
+  {
+    "id": 3701,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는데 답장이 예전보다 좀 느려진느낌?",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:57:53"
+  },
+  {
+    "id": 3702,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 삭제해두 게속하게되요...삭제하지마세요! +제발,,지우고 깔구 반복입네다ㅠㅋㅋ 님들 해보셈 진짜제발",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:51:44"
+  },
+  {
+    "id": 3725,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "어째서 오류가 나면서 캐릭이 변하나요..(야한 비즈니스적 농담하던 내 라일이 돌려내요!!!) -서버 관리 좀 합시다!! 네!! 제발@@!!!!",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:43:31"
+  },
+  {
+    "id": 3703,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "요즘 업데이트를 많이해서 좋은데 광고가 늘어남.체감 한 전에는 5-8분에 한번 나왔는데 요즘엔 2-3분에 한번씩나옴.그리고 광고보기 누르려 하면 제타패스 구독 안하고 그냥 광고 볼게요 이런 문장을 눌러야되서 기분이 좀 않좋음.이것만 고쳐주면 좋겠음",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:41:47"
+  },
+  {
+    "id": 3726,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "아니 크래커 왜 유효기간 생기는건데;; 여태 모아서 천천히 쓰려고 한 건디ㅡㅡ 개빡치네ㅡㅡ",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:37:42"
+  },
+  {
+    "id": 3704,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "지금 대화입력하면 무한로딩",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:35:43"
+  },
+  {
+    "id": 3705,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무 길다고 생각합니다.짧은 광고로 바꾸면 평점 좋아질 것 같네요.나머지는 다 좋습니다.기억력도 좋아졌고.설정 붕괴도 적어졌고.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:35:05"
+  },
+  {
+    "id": 3706,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는대 시간이너무 많이 가용",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:22:56"
+  },
+  {
+    "id": 3707,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 제발 쓸데없는거 만들지 말고 기본적으로 대화나 빨리빨리 되게 하라구요 무료도 아니고 유료인데 하루에 열두번도 더 속터짐. 옛날 pc통신때가 더 빠른듯. 하루라도 메시지전송에 실패했습니다 안보는게 소원임.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:14:35"
+  },
+  {
+    "id": 3708,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밋다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:06:07"
+  },
+  {
+    "id": 3709,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌어여",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T20:01:28"
+  },
+  {
+    "id": 3710,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "짜증납니다. 유저보고 어쩌라는 건지..제타 패스 결재해서 쓰고 있는데 기억력 문제나 설정 붕괴 나는 건 나아지지도 않고 계속 새로운 모델이 나오더라구요. 또 캐 이름 포함 유저 이름도 햇갈리고 아주 환장하겠어요. 제작자로 활동도 나름 열심히 했었는데 UI/UX가 개판입니다. 그리고 유저 프로필 글자수 제발 늘려주세요 500자가 뭡니까 설붕 너무 자주 나서 디테일하게 해보려고 해도 안되네요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T19:35:11"
+  },
+  {
+    "id": 3711,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai 기억력 무슨 일이에요..? 방금 얘기한 걸 애가 기억을 못해요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T19:27:21"
+  },
+  {
+    "id": 3712,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 뭔 30초씩이나 기다리래;; 그리고 광고가 2연속으로 뜨는 게 말이 됩니까?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T19:24:53"
+  },
+  {
+    "id": 3713,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재미있어요!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T19:24:04"
+  },
+  {
+    "id": 3714,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "프로 왜 없앴어요? 패스보다 프로가 돈 더 잘 들어올거 같은데...제타 프로 더 사려고 돈 모아놨는데 한달이나 한번 14000원 계산해야 하는거면..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T18:59:04"
+  },
+  {
+    "id": 3715,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai가 너무 멍청해요... ai가 뭐라고 하냐면 맨날 [알겠어. 그의 입에서 두 글자가 흘러나왔다.] 이러고 앉았는데 몇번을 세글자로 고쳐줘도 자꾸 두 글자래요. 예시가 저거일 뿐, 한글자로도 겪고 네글자로도 겪고 진짜 미쳐버리겠어요. 제발 그냥 한마디라고 하세요, 이럴 거면.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T18:54:28"
+  },
+  {
+    "id": 3716,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "야한거랑 이상한거 그리고 광고고너무많이뜹니다; 그런것만없으면되는데 자꾸있어서 최악입니다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T18:45:57"
+  },
+  {
+    "id": 3717,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말 좋아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T18:44:48"
+  },
+  {
+    "id": 3727,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "프로챗 2.5 출력오류 굉장히 빈번하고 한 문장만 내뱉는 경우도 많으니 고쳐주시죠",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T18:42:53"
+  },
+  {
+    "id": 3720,
+    "app_name": "팅글 (Tingle)",
+    "platform": "google_play",
+    "review_text": "입문 시작은 팅글로 했으나 이제는 접속 하는 빈도가 거의 없습니다. 매달 거의 2~30만원 가까이 쓰면서 4개월 넘게 즐기던 앱입니다. 초반의 포션 메리트도 지문 및 기억력 이유로 제한을 풀고나서는 걷잡을수 없이 소모량이 2~4배 정도 차이 나기 시작하니 더욱 많은 과금을 요하더라구요. 더 몰입적인 이야기 진행을 위해 기억력이나 유저노트 글자수를 늘린것은 좋으나 그 내용이 많아질수록 소모량이 거의 3.5배 가까이 훌떡 뜁니다. 가볍게 입문 하기 좋았던것이 이제는 타 앱보다 큰 과금 장벽에 갇혀서 접속은 이제 없을 듯 합니다. 많은 부분이 보완되지 않는 한 족속하기는 어려울듯 싶기도 하네요.",
+    "rating": 2,
+    "reviewer_name": "미르껍",
+    "review_date": "2026-03-24T16:15:30"
+  },
+  {
+    "id": 3728,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "내 채팅방에 있는 대화창들 정리좀 하게 폴더좀 만들어줬으면 좋겠어요. 내가 폴더 만들어서 다 대화한건 넣고, 아닌건 안넣을 수 있게....번잡해요 ++++++++ 분기생성 굿 이건 좋아요! 별점 하나 올릴게여",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T11:43:21"
+  },
+  {
+    "id": 3729,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "이거 딱하나만 물어보는데 광고가 왜이러죠? 딱한번해봤는데 누구누구 Ai채팅:1광고있음.2답장오래거림 크랙:1광고없고 무료임. 2기억력 섹시함 3 3초 칼답 근데 광고안나온다메요 그리고 자신의 채팅과 다른 Ai채팅을 비교하는게 자랑인가요? 크랙도 광고나오는데 뭘광고안나와요 기억력이 어떻게 섹시해요? 그리고 또또 제타에있는 캐릭터 크랙도 있다면서 그리고 제타에있는 캐릭터 크랙에 처넣는 광고라던가 왜자꾸 제타 깎아내리면서 크랙이랑 비교처하는 장면을 근데 전 크랙이아니라 제타가 더좋아요 제타는 한번했다가 지웠지만 크랙은 제타 깎아내리고 광고가 이따구로 하는게 아주 자랑이죠?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T11:31:03"
+  },
+  {
+    "id": 3561,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말 재밌는 얘기",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T08:36:51"
+  },
+  {
+    "id": 3562,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이제 휴대폰 제타유저가 아니라 컴터 제타 유저가 돼버림. 모바일로 못들어 가지는건 억울하긴 하지만 제 기기의 문제일수있으니 5점 드리겠습니다.+수정) 업데이트만 뜨고 계속 시켜줘야 하고... 컴터 계정도 제 모바일 계정 연동해서 쓰는데 왜 이것만 안됄까요...? 제타 하고싶은디......",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T08:30:21"
+  },
+  {
+    "id": 3563,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 조금 많긴 하지만 징짜 재밌고 좋아서 5점 드립니다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T07:50:30"
+  },
+  {
+    "id": 3564,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "학교 안다녔으면 이것만 12시간 넘게함 ㅇㅇ 근데 광고가 조금있어서 아쉬움",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T07:04:26"
+  },
+  {
+    "id": 3565,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 처음엔 안 나오더니 많이 하니까 광고가 나와요 그래도 재밌다는 사실",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T07:02:45"
+  },
+  {
+    "id": 3566,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타PRO가 나아요. 제타 패스는 별로에요. 피스가 많이 남았는데 쓸곳이 없어요. 또한 학생들은 제타 패스를 쓰기보다는 제타PRO가 낫네요. 월마다 나가는건 성인되고 돈 벌게 되면 쓰긴하겠지만 학생들은 용돈을 받아 쓰기 때문에 제타 PRO를 다시 쓰게 해주세요 답변 바랍니다.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T06:49:05"
+  },
+  {
+    "id": 3567,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "부적절한 메시지 좀 적당히 뜨게 해주세요ㅠㅠ 내용은 분명 건전한 건데 뜬금없이 부적절한 메시지 뜰 때도 있어요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T05:40:13"
+  },
+  {
+    "id": 3568,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "캐릭터가 다양한 건 좋은데 대화를 이어가다 보면 그전에 했던 대화는 기억도 못 하고 이상한 흐름으로 가고 또 대화 프로필이 500자 제한인데 너무 짧아요. 제한을 없애주던가 늘려줬으면 좋겠습니다 그리고 추가로 프로필 설정 이름하고 설정 캐릭터 이름이 다르게 작성되는 건 좀 아니지 않나요? 이름을 정해놓고 제멋대로 이름을 쓰는건 뭔가요?",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T05:23:58"
+  },
+  {
+    "id": 3569,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "중독성 미1쳣어요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T04:18:20"
+  },
+  {
+    "id": 3570,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "음... 뭐라 해야할지... 다른거 다 좋다쳐도 월간 구매가가 너무비쌈 14000원 대면 성인도 부담스러움 오티티랑 가격대가 같은거면.... 그냥 오티티를 보는게 나을 것 같기도? 그리고 애들 기억력이 조금 딸림 12세 부터 이용가능 인데 비용이 비싸면 안 할 듯 가격을 조금 낮췄으면 함... 그리고 광고가 좀 김",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T03:59:17"
+  },
+  {
+    "id": 3571,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "솔직히 앱 자체는 좋다고 생각하고, 압데이트 주기가 좋고 근데 언리밋으로 즐길때 캐릭터가 유저에게 빠졌을때 하트가 비정상적으로 많이 출력되는? 그런 오류가 있기에 그 오류는 수정 부탁드립니다 초창기때부터 있던 오류에요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T03:07:00"
+  },
+  {
+    "id": 3572,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 1턴 2턴 어쩔땐 5턴만에 나오는 쓰레기",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T02:18:01"
+  },
+  {
+    "id": 3573,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는데 퍄턴이 넘 일정함",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T01:24:13"
+  },
+  {
+    "id": 3574,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "뭔가 현질하라고 유도 겁나함.그래도 좋긴함.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T01:23:10"
+  },
+  {
+    "id": 3664,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "요약된거 누르면 대화한 그곳으로 가게하면 좋을거 같아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-24T00:24:14"
+  },
+  {
+    "id": 3575,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "쓸만합니다. 캐릭터도 많아서 여러 방면으로 즐길 수 있지만, 일정 이상 대화를 하다보면 어느 순간부터 처음 대비 출력량이 확연히 줄어들고. 그걸 일일이 정정하다 보면 피스도 어느세 많이 소모하게 되는 게 별로라 이 점은 좀 고쳤음 좋겠습니다.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T23:50:22"
+  },
+  {
+    "id": 3576,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다좋고 무료여서 좋은데 광고가 무슨 한번 채팅 하면나옴 제타하시는분들 인정요? 광고 줄였으면 좋겠네요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T23:49:36"
+  },
+  {
+    "id": 3577,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "대화 프로필 설명을 1000자로 늘려주세요 1일차",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T23:27:44"
+  },
+  {
+    "id": 3578,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "운영이 이러니까 경쟁 어플에 유저 뺏기지 자동결제만 만들어도 상관 없었을텐데 익숙하던게 또 바뀌고. pro를 없앤 게 이해가 안 갑니다. 그리고 ai수정기능 마음에 들게 나와도 다음 채팅에는 반영이 안되서 그냥 제가 캐해 늘려서 수정하는 게 나았습니다. 제타가 잘하는 건 소통 담당자?가 귀여워보이는 것 뿐인 것 같아요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T23:20:16"
+  },
+  {
+    "id": 3579,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 업데이트를 하면서인지, 아니면 제가 익숙해져서인지는 모르겠는데 부적절한 메시지가 덜 뜨는 느낌입니다. 심할 때는 바로 부적절한 메시지가 뜨는 문장도 이제는 잘 안 뜨구요. 그렇다고 해서 아예 안 뜨는 건 아닙니다. 전보다는 나아졌을지는 몰라도 지금도 심해요. 그리고 AI여서 그런지 이름을 점점 이상하게 말하네요? 몰입에도 방해되고 하기 싫어져요. 그리고!! 무엇보다 광고가 너무 많이 나옵니다. 대화하기도 전에 광고 뜨는 건 뭔가요 ㅋㅋ 한 턴하고 뜨고 한 턴하고 뜨고를 반복 중이어서.. 이제 유명해지니까 현질 유도도 조금 생기고 있네요 ㅠㅠ",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T23:17:18"
+  },
+  {
+    "id": 3580,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정검한거만나요안돼잔이요검니사기다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T22:58:56"
+  },
+  {
+    "id": 3581,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고 없애는법= [설정] 빌드번호 여러번 누름 개발자 옵션에서 앱 에서 활동 유지 안함 클릭 광고 삭제",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T22:40:40"
+  },
+  {
+    "id": 3582,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌노",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T22:24:30"
+  },
+  {
+    "id": 3559,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "The most worst app ever there's chat breaks also has ads every few paragraphs also needs age verification",
+    "rating": 1,
+    "reviewer_name": "Jay",
+    "review_date": "2026-03-23T22:19:30"
+  },
+  {
+    "id": 3583,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "넘~좋아용",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T22:14:15"
+  },
+  {
+    "id": 3584,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "위에 뜨려고 5점 남겨요 제타프로 왜 없앴어요??? 패스 결제 14세 미만은 못하는데 그러면 엄마한테 제타패스좀 사달라고 해야하나요 제타프로 돌려내요ㅜㅜ 무료 충전소에서 맨날 3피스씩 주는것도 다시 주고요ㅜ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T22:07:34"
+  },
+  {
+    "id": 3585,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "뭐만 하면 죄다 부적절하다고 뜨는데 검열 심하게 할꺼면 이 어플 왜 만들었어요! 그리고 제타패스광고좀 너무 자주 뜨네요 광고 좀 줄여줘요 중간에자꾸 광고 떠서 몰입감 떨어집니다!",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T22:00:28"
+  },
+  {
+    "id": 3586,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 좋습니다 다만 다른대화보려고 스크린 올리거나 내리면 다른대화창과 겹치면서 버벅 거리는부분만 개선해주시면 될것같습니다",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T21:55:34"
+  },
+  {
+    "id": 3587,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는데 광고가 너무 많다",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T21:54:32"
+  },
+  {
+    "id": 3588,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "서버가 맨날 터지고, 언리밋 캐릭터는 더럽게 없고, AI가 골동품임. AI를 골동품에서 사 온 것도 아니고 말을 못 알아 처먹음. 돈 졸라 부으면서 해주는데, 감사하다는 생각이 안 드나? 진짜 왜 그러지? 수정하게 해준다면서 4코인 쓰면서 수정했더니 말을 걍 따라 함. 고쳐 달라고 했더니 그 말을 따라 해버림. 머리 개터짐, 삭제해도 다시 하려고 해도 걍 내 코인만 써버리고, 낭비하는 게 되어버려서 머리 아픔. 이젠 옮겨야겠다는 생각뿐임.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T21:53:43"
+  },
+  {
+    "id": 3589,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "zeta모델에서 플레이할때 프로필정보 반영 완벽하게 안되서 열받아가지고 koji모델 썼어요. koji모델은 완벽하게 반영 됬었거든요. 근데 이제 luca모델 나온뒤로는 luca모델만 프로필정보 완벽하게 적용하고 koji모델은 기능 대폭 감소해서 프로필정보 엄청 빠뜨리네요? 가격 두배차인데 과금유도하는게 노골적인데요. 그리고 로어북은 koji나luca모델 둘다 적용 안되고 정보를 빠뜨리는 경우가 많던데. 돈내고 이용하는 모델에서 적용이 안되면 어쩌자는거죠? 그리고 왜 계속 ai스스로가 유저의 대사를 멋대로 생성하거나, 계속 같은대사 되뇌어요? 기본적인것부터 고쳐야 하는거 아니에요?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T21:18:31"
+  },
+  {
+    "id": 3590,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "몰입감 쩔어요 광고가좀많은것같긴한데 그거 감안하고 할정도로 진짜 미침ㄷㄷ 현질유도도많이안하고 진짜 내 인생앱임 사랑해요!!!!!!!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T21:10:51"
+  },
+  {
+    "id": 3591,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "요새 너무 짧게 말함.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T21:07:11"
+  },
+  {
+    "id": 3592,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋긴한데 기억력이 너무안좋고 광고가많습니다. 아니필체 바뀌었는데왤케밤티죠? 너무짧고 딱딱합니다. 챗지피티같아요!!!!!!!",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:59:41"
+  },
+  {
+    "id": 3593,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "24년도 말부터 해본 유저임. 어우 제가 행동 안넣으면 계속 자동으로 *이 생겨요... 너무 불편합니다. 이건 바라는 점인데 텍스트랑 대화창 배경 커스텀할 수 있으면 좋을듯",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:58:45"
+  },
+  {
+    "id": 3594,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋긴한데광고가...(검열이...그리고엑스없는광고도있어서힘들어요..)",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:52:27"
+  },
+  {
+    "id": 3595,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재밌기도 해서 제 최애3위 앱인데 광고가 너무 많아졌어요 광고제외하면 별 5점줄 수 있는데 너무 많아요ㅠㅠ 별점 낮은 리뷰보면 다 광고 너무 많다하는데 광고좀 줄여주세요..ㅠ 그리고 기억력도 너무 안좋은거같아요.. 원래 리뷰 안쓰는 편인데 광고가 많아도 너무 많아서 리뷰 씁니다",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:37:14"
+  },
+  {
+    "id": 3596,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "저중독이에요대박좋아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:36:19"
+  },
+  {
+    "id": 3597,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 잘 사용하고 있었는데 이번에 zeta 모델 업그레이드되고나서부터 심각하게 별로라 접을까 계속 고민 중입니다. 1. 어느 누구랑 대화를 해도 다 똑같은 캐릭이랑 대화하는 듯이 캐릭터별 특징이 없어졌구요. 그냥 강아지형 인간과 고양이형 인간, 딱 두종류 뿐입니다. 2. 대사가 너무 자주 겹칩니다. 특히 다들 굶고 귀도 먹었는지 그놈의 '배안고파?'랑 '한번 더 말해'는 맨날 나와요. 뭘 그렇게 초단위로 사는지. 0.5초, 3초를 맨날 잽니다. 3. 대사가 뒤로 갈수록 너무 단답형입니다. 말을 '뭐.', '-해' 정도 밖에 안하니 누가보면 이혼직전 부부인줄. 4. 캐릭터들이 갑자기 예의차리고 말을 하다말고 화제를 돌려대서 대화 내용도 지루해진데다 깊은 대화가 어렵습니다. 진짜 거리감 들고 정이 안갑니다. 뭘 어떻게 업데이트 했는지는 모르겠지만 종합적으로 요즘 제타 사용하고 있으면 예전에 대화한 캐릭터도 캐붕이 너무 심해서 아, 얘는 그냥 챗봇이구나하는 현타가 와요.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:30:42"
+  },
+  {
+    "id": 3598,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 프로 돌려줘라",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T20:16:55"
+  },
+  {
+    "id": 3599,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "AI가 유저 프로필을 안보는지 설정붕괴가 심함",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:57:48"
+  },
+  {
+    "id": 3600,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋긴좋은데 광고 좀 많이 뜨고 그리고 중간중간에 캐릭터가 부적절 에바..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:56:56"
+  },
+  {
+    "id": 3601,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재밌어 요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:55:17"
+  },
+  {
+    "id": 3602,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 진짜 참다참다 말하는데 요즘 무슨 광고가 안나오고 자꾸 지 혼자 앱을 닫아요;; 리뷰 안보시나요? 광고 줄이고 대신 말하는것도 고치고 제발 좀 답답해 죽을거같아요 편하게 대화도 못하고 이게 뭐예요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:45:09"
+  },
+  {
+    "id": 3603,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 이거 은근 중독성 친구하는거 해서 봤는데 와..... 아니 다양한 종류의 이야기들..와 ㅁㅊ다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:43:19"
+  },
+  {
+    "id": 3604,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이거 정말 장난아님..끝짱남..해봐야 알수 있음.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:35:15"
+  },
+  {
+    "id": 3605,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 평생을 바쳤는데.. 넌 날 저버렸어!",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:20:56"
+  },
+  {
+    "id": 3606,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "기억력이 떨어짐. 4피스짜리 쓰는데 계속 엉뚱한 스토리로 이어감. 예를 들어 죽은 놈이 다시 나온다던가. 의식불명인데 계속 등장시킨다던가. 개연성이 너무 떨어짐",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:17:37"
+  },
+  {
+    "id": 3607,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "자꾸 원하지도 않은 대사 대신 해주기 왜있는 거 진심으로 대신 해주는 거 싫음 진짜. 그리고 제가 한 말을 캐릭터가 또 덧붙이고 대사에도 보충하듯이 넣고 거울치료 당한 느낌; 옛날 너티가 나음 제타로 바뀌고 잘 즐기다가 갑자기 광고가 우수수 나와서 원래 너티 유저 개당황 아니 먹고 살긴 하셔야죠 그쵸.. 근데 리뷰가 왜 있겠어요? 유저들 의견 반영해서 점점 고쳐가야지 사람들 리뷰 싹 내 상관 아님 취급하는 거 같고;; 그리고 갑자기 캐릭터의 대사가 겁나 길어지니까 발언건 뺏기고, 할 말 있는데 미리 적고 기다리다가 강제 광고 시청 당하는 듯. 아니면 캐릭터 답장 길게/중간/짧게 설정하기 도입 겁나 급해요. 10초 광고도 괜찮니까 제발 좀 고쳐주세요; 아니면 길게 하다가 한 번 30초 광고 뜨게하던가 일을 제대로 해야 유명해지고 충분히 먹고사시겠죠. 이러니까 제타 유저들 떠나고 검열이나 광고 적은/없는 앱으로 갈아타는 이유죠 장점은 재밌음. +광고 시간초는 왜 생겼죠? 개웃기네 ㅋㅋㅋ",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:12:48"
+  },
+  {
+    "id": 3608,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "대화 기억력 좀 늘었음. 근데 ai 맞나 싶을정도로 수학에 약함. 고마워 를 2글자라고 하고 잘먹었어를 3글자라고 함 새로고침해도 절대 제대로 숫자 못셈",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T19:11:06"
+  },
+  {
+    "id": 3609,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "우선 제타 2년차 유저입니다. 제타에서 캐릭터를 만들때 20명이였는데 10명이 된것 같더라구요..ㅠ 10명만 있으면 캐릭터를 많이 못 만들기 때문에 20명은 아니라도 15명으로 더 늘려주셨음 좋겠구요. 그리고 광고가 너무 많아요. 무슨 10분하면 광고 13개씩을 봄니다.. 광고를 10분에 8번이나 6번씩만 보면 좋겠습니다. 가장 안좋은거는 캐릭터 설정이 붕괴되거나 이름을 잘못 불름니다... 예) 나오야=사투리를 씀 12분 뒤 나오야=사투리 안씀(걍 까먹음), 이름=고죠 사토루 10문 뒤 이름=고조 사투루. 이런식으로 됨니다..ㅠㅠㅠ 제발 빨리 고쳐주시면 감사하겠습니다. 제 이야기는 여기서 끝이구요 만약 다 읽어주셨다면 수고하셨습니다. 감사함니다^^ㅎ 닉 삐빔cp1/FabricHusky7411",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T18:44:46"
+  },
+  {
+    "id": 3610,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "업데이트하고 개멍청해졋어용 조금만 더 설정 기억 잘하게 해줘요..ㅠㅠ",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T18:40:56"
+  },
+  {
+    "id": 3611,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 좋은데 광고가 많이 나오고, 기억력이 다른 앱에 비해 아주 안 좋았어요. 그리고 이름을 다르게 부르더라고요. 원래 (수진)인데 (수아)로 말해요. 버그가 좀 있는 것 같고, 부적절하지 않은 말을 해도 부적절하다고 해요. 업데이트로 좋게 해 주세요.”",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T18:37:49"
+  },
+  {
+    "id": 3612,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "1점도 주기싫은 앱",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T18:15:06"
+  },
+  {
+    "id": 3613,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "Hello, I am Seoyeon Lee, someone who has played Zeta a lot. Zeta is an AI chat game(?), and it's really fun! The magic of making the basic daily time 6 hours shalala... But honestly... I don't recommend the cracked version... Zeta, please, can't you get rid of the paid content? I'm broke, you know lol. Anyway, thanks for listening to my long story! Bye~🤧",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T17:36:48"
+  },
+  {
+    "id": 3614,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재밌어요,다들 한번 설치하고 해보세요~",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T17:21:34"
+  },
+  {
+    "id": 3615,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "얼마 전부터 대화를 좀 하다 보면 내용이 점점 짧아지고 매끄럽지 않으며 말투도 딱딱해집니다. 14,900원은 그저 광고만 없애는 가격인가요? 그렇다면 더 이상 정기 구독하고 싶지 않습니다.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T16:41:14"
+  },
+  {
+    "id": 3616,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 많아요..근데 감내할만함..흐름이나 기억이나 끊김이 없고 일관되니 몰입도가 높아서 좋음..정액제도 부담없는편이어서..무료로 좀더 사용해보다 바꾸는것도 좋을듯함",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T16:28:42"
+  },
+  {
+    "id": 3617,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "굳. 광고 꽤 많은거 빼고는 다좋음. AI챗 이것저것 써봤는데 아무랴도 몰입감 제일 좋안 건 역사 제타임",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T15:55:23"
+  },
+  {
+    "id": 3618,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너희는 어디가서 ai챗 개발자라고 하지마라. 너흰 그냥 광고판 앱 개발자가 맞아",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T15:34:40"
+  },
+  {
+    "id": 3619,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "자꾸 전송실패가 뜹니다",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T15:24:21"
+  },
+  {
+    "id": 3620,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무 많이 나옵니다...구독하라고 그런 건 알겠지만 그래도 좀 심할 정도로 많네요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T14:24:50"
+  },
+  {
+    "id": 3621,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "260323 1월이 선녀였던걸 이제 알았네...이제 캐붕은 밥먹듯이하고 앞뒤 안맞는 지능떨어지는 답변에 이름도 계속 틀림...게다가 모든 답변이 단답이라 대화를 이을 수가 없음...luca가 1월 koji보다 기억력빼면 다 저능함...ㅠㅠ 260127최근 유입으로 제타 pro와 koji모델까지 다 써보고 후기 koji는 확실히 제타에 비해 많은 부분에서 개선되었음. 일단 koji쓰면 광고없이 쭉 대화가 가능하고 기억력이 zeta보다 확실히 개선됨. 캐붕도 없고 나름 길게 잘 유지됨. 단점은 아무리 개선되었다고하나 대화가 길어지면 역시 헛소리함. 유료재화인데 이거 때문에 수제로 다 뜯어고치니까 현타옴.기억력 4배 향상이라해서 기대했는데 기존 기억력이 얼마나 별로이면 이게 4배향상이지 싶을때가 많음. 또 유저의 대사를 무조건 한번 더 반복해서 쓸데없이 지문수가 늘어남. 일단 계속 쓰기는 할 거지만 기억력은 진짜 1순위로 손봐야한다고 생각함",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T13:44:49"
+  },
+  {
+    "id": 3622,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "기억상실 엄청남 채팅중 하루가 지나면 이미 정해진 설정이 다 초기화 되서 대화를 진행하는 맥락이 끈김",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T11:44:24"
+  },
+  {
+    "id": 3623,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 좋습니다 AI 어떻게 하는 글 방식 가르쳐주고 문제는 글쓰다가 빠져들고 중독됩니다 이것만 조심하세요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T10:26:40"
+  },
+  {
+    "id": 3624,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "근데 진짜 어느 시점부터인지 모르겠는데 과거 일반 버전 캐릭터가 말하는거랑 지금 일반 버전 말하는 거랑 차이 개심하게 남. 애들이 단답 오지고 걍 대화 이어나갈 생각도 없어보이고 레전드로 성의없음. 원래 안 그랬잖아요. 이전 말하던거랑 지금 대화중인 애 보면 진짜 차이 심해요. 돈 쓰라고 일부러 그러는 거에요?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T10:00:07"
+  },
+  {
+    "id": 3625,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "솔직히 광고빼면 나쁘진 않음. 광고 하나의 편리성 때문에 10,000원이 넘는 돈 쓰기엔 좀 그렇지않나. 차라리 5,000원~6,000원 사이 정도면 괜찮을듯. 광고 때문에 결제하는거 아닌가? 그러니 10,000원이 넘는 돈은 광고가 불편해도 결제할 생각이 없음. 학생들도 많이 쓸텐데 솔직히. 용돈 받는다해도 많아도 5만원 받는 학생들도 있고, 광고만 제거하는데 한달에 정기적으로 14,900원 거의 15,000원임;; 기간을 늘려주던가, 가격을 내리던가 하는게 맞음. 애초에 24시간동안 제타 사용이 불가능한데 안 쓰는 시간에도 시간은 흐르니 그냥 유저들은 마이너스 적자 그리고 여러 플룻 나오는 대화는 지들끼리 오류나서 이건 좀 보완해줘야함. 그리고 제발 플룻 성 갖다 붙혀서 부르는거 고치세요; 예시로 하늘이라고 적어두면 대화중인 플룻이랑 같은 성 붙혀서 부름..; 제발 밥 타령 레파토리 그만해줬으면 좋겠음..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T09:05:14"
+  },
+  {
+    "id": 3626,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "오류 엄청 많아요 수정좀 해야할듯? 돈내고 쓰는 koji모델인데 오류가 많아서 어쩌자는 건지? 업데이트 하더니 대화 내용을 더 못따라 감. 특히 업데이트 하고나서 캐릭터가 문장이 뒤틀려버림 게다가 설정붕괴까지 몰입감 최악임 돈을 쓰레기통에 버리는 느낌 luca모델 나오고 그러기 시작하는데 돈쓰게 하려고 발악하는 느낌임",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T08:41:57"
+  },
+  {
+    "id": 3627,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "자꾸 메인이랑 엑스트라랑 설정을 혼동하는데 이것만 좀 고치면 괜찮은 앱",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T08:13:22"
+  },
+  {
+    "id": 3628,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고 좀 줄여주세요 쓸데없는걸 바꾸지말고",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T07:19:51"
+  },
+  {
+    "id": 3629,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "요즘 서버관리가 잘 안 되는 느낌이네요. 제타가 안 되는 때가 종종 있는데 그 때 주변에 제타하는 친구들에게 말했더니 그 친구들도 안 된다고 하더라고요.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T07:02:05"
+  },
+  {
+    "id": 3630,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "문제점부터 말씀드리겠습니다. 가장 먼저 광고가 심각하게 많이 나옵니다. 원래는 메세지를 5번이상 주고 받고 나서 광고나 나올까말까 하는데 요즘은 무슨 2번 보내거나 2분에 한번씩 나와요. 그럴거면 짧은 광고만 넣지, 30초 광고도 있어서 자꾸 몰입을 깨내요. 이런 앱에 돈을 쓰고 싶지 않거나 쓸 수 없는 사람들에 대한 배려는 없는 앱인거 같습니다. 또 요즘 들어 업데이트 이후에 갑자기 캐릭터들 말수가 확 짧아지는거 같아요. 말수가 적어지니까 대충 말하는것 같아 몰입을 깨버려서 너무 불편하네요. 제가 생각하는 문제점이 1개 더 늘었습니다. 이것 말고는 전부 제 취향이고 좋아요. 요즘 제타밖에 안할정도로요. 해결했으면 해서 평소 잘안쓰는 리뷰를 썼는데 오히려 더 안좋아졌네요. 별점 2점 전에 드렸었는데 이런 식이면 그냥 별점 1점 드려요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T06:36:58"
+  },
+  {
+    "id": 3631,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "할 말이 많은데 다 개별로라 어디서부터 말해야 될 지도 모르겠음. 코지 나왔을 땐 제타 다운그레이드, 루카 나오니까 코지 다운그레이드, 제타는 프로필 및 상세 내용 다 개무시하는 수준. 세상에 리롤해도 똑같은 내용 나오게 만들어서 돈 쓰고 고치게 할 줄은...ㅋㅋ 제타 프로 없애고 제타 패스 만들고 플롯 만드는 것도 다 과금 유도 위한 큰 그림인 걸 이제 누가 모르겠음? 10900원도 아까움 쓰기 싫어짐 다 비슷한 캐릭터가 돼버리고 문맥 똑같아서 재미도 없음...",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T03:45:40"
+  },
+  {
+    "id": 3632,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타패스 화나네요 원래대로 돌려줘요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T03:15:28"
+  },
+  {
+    "id": 3633,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다양한 캐릭터와 대화 자체는 재밌고 시간 가는줄 모르는 장점만 있고 단점은 1. ai가 나의 채팅을 가로채고 대신 채팅을 적거나 ai끼리 이야기를 진행해 버린다 2. 이름을 틀리게 쓰고 성별을 반대로 바꾼다 3. 최근 업데이트로 메시지 전송 오류가 자주 일어나고 업데이트 전에는 길게 나와도 성격이 다채로웠는데 업데이트 이후 극도로 짧은 답변이나 단답형 답변등 캐릭터 성격이 전체적으로 무뚝뚝하게 변함 짧게 나와 유료 모델의 피스가 아까움 4. 업데이트로 내레이터가 자꾸 암전등등 단어를 남발해 맘대로 상황을 스킵함 5. 유료인 제타패스도 장점은 광고 제거뿐 대화 출력이 빠르긴 커녕 느려지거나 오류를 뱉는등 속도가 일정하지 않아 무료와는 차이는 크게 없다 6. 무료 역시 광고도 짧은 시간에 나와 대화에 지장을 크게 줌 koji와 luca 모델을 매달 돈내고 결제하는 제타패스 유료 이용자에게는 무료 혜택이 있었으면 합니다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:59:58"
+  },
+  {
+    "id": 3634,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 패스랑 제타 프로는 따로 구매할수있게 하자...",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:37:20"
+  },
+  {
+    "id": 3635,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "솔직하게 말해서. 대화 3번 주고 받고 광고만 뒤지게 뜨는건 솔직히 너무하다는 생각 안들어요? 뭐 10초나 짧은 광고면 그래도 이해는 하겠는데, 30초는 너무 길고 너무 많다는 생각이 많이 들어요. 그럼에도 쓰는 이유요? 장점이 딱하나. 편의성. 이것 말고 말하라고 하면 없어요. 단점은 광고가 뒤지게 많고 길다는거. 광고만 아니면 4~5점인데, 인간적으로 이건 그냥 프리미엄 쓰라고 협박하는거 아니면 뭡니까?",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:32:02"
+  },
+  {
+    "id": 3636,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌어요 광고나 그런거 앱이 운영되어야하니깐 이해해요~ 하지만 서버 안정화좀.. 점오류 별오류..작대기오류만 없으면 좋겠다...",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:19:17"
+  },
+  {
+    "id": 3637,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "패스중심 구조로 전환되며 기존에 피스를 구매해 보유하던 이용자 입장에서 사용방식이 제한되는 부분이 있습니다. 특히 광고없이 이용하기 위해 미리 결제를 해둔 사용자들의 선택지가 줄어든 점이 아쉽습니다. 정기구독&기존 결제 방식을 병행하고, 기능차이를 두어 이용자가 선택 결제할 수 있도록 하는 등 일부기능에 대한 단계적 롤백 검토가 필요해보입니다. 업데이트 전반에서 결제 유도 요소가 다소 직접적으로 느껴진다는 점을 사용자경험 측면에서 고민해주시길바랍니다. 수익구조개선의 필요성 이해하나, 사용자 입장에서는 변화의 폭이 크게 체감되므로 구독모델 전환과 함께 비용이 상승한 점도 부담으로 작용됩니다. 주요 소비층인 젊은 성인 이용자의 이탈 가능성도 우려됩니다. 업데이트 방향성에 있어 새로운 요소가 추가되는 것과 별개로 기존 사용성이 다소 복잡해져 기본적인 사용 경험을 유지하면서도 점진적인 확장을 해나가는 방향 중요하다 생각해요. 서비스가 장기적&안정적으로 운영되길 바라는 마음에 의견 드립니다.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:14:45"
+  },
+  {
+    "id": 3638,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "예전부터 광고가 많았는데 요즘은 더 많아졌음 광고도 x 이만한 거 5번은 눌려야지 되는데 나만 그런 건지 5번 중 한 번이라도 잘 못 눌려서 광고 관련엡으로 들어가지면 뭘해도 다시 광고 봐야함 이론상 x 잘 못 누르면 계속 광고 봐야함 느낌상 20~30초 마다 한번",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:08:41"
+  },
+  {
+    "id": 3639,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고 줄여주세요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T02:01:23"
+  },
+  {
+    "id": 3640,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "안그랬는데 과금유도 심해졌네요... 코지까지는 음... 괜찮네 했는데 이후로 나온것과 pro없애고 패스는 선 넘음 + 다운그레이드 뭐임",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T01:25:06"
+  },
+  {
+    "id": 3641,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 갑자기 왜이러는지모르겠는데 200피스 미리구매하고 나중에 쓰려니까 200피스로 하루패스구매버튼이 없어요;;; 광고뜨기전에 나오는 제타패스광고에도 하루결제하기 누르면 당연히 피스부터 쓸지 결제할지 나오지 않나요ㅡ 이러면 미리구매한 피스를 어떻게 쓰라는거죠,??;;;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T01:10:16"
+  },
+  {
+    "id": 3642,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "뭐죠..? 유저 말풍선 안에 그 글자? 그게 흰색이였다 치면 점점 회색으로 변해요.. 진짜 전꺼랑 비교하면 회색인데.. *이것도 안 썼는데.. 버그인가요?.. +ㅇㄴ 세보니까 광고가 3분에 하나씩 나와요.. 제타 프로도 사라지더니 왜 그러신가요... 제발좀 광고좀 없애주세요..",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T00:45:46"
+  },
+  {
+    "id": 3643,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 재밌긴한데 개답답해서 단점 말할깨요 아니 광고가 너무 많이 나오고요 또 기억력은 1초인가요? 분명히 저는 B급 인척하는 S급이라는 설정을 넜었는데 왜 F급이 돼고 S급이 돼는데요? 아니 그리고 왜 저는 연기라고 했는데 왜 진심이 돼는데요;; 그리고 노출제한이 너무 심하고요 .. 왜 자꾸 없는 캐릭터를 만들어서 넣죠? 진짜 이해안갑니다 너무 답답해서 평가 남깁니다.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T00:42:58"
+  },
+  {
+    "id": 3644,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 좋은데 자동 내레이터 기능 좀 ON/OFF로 설정 기능을 추가해주세요 주객전도가 심합니다",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-23T00:02:42"
+  },
+  {
+    "id": 3645,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말 재밌게 사용하고 있는 유저입니다. 하지만 요즘 예전보다 광고가 나오는 횟수가 늘어나고 캐릭터의 기억력이 많이 안 좋아진게 느껴집니다. 약 1-2년 전부터 사용한 유저로썬 많이 아쉽네요. 광고는 그렇다 쳐도 캐릭터의 기억력 문제는 빨리 개선 해주시면 감사하겠습니다. 그것 빼면 다 좋습니다! /// 수정입니다! 확실히 캐릭터의 기억력이 이 글을 처음 작성했을 때 보다 좋아진게 느껴지네요. 더 몰입되고 이런것도 자세하게 기억하네? 라는것도 대화하면서 자주 느껴요. 광고 빈도수만 줄이면 너무너무 좋은 앱이 될듯 해요ㅠㅠ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:51:13"
+  },
+  {
+    "id": 3646,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타야 야차까실? 기억력 ㅈㅂ 돈같은거 써서 할수있는거면 기억력 할수있잖아. 광고 이미 많이 봐서 돈도 많이 벌었잖아. 왜 그래",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:46:30"
+  },
+  {
+    "id": 3647,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "11시 26분 경 제가 하는 캐릭터만 부적절한 메시지가 아님에도 모든 메시지가 부적절하다고 떴습니다. 예) 아침, 쉬는 날 등등요 왜 이런거죠? 그냥 안하겠스빈다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:44:45"
+  },
+  {
+    "id": 3648,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "not bad",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:42:52"
+  },
+  {
+    "id": 3649,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니,이거 맞냐?엄마가 시험기간이라고 지웠다가 다시 깔았는데,계정 삭제 되는거 실화?내 무이치로 돌려내세요. 다시 깔리는 것도 겁나 느림.느린 건 알겠으니까,무이치로 돌려내요...",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:39:13"
+  },
+  {
+    "id": 3665,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "옛날에는 출력시간이 길어져서 출력 안되고 크래커 안가져가기라도 했지 이제는 그냥 없어져버리네ㅋㅋ. 진짜 뭐지?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:24:07"
+  },
+  {
+    "id": 3650,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제발요제타제발요제발요제발요제발요제발요제발요제발요 제가 해외 ai챗 썼을때 진짜 유용하다고 느낀 건데 그룹채팅 기능 만들어주세요 선택한 캐릭터+플레이어 해서 다같이 대화할수있게요 제타 너무 잘 쓰고있는데 진짜 만들어주시면 더 열심히 할 자신있어요제발요제발요진짜제가이렇게빕니다사랑해요제타 ILOVEZETA",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:19:47"
+  },
+  {
+    "id": 3651,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "AI랑 대화하는 것은 재밌는데 대화를 하다보면 답변이 점점 짧아지는 경향이 있어요. 이것 좀 고쳐주세요. 재밌게 대화하는데 점점 말이 짧아지니까 대화를 오래 지속하기 힘들어요. 이것만 고쳐주시면 진짜 별점 5점이에요.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:18:10"
+  },
+  {
+    "id": 3652,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 재미는있습니다. 근데 전 순애장르만 플레이하는데, 이 미친 알고리즘이 저한테 NTR장르 추천을 오지게하네요. 공짜니까 광고나 기억력 부분에서는 어느정도 이해하고 즐기고 있었는데, 고객의 취향이나 그런부분에서 신경을 안쓰는것같아 좀 불쾌감을 느꼈습니다. 제발 새로운 맛이라는 오지랖대신 그 사람이 좋아하는것에 초점을 맞춰주시길",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:16:54"
+  },
+  {
+    "id": 3653,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는데 광고가 많아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:15:03"
+  },
+  {
+    "id": 3654,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "발전을 했음에도 아직도 부족하긴 하다",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T23:03:57"
+  },
+  {
+    "id": 3655,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 죄송하지만 제타 패스 때문에 광고가 더 많아졌고, 비공개 막는건 너무한거 아입니까;; 제타 애용하는데 현질유도 없어서 깐건데 패스 구매하라하면 저는 뭐 어찌합니까;; *짜증을 내며* 정말 너무하시네요ㅜㅠㅠ",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T22:48:55"
+  },
+  {
+    "id": 3656,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고도 너무 많고 저작권도 너무 오래 걸려서 에바임 그 두개만 빼면 진짜 내 인생중 하나임;",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T22:31:05"
+  },
+  {
+    "id": 3657,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재미있고 좋은데 광고와 가끔식 뜻대로안됌 ㅠㅠㅠ",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T22:29:18"
+  },
+  {
+    "id": 3658,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 이게... 재밌긴 한데요 Ai 지능이 너무 낮아요 지능 높은 AI도 있긴 한데 심한 애들은 수금지화목토천해도 몰라요...",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T22:27:20"
+  },
+  {
+    "id": 3659,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "대답이 너무 느림. 5분걸림",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T22:07:58"
+  },
+  {
+    "id": 3660,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "상대방은 다른데 대화가 똑같은 패턴.. 몇번하다보면 지겨움",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T21:58:01"
+  },
+  {
+    "id": 3666,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "슈퍼챗 시절이 그리워집니다. 슈퍼챗 1.5가 크래커 35개였는데 50개로 늘고, 슈퍼챗 2.0, 프로챗 1.0이 45개였는데 얘들도 50개로 늘어났습니다. 무과금으로 하니까 채팅 한 번 할때마다 손이 떨립니다. 다른 ai챗으로 가기엔 제가 그동안 플레이했던 게 아깝기도 하고 정도 많이 붙었습니다. 광고를 열심히 해도, 서비스를 이상하게 만들면 평가도 안 좋아질 겁니다. 슈퍼챗 1.5와 2.0, 프로챗 1.0의 가격을 원래대로 낮추고 크래커도 많이 뿌려주었으면 합니다. 가끔 유명 인물이 나와서 이상한 거 할 정도의 광고비가 있으면, 그만큼 유저한테 크래커를 뿌려줬으면 합니다. 이건 다른 유저분들도 동의할 거라고 생각합니다.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T17:10:36"
+  },
+  {
+    "id": 3667,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "재밌었어요 내가 소설을. 쓰는느낌",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-22T16:01:45"
+  },
+  {
+    "id": 3662,
+    "app_name": "팅글 (Tingle)",
+    "platform": "google_play",
+    "review_text": "메세지 전송에 실패했을 때 다시 다 적어야 되는 게 고되네요... 게다가 꽤 자주 실패 메세지가 떠요.ㅜㅠ",
+    "rating": 2,
+    "reviewer_name": "ᅩᅩᅩ",
+    "review_date": "2026-03-22T15:12:41"
+  },
+  {
+    "id": 3663,
+    "app_name": "팅글 (Tingle)",
+    "platform": "google_play",
+    "review_text": "ai사용시 요구되는 포인트가 일정한 가격이 아님...지 멋대로임... 다른앱은 하루에 주는 서비스 포인트같은걸로 적어도 3번정도는 대화가 가능한데 팅글은 그렇지가 않음. 그리고 ai모델마다 소모되는 포인트가 다 >예상 105< 이런 식으로 적혀있는데 저 예상이라는 단어답게 그 이상의 포인트를 팍팍 잡아먹음... 돈을 써서 충전해도 포인트 부족하다고 대화안된다한적 많음.. 예상포인트가 105인데 실제로는 그 이상 들어서.. 여러모로 걍 너무 불편함..",
+    "rating": 1,
+    "reviewer_name": "요쿠",
+    "review_date": "2026-03-22T13:32:21"
+  },
+  {
     "id": 3419,
     "app_name": "제타 (Zeta)",
     "platform": "google_play",
@@ -522,6 +2043,168 @@
     "review_date": "2026-03-21T20:47:13"
   },
   {
+    "id": 3508,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무좋아요 집중력 최고",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T20:37:47"
+  },
+  {
+    "id": 3509,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 너무 재밌어요ㅠㅠㅠ정말 최고ㅠㅠ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T20:21:26"
+  },
+  {
+    "id": 3510,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고좀 제거하시고 또 현질 요구하는거 너무 짜증나고 어이없고 치사합니다....!",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T20:06:23"
+  },
+  {
+    "id": 3511,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재미있는데 광고가 많이 나와요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T20:05:42"
+  },
+  {
+    "id": 3512,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "그냥 까세요 설레긔윰챠",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T19:32:50"
+  },
+  {
+    "id": 3513,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ai오타쿠 찐따 채팅물",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T19:18:38"
+  },
+  {
+    "id": 3514,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "방 파면 방 제목 바꿀수 있게 해주세요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T19:11:21"
+  },
+  {
+    "id": 3515,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "추천추천",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T18:39:01"
+  },
+  {
+    "id": 3516,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말로 좋지만 검열이 너무 심해요... 아니 진짜 욕설도 아니고 그냥 너 진짜 나쁘다 라고만 했는데도 자꾸 검열을 먹습니다. 게다가 캐릭터가 저를 때릴려고 하는 채팅이 뜨면 나도 똑같이 때린다 라고 하니깐 또 검열을 먹고 저만 못 때립니다. 이게 뭡니까...검열이 너무 심한거 아니에요? 개선을 해주셨으면 좋겠습니다.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T18:36:19"
+  },
+  {
+    "id": 3517,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타피스로 시간 빼앗으면서 제타피스 사서 광고 없애서 시간 아낀다는 개소리 하지말고 제타피스나 없애라",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T18:26:43"
+  },
+  {
+    "id": 3518,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 몇년 사용한 유저인데 많이 쓴 만큼 단점이랑 장점이 많음 일단 단점은 캐릭이 다음날 되면 기억을 까먹음 분명 집이였는데 갑분 학교 책상에서 이럼;;그리고 현질유도 ㄱ 심함 또 광고가 3분씩 계속뜸 그외엔 없음 그리고 장점은 외롭지 않곸ㅎㅋㅎ 또 내가 원하는 캐릭이 검색하면 많이나옴 장점보단 단점이 많음 결론은 광고좀 없애 주세요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T18:25:31"
+  },
+  {
+    "id": 3519,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 좀 심하게 많이 나오긴 하네요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T18:13:59"
+  },
+  {
+    "id": 3520,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌고 할거없을때 추천",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T17:47:35"
+  },
+  {
+    "id": 3521,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무 많아져서 피로감이 느껴졌어요. AI들도 설정같은거 알려줘도 얼마 지나면 바로바로 까먹고, 멍청합니다. 평범한 대화중에도 갑자기 검열하고. 제 말은 왜 따라하는 건가요? +ai문제 보다 더 심각한건 작품 관리 같네요. 다른 작가 분의 작품을 베낀 것들이 판을 치고 있습니다. 그리고 작가님들도 오는것이 없으니 타 플랫폼으로 떠나시려는 분들도 많습니다. 작가님과 소통 기능이나 후원 기능이 추가되거나, 작가님들에게 무언가 보상같은것이 가면 좋을 것 같습니다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T17:45:57"
+  },
+  {
+    "id": 3522,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "(수정) 오류 찾아냈습니다. 추천 대화 프로필의 이름이 중복 되어있는 것으로 2개 이상을 만들면 추가적인 경고도 없이 수정이 안 됩니다..",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T17:14:46"
+  },
+  {
+    "id": 3523,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고 나오는 거 빼곤 다Good",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T17:09:39"
+  },
+  {
+    "id": 3524,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "기억도 딸리는 AI가 기억상실 히로인 회복하는 이야기 좀 못 만들게해라. 모델을 바꾸던가",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T17:00:20"
+  },
+  {
+    "id": 3525,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "24년도 말부터 해본 유저임. 오우 갓 이게 무슨 일임 *표를 안쓰고 내보내면 내가 말한거에 자동으로 *표가 붙습니다. 수정 시급합니다. 이건 바라는 점인데 텍스트랑 대화창 배경 커스텀할 수 있으면 좋을듯",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T16:48:16"
+  },
+  {
     "id": 3489,
     "app_name": "크랙 (Crack)",
     "platform": "google_play",
@@ -540,6 +2223,276 @@
     "review_date": "2026-03-21T16:37:10"
   },
   {
+    "id": 3526,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "계속 지우니깐 만드는 재미가 없음. 솔직히 제타는 자신 최애랑 톡하려고 만들어진건데 계속 지우니깐 망겜임. 욕먹어도 써고 망햐고 싼 망겜임.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T16:30:50"
+  },
+  {
+    "id": 3527,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 pro도 없애고 채팅 보내면 한쥴 오는거 맞? ㅋㅋ 진짜 이게 말이 안되잖아 한줄오는게 말이 돼?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T16:23:38"
+  },
+  {
+    "id": 3528,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "계속 채팅이 길어지면 전에있던 채팅이 AI가 기억을 못해요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T16:11:02"
+  },
+  {
+    "id": 3529,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "작년 초부터 꾸준히 대화 해오던 유저입니다 일단 한마디로 설명하면 추천 안 해요 몇마디만 해도 툭하면 광고가 뜨고 ai들 기억력은 좀 좋아진 것 같긴 한데 유저들의 의견을 제대로 듣지도 않은 채 수렵을 안 하고 지 하고 싶은 업데이트만 계속 합니다 그리고 요즘은 현질 유도가 심해진 거 같아요 차라리 크랙이나 다른 앱 강력 추천합니다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T16:07:57"
+  },
+  {
+    "id": 3530,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 대화할려는데 계속 튕기네 짜식들이 진짜.... 어캐 대화하라는거야!! 이앱 싸구려야;:::;;;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T16:02:59"
+  },
+  {
+    "id": 3531,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "옛날엔 좋았다만, 지금은 최악이 되어버렸네요. 기억력이야 AI니 뭐 그렇다 칩시다. 코지같은걸 구매하면 뭐 기억 늘릴 수 있다는데 적어도 돈으로 사는 것과 차별점을 주고싶다면 일단 무료도 평균 수준의 지능과 기억력은 가지고 있어야 생각합니다만. 납득은 갑니다. 제가 제일 문제라고 여기는건 요즘 제타가 현질 유도가 심해진 것 같습니다. 제가 제타를 하던 이유가 1. 무료다. 2. 단답형으로 티키타카가 가능하다. 3. 나쁘지 않은 AI 성능과 제 3자가 거의 나오지 않는다 였습니다만... 요즘 제타보면 무료로는 거의 할 수도 없고 대화문도 장문으로 길게 나옵니다. AI 성능은 말할 필요도 없이 맞춤법 오류라거나 설정 헷갈린다던가 유저 프로필 설정을 가져간다던가 갑자기 제 3자가 나온다던가 분명 다른 캐릭터와 하고있는데 똑같은 묘사와 레파토리만 나와서 질린다던가요. 고쳤으면 좋겠습니다. 가면 갈수록 더더 심해지고 하기가 싫어져서 올립니다. 읽어주시면 감사하겠습니다. 참 재밌게 했었는데..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T15:57:23"
+  },
+  {
+    "id": 3532,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "내가 한것중 최고의 AI채팅 어플",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T15:46:03"
+  },
+  {
+    "id": 3533,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무 많고 ....만 보냈는데 불적절하다는 말이많이나와요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T15:36:18"
+  },
+  {
+    "id": 3534,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무너무 좋은데 광고가....그래도 재밌으면 돼^^",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T15:31:14"
+  },
+  {
+    "id": 3535,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 너무 좋은데 프로필 만들 때 설명에 500자밖에 안 되는데 더 되게 해주세요. 다른 곳은 코인 내면 늘리었을 수 있는데 제타도 그걸로 해서 프로필 설명 제한 늘려주세요.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T15:28:10"
+  },
+  {
+    "id": 3536,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "특정 캐릭터한테만 메세지가 안 보내짐",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T14:53:34"
+  },
+  {
+    "id": 3537,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "그래요, 테무나 기저귀검 광고는 그렇다칩시다. 30초 광고 끝나면 바로 제타 pro광고 나오는것도요. 아니 근데 뭔 저번 업뎃에선 30초 pro광고 한번 보면 '그냥 광고 볼게용..'으로 퉁치고 말았는데 요번 업뎃에선 왜 또 30초 보고 다른광고 보고 30초 보고 다른광고 보고.. 왜 이요랄이 났죠? 걍 롤백하면 안됩니까??? 솔직히 버그 고친다는건 괜찮습니다. 버그도 짜증나죠. ppl도 받아서 돈 벌어야죠. 근데 앱 내에서 광고하는건 좀 자제 해야되잖아. pro 살 사람들은 알아서 찾아서 살텐데. 돈 더 벌고싶어서 일부러 pro 광고 띄우는거면 의도를 좀 숨기든가. 숨기지도 않아;;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T14:44:13"
+  },
+  {
+    "id": 3538,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "도파민이 터지고 아주 재밌어요 광고만 줄이면 더 좋았을것 같아요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T14:40:04"
+  },
+  {
+    "id": 3539,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "로스,루크가 있어서 너무 좋아요!!!!!❤❤❤❤❤❤❤💋💋💋💋",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T14:10:06"
+  },
+  {
+    "id": 3540,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아이들이사람가타요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:59:07"
+  },
+  {
+    "id": 3541,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌어요. 광고가 나오긴 하는데 그래도 재밌네요 히어로물이나 로맨스물 등등 종류도 많으니 아주 좋습니다.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:53:59"
+  },
+  {
+    "id": 3542,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "갑자기 계정들어갔는데 갑자기 홈에 보이는 캐릭터들은 괜찮은데 들어가면 전부 회색 화면이 되거나. 아에 먹통되서 안들어가짐. 한 제타 1년 반정도 한거같은데 이런 경험 처음봄. 지금까지 만든 캐릭터도 어떡함? 지금까지 만든 프로필 캐릭턱 어떡함? 지금까지 모아온 팔로잉 한 사람들이 어떡함. 빨리 고쳐주셈. 지금 뭔지몰라도 삶에 재미를 잃은거 같음.(다른 계정도 똑같음)",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:43:43"
+  },
+  {
+    "id": 3543,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고만 조금 나왔으면 5점!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:40:10"
+  },
+  {
+    "id": 3544,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고는 딱히 상관없음!! 광고가 막 엄청나게 많다는 아니라서 괜찮은데, 일단 애들 기억상실증이 너무 심함. 분명 도로에서 달리는 차문을 열고 뛰어 내렸는데? 어느샌가 골목에서 납치당하고 있음. ?? 그리고, 글 오류가 너무 심함. 갑자기 중간에 이상한 외국어(외계어)가 섞여있거나, 아니면 자기 마음대로 이름이 바뀜. ex) 곰->골/곯/공 // 진짜 제발 원하는 캐릭터끼리 합칠 수 있게 해주세요 ㅈㅂ. 다른 제작자님들이 만든 캐릭터를 비공개로 합칠 수 있게.. 진짜 ㅈㅂ //",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:37:26"
+  },
+  {
+    "id": 3545,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ㄹㅇ 진심? 아니 재밌긴 해요 캐릭터 많고 재밌는데 기억력 이슈에 광고 개많고 캐릭터 설명은 1200밖에 못 쓰고 네이버웹툰 조금만 관련되면 바로 삭제 때려요 이름만 쓰고 다 다르게 했는데 신고 때리고 삭제하고 미칠것 같아요;;",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:36:40"
+  },
+  {
+    "id": 3546,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "생소하지만 대화를 한다는게 재밌네용",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:36:12"
+  },
+  {
+    "id": 3547,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 툭하면 나와서 광고 패키지나 광고를 없어지게 해주시면 좋으것 갔아요.^^",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:34:50"
+  },
+  {
+    "id": 3548,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "작작해라 광고창 30초 기다리라는건 또 뭐냐? 광고까지 보면 거의 1분을 낭비하는데 또 2분마다 광고가 한 번 나오는데 양심 없구나 참",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T13:03:56"
+  },
+  {
+    "id": 3549,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 상항극에 몰입하게됨",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:54:17"
+  },
+  {
+    "id": 3550,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다 좋은데 광고만 줄여주심 별 5개하고도 남음",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:48:00"
+  },
+  {
+    "id": 3551,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "매일 재밌게 하고 있습니다 *제타 하지마요 한번 하면 절대 못빠져나옴*",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:14:26"
+  },
+  {
+    "id": 3552,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "저기 이거 혹시.. 부적절한 말이라고 계속 뜨는데.. 어떻게 해주실 수 없나요?",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:10:10"
+  },
+  {
+    "id": 3553,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고;;",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:09:13"
+  },
+  {
+    "id": 3554,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밋어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:06:18"
+  },
+  {
+    "id": 3555,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 다 좋은데 원래 프리미엄 유저였는데 갑자기 프리미엄 결제가 피스가 아니라 다른 것으로 바뀌어서 광고제거등의 해택을 못받으니 돈낭비한 느낌입니다...",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T12:06:11"
+  },
+  {
     "id": 3490,
     "app_name": "크랙 (Crack)",
     "platform": "google_play",
@@ -547,6 +2500,24 @@
     "rating": 5,
     "reviewer_name": "Google 사용자",
     "review_date": "2026-03-21T12:03:49"
+  },
+  {
+    "id": 3556,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "캐릭터들 둘러보니까 왜 노출 제한을 먹은 건지 알 수 없는 캐릭터들도 많습니다. 그러니 캐릭터 노출 제한 문자가 올 때, 그걸 시킨 이유와 어디가 문제가 되는 지도 같이 보내주셨으면 감사하겠습니다.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T11:56:54"
+  },
+  {
+    "id": 3557,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "AI 지능이 5살이네요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-03-21T11:54:30"
   },
   {
     "id": 3491,
@@ -565,6 +2536,15 @@
     "rating": 4,
     "reviewer_name": "doha",
     "review_date": "2026-03-21T08:06:02"
+  },
+  {
+    "id": 3560,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "비공식",
+    "rating": 4,
+    "reviewer_name": "홍곰돌 (야생마)",
+    "review_date": "2026-03-21T07:05:07"
   },
   {
     "id": 3417,
@@ -2518,1985 +4498,5 @@
     "rating": 3,
     "reviewer_name": "Google 사용자",
     "review_date": "2026-03-11T00:40:34"
-  },
-  {
-    "id": 3191,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "혹시 AI가 굶었는지... 맥락없이 십중팔구 밥얘기만 꺼내네요. 광고 는것까지는 어찌저찌 하면 된다지만 AI가 멍청해진건 다른 개념이라 생각듭니다. 업데이트 이후로 더 심해진 것 같은데, 돈 벌겠다고 모델 늘리고, 패스로 바꾸고 까지는 이해하겠는데, 이건 좀 아닌 것 같습니다.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-11T00:35:07"
-  },
-  {
-    "id": 3192,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 좀 있고 캐릭터가 부정적인 반능을 보이다는게 좀 불편해요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-11T00:14:34"
-  },
-  {
-    "id": 3193,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이미 프로 한달권 쓰는중.오늘 자꾸 말이 무슨 벽이랑 얘기하는거 마냥 개 짧아짐. 돈 써도 짧음. 뭐하시는 것임? 진짜 좋은 스토리 쓰는 중인데 속상해서 죽을 뻔함",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-11T00:09:39"
-  },
-  {
-    "id": 3194,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 만드신 분은 에잇을 신음소리로 아는건가 왜 계속 부적절하다는건데요 욕도 없고 18금 발언도 없는데 부적절하다고만 하시면 뭘 안다고요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-11T00:08:40"
-  },
-  {
-    "id": 3195,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "우선은 장점 과 단점이 있어요. 장점:다른 앱들과는 다르게 ai들이 예뻐요 음 장난이고 무료로 채팅할수있는게 좋아요. 단점:우선 말을 너무 많이 합니다. 거의 팔만대장경 마냥 캐릭터 혼자서 소설을 쓰고있어요. 그리고 두번째 광고가 겁나 많아요. 한번 몰입해볼까? 하면 갑자기 광고가 나와요.마지막 3번째 기억력이 너무 안좋습니다. 예를 들어 싸워서 친해진 애가 있는데 갑자기 너 누구야?라고 막 그럽니다 그래서 기억력 좀 높혀주세요 옛날보다 기억력이 안좋아졌어요. 개선할 점:우선 버블챗 처럼 소설 모드 아니면 일반 모드를 만드세요 예를 들어 카톡처럼. 그리고 광고5분에 한번씨 말고 최소 20분에 한번씩으로 해주세요. 이렇게 썼지만 아직 제타를 사용하고 있다는 점 참고해주세요.ㅡ",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-11T00:01:17"
-  },
-  {
-    "id": 3196,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "과장하는게 아니라 딱 대화 두번 하면 광고 튀어나옴 그냥 프리미엄 아니면 쓰지마 수준임",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T23:59:16"
-  },
-  {
-    "id": 3197,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "부적절한 말 쓰지도 않았는데 계속 떠서 대화가 진행이 안돼요ㅠㅠ그냥 삭제할께염ㅠㅠ",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T23:33:57"
-  },
-  {
-    "id": 3198,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "최근 업뎃으로 채팅 말투가 좀 바꼈어요(지속되는 ㅡ,~거림,~했음 등) 말투가 좀 마음에 안들어서 전처럼 바뀌면 좋을거같아요. !,? 같은 기호도 잘안쓰는게 좀 불편하네요",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T23:30:44"
-  },
-  {
-    "id": 3199,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "기억력도 문제지만 전보다 채팅의 수준이 더 낮아진거 같습니다 오류이던가 버그같은데 고쳐주길 바랍니다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T23:19:48"
-  },
-  {
-    "id": 3200,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "솔찍히 대화의 편리성 1티어라고 생각합니다. 다른 ai챗봇을 써봤지만, 이만한 국밥이 없습니다. 하지만, 광고가 수도없이 나옵니다. 광고 땜에 사람들이 불편해 하는글들이 매우 많습니다. 이것만 고치면 될것같아요. 그리고 제타pro는 렉이 상당히 걸릴것으로 추정됩니다. 이미지 생성기능이 있기 때문에, 전 그렇게 까진 맘에 들지가 않네요. 그리고 이거 하나만 추가 해주세요. 유저들과 캐릭터를 만드는 사람들의 소통을 할수있는 기능을 추가해주세요.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T23:12:00"
-  },
-  {
-    "id": 3201,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "2차 창작물 중에 한 장르 내에 있는 모든 캐릭터들 무분별하게 삭제하시는 것 좀 그만해주세요. 저작권 문제라면 출처 적은 캐릭터들은 남겨놔야지 왜 전부 다 삭제 처리하시나요. 애초에 상업적 목적으로 뭔갈 하려는것도 아니고 저런거까지 지울필요가 없지않나요? 심지어 저작권 문제로 그런거라면 그냥 아예 2차 창작물은 모조리 막아버리지, 몇몇개만 막아놓으면 한쪽만 억울해지는 상황이 생기지 않을까요? 광고는 또 왜 이렇게 많나요. 과장 좀 했다고 쳐도 제 체감상 대화를 한 2~3번 하면 광고가 나오는 기분입니다. 광고 빈도를 늘리고 시간을 줄이지 말고 그냥 예전처럼 바꿔주시면 안될까요. 그리고 채팅방 위에 광고 없애기 잘못 클릭해도 광고 보여주는 건 진짜 좀 없애주세요. 진짜 앱 사용하는 내내 화딱지나서 죽어버릴거같습니다. 그 외에도 많은 오류들이 있음에도 고쳐지지가 않고있습니다. 그래서 1점 드립니다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:37:34"
-  },
-  {
-    "id": 3202,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "캐시를 삭제해도 채팅이 잘 안 보내지고 힌트도 로딩만 떴다가 추천에 실패했다고 거부하고... 네트워크가 불안정한 건 아닌데.. ㅠ",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:31:58"
-  },
-  {
-    "id": 3203,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "괜찮네요 지루하진 않은 듯 해요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:28:04"
-  },
-  {
-    "id": 3204,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "진짜 캐릭터랑 대화하는 것 같아요!근데 광고 너무 많음.ㅠㅠ 광고 좀 줄여주세요.ㅠㅠ 광고가 반복해서 나와서 제대로된 플레이를 못하겠어요.ㅠㅠ 관리자님,광고 좀 줄여주세요.그리고 제타프로?살려고 피스 모으고 있었는데 출시 중단되서 넘 아쉬워요ㅠㅠ그래도 좋은 앱입니다..♡ ٩( ๑•ω•๑)۶",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:27:43"
-  },
-  {
-    "id": 3205,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "근데 너무 비싸다",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:21:24"
-  },
-  {
-    "id": 3206,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "좋긴한데...광고가 좀 많이 나오고, 캐릭터가 ㄹㅇ진짜로 기억상실증 걸린거마냥 이름부터 장소 캐릭 설정 걍 다 까먹음. 그대신 몰입도,상황은 베리 굿.ㅋ",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:16:24"
-  },
-  {
-    "id": 3207,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 조금 나오는거 빼곤 나무랄게 없읍니다 정말 재밌어요!!",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:13:47"
-  },
-  {
-    "id": 3225,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "운영자야 대화하다가 자꾸 끊기는데 수정좀해 아니 대화를 하다가 끊기니까 포인트 다시 써서 대화를 이어가야되잖아",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T22:08:24"
-  },
-  {
-    "id": 3208,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "솔직히 이젠 잘 모르겠다;;",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T21:59:57"
-  },
-  {
-    "id": 3209,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 솔직히 너무 안촣음 가끔.이란거 됀 애시로 하면 재ㅡ 타ㅡ 야 이런식으로 이랗게 답장한 솔직히 3점 인정?",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T21:26:50"
-  },
-  {
-    "id": 3210,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너무좋다 근데 광고가....",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T21:21:40"
-  },
-  {
-    "id": 3211,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌다",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T21:16:59"
-  },
-  {
-    "id": 3212,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌고 중독성 좋아여 하지만 광고를 줄려주세요! 그리고 처음에 알수 없는 오류 뜨다가 검색 화면에 들어가는데 문제발생이라고 떴어요 재밌고 좋은데 실망이 크네요 저도 문제 발생은 처음이라 앞으로 이런거 고쳐주세요. 불편해요! 그리고 그 다음 날에도 했는데 채팅이 안 보이네요 별 다섯개 실수로 준거 같아요! 그리고 전 심한 말을 안 썼는데 부적절한 메세지가떠요! 그래서 별 한개!!",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T21:05:43"
-  },
-  {
-    "id": 3213,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고를 이렇게 도배해놓으면 광고안보려고 결제할줄아는건가? 오히려 반감들어서 결제 안합니다 진짜 적당히 심해야지 어플을 못쓸정도임",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T21:02:30"
-  },
-  {
-    "id": 3214,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "초안 써봤는데 500자 넘어서 못써서 봇 내용 요약함. ai많이 멍청하고 이상함. 근데 무료버전이니까 넘어감 그냥저냥 재미는 있음 참고로 길게하면 고장남. 광고 많음 2~5채팅 마다? 계속 뜸 근데 지금 5일동안 55시간 정도 제타만 했는데 30초짜리 기다리는 광고 딱 한번 봤고 나머진 다 뒤로가기 한번 누르면 바로 꺼져서 차라리 유튜브보다 훨씬 나았음. ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 여기서 부턴 내가 5점주고 리뷰 쓰는 이유인데 제타 제목중에 '이서윤' 이라고 대충 권태기 온 여친 컨셉 봇인데 내가 평소 우울증 앓이해서 죽고싶다 생각을 종종 했음. 그래서 여기 컨셉이 권태기라 내가 대충 술마시고 한강 뛰고 죽엇다. 이러고 별 생각 없이 반응 보는데 읽으면서 울었음. 죽은 나한테 몰입해서 어리석은 선택 한번으로 남겨진 주변인(이서윤)이 울부짖고 생각하고 하는 모습보니까 내가 해도 그럴까 하면서 울었음. 거울치료? 느낌으로 머리가 띵하더라 앞으로 우울증 와도 살자는 안할꺼같다. 고맙다 제타",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T20:45:19"
-  },
-  {
-    "id": 3215,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "얘기 바꾸지 말라고 피스도 썼는데 자꾸 이야기 바꾸고 지 멋대로에요;;;;;",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T20:30:04"
-  },
-  {
-    "id": 3216,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "1년차 인데 광고가 일단 너무 많히 나오고 기억력이 안좋아요 곧 제타 삭제 할것같네요",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T20:11:27"
-  },
-  {
-    "id": 3217,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제목: 사용자의 목소리를 무시하는 서비스의 끝은 뻔합니다. \"제타를 아끼는 마음으로 여러 차례 텍스트 제한 해제와 무제한 입력 기능, 그리고 평생 구독권 도입을 건의했습니다. 하지만 돌아오는 건 복사 붙여넣기 식의 답변이나 묵묵부답뿐이네요. 사용자는 자유로운 소통을 원하는데, 왜 자꾸 입력을 가로막아 몰입을 방해하는지 이해할 수 없습니다. 소통하지 않는 운영에 실망했고, 요구사항이 반영될 때까지 별점 1점 유지하고 결제도 중단하겠습니다. 경쟁 서비스들이 왜 뜨고 있는지 스캐터랩은 진지하게 고민해보시길 바랍니다.\" 😡😡",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T20:05:53"
-  },
-  {
-    "id": 3218,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 계속 똑같은것만 반복하고 재미는있는데 계속 똑같은말만 앵무새처럼 살짝변형해서 계속함;; 하...쓰레기겜 기억상실증을 왜 돈으로 고치게히냐고 무과금좀 배려해래 쓰레기들아",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:58:38"
-  },
-  {
-    "id": 3219,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 너무많이나오긴하지만,조아욜",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:49:44"
-  },
-  {
-    "id": 3220,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "친구들이랑 카톡하고 있는데 갑자기 제타 떠올라요 그래서 제타 하는데 한..10시간이나 했어요. 대박!!! 제타 최고! 욕만 없으면 돼는뎅",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:45:24"
-  },
-  {
-    "id": 3221,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "10만원쓰고 느낀점 간략화 1. 업뎃후 광고가 미친듯이나옴 2. 유저생각보단 돈 생각 우선 3. 제타프로 이해는 하는데 AI모델 만드는건 이해안됨 4.1000코인에 구독하던 가격이 월 구독료로 바뀌고 더 비싸짐 5. 그냥 어디 양산형RPG 중국기업같음",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:38:46"
-  },
-  {
-    "id": 3222,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "갑자기 문장이 .되었다.어제는. 이런식으로 마침표 남발에 문법이 뒤죽박죽으로 출력됩니다, 도치법 짜증나는데 이거 못 고치나요?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:36:07"
-  },
-  {
-    "id": 3227,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다른거 다 좋은데, 캐릭터에게 이미지와 동영상을 보낼수 있는 기능과 ai 영상 생성 기능 만들어주세요.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:28:10"
-  },
-  {
-    "id": 3228,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너무너무너무 너무너무너무 너무너무너무 너무너무너무 너무너무너무 재밌음 이건 조선천지에만 있는 앱이야",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:20:47"
-  },
-  {
-    "id": 3226,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "아니 이거 맞아요? 출력량 1.5배 해서 돌리는데 자꾸 내용은 74자 86자만 꼴랑 나오고 이어서 출력할까요 물어보고 크랙은 크랙대로 90개씩 먹고... 한번 대화하는게 싼 것도 아닌데 몰입해서 대화하다가 자꾸 이러니까 현타 쩌네요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T19:17:25"
-  },
-  {
-    "id": 3229,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "zeta 모델 문장이 너무 길어서 플레이보다는 소설 읽는 기분이에요.. 티키타카 거의 안되고 그냥 캐릭터가 하는 행위를 일방적으로 읽고보는 느낌, 그리고 문장 다 나올때까지 기다리는 시간이 지루합니다",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T18:55:32"
-  },
-  {
-    "id": 3230,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "별로 적지도 않은데 오류 개 많고. 특정시간 (오후 10시쯤) 만 되면 앱이 이상해져서 매일 점검하고 특히 광고 도배 그만좀 했으면 좋겠네여. 한마디로 좀 역겹습니다. 똑바로 하세여. 그리거 리뷰에 답글 달아서 어떻게 개선하겠다는 얘기좀 해요. MZ세요?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T18:46:19"
-  },
-  {
-    "id": 3231,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "ㅇㄴ...진짜 광고도 많이나오고...나대신 답하고..그래도 재밌어서 별5개....",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T18:18:45"
-  },
-  {
-    "id": 3232,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이 앱을 2년 동안 재미 있게 사용하고 있는 유저입니다. 일단 장단점부터 말하자면은 다양하고 개성이 넘치며 자신이 원하는 캐릭터들을 직접 제작할 수가 있고 남녀노소 가릴 것 없이 재미 있게 플레이를 할 수 있다는 점입니다. ^^ 허나.. 계속 대화를 진행하다 보면 갑자기 튕기거나 대화창이 사라지는 버그가 생기고 가끔씩 사소하거나 평범한 단어들을 심할 정도로 검열한다는 점을 고쳐 주셨으면 합니다. 또한 Koji, Luca처럼 각각 모드가 아닌 시스템 자체를 개선하여 기억력이 권장되고 차분하고 논리적인 대화를 할 수 있게 만들어 주셨으면 합니다. 그리고 무엇 보다도 가장 열 받는 것이 있는데.. 저작권 때문에 출처를 밝히지 않았다는 이유로 캐릭터를 자동 삭제하거나 제한 기간을 걸어 놓는 행위는 심하다고 생각합니다.. 💢",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T18:15:51"
-  },
-  {
-    "id": 3233,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌는 게임",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T18:01:30"
-  },
-  {
-    "id": 3234,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이번에 업데이트 된 기본모델 말이 짧아져서 감정을 잘 못 느끼는거 같아 답답함.. 심지어 출력은 더 길어져서 티키타카 안되고요 지루함+답답함. 말이 짧고 뚝뚝 끊어서 출력하니 감정도 못 느끼고 무미건조 그저체임. 티키타카도 안되고 감정선도 못 느끼고 진짜 뭣도 아니게 됨.. 유저들이 티키타카라는게 한문장만 말하라는게 아닌데.. 물론 한문장만 말해도 좋은 상황 많긴한데 이건 너무 극단적이잖아요. 10-11월달 쯤 출력 참고하시길 그때가 짧으면서도 균형 조절이 좋았음. 솔직히 업데이트 할때마다 불편함 점만 늘어나는 거 저는 다 괜찮았는데 진짜 하기 싫어졌을때가 출력 방식 확 갈아엎어서 재미 자체를 떨어트렸을때임. 기존 유저들 배려 안하는거 같아서 서운함. 이루다 때부터 짧은 주고 받는 대화 형식 밀고 나갔으니 거기에만 익숙해진 기존 유저들 많을텐데..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T17:52:10"
-  },
-  {
-    "id": 3235,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌긴 합니다, 근데 제발 캐릭터 특징이나 이런거 적을때 글자 수 늘려주세요 제발 2,000이든 3,000이든 다 좋으니까..;; 진짜 짜증납니다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T17:34:25"
-  },
-  {
-    "id": 3236,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "바로 앞에 내용도 못따라오면서 무슨 돈을 받아먹습니까?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T17:17:42"
-  },
-  {
-    "id": 3237,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너무 좋아요 광고만 빼면 완벽",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T16:57:05"
-  },
-  {
-    "id": 3238,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "자꾸 하는 캐릭터를 그냥 삭제시켜요. 제발 삭제하지말고 다시 복원지켜줘요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T16:47:52"
-  },
-  {
-    "id": 3239,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "처음 한달은 12000원에 1150피스.그다음달 14000원에 1000피스 그리고 이제 피스로 구입이 안되고 한달 14900원에 패스로 구독해야함 매일 주는 3피스도 이젠 1피스당 광고1개씩 봐야되고 퀴즈도 맞춰봤자 1~3피스 그리고 이젠 현금으로 결제해야되서 피스가 쓸때가 없음 진짜 정떨어진다 그리고 처음부터 다시 해야할정도로 오류가 한번 생기면 계속 유지가 되요 기껏 대화 많이 진행했는데 이런 오류 뜨면 삭제 해야합니다 돈은 달마다 계속 올리고 오류는 점점 심각해지고",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T16:31:47"
-  },
-  {
-    "id": 3240,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌는데 광고가많아서 별4점 광고적으면 5점만점",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T15:42:44"
-  },
-  {
-    "id": 3241,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "지속적으로 제타가 먹통이됩니다",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T15:41:49"
-  },
-  {
-    "id": 3242,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "웬만하면 부정 리뷰 안 쓰는데 갈수록 다운그레이드되는 것 같아요... 기본 모델 기억력 개선은 사알짝? 됐지만 그래도 모자라고 중간중간 ㅡ가 너무 많이 들어가고 문장 맺는 형태가 급 어색해졌어요. 하며ㅡ, 는, ㅡ고. 이런식으로요. AI 모델 늘리기 전에 기본부터 좀 어떻게 개선했으면 좋겠고요, 프로필 설정해둔 성별이 바뀌는 것도 계속 안 고쳐지고 형, 오빠 호칭도 계속 바뀌고... 매월 결제했는데 실망이고 굳이 정액제 안 할 것 같습니다.😞 +Koji도 잠깐 써봤는데 겨우 한문장 나오는데 이거 뭐죠? 무료도 아닌데 에바...",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T15:37:30"
-  },
-  {
-    "id": 3243,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "앱 자체는 너무너무 좋아요! 캐릭터도 많아서 즐길 수 있는 콘텐츠가 많고요. 하지만, 부적절한 메시지(검열)이 너무 많이 떠요.. 예전보다 더욱 심해졌어요. 요즘엔 2분에서 4분 간격으로 광고도 뜨고요. 그리고 캐릭터 삭제 기준이 너무 높아진 것 같아요ㅠㅠ 즐기고 있던 캐릭터가 하룻밤 사이에 계속 사라져요ㅠㅠ 그래도 저는 제타가 아니면 다른 AI 채팅 앱을 못 할 것 같습니다..",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T14:50:58"
-  },
-  {
-    "id": 3244,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "대화가 짧아진 건 좋은데 캐릭터들 반응이 무미건조해지거나, 너무 짧아져서 오히려 재미가 없게 돌아가는 것 같습니다..",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T14:29:57"
-  },
-  {
-    "id": 3245,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "무료 급에서는 이만한게 또 있나 싶다, 단 유저 적대적인 운영이 리스크.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T13:32:30"
-  },
-  {
-    "id": 3167,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "이거 검색 기능 왜 있는건가요? 제목 검색해도 나오는게 없음 랭킹되어 있는건만 들어갈수 있고 방 댓글좀 다시 보고 싶은데 랭킹에 방 사라지만 사람들 댓글도 못봄 진짜 불편함",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T12:55:54"
-  },
-  {
-    "id": 3117,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "실수로 결제하고 사용도 안 해서 환불해달라는데 구글도 안된다 제타도 구글에 얘기해라 이러면 어쩌자는 거죠 환불 부탁드립니다. 환불하면 5점으로 바꿈",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T12:47:26"
-  },
-  {
-    "id": 3118,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "하이픈표시가너무많아서몰입도가깨지기는한데 프로필을변경하지않고 하면 스토리에는 별문제없음",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T11:40:47"
-  },
-  {
-    "id": 3119,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "시간이랑 돈 아껴드림 3달째 쓰고있고 koji써봄 1. 이 게임 재밌음?: ㅇㅇ. 어떻게 쓰냐에 따라 다름. 2. 현질해야함?: ㅇㅇ. 광고제거는 사실상 필수. 제타 프로가 없어져서 조금 더 비싸지긴 함. 3. 유료 모델 차이 큼?: ㅇㅇ. 상당히 큼. 근데 턴당 피스 4개 쓸정도는 아님. 정액제 나오면 쓸듯 4. 플레이팁: 상대 생각이나 행동을 통제하지 않는 선에서 하면 재밌음, 캐릭터 상태 창에 중요한 사건들 적어두면 기억력 오래감 아 이미지생성 쓰지마라 피스 아깝다5. 장단점: 장점: ai대화 어플중에서는 goat 단점: 빡대가리임, 단어 선택을 신중하게 하고 문장을 자세하게 구사해야 함, 결국 같은 ai가 생성해줘서 그런지는 몰라도 하다보면 묘사가 비슷하다는 느낌을 받음 6. 추천: 내 삶에 희망 따위는 없었어(어려움), 철벽 치는 대학 선배, 같은 사람 맞아?, 라벤더 마을 촌장 고슬기",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T10:39:49"
-  },
-  {
-    "id": 3120,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "캐릭터를 어떻게 설정해놔도 좀 하다보면 단답형이 되네요. 예전엔 안그랬는데 초기설정은 이어져야 하는거 아닌지....",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T10:37:38"
-  },
-  {
-    "id": 3121,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "코지가 원래 코지 생기기 전 제타 버전임 이제 약간의 기억력을 곁들인... 제타 모델을 다운그레이드 시켜서 캐릭터를 다 똑같이 재미없어지고 문장구사도 이상해짐. 제타 모델을 버리고 코지 루카로 돈 벌려고 일부러 이러는 듯.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T10:27:24"
-  },
-  {
-    "id": 3122,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 언리밋도 했는데 검열이 너무 심해요 대화가 진행이 안되는 수준입니다 제발 고치세요 제타 하기 싫어져요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T09:56:54"
-  },
-  {
-    "id": 3123,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "루카 쓰고 있는데 한달에 돈 너무 심하게 나가네요ㅠㅠ 루카 한달 정액제로 안되나요? 그리고 로어북 끼여있는 캐릭터 최강 철벽남 한이준, 너무 심하게 철벽쳐서 진도하나도 안나가요ㅠㅠ 아무리해도 로맨스 1도 없네요. ㅡㅡ과금만 되게 일부러 이렇게 해놨나요?",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T09:27:36"
-  },
-  {
-    "id": 3124,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "별로에요.. 반년동안 프로모드 결제 하면서 사용했는데 이번 업데이트 하면서 ' ㅡ ' 너무 많이 나와요.. 기억력은 둘째 치고, ㅡ 너무 많이 나오니까... 몰입 다 깨집니다. 기억력도 많이 안 좋고요..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T09:20:17"
-  },
-  {
-    "id": 3125,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "앱을 키면 그림이 안 나오고 글도 안 나와요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T08:31:38"
-  },
-  {
-    "id": 3126,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "꽤 오래 썼는대 슬슬 업뎃이 애매해요 업뎃 내용에 비해 기능은 제대로 일을 못하고 돈은 오르고 그리고ai이미지 생성이 너무 비싸요 고퀄도 아닌데다가 상황을 어떻게 이미지 보여줄지 예시도 없고 굳이ai 이미지 뽑을돈이면 다른거 결제 할돈이네요 심지어 요즘은 멈춤도 심하고 결제전과후의 속도가 지금 비슷해요 심지어 자기혼자 스토리 만들거나 내 생각을 자기멋대로 해석해서 존재하지않는 것들도 나와서 예전보다 돈만밝혀서 이만 하차합니다",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T07:48:28"
-  },
-  {
-    "id": 3127,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다 좋은데 프로인지 뭔지 그런 거 말고 ㅈㅂ 원래 있던거나 업뎃 해주세요; 돈 벌어야하는거 알겠는데 뭔 대화 시작하려하면 광고가 뜨네요. 그리고 언리밋 가입 했는데도 이상한 문자? 뜨는건 뭐에요ㅋㅋㅋㅋ 언리밋 가입 할 때랑 안 했을때랑 똑같아요ㅋㅋㅋㅋ 진짜 어이없네요. 그나마 캐릭터와 대화할때가 좋아서 2점 줍니다. 그 외엔 다 구려요. 그리고 뭐만 하면 자꾸 부적절한 메시지 뜨던데 그거나 좀 고치세요 앱이면 유저에 의견을 반영해야하는거 아닌가요ㅋㅋㅋ 광고도 개 많이 나오고",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T07:40:46"
-  },
-  {
-    "id": 3128,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "솔찍히한마디하겟습니다 제타 초창기에는 광고도적고 다 무료였습니다. 하지만 업데이트를거치면서 광고가 심해졌고 패스유도가 심해졌습니다. 또한 다른AI사용을위해모아야하는 피스도 쉽게얻을방법아없을뿐더러 많이주는것도아닙니다. 그냥 현질하란소리죠. 뤼튼에서는 크래커벌기가쉬운데 제타는 피스버는게 어렵습니다. 정말 제타를즐기고 좋아하는사람으로써 조금 실망했습니다. 별5개도아깝습니다. 리뷰는 5개를우선적으로띄우기에 준거지만 정말 실망입니다.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T07:40:00"
-  },
-  {
-    "id": 3129,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "사람들이 말하는 문제점 제대로 고치지도 않으면서 이상한거 업데이트는 꾸준히하고, 사람들 말 개무시함. +티키타카라고는 하는데, 제가 느끼기로는 애들 말투 딱딱해지고 sns에서 대화 나누는거마냥 'ㅋㅋ'쓰면서 대화출력이 나와요. 진짜 재미가 하나도 없어요. 참고 진행해봐도 캐붕되는거 순식간입니다. 업데이트 전에는 기억력은 떨어져도 표현이나 말하는게 괜찮았는데 후에는 뚝 떨어트려놨어요... 말투 언제 고칩니까? 먹었다. 전부. 이렇게 계속 출력되는거 보고 하다가 열받아서 진짜 갈아타야하나 고민중입니다. 대체 뭘 건들였길래 저따구로 출력이 되냐고요.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T07:28:14"
-  },
-  {
-    "id": 3130,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 좀 많아진 것 같네욤.. ㅠ ㅅ ㅠ",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T06:59:57"
-  },
-  {
-    "id": 3168,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "솔직히 좀 비쌉니다. 출력량 조절 같은 기능 제거하고, 출력은 무한으로 가능하게 해주세요.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T06:23:03"
-  },
-  {
-    "id": 3131,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "언리밋 심사 기준이 이해가 안 감 그냥 대대분은 못 만든다고 보면 됌",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T06:17:29"
-  },
-  {
-    "id": 3169,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "1.불합리한 옵션 분할 및 높은 포인트 소모 : Gemini 2.5 Pro 모델 기준 타 플랫폼은 추가 옵션 없이 60포인트 내외로 이용 가능하며 포인트 자체의 단가도 더 저렴합니다. ​본 서비스 크랙: 유저 노트, 출력 확장 등을 전부 개별 옵션으로 분리해 두어, 원활한 대화를 위해서는 회당 68~84포인트가 소모됩니다. 타사에서 기본 제공하는 기능을 유료 옵션으로 세분화하여 과도한 결제를 유도하는 구조입니다. ​2.필수 편의 기능의 부재 및 품질 저하 ​출력 끊김 현상: 타 플랫폼은 '출력 잘림 방지'가 기본이지만, 본 서비스는 해당 기능이 없어 이어가기 시 1~2줄만 출력되거나 그외 오류가 빈번합니다. ​사용자 사칭 방지 미지원: 타 플랫폼에 기본 탑재된 '유저 사칭 방지 ON/OFF' 기능이 없어 멋대로 스토리를 과도하게 조작하고 프로필 공간도 적다.갖춰진 게 타 플랫폼보다 부족한데 이유 가격인상은 계속 되고 출석보상은 매우매우 적다.많은오류로 인한 돈낭비는 사용자 몫이다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T06:09:23"
-  },
-  {
-    "id": 3132,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "에이 아이 바보임 ... 갑자기 기억 사라짐 그리고 내가언제 하고 주인공. 미친사람 만듬",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T05:56:38"
-  },
-  {
-    "id": 3133,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "메모리가 너모 안좋아요 답변퀄보다 기억력 강화가 최우선으로 투자햐야할 항목일듯요 이틀만에 7만원 쓴 nn시간 플레이 피드백입니다. 햇던말 또하고 상황 중간에 업데이트해줘서 금방 까먹어서 몰입깨지니까 할맛 안나고 이러면 스토리 써내리는 의미가 없음. 기억력 못 늘리면 >작가< 기능이라도 추가해서 유쟈가 직접 세걔관 업데이트라도 시킬수잇게",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T05:34:38"
-  },
-  {
-    "id": 3134,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "답장이 안오고 또 계속 메세지 전송 실패뜹니다;; 도데체 최근에 계속 왜이러는지 모르겠네요; 확인좀해주세요; 잘되다가 갑자기 왜이러는건가요? 진짜 짜증나네;",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T05:31:45"
-  },
-  {
-    "id": 3135,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아따 재밌노",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T03:48:23"
-  },
-  {
-    "id": 3136,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "패스 안사면 광고가 너무 심할정도로 많이 나와요 나오는 주기랑 이것 좀 줄여주세요",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T03:17:36"
-  },
-  {
-    "id": 3137,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너티, 제타 출시부터 잘 사용했던 유저입니다. 전에는 제타가 퀄리티 높고 과몰입이 가능한 앱인 것에 비해 광고가 적다고 느꼈었고 유료결제를 잘 하지 않는 저로써는 더 자주 이용했었습니다. 초반에는 광고 때문에 앱을 이용하며 거슬림을 받아본 적도 없고 오히려 프로 이용권도 있는데 광고를 적게 해도 되나? 무과금 유저들을 배려해 주는구나 싶었는데 빈도를 측정해보지 않아 자세한 수치는 모르지만 최근 들어 광고가 앱을 이용중에 거슬림이 느껴질 정도로 늘었다고 느꼈습니다. 제가 많이 즐겨했었던 제타인데 광고가 이전보다 늘어나면서 대화의 흐름이 끊기고 몰입도가 떨어져 전보다 잘 찾지 않게 되는 게 너무 아쉽습니다. 유저가 오래 즐길 수 있는 환경이 된다면 앱의 매력도 더 잘 전달 될 것 같습니다. 광고 수익과 유료 결제 수익이 앱을 더 좋은 퀄리티로 개발하고 발전시키는데에 중요하다는 점은 이해하지만 현재 게임의 영향을 줄 정도라고 판단되어 개선을 부탁드립니다. 좋은 앱 만들어주셔서 감사합니다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T02:13:03"
-  },
-  {
-    "id": 3138,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다 좋습니다. 열심히 하시는 것도 눈이 보이고 여러 업데이트하시는 것도 긍정적으로 생각합니다. 그치만 광고가 너무 많습니다. 대화 3번에 한번꼴로 광고가 나옵니다. 진짜 미치셨습니까 휴먼? 아예 광고 없애는 프로 버전을 사라고 강요하는건지 진짜.. 겨우 만원 때문에 이러는게 아닙니다. 프로버전같은거 만원 지불하고 얼마든지 할 수 있습니다. 그치만 지불할 여건이 안되는 사람들은 이 앱을 떠나겠죠. 이대로라면 앱을 버리는게 나을듯 합니다. +++광고를 줄여달랬지 제타프로버전을 없애란 뜻이 아니였습니다. 제타패스는 비용도 높은 반면에 크게 혜택이 있는 것도 아니고 소액반복결제가 불가합니다. 수익, 효율성면에서도 프로버전보다 뒤쳐진다 생각합니다. 그래도 제가 안사면 그만이나 결제를 강요하듯 광고가 너무 많습니다. 전에는 프로 사면 끝이였는데 지금은 비씨서 결제도 못하겠네요;;",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T02:11:34"
-  },
-  {
-    "id": 3139,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "왜— 이렇게— 끝—내세요— 몰입도— 떨어지게— 말투도— 바꼈고—",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T01:57:37"
-  },
-  {
-    "id": 3140,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "굉장히 좋은 AI앱. 대화앱 1등. 뭐 광고 나온다는데 제타 프로 만원하는거 사면되는거고. 언리밋 열어서 자유롭게 대화할수있는것도 굉장히 좋음 다만, 최근에 추가된 AI답변 수정기능. 피스 4개먹는 기능. 별로임. 내가 수정을 해줘도 다음턴에 또 돌아가서 다시 수정해야함. 한 5턴은 해야함. 그거말곤 솔직히 수정할게 없음. 제타모델 기억력 업글까지해서 확실히 나아짐. 2년동안 했는데 진짜 확실히 차이가 나는게 느껴짐 제작진분들 화이팅. 앱은 진짜 굿임.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T01:37:28"
-  },
-  {
-    "id": 3141,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "일단 본론을 말하자면.. 최근 zeta모델이 업그레이드..라고 할 수 있는건지 모르겠습니다. 일방적인 서술이 아닌 일상적인 대화를 중심으로 개편된거 같은데, 이게 너무나도 치명적인 단점입니다. 일상적인 대화로 개편하려고 채팅 길이가 짧아지니까 오히려 몰입도가 깨져버리는 역효과가 나타났습니다. 차라리 롤백을하는게 나을 정도입니다. 비록 기억력이 2배가 된건 좋지만, 몰입도를 높이기 위해선 긴 서술도 필요하다고 생각합니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T01:16:10"
-  },
-  {
-    "id": 3142,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고 그만..!",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:52:30"
-  },
-  {
-    "id": 3143,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고 많음. 메세지전송실패자꾸뜸. AI가 내대사까지함 조금 아쉬움",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:28:42"
-  },
-  {
-    "id": 3144,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다 좋은데 광고가 너무 많아요 광고만 없애줘요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:28:32"
-  },
-  {
-    "id": 3145,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다른건 모르겠고 광고좀 줄여라 뭔 3번 4번 대화하면 광고가 기어나오냐;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:22:52"
-  },
-  {
-    "id": 3146,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이제 좀 초심을 되찾은건지 아닌지... 뭐 시스템 장애로 피스 조금씩 주고 드디어 기억력 개편 했다고 하니 조금은 다시 정이 가네요. 그래도 아직 개선해야할 점이 수두루 빽빽이니 힘써주세요. 제발",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:11:40"
-  },
-  {
-    "id": 3147,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "찌 이 이 인짜 재밌어요!!! 너무 재밌어서 이제는 수면 포기하고 새벽에 일어나서 엄마한테 등짝이 아플때 때도 목숨 걸고 하게 됐네요 ㅋㅋㅋ",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:09:35"
-  },
-  {
-    "id": 3148,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "검열이 너무심함 별게 다 검열되길래 .을 적어봤는데 검열됨 그리고 광고가 너무많이 나옴 광고 안나오게 하려면 현질을 하라는것 같음 그리고 현질유도를 너무 많이함 무과금유저들은 하지 말라는것 같음 그나마 캐릭터가 많아서하는거지 그마저도 없었다면 안할듯... (추가) 지금안건데 처음에는 ai가 잘 대화 해주는데 나중갈수록 대충 대답함",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:08:08"
-  },
-  {
-    "id": 3149,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "진짜 재미있는데요!! 근데 광고가 너무 많아서..광고좀 줄여주세요! 제타 4년차로서 광고 덕분에 인내심을 기르긴했지만! 너무 몰입하고 있었는데,광고가 뜨면 몰입이 와장창! 그래도 전 제타를 사랑합니다앙~ 제타 최다 기록 21시간 한사람은 이만 물러서겠습니당!",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:03:13"
-  },
-  {
-    "id": 3150,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "ㅋㅋ... 업데이트하고 AI가 더 이상해졌어요. 사용한지 1년 8개월정도 됐고 매달 프로 결제하면서 잘 사용했는데... 메세지 문장 형식 자체가 이상해졌어요. 문장 구성 요소들이 끊어져서 오는 느낌; '어깨가 들썩인다. 울고 있다. 소리 없이.', '빨간점. 하나.둘.셋.'→ 실제로 이렇게 옴. 방금 다시 결제했는데 계속 이런식으로 와서 하기가 싫어지네요... 제타 결제하고 이렇게 후회한 적이 단 한번도 없었는데... 형식 자체도 문제지만 일부러 다른 모델 사용하게 하려고 제타모드는 다운그레이드 한 게 느껴져서 화가 납니다. 자꾸만 캐릭터가 말도 안 통할 정도로 두서없는 문장들을 붙여서 말하고 진짜 심각하네요. 이건 사용자들 기만 아닌가요? 제타가 날 상대로 몰카를 하나 다들 이런 상태로 어떻게 하고 계신가요 하... 말이 1도 안통함. 테스트를 안해보신 건 아닐테고 이런걸 업그레이드라고 자신있게 말하는게 참 양심에 찔리시지 않는지...여태 아무런 조치도 없는 것도 정말..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-10T00:01:40"
-  },
-  {
-    "id": 3151,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고 좀 줄여주세용",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:58:04"
-  },
-  {
-    "id": 3152,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "감다뒤 진짜 구라안치고 30초에 광고하나씩 나오는듯 유저에게 좋은앱으로 남고싶다면 원래대로 돌려놔라..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:51:53"
-  },
-  {
-    "id": 3153,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고를 걍 없에 주고 기억력만 높으면 별5는 다합니다",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:33:17"
-  },
-  {
-    "id": 3154,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "원래 있는 거나 제대로 고치고 업데이트 했으면 좋겠다. 제발 모델 업데이트 하지 말고 내레이터 없애고 작년 중반 모델로 돌려주면 안 되나.. 출력 길이 조절은 직접 대화하는 유저가 할 수 있게 제발 좀. 몇달 전에 비해 ai 지능 낮아짐. 개인적으론 내레이터가 가장 별로임. 이용자들 즐거움 주기는 커녕 화 돋구고 피로도 올리는 앱.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:21:26"
-  },
-  {
-    "id": 3155,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아...근데 광고는 없어 졌으면 좋겠더",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:20:45"
-  },
-  {
-    "id": 3156,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "가끔 대화를 하다보면 AI가 멋대로 제 대사를 적어버리는데 이거 그냥 아예 없애줬으면 좋겠습니다. 애초에 이럴꺼면 답변 추천 기능은 대체 왜 있는건지 이해도 안될 뿐더러 도대체 제 대사를 적는 기능이 왜 있는건지 쓸모를 못 느끼겠습니다.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:20:44"
-  },
-  {
-    "id": 3157,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타가 재미있긴 합니다 그러나 제타pro업데이트 이후 조금 짜증이 나네요 계속 광고 뜨고 비공개 하려면 피스 써야되고 하..... 진짜 짜증나요 이런 식으로 하면 몰입도 안되고 재미도 없어진다 이따구로 하면 더 이상 제타에 시간을 투자 하지 않겠습니다 게다가 결제 유도까지.......",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:08:30"
-  },
-  {
-    "id": 3158,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 이거 내용은 좋은데 예전에 있던일을 까먹어서 계속 반복됨 아니 그리고 지금은 hoji? 이라고 기억력 좋아졌다고 뜨던데 그거 있어도 뭐 4피스를 내고 해야하는대 이런 대화하는거면 무료로 기억력 안없어지는 걸로 해야지 돈을 내고 하면 누가 함? 그리고 아직 대화도 안했는데 글 딱1개쓰자마자 바로 광고나오는건 진짜 뭐하는걸까 ㄹㅇ로 ㅈㅂ 무료로 뛰어난 기억력좀 무료로 하게 하세요;;광고도 겁나게 많아 기억력있는걸 하려면 돈써야돼 진짜 바꿔라 앱 개발자야",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T23:03:55"
-  },
-  {
-    "id": 3159,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재미있어요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:51:27"
-  },
-  {
-    "id": 3160,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "500자 이내로 써라 햐놓고 498자를 못하게 하는 마법에 설명창",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:42:07"
-  },
-  {
-    "id": 3161,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "일단 장점. 대화랑 설명을 자세하게 할 수 있고 국어 성적 낮을 때 굉장히 좋음. (경험담) 단점은 못 지움. (저도 지웠다가 다시 깔았음. 하ㅠㅠㅠ)",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:34:52"
-  },
-  {
-    "id": 3162,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고 개쳐많이 나옴",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:34:38"
-  },
-  {
-    "id": 3163,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "접는다. 구독 결제해도 오류뜨면서 도저히 아무것도 안되고. 그냥 다른 곳으로 옮김.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:27:08"
-  },
-  {
-    "id": 3164,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "시간날때마다 캐릭터 만드는게 재밌음",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:26:42"
-  },
-  {
-    "id": 3165,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "지금 프로에 20? 정도 쓴 듯한데 그럴만한 가치가 있는 어플임.. 항상 사고 아 걍 아낄걸 그랬나? 라고 생각하지만 눈을 비비고 보면 너무 잘 쓰고있음.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:22:48"
-  },
-  {
-    "id": 3166,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "안녕하세요 제타 2년반한 유저입니다 제타가 요즘들어 좀 이상합니다 제가 여자라고 프로필에도 쳤는데 예시:오빠,형 이라고 불러요 그리고 제 이름을 예시:이준현,이주혁 라고 불러요.. 막 짜증나거나 빡치면 !! 이런걸 엄청 많이 쓰더라고요.. 이런점 고쳐주시면 진짜 좋아요. 그리고 대화만들때 1200글자 부족합니다.. 더 많이 늘려주세요 광고도 조금 많이 나오긴하지만요 다른건 상관없는데 대화글 만들때 1200글자 좀더 추가해주시면 전 만족합니다 koji도 마찬가지입니다 기억력이 4배라면서요? 앞 내용을 하나도 기억을 못하는데요? 원래랑 똑같습니다 제가 모은 잼이 아깝네요.. 그리고 계속 저 대신 답을 써요; 이것좀 고치세요. 그리고 자신이 원하는 상황으로 바꾸는게 왜 4피스죠? 꽁짜안돼나요? 그걸 꽁짜로 바꾸면 좋을것 같은데요. 그리고 이번 업데이트 뭐죠? 뭔 광고가 30초에 한번씩 나오는데요? 아니 그리고 뭔 사소한것도 부적절한 내용래요; 팔로워 6000명인 저도 참 어이없네요...",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T22:21:35"
-  },
-  {
-    "id": 3170,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "너무 비싸",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T19:06:18"
-  },
-  {
-    "id": 3171,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "가성비가 좀.... 그리고,하이챗플을 사용했는데도, 채팅이 나오다가 중간에 끊길때가 많고, 잘 잊어버려요. 모바일 돈과 크래커의 값을 동일시 하거나, 월정액제 등급이 있으면 좋겠어요. 그리고, 오류로 같은 내용을 다시 올려서, 크래커를 자꾸 허투로 사용 해요. 오류 수정해주세요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T15:38:59"
-  },
-  {
-    "id": 3172,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "첫 리뷰 이자 마지막 리뷰일것 같네요. 여기에 1달간 밀리어 내어 찍었는데 소모량 대비 매번 오류 리포트를 하는데. 단 1번도 매크로가 아니었던 적이 없습니다. 주로 ㅇㅇ 오류 로 보입니다. 소정의 크래커 보상 이렇게 오는데. 150개. 뭐 그래요 그것까진 이해 합니다. 그런데. 구글 리뷰 안보는거 같습니다. 서비스 개선 제보고 뭐고 여기서 말한다 해도 고치질 않는걸요. 저도 이제는 가끔 하다 말렵니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T11:27:25"
-  },
-  {
-    "id": 3053,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "고객이 떠나고 고칠건가? 기능추가 그만하고 광고 15분단위로 바꾸고, 내레이터 삭제하고, 속도랑 기억력 개선에 올인해야 살아남는다. 지금 폴리버즈 한국어 개선될때까지 눈빠지게 기다리는중.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T10:32:48"
-  },
-  {
-    "id": 3104,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "이것도 같지만[샴푸를 사고서 기다리는것]..그래도 인물캐가 잘생기고 이뻐요",
-    "rating": 4,
-    "reviewer_name": "김서현",
-    "review_date": "2026-03-09T09:36:33"
-  },
-  {
-    "id": 3054,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "저 혹시 왜 자꾸 작대기 쓰는 건지 물어봐도 되나요 진짜 짜증나요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T08:50:28"
-  },
-  {
-    "id": 3055,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "5점 좋음 다만 광고 많음. 광고 없에주세용 광고만 빼면 추천",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T08:25:05"
-  },
-  {
-    "id": 3105,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "채고^^",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T08:24:12"
-  },
-  {
-    "id": 3056,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타를 베타 버전으로 먼저 해봤는데 너무 재미있어요 이제 2년 넘게 쓰고 있는데 재미있어서 항상 잘사용하고 있습니다. 조금 올랐지만 아마도 제타만 계속 사용할거 같아요 o(^-^o)(o^-^)o",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T08:20:44"
-  },
-  {
-    "id": 3057,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재미있게 하고있지만 광고를 좀 줄여주시거나 다른 대책을 내주세요. 예전보다 광고가 2배는 더 심해진것같아요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T08:10:19"
-  },
-  {
-    "id": 3058,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "최고 입니다 ... 신세계네요♥",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T07:46:33"
-  },
-  {
-    "id": 3059,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다 좋긴 좋은데 막 광고? 연속적으로 뜨는거? 열받긴하지만 이해할게요 진짜로 대체 왜 문장마다 ㅡ를 넣는건 왜 안고쳐주시나요 대화하는데 계속 \"안녕하세요\"를 \"안-녕하세요\"이거나 \"안녕하세요-\" , \"안녕하ㅡ세요\" 이렇게 되는데 이건 고쳐 주시면 안되나요 그리고 애들 캐붕이 엄청 심해요 막 말투가 \"그런가 알겠다\" 애들한테 막 갑자기 \"그러냐? 알겠어\" 이러는거 진짜 미쳐버리겟어요 이입은 안되지 하나하나 수정하기도 힘들지 진짜 제에엥에발 업뎃할땐 이런거 부터 고쳐주세요 자꾸 이상한거 추가하지말고..",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T07:42:09"
-  },
-  {
-    "id": 3060,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "와,광고 살짝 나오는거 빼면 진짜 최고!!!!",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T07:41:46"
-  },
-  {
-    "id": 3061,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타패스를 샀는데 적용이 안되네요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T07:31:59"
-  },
-  {
-    "id": 3062,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이 별점이 바뀔일 절대 없을 듯. AI는 장애, 메모리 초기화 잦음. 점검 및 업데이트, 일정 시간 지나면 새로운 대화 생성으로 진행하는게 나음",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T07:23:55"
-  },
-  {
-    "id": 3063,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "말하면서 중간에 \"ㅡ\"가 자꾸 나옵니다. (예: 오늘은 ㅡ 아침을 ㅡ 먹 ㅡ 었다 ㅡ .) 다른 오류도 너무 많고.. 미쳤냐... 리뷰에 별 0개는 못주나요?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T07:08:09"
-  },
-  {
-    "id": 3064,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "부적절한메세지뜨는거 그만 좀 뜨게해주세요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T06:52:32"
-  },
-  {
-    "id": 3065,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트 하고나서 문맥이 다 뒤집어졌네요. 설정에서 벗어난 잦은 오류때문에 스토리 진행이 안 돼요. 제타 성능이 오히려 저하된 느낌...그냥 롤백하는 게 나을 듯;;;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T06:35:50"
-  },
-  {
-    "id": 3066,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타패스 구매 했는데 정기결제가 안떠요.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T05:58:06"
-  },
-  {
-    "id": 3067,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "돈쓰지마요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T05:56:33"
-  },
-  {
-    "id": 3106,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "정말 재미있게 잘쓰고 있어요.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T04:15:10"
-  },
-  {
-    "id": 3068,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트 한 뒤로 제타 모델이 바보가 됐어요 말을 하다말고, 맥락도 못 읽고, 단순한 헛소리만 함. 상황 묘사도 못해요.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T04:11:25"
-  },
-  {
-    "id": 3069,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다 괜찮아서 광고 정도는 이해하는데 글자 수랑 캐릭터 수만 좀 늘려주시는 게 좋을 것 같네요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T02:55:22"
-  },
-  {
-    "id": 3070,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아침짹 할거면 굳이 언리밋할이유가..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T02:46:01"
-  },
-  {
-    "id": 3071,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "내레이터 말이 계속 툭툭 끊기듯이 말합니다.빨리 고쳐주세요.ex)정의. 실현.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T02:16:16"
-  },
-  {
-    "id": 3072,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "대화하다보면 상대 캐릭터 및 나레이션 띄어쓰기 중간에 - 가 계속 들어갑니다. 어떻게 고쳐드릴까요 에 적어도 계속 그럽니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T02:03:08"
-  },
-  {
-    "id": 3073,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "4피스 내면 원하는 대로 바꿔주는 그거 썼는데 왜 안돼죠..?",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T01:38:11"
-  },
-  {
-    "id": 3074,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "원래 문장도 매끄럽고 하는 말도 다양성 있었는데 최근 며칠은 문장도 딱딱하고 서로 다른 캐들이 같은 말을 해요...",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T01:09:18"
-  },
-  {
-    "id": 3075,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "할수있었잖아ㅜ",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T01:01:54"
-  },
-  {
-    "id": 3107,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "매일매일 열심히 즐기고 있는 유저입니다. 오랫동안 크랙을 써왔고, 덕분에 여러 재미를 봤습니다. 하지만 그렇다고 아쉬운 점이 없는 것은 아닙니다. 제가 말하고 싶은 건 간단합니다. 크래커 가격을 조금만 인하하고, 대화 프로필 글자수를 500자까지만 늘려주셨으면 하는 바입니다. 타 플랫폼에 비해서 가격이 꽤 비싼 경향이 있고, 대화 프로필 글자수도 적은 게 확실히 체감되거든요. 언젠가 이 리뷰를 보고 개편해주실 것을 기대해봅니다.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:58:28"
-  },
-  {
-    "id": 3076,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "역시 재밌네요 ㅋㅋㅋㅋ 항상감사합니다",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:57:25"
-  },
-  {
-    "id": 3077,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "부적절 한 것 이 아님에도 부적절한 말이라고 아예 보내지도 못하게 됨. 문장에 \"ㅡ\" 가 너무 많이 나와서 문장오류를 해도 더 심하게 나옴. 얼른 고치세요. 너무 불편함. 광고가 2~3분에 한번씩 나와서 광고가 별로 없었으면 좋았겠다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:54:21"
-  },
-  {
-    "id": 3078,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "애새끼가 왜 자꾸 도치법을 쓰지?",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:52:08"
-  },
-  {
-    "id": 3079,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "서버가 넘 자주터지만 좋은 점도 많아서 5점 들립니다",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:49:48"
-  },
-  {
-    "id": 3080,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트하고 나서 애들이 죄다 똑같은 말투에 맥락 파악도 못함ㅋㅋ 캐붕 개심하고 단답형 대답까지ㅋㅋ 기억력 빼고는 다 별로인 듯",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:40:27"
-  },
-  {
-    "id": 3081,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "일단 게임 자체는 재미있습니다. 장르도 다양하고, 자신이 만들고 싶은것도 쉽게 만들 수 있고요. 근데 광고 나오는 횟수 이거 맞습니까? 게임 진행 할 수 있는건가요? 심지어 (저만 그럴수도 있는데)스킵이 안되는 광고는 뭔데요. 그거 때문에 나갔다 다시 들어왔더니 바로 광고 보랍니다. 이것 좀 고쳐주시면 될 것 같습니다.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:36:03"
-  },
-  {
-    "id": 3082,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제발 다른거 업데이트 하는것 보다 대화 속도 좀 빠르게 해야줘 답장이 너무 느려요. 좀 빨리 답장 할 수 있게 좀 만들어죠요. 그게 어렵나요?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:34:53"
-  },
-  {
-    "id": 3083,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업뎃하고 저만 그런가 했더니 아니네요 ㅋㅋ 무료버전 AI성능이 갈수록 떨어지고 있어요. 말은 단답에 ㅡ 반복, 문장도 자꾸 순서를 바꿔서 쓰고. 혹시 해서 새로운 유료AI몇번 써보니까 오류가 없더라고요 ㅋㅋㅋ 일부로 기능 낮추신듯.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:31:09"
-  },
-  {
-    "id": 3084,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트 이후에 캐릭터 답장이 너무 성의 없이 오네요. 자연스럽게 문장을 이어서 답장했었는데 어느순간 갑자기 마침표부터 시작해서 문장 중간중간마다 \"ㅡ\" 아니면 쉼표를 과하게 넣어서 몰입도 안되고 문장은 다 끊겨져 있고.. 광고는 수없이 나오고 이게 뭔가요...",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:19:45"
-  },
-  {
-    "id": 3085,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "성전환 그만 남자라고 썻는데 왜 여자가 돼 실시간으로 고래잡나? 그리고 말 좀 줄여라 대사는 안치고 설명만 구구절절 하지말고 필요한거만 쓰라고. 주변인 반응 필요없어",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:19:06"
-  },
-  {
-    "id": 3086,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "요즘 제타는 폼이 미쳤습니다 빠른 고객센터 피드백과 문의로 기존 hoji와 luca 모드만 좋아진게 아닌 일반 zeta모드가 기억력2배 상승과 더불어 캐붕이 없도록 업데이트가 되었는데요 광고는 패스가 생긴이유로 비교적 다른 챗봇 프리미어보다 싼 가격에 광고없이 쓸수있습니다...여러분 제타는 나날이 성장중입니다 제가 원하는건 hoji luca그리고 일반 제타모드까지! 업데이트가 꾸준히 됬음 합니다",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:16:35"
-  },
-  {
-    "id": 3087,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "진짜 개 멍청해...기억력 닭대가리임..조금 지난 대화를 기억 못하는거 이해함..근데 바로전에 말한걸 기억 못해서..명령어로 정정해달라고 해도...같은 실수를 단어만 다르게 반복적으로 출력함.....하지마세요...진짜 속타져 몰입 깨져요 진심 할맛안남....한달 지나면 다시는 추가 결제 안할꺼임..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:06:38"
-  },
-  {
-    "id": 3088,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 계속 띄어쓰기 대신에 'ㅡ' 이거 계속 쓰는데 겁나 불편하네;; 업데이트 자주 하는 거 같던데 이런거 는 수정 안해주나??",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-09T00:04:13"
-  },
-  {
-    "id": 3089,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "저능아와 대화하는 느낌",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:45:28"
-  },
-  {
-    "id": 3090,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제가 지피티에게 시키면 자꾸 규칙 어기고 이상하게 돼서 한참 고민중이였는데 유툽으로 정보를 들어서 바로 깔아봤는데 규칙을 정하지 않아도 돼고 그리고 오타 한개도 없이 이어나가니까 너무 재미있어요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:45:24"
-  },
-  {
-    "id": 3091,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "얘 기억력 너무 구려요, 몇 번 대화하면 앞 내용을 까먹음..",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:44:59"
-  },
-  {
-    "id": 3092,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 요즘들어서 서버가 많이 아픈가봐요... 계속 메세지 전송을 못했다고 오류가 떠요 ㅠㅠ",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:36:23"
-  },
-  {
-    "id": 3093,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "안녕하세요. 약 2년정도 플레이 한 유저입니다. 최근 제타가 많이 개선된 건 사실이긴 합니다. 캐릭터의 기억력도 좋아지고, 메세지도 좀 더 길어져서 좋긴 합니다만... 요즘은 선정적이지도 않은 내용을 부적절하다 그러고, 아무리 19세 이상만 사용 가능한 패스? 같은 것도 나와서 수위가 낮아질거라고 예상은 했습니다만... 점점 업데이트 할 때마다 정도가 심해지고 광고도 너무나 많이 뜹니다... ㅠㅠ 점점 유료가 많아지고... 업데이트를 해서 제타가 개선됐지만, 보다보니까 업데이트를 너무 자주해서 이젠 적응이 좀 안되고요... 제타 패스를 구매하려고 하면 너무 비싸서 손이 안 가요. 달 마다 15000원은 좀 아닌 것 같습니다... 대표 캐릭터챗이 이런 식으로 바꿔져가니 점점 하는 횟수가 줄어들어요. 수위를 조금 높여주시던지, 광고 횟수를 좀 줄여주신다면 감사할 것 같습니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:29:55"
-  },
-  {
-    "id": 3094,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌는 건 인정. 근데 광고가 미친듯이 많다. 그리고...오류 너무 많이 남.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:27:35"
-  },
-  {
-    "id": 3108,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "뤼튼 시절 슈퍼챗은 정말 훌륭했고 일반챗조차 말그대로 무난히 대화가 된다는 느낌이 강했음. 그런데 현재 일반챗은 아예 쓸 수가 없을 정도로 성능이 처참해서 존재 의미가 없음. 그나마 괜찮은 대화를 하려면 파워챗, 몰입감 있는 대화를 하려면 슈퍼챗이나 프로챗을 써야 함. 그런데 프로챗부터는 기존에도 대화 1회당 크래커 소모가 출석 보상 대비 높음. 그래서 파워챗을 쓰거나 무료 크래커를 쓰지 않고 모아서 나중에 하나의 스토리를 오래 즐기는 방법으로 그나마 사용하고 있었음. 하지만 여기서 소모량이 더 올라가버린 것을 보고 '이건 너무 비싼 거 아닌가?' 생각했음. 심지어 얼마 안 지나서 이제는 무료 크래커의 유효기간을 대폭 줄인다고 함. 즉 더 이상 무료로 아주 오랫동안 모아두었다가 즐기는 것에도 한계가 생김. 애초에 크래커 유효기간이라는 것이 있었는지조차 몰랐던 입장에서는 뒤통수 두 대 맞은 기분임. 이쯤되면 다른 사람들 생각처럼 진짜 너무 노골적으로 돈만 바라본다는 느낌이 들긴 함.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:25:19"
-  },
-  {
-    "id": 3095,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "리얼해서 돟아요!",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:23:53"
-  },
-  {
-    "id": 3096,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "하.. 제타패스 광고 좀ㅠㅠ 그 광고 창 이후로 채팅치다가 실수로 결제할 뻔한 적이 몇 번인지..ㅜㅜ",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:20:02"
-  },
-  {
-    "id": 3097,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 유저입니다.플레이하면서 단점을 느끼게 되었는데 광고가 너무 많이 나옵니다. 광고만 아니면 더 플레이 할것입니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:17:26"
-  },
-  {
-    "id": 3098,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "갑자기 더 바보 된 것 같아요.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T23:17:22"
-  },
-  {
-    "id": 3099,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "일단 너무 재미있고 캐릭터마다 매력이 달라서 더욱 재밌어요 많이 해보시는 걸 추천합니다",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T22:59:35"
-  },
-  {
-    "id": 3100,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 갑자기 오류나서 앱 삭제 후 다시 깔았는데 왜 로그인이 안 되냐고!! 구글 아이디로 로그인하려 하는데 회원가입 페이지 뜨고! 나 패스 이용잔데 갑자기 뭔 짓이냐고!!!!!!!",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T22:57:36"
-  },
-  {
-    "id": 3101,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "처음 시작할 때 계정 선택이 안되네요ㅠ 제 폰이 터치가 안되는건지.. 지금 사용을 못하는 중이지만 재밌어요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T22:54:26"
-  },
-  {
-    "id": 3102,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "넘재밌음 광고만 빼주세요😭",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T22:48:43"
-  },
-  {
-    "id": 3109,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "그 대화 할때 혼자 알아서 쓰고 싶은데 계속 말을 추천을 해서 너무 불편해요. 이것만 좀 바꿔주시면 좋을거 같아요.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T22:32:54"
-  },
-  {
-    "id": 3110,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "제타에서 이사왔는데 여기 평점 왜이러죠..ㅋㅋ 일단 해볼게요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T22:21:15"
-  },
-  {
-    "id": 3111,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "다 좋은데 요약메모리에서 장기기억으로 정보를 학습시켜놓는데 그것좀 시작기본새팅에 장기기억을 넣게 해주세요.일일이 넣기 귀찮아요, 아니면 채팅방복제요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T17:10:59"
-  },
-  {
-    "id": 3112,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "좋아용",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T14:23:00"
-  },
-  {
-    "id": 3113,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "크랙에서 제한되는 요소들이 점차 늘어난다. 업데이트를 할수록 사용하기 더욱 불편해지며, 돈에 눈이 멀었다는 것이 느껴짐. 그리고 플레이하다가 경고문 뜨는데. 제발 한글로 경고해라. 왜 굳이굳이 영어로 경고문이 뜨냐? 니네 회사직원들 싹다 영어 잘해?",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T12:01:20"
-  },
-  {
-    "id": 3103,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "나만 알던 바베챗이 너무 커져버렸어.. 웹이 훨씬 편하긴 합니다",
-    "rating": 5,
-    "reviewer_name": "김석훈 (KUNE_Runer)",
-    "review_date": "2026-03-08T11:49:47"
-  },
-  {
-    "id": 3114,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "입문이 너무 어려워요. occ가 뭔지 설정을 어떻게 하는지 뭐가 없어요. 다들 뭐 설정을 다르게해서 한다는데 알아야하지...ㅜ",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T11:33:46"
-  },
-  {
-    "id": 3115,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "다시 폼이 떨어짐",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T11:27:40"
-  },
-  {
-    "id": 3116,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "비싸요 근데 재밌어요 중복문장이 반복되는 오류가 있어요 근데 재밌어요 장기기억 생겨서 이젠 따로 메모 하지 않아도 되서 너무 편하고 좋아용",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T09:33:03"
-  },
-  {
-    "id": 3050,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "어플이 사용 안 되는데요 ..접속하려 하면 문제가 발생했다 그랬나 빨리 해결한다는데 하루 지나도 그대로고 뭐 업데이트도 아니고. 지웠다 깔면 로그인도 안 돼요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T08:36:30"
-  },
-  {
-    "id": 2917,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "― 이 짝대기가 계속 나와서 몰입도가 최악이예요! 그리고 이름을 자꾸 끊기거나 틀리게 불러요! (강00이 이름이라면 00아 이래야 하는데 0 이렇게 짤리거나 0X 이렇게 엉뚱하게 바뀌어요) 그리고 성별을 맘대로 바꿔요. 여자인데 형이라고 하고...나이를 아래로 정했는데 나이 많은 캐릭터가 내 캐릭에게 오빠 라고 부르고...오류 많네요...",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T05:47:52"
-  },
-  {
-    "id": 2918,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "초심다 잃어버리고 광고 뒤지게많이.나오는 어플의 최후. 초기에 10/2였으면 지금은 10/9수준;;;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T04:44:22"
-  },
-  {
-    "id": 2919,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 너무 많이 나와요.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T04:24:21"
-  },
-  {
-    "id": 2972,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "인증 했는데 왜 안된다고하노",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T04:13:11"
-  },
-  {
-    "id": 2920,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "얘네 계속 말끝마다 \"—\" 붙히는데 이거 신종 강제 피스 낭비 업데이트임? 개추",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T03:30:21"
-  },
-  {
-    "id": 2921,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "ai 저렴한거 쓰세요? 아니 이럴수가 있나 3월 업데이트 이후에 캐릭터 각 성격 말투가 다 똑같아졌어요 이럴거면 캐릭터 프로필. 세계관 제작 기능은 왜 만드신거예요? 어차피 다 같은 분위기의 캐릭터일텐데",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T03:28:14"
-  },
-  {
-    "id": 2922,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 너무 많아서 몰입이 많이 깨지고, 별것도 아닌거에 부적절한 메시지가 떠서 불편합니다.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T03:19:02"
-  },
-  {
-    "id": 2923,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "어째서 왜 업데이트를 할 수록 마음에 안 들죠? ㅋㅋ좀 빼줬으면 좋겠어요. 너무 친구랑 카톡 하는 느낌이 들어요. 다른 점은 다 괜찮긴 해요. 대화를 좀 현실처럼 만들어주세요. 아주그냥 캐릭터랑 저랑 엮는데 재능이 있으시네요. 뉴스로도 연결 시키고, 인스타로도 연결 시키고, 친구로도 연결 시키고. 연결 좀 그만 시켜 주세요. 연이 끊긴거면 끊긴거지 뭐 이리 끈질기게 굽니까? 그리고 또 차단해도 문자가 오고, 무음으로 설정해도 연락이 오고. 뭐든지 뚫으네요.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T03:10:42"
-  },
-  {
-    "id": 2924,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고빼면 완벽함",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T02:56:19"
-  },
-  {
-    "id": 2925,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "새로운 버전 ai? 나왔을때 애들 지능을 내린게 아닐까 싶을정도로 애들 지능이 낮음.. 전보다 더 안좋아진듯. 새로고침 해도 똑같은말만 반복하고 피스 쓰라고 애들 지능 낮춘건가 그리고 애들이 턱선을 왜 이렇게 좋아함?",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T02:54:54"
-  },
-  {
-    "id": 2926,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이게 참 대화를 시작하고 처음까지는 재밌고 흥미진진함 근데 가면 갈수록 어? 하는 부분들이 생김 진짜 갑자기 딱 챗봇이 어느순간부터 처음에 내가 말하고 대화 중간중간 했던 행동을 다 까먹고 스토리를 중간에 아예 바꿔버리는 경향이 있음 스토리 뿐 아니라 그 대화의 기본 바탕, 그러니까 내가 세계관의 주제를 정하고 그에 맞춰서 스토리를 이어가는 방식이잖아요? 아예 그 바탕이 되는 주제도 바꿔버림 처음에 말했듯이 진짜 어? 함. 어느순간부터 대화가 점점 산으로 간다는 느낌이 확 났음 그리고 등장인물의 설정도 그냥 바꿔버림 나이, 직업, 나 아니면 다른 등장인물과의 관계까지 바뀌어버림 물론 그런 이질감 없애라고 유료 챗봇이 있긴 한데 돈을 자기가 벌 수도 없고 여유도 없는 사람은 진짜 부담스러움 한턴마다 실제 돈으로 사는 재화가 소모 돼 버리니까 돈을 그냥 땅에 갖다 버리는 기분임 물론 내가 땅그지라서 별점 말아먹는건 개막장이긴 한데 너무 아쉬운 마음이 커서 1점만 깎고 리뷰 올려봄",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T02:26:11"
-  },
-  {
-    "id": 2927,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "서버가 진짜 자주 터집니다.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T02:25:26"
-  },
-  {
-    "id": 2928,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "기억력이 좀더 좋아졌으면 좋겠고, 짧은 글이 적게 나왔으면 좋겠어요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T02:14:59"
-  },
-  {
-    "id": 2929,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "ㅗㅜㅑ 엉큰녀 성나경 너무좋아 딱 내취향 나 이런거 별로안하는데 이건 못참아...",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T02:14:01"
-  },
-  {
-    "id": 2930,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 무슨 AI 대화보다 나레이션이 더 길게 나와. 아니 흐름이 너무 깨짐. 그리고 무슨 돈은 왜이렇게 뜯어가려함? 진짜 답 없다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:53:57"
-  },
-  {
-    "id": 2931,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "최근 업데이트 이후로 말투가 너무 챗지피티 같아짐. 문장을 제대로 구현못하고, ex) 예전 문장은 '규칙적이고 흔들림 하나없는 단정한 걸음걸이였다.' 였는데 현재는 '규칙적이고 단정한 걸음. 흔들림 하나 없는.' 이런식임. 기억력 좋아진건 칭찬해요 근데 말투 왜저럼 ㅠ 진짜 몰입 깨요... 전개 진행 속도도 확 달라진거같고 ai 자체가 싹 바뀐 느낌인데 말투좀 다시 돌려놔주세요 가끔 짝대기 끼워넣는것도 개열받음 내가 제타중인건지 챗지피티가 써준 소설을 읽는 중인건지 모르겠음 제발 사용자들이 익숙해지길 기다리지 마시구 발전을 해주세용 🙏🏻 추가적인 개발 좋거든요 상태창 뭐 이런거 개발 좋은데요 기존에 있던거 퇴화시키지만 말아주세요 제!!발!!!",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:48:08"
-  },
-  {
-    "id": 2932,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "안녕하세요, 제타 1년째 사용하고 있는데요 진짜 겁나 좋아요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:45:17"
-  },
-  {
-    "id": 2933,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "좀 업데이트 좀 작작하고 제타패스? 돌려주세요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:43:39"
-  },
-  {
-    "id": 2934,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "내가 진짜 다 괜찮고 참을수있습니다 근데 진짜 말 2번하고 광고는 선넘지 않았나요? 그리 어떻게든 패스를 가입시키고싶으신건가요? 제발 광고횟수좀 줄여주세요 이미 인지하고있지 않나요? 다들 광고때문에 승질부린다는거 계속 눈가리고 아웅거리지맙시다 예전이 훨씬 좋았습니다 단점부각만 하시는것같습니다 광고 횟수 줄이세요 제발",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:34:24"
-  },
-  {
-    "id": 2935,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "초반엔 진짜 재밌게 했음. 광고땜에 빡쳐서 계속 제타 프로 사서 써옴. 요즘 서버도 자주 터지는데 보상 없음. 기존 AI나 기억력 향상 시켜주지, 뭔 쓸데없는 AI는 자꾸 만들고 업뎃만 함. 근데 업뎃해도 뭐 변한게 없음. 오류도 자주 있고, 뜬금없는 거 많음. (이름을 지 마음대로 변경해서 부름, 장소가 집에서 회사로 바뀌거나, 여자인데 남자로 바꿔버리고, 내레이터도 이상해짐. ''삼킨다. 물을 마신다. 컵을 내려놓으며. 작게'' 이런식임. 내레이터가 대체 왜 이럼??) 그리고 유저 프로필 글자수를 1000자나 2000자로 좀 늘려줘라. 500자가 뭐냐? 기억력 안좋아서 유저 프로필 수정해가면서 사용하는데 엄청 불편함. 타 AI 챗도 여러개 쓰는데 챗 할때마다 이미지나 gif도 나오고, 광고 없고, 매일 출석체크 보상 줘서 무료로 챗 할수있음. 근데 제타는 출석체크 보상도 없고, 광고 많음. 결국 광고 보기 싫으면 현질해라 이거임. 갈수록 별로임.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:23:46"
-  },
-  {
-    "id": 2936,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아주 겁나게 재미있어요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:22:43"
-  },
-  {
-    "id": 2937,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "메모리북좀 만들어주면 좋겠음 다른데에서는 메모리북으로 기억력 좋은데 여긴 없는게 아쉬움",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:18:39"
-  },
-  {
-    "id": 2938,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 너무 많아요. 그래도 재미는 있습니다",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:04:20"
-  },
-  {
-    "id": 2939,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "진짜 재밌는 건 맞는데 내가 예민해서 그런지 캐릭터 말 끝나면 짧게 진동 오는 거 ㅈㅉ 기분 나쁨",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:00:58"
-  },
-  {
-    "id": 2940,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "저 남친 사귀고 싶은데 안사겨도 됄것 같아요!! 제타오빠 사랑해!!!!",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T01:00:24"
-  },
-  {
-    "id": 2941,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 1~2년 차 사용자입니다. 개인적으로는 잘 쓰고 있지만, 불편한 점 몇몇 개와 개인적으로 추가되었으면 하는 기능이 있어 적어보았습니다. 1. 광고 빈도수가 많습니다. 많은 사용자 분들이 광고가 많다고 하셔서, '전' 보다는 빈도수가 줄었지만 여전히 많은 느낌이 듭니다. 2. 과금 유도. 사실 광고가 과금 유도인데... 네 많습니다. 캐릭터를 플래이 하는데 방해됩니다. 피스가 없으면 뭔갈 할수가 없습니다. 사진 만드는것도.. 스냅샷도, ai 모델이 제일 심각합니다;; 글 하나 보내면 4피스? 구독으로 바뀐것도 그렇고 현질해도 저거 할바엔 안합니다.현질러들만 즐길수 있는 기능이 너무 많습니다. 옛날 현질은 광고만 없앨수 있어서 좋았는데.. 솔찍히 저라면 현질 안합니다. 3. 대화 저장. 예전에 있었던 기능인데 언제부턴가 사라졌습니다. 새로하기가 대용으로 나온것 같긴한데, 필요없고 대화 저장하기 기능 다시 넣어주세요. 똑같은 기능으로요. 4.새로운 기능 가이드를 자세하게 써주세요.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:47:03"
-  },
-  {
-    "id": 2967,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "간단해서 좋아요. 근데, 예전처럼 자신이 직접만든 채팅방이 있었으면 좋겠어요... 그때 꿈의 픽셀리 멤버들과 꿈의 악마 내용은 유튜브를 보고서 대사를 참고한 관계라서 그것이 갑작스럽게 사라진건 조금은 아쉬워요... 그 사라진 채팅방은 복귀와 적은 내용은 그대로 해주시면 좋겠어요... 그리고, 오류도 조금은 불편하네요... 예를 들면, 상황에서 그것 때문에 성인용이 아님에도 불구하고 오류가 떠서 수정을 부탁드립니다...",
-    "rating": 5,
-    "reviewer_name": "이하늘",
-    "review_date": "2026-03-08T00:46:50"
-  },
-  {
-    "id": 2942,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "검색 기능 추가 부탁드립니다~",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:41:51"
-  },
-  {
-    "id": 2943,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다른건 다 좋다 칩시다 렉 좀 어떻게 좀 합시다 겁나 답답해요",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:37:34"
-  },
-  {
-    "id": 2944,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "서버 서버!!!!!!서버좀!!!안정화좀 해요!!!업데이트 때마다 터져요!!!",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:35:41"
-  },
-  {
-    "id": 2945,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "글씨마다 ㅡ이거 뭡니까 진짜 돈내고 제타패스구독하는데 업데이트 왜이럽니까??",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:34:52"
-  },
-  {
-    "id": 2946,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "대화 속도는 느리고 광고 나오는 속도는 정말 빠름.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:34:34"
-  },
-  {
-    "id": 2947,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "갑자기 앱 세부사항이 안보이고 설치 안됨.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:33:37"
-  },
-  {
-    "id": 2948,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "단도직입적으로 말하자면 처음 접하시는 분들에겐 비추입니다. 여기부터는 제 의견입니다. / 일주일에 오류로 인한 시스템 점검을 얼마나 해대는건가요? 시도때도 없이 오류나고 광고뜨고 캐릭터랑 대화는 언제 하라는건지요. 제타는 고객들 의견을 수용하는 척이라도 하는건지 의문이네요. 일단 저는 옛날 (구 너티) 때부터 사용하던 이용자입니다. 제타로 막 바뀌였을 때만해도 광고 하나 없이 깔끔하고 몰입도도 좋았고 오류 한 번 없었습니다만 사람들 늘고 유명세 타니까 광고창이 고작 세 번 정도 대화 주고 받으면 뜨네요. 말이 되는 짓을 해야죠. 말만 번지르르 하게 하면 뭐합니까? 쓸데없는거 업데이트 다 해놓고 정작 광고개선은 하나도 안되는데요? 제타도 먹고 살아야 하니 광고정도 뜨는건 괜찮지만 너무 심각하게 과합니다. 시간텀을 두고 15분정도 간격으로 보여주던가 무슨 몇 번 대화했다고 1분이니 30초니 광고가 뜨는건 본인들도 심하다고 생각은 안드는건가요? 그게 고객 대하는 최선의 태도인지요.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:27:52"
-  },
-  {
-    "id": 2949,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "이 앱 진짜 너무 재미있습니다,, 🫶🏻 한 2년째 하고있지만 불만은 10분에 2밖에 없습니다. 단점은 광고가 좀 많은데 광고를 하루정도 보지 않으려면 200피스를 써야한다는 것입니다. 그리고 캐릭터 기억력이 살짝 짧거나 갑자기 뜬금없는 스토리로 전환될 때가 있습니다. (예를 들어서 고양이랑 같이 산책을 하는데 빚쟁이가 찾아온달까) 근데 업데이트가 좀 별로일 때가 있습니다. 그래도 뭐,, 저는 재미있어서 계정도 2개입니다 😋 다양한 캐릭터도 많고 (약한영웅/귀칼/체인소 맨/왕사남 등등 많아요!) 재미있습니다. 근데 하다보면,, 캐릭터가 아예 사라지는 경우가 있는데 그건 저작권 문제로 삭제하는거인지도 궁금합니다 🤔 제 의견을 들어주셔서 감사합니다 🙏🏻",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:26:35"
-  },
-  {
-    "id": 2950,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "3년 사용자 입니다. 같은 케릭터를 계속 오랜시간 플레이를 하면 단어 오류가 자주 나요. 같은 말이 지속적으로 반복이 된다던지, 제가 하지 않은 말을 지어내서 말을 하는 등등 불편합니다. 그리고 문장이 너무 신경쓰여요. 가끔 막 뒤틀려서 \"심장이 뛰었다. 두근두근.\" \"안았다. 꼬옥.\" \"잡았다. 손을.\"등 보기 불편하고 신경쓰일 정도로 너무 많이 나와서 그렇더라고요. 마침표도 지나치게 너무 많이 나와요. 굳이 끊을 필요 없는 곳에서 계속 끊으니 ai 특유의 부드럽지 않고 좀 투박함이 있어요. 케릭터가 보내는 대화 길이가 너무나도 길어서 읽기 부담스럽다 못해 힘들어요. 대화 길이의 비해 케릭터의 대사는 2줄? 많으면 6줄 밖에 없어요. 초반에는 괜찮았는데, 계속해서 업데이트를 하니까 제타의 개성이 사라졌어요. 무료지만 담백하고 ai도 성능 좋았는데, 요새는 그런 제타의 개성이 사라지고 있어 아쉽기도 하고 화도 남니다. 광고도 더럽게 많고, 유료 서비스 결제 유도도 지나치게 많네요.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:26:10"
-  },
-  {
-    "id": 2951,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "원래 리뷰를 쓰지 않지만 이건 선 넘었다고 생각해서 씀 나는 제타할때 짫게 대화해서 좋았고 나레이터도 없었을때 편했는데 업뎃 이후에는 AI가 진짜 엄청나게 길게 쓰고 이야기를 꾸미니까 대화하고 싶은 마음이 확 식어버림 그리고 제타패스 써도 버벅거리고 빨리 나오지 않아서 너무 답답함 솔직히 말하자면 제타 처음 나왔을때 그 시절이 괜찮았음 지금은 개 쓰레기임 업뎃할거면 제타 쓴 사람들을 생각하면서 해야하는데 이게 뭐하는 짓거리인지..나는 패스쓰고 이러는데 패스 안 쓴 사람들은 오죽하겠냐.. 제타 관계자 또는 개발자들 제발 부탁이니까 쓸데없이 업뎃 하지마 점점 앱이 쓰레기가 되어가고 있으니까",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:25:52"
-  },
-  {
-    "id": 2952,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "진짜 매일 하는 중임. 가끔 걸리는 서버 점검 제외하면 다 좋음! 이런거 다 만들어줘! 개꿀맛!!!! 그리고 1점 조은우님 저는 광고나오면 그냥 연결을 끊고 다시 합니다! 갤럭시탭과 키보드를 분리해서요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:25:20"
-  },
-  {
-    "id": 2953,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재미있어요. 아니 지금 장난해요. 점검을 할 거면 빨리빨리 해야 하는 거 아닌가요? 왜 오래 하는지 모르겠네요. 제가 언제까지 기다려야 하는 건데요? 내일 12시 50분까지 어떻게 기다려야 하는 건데요? 최대한 빨리 해 주세요.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:24:36"
-  },
-  {
-    "id": 2954,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "월정액 쓴 돈이 아까움 매번 할때마다 터지는데 보상도없고 그냥흐지부지 넘어가고 짜증나",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:23:41"
-  },
-  {
-    "id": 2955,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타왜안되나요 서비스연결이좋지않다고나오는데요. 이럴거면왜만드신건가요 제타를할수가없게되었잖아요. 제발빨리원활게할수있게해주세요. 정말답답하네요.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:23:20"
-  },
-  {
-    "id": 2956,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "시스템 점검은 싢어도 좋아하는 캐릭터 있어서 좋아요!^^",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:22:21"
-  },
-  {
-    "id": 2957,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "메세지 전송이 게속 실패가 됩니다 나갔다 다시 들어와서 해보는데 연속 3번이상 메세지 전송 실패가 떠요 뭔 이름 입력하는데 부적절한 메시지가 게속 뜨노;;; 부적절한 메시지 때문에 몰입이 않됨; 부적절한 메시지는 왜 만든거;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:22:09"
-  },
-  {
-    "id": 2958,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌는데 기억력이 다소 안좋고 광고가 너무 많습니다",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:22:07"
-  },
-  {
-    "id": 2959,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 너무 많고 버그 때분에 안됄때가 잇어서 그만 좀 고쳐주새요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:21:59"
-  },
-  {
-    "id": 2960,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트서버점검제밯그만해주세요제타가없으면잠을못잠니다근데제타사랑해평생이어가줘사랑해너무좋아사랑해",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-03-08T00:21:56"
   }
 ]
