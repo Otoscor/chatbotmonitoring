@@ -1,64 +1,84 @@
 {
-  "id": 34,
-  "report_date": "2026-03-30T10:55:50.816872",
-  "total_posts": 561,
-  "total_views": 51812,
-  "total_recommends": 753,
-  "total_comments": 2033,
+  "id": 35,
+  "report_date": "2026-04-01T16:38:15.622756",
+  "total_posts": 562,
+  "total_views": 75763,
+  "total_recommends": 636,
+  "total_comments": 1478,
   "top_keywords": [
     {
-      "keyword": "ntr",
-      "count": 14,
-      "score": 0.0365
+      "keyword": "바베",
+      "count": 30,
+      "score": 0.0428
     },
     {
-      "keyword": "ooc",
-      "count": 8,
-      "score": 0.0187
-    },
-    {
-      "keyword": "아니",
-      "count": 9,
-      "score": 0.0131
-    },
-    {
-      "keyword": "ai",
-      "count": 4,
-      "score": 0.0125
-    },
-    {
-      "keyword": "제일",
-      "count": 7,
-      "score": 0.0116
-    },
-    {
-      "keyword": "뭐임",
-      "count": 7,
-      "score": 0.01
-    },
-    {
-      "keyword": "얼헌",
-      "count": 7,
-      "score": 0.0099
-    },
-    {
-      "keyword": "nt",
-      "count": 2,
-      "score": 0.009
+      "keyword": "만우절",
+      "count": 24,
+      "score": 0.0324
     },
     {
       "keyword": "오푸스",
-      "count": 5,
-      "score": 0.0089
+      "count": 17,
+      "score": 0.027
+    },
+    {
+      "keyword": "에셋",
+      "count": 10,
+      "score": 0.0153
+    },
+    {
+      "keyword": "크랙",
+      "count": 10,
+      "score": 0.0152
     },
     {
       "keyword": "코파",
-      "count": 5,
-      "score": 0.0089
+      "count": 9,
+      "score": 0.013
     },
     {
-      "keyword": "이게",
+      "keyword": "갑자기",
+      "count": 8,
+      "score": 0.0127
+    },
+    {
+      "keyword": "하챗",
+      "count": 7,
+      "score": 0.012
+    },
+    {
+      "keyword": "페소",
+      "count": 7,
+      "score": 0.0119
+    },
+    {
+      "keyword": "태그",
+      "count": 8,
+      "score": 0.0109
+    },
+    {
+      "keyword": "ui",
+      "count": 3,
+      "score": 0.0103
+    },
+    {
+      "keyword": "ooc",
+      "count": 3,
+      "score": 0.0097
+    },
+    {
+      "keyword": "바베는",
       "count": 6,
+      "score": 0.009
+    },
+    {
+      "keyword": "에덴",
+      "count": 6,
+      "score": 0.0086
+    },
+    {
+      "keyword": "아니",
+      "count": 5,
       "score": 0.0081
     },
     {
@@ -67,166 +87,171 @@
       "score": 0.0081
     },
     {
-      "keyword": "내가",
-      "count": 5,
+      "keyword": "glm",
+      "count": 3,
       "score": 0.0078
     },
     {
-      "keyword": "다들",
-      "count": 5,
-      "score": 0.0078
+      "keyword": "ai",
+      "count": 2,
+      "score": 0.0071
     },
     {
-      "keyword": "바이브",
-      "count": 5,
-      "score": 0.0078
-    },
-    {
-      "keyword": "이유",
-      "count": 5,
-      "score": 0.0077
-    },
-    {
-      "keyword": "보고",
-      "count": 5,
-      "score": 0.0075
-    },
-    {
-      "keyword": "사육이",
+      "keyword": "있는데",
       "count": 4,
-      "score": 0.0068
-    },
-    {
-      "keyword": "뭔가",
-      "count": 4,
-      "score": 0.0067
-    },
-    {
-      "keyword": "바베",
-      "count": 4,
-      "score": 0.0066
-    },
-    {
-      "keyword": "있는",
-      "count": 4,
-      "score": 0.0066
-    },
-    {
-      "keyword": "제작자",
-      "count": 4,
-      "score": 0.0066
+      "score": 0.0071
     },
     {
       "keyword": "질문",
-      "count": 4,
-      "score": 0.0066
-    },
-    {
-      "keyword": "페소",
-      "count": 4,
-      "score": 0.0066
-    },
-    {
-      "keyword": "뭐야",
       "count": 5,
+      "score": 0.0069
+    },
+    {
+      "keyword": "프로챗",
+      "count": 4,
+      "score": 0.0065
+    },
+    {
+      "keyword": "이게",
+      "count": 4,
       "score": 0.0064
     },
     {
-      "keyword": "무슨",
+      "keyword": "얼헌",
       "count": 4,
       "score": 0.0061
     },
     {
-      "keyword": "한번",
-      "count": 4,
-      "score": 0.0061
+      "keyword": "노드리스",
+      "count": 3,
+      "score": 0.0053
     },
     {
-      "keyword": "이렇게",
-      "count": 4,
-      "score": 0.006
+      "keyword": "신드롬",
+      "count": 3,
+      "score": 0.0053
     },
     {
-      "keyword": "쓰는게",
-      "count": 4,
-      "score": 0.0058
+      "keyword": "업뎃",
+      "count": 3,
+      "score": 0.0053
     },
     {
-      "keyword": "정산금",
-      "count": 4,
-      "score": 0.0057
+      "keyword": "잼민이",
+      "count": 3,
+      "score": 0.0053
+    },
+    {
+      "keyword": "젬삼일",
+      "count": 3,
+      "score": 0.0053
+    },
+    {
+      "keyword": "출력량",
+      "count": 3,
+      "score": 0.0053
+    },
+    {
+      "keyword": "루나",
+      "count": 3,
+      "score": 0.005
     }
   ],
   "top_characters": [
     {
-      "name": "반납",
-      "mentions": 3,
+      "name": "공지",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "뭔가 굉장히 중요한걸 잊어버린것 같아...",
-      "mentions": 1,
+      "name": "워크시뮬",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "의견 수렴",
+      "name": "케/팊이식",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "프롬",
+      "name": "반납",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "곤뇽",
+      "name": "프론티아",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "딸깍",
+      "name": "케/플/엘",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "븡스",
+      "name": "나름",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "for Gemini 3.1",
+      "name": "1떡",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "치한",
+      "name": "바베/언셒🔞",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "케/시뮬",
+      "name": "돌아온 고향, 두 자매와 여름나기",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "강조",
+      "name": "빨아",
       "mentions": 1,
       "rank": 11
     },
     {
-      "name": "방법",
+      "name": "DC",
       "mentions": 1,
       "rank": 12
     },
     {
-      "name": "바베/언셒",
+      "name": "기하학",
       "mentions": 1,
       "rank": 13
     },
     {
-      "name": "보추",
+      "name": "궤도",
       "mentions": 1,
       "rank": 14
+    },
+    {
+      "name": "스레드",
+      "mentions": 1,
+      "rank": 15
+    },
+    {
+      "name": "데이터",
+      "mentions": 1,
+      "rank": 16
+    },
+    {
+      "name": "술탄",
+      "mentions": 1,
+      "rank": 17
+    },
+    {
+      "name": "제발야구선수",
+      "mentions": 1,
+      "rank": 18
+    },
+    {
+      "name": "시뮬",
+      "mentions": 1,
+      "rank": 19
     }
   ],
   "trending_topics": []
