@@ -512,7 +512,11 @@ export const triggerAppReviewCrawl = async () => {
 
 export const fetchTodayReviews = async (): Promise<AppReview[]> => {
   if (USE_STATIC_DATA) {
-    return []
+    try {
+      return await fetchStaticData<AppReview[]>('today_reviews.json')
+    } catch {
+      return []
+    }
   }
   const { data } = await api.get('/app-reviews/today')
   return data

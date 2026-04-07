@@ -501,7 +501,32 @@ async def export_app_reviews(session: AsyncSession, output_dir: Path):
         json.dump(reviews_data, f, ensure_ascii=False, indent=2)
     print(f"  ✓ app_reviews.json 생성 ({len(reviews_data)} reviews)")
     
-    # 3. 키워드 (app_keywords.json)
+    # 3. 오늘 크롤링 리뷰 (today_reviews.json)
+    from datetime import date
+    today = date.today()
+    today_query = select(AppReview).where(
+        func.date(AppReview.crawled_at) == today
+    ).order_by(desc(AppReview.review_date))
+    result = await session.execute(today_query)
+    today_reviews = result.scalars().all()
+
+    today_data = []
+    for review in today_reviews:
+        today_data.append({
+            "id": review.id,
+            "app_name": review.app_name,
+            "platform": review.platform,
+            "review_text": review.review_text,
+            "rating": review.rating,
+            "reviewer_name": review.reviewer_name,
+            "review_date": review.review_date.isoformat() if review.review_date else None
+        })
+
+    with open(output_dir / "today_reviews.json", "w", encoding="utf-8") as f:
+        json.dump(today_data, f, ensure_ascii=False, indent=2)
+    print(f"  ✓ today_reviews.json 생성 ({len(today_data)} reviews)")
+
+    # 4. 키워드 (app_keywords.json)
     print("  ➤ 키워드 분석 중...")
     from collections import Counter
     import re
