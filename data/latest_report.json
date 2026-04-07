@@ -1,115 +1,150 @@
 {
-  "id": 35,
-  "report_date": "2026-04-01T16:38:15.622756",
-  "total_posts": 562,
-  "total_views": 75763,
-  "total_recommends": 636,
-  "total_comments": 1478,
+  "id": 36,
+  "report_date": "2026-04-07T12:59:48.147157",
+  "total_posts": 575,
+  "total_views": 75611,
+  "total_recommends": 1430,
+  "total_comments": 1928,
   "top_keywords": [
     {
-      "keyword": "바베",
-      "count": 30,
-      "score": 0.0428
-    },
-    {
-      "keyword": "만우절",
-      "count": 24,
-      "score": 0.0324
-    },
-    {
-      "keyword": "오푸스",
+      "keyword": "크리지널",
       "count": 17,
-      "score": 0.027
-    },
-    {
-      "keyword": "에셋",
-      "count": 10,
-      "score": 0.0153
-    },
-    {
-      "keyword": "크랙",
-      "count": 10,
-      "score": 0.0152
-    },
-    {
-      "keyword": "코파",
-      "count": 9,
-      "score": 0.013
-    },
-    {
-      "keyword": "갑자기",
-      "count": 8,
-      "score": 0.0127
-    },
-    {
-      "keyword": "하챗",
-      "count": 7,
-      "score": 0.012
-    },
-    {
-      "keyword": "페소",
-      "count": 7,
-      "score": 0.0119
-    },
-    {
-      "keyword": "태그",
-      "count": 8,
-      "score": 0.0109
-    },
-    {
-      "keyword": "ui",
-      "count": 3,
-      "score": 0.0103
-    },
-    {
-      "keyword": "ooc",
-      "count": 3,
-      "score": 0.0097
-    },
-    {
-      "keyword": "바베는",
-      "count": 6,
-      "score": 0.009
-    },
-    {
-      "keyword": "에덴",
-      "count": 6,
-      "score": 0.0086
-    },
-    {
-      "keyword": "아니",
-      "count": 5,
-      "score": 0.0081
-    },
-    {
-      "keyword": "있음",
-      "count": 5,
-      "score": 0.0081
-    },
-    {
-      "keyword": "glm",
-      "count": 3,
-      "score": 0.0078
+      "score": 0.0261
     },
     {
       "keyword": "ai",
-      "count": 2,
-      "score": 0.0071
+      "count": 8,
+      "score": 0.0222
     },
     {
-      "keyword": "있는데",
-      "count": 4,
-      "score": 0.0071
+      "keyword": "바베",
+      "count": 15,
+      "score": 0.0176
     },
     {
-      "keyword": "질문",
+      "keyword": "에덴",
+      "count": 12,
+      "score": 0.0168
+    },
+    {
+      "keyword": "오푸스",
+      "count": 10,
+      "score": 0.0148
+    },
+    {
+      "keyword": "ooc",
+      "count": 0,
+      "score": 0.0112
+    },
+    {
+      "keyword": "다들",
+      "count": 7,
+      "score": 0.0109
+    },
+    {
+      "keyword": "glm",
       "count": 5,
-      "score": 0.0069
+      "score": 0.0104
     },
     {
-      "keyword": "프로챗",
+      "keyword": "이유",
+      "count": 6,
+      "score": 0.0099
+    },
+    {
+      "keyword": "나만",
+      "count": 7,
+      "score": 0.0092
+    },
+    {
+      "keyword": "원래",
+      "count": 6,
+      "score": 0.0087
+    },
+    {
+      "keyword": "검열",
+      "count": 5,
+      "score": 0.0082
+    },
+    {
+      "keyword": "제작",
+      "count": 6,
+      "score": 0.0082
+    },
+    {
+      "keyword": "nai",
+      "count": 4,
+      "score": 0.0077
+    },
+    {
+      "keyword": "업데이트",
+      "count": 5,
+      "score": 0.0077
+    },
+    {
+      "keyword": "서버",
+      "count": 5,
+      "score": 0.0074
+    },
+    {
+      "keyword": "갑자기",
+      "count": 5,
+      "score": 0.0073
+    },
+    {
+      "keyword": "내가",
+      "count": 5,
+      "score": 0.0072
+    },
+    {
+      "keyword": "여성향",
+      "count": 5,
+      "score": 0.0071
+    },
+    {
+      "keyword": "젬마",
+      "count": 5,
+      "score": 0.0071
+    },
+    {
+      "keyword": "리뷰",
+      "count": 4,
+      "score": 0.007
+    },
+    {
+      "keyword": "뭐야",
+      "count": 4,
+      "score": 0.007
+    },
+    {
+      "keyword": "제발",
+      "count": 4,
+      "score": 0.007
+    },
+    {
+      "keyword": "페소",
+      "count": 4,
+      "score": 0.007
+    },
+    {
+      "keyword": "크랙",
+      "count": 5,
+      "score": 0.0067
+    },
+    {
+      "keyword": "생각보다",
       "count": 4,
       "score": 0.0065
+    },
+    {
+      "keyword": "좋아하는",
+      "count": 4,
+      "score": 0.0065
+    },
+    {
+      "keyword": "님들",
+      "count": 4,
+      "score": 0.0064
     },
     {
       "keyword": "이게",
@@ -117,139 +152,104 @@
       "score": 0.0064
     },
     {
-      "keyword": "얼헌",
+      "keyword": "있음",
       "count": 4,
-      "score": 0.0061
-    },
-    {
-      "keyword": "노드리스",
-      "count": 3,
-      "score": 0.0053
-    },
-    {
-      "keyword": "신드롬",
-      "count": 3,
-      "score": 0.0053
-    },
-    {
-      "keyword": "업뎃",
-      "count": 3,
-      "score": 0.0053
-    },
-    {
-      "keyword": "잼민이",
-      "count": 3,
-      "score": 0.0053
-    },
-    {
-      "keyword": "젬삼일",
-      "count": 3,
-      "score": 0.0053
-    },
-    {
-      "keyword": "출력량",
-      "count": 3,
-      "score": 0.0053
-    },
-    {
-      "keyword": "루나",
-      "count": 3,
-      "score": 0.005
+      "score": 0.0064
     }
   ],
   "top_characters": [
     {
-      "name": "공지",
+      "name": "유니챗",
       "mentions": 2,
       "rank": 1
     },
     {
-      "name": "워크시뮬",
-      "mentions": 2,
+      "name": "언셒",
+      "mentions": 1,
       "rank": 2
     },
     {
-      "name": "케/팊이식",
+      "name": "언셒/홍보",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "반납",
+      "name": "야스",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "프론티아",
+      "name": "2/4",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "케/플/엘",
+      "name": "1/4",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "나름",
+      "name": "이세계트럭",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "1떡",
+      "name": "바베/루나/에덴/엘린/유니(언셒)",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "바베/언셒🔞",
+      "name": "리루",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "돌아온 고향, 두 자매와 여름나기",
+      "name": "호텔 플린트",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "빨아",
+      "name": "마짱, 미니보드",
       "mentions": 1,
       "rank": 11
     },
     {
-      "name": "DC",
+      "name": "단일",
       "mentions": 1,
       "rank": 12
     },
     {
-      "name": "기하학",
+      "name": "슈바",
       "mentions": 1,
       "rank": 13
     },
     {
-      "name": "궤도",
+      "name": "adhd",
       "mentions": 1,
       "rank": 14
     },
     {
-      "name": "스레드",
+      "name": "하니엘v8",
       "mentions": 1,
       "rank": 15
     },
     {
-      "name": "데이터",
+      "name": "스타게이트",
       "mentions": 1,
       "rank": 16
     },
     {
-      "name": "술탄",
+      "name": "불법에셋",
       "mentions": 1,
       "rank": 17
     },
     {
-      "name": "제발야구선수",
+      "name": "여동생",
       "mentions": 1,
       "rank": 18
     },
     {
-      "name": "시뮬",
+      "name": "달콤한 음식",
       "mentions": 1,
       "rank": 19
     }
