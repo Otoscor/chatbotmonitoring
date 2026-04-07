@@ -1,5 +1,263 @@
 [
   {
+    "id": 36,
+    "report_date": "2026-04-07T12:59:48.147157",
+    "total_posts": 575,
+    "total_views": 75611,
+    "total_recommends": 1430,
+    "total_comments": 1928,
+    "top_keywords": [
+      {
+        "keyword": "크리지널",
+        "count": 17,
+        "score": 0.0261
+      },
+      {
+        "keyword": "ai",
+        "count": 8,
+        "score": 0.0222
+      },
+      {
+        "keyword": "바베",
+        "count": 15,
+        "score": 0.0176
+      },
+      {
+        "keyword": "에덴",
+        "count": 12,
+        "score": 0.0168
+      },
+      {
+        "keyword": "오푸스",
+        "count": 10,
+        "score": 0.0148
+      },
+      {
+        "keyword": "ooc",
+        "count": 0,
+        "score": 0.0112
+      },
+      {
+        "keyword": "다들",
+        "count": 7,
+        "score": 0.0109
+      },
+      {
+        "keyword": "glm",
+        "count": 5,
+        "score": 0.0104
+      },
+      {
+        "keyword": "이유",
+        "count": 6,
+        "score": 0.0099
+      },
+      {
+        "keyword": "나만",
+        "count": 7,
+        "score": 0.0092
+      },
+      {
+        "keyword": "원래",
+        "count": 6,
+        "score": 0.0087
+      },
+      {
+        "keyword": "검열",
+        "count": 5,
+        "score": 0.0082
+      },
+      {
+        "keyword": "제작",
+        "count": 6,
+        "score": 0.0082
+      },
+      {
+        "keyword": "nai",
+        "count": 4,
+        "score": 0.0077
+      },
+      {
+        "keyword": "업데이트",
+        "count": 5,
+        "score": 0.0077
+      },
+      {
+        "keyword": "서버",
+        "count": 5,
+        "score": 0.0074
+      },
+      {
+        "keyword": "갑자기",
+        "count": 5,
+        "score": 0.0073
+      },
+      {
+        "keyword": "내가",
+        "count": 5,
+        "score": 0.0072
+      },
+      {
+        "keyword": "여성향",
+        "count": 5,
+        "score": 0.0071
+      },
+      {
+        "keyword": "젬마",
+        "count": 5,
+        "score": 0.0071
+      },
+      {
+        "keyword": "리뷰",
+        "count": 4,
+        "score": 0.007
+      },
+      {
+        "keyword": "뭐야",
+        "count": 4,
+        "score": 0.007
+      },
+      {
+        "keyword": "제발",
+        "count": 4,
+        "score": 0.007
+      },
+      {
+        "keyword": "페소",
+        "count": 4,
+        "score": 0.007
+      },
+      {
+        "keyword": "크랙",
+        "count": 5,
+        "score": 0.0067
+      },
+      {
+        "keyword": "생각보다",
+        "count": 4,
+        "score": 0.0065
+      },
+      {
+        "keyword": "좋아하는",
+        "count": 4,
+        "score": 0.0065
+      },
+      {
+        "keyword": "님들",
+        "count": 4,
+        "score": 0.0064
+      },
+      {
+        "keyword": "이게",
+        "count": 4,
+        "score": 0.0064
+      },
+      {
+        "keyword": "있음",
+        "count": 4,
+        "score": 0.0064
+      }
+    ],
+    "top_characters": [
+      {
+        "name": "유니챗",
+        "mentions": 2,
+        "rank": 1
+      },
+      {
+        "name": "언셒",
+        "mentions": 1,
+        "rank": 2
+      },
+      {
+        "name": "언셒/홍보",
+        "mentions": 1,
+        "rank": 3
+      },
+      {
+        "name": "야스",
+        "mentions": 1,
+        "rank": 4
+      },
+      {
+        "name": "2/4",
+        "mentions": 1,
+        "rank": 5
+      },
+      {
+        "name": "1/4",
+        "mentions": 1,
+        "rank": 6
+      },
+      {
+        "name": "이세계트럭",
+        "mentions": 1,
+        "rank": 7
+      },
+      {
+        "name": "바베/루나/에덴/엘린/유니(언셒)",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "리루",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "호텔 플린트",
+        "mentions": 1,
+        "rank": 10
+      },
+      {
+        "name": "마짱, 미니보드",
+        "mentions": 1,
+        "rank": 11
+      },
+      {
+        "name": "단일",
+        "mentions": 1,
+        "rank": 12
+      },
+      {
+        "name": "슈바",
+        "mentions": 1,
+        "rank": 13
+      },
+      {
+        "name": "adhd",
+        "mentions": 1,
+        "rank": 14
+      },
+      {
+        "name": "하니엘v8",
+        "mentions": 1,
+        "rank": 15
+      },
+      {
+        "name": "스타게이트",
+        "mentions": 1,
+        "rank": 16
+      },
+      {
+        "name": "불법에셋",
+        "mentions": 1,
+        "rank": 17
+      },
+      {
+        "name": "여동생",
+        "mentions": 1,
+        "rank": 18
+      },
+      {
+        "name": "달콤한 음식",
+        "mentions": 1,
+        "rank": 19
+      }
+    ],
+    "trending_topics": []
+  },
+  {
     "id": 35,
     "report_date": "2026-04-01T16:38:15.622756",
     "total_posts": 562,
@@ -8173,229 +8431,6 @@
         "name": "일상",
         "mentions": 1,
         "rank": 7
-      }
-    ],
-    "trending_topics": []
-  },
-  {
-    "id": 6,
-    "report_date": "2026-01-26T08:34:30.321837",
-    "total_posts": 418,
-    "total_views": 23044,
-    "total_recommends": 234,
-    "total_comments": 1199,
-    "top_keywords": [
-      {
-        "keyword": "만들",
-        "count": 10,
-        "score": 0.0202
-      },
-      {
-        "keyword": "상태",
-        "count": 8,
-        "score": 0.0176
-      },
-      {
-        "keyword": "정실",
-        "count": 9,
-        "score": 0.0167
-      },
-      {
-        "keyword": "크래커",
-        "count": 7,
-        "score": 0.016
-      },
-      {
-        "keyword": "맛있",
-        "count": 8,
-        "score": 0.0155
-      },
-      {
-        "keyword": "사람",
-        "count": 7,
-        "score": 0.0141
-      },
-      {
-        "keyword": "러브",
-        "count": 7,
-        "score": 0.014
-      },
-      {
-        "keyword": "이상",
-        "count": 6,
-        "score": 0.0129
-      },
-      {
-        "keyword": "아침",
-        "count": 5,
-        "score": 0.012
-      },
-      {
-        "keyword": "에덴",
-        "count": 6,
-        "score": 0.012
-      },
-      {
-        "keyword": "캐챗",
-        "count": 5,
-        "score": 0.012
-      },
-      {
-        "keyword": "사칭",
-        "count": 6,
-        "score": 0.0116
-      },
-      {
-        "keyword": "대사",
-        "count": 5,
-        "score": 0.0113
-      },
-      {
-        "keyword": "오늘",
-        "count": 5,
-        "score": 0.0112
-      },
-      {
-        "keyword": "프롬",
-        "count": 7,
-        "score": 0.0109
-      },
-      {
-        "keyword": "송지은즈",
-        "count": 5,
-        "score": 0.0107
-      },
-      {
-        "keyword": "ai",
-        "count": 2,
-        "score": 0.0105
-      },
-      {
-        "keyword": "그림",
-        "count": 5,
-        "score": 0.0105
-      },
-      {
-        "keyword": "유저",
-        "count": 5,
-        "score": 0.0098
-      },
-      {
-        "keyword": "단테",
-        "count": 4,
-        "score": 0.0096
-      },
-      {
-        "keyword": "버기",
-        "count": 4,
-        "score": 0.0096
-      },
-      {
-        "keyword": "이유",
-        "count": 4,
-        "score": 0.0088
-      },
-      {
-        "keyword": "케덕",
-        "count": 4,
-        "score": 0.0077
-      },
-      {
-        "keyword": "산타",
-        "count": 4,
-        "score": 0.0075
-      },
-      {
-        "keyword": "루카스",
-        "count": 4,
-        "score": 0.0074
-      },
-      {
-        "keyword": "나쁘",
-        "count": 3,
-        "score": 0.0072
-      },
-      {
-        "keyword": "동안",
-        "count": 3,
-        "score": 0.0072
-      },
-      {
-        "keyword": "망원경",
-        "count": 5,
-        "score": 0.0072
-      },
-      {
-        "keyword": "반납",
-        "count": 3,
-        "score": 0.0072
-      },
-      {
-        "keyword": "새끼",
-        "count": 3,
-        "score": 0.0072
-      }
-    ],
-    "top_characters": [
-      {
-        "name": "시뮬",
-        "mentions": 3,
-        "rank": 1
-      },
-      {
-        "name": "개인",
-        "mentions": 2,
-        "rank": 2
-      },
-      {
-        "name": "레즈",
-        "mentions": 2,
-        "rank": 3
-      },
-      {
-        "name": "2차",
-        "mentions": 2,
-        "rank": 4
-      },
-      {
-        "name": "3/4",
-        "mentions": 1,
-        "rank": 5
-      },
-      {
-        "name": "케덕 첫제작",
-        "mentions": 1,
-        "rank": 6
-      },
-      {
-        "name": "케덕 리뷰",
-        "mentions": 1,
-        "rank": 7
-      },
-      {
-        "name": "케덕",
-        "mentions": 1,
-        "rank": 8
-      },
-      {
-        "name": "야유로",
-        "mentions": 1,
-        "rank": 9
-      },
-      {
-        "name": "통합",
-        "mentions": 1,
-        "rank": 10
-      },
-      {
-        "name": "필레아",
-        "mentions": 1,
-        "rank": 11
-      },
-      {
-        "name": "이리",
-        "mentions": 1,
-        "rank": 12
       }
     ],
     "trending_topics": []

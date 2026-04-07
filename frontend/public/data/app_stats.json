@@ -1,92 +1,92 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 2912,
-    "average_rating": 3.0137362637362637,
+    "total_reviews": 3012,
+    "average_rating": 3.003652058432935,
     "rating_distribution": {
-      "1": 883,
-      "2": 300,
-      "3": 439,
-      "4": 474,
-      "5": 816
+      "1": 923,
+      "2": 310,
+      "3": 451,
+      "4": 489,
+      "5": 839
     },
     "platform_distribution": {
-      "google_play": 2912
+      "google_play": 3012
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 385,
-    "average_rating": 2.4935064935064934,
+    "total_reviews": 439,
+    "average_rating": 2.480637813211845,
     "rating_distribution": {
-      "1": 173,
-      "2": 43,
-      "3": 53,
-      "4": 38,
-      "5": 78
+      "1": 201,
+      "2": 46,
+      "3": 57,
+      "4": 50,
+      "5": 85
     },
     "platform_distribution": {
-      "google_play": 385
+      "google_play": 439
     }
   },
   {
     "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 153,
-    "average_rating": 2.4379084967320264,
+    "total_reviews": 157,
+    "average_rating": 2.43312101910828,
     "rating_distribution": {
-      "1": 69,
+      "1": 71,
       "2": 20,
-      "3": 23,
-      "4": 10,
+      "3": 24,
+      "4": 11,
       "5": 31
     },
     "platform_distribution": {
-      "google_play": 153
+      "google_play": 157
     }
   },
   {
     "app_name": "베이브챗 (Babechat)",
-    "total_reviews": 141,
-    "average_rating": 2.0709219858156027,
+    "total_reviews": 146,
+    "average_rating": 2.0547945205479454,
     "rating_distribution": {
-      "1": 84,
-      "2": 9,
+      "1": 86,
+      "2": 12,
       "3": 19,
       "4": 12,
       "5": 17
     },
     "platform_distribution": {
-      "google_play": 141
+      "google_play": 146
     }
   },
   {
     "app_name": "Character AI",
-    "total_reviews": 136,
-    "average_rating": 2.948529411764706,
+    "total_reviews": 143,
+    "average_rating": 2.8531468531468533,
     "rating_distribution": {
-      "1": 46,
+      "1": 53,
       "2": 14,
       "3": 15,
       "4": 23,
       "5": 38
     },
     "platform_distribution": {
-      "google_play": 136
+      "google_play": 143
     }
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 135,
-    "average_rating": 3.4592592592592593,
+    "total_reviews": 137,
+    "average_rating": 3.423357664233577,
     "rating_distribution": {
-      "1": 23,
+      "1": 25,
       "2": 14,
       "3": 23,
       "4": 28,
       "5": 47
     },
     "platform_distribution": {
-      "google_play": 135
+      "google_play": 137
     }
   },
   {
