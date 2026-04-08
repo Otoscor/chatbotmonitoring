@@ -1,32 +1,32 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 3012,
-    "average_rating": 3.003652058432935,
+    "total_reviews": 3101,
+    "average_rating": 2.99935504675911,
     "rating_distribution": {
-      "1": 923,
-      "2": 310,
-      "3": 451,
-      "4": 489,
-      "5": 839
+      "1": 959,
+      "2": 314,
+      "3": 464,
+      "4": 498,
+      "5": 866
     },
     "platform_distribution": {
-      "google_play": 3012
+      "google_play": 3101
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 439,
-    "average_rating": 2.480637813211845,
+    "total_reviews": 452,
+    "average_rating": 2.4911504424778763,
     "rating_distribution": {
-      "1": 201,
+      "1": 208,
       "2": 46,
       "3": 57,
       "4": 50,
-      "5": 85
+      "5": 91
     },
     "platform_distribution": {
-      "google_play": 439
+      "google_play": 452
     }
   },
   {
@@ -61,32 +61,32 @@
   },
   {
     "app_name": "Character AI",
-    "total_reviews": 143,
-    "average_rating": 2.8531468531468533,
+    "total_reviews": 144,
+    "average_rating": 2.8402777777777777,
     "rating_distribution": {
-      "1": 53,
+      "1": 54,
       "2": 14,
       "3": 15,
       "4": 23,
       "5": 38
     },
     "platform_distribution": {
-      "google_play": 143
+      "google_play": 144
     }
   },
   {
     "app_name": "팅글 (Tingle)",
-    "total_reviews": 137,
-    "average_rating": 3.423357664233577,
+    "total_reviews": 138,
+    "average_rating": 3.4130434782608696,
     "rating_distribution": {
       "1": 25,
-      "2": 14,
+      "2": 15,
       "3": 23,
       "4": 28,
       "5": 47
     },
     "platform_distribution": {
-      "google_play": 137
+      "google_play": 138
     }
   },
   {

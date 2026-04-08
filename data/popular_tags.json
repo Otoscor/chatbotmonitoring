@@ -1,39 +1,35 @@
 [
   {
-    "tag": "순애",
-    "count": 36
+    "tag": "시뮬레이션",
+    "count": 32
   },
   {
-    "tag": "로맨스",
+    "tag": "순애",
     "count": 31
   },
   {
-    "tag": "자작 캐릭터",
-    "count": 29
+    "tag": "아카데미",
+    "count": 30
   },
   {
-    "tag": "아카데미",
-    "count": 27
+    "tag": "자작 캐릭터",
+    "count": 28
   },
   {
     "tag": "판타지",
     "count": 27
   },
   {
-    "tag": "시뮬레이션",
-    "count": 27
+    "tag": "로맨스",
+    "count": 25
   },
   {
     "tag": "시뮬레이터",
     "count": 24
   },
   {
-    "tag": "일상",
-    "count": 22
-  },
-  {
     "tag": "학교 생활",
-    "count": 21
+    "count": 22
   },
   {
     "tag": "다인",
@@ -41,7 +37,11 @@
   },
   {
     "tag": "현대",
-    "count": 19
+    "count": 20
+  },
+  {
+    "tag": "일상",
+    "count": 17
   },
   {
     "tag": "여성",
@@ -49,34 +49,34 @@
   },
   {
     "tag": "contest-win",
-    "count": 16
+    "count": 17
   },
   {
     "tag": "contest-win-16th",
-    "count": 16
+    "count": 17
   },
   {
-    "tag": "언리밋",
+    "tag": "추천",
     "count": 15
   },
   {
-    "tag": "구원",
+    "tag": "남성",
+    "count": 15
+  },
+  {
+    "tag": "게임",
     "count": 14
   },
   {
-    "tag": "남성",
+    "tag": "현대판타지",
     "count": 13
   },
   {
-    "tag": "hl",
+    "tag": "언리밋",
     "count": 12
   },
   {
-    "tag": "피폐",
-    "count": 12
-  },
-  {
-    "tag": "시뮬",
+    "tag": "dailylife",
     "count": 12
   }
 ]

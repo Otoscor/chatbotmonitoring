@@ -1,200 +1,200 @@
 {
-  "id": 36,
-  "report_date": "2026-04-07T12:59:48.147157",
-  "total_posts": 575,
-  "total_views": 75611,
-  "total_recommends": 1430,
-  "total_comments": 1928,
+  "id": 37,
+  "report_date": "2026-04-08T14:01:06.953565",
+  "total_posts": 527,
+  "total_views": 48451,
+  "total_recommends": 511,
+  "total_comments": 1474,
   "top_keywords": [
     {
       "keyword": "크리지널",
-      "count": 17,
-      "score": 0.0261
-    },
-    {
-      "keyword": "ai",
-      "count": 8,
-      "score": 0.0222
-    },
-    {
-      "keyword": "바베",
-      "count": 15,
-      "score": 0.0176
-    },
-    {
-      "keyword": "에덴",
-      "count": 12,
-      "score": 0.0168
-    },
-    {
-      "keyword": "오푸스",
-      "count": 10,
-      "score": 0.0148
-    },
-    {
-      "keyword": "ooc",
-      "count": 0,
-      "score": 0.0112
-    },
-    {
-      "keyword": "다들",
-      "count": 7,
-      "score": 0.0109
+      "count": 28,
+      "score": 0.044
     },
     {
       "keyword": "glm",
-      "count": 5,
-      "score": 0.0104
+      "count": 9,
+      "score": 0.0283
     },
     {
-      "keyword": "이유",
-      "count": 6,
-      "score": 0.0099
+      "keyword": "바베",
+      "count": 10,
+      "score": 0.0154
     },
     {
-      "keyword": "나만",
+      "keyword": "오푸스",
+      "count": 9,
+      "score": 0.0125
+    },
+    {
+      "keyword": "아니",
       "count": 7,
-      "score": 0.0092
+      "score": 0.0122
     },
     {
-      "keyword": "원래",
+      "keyword": "신작",
+      "count": 7,
+      "score": 0.0114
+    },
+    {
+      "keyword": "에덴",
+      "count": 7,
+      "score": 0.0112
+    },
+    {
+      "keyword": "바이브",
       "count": 6,
-      "score": 0.0087
+      "score": 0.0105
     },
     {
-      "keyword": "검열",
-      "count": 5,
-      "score": 0.0082
-    },
-    {
-      "keyword": "제작",
+      "keyword": "엘린",
       "count": 6,
-      "score": 0.0082
+      "score": 0.0103
     },
     {
-      "keyword": "nai",
-      "count": 4,
-      "score": 0.0077
+      "keyword": "미토스",
+      "count": 6,
+      "score": 0.0096
     },
     {
-      "keyword": "업데이트",
+      "keyword": "질문",
       "count": 5,
-      "score": 0.0077
-    },
-    {
-      "keyword": "서버",
-      "count": 5,
-      "score": 0.0074
-    },
-    {
-      "keyword": "갑자기",
-      "count": 5,
-      "score": 0.0073
-    },
-    {
-      "keyword": "내가",
-      "count": 5,
-      "score": 0.0072
-    },
-    {
-      "keyword": "여성향",
-      "count": 5,
-      "score": 0.0071
-    },
-    {
-      "keyword": "젬마",
-      "count": 5,
-      "score": 0.0071
-    },
-    {
-      "keyword": "리뷰",
-      "count": 4,
-      "score": 0.007
-    },
-    {
-      "keyword": "뭐야",
-      "count": 4,
-      "score": 0.007
-    },
-    {
-      "keyword": "제발",
-      "count": 4,
-      "score": 0.007
-    },
-    {
-      "keyword": "페소",
-      "count": 4,
-      "score": 0.007
+      "score": 0.009
     },
     {
       "keyword": "크랙",
+      "count": 6,
+      "score": 0.009
+    },
+    {
+      "keyword": "ai",
+      "count": 3,
+      "score": 0.0089
+    },
+    {
+      "keyword": "뭔가",
+      "count": 6,
+      "score": 0.0089
+    },
+    {
+      "keyword": "잼이오",
       "count": 5,
-      "score": 0.0067
-    },
-    {
-      "keyword": "생각보다",
-      "count": 4,
-      "score": 0.0065
-    },
-    {
-      "keyword": "좋아하는",
-      "count": 4,
-      "score": 0.0065
-    },
-    {
-      "keyword": "님들",
-      "count": 4,
-      "score": 0.0064
+      "score": 0.0089
     },
     {
       "keyword": "이게",
-      "count": 4,
-      "score": 0.0064
+      "count": 5,
+      "score": 0.0084
     },
     {
-      "keyword": "있음",
+      "keyword": "원래",
+      "count": 5,
+      "score": 0.0083
+    },
+    {
+      "keyword": "크리지널로",
+      "count": 5,
+      "score": 0.0082
+    },
+    {
+      "keyword": "따로",
+      "count": 5,
+      "score": 0.0081
+    },
+    {
+      "keyword": "무슨",
+      "count": 5,
+      "score": 0.008
+    },
+    {
+      "keyword": "쓰는",
+      "count": 5,
+      "score": 0.0078
+    },
+    {
+      "keyword": "ooc",
       "count": 4,
-      "score": 0.0064
+      "score": 0.0076
+    },
+    {
+      "keyword": "프론트라인",
+      "count": 5,
+      "score": 0.0075
+    },
+    {
+      "keyword": "대체",
+      "count": 4,
+      "score": 0.0073
+    },
+    {
+      "keyword": "얼헌",
+      "count": 4,
+      "score": 0.0068
+    },
+    {
+      "keyword": "갑자기",
+      "count": 4,
+      "score": 0.0067
+    },
+    {
+      "keyword": "서버",
+      "count": 4,
+      "score": 0.0066
+    },
+    {
+      "keyword": "사육푸스",
+      "count": 4,
+      "score": 0.0065
+    },
+    {
+      "keyword": "페소",
+      "count": 5,
+      "score": 0.0061
+    },
+    {
+      "keyword": "모델",
+      "count": 4,
+      "score": 0.006
     }
   ],
   "top_characters": [
     {
-      "name": "유니챗",
-      "mentions": 2,
+      "name": "홍보/언셒",
+      "mentions": 4,
       "rank": 1
     },
     {
-      "name": "언셒",
-      "mentions": 1,
+      "name": "시뮬",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "언셒/홍보",
+      "name": "구작 크리지널 때문에 신작이 묻힌다고?",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "야스",
+      "name": "그날, 인류는 떠올렸다.",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "2/4",
+      "name": "1/4",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "1/4",
+      "name": "이것",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "이세계트럭",
+      "name": "작별이다, 신작들.",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "바베/루나/에덴/엘린/유니(언셒)",
+      "name": "야스",
       "mentions": 1,
       "rank": 8
     },
@@ -204,55 +204,181 @@
       "rank": 9
     },
     {
-      "name": "호텔 플린트",
+      "name": "네코",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "마짱, 미니보드",
+      "name": "빌림",
       "mentions": 1,
       "rank": 11
     },
     {
-      "name": "단일",
+      "name": "팊/재",
       "mentions": 1,
       "rank": 12
     },
     {
-      "name": "슈바",
+      "name": "윶캐",
       "mentions": 1,
       "rank": 13
     },
     {
-      "name": "adhd",
+      "name": "엘린",
       "mentions": 1,
       "rank": 14
     },
     {
-      "name": "하니엘v8",
+      "name": "14일까지 더 할인해 봄!",
       "mentions": 1,
       "rank": 15
     },
     {
-      "name": "스타게이트",
+      "name": "이세계트럭",
       "mentions": 1,
       "rank": 16
     },
     {
-      "name": "불법에셋",
+      "name": "비공",
       "mentions": 1,
       "rank": 17
     },
     {
-      "name": "여동생",
+      "name": "자작",
       "mentions": 1,
       "rank": 18
     },
     {
-      "name": "달콤한 음식",
+      "name": "워크시뮬",
       "mentions": 1,
       "rank": 19
+    },
+    {
+      "name": "마법소녀",
+      "mentions": 1,
+      "rank": 20
     }
   ],
-  "trending_topics": []
+  "trending_topics": [
+    {
+      "topic": "ooc",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "엘린",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "대체",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "모델",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "신작",
+      "current": 7,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "질문",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "프론트라인",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "크리지널로",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "따로",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "사육푸스",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "미토스",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "아니",
+      "current": 7,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "뭔가",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "잼이오",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "얼헌",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "무슨",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "쓰는",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "바이브",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "glm",
+      "current": 9,
+      "previous": 5,
+      "growth": 80.0
+    },
+    {
+      "topic": "크리지널",
+      "current": 28,
+      "previous": 17,
+      "growth": 64.7
+    }
+  ]
 }
