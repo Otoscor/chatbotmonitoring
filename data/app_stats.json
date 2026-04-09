@@ -1,47 +1,47 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 3101,
-    "average_rating": 2.99935504675911,
+    "total_reviews": 3166,
+    "average_rating": 2.9977890082122554,
     "rating_distribution": {
-      "1": 959,
-      "2": 314,
-      "3": 464,
-      "4": 498,
-      "5": 866
+      "1": 982,
+      "2": 321,
+      "3": 471,
+      "4": 506,
+      "5": 886
     },
     "platform_distribution": {
-      "google_play": 3101
+      "google_play": 3166
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 452,
-    "average_rating": 2.4911504424778763,
+    "total_reviews": 464,
+    "average_rating": 2.497844827586207,
     "rating_distribution": {
-      "1": 208,
-      "2": 46,
-      "3": 57,
-      "4": 50,
-      "5": 91
+      "1": 210,
+      "2": 50,
+      "3": 59,
+      "4": 53,
+      "5": 92
     },
     "platform_distribution": {
-      "google_play": 452
+      "google_play": 464
     }
   },
   {
     "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 157,
-    "average_rating": 2.43312101910828,
+    "total_reviews": 159,
+    "average_rating": 2.4465408805031448,
     "rating_distribution": {
       "1": 71,
-      "2": 20,
+      "2": 21,
       "3": 24,
       "4": 11,
-      "5": 31
+      "5": 32
     },
     "platform_distribution": {
-      "google_play": 157
+      "google_play": 159
     }
   },
   {
@@ -91,17 +91,17 @@
   },
   {
     "app_name": "케이브덕 (Caveduck)",
-    "total_reviews": 123,
-    "average_rating": 3.341463414634146,
+    "total_reviews": 124,
+    "average_rating": 3.338709677419355,
     "rating_distribution": {
       "1": 32,
       "2": 12,
-      "3": 10,
+      "3": 11,
       "4": 20,
       "5": 49
     },
     "platform_distribution": {
-      "google_play": 123
+      "google_play": 124
     }
   },
   {

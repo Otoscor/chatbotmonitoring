@@ -1,27 +1,27 @@
 [
   {
-    "tag": "시뮬레이션",
+    "tag": "로맨스",
     "count": 32
   },
   {
     "tag": "순애",
-    "count": 31
+    "count": 32
   },
   {
-    "tag": "아카데미",
+    "tag": "시뮬레이션",
     "count": 30
   },
   {
-    "tag": "자작 캐릭터",
+    "tag": "판타지",
     "count": 28
   },
   {
-    "tag": "판타지",
-    "count": 27
+    "tag": "아카데미",
+    "count": 28
   },
   {
-    "tag": "로맨스",
-    "count": 25
+    "tag": "자작 캐릭터",
+    "count": 27
   },
   {
     "tag": "시뮬레이터",
@@ -33,50 +33,50 @@
   },
   {
     "tag": "다인",
-    "count": 21
+    "count": 22
   },
   {
     "tag": "현대",
     "count": 20
   },
   {
-    "tag": "일상",
-    "count": 17
-  },
-  {
     "tag": "여성",
-    "count": 17
+    "count": 18
   },
   {
     "tag": "contest-win",
-    "count": 17
+    "count": 18
   },
   {
     "tag": "contest-win-16th",
-    "count": 17
+    "count": 18
   },
   {
-    "tag": "추천",
-    "count": 15
+    "tag": "언리밋",
+    "count": 16
+  },
+  {
+    "tag": "일상",
+    "count": 16
   },
   {
     "tag": "남성",
     "count": 15
   },
   {
-    "tag": "게임",
-    "count": 14
-  },
-  {
-    "tag": "현대판타지",
+    "tag": "hl",
     "count": 13
   },
   {
-    "tag": "언리밋",
-    "count": 12
+    "tag": "집착",
+    "count": 13
   },
   {
-    "tag": "dailylife",
-    "count": 12
+    "tag": "추천",
+    "count": 13
+  },
+  {
+    "tag": "구원",
+    "count": 13
   }
 ]
