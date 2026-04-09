@@ -1,384 +1,339 @@
 {
-  "id": 37,
-  "report_date": "2026-04-08T14:01:06.953565",
-  "total_posts": 527,
-  "total_views": 48451,
-  "total_recommends": 511,
-  "total_comments": 1474,
+  "id": 38,
+  "report_date": "2026-04-09T11:06:58.036555",
+  "total_posts": 563,
+  "total_views": 60693,
+  "total_recommends": 705,
+  "total_comments": 1764,
   "top_keywords": [
     {
-      "keyword": "크리지널",
-      "count": 28,
-      "score": 0.044
-    },
-    {
-      "keyword": "glm",
-      "count": 9,
-      "score": 0.0283
-    },
-    {
-      "keyword": "바베",
-      "count": 10,
-      "score": 0.0154
-    },
-    {
-      "keyword": "오푸스",
-      "count": 9,
-      "score": 0.0125
-    },
-    {
-      "keyword": "아니",
-      "count": 7,
-      "score": 0.0122
-    },
-    {
-      "keyword": "신작",
-      "count": 7,
-      "score": 0.0114
-    },
-    {
       "keyword": "에덴",
-      "count": 7,
-      "score": 0.0112
-    },
-    {
-      "keyword": "바이브",
-      "count": 6,
-      "score": 0.0105
-    },
-    {
-      "keyword": "엘린",
-      "count": 6,
-      "score": 0.0103
-    },
-    {
-      "keyword": "미토스",
-      "count": 6,
-      "score": 0.0096
-    },
-    {
-      "keyword": "질문",
-      "count": 5,
-      "score": 0.009
-    },
-    {
-      "keyword": "크랙",
-      "count": 6,
-      "score": 0.009
+      "count": 14,
+      "score": 0.0186
     },
     {
       "keyword": "ai",
-      "count": 3,
-      "score": 0.0089
+      "count": 7,
+      "score": 0.0162
     },
     {
-      "keyword": "뭔가",
+      "keyword": "엘린",
+      "count": 12,
+      "score": 0.0162
+    },
+    {
+      "keyword": "제일",
+      "count": 8,
+      "score": 0.0136
+    },
+    {
+      "keyword": "오푸스",
+      "count": 8,
+      "score": 0.0117
+    },
+    {
+      "keyword": "바베",
+      "count": 8,
+      "score": 0.0104
+    },
+    {
+      "keyword": "질문",
       "count": 6,
-      "score": 0.0089
+      "score": 0.0098
     },
     {
-      "keyword": "잼이오",
+      "keyword": "갑자기",
+      "count": 6,
+      "score": 0.0095
+    },
+    {
+      "keyword": "엘린이",
+      "count": 6,
+      "score": 0.0091
+    },
+    {
+      "keyword": "코파",
       "count": 5,
       "score": 0.0089
     },
     {
-      "keyword": "이게",
+      "keyword": "나노짚",
       "count": 5,
-      "score": 0.0084
+      "score": 0.0079
     },
     {
-      "keyword": "원래",
+      "keyword": "리뷰",
       "count": 5,
-      "score": 0.0083
+      "score": 0.0079
     },
     {
-      "keyword": "크리지널로",
-      "count": 5,
-      "score": 0.0082
-    },
-    {
-      "keyword": "따로",
-      "count": 5,
-      "score": 0.0081
-    },
-    {
-      "keyword": "무슨",
-      "count": 5,
-      "score": 0.008
-    },
-    {
-      "keyword": "쓰는",
+      "keyword": "다들",
       "count": 5,
       "score": 0.0078
     },
     {
-      "keyword": "ooc",
-      "count": 4,
+      "keyword": "크리지널",
+      "count": 5,
+      "score": 0.0078
+    },
+    {
+      "keyword": "같은",
+      "count": 5,
       "score": 0.0076
     },
     {
-      "keyword": "프론트라인",
+      "keyword": "아크",
       "count": 5,
-      "score": 0.0075
+      "score": 0.0076
     },
     {
-      "keyword": "대체",
-      "count": 4,
+      "keyword": "있는",
+      "count": 5,
+      "score": 0.0076
+    },
+    {
+      "keyword": "플랫폼",
+      "count": 5,
+      "score": 0.0074
+    },
+    {
+      "keyword": "보고",
+      "count": 5,
       "score": 0.0073
     },
     {
-      "keyword": "얼헌",
-      "count": 4,
-      "score": 0.0068
+      "keyword": "출력",
+      "count": 5,
+      "score": 0.0072
     },
     {
-      "keyword": "갑자기",
+      "keyword": "뤼붕이",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "자동요약",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "젬이오",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "프롬",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "혹시",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "아니",
+      "count": 5,
+      "score": 0.0069
+    },
+    {
+      "keyword": "모델",
       "count": 4,
       "score": 0.0067
     },
     {
-      "keyword": "서버",
+      "keyword": "쓰는",
+      "count": 4,
+      "score": 0.0067
+    },
+    {
+      "keyword": "리브라",
       "count": 4,
       "score": 0.0066
     },
     {
       "keyword": "사육푸스",
       "count": 4,
-      "score": 0.0065
-    },
-    {
-      "keyword": "페소",
-      "count": 5,
-      "score": 0.0061
-    },
-    {
-      "keyword": "모델",
-      "count": 4,
-      "score": 0.006
+      "score": 0.0066
     }
   ],
   "top_characters": [
     {
-      "name": "홍보/언셒",
-      "mentions": 4,
+      "name": "반납",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "시뮬",
-      "mentions": 2,
+      "name": "아들~ 오랜만에 엄마랑 같이 온천 들어갈까?",
+      "mentions": 1,
       "rank": 2
     },
     {
-      "name": "구작 크리지널 때문에 신작이 묻힌다고?",
+      "name": "10분 경과",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "그날, 인류는 떠올렸다.",
+      "name": "날조 절대 X",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "1/4",
+      "name": "단일",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "이것",
+      "name": "HypaV3",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "작별이다, 신작들.",
+      "name": "드메",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "야스",
+      "name": "치한열차",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "리루",
+      "name": "슬더스",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "네코",
+      "name": "나히아",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "빌림",
+      "name": "시뮬",
       "mentions": 1,
       "rank": 11
-    },
-    {
-      "name": "팊/재",
-      "mentions": 1,
-      "rank": 12
-    },
-    {
-      "name": "윶캐",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "엘린",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "14일까지 더 할인해 봄!",
-      "mentions": 1,
-      "rank": 15
-    },
-    {
-      "name": "이세계트럭",
-      "mentions": 1,
-      "rank": 16
-    },
-    {
-      "name": "비공",
-      "mentions": 1,
-      "rank": 17
-    },
-    {
-      "name": "자작",
-      "mentions": 1,
-      "rank": 18
-    },
-    {
-      "name": "워크시뮬",
-      "mentions": 1,
-      "rank": 19
-    },
-    {
-      "name": "마법소녀",
-      "mentions": 1,
-      "rank": 20
     }
   ],
   "trending_topics": [
     {
-      "topic": "ooc",
+      "topic": "ai",
+      "current": 7,
+      "previous": 3,
+      "growth": 133.3
+    },
+    {
+      "topic": "엘린이",
+      "current": 6,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "플랫폼",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "보고",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "출력",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "에덴",
+      "current": 14,
+      "previous": 7,
+      "growth": 100.0
+    },
+    {
+      "topic": "리뷰",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "아크",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "프롬",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "리브라",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "코파",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "자동요약",
       "current": 4,
       "previous": 0,
       "growth": 100.0
     },
     {
       "topic": "엘린",
-      "current": 6,
+      "current": 12,
+      "previous": 6,
+      "growth": 100.0
+    },
+    {
+      "topic": "있는",
+      "current": 5,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "대체",
+      "topic": "나노짚",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "뤼붕이",
       "current": 4,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "모델",
+      "topic": "같은",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "젬이오",
       "current": 4,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "신작",
-      "current": 7,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "질문",
+      "topic": "다들",
       "current": 5,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "프론트라인",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "크리지널로",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "따로",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "사육푸스",
+      "topic": "혹시",
       "current": 4,
       "previous": 0,
       "growth": 100.0
-    },
-    {
-      "topic": "미토스",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "아니",
-      "current": 7,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "뭔가",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "잼이오",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "얼헌",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "무슨",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "쓰는",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "바이브",
-      "current": 6,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "glm",
-      "current": 9,
-      "previous": 5,
-      "growth": 80.0
-    },
-    {
-      "topic": "크리지널",
-      "current": 28,
-      "previous": 17,
-      "growth": 64.7
     }
   ]
 }

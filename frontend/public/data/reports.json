@@ -1,5 +1,344 @@
 [
   {
+    "id": 38,
+    "report_date": "2026-04-09T11:06:58.036555",
+    "total_posts": 563,
+    "total_views": 60693,
+    "total_recommends": 705,
+    "total_comments": 1764,
+    "top_keywords": [
+      {
+        "keyword": "에덴",
+        "count": 14,
+        "score": 0.0186
+      },
+      {
+        "keyword": "ai",
+        "count": 7,
+        "score": 0.0162
+      },
+      {
+        "keyword": "엘린",
+        "count": 12,
+        "score": 0.0162
+      },
+      {
+        "keyword": "제일",
+        "count": 8,
+        "score": 0.0136
+      },
+      {
+        "keyword": "오푸스",
+        "count": 8,
+        "score": 0.0117
+      },
+      {
+        "keyword": "바베",
+        "count": 8,
+        "score": 0.0104
+      },
+      {
+        "keyword": "질문",
+        "count": 6,
+        "score": 0.0098
+      },
+      {
+        "keyword": "갑자기",
+        "count": 6,
+        "score": 0.0095
+      },
+      {
+        "keyword": "엘린이",
+        "count": 6,
+        "score": 0.0091
+      },
+      {
+        "keyword": "코파",
+        "count": 5,
+        "score": 0.0089
+      },
+      {
+        "keyword": "나노짚",
+        "count": 5,
+        "score": 0.0079
+      },
+      {
+        "keyword": "리뷰",
+        "count": 5,
+        "score": 0.0079
+      },
+      {
+        "keyword": "다들",
+        "count": 5,
+        "score": 0.0078
+      },
+      {
+        "keyword": "크리지널",
+        "count": 5,
+        "score": 0.0078
+      },
+      {
+        "keyword": "같은",
+        "count": 5,
+        "score": 0.0076
+      },
+      {
+        "keyword": "아크",
+        "count": 5,
+        "score": 0.0076
+      },
+      {
+        "keyword": "있는",
+        "count": 5,
+        "score": 0.0076
+      },
+      {
+        "keyword": "플랫폼",
+        "count": 5,
+        "score": 0.0074
+      },
+      {
+        "keyword": "보고",
+        "count": 5,
+        "score": 0.0073
+      },
+      {
+        "keyword": "출력",
+        "count": 5,
+        "score": 0.0072
+      },
+      {
+        "keyword": "뤼붕이",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "자동요약",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "젬이오",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "프롬",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "혹시",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "아니",
+        "count": 5,
+        "score": 0.0069
+      },
+      {
+        "keyword": "모델",
+        "count": 4,
+        "score": 0.0067
+      },
+      {
+        "keyword": "쓰는",
+        "count": 4,
+        "score": 0.0067
+      },
+      {
+        "keyword": "리브라",
+        "count": 4,
+        "score": 0.0066
+      },
+      {
+        "keyword": "사육푸스",
+        "count": 4,
+        "score": 0.0066
+      }
+    ],
+    "top_characters": [
+      {
+        "name": "반납",
+        "mentions": 2,
+        "rank": 1
+      },
+      {
+        "name": "아들~ 오랜만에 엄마랑 같이 온천 들어갈까?",
+        "mentions": 1,
+        "rank": 2
+      },
+      {
+        "name": "10분 경과",
+        "mentions": 1,
+        "rank": 3
+      },
+      {
+        "name": "날조 절대 X",
+        "mentions": 1,
+        "rank": 4
+      },
+      {
+        "name": "단일",
+        "mentions": 1,
+        "rank": 5
+      },
+      {
+        "name": "HypaV3",
+        "mentions": 1,
+        "rank": 6
+      },
+      {
+        "name": "드메",
+        "mentions": 1,
+        "rank": 7
+      },
+      {
+        "name": "치한열차",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "슬더스",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "나히아",
+        "mentions": 1,
+        "rank": 10
+      },
+      {
+        "name": "시뮬",
+        "mentions": 1,
+        "rank": 11
+      }
+    ],
+    "trending_topics": [
+      {
+        "topic": "ai",
+        "current": 7,
+        "previous": 3,
+        "growth": 133.3
+      },
+      {
+        "topic": "엘린이",
+        "current": 6,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "플랫폼",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "보고",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "출력",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "에덴",
+        "current": 14,
+        "previous": 7,
+        "growth": 100.0
+      },
+      {
+        "topic": "리뷰",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "아크",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "프롬",
+        "current": 4,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "리브라",
+        "current": 4,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "코파",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "자동요약",
+        "current": 4,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "엘린",
+        "current": 12,
+        "previous": 6,
+        "growth": 100.0
+      },
+      {
+        "topic": "있는",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "나노짚",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "뤼붕이",
+        "current": 4,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "같은",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "젬이오",
+        "current": 4,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "다들",
+        "current": 5,
+        "previous": 0,
+        "growth": 100.0
+      },
+      {
+        "topic": "혹시",
+        "current": 4,
+        "previous": 0,
+        "growth": 100.0
+      }
+    ]
+  },
+  {
     "id": 37,
     "report_date": "2026-04-08T14:01:06.953565",
     "total_posts": 527,
@@ -8344,278 +8683,6 @@
       {
         "topic": "출력",
         "current": 10,
-        "previous": 0,
-        "growth": 100.0
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "report_date": "2026-01-28T08:23:27.039325",
-    "total_posts": 585,
-    "total_views": 29361,
-    "total_recommends": 528,
-    "total_comments": 2153,
-    "top_keywords": [
-      {
-        "keyword": "프롬",
-        "count": 16,
-        "score": 0.0213
-      },
-      {
-        "keyword": "구글",
-        "count": 19,
-        "score": 0.0191
-      },
-      {
-        "keyword": "만취",
-        "count": 17,
-        "score": 0.0191
-      },
-      {
-        "keyword": "단테",
-        "count": 12,
-        "score": 0.0186
-      },
-      {
-        "keyword": "나오",
-        "count": 12,
-        "score": 0.018
-      },
-      {
-        "keyword": "ai",
-        "count": 5,
-        "score": 0.0167
-      },
-      {
-        "keyword": "구독",
-        "count": 15,
-        "score": 0.0161
-      },
-      {
-        "keyword": "사람",
-        "count": 10,
-        "score": 0.0148
-      },
-      {
-        "keyword": "ooc",
-        "count": 7,
-        "score": 0.0141
-      },
-      {
-        "keyword": "맛있",
-        "count": 9,
-        "score": 0.0138
-      },
-      {
-        "keyword": "만들",
-        "count": 9,
-        "score": 0.0136
-      },
-      {
-        "keyword": "미치",
-        "count": 9,
-        "score": 0.0131
-      },
-      {
-        "keyword": "생각",
-        "count": 9,
-        "score": 0.0129
-      },
-      {
-        "keyword": "요즘",
-        "count": 9,
-        "score": 0.0126
-      },
-      {
-        "keyword": "카톡",
-        "count": 12,
-        "score": 0.0126
-      },
-      {
-        "keyword": "반납",
-        "count": 7,
-        "score": 0.012
-      },
-      {
-        "keyword": "시발",
-        "count": 7,
-        "score": 0.012
-      },
-      {
-        "keyword": "출근",
-        "count": 7,
-        "score": 0.012
-      },
-      {
-        "keyword": "웃기",
-        "count": 8,
-        "score": 0.0118
-      },
-      {
-        "keyword": "그림",
-        "count": 7,
-        "score": 0.0115
-      },
-      {
-        "keyword": "만드",
-        "count": 8,
-        "score": 0.0104
-      },
-      {
-        "keyword": "케덕",
-        "count": 7,
-        "score": 0.0096
-      },
-      {
-        "keyword": "크레딧",
-        "count": 9,
-        "score": 0.0094
-      },
-      {
-        "keyword": "정실",
-        "count": 6,
-        "score": 0.0093
-      },
-      {
-        "keyword": "아침",
-        "count": 6,
-        "score": 0.0092
-      },
-      {
-        "keyword": "크랙",
-        "count": 5,
-        "score": 0.0085
-      },
-      {
-        "keyword": "리뷰",
-        "count": 7,
-        "score": 0.0082
-      },
-      {
-        "keyword": "이유",
-        "count": 6,
-        "score": 0.0082
-      },
-      {
-        "keyword": "오류",
-        "count": 5,
-        "score": 0.008
-      },
-      {
-        "keyword": "설정",
-        "count": 5,
-        "score": 0.0077
-      }
-    ],
-    "top_characters": [
-      {
-        "name": "케덕 리뷰",
-        "mentions": 3,
-        "rank": 1
-      },
-      {
-        "name": "케덕리뷰",
-        "mentions": 2,
-        "rank": 2
-      },
-      {
-        "name": "Npc대회",
-        "mentions": 1,
-        "rank": 3
-      },
-      {
-        "name": "동인",
-        "mentions": 1,
-        "rank": 4
-      },
-      {
-        "name": "2차창작",
-        "mentions": 1,
-        "rank": 5
-      },
-      {
-        "name": "다른",
-        "mentions": 1,
-        "rank": 6
-      },
-      {
-        "name": "시뮬",
-        "mentions": 1,
-        "rank": 7
-      },
-      {
-        "name": "정실",
-        "mentions": 1,
-        "rank": 8
-      },
-      {
-        "name": "오빠",
-        "mentions": 1,
-        "rank": 9
-      },
-      {
-        "name": "1/4",
-        "mentions": 1,
-        "rank": 10
-      },
-      {
-        "name": "아들~ 엄마 요즘 요가 배우기 시작했어~",
-        "mentions": 1,
-        "rank": 11
-      },
-      {
-        "name": "셒/홍보",
-        "mentions": 1,
-        "rank": 12
-      }
-    ],
-    "trending_topics": [
-      {
-        "topic": "크레딧",
-        "current": 9,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "만취",
-        "current": 17,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "출근",
-        "current": 7,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "케덕",
-        "current": 7,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "오류",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "이유",
-        "current": 6,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "카톡",
-        "current": 12,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "구글",
-        "current": 19,
         "previous": 0,
         "growth": 100.0
       }
