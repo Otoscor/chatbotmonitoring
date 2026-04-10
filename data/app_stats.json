@@ -1,32 +1,32 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 3166,
-    "average_rating": 2.9977890082122554,
+    "total_reviews": 3246,
+    "average_rating": 3.001540357362908,
     "rating_distribution": {
-      "1": 982,
-      "2": 321,
-      "3": 471,
-      "4": 506,
-      "5": 886
+      "1": 1002,
+      "2": 330,
+      "3": 488,
+      "4": 513,
+      "5": 913
     },
     "platform_distribution": {
-      "google_play": 3166
+      "google_play": 3246
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 464,
-    "average_rating": 2.497844827586207,
+    "total_reviews": 472,
+    "average_rating": 2.489406779661017,
     "rating_distribution": {
-      "1": 210,
-      "2": 50,
+      "1": 215,
+      "2": 51,
       "3": 59,
-      "4": 53,
-      "5": 92
+      "4": 54,
+      "5": 93
     },
     "platform_distribution": {
-      "google_play": 464
+      "google_play": 472
     }
   },
   {
@@ -46,32 +46,32 @@
   },
   {
     "app_name": "베이브챗 (Babechat)",
-    "total_reviews": 146,
-    "average_rating": 2.0547945205479454,
+    "total_reviews": 148,
+    "average_rating": 2.054054054054054,
     "rating_distribution": {
-      "1": 86,
+      "1": 87,
       "2": 12,
-      "3": 19,
+      "3": 20,
       "4": 12,
       "5": 17
     },
     "platform_distribution": {
-      "google_play": 146
+      "google_play": 148
     }
   },
   {
     "app_name": "Character AI",
-    "total_reviews": 144,
-    "average_rating": 2.8402777777777777,
+    "total_reviews": 145,
+    "average_rating": 2.8551724137931034,
     "rating_distribution": {
       "1": 54,
       "2": 14,
       "3": 15,
       "4": 23,
-      "5": 38
+      "5": 39
     },
     "platform_distribution": {
-      "google_play": 144
+      "google_play": 145
     }
   },
   {

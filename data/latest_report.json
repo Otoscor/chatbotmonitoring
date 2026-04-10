@@ -1,336 +1,371 @@
 {
-  "id": 38,
-  "report_date": "2026-04-09T11:06:58.036555",
-  "total_posts": 563,
-  "total_views": 60693,
-  "total_recommends": 705,
-  "total_comments": 1764,
+  "id": 39,
+  "report_date": "2026-04-10T14:11:33.380961",
+  "total_posts": 524,
+  "total_views": 47402,
+  "total_recommends": 524,
+  "total_comments": 1711,
   "top_keywords": [
     {
       "keyword": "에덴",
-      "count": 14,
-      "score": 0.0186
-    },
-    {
-      "keyword": "ai",
-      "count": 7,
-      "score": 0.0162
-    },
-    {
-      "keyword": "엘린",
-      "count": 12,
-      "score": 0.0162
-    },
-    {
-      "keyword": "제일",
-      "count": 8,
-      "score": 0.0136
-    },
-    {
-      "keyword": "오푸스",
-      "count": 8,
-      "score": 0.0117
+      "count": 15,
+      "score": 0.0236
     },
     {
       "keyword": "바베",
-      "count": 8,
-      "score": 0.0104
+      "count": 10,
+      "score": 0.0178
+    },
+    {
+      "keyword": "아니",
+      "count": 9,
+      "score": 0.0146
+    },
+    {
+      "keyword": "오푸스",
+      "count": 9,
+      "score": 0.0145
+    },
+    {
+      "keyword": "폰검사",
+      "count": 7,
+      "score": 0.0134
     },
     {
       "keyword": "질문",
       "count": 6,
-      "score": 0.0098
+      "score": 0.0108
+    },
+    {
+      "keyword": "ai",
+      "count": 5,
+      "score": 0.0103
     },
     {
       "keyword": "갑자기",
       "count": 6,
-      "score": 0.0095
+      "score": 0.0098
     },
     {
-      "keyword": "엘린이",
-      "count": 6,
-      "score": 0.0091
+      "keyword": "glm",
+      "count": 3,
+      "score": 0.0096
     },
     {
-      "keyword": "코파",
+      "keyword": "있음",
       "count": 5,
       "score": 0.0089
     },
     {
-      "keyword": "나노짚",
+      "keyword": "같은데",
       "count": 5,
-      "score": 0.0079
+      "score": 0.0085
     },
     {
-      "keyword": "리뷰",
+      "keyword": "시뮬",
       "count": 5,
-      "score": 0.0079
+      "score": 0.0082
     },
     {
-      "keyword": "다들",
-      "count": 5,
-      "score": 0.0078
-    },
-    {
-      "keyword": "크리지널",
-      "count": 5,
-      "score": 0.0078
-    },
-    {
-      "keyword": "같은",
-      "count": 5,
+      "keyword": "먹는",
+      "count": 4,
       "score": 0.0076
     },
     {
-      "keyword": "아크",
-      "count": 5,
+      "keyword": "바이브",
+      "count": 4,
       "score": 0.0076
     },
     {
-      "keyword": "있는",
-      "count": 5,
+      "keyword": "안되네",
+      "count": 4,
       "score": 0.0076
     },
     {
-      "keyword": "플랫폼",
-      "count": 5,
-      "score": 0.0074
+      "keyword": "있어",
+      "count": 4,
+      "score": 0.0076
     },
     {
-      "keyword": "보고",
-      "count": 5,
-      "score": 0.0073
+      "keyword": "젬이",
+      "count": 4,
+      "score": 0.0076
     },
     {
-      "keyword": "출력",
+      "keyword": "피자",
+      "count": 4,
+      "score": 0.0076
+    },
+    {
+      "keyword": "나만",
       "count": 5,
       "score": 0.0072
     },
     {
-      "keyword": "뤼붕이",
+      "keyword": "다들",
       "count": 4,
       "score": 0.0071
     },
     {
-      "keyword": "자동요약",
+      "keyword": "여친한테",
       "count": 4,
       "score": 0.0071
     },
     {
-      "keyword": "젬이오",
+      "keyword": "공모전",
       "count": 4,
-      "score": 0.0071
-    },
-    {
-      "keyword": "프롬",
-      "count": 4,
-      "score": 0.0071
-    },
-    {
-      "keyword": "혹시",
-      "count": 4,
-      "score": 0.0071
-    },
-    {
-      "keyword": "아니",
-      "count": 5,
-      "score": 0.0069
+      "score": 0.007
     },
     {
       "keyword": "모델",
       "count": 4,
+      "score": 0.0069
+    },
+    {
+      "keyword": "내가",
+      "count": 5,
       "score": 0.0067
     },
     {
-      "keyword": "쓰는",
+      "keyword": "하네",
       "count": 4,
       "score": 0.0067
     },
     {
-      "keyword": "리브라",
+      "keyword": "뭔가",
       "count": 4,
       "score": 0.0066
     },
     {
-      "keyword": "사육푸스",
+      "keyword": "nai",
+      "count": 2,
+      "score": 0.0065
+    },
+    {
+      "keyword": "이게",
       "count": 4,
-      "score": 0.0066
+      "score": 0.0065
+    },
+    {
+      "keyword": "추론",
+      "count": 4,
+      "score": 0.0062
+    },
+    {
+      "keyword": "보여주는",
+      "count": 4,
+      "score": 0.0061
     }
   ],
   "top_characters": [
     {
-      "name": "반납",
-      "mentions": 2,
+      "name": "ㅋㅋㅋㅋ 얘들아 뤼붕이 폰에서 이상한거 나왔어 ㅋㅋ",
+      "mentions": 1,
       "rank": 1
     },
     {
-      "name": "아들~ 오랜만에 엄마랑 같이 온천 들어갈까?",
+      "name": "자기야, 핸드폰에 N..TR? 이게 뭐야?",
       "mentions": 1,
       "rank": 2
     },
     {
-      "name": "10분 경과",
+      "name": "1/4",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "날조 절대 X",
+      "name": "3/4",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "단일",
+      "name": "2/4",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "HypaV3",
+      "name": "My nipple is spin.",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "드메",
+      "name": "로판",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "치한열차",
+      "name": "반납",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "슬더스",
+      "name": "바베/언셒🔞",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "나히아",
+      "name": "마법소녀는 오늘도 패배한다",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "시뮬",
+      "name": "부정편향",
       "mentions": 1,
       "rank": 11
+    },
+    {
+      "name": "리루",
+      "mentions": 1,
+      "rank": 12
+    },
+    {
+      "name": "유니챗 튜닝 업데이트",
+      "mentions": 1,
+      "rank": 13
+    },
+    {
+      "name": "보빔",
+      "mentions": 1,
+      "rank": 14
+    },
+    {
+      "name": "혐관",
+      "mentions": 1,
+      "rank": 15
+    },
+    {
+      "name": "시뮬",
+      "mentions": 1,
+      "rank": 16
+    },
+    {
+      "name": "찌머크여신",
+      "mentions": 1,
+      "rank": 17
+    },
+    {
+      "name": "기타",
+      "mentions": 1,
+      "rank": 18
     }
   ],
   "trending_topics": [
     {
-      "topic": "ai",
+      "topic": "이게",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "같은데",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "바이브",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "추론",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "여친한테",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "하네",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "있음",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "안되네",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "먹는",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "보여주는",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "glm",
+      "current": 3,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "있어",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "공모전",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "나만",
+      "current": 5,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "뭔가",
+      "current": 4,
+      "previous": 0,
+      "growth": 100.0
+    },
+    {
+      "topic": "폰검사",
       "current": 7,
-      "previous": 3,
-      "growth": 133.3
-    },
-    {
-      "topic": "엘린이",
-      "current": 6,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "플랫폼",
+      "topic": "내가",
       "current": 5,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "보고",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "출력",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "에덴",
-      "current": 14,
-      "previous": 7,
-      "growth": 100.0
-    },
-    {
-      "topic": "리뷰",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "아크",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "프롬",
+      "topic": "젬이",
       "current": 4,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "리브라",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "코파",
+      "topic": "시뮬",
       "current": 5,
       "previous": 0,
       "growth": 100.0
     },
     {
-      "topic": "자동요약",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "엘린",
-      "current": 12,
-      "previous": 6,
-      "growth": 100.0
-    },
-    {
-      "topic": "있는",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "나노짚",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "뤼붕이",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "같은",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "젬이오",
-      "current": 4,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "다들",
-      "current": 5,
-      "previous": 0,
-      "growth": 100.0
-    },
-    {
-      "topic": "혹시",
+      "topic": "피자",
       "current": 4,
       "previous": 0,
       "growth": 100.0
