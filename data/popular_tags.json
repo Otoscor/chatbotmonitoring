@@ -1,82 +1,82 @@
 [
   {
-    "tag": "로맨스",
-    "count": 31
-  },
-  {
     "tag": "시뮬레이션",
-    "count": 30
+    "count": 36
   },
   {
-    "tag": "자작 캐릭터",
-    "count": 27
+    "tag": "로맨스",
+    "count": 35
   },
   {
     "tag": "판타지",
-    "count": 26
+    "count": 30
   },
   {
     "tag": "순애",
-    "count": 26
-  },
-  {
-    "tag": "시뮬레이터",
-    "count": 26
-  },
-  {
-    "tag": "아카데미",
-    "count": 26
-  },
-  {
-    "tag": "다인",
-    "count": 22
-  },
-  {
-    "tag": "현대",
-    "count": 21
-  },
-  {
-    "tag": "학교 생활",
-    "count": 21
-  },
-  {
-    "tag": "contest-win",
-    "count": 18
-  },
-  {
-    "tag": "contest-win-16th",
-    "count": 18
-  },
-  {
-    "tag": "언리밋",
-    "count": 15
-  },
-  {
-    "tag": "hl",
-    "count": 15
-  },
-  {
-    "tag": "여성",
-    "count": 15
+    "count": 30
   },
   {
     "tag": "일상",
-    "count": 14
+    "count": 24
   },
   {
-    "tag": "집착",
-    "count": 14
+    "tag": "자작 캐릭터",
+    "count": 24
+  },
+  {
+    "tag": "여성",
+    "count": 23
+  },
+  {
+    "tag": "현대",
+    "count": 23
+  },
+  {
+    "tag": "남성",
+    "count": 21
+  },
+  {
+    "tag": "하렘",
+    "count": 19
+  },
+  {
+    "tag": "신학기제작대회",
+    "count": 19
+  },
+  {
+    "tag": "hl",
+    "count": 17
   },
   {
     "tag": "추천",
+    "count": 16
+  },
+  {
+    "tag": "언리밋",
     "count": 13
+  },
+  {
+    "tag": "집착",
+    "count": 12
+  },
+  {
+    "tag": "학교",
+    "count": 12
+  },
+  {
+    "tag": "아카데미",
+    "count": 12
   },
   {
     "tag": "dailylife",
-    "count": 13
+    "count": 12
   },
   {
     "tag": "현대판타지",
-    "count": 12
+    "count": 11
+  },
+  {
+    "tag": "후회",
+    "count": 11
   }
 ]
