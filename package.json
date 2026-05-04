@@ -5,10 +5,10 @@
     "scripts": {
         "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
         "start:frontend": "cd frontend && npm run dev",
-        "start:backend": "cd backend && source venv/bin/activate && python api/main.py",
+        "start:backend": "cd backend && ./venv/bin/python api/main.py",
         "install:all": "npm install && cd frontend && npm install && cd ../backend && python -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
-        "crawl": "cd backend && source venv/bin/activate && python -m crawler.multi_crawler",
-        "export": "cd backend && source venv/bin/activate && python export_data.py",
+        "crawl": "cd backend && ./venv/bin/python -m crawler.multi_crawler",
+        "export": "cd backend && ./venv/bin/python export_data.py",
         "update-data": "npm run crawl && npm run export && git add frontend/public/data/ && git commit -m \"chore: 데이터 자동 업데이트\" || echo \"변경사항 없음\" && git push origin main",
         "push-data": "npm run export && git add frontend/public/data/ && git commit -m \"chore: 수동 데이터 업데이트\" || echo \"변경사항 없음\" && git push origin main"
     },

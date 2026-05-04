@@ -1,5 +1,243 @@
 [
   {
+    "id": 42,
+    "report_date": "2026-05-04T22:44:22.255306",
+    "total_posts": 560,
+    "total_views": 71912,
+    "total_recommends": 625,
+    "total_comments": 1861,
+    "top_keywords": [
+      {
+        "keyword": "챈섭",
+        "count": 16,
+        "score": 0.0232
+      },
+      {
+        "keyword": "크랙",
+        "count": 15,
+        "score": 0.0226
+      },
+      {
+        "keyword": "딥식",
+        "count": 15,
+        "score": 0.0212
+      },
+      {
+        "keyword": "ai",
+        "count": 7,
+        "score": 0.0159
+      },
+      {
+        "keyword": "바베",
+        "count": 10,
+        "score": 0.0149
+      },
+      {
+        "keyword": "아니",
+        "count": 10,
+        "score": 0.0137
+      },
+      {
+        "keyword": "오푸스",
+        "count": 9,
+        "score": 0.013
+      },
+      {
+        "keyword": "크랙은",
+        "count": 7,
+        "score": 0.0105
+      },
+      {
+        "keyword": "프롬",
+        "count": 7,
+        "score": 0.0102
+      },
+      {
+        "keyword": "미국",
+        "count": 8,
+        "score": 0.0098
+      },
+      {
+        "keyword": "잼민이",
+        "count": 6,
+        "score": 0.0092
+      },
+      {
+        "keyword": "크랙이",
+        "count": 6,
+        "score": 0.0092
+      },
+      {
+        "keyword": "다들",
+        "count": 6,
+        "score": 0.0088
+      },
+      {
+        "keyword": "공지",
+        "count": 5,
+        "score": 0.0085
+      },
+      {
+        "keyword": "복상사",
+        "count": 5,
+        "score": 0.0084
+      },
+      {
+        "keyword": "에덴",
+        "count": 5,
+        "score": 0.0084
+      },
+      {
+        "keyword": "내가",
+        "count": 5,
+        "score": 0.008
+      },
+      {
+        "keyword": "ooc",
+        "count": 3,
+        "score": 0.0079
+      },
+      {
+        "keyword": "자꾸",
+        "count": 5,
+        "score": 0.0079
+      },
+      {
+        "keyword": "슬슬",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "언셒",
+        "count": 5,
+        "score": 0.0071
+      },
+      {
+        "keyword": "좋겠다",
+        "count": 4,
+        "score": 0.0071
+      },
+      {
+        "keyword": "있어",
+        "count": 5,
+        "score": 0.007
+      },
+      {
+        "keyword": "nai",
+        "count": 4,
+        "score": 0.0067
+      },
+      {
+        "keyword": "바베는",
+        "count": 4,
+        "score": 0.0067
+      },
+      {
+        "keyword": "아님",
+        "count": 4,
+        "score": 0.0067
+      },
+      {
+        "keyword": "같은데",
+        "count": 4,
+        "score": 0.0066
+      },
+      {
+        "keyword": "올라마",
+        "count": 5,
+        "score": 0.0066
+      },
+      {
+        "keyword": "뭐임",
+        "count": 5,
+        "score": 0.0063
+      },
+      {
+        "keyword": "나이",
+        "count": 4,
+        "score": 0.0062
+      }
+    ],
+    "top_characters": [
+      {
+        "name": "빌림",
+        "mentions": 2,
+        "rank": 1
+      },
+      {
+        "name": "바베/언셒🔞",
+        "mentions": 2,
+        "rank": 2
+      },
+      {
+        "name": "바베/언셒",
+        "mentions": 2,
+        "rank": 3
+      },
+      {
+        "name": "어째서, 그러는 것이냐 뤼세영",
+        "mentions": 1,
+        "rank": 4
+      },
+      {
+        "name": "언셒",
+        "mentions": 1,
+        "rank": 5
+      },
+      {
+        "name": "쿠키챗 5차 릴레이 이벤트",
+        "mentions": 1,
+        "rank": 6
+      },
+      {
+        "name": "Deev",
+        "mentions": 1,
+        "rank": 7
+      },
+      {
+        "name": "바베/🔞",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "종량제용",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "08B0F4DB",
+        "mentions": 1,
+        "rank": 10
+      },
+      {
+        "name": "얘한테는 예쁜 피어싱 달아줘야지",
+        "mentions": 1,
+        "rank": 11
+      },
+      {
+        "name": "모듈",
+        "mentions": 1,
+        "rank": 12
+      },
+      {
+        "name": "시뮬",
+        "mentions": 1,
+        "rank": 13
+      },
+      {
+        "name": "어린이",
+        "mentions": 1,
+        "rank": 14
+      },
+      {
+        "name": "로리",
+        "mentions": 1,
+        "rank": 15
+      }
+    ],
+    "trending_topics": []
+  },
+  {
     "id": 41,
     "report_date": "2026-04-24T11:18:58.830471",
     "total_posts": 566,
@@ -8233,291 +8471,5 @@
       }
     ],
     "trending_topics": []
-  },
-  {
-    "id": 12,
-    "report_date": "2026-02-03T08:23:15.662711",
-    "total_posts": 410,
-    "total_views": 26589,
-    "total_recommends": 302,
-    "total_comments": 1714,
-    "top_keywords": [
-      {
-        "keyword": "진짜",
-        "count": 12,
-        "score": 0.0275
-      },
-      {
-        "keyword": "너무",
-        "count": 10,
-        "score": 0.0187
-      },
-      {
-        "keyword": "이거",
-        "count": 9,
-        "score": 0.0177
-      },
-      {
-        "keyword": "베타",
-        "count": 9,
-        "score": 0.0157
-      },
-      {
-        "keyword": "레퍼",
-        "count": 7,
-        "score": 0.0147
-      },
-      {
-        "keyword": "출력량",
-        "count": 8,
-        "score": 0.0143
-      },
-      {
-        "keyword": "존나",
-        "count": 6,
-        "score": 0.0133
-      },
-      {
-        "keyword": "자꾸",
-        "count": 6,
-        "score": 0.0127
-      },
-      {
-        "keyword": "nai",
-        "count": 4,
-        "score": 0.0123
-      },
-      {
-        "keyword": "ooc",
-        "count": 3,
-        "score": 0.0111
-      },
-      {
-        "keyword": "있음",
-        "count": 5,
-        "score": 0.0109
-      },
-      {
-        "keyword": "근데",
-        "count": 6,
-        "score": 0.0108
-      },
-      {
-        "keyword": "많이",
-        "count": 5,
-        "score": 0.0107
-      },
-      {
-        "keyword": "다들",
-        "count": 5,
-        "score": 0.0103
-      },
-      {
-        "keyword": "엘린",
-        "count": 6,
-        "score": 0.01
-      },
-      {
-        "keyword": "대이강",
-        "count": 5,
-        "score": 0.0098
-      },
-      {
-        "keyword": "지금",
-        "count": 5,
-        "score": 0.0096
-      },
-      {
-        "keyword": "나만",
-        "count": 5,
-        "score": 0.0093
-      },
-      {
-        "keyword": "누가",
-        "count": 4,
-        "score": 0.0092
-      },
-      {
-        "keyword": "나이",
-        "count": 4,
-        "score": 0.009
-      },
-      {
-        "keyword": "요즘",
-        "count": 4,
-        "score": 0.009
-      },
-      {
-        "keyword": "이건",
-        "count": 4,
-        "score": 0.009
-      },
-      {
-        "keyword": "하나",
-        "count": 4,
-        "score": 0.0085
-      },
-      {
-        "keyword": "ai",
-        "count": 2,
-        "score": 0.0084
-      },
-      {
-        "keyword": "스챗에",
-        "count": 4,
-        "score": 0.0084
-      },
-      {
-        "keyword": "그림체",
-        "count": 4,
-        "score": 0.0083
-      },
-      {
-        "keyword": "윶캐",
-        "count": 4,
-        "score": 0.0082
-      },
-      {
-        "keyword": "상태창",
-        "count": 4,
-        "score": 0.0081
-      },
-      {
-        "keyword": "뭐야",
-        "count": 4,
-        "score": 0.0077
-      },
-      {
-        "keyword": "같네",
-        "count": 3,
-        "score": 0.0073
-      }
-    ],
-    "top_characters": [
-      {
-        "name": "블리치",
-        "mentions": 2,
-        "rank": 1
-      },
-      {
-        "name": "🔰홍보/셒",
-        "mentions": 1,
-        "rank": 2
-      },
-      {
-        "name": "3/4",
-        "mentions": 1,
-        "rank": 3
-      },
-      {
-        "name": "嗡-",
-        "mentions": 1,
-        "rank": 4
-      },
-      {
-        "name": "불판",
-        "mentions": 1,
-        "rank": 5
-      },
-      {
-        "name": "술탄",
-        "mentions": 1,
-        "rank": 6
-      },
-      {
-        "name": "슈바",
-        "mentions": 1,
-        "rank": 7
-      },
-      {
-        "name": "돈키호테",
-        "mentions": 1,
-        "rank": 8
-      },
-      {
-        "name": "남캐",
-        "mentions": 1,
-        "rank": 9
-      },
-      {
-        "name": "시뮬",
-        "mentions": 1,
-        "rank": 10
-      }
-    ],
-    "trending_topics": [
-      {
-        "topic": "누가",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "나이",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "출력량",
-        "current": 8,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "하나",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "윶캐",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "있음",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "그림체",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "같네",
-        "current": 3,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "레퍼",
-        "current": 7,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "이건",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "스챗에",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "나만",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      }
-    ]
   }
 ]

@@ -1,207 +1,237 @@
 {
-  "id": 41,
-  "report_date": "2026-04-24T11:18:58.830471",
-  "total_posts": 566,
-  "total_views": 46536,
-  "total_recommends": 558,
-  "total_comments": 1609,
+  "id": 42,
+  "report_date": "2026-05-04T22:44:22.255306",
+  "total_posts": 560,
+  "total_views": 71912,
+  "total_recommends": 625,
+  "total_comments": 1861,
   "top_keywords": [
     {
-      "keyword": "케덕타임",
-      "count": 39,
-      "score": 0.0673
-    },
-    {
-      "keyword": "짚오오",
-      "count": 23,
-      "score": 0.029
-    },
-    {
-      "keyword": "바베",
+      "keyword": "챈섭",
       "count": 16,
-      "score": 0.027
-    },
-    {
-      "keyword": "ai",
-      "count": 9,
       "score": 0.0232
     },
     {
-      "keyword": "gpt",
-      "count": 3,
-      "score": 0.0217
+      "keyword": "크랙",
+      "count": 15,
+      "score": 0.0226
     },
     {
-      "keyword": "승수",
-      "count": 11,
-      "score": 0.0132
+      "keyword": "딥식",
+      "count": 15,
+      "score": 0.0212
     },
     {
-      "keyword": "케덕",
+      "keyword": "ai",
       "count": 7,
-      "score": 0.0113
+      "score": 0.0159
     },
     {
-      "keyword": "지피티",
-      "count": 6,
-      "score": 0.0106
+      "keyword": "바베",
+      "count": 10,
+      "score": 0.0149
     },
     {
-      "keyword": "티팟",
-      "count": 6,
-      "score": 0.0106
+      "keyword": "아니",
+      "count": 10,
+      "score": 0.0137
     },
     {
       "keyword": "오푸스",
+      "count": 9,
+      "score": 0.013
+    },
+    {
+      "keyword": "크랙은",
+      "count": 7,
+      "score": 0.0105
+    },
+    {
+      "keyword": "프롬",
       "count": 7,
       "score": 0.0102
     },
     {
-      "keyword": "코파",
+      "keyword": "미국",
       "count": 8,
-      "score": 0.0101
+      "score": 0.0098
     },
     {
-      "keyword": "할인",
+      "keyword": "잼민이",
       "count": 6,
-      "score": 0.0101
-    },
-    {
-      "keyword": "다들",
-      "count": 7,
       "score": 0.0092
     },
     {
-      "keyword": "엘린",
-      "count": 5,
+      "keyword": "크랙이",
+      "count": 6,
+      "score": 0.0092
+    },
+    {
+      "keyword": "다들",
+      "count": 6,
       "score": 0.0088
     },
     {
-      "keyword": "제국",
-      "count": 6,
-      "score": 0.0083
+      "keyword": "공지",
+      "count": 5,
+      "score": 0.0085
     },
     {
-      "keyword": "공홈",
+      "keyword": "복상사",
+      "count": 5,
+      "score": 0.0084
+    },
+    {
+      "keyword": "에덴",
+      "count": 5,
+      "score": 0.0084
+    },
+    {
+      "keyword": "내가",
+      "count": 5,
+      "score": 0.008
+    },
+    {
+      "keyword": "ooc",
+      "count": 3,
+      "score": 0.0079
+    },
+    {
+      "keyword": "자꾸",
       "count": 5,
       "score": 0.0079
     },
     {
-      "keyword": "뭐야",
-      "count": 5,
-      "score": 0.0077
-    },
-    {
-      "keyword": "지침",
-      "count": 5,
-      "score": 0.0075
-    },
-    {
-      "keyword": "짚오오가",
-      "count": 5,
-      "score": 0.0074
-    },
-    {
-      "keyword": "인상",
-      "count": 6,
-      "score": 0.0073
-    },
-    {
-      "keyword": "glm",
-      "count": 3,
+      "keyword": "슬슬",
+      "count": 4,
       "score": 0.0071
+    },
+    {
+      "keyword": "언셒",
+      "count": 5,
+      "score": 0.0071
+    },
+    {
+      "keyword": "좋겠다",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "있어",
+      "count": 5,
+      "score": 0.007
+    },
+    {
+      "keyword": "nai",
+      "count": 4,
+      "score": 0.0067
     },
     {
       "keyword": "바베는",
       "count": 4,
-      "score": 0.0071
+      "score": 0.0067
     },
     {
-      "keyword": "제미나이",
-      "count": 5,
-      "score": 0.0071
-    },
-    {
-      "keyword": "같음",
-      "count": 5,
-      "score": 0.0069
-    },
-    {
-      "keyword": "얘들아",
+      "keyword": "아님",
       "count": 4,
-      "score": 0.0065
+      "score": 0.0067
     },
     {
-      "keyword": "api",
-      "count": 1,
+      "keyword": "같은데",
+      "count": 4,
+      "score": 0.0066
+    },
+    {
+      "keyword": "올라마",
+      "count": 5,
+      "score": 0.0066
+    },
+    {
+      "keyword": "뭐임",
+      "count": 5,
       "score": 0.0063
     },
     {
-      "keyword": "가격이",
+      "keyword": "나이",
       "count": 4,
       "score": 0.0062
-    },
-    {
-      "keyword": "제일",
-      "count": 4,
-      "score": 0.0059
-    },
-    {
-      "keyword": "ooc",
-      "count": 2,
-      "score": 0.0058
-    },
-    {
-      "keyword": "내가",
-      "count": 4,
-      "score": 0.0057
     }
   ],
   "top_characters": [
     {
-      "name": "카쫀쿠 프로 69개월 구독자",
-      "mentions": 1,
+      "name": "빌림",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "동거하던 토끼 수인이 죽었다.",
-      "mentions": 1,
+      "name": "바베/언셒🔞",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "에덴/언셒",
-      "mentions": 1,
+      "name": "바베/언셒",
+      "mentions": 2,
       "rank": 3
     },
     {
-      "name": "에덴/엘린🔞",
+      "name": "어째서, 그러는 것이냐 뤼세영",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "바베/언셒🔞",
+      "name": "언셒",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "암컷타락의 그림자 저택",
+      "name": "쿠키챗 5차 릴레이 이벤트",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "문학",
+      "name": "Deev",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "GPT-5.5 API를 기다리는 채널",
+      "name": "바베/🔞",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "게으름 없음",
+      "name": "종량제용",
       "mentions": 1,
       "rank": 9
+    },
+    {
+      "name": "08B0F4DB",
+      "mentions": 1,
+      "rank": 10
+    },
+    {
+      "name": "얘한테는 예쁜 피어싱 달아줘야지",
+      "mentions": 1,
+      "rank": 11
+    },
+    {
+      "name": "모듈",
+      "mentions": 1,
+      "rank": 12
+    },
+    {
+      "name": "시뮬",
+      "mentions": 1,
+      "rank": 13
+    },
+    {
+      "name": "어린이",
+      "mentions": 1,
+      "rank": 14
+    },
+    {
+      "name": "로리",
+      "mentions": 1,
+      "rank": 15
     }
   ],
   "trending_topics": []
