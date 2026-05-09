@@ -352,7 +352,7 @@
 
   /* --- 키워드 클라우드 --- */
   .keyword-cloud {
-    @apply bg-white border border-gray-200 rounded p-6;
+    @apply bg-white border border-gray-200 rounded;
     @apply dark:bg-[#0a0a0a] dark:border-gray-800;
   }
 
