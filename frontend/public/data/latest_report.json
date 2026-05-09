@@ -1,237 +1,217 @@
 {
-  "id": 42,
-  "report_date": "2026-05-04T22:44:22.255306",
-  "total_posts": 560,
-  "total_views": 71912,
-  "total_recommends": 625,
-  "total_comments": 1861,
+  "id": 43,
+  "report_date": "2026-05-08T10:56:47.451416",
+  "total_posts": 561,
+  "total_views": 67905,
+  "total_recommends": 422,
+  "total_comments": 1596,
   "top_keywords": [
     {
-      "keyword": "챈섭",
-      "count": 16,
-      "score": 0.0232
+      "keyword": "페더",
+      "count": 23,
+      "score": 0.0381
     },
     {
-      "keyword": "크랙",
-      "count": 15,
-      "score": 0.0226
-    },
-    {
-      "keyword": "딥식",
-      "count": 15,
-      "score": 0.0212
-    },
-    {
-      "keyword": "ai",
-      "count": 7,
-      "score": 0.0159
+      "keyword": "에덴",
+      "count": 10,
+      "score": 0.015
     },
     {
       "keyword": "바베",
       "count": 10,
-      "score": 0.0149
+      "score": 0.014
     },
     {
-      "keyword": "아니",
-      "count": 10,
-      "score": 0.0137
+      "keyword": "크랙",
+      "count": 8,
+      "score": 0.0133
     },
     {
-      "keyword": "오푸스",
-      "count": 9,
-      "score": 0.013
+      "keyword": "ooc",
+      "count": 5,
+      "score": 0.0114
     },
     {
-      "keyword": "크랙은",
+      "keyword": "있음",
+      "count": 8,
+      "score": 0.0112
+    },
+    {
+      "keyword": "뭔가",
       "count": 7,
       "score": 0.0105
     },
     {
-      "keyword": "프롬",
-      "count": 7,
-      "score": 0.0102
-    },
-    {
-      "keyword": "미국",
-      "count": 8,
+      "keyword": "아니",
+      "count": 6,
       "score": 0.0098
     },
     {
-      "keyword": "잼민이",
+      "keyword": "바베챗",
       "count": 6,
       "score": 0.0092
     },
     {
-      "keyword": "크랙이",
-      "count": 6,
-      "score": 0.0092
+      "keyword": "뭐야",
+      "count": 5,
+      "score": 0.0089
     },
     {
-      "keyword": "다들",
+      "keyword": "이렇게",
       "count": 6,
       "score": 0.0088
     },
     {
-      "keyword": "공지",
-      "count": 5,
-      "score": 0.0085
-    },
-    {
-      "keyword": "복상사",
-      "count": 5,
+      "keyword": "오푸스",
+      "count": 6,
       "score": 0.0084
     },
     {
-      "keyword": "에덴",
-      "count": 5,
+      "keyword": "있는데",
+      "count": 6,
       "score": 0.0084
     },
     {
-      "keyword": "내가",
+      "keyword": "프로챗",
       "count": 5,
-      "score": 0.008
+      "score": 0.0083
     },
     {
-      "keyword": "ooc",
-      "count": 3,
+      "keyword": "프롬",
+      "count": 6,
+      "score": 0.0082
+    },
+    {
+      "keyword": "상태",
+      "count": 5,
+      "score": 0.0081
+    },
+    {
+      "keyword": "짚오오",
+      "count": 5,
+      "score": 0.0081
+    },
+    {
+      "keyword": "잼민이",
+      "count": 5,
       "score": 0.0079
     },
     {
-      "keyword": "자꾸",
-      "count": 5,
-      "score": 0.0079
+      "keyword": "ai",
+      "count": 4,
+      "score": 0.0078
     },
     {
-      "keyword": "슬슬",
+      "keyword": "엘린",
+      "count": 5,
+      "score": 0.0075
+    },
+    {
+      "keyword": "가끔",
+      "count": 5,
+      "score": 0.0074
+    },
+    {
+      "keyword": "가챠섬",
       "count": 4,
       "score": 0.0071
     },
     {
-      "keyword": "언셒",
+      "keyword": "딥식",
       "count": 5,
       "score": 0.0071
     },
     {
-      "keyword": "좋겠다",
+      "keyword": "오늘은",
       "count": 4,
       "score": 0.0071
     },
     {
-      "keyword": "있어",
+      "keyword": "윶캐",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "좋음",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "챗오오",
+      "count": 4,
+      "score": 0.0071
+    },
+    {
+      "keyword": "남캐",
       "count": 5,
-      "score": 0.007
-    },
-    {
-      "keyword": "nai",
-      "count": 4,
       "score": 0.0067
-    },
-    {
-      "keyword": "바베는",
-      "count": 4,
-      "score": 0.0067
-    },
-    {
-      "keyword": "아님",
-      "count": 4,
-      "score": 0.0067
-    },
-    {
-      "keyword": "같은데",
-      "count": 4,
-      "score": 0.0066
     },
     {
       "keyword": "올라마",
-      "count": 5,
+      "count": 4,
       "score": 0.0066
     },
     {
-      "keyword": "뭐임",
-      "count": 5,
-      "score": 0.0063
-    },
-    {
-      "keyword": "나이",
+      "keyword": "제일",
       "count": 4,
-      "score": 0.0062
+      "score": 0.0066
     }
   ],
   "top_characters": [
     {
       "name": "빌림",
-      "mentions": 2,
+      "mentions": 3,
       "rank": 1
     },
     {
-      "name": "바베/언셒🔞",
-      "mentions": 2,
+      "name": "1/4",
+      "mentions": 1,
       "rank": 2
     },
     {
-      "name": "바베/언셒",
-      "mentions": 2,
+      "name": "누나....넷플릭스 보자며....",
+      "mentions": 1,
       "rank": 3
     },
     {
-      "name": "어째서, 그러는 것이냐 뤼세영",
+      "name": "방향성 안 맞아",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "언셒",
+      "name": "반납",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "쿠키챗 5차 릴레이 이벤트",
+      "name": "케덕",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "Deev",
+      "name": "바베/언셒🔞",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "바베/🔞",
+      "name": "남캐",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "종량제용",
+      "name": "good boy",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "08B0F4DB",
+      "name": "먹을",
       "mentions": 1,
       "rank": 10
     },
     {
-      "name": "얘한테는 예쁜 피어싱 달아줘야지",
+      "name": "에셋",
       "mentions": 1,
       "rank": 11
-    },
-    {
-      "name": "모듈",
-      "mentions": 1,
-      "rank": 12
-    },
-    {
-      "name": "시뮬",
-      "mentions": 1,
-      "rank": 13
-    },
-    {
-      "name": "어린이",
-      "mentions": 1,
-      "rank": 14
-    },
-    {
-      "name": "로리",
-      "mentions": 1,
-      "rank": 15
     }
   ],
   "trending_topics": []
