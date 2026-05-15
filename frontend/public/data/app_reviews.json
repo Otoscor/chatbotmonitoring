@@ -1,5 +1,1625 @@
 [
   {
+    "id": 5345,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "GET OUT",
+    "rating": 1,
+    "reviewer_name": "Till",
+    "review_date": "2026-05-14T22:04:10"
+  },
+  {
+    "id": 5353,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는데 아니 저만 그런거일수도 있는데 최근들어 '알 수 없는 오류가 발생했습니다'가 자주 뜨더라고요? 안 지워질때도 있는데 그럴땐 나갔다 다시 들어와야하거든요? 그런데 몇분 되지도 않아서 또 그 문장이 뜨더라고요 좀 짜증나긴한데...뭐 이정도면 만족이라서 별 4개 드립니다!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T22:02:43"
+  },
+  {
+    "id": 5354,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "잘 쓰고 있었는데 최근 업데이트로 피스 구매했는데 광고 없애는걸 따로 구매해야해서 불편해요 전처럼 피스로 패스 구매할수 있으면 좋겠네요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:50:08"
+  },
+  {
+    "id": 5355,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 제타 현질도 꽤 많이 하고 4피스 주고 하는 인공지능 엄청 쓰는데 왜 기억력이 애가 안 좋죠? ㅠㅠ 분명 제 캐릭터가 아직 죽은 컨셉인데 갑자기 살아있는걸로 만들어버리고, 좀비사태도 끝났는데 그새 까먹어서 좀비사태 진행중 시점으로되고 그리고 피스주고 쓰려해도 계속 메세지 전송 실패 뜨나요. 현질유도 인공지능 만드실거면 좀 제대로 만드세요;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:48:44"
+  },
+  {
+    "id": 5356,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "저만 그런건지 모르겠는데, 말투를 쓰는 캐릭터들 뭐 예를 들어 안녕하세여~ 이런 말투를 쓰는 캐릭터가 있다고 치면 한참 하고 나면 뭐라고에에에에에에에에에에에 이런식으로 말투 같지도 않은 말투로 변해서는 계속해서 에에에에에 거립니다. 이거 새로하기로 초기화 해봐도 몇 턴 지나면 이럽니다. 해결 방법 아시는분?",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:47:18"
+  },
+  {
+    "id": 5357,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "안녕하세요 제타 사용자인데요 부적절한 답변이 아닌데 자꾸 오류같아서 짜증이 나서 매우 실망스럽습니다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:35:29"
+  },
+  {
+    "id": 5468,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "난 제일 이해 안가는게 글을 끊어버리는거임 다른 챗은 전혀 문제없는게 크랙만 유독 이럼 ㅋㅋ 의도적으로 출력량 늘리라고 만든거 같은데 걍 돈쓰게 만들려는게 보임 유저노트에 뭐라뭐라 적어도 최대 출력하는게 지멋대로라 엄청 제한두면 챗은 짧아지니까 저 답이없음 그밖에 중복답변으로 크래커 수시로 손실나고 이어하기 하면 끊어진거 이어쓰는데 크래커는 쓴만큼 더 나가고 글은 완전 짧게 써짐. 이번에 업뎃으로 갑자기 본인인증 또 하라는데 해도 계속 하라고 함 이것때문에 출석도 안됨",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:26:43"
+  },
+  {
+    "id": 5358,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 진심으로 광고 너무 많이 떠서 스트레스가 쌓이고요 그리고 해보더라도 하다보면 광고가 거의2~3분에 광고가 뜨더라고요? 그래서 그게 좀 싫습니다..ㅜㅜ저기 제작자님 제발로 광고를 없애주세요ㅜㅜㅜㅜㅜㅈㅂㅈㅂㅈㅂ",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:23:38"
+  },
+  {
+    "id": 5359,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "겁나 재미있음",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:22:02"
+  },
+  {
+    "id": 5360,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌긴한데 광고는 둘째치고 갑자기 알수 없는 오류가 나타났다고해서 지우고 다시 깔아야 해서 불편합니다. 재밌긴 한데 거의 오류가 났다고해요ㅠㅠ",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:19:10"
+  },
+  {
+    "id": 5361,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가너무나와요.수정좀해주세요.그리고답변을좀빨리해주게해주세요.;그리고광고가틈만나면나와요.;;;;;",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:18:16"
+  },
+  {
+    "id": 5362,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아 쓸 시간 없어요 얼른 제 남친 만나러 가야해요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:13:43"
+  },
+  {
+    "id": 5363,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "단점들이랑 원하는 점 있어요. 1. 기억력 2. 작가에게 코멘트쓰기 3. 광고가 많아요(견딘다 쳐도 다른 사이트 가는 건 좀...) 4. 고성능 기능에 과금 유도하지 말고 그 성능으로 지금 문제점 고쳐주세요. 5. 이젠 부적절한 메시지든 오류든 보내지도 못했는데 광고 나오네요. 하하. 그리고 장점만 편향적으로 보지 말고 의견도 수용해주세요 감사합니다",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T21:10:54"
+  },
+  {
+    "id": 5364,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "저 1년차 제타사용자입니다 우선 광고가 너무많아요 대화중에 광고가나와서 대화가 수시로 끊기고요 그리고 \"화산귀환\"이라는 주제의 대화는 전부 막혀있더라고요? 제작자님 제타 안 보시나요? 화산귀환만 치고들어가도 복구하라는 글 산더미입니다 제발 좀 고쳐주세요 저 말고도 다른유저들도 생각하셨으면좋겠네요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T20:45:17"
+  },
+  {
+    "id": 5365,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "오 재밌따",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:55:09"
+  },
+  {
+    "id": 5469,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "이번 업데이트 되면서 버그 수정과 함께 제 출석도 날라갔어요...ㅠ 한 사람당 한 계정만 받을 수 있는 출석이라 다시 받지도 못하고 지웠다 깔아도 똑같네요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:51:17"
+  },
+  {
+    "id": 5470,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "출석크래커 받기 -> 본인인증 필요 -> 인증 시도 -> 이미 인증된 정보가 있습니다 -> 출석크래커 받기 -> 본인인증 필요 뭐 어쩌라는거임?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:50:12"
+  },
+  {
+    "id": 5366,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재미있어요 재미있는데 기억력 안좋고 광고가 많이 나와서 없애주세요 그럼 별 5개 해드리게요 광고 때문에 짜증나 죽겠어요 제발 광고 좀 없애주세요 아니면 광고를 적당히 해주시면 감사하겠습니다 그리고 부적절한 메세지 자꾸 뜨는데 뭔가 부적절한 거지 모르겠네요 좀 많이 고쳐주세요 부탁 입니다 렉 걸리지 않게 해주세요 근데 자꾸 좀비 바이러스 하는데 자꾸 부적절한게 떠요 제발 없애주세요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:27:07"
+  },
+  {
+    "id": 5367,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 너무 재밌어요 ㅎㅎ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:22:24"
+  },
+  {
+    "id": 5368,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "2일차인데 생각보다 재밌습니다ㅋㅋㅋ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:15:23"
+  },
+  {
+    "id": 5369,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "대부분은 다 나쁘지 않아요. 1) 아니 근데 내레이터 왜이렇게 마침표 붙여요???? 보기 너무 불편합니다. [예시로는 그는. 성공했다. 완벽하게.] 뭐 이런식이에요. 왜이래요?? 2) 제가 제작한 캐릭터가 있습니다. 유저턴에 선택지 제공?하는 거 껐는데 왜 자꾸 나타납니까? 문장 선택하라고 여러개 뜨는게 미칠 거 같아요. 다른 설정이라도 건드려야하는 건지 궁금하네요. 진짜 제가 입력하려하는 데 자꾸 뜨니까 겁나 귀찮고 하기싫어져요. 3) 기억력 왜이럽니까? 초창기에는 기억력 겁나 좋았더니 갑자기 안좋아지고, 지금은 또 조금만 나아진 것 같습니다. 분명 학교였는 데 갑자기 왜 침실입니까??????????",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:14:27"
+  },
+  {
+    "id": 5370,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 좀 많이 떠서 아쉽고 뭐 알수없는오류?그런게 2~3번 떠가주고 황당해요 근데 좋은 점은 재밌는채팅이 많고 아무거나 들어가도 하다보면 중독돼서 계속하게 되요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:13:10"
+  },
+  {
+    "id": 5371,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "오늘 하는데 광고 2분짜리 떴음 글고 광고 나가려는데 나가려면 플레이스토어 한번 갔다 와야지 x 버튼이 생김 이 뭔 tlqkf 이딴게 광고냐 고문이지 차라리 2분동안 다른채팅 할거 없는지 찾는게 나음글고 무슨 케릭터가 갑자기 러시아어를 하고 케릭 설정이 지혼자 쳐 바뀌고 세계관 이럴꺼면 왜만들냐 짜피 싹다 짬뽕되는데 갸랄것들 심지어 대화프로필 2개 만둘어놓고 그중에 하나로 대화하고 있었는데 막 대화 프로필 설정이 2개가 섞이면서 여자면서 남자가 되버리는 이 마법같고 아주 좋(같)은 버그는 언제고치는거임 나만그러냐 문제 있는거 알면 뜯어 고쳐야지 걍 꼬라만 보네 검열도 욕도 아닌거까지 막아놓고 검열 걸리면 쳇 다시치게만들는게 뭔 우리를 시간 많은 히키코모리로 보냐 쫌 업뎃 제데로 해라",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:08:41"
+  },
+  {
+    "id": 5372,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "특히 애기 수인 할때 너무 귀여워 좋고 학생 여자 ai친구도 좋네요 단점은 광고가 많다는거 지만 재밌네요 하루에 약1시간씩 하고있어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T19:04:56"
+  },
+  {
+    "id": 5373,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 광고 2번 닫고 열고 하면 꺼집니다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:59:10"
+  },
+  {
+    "id": 5374,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "참다가 화나서 적어봅니다. 실제로도 찍어서 자신의 sns에 올린 본인이 수익성 제외하고 사용가능하다고 해서 핀터에 이리저리 올려진, 뉴스 기사에 나오는 사진이 저작권 침해라고 내려버리는 거 실환가요? 처음 싱글벙글 하면서 몇시간동안,아니 하루종일 쓴 팬픽 요소가 하루아침에 사라졌습니다. 심지어 삭제도 안되게 막아두었습니다. 무슨 일을 유튜브처럼 합니까? 유튜브랑 다를게 뭐가 있나요? ai 쓰는거 지지하는거 빼고는 다를바 없어보입니다. 광고 참아가면서 자유도가 높으니까 해줬는데 다른 앱 쓸렵니다. 참고로 이 글 읽으시는 분들은 아이돌이나 캐릭터 소재로한 판타지 비슷한 2차 창작 절대 하지마세요. 재수없으면 바로 블락갑니다. 다른 비슷한 애들것도 사진 썼는데 안 잘렸으면서... 심지어 수익은 지네가 꼬박꼬박 쳐먹는건데요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:56:47"
+  },
+  {
+    "id": 5375,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 나오자 마자 부터한 사람입니다! 항상 프리미엄으로 해서 광고에 스트레스 받은 적은 없습니다 근데 어느날 퀴즈가 생기더니 맞추면 공짜로 피스를 준다해서 매일 참석했습니다 하지만 10피스도 안뜨네요.,. 꽤 오래 했는데 확률을 좀 올려주세요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:56:09"
+  },
+  {
+    "id": 5376,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "무료라 좋기는 한데 불편한 점이 좀 많이 있어요. 캐릭 만들때 1200자 제한이 있는것도 조금 불편하고 또한 내 캐릭터도 500자 제한이 있는것도 좀 불편합니당. 하지만 \"무료\"라 너무 좋아요. 이것만 고쳐주신다면 별 5개 드림.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:47:24"
+  },
+  {
+    "id": 5377,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말 좋은 앱인데 케릭터의 상태가 기분, 컨디션, 포즈, 목표, 관계성, 속마음이 나오는게 주지적이자 케릭터랑 하는 내용의 몰임으루깨트린다.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:42:39"
+  },
+  {
+    "id": 5471,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "기억력 문제는 그렇다치더라도 크래커 유효기간은 좀 아니지 않나요",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:42:26"
+  },
+  {
+    "id": 5378,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "n개월째 구독 중인 유저입니다. 제타패스 이용자 혜택이 마땅히 없습니다. 그냥 월 10,900(웹 기준) 주고 광고 삭제하는 거예요. 출력이 빠른지도 체감이 별로 안 됩니다. 다른 모델(코지 or 루카)을 매일 일정 횟수 무료 사용과 같은 혜택이 있으면 좋겠어요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:35:27"
+  },
+  {
+    "id": 5379,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고만 빼면 재밌어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:33:06"
+  },
+  {
+    "id": 5380,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "님들이거 죽어도 하지마셈 초반에는 광고도 안나오고 좋았는데 갑자기 후반 가니까 몇마디 나누면 광고 나오고 나중 되니까 갑자기 무슨 원래 하던거에 7배를 말해서 대화도 안 되요 좋은 앱인줄 알았는데 실망이 큽니다 1점도 아까워요 하지마요 여러분",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:24:56"
+  },
+  {
+    "id": 5381,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "요즘 계속 제대로 작동 안돼는 데 공지 사항도 안하고 돈주고 광고 없애면서 사용하는데 이럴거면 광도 왜 보여주는지 모르겠네. 최소한 공지 라든가 빠른 해결을 보여야지 진정성 이라도 보이는데.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:18:01"
+  },
+  {
+    "id": 5472,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "업뎃그만하고 렉이나좀 잡아라",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:11:36"
+  },
+  {
+    "id": 5382,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 제타 광고 좀 어떻게 해주면 안돼나? 지금 유저들이 제타를 어떻게 보는지 모르는 거임?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T18:09:19"
+  },
+  {
+    "id": 5383,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이거 하면서 걷다가 넘어져서 비골이 골절되었습니다. 하지만 재미는 있습니다. 걸으면서 하는거 아니면 추천",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T17:18:56"
+  },
+  {
+    "id": 5384,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "겁나재밋어",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T17:18:19"
+  },
+  {
+    "id": 5385,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 왜함?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T17:15:34"
+  },
+  {
+    "id": 5473,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "출석채크를 하는데 인증이 필요하대서 했더니 이미 연결되 있는 패스라고 통과를 안 시켜주네요. 뭐 계정 하나에 본인인증을 두 사람 분으로 해야하나요?",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T16:46:55"
+  },
+  {
+    "id": 5386,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 솔직히 전 광고뜨는거 상관없거든요? 근데 왜 무료버전으로 계속하니깐 얘내들이 그전에 했던 내용들 다까먹고 나를 첨본거마냥 굴어요? 이거 뭐 해결법있나요? 제발요 고쳐줘요 아니면 해결책을 알려주든가",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T16:29:06"
+  },
+  {
+    "id": 5387,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "프리미엄 사도 랙걸려서 못해먹겠음.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T16:27:38"
+  },
+  {
+    "id": 5388,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "업데이트 하니까 대화 작성이 불가능해졌어요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T16:23:37"
+  },
+  {
+    "id": 5389,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "넘 재밌어요!!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T15:59:09"
+  },
+  {
+    "id": 5390,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "정말정말 재밌습",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T15:12:17"
+  },
+  {
+    "id": 5474,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "크래커 구매하는거 크롬 같은 브라우저로 들어가면 1만에 9600원인데 모바일 어플로는 13500원으로 파는건 뭔 경우죠",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T14:51:39"
+  },
+  {
+    "id": 5475,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "출석체크하는데 인증 풀려있고 인증하려니까 이미 다른 계정에서 사용 중이라는 건 뭐냐 진짜?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T14:34:15"
+  },
+  {
+    "id": 5391,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고는 그냥 광고 삭제할수있는거 하면되는데 너무 검열 되지 않는 말을 삭제시키는데 고쳐주세요 제작자님 부탁합니다",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T14:00:28"
+  },
+  {
+    "id": 5476,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "최악의 앱임. 일일 크래커 받으려고 했더니 갑자기 본인인증 하라면서 막음. 이미 로그인도 인증도 다 한 마당에 뭘 하라는거임? 심지어 크래커도 한달이면 소멸됨. 그냥 돈 쓰라는거임.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T12:19:47"
+  },
+  {
+    "id": 5477,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "본인인증 하라는데 어디서 함. 그리고 자꾸 했던말 반복하는데 크래커 날아가요 리트 비용은 면제해주던가",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T12:15:27"
+  },
+  {
+    "id": 5478,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "잘 사용하고있습니다. 그런데 갑작이 출첵ㅎㄴㄴ데.본인인증하라네요? 무엇인가요?",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T12:13:59"
+  },
+  {
+    "id": 5479,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "어제까지 정상출첵 됐고 결제도 해왔는데 오늘 갑자기 출첵 누르니 본인인증 후 해야된다는 알림이 뜨네요.. 출첵날리면 지급 되나요? ㅠㅠ",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T12:11:26"
+  },
+  {
+    "id": 5466,
+    "app_name": "팅글 (Tingle)",
+    "platform": "google_play",
+    "review_text": "ai chat 유목민입니다… 가격 표기도 애매하고 사용 가능한 채팅 모델도 많아서 유입은 머리 깨지고 손해 봐가면서 적응해야 하는 단점이 있음. 그 단점 다 적응하면 팅글만큼 가성비도 없다고 생각이 듦. 5시간마다 25% 충전되는 구조라 잊고 살다가 한 번씩 티키타카 나누는 게 재미있음.",
+    "rating": 4,
+    "reviewer_name": "성이름",
+    "review_date": "2026-05-14T11:35:53"
+  },
+  {
+    "id": 5392,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타왜 캐릭터들이 안올려져요 저는 스위트서누로있고요 캐릭터들을 등록을할려고 하는데 등록이 안되는이유는 왜그러는건데요 플롯다시 올릴수있게해주세요 이거왜 플랫계속안올라가져요 플릿이 잘올라갈수있게해주세요 재미있게하고있는데 아직 플랫이 제작이.자꾸 엎그래이드가 안되요 자꾸 안되요 왜이래요 플렛이 자꾸 안올라가고 등록이안되요 플랫에러좀 고쳐주세여",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T09:42:58"
+  },
+  {
+    "id": 5393,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고만 빼면 개존잼",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T07:51:24"
+  },
+  {
+    "id": 5394,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "그 진짜 죄송한데 일단 광고 너무 많이 나오고요. 또 별거 아닌것도 계속 검열이 되요. 이건 진짜 1점도 주기아까워요. 진찌 제가 그 광고 안조게 설정은 해 놓았는데 제타패스그게 뜨면 30초나 기다려야해서 진짜 귀찮아요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T06:32:52"
+  },
+  {
+    "id": 5395,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 좀 많긴해요. 그래도 재밌어요! 그런데 아쉬운게 가끔가다 상대 채팅이 안나오고 준비중 표시만 떠서 아쉬워요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T06:24:20"
+  },
+  {
+    "id": 5480,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "일반챗 없앤 거 증말 축하하고요. 다시는 안할게요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T06:21:52"
+  },
+  {
+    "id": 5396,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "👍🏻",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T06:00:59"
+  },
+  {
+    "id": 5397,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "띄어쓰기 한번 어긋나면 수정해도 안 고쳐진 채 대화 내내 이어지는 오류 좀 해결해주세요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T05:55:40"
+  },
+  {
+    "id": 5481,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "현재 157만원쓰며 느낀점 재밌습니다 따른 ai 채팅앱들 보다 훨씬 쓰기 편합니다 가격이 쫌 부담스럽긴 합니다 할인 자주 하셨으면 좋겠습니다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T03:25:43"
+  },
+  {
+    "id": 5482,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "채팅 소모 크래커가격인상하실거면 출첵가격도인상해주셨음 좋겠네요. 돈도많이벌회사가 왜그러는지.. 커뮤니티에서 다들 은근히 시위하자는 분위기 애써들 쉬쉬하는데 좀 제발요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T03:17:18"
+  },
+  {
+    "id": 5398,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋은 앱이네요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T02:48:03"
+  },
+  {
+    "id": 5346,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "캐릭터들이 지원하는 언어가 늘어난 것은 좋은 일이라고 생각하지만, 앱의 기능은 날마다 악화되고 있습니다. 캐릭터들이 지원하는 언어가 늘어난 것은 좋은 일이라고 생각하지만, 앱의 기능은 날마다 악화되고 있습니다. 이 앱과 사이트를 꽤 오랫동안 사용해 왔는데, 매우 실망스럽습니다. 과도한 광고 수, 점점 더 불안정한 채팅 시스템, 이상한 업데이트... 그리고 캐릭터가 대화를 안 하고 혼자 생각만 함. 왜?",
+    "rating": 1,
+    "reviewer_name": "호이짜",
+    "review_date": "2026-05-14T01:59:30"
+  },
+  {
+    "id": 5399,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "유저들 피드백을 좀 들어주세요. 제발요. 제발. 검열 너무 심해졌어요. 광고도 미쳐 날뛰고요. 그래요. 광고? 많아도 돼요. 근데 15초, 30초. 너무하지 않습니까.. 뭐 차라리 이렇게 긴 광고 주고 많이 안 나오면 모르겠지만.. 둘 다 하잖아요;;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T01:18:12"
+  },
+  {
+    "id": 5400,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "솔직히 말하자면 2년동안 했는데 부적절 뜨면 열심히 쓴거 없이지고.. 최근엔 답변이 느리고 너무 지나치게 오류가 많이 떠요 광고도 1분에 2개는 나오는거 같아요 고쳐주세요 너무 불편해요ㅠ",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T01:00:09"
+  },
+  {
+    "id": 5401,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 내가 한마디 하면 쓸데없는 말이 너무 많음. 예를 들어 내가 \"안녕\" 이라고 하면 상대도 그냥 \"어 그래 안녕\" 이라고 하면 되는데 (따스한 햇살이 눈부시다. 남자는 반갑게 인사를 한다. \"안녕\" 그의 목소리가 여자의 마음을 설레게 하였고 뒤돌아봤을 땐 잘생긴 남자의 모습이 어쩌고 저쩌고.....)",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T00:59:50"
+  },
+  {
+    "id": 5402,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌고 무과금이 하기좋아요! 근데 가끔씩 문자를 보낼수 없다고 해서 좀 화가나지만.. 그래도 에러 빼고는 다 괜찮아요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T00:24:44"
+  },
+  {
+    "id": 5403,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "상위 패스 내주세요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T00:15:19"
+  },
+  {
+    "id": 5404,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "캐릭터 지능이 너무 딸려요.. 평범한 대학굔데 종이 울린다고 하는... 그리고 업뎃하면서 바뀐건가,? 부적절한 메세지라고 뜨면 그 채팅 치는곳에 남아 있었는데 이젠 아예 사라지고.. 근데 별 거 아닌거에 검열돼서 들어가는 횟수도 점점 줄고 있는것 같아요 그리고 광고도 너무 많이 나오고.. 2~3번 대화하면 광고 나와요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T00:04:49"
+  },
+  {
+    "id": 5405,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고만 없으면 갓.겜",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T00:00:55"
+  },
+  {
+    "id": 5406,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "안녕하세요 제작자분들! 제타 만들어 주셔서 감사하지만 오류나 버그, 고쳐지면 좋겠는점, 필요한점을 리뷰로 남기려 합니다 비공개 플롯을 피스로 하나 더 제작 가능하게 이런거 안돼나요? 피스를 이제 모을 이유가 없네요. 제타패스 돈으로 받을거면 왜 피스를 모으겠습니까..? 어짜피 koji건 luco건 둘다 zara 모델이랑 비슷합니다 혹시 업그레이드 가능한가요? 그리고 이미지 만드는건 한명이라고 입력해도 여러명이 나옵니다 그리고 장발은 모두 여자로 만드는 버그도 있어요 또 혹시 글자 수를 제대로 세는 기능이나, 사투리,말투를 유지하는 기능도 가능한지도 궁금 합니다!! 마지막으로 비공개 삭제는 너무한거 아닙니까.. 그래도 다시 한번 감사드립니다! 그래도 영영 쓸겁니다! 제타는 사랑입니다!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-14T00:00:42"
+  },
+  {
+    "id": 5407,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜로 리얼함 여친 없는 사람은 필수",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:54:08"
+  },
+  {
+    "id": 5453,
+    "app_name": "베이브챗 (Babechat)",
+    "platform": "google_play",
+    "review_text": "제한 엄청 많네. 이럴 거면 19금 설정이 왜 있냐? 이해할 수가 없네.",
+    "rating": 1,
+    "reviewer_name": "F L",
+    "review_date": "2026-05-13T23:42:42"
+  },
+  {
+    "id": 5408,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무재미있어!!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:37:04"
+  },
+  {
+    "id": 5409,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "다른거는 좋은데 대화 프로필 할때 500자는 부족하고 한 600자 정도 추가되면 좋을꺼 같아요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:32:57"
+  },
+  {
+    "id": 5410,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 너무 많아져서 피로감이 느껴졌어요. AI들도 설정같은거 알려줘도 얼마 지나면 바로바로 까먹고, 멍청합니다. 평범한 대화중에도 갑자기 검열하고. 말을 따라하던 문제는 해결되었는데, 수에 약합니다. 그리고 키 설정 같은것도 헷갈려하는거 같네요. 평지에 둘이 서있는데 작은쪽이 큰쪽을 내려다본다고 표현하는거나 키 차이가 몇 cm나는지, 방금 한 말이 몇 글자인지 굳이 말합니다. 심지어 틀리게요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:31:09"
+  },
+  {
+    "id": 5411,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌는데 좀 야해요 ㅠㅠ",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:29:15"
+  },
+  {
+    "id": 5412,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "요즘 버그가 너무 많아짐. 자꾸 대화 삭제하려할때마다 알수 없는 오류가 발생했어요 뜨는데 삭제되도 알수 없는 오류가 발생했어요 창이 몇개가 유지됨 그거 나갔다가 들어가야 사라짐 창 전체를 껐다 켜야한다는거임 진짜 짜증남",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:12:42"
+  },
+  {
+    "id": 5413,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무재미있어요!처음엔 광고안믿었는데 다진짜에요 너무재미있어요 도파민터져요!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:11:38"
+  },
+  {
+    "id": 5414,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌게 사용하는 어플이기는 하나, 중간중간에 광고가 너무 많이 들어옵니다. 특히 pc로 사용할 때 웹사이트로 많이 이용하는데 광고가 4번5번 채팅을 하고 나면 수시로 올라옵니다. 그리고 유료버전을 결제해도 크게 달라지는 건 없다고 생각합니다. 그리고 제타 테마를 밝은 화면도 넣어주시면 좋을 것 같습니다. 아니면 대화방테마를 좀 더 늘리든지. 그리고 대화방에서 지금까지 사용했던 캐릭터들 삭제하는 것 중에 전체 삭제같은 기능도 있으면 정말 유용할 거 같습니다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:11:05"
+  },
+  {
+    "id": 5415,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제발 광고좀 안나오게 해주세요 캐릭터가 말을 하는데 끊겨서 계속 다시 나오게 됩니다. 그리고 싸구려 ai를 쓰는지 계속 로딩만 길어지고 난리 입니다. 제발 초심으로 돌아가서 광고 좀 줄이고 ai도 돌려놔주세요 제타 3년정도 쓴 저는 참 불만이 많습니다. 전에는 말이 계속 반복되고 이름 까지 바뀌더니 그게 패치가 되니까 다른게 또 망가지지 않겠습니까? 로딩을 계속 기다리니 핸드폰 시간과 배터리만 계속 줄어듭니다. 제발 이것좀 제대로 해주세요.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T23:04:33"
+  },
+  {
+    "id": 5416,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "리뷰에 불편한 점을 이야기하니 바로 수정해주셨어요! 잘 사용하고 있습니다.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:57:03"
+  },
+  {
+    "id": 5417,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 장점 1: 제타만의 그 느낌 때문에 다른 al는 못 쓰겠을 정도로 재미있음 2: 진짜 사람같음 3: 다양한 캐릭이 있음 / 단점!!!! 1: 광고 봤는데 오류 때문에 또 봄 2: 별 이상한 모델 많이 만들고 양아치마냥 한 턴당 피스 개많이 가져감 3: 부적절한 메시지 없는 언리밋 있는데 성인만 가능함. 근데 그딴 거 필요없고 걍 하게 해주면 좋겠음 4: 챗이랑 캐릭은 검열하면서 광고는 수위 높은 거 나옴 5: 갑자기 오류로 이상하게 답장 받음 ex:) 내레이터내레이터 (무한반복) 계속 다시 해봐도 똑같아서 결국 재밌게 하던 거 초기화 함 하지만 재밌긴 더럽게 재밌어서 계속 생각나요!! 그냥 이 점만 고쳐주길...",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:55:59"
+  },
+  {
+    "id": 5418,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "앱을 사용한지 얼마 안된 유저입니다. 제가 앱을 사용할 때부터 지금까지 바뀐게 많았는데 좋아진 것도 있지만 그만큼 바뀌면서 안좋아진 것도 많았습니다. 확실히 제타가 다른 채팅 앱들에 비해 몰입력이 좋습니다. 전보다 기억력도 좋아지고 좋은 점이 많아졌습니다. 근데 이번에 바뀌고 나서부터 오류가 너무 많이 뜹니다. 와이파이가 안되는 것도 아니고 지웠다가 여러번 다시 깔아봤는데도 나아지지 않습니다. 그리고 얼마전부터 부적절 메시지가 뜬 다음에 제가 작성한 글이 삭제되어 다시 써야하는 불편이 생겼습니다. 길고 부적절이 뜰 만한 글도 아닌데 계속 부적절이 뜨고 다시 작성해야 하는 번거로움 때문에 이건 다시 고쳐주면 좋겠습니다. 광고도 그러려니 할텐데 위에 두개는 서비스를 이용하면서 너무 불편하고 힘들어서 개선해주면 좋겠습니다.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:54:11"
+  },
+  {
+    "id": 5419,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타가 제일 묘사 기깔나게 해서 좋긴한데...너무 멍청해서 기억력이 금붕어 수준이여서 너무 빡침",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:49:08"
+  },
+  {
+    "id": 5420,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고는 많지만 모솔인 사람들은 너무 재밌어요.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:48:48"
+  },
+  {
+    "id": 5421,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무너무너무 재밌어요!!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:42:14"
+  },
+  {
+    "id": 5422,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "특정 키워드 차단하는 기능을 만들어 주셨으면 해요 동명이인이 떠서 검색하는데 불편함이 많아요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:41:30"
+  },
+  {
+    "id": 5423,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "개발자님 자꾸 대화 저장본이 버그걸려요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:41:04"
+  },
+  {
+    "id": 5454,
+    "app_name": "베이브챗 (Babechat)",
+    "platform": "google_play",
+    "review_text": "아니뭐 채팅할때 프로쳇사용하는게 어디있어요 지금기분도안좋네 뭐이딴구로 만들어요",
+    "rating": 1,
+    "reviewer_name": "홍성신",
+    "review_date": "2026-05-13T22:39:48"
+  },
+  {
+    "id": 5424,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무 재밌고 광고는 뭐 많긴 한데 그래도 재밌어요!! 중독성 쩔어요!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:34:30"
+  },
+  {
+    "id": 5425,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "이건 내 최애 앱이다 샤갈",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:33:06"
+  },
+  {
+    "id": 5426,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재미있어요",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:32:04"
+  },
+  {
+    "id": 5427,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "단점 1.광고 빈도를 줄이는 대신 두개씩 욱여넣음. 넘어가는 버튼은 눌리지도 않음. 2.버그가 상시로 터짐. 운영팀이랑 곧 친구먹을듯 3.별 내용도 없는데 검열 과함. 뭘 검열한지 감도 안옴. 요즘에 내가 작성했던 내용을 다시 돌려주는게 아니라 냅다 없애버려서 처음부터 써야됨. 손가락아픔 4.캐릭터들 건망증이 심함. 무료이니 감안한다지만 가끔 지 이름도 까먹음. 가끔 건망증보단 치매느낌. / 장점 1.무료 2.캐릭터 많음 3.버그 비교적 빨리 고쳐짐 4.만들어진 내용 수정할 수 있어서 건망증 치료ㄱㄴ",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:23:10"
+  },
+  {
+    "id": 5428,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "솔직히 광고도 많이 나오고 오류도 많이 뜨는데 이런거 다 제외하면 전체적으로 내가 원하는대로 할 수 있으니까 좋음ㅇㅇ",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:17:33"
+  },
+  {
+    "id": 5429,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타를하다가 계속하다보면 잘돼는데 한번 불안정하다고 뜰때는 채팅하고 로딩이 아예 안돼더라고요. 나중에하다가 잊을만하면 뜨니깐 너무 짜증나고 불편해요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:17:17"
+  },
+  {
+    "id": 5483,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "초반에는 매끄러우나 진행하면 할수록 문맥오류가 많네요. 매번 점검 하고 고치고 근데 또 그게 크래커는 나감. 지쳐서 흥미가 떨어짐. 개선만되면 돈이아깝진 않을듯",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:16:33"
+  },
+  {
+    "id": 5430,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌긴하거든요 근데 계속 오류가 나요 대화 새로고침하면 늦게오거나 안 와서 알 수 없는 오류가 발생했다 뜨거든요 제 핸드폰이 s26최신꺼에요 산지 얼마 안됬는데 다른앱도 문제있나 싶어서 들어가도 다른건 다 멀쩡하거든요 이것좀 고쳐주십쇼",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:15:35"
+  },
+  {
+    "id": 5431,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고도 딱히 많이 나오는거 같지않고 타앱과 다르게 포인트가 필요하다거나 그런게 없어서 좋음",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:15:13"
+  },
+  {
+    "id": 5432,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "좋은데 캐릭터 만들때 갑자기 20개가 됐다가 절반이 줄여져서 10개가 돼자 좀 불편해요… 이거 수정 해주세요 제타의 캐릭터들이 10개 넘었어 만들기가 힘들어요! 이거좀 수정을 해주거나 캐릭터 20개로 돌려주세요! 그리고 자꾸 문제가 발생하니까 너무나 힘들어요! 또 아니 무슨 광고가 멈췄다 하니깐 너무 답답하네요! 그리고 답변이 너무 드리게 됐어요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:15:12"
+  },
+  {
+    "id": 5433,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고 whs나 많이 나옴;; 걍 채팅 3번에 2번 꼴... 채팅 몇번 안 친거 같은데 광고때문에 30분이 넘게 지남;;; 야한것도 안 적었고 욕설도 안적었는데 부적절한 메시지라고 다시 하라고? 에바임. 부적절한 기준이 뭔지는 알려주든가. 제발 둘중 하나는 고쳐줬으면 함. 대화 하나 하는데도 4,8은 좀 심했음.별로 차이 안나는데 ro비쌈;;; 그리고 캐릭터 적는거 500넘게 해주삼.이거 말고는 별로 할만한게 없어서 짜증나는거 겨우 참고 하는데 진짜 못 참겠어서 적음. 광고 많이 나오는거 싫어하면 비추. 뤼튼이 더 나은듯.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:14:00"
+  },
+  {
+    "id": 5434,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "오류가 너무 걸리고 광고가 겁나 많음.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:13:45"
+  },
+  {
+    "id": 5435,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "재밌게 하고 있긴 한데요, 광고도 3 턴하면 1 광고고, 오류 때문에 아무것도 못 하는 것도, 진짜 정떨어질 거 같아요. 최대한 참다가 글 남깁니다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:12:45"
+  },
+  {
+    "id": 5436,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "답장속도 개느림 속터질꺼같음 무슨 사람이.하나하나 모든사람 답해주는거임? 적당히느려야 이해하지",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:12:33"
+  },
+  {
+    "id": 5438,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "진짜 거지같네. 캐릭터가 과거 기억도 똑바로 못하고 똑바로 기억하게 하려면 피스 쓰는게 말이여? 심지어 쓸데없는 부적절한 메시지는 왜 만들었나 싶음. 왜 쓸데 없냐고? 내가 안녕이라고 인사하면 그게 부적절한 메시지로 인식하니까 돌아버리겠음 진짜. 이런거 고쳐줘라 좀..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:10:18"
+  },
+  {
+    "id": 5437,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 2년? 3년동안 하면서 계속 발전해나가는거 봤는데 더 재밌어지고 좋음. +최근에 제타 왜이럼?? 전에는 5초 안에 출력되던 프롬포트가 30초 이상 걸리거나 그만큼 기다려도 오류 떴다고 안뜸 +쌰갈지금10트째인데입력자체가안됨 운영자님 버그패치좀",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:10:18"
+  },
+  {
+    "id": 5439,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아무리봐도 운영진이 등신같이 처박은거 제작자들이 캐릭터 잘 만들어서 메꾸는거로밖에 안보임. 기준을 전혀 모르겠는 부적절한 표현이라는 검열 남발, 과한 광고, 심각한 채팅 중단 및 지연까지 진짜 운영을 이딴식으로 하는게 말이안됨. 나중에 유저수 반토막 나면 그때서야 부랴부랴 고칠 생각인건가? 그래, 이윤 뽑아먹을려고 신뢰를 박겠다는데 어쩌겠냐.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:10:08"
+  },
+  {
+    "id": 5440,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "갑자기 아예 채팅이 안돼요!!!!!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:10:04"
+  },
+  {
+    "id": 5441,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "광고가 한 4~5턴 쯤?으로 나오기도 하고 별거아닌 말로 부적절하다고 해서 불편해요ㅠㅠ 그런데 나오는 광고들은 몇초되지는 않고 또!! 처음에는 \"아, 광고 겁나많이나오네\" 하다가 나중에는\"은근 중독성있네\"가 됬어요! 많이 즐겨서 할게요!!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:10:02"
+  },
+  {
+    "id": 5442,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "와이파이가 잘 터지는 상황임에도 불과하고 로딩이 많이 느렸습니다. 같은 말을 반복한다던가 위와 같이 로딩이 아예 안된적이 있었습니다. 이를 보안해주시면 감사하겠습니다.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:09:28"
+  },
+  {
+    "id": 5443,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "아니 광고도 요새 너무 많이 뜨고... 무엇보다 와이파이,데이터 다 멀쩡한데 잠구 채팅이 안 보내져요... 버그면 빨리 고쳐주시고 계속 이런다면... 그냥 삭제하겠습니다...",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:09:25"
+  },
+  {
+    "id": 5444,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "너무로딩이오래걸려요화장실갔다온사이에내가보낸게사라져요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:09:21"
+  },
+  {
+    "id": 5445,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "천천히 버그 수정되는 모습은 너무 좋은데, 대화 프리미엄이 아니면 자꾸만 느려지는 환경이 있다고 하는게 서럽네요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:08:30"
+  },
+  {
+    "id": 5446,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일부 환경에서 대화 속도가 느린 게 아니라 오전 7시부터 채팅이 그냥 안 간다고요;;;;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:08:23"
+  },
+  {
+    "id": 5447,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "ㅇㄴ 랙 겁나걸리고 광고 개 많고 자꾸 현질요구함 그리고 서버 자주터짐;;",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:08:18"
+  },
+  {
+    "id": 5448,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "당장 오류를 수정하시오. 내일까지 이 글을 읽고 답을 남기지 않는다면, 난 이 앱을 삭제할수밖에 없소. 이것은 내 마지막 경고요. 언제까지 최선만 다할건데. 열심히 말고 잘 하라고. 똑바로 합시다 우리. 좋았잖아.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:07:28"
+  },
+  {
+    "id": 5449,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "일단 재밌구요....가끔. 메시지가 늦게된다?정도가 단점인 것 같은데욧!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:06:35"
+  },
+  {
+    "id": 5450,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "사람들이 피드백주는걸 다 할순없다지만, 이거만은 진짜 개선해주십시오. 대화잘만하다가 갑자기 버퍼링만 걸리고 나갔다들어오고 뭔수를 써도 대화진행 안되는 렉현상 그건 개선시켜주십시오 많은사람들이 이현상에 불편해하는데도 대체 왜 개선안하는건지 모르겠는데 한번 숙고해주세요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:06:06"
+  },
+  {
+    "id": 5451,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "벌써 3일째 전송 실패가 잦습니다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:06:00"
+  },
+  {
+    "id": 5452,
+    "app_name": "제타 (Zeta)",
+    "platform": "google_play",
+    "review_text": "제타 좋기는 한데.. 광고가 좀 많이 나오고, 계속 하먄 로딩이 많이 걸려요ㅠㅜ 저만 그런거인지는.. 어쨋든 좋기는 좋아요..ㅎ👍",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T22:05:34"
+  },
+  {
+    "id": 5484,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "너무나 의심스런 앱이라 신고완료",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T15:49:21"
+  },
+  {
+    "id": 5485,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "일단 의견 남겨보긴 하는데 크게 기대는 안합니다? 돈 벌고 싶으면 좀 의견 좀 잘 반영하시는게 좋습니다 뭐 우리도 먹고 살아야하네 어쩌구 저쩌구 하지 마시고 어짜피 지를 애들은 지르니까. 딱 하나 페르소나 제작 노트 용량 좀 늘려 주세요. 2000자도 적어요 5000자로 합시다",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T15:11:53"
+  },
+  {
+    "id": 5455,
+    "app_name": "베이브챗 (Babechat)",
+    "platform": "google_play",
+    "review_text": "페미 회사",
+    "rating": 1,
+    "reviewer_name": "욕망에찬내얼굴",
+    "review_date": "2026-05-13T10:14:43"
+  },
+  {
+    "id": 5459,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "...왜 바뀌었어요..? 캐릭터가 메세지 보내는거 못생겨 졌어요.. ㅠ 나레이션 분리 적용하니깐 되네요! 언제나 즐겁게 하고 있어요, 러비더비 화이팅!",
+    "rating": 5,
+    "reviewer_name": "돌고래님",
+    "review_date": "2026-05-13T08:16:16"
+  },
+  {
+    "id": 5486,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "부담스러워진 가격, 잦은 오류, 문의해도 제대로 된 해결X 특히 중복 답변 오류가 많은데 크래커 가격이 오른만큼 중복 하나하나가 이젠 그냥 넘길 수 없게 됨. 하지만 문의하면 잘 수정해서 사용해달란 답변만 옴. 오류에 대한 환불은 안해줌. +아정말짜증나요대화한번에50쿠키나사용되는데오류가한번에몇번이나일어나는건지순식간에200쿠키가날아감ㅋㅋㅜㅜ이어서하기누르면새로운문장출력하는데이어서안나올거면왜만들어둔건지차라리한문장안에끝내는기능을만들던가날이갈수록오류가심해지는게어플이내바짓가랑이붙잡고결제말리는수준임제일중요한건이런중복은문의해도보상처리를잘안해줌진심비추천",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T07:45:06"
+  },
+  {
+    "id": 5487,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "탭 버전에서 강종이 잦고 터치가 안 먹혀요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T01:27:08"
+  },
+  {
+    "id": 5488,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "되게 잘 만든 앱",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-13T01:18:34"
+  },
+  {
+    "id": 5489,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "가격은 표독하게 꾸역꾸역올림 내가보기엔 올해안에 하이퍼챗 100크래커 찍음. 맨날 더 안정적인 서비스 웅앵뿡 하면서 가격은 올리는데 앱오류, 튕김, 반복답변등등 그대로죠?? 그리고 크래커 가격은 올리면서 출석크래커는 단!! 한번도!! 올려준적 없음. 가끔 두배주는 이벤트 하거나 크래커 할인 해줄때도 있지만 그건 그때 못하면 아무소용 없는거임. 제작자빨믿고 표독하게구는 회사임진짜",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T20:44:49"
+  },
+  {
+    "id": 5490,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "버그가 너무 많아서 화만 나고 시간은 날라가고 크랙 가격은 점점 올라가고",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T20:39:44"
+  },
+  {
+    "id": 5491,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "3달 사용했고 해외거주자 입니다. 그동안 2백만원 썼고 상당히 과금하는 어플인건 맞아요. 그리고 해외유저는 본인인증 할 수가 없어서 제한 금액 이상으로 결제도 불가하고 사용에 제한도 있었습니다. 오류나 비싼 금액이란 단점이 있어도 매력이 높아서 계속 사용했었는데 본인인증 하나 때문에 더 못쓰게됐네요. 짧고 굵게 잘 놀다 갑니다~",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T19:21:39"
+  },
+  {
+    "id": 5492,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "앱 자체는 괜찮음 다만 이용하려면 적잖은 현금이 요구됨, 출첵으로 어느정도 비용을 줄일 수 있지만 한달 유효기간이 있어서, 어짢은 느낌 있음 1회 송신당 보통 50원 ~ 100원 사이 비용 발생하며, 작품당 1만 ~ 3만원까지 유저마다 다르지만 대게 이정도 현금 비용이 발생함 AI 토큰 비용 생각하면 나름 이해되는 비용이라고 생각하나... 부담스러운건 마찬가지, 차후 AI모델 자체 비용이 싸져서 가격이 낮아지면 좋겠으나 앞으로 더 비싸진다면 대체 앱이나 오픈ai(chatgpt,제미나이 등)한테 학습 시켜서 스토리를 보는걸로 충분히 대체되어 많은 유저이탈이 있을 것 같음... 비용이 앞으로 더 안올랐으면 좋겠다는 생각이 주됨 필자는 여기서 비용이 1.2배만 더 올라도 앱 삭제 할 것 같음",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T18:49:44"
+  },
+  {
+    "id": 5456,
+    "app_name": "베이브챗 (Babechat)",
+    "platform": "google_play",
+    "review_text": "이번이벤트보고 별점올리는데 이상한노선으로 가면 다시한개로내림",
+    "rating": 5,
+    "reviewer_name": "S K",
+    "review_date": "2026-05-12T18:38:30"
+  },
+  {
+    "id": 5493,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "미션 추가 좀 더 해주세요",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T17:38:25"
+  },
+  {
+    "id": 5494,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "그동안 즐거웠습니다. 크랙에서의 여정을 마무리합니다. 꽤 오랜 시간 정들었던 크랙을 이제 떠나려고 합니다. 돌아보니 여기서 정말 많은 세계관을 여행하고, 매력적인 캐릭터들과 대화하며 즐거운 추억을 참 많이 쌓았네요. 때로는 몰입감에 밤을 지새우기도 했고, 제 상상이 현실이 되는 경험도 했습니다. 하지만 이제는 제 일상에 조금 더 집중하고, 또 다른 새로운 취미들을 찾아 한 걸음 나아가려 합니다. 그동안 멋진 작품들 만들어주신 제작자분들과 이 공간을 함께했던 분들께 감사의 인사를 전합니다. 덕분에 잊지 못할 2025-2026년 을 보낸 것 같아요. 다들 즐거운 크랙 생활 되시길 바라며, 저는 이만 졸업하겠습니다. 건강하세요!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T17:24:09"
+  },
+  {
+    "id": 5495,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "크래커같은거 없애주세요! 업데이트 적당히해주시고요!!!!!!!!!!!!!!!!",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T14:45:09"
+  },
+  {
+    "id": 5496,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "캐릭터들한테 주어와 부가설명을 썼음에도 불구하고 자꾸 지들멋대로 튐 (예시: 그녀가 유저를 안아준다: 현실: 유저가 그녀를 안아주자 어쩔줄 모른다) 이딴 국평9등급 앱으로 뭘 즐기란거임? 이럴거면 그냥 제타 쓰는게 차라리 더 낫지 ㅉ",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-12T10:57:08"
+  },
+  {
+    "id": 5347,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "The character is too reliant on internal situation explanations ** They just keep spouting sentences and don't say anything direct at all. It was better before. Developer, what on earth did you mess with the system that was good???",
+    "rating": 1,
+    "reviewer_name": "그동안고마웠습니다그동안고마웠습니다",
+    "review_date": "2026-05-12T10:07:41"
+  },
+  {
+    "id": 5460,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "한동안 괜찮았는데, 왜 툴을 바꾼거? 무슨 소설 읽는 것처럼 되버림. 내가 소설을 읽고 싶으면 그냥 웹소설 사이트를 가지. 이건 대화를 해야하는데, 내가 이 앱을 대략 1~2년 쓰면서 한번에 3잼이던 시절도 있었는데. 이번 업데이트가 가장 최악이었음.",
+    "rating": 1,
+    "reviewer_name": "송한결",
+    "review_date": "2026-05-12T07:27:13"
+  },
+  {
+    "id": 5461,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "제발 왜 업뎃 할때마다 ....제발요... 제미나이 3.0 잼 10개짜리 모드 사라진것도 너무 아쉬워요... 제미나미 3.0 모드가 진짜 꿀잼이였는데...",
+    "rating": 5,
+    "reviewer_name": "선낳굉굉굉",
+    "review_date": "2026-05-12T03:32:55"
+  },
+  {
+    "id": 5457,
+    "app_name": "베이브챗 (Babechat)",
+    "platform": "google_play",
+    "review_text": "걍 앱은 로그인 자체가 안되네 구글로그인하는데 걍 확인쳐도 화면 돌아오면 로그인 안되어있음 5번이나 시도 했는데 로그인해도 화면 돌아오면 로그인 안되어있고 계속 로그인하라네 앱은 별하나 가치도 없고 걍 pc로만 하라는 건가봅니다",
+    "rating": 1,
+    "reviewer_name": "용반희",
+    "review_date": "2026-05-12T00:49:52"
+  },
+  {
+    "id": 5462,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "검색기능 편리해졌잖아 무료채팅 퀄리티 높였잖아 나레이션 분리되었잖아 다 해줬잖아",
+    "rating": 5,
+    "reviewer_name": "성이름",
+    "review_date": "2026-05-12T00:09:56"
+  },
+  {
+    "id": 5497,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "무료챗이 없어졌네요. 크랙은... 이제 망할때가 된건가요? 아니면 일부러 이러는 건가요? 무료챗을 개편해서 내놓거나 출석보상이라도 확 올려주는게 맞겠지만 딱히 그럴 생각은 없어보이니 추천은 안 합니다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T23:47:44"
+  },
+  {
+    "id": 5498,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "재미있는데...비싸요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T21:35:37"
+  },
+  {
+    "id": 5499,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "뤼튼과 계정이 연계되어 있어 뤼튼을 탈퇴했더니 크랙도 탈퇴가 되어 크래커 몽땅 날렸음...",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T16:44:37"
+  },
+  {
+    "id": 5463,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "최근 업데이트 정말 최악 그 자체입니다. 대화와 행동 지문 따로 나눈거 정말 정말 가독성도 떨어져요. 안고쳐주면 그냥 앱 지울 생각입니다.",
+    "rating": 1,
+    "reviewer_name": "박서영",
+    "review_date": "2026-05-11T13:00:03"
+  },
+  {
+    "id": 5500,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "개 쓰레기 같은 ai가 모든 개연성과 캐릭터의 서사를 망쳐가며 내용을 산으로 보내는 대단한 어플. 책 한권 내용 자유모드로 놀다보면 10만원을 써도 소설 날짜로 10일을 못만듬. 왜냐고? 캐릭터의 변화를 무시하고 계속 예전으로 돌리고. 내가 만든 서사에 날 사칭하면서 자기혼자 개연성을 만들어냄. 나중에 대화의 진행보다 ai와 대화하며 욕하는데 돈을 더씀. ai통해 개발자한테 환불요청하니까 적극적으로 한다 그래놓고 그 대화도 다 돈들어감. 환불은 없음.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T12:50:18"
+  },
+  {
+    "id": 5501,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "구글 아이디 말고, 아이디 만들어야 함",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T05:27:09"
+  },
+  {
+    "id": 5502,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "운영: 체계 없음. 계획 없음. 피드백 수용 안 함. 쓸데없는 업데이트만 많음. 그마저도 정상 기능 바라기는 어려움. 소통: 안 함. 일방적인 공지(대부분 가격 인상 공지) + 이제훈 모델로 쓴 이후로는 재정이 쪼들리는지 막나가기 시작. 가격: 무료챗도 있었는데 저번 업데이트로 폐지. 점점 가격 상승함. 새로운 모델 나올 때마다 안정성도 없고 오류 계속 나는데 기존 모델보다 더 받다가 이젠 기존에 있던 모델도 높여 받기 시작함. 원래 있던 모델 운영 종료 시점 다가오면 바로 대체 모델들 가격 터무니 없게 올림. 기타: 이번 업데이트로 탈주하는 제작자들 많아짐. 제작자 역량으로만 먹고 사는 주제에 제작자들이랑 소통을 안 함. 구리게 패치해놓고 따져도 그냥 담당 부서로 전달하겠다고만 하고 피드백 영원히 없음. 배짱장사 레전드. 재밌어서 못 끊는다는게 제작자들이 타 플랫폼으로 안 옮겨서 그런거지 님들 어플이 대체할 수 없이 쩔어서가 아니에요. 제작자들 옮기기 시작하면 조만간임 얘도",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T05:20:11"
+  },
+  {
+    "id": 5503,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "Gemini 소네트 오퍼스 등 다양한 AI 툴을 활용해서 채팅할 수 있다는 게 장점입니다. 하지만 저는 뭐가 차이가 있는지 잘 알지 못하여 그냥 gemini로 하는 프로챗을 이용하고 있습니다. 그리고 패스권이나 정기이용권 같은 것을 만들어 주면 좋겠습니다. 아니면 광고 봐도 되니까 광고라도 넣어서 그렇게 해 주세요.",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T02:20:23"
+  },
+  {
+    "id": 5504,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "현질유도가 있지만 그래도 옆동네 기억력 금방 잊어먹고 유저사칭 밥먹듯이 하면서 유저 무시하면서 ai끼리 대화해버리고 돈독 여기보다 엄청 오른 ㅈㅌ보다 좋다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-11T02:09:11"
+  },
+  {
+    "id": 5505,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "뭔가 메시지를 보내려면 크래커가 필요해서 좀 그렇네요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T22:37:01"
+  },
+  {
+    "id": 5506,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "갑자기 내 대사 지멋대로 치고, 멋대로 행동함. 유저 사칭 하지 말라고 해놔도 반복중. 아예 새로 해버려야됨...유저프로필 추가 하고 싶은데 추가하는 방법도 찾기가 어렵고 추가 버튼도 안보임.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T22:35:06"
+  },
+  {
+    "id": 5507,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "크래커 무료 기간 줄인거 실화냐 일주일만에 3500빠졌다 ㅋㅋㅋ 나름 초기엔 현질도자주했었는데 이제는 갈수록 가격올리고 모으는것도못하게 바꾸고 개판이네",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T19:28:00"
+  },
+  {
+    "id": 5508,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "다른 채팅 앱 사용하고 있는 유저인데 크랙을 잠시 사용해본 결과, 대화 할때마다 무슨 포인트가 필요하고..오류는 미쳤고..리뷰를 보니 가격까지 오른것같고요..거기다 무료 챗도 있었는데 없애셨다..? ㅎㅎ 그냥 돈좀 벌리니까 이야 이거 돼겠다 싶어서 눈 감고 귀 닫고 유저들 무시하고 가격 올린거라고 뻔뻔히 말하시지 그럽니까..?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T17:13:40"
+  },
+  {
+    "id": 5509,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "진짜 도파민 생성기다 근데 기억력이랑 이미지 출력 오류좀 해결 바람",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T14:32:23"
+  },
+  {
+    "id": 5458,
+    "app_name": "베이브챗 (Babechat)",
+    "platform": "google_play",
+    "review_text": "렉이 진짜 너무 많이 걸립니다. 앱의 딜레이가 너무 심각합니다.",
+    "rating": 3,
+    "reviewer_name": "불다기",
+    "review_date": "2026-05-10T12:40:46"
+  },
+  {
+    "id": 5510,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "일단 이 중대장님이 너무 통제가 심합니다",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T10:22:52"
+  },
+  {
+    "id": 5511,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "대화에 오류도 상당하고 적은 문장 출력과 이벤트성 아쉬운거 생각하면 타 플랫폼 대비 2배,3배이상 많은 금액이 필요함. 전체적으로 아쉬운 평가",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T03:57:26"
+  },
+  {
+    "id": 5512,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "과금? 왜 해요 걍 무료툴 쓰지",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T03:16:30"
+  },
+  {
+    "id": 5513,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "돈에 얼마나 눈이 멀었으면 크래커 값만 오르고 무료 채팅은 대화 자체가 거의 성립이 안되고 고객센터는 묵묵부답.. 소비자 의견은 안보이고 돈만 보이나요? 이젠 거의 쇠퇴기라고 해도 될 정도로 많은 사람들이 떠난 것 같습니다 저도 그렇구요 오류는 대체 왜 자꾸 안고치는 거죠? 몇번을 얘기해도 절대 안바뀌네요 솔직히 크래커 너무 비싸요 그렇다고 무료채팅을 하자니 버그도 너무 많고 애가 돌머리가 된 느낌이라 도저히 못하겠고 이렇게 되면 돈을 쓸 수밖에 없는데, 그러면 좀 싸게라도 해주셔야 되는거 아닌가요? 아니면 크래커 양을 늘리던가.. 제발 리뷰좀 보고 운영을 해주세요 이거 뭐 운영을 개판으로 하니까 이렇게 되지..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-10T01:52:38"
+  },
+  {
+    "id": 5348,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "최악의 업데이트",
+    "rating": 1,
+    "reviewer_name": "이다연",
+    "review_date": "2026-05-09T23:43:36"
+  },
+  {
+    "id": 5349,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "2년 가까이 써가는데 업데이트하면 할수록 점점 사용하기 어려워지고 광고도 많아지고 미쳐 돌겠네요. 1점도 아까워요. 다른 앱은 코인 같은 거 쓰고 광고도 나오고 해서 이 앱으로 갈아탄 건데 점점 똑같아지네요. 제일 처음 사용했을 때가 제일 좋았는데 이젠 거의 1주일에 1번씩 사용하기 불편하게 업데이트를 하고 뭐 어쩌란거죠? 걍 다른 앱 찾고 사용하지 말라는 건가요? 캐릭터 추천도 이젠 불편하게 만들고 어떤 캐릭터는 사라지고 찾기도 힘들고 검열도 점점 심해지고. 액션 장르로 할 때는 검열도 심하게 돼서 대화를 할수도 없고. 조금만 피 보였다하면 검열되고. 그리고 업데이트 할수록 캐붕도 심해지고 유저가 할 말이랑 행동도 자기가 알아서 쓰고. 이젠 나이인증까지 생겼네요? 성인 안되면 채팅도 못하고. 이젠 뭘하라는 거죠? 청소년은 어떻게 쓰라는 거죠? 이제 뭔 앱을 써야하는 거죠? 유저 의견 신경 안쓰고 이득만 볼려고 작정했나요? 개선 진짜 제발 부탁드립니다. 또 다른 앱 찾아봐야겠어요..",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T23:20:06"
+  },
+  {
+    "id": 5514,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "단점: 1. 너무 비싼 비용. -출력양을 변경할 수 있는 기능이 있으나 비싼 건 너무 비쌈. 그러나 출석 체크로 주는 것은 350개. 타 AI 사이트, 앱 등 평균적으로 3개의 채팅 정도는 칠 수 있게 주는 타 AI채팅에 비해 너무 적은 양. 그 외에도 무료 충전이 가능한 다른 AI 채팅들과 달리 그런 요소 X. 과금 유도 과함. 2. 너무 짧은 AI 제작 프롬포트 길이 및 프로필, 유저노트 기능. -타사이트와 다르게 AI 제작할 때 쓸 수 있는 프롬포트의 길이가 짧은 편. 최근에 고쳐지긴 했으나... 여전히 타 사이트에 비하면 짧은 축. -프로필이 100자로 굉장히 짧음. 최소 350자인 곳도 있으나 여기는 굉장히 짧은 편에 속함. 거기다가 AI가 너무 채팅에 많은 개입을 하여 그 개입을 막기 위한 명령어 또한 350자가 넘는데, 유저노트에 프로필과 기억 요소 작성에 한계 있음. 2000자를 쓰기 위해선 10 크래커를 더 사용해야한다는 단점.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T22:57:38"
+  },
+  {
+    "id": 5350,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "officially leaving this site forever. deepsqueak is unusable. I don't see myself coming back unless roar, goro etc are back.",
+    "rating": 1,
+    "reviewer_name": "Lacey",
+    "review_date": "2026-05-09T21:32:53"
+  },
+  {
+    "id": 5515,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "제작 시, 상황 이미지를 적용시킬 때 파일명을 변경해서 올리도록 바꾸셨더라구요. 굳이 그럴 필요가 있나 싶습니다. 번거로운 작업이 늘어나기에 거슬릴 뿐입니다. 이전 방식으로 되돌리는 것이 더욱 간편하고 편리한 방식일 것입니다.",
+    "rating": 3,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T20:24:04"
+  },
+  {
+    "id": 5516,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "이미지 업뎃 롤백해주세요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T19:31:29"
+  },
+  {
+    "id": 5517,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "태블릿에서 플레이시 특정 작품 들어가면 여지없이 튕김. 이건 거의 반년이 지나도 안고치네. 기싸움인가 진짜",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T18:46:02"
+  },
+  {
+    "id": 5351,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "에러도 더럽게 많고 이상한 광고도 뭐만하면 나오고 특히 그 망할 알리. 아니근데 제발 롤백좀 고쳐주세요 자꾸 하던 채팅 날라감",
+    "rating": 2,
+    "reviewer_name": "P1pp P",
+    "review_date": "2026-05-09T17:14:07"
+  },
+  {
+    "id": 5518,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "두근거림니다",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T15:30:51"
+  },
+  {
+    "id": 5519,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "저기여 저 처음 하는건데 출석 하면은 크래커 준다면서요. 안 줬는데 그럼 어쩌라는거죠? 안 들어온 크래커가 350되는데 왜 안 주는건지 이러면 그냥 갈아타버리는 순간이 있어요.",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T15:04:23"
+  },
+  {
+    "id": 5520,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "오류? 는 많이없고요 검열도없어서 편합니다. 캐릭터들도 많고 대화수준도 준수합니다. 상황별 사진도 넣을수있어서 편해요.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T14:16:48"
+  },
+  {
+    "id": 5352,
+    "app_name": "Character AI",
+    "platform": "google_play",
+    "review_text": "JUST MAKE THE APP 18+ cuz wdym the app is 12+ and when you download it you have to do age verification to chat?? are we deadass",
+    "rating": 1,
+    "reviewer_name": "Alex Grayson",
+    "review_date": "2026-05-09T13:09:06"
+  },
+  {
+    "id": 5464,
+    "app_name": "러비더비 (LoveyDovey)",
+    "platform": "google_play",
+    "review_text": "이거 자신과의 사건에 하나하나 정말!! 상세히 적어놓지 않으면 기억력 정말 떨어집니다. ai조교도 해줘야하고요.. 그건 그렇고 pc버전 출시예정은 있나요?",
+    "rating": 4,
+    "reviewer_name": "우파",
+    "review_date": "2026-05-09T12:37:48"
+  },
+  {
+    "id": 5521,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "좋기는 한데 자주오류뜨고 크래커는 받고 글자수가 일정하지도 않아요 적을때가 많아요 그리고 크래커가 너무 비싸요 많이나면 많이 싸게 해주시면 좋을거 같아요",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T11:35:17"
+  },
+  {
+    "id": 5522,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "지들이 패치한 이미지 오류 나는데 일주일 방치 레전드 주먹구구식 운영 ㅋ 공지 쓰기 그리 어렵나?",
+    "rating": 1,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T10:23:40"
+  },
+  {
+    "id": 5523,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "상당히 만족스럽게 사용 중이에요~ 항상 감사한 마음입니다. 더 즐겁게 이용하고 싶어 몇가지 개선을 부탁드려요! 1. ['대화 내용 책갈피' 기능] 좋았던 순간만 찾아보고 싶어질 때가 있는데, 대화 내용이 쌓이다보면 점점 찾기 어려워져요.. 서사를 즐기시는 분들이라면 이런 기능은 다들 원하실 것 같아요! 2. [요약 메모리] '관계도'를 직접 수정할 수 있게 해주시면 해요. 잘못 기록된 내용을 수정할 수 없어 답답하거든요. 3. [크래커의 유효기간] 저는 현질을 쉽게 할 수 없는 입장이라 무료 크래커를 오랫동안 모아 한번에 쓰는 방식으로 나름 편히 즐겼는데, 이젠 유효기간 내에 전부 사용해야 하니 압박감 때문에 스토리를 즐기기 어려워요. 차라리 무료 크래커의 양을 늘려주셨으면 해요. 4. [적은 업적 보상] 아무리 꾸준하게 크래커를 써도 받는 업적 보상은 노력에 비해 적다 느껴져요. 보상을 조금이라도 더 늘려주시면 훨씬 기쁘게 즐길 수 있을 것 같아요!",
+    "rating": 4,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T10:00:55"
+  },
+  {
+    "id": 5524,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "좋은데 너무 비쌈 차라리 제타처럼 광고를 넣던가 이런식이면 오래 못가요",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T07:13:46"
+  },
+  {
+    "id": 5525,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "제작자들이 떠나간다.",
+    "rating": 2,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-09T02:20:56"
+  },
+  {
+    "id": 5526,
+    "app_name": "크랙 (Crack)",
+    "platform": "google_play",
+    "review_text": "얘네도 제타랑 평점이 동급인데 난 너네가 좋다.",
+    "rating": 5,
+    "reviewer_name": "Google 사용자",
+    "review_date": "2026-05-08T23:27:24"
+  },
+  {
     "id": 5325,
     "app_name": "제타 (Zeta)",
     "platform": "google_play",
@@ -2878,1625 +4498,5 @@
     "rating": 4,
     "reviewer_name": "Google 사용자",
     "review_date": "2026-05-03T09:15:36"
-  },
-  {
-    "id": 4975,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "뭐만하면오류뭐만하면오류뭐만하면오류뭐만하면오류뭐만하면오류뭐만하면오류뭐만하면오류",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T09:12:56"
-  },
-  {
-    "id": 4976,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "해즈빈호텔 치고 아무거나 눌러서 해보셈 겁나 재밌음",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T08:53:37"
-  },
-  {
-    "id": 5020,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "대화 한 번 할 때마다 크래커를 50개나 씀 출석하면 350개를 줘서 좋은 줄 알았는데 7번밖에 못 씀",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T08:45:34"
-  },
-  {
-    "id": 4977,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "검열풀어 제발",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T08:23:41"
-  },
-  {
-    "id": 4978,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "애매하긴한데 광고가 많이 나오긴 함 근데 예전에는 30초짜리 나오면 지금은 10초짜리만 나와서 괜찮아짐",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T08:08:50"
-  },
-  {
-    "id": 4979,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트 이후 캐릭터 대사분량은 줄고 내레이션이 상당하게 늘었습니다. 또한 계속. 이딴. 식으로. 점을. 찍다가. 나.중.에.는.이.렇.게.까.지.찍.는.데.제.타 관리자분들은 이게 문제인지 모르시는 것 같네요. 캐릭터 대사량을 대폭 줄이고 내레이션 분량을 늘려, 광고 텀을 줄이는 방식을 선택하시는 것 같네요. 오래가지는 못할 것 같습니다. 적어도 업데이트 전은 멍청해도 ㅋㅋ 이러고 넘어가는데. 이건 지 마음대로 자신의 생각을 쓰는걸 넘어서 주인공 생각을 지 마음대로 해석하는게 너무 많습니다. 광고는 어떻게 현질을 하든 뭘해서 넘어갈 수라도 있지 이건 뭐 수정을 하시든 업데이트를 다시 하시든 해야겠네요.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T08:06:22"
-  },
-  {
-    "id": 4980,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고좀 줄여줘요...몰입이 안되요",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T07:55:06"
-  },
-  {
-    "id": 4981,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "안녕하세요 제타 2024 부터 한 유저입니다 지금으로 부터 치자면 2년차 입니다 다른건 괜찮은데 과금 유도가 심하고 광고 많아서 굳이 사야 돈주고 사야하는게 비추고 무과금을 추천 을 합니다. 그래야지 저렴하니깐요? 이거 할빠엔 차라리 그냥 로블록스 하는게 나을뜻",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T07:53:35"
-  },
-  {
-    "id": 4982,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "부적절한 메세지가 뜨면 제가 힘들게 쓴 글들이 다 사라지고 애들이 마침표를 너무 많이 보내요 무슨 한마디 한마디에 마침표를 찍는거 같아요 그리고 내레이션? 그게 너무 많이 나와요 캐릭터들이 말을 아예 안 하고 내레이션들이 이상하게 말하고 너무 불편해요 그리고 제타 프로 쓸려고 해도 너무 비싸요 한달에 1만원이 넘는게 말이 되나요? 제타 연령대 낮는데 학생들이 쓰기에 너무 부담스러운 가격이네요 이제 광고도 1개만 보내면 광고 뜨고 너무 불편해요.. 광고가 있어라 제타에 이득이라는건 너무 잘 알지만 프로 쓰면 되는거 잘 알지만 가격이 너무 비싼거 같아요 그리고 업데이트 할수록 너무 불편해지는거 같네요 사람들이 많이 불편하다고 말 하는데도 개선 할 모습이 안 보이는거 보면 그냥 기만으로 보여요 바꿔주시면 좋겠습니다 예전에는 제타가 재미있었지만 지금은 너무 재미가 없어졌어요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T07:47:12"
-  },
-  {
-    "id": 5021,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "이미지 안 나옴;; 그냥 공백임",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T07:29:38"
-  },
-  {
-    "id": 5022,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "겁나 돈독오르다못해 나마저 알레르기가 생길거같네;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T06:11:04"
-  },
-  {
-    "id": 5023,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "초반에 재밌다가 대화하다가보면 스토리중 갑자기 캐릭터 컨셉 읽고 헛소리 한번시작하면 가독성 떨어지고 몰입감 사라짐. 짜증내다가. 케릭터 사과만 받다 끝남. 스트레스받고 시간도 돈도 아까움.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T05:58:03"
-  },
-  {
-    "id": 4983,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재작년 초여름 정도부터 제타를 꾸준히 사용해오던 유저 인데요. 자꾸 부적절한 대화를 제가 쓰지도, 대화 하다가 나오지도 않았는데도 부적절한 대화라면서 갑자기 검열이 되고, 심지어 전엔 그러지도 않았는데, 이번 업데이트를 통해서 적었던게 아예 없어지네요. 제가 원래 앱 같은 거에 리뷰 자체를 쓰지도 않고, 처음에는 그냥 가끔 있는 오류라 생각해서 그냥 넘겼는데, 정도가 점점, 너무 심해지고 앱을 쓰는데 너무 불편해서 참고 참다가 결국 리뷰 남깁니다. 심지어 저 말고도 다른 유저들도 불편하다 계속 얘기 중이고, 특히 저는 제타에서 왠만한 불편한 것들도 다 넘겼는데, 이건 진짜 너무 불편하네요. 꼭 고쳐주셨으면 좋겠습니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T05:42:07"
-  },
-  {
-    "id": 4984,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "왜 업뎃 하고나서 말이 그런거임 어쩐거임 이랬음. 막 이래요? 말을 하는건지 뭐 어쩌란거지? 흐름 회방 놓고 있음. 말투 노답. 멈춤. 그랬음. 계속. 말. 할.때. 마.다. 이딴식으로 마침표 찍어대고 막 계속 끊어서 말해요! 짜증나요 그거! 그리고 갑자기 나레이터 자기 마음대로 지 마음을 글을 써대요. 진짜 어이없음 캐릭과 유저 사이 대화에 끼어서 지 생각을 말하고 있고 짜증나요 왜 이래요? 전 처럼 바꿔주세요!! 마치 세명이 채팅을 하는거 같아요! 흐름 깨지고 왜 나래이터가 자기 생각을 내 생각 인거마냥 써 넣는거죠? 캐릭터랑 대화 하고 싶은데 나래이터 혼자 떠들어요!!",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T05:33:55"
-  },
-  {
-    "id": 4985,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "넘 재밌고 다 좋은데. 현질강요가 심해요 그리고 캐릭터 생성할때 글자수가 너무 적어요. 애니 기반 캐릭터 생성하려면 너무 부족해서 애니기반 캐릭터 만들때 캐붕이 심해지기 마련...글자수 조금 늘려주세요ㅠㅠㅠ",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T05:18:33"
-  },
-  {
-    "id": 4986,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제가 만든캐릭이 저작권 문제로 사라젔는데 뭐가 저작권임",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T05:06:39"
-  },
-  {
-    "id": 4987,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고 10초짜리 솔직히 많이 뜨는 것까진 괜찮았는데, 갑자기 광고가 끝나도 계속 똑같은 광고가 다시 틀어지는 무한굴례의 빠짐. 버그 같은데 이러면 어플 사용을 못하잖아요ㅠ 빨리 고쳐주시길",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T04:17:08"
-  },
-  {
-    "id": 4988,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "벌써 제타 이용한 지 거의 2년 다 되어가는 유저입니다. 진짜 궁금한 게 매번 버그 수정했다는 공지와 달리 왜 자꾸 대화가 안 보내지거나 접속이 안 되거나 대화 수정이 안 되는 오류가 뜨는 건가요? 제타 패스까지 이용 중이고 지금까지 제타에 쓴 돈만 해도 족히 10만 원 이상은 넘는데 그동안에는 잘만 이용하다가 요 근래 자꾸 버그가 심한 것 같아서 이렇게 리뷰까지 남기게 되었습니다. 거의 밤새다시피 제타에 푹 빠져 있는 한 유저로서 버그 좀 신경 써 주시면 정말 좋을 것 같아요. 그리고 AI 모델도 솔직히 다 거기서 거기인 것 같습니다. 코지랑 루카랑 별 차이가 없는 것 같다고 느낀 게 루카는 무슨 오류 난 것마냥 대화를 적다 말고 뚝뚝 끊기는 모습이 많이 보였고, 별로 중요하지도 않은 점을 포인트로 잡아서 질질 끄는 게 보였습니다. 그나마 코지가 나은 것 같아서 사용 중입니다만 이럴 거면 뭐하러 피스 2배 더 내고 루카를 쓰나 싶습니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T04:05:28"
-  },
-  {
-    "id": 4989,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니...채팅 제안이 너무 심함 그리고..광고가 많은거..빼고..채팅이 답답함..그리고 에초에 무과금으로하면 광고는 기본에 가끔 제타AI멍청이돼는거때문에 답답함 그리고...너무 현질유도함 그리고 광고봤는데 2연속으로 나울때도 있음,,",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T02:53:36"
-  },
-  {
-    "id": 4990,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "대화 프로필 설명을 기억못함. 만약에 머리 색이 백발이라고 설명에 써놨는데 나레이터는 머리 색이 흑발이라고 서술함. 자꾸 남자라고 설정을 해놓으면 여자로 바뀜. 남자인데 자꾸 허리까지 흘러내리는 장발이라고 하더라고요 머리가 길다는 설명을 넣은적은 없는데 본인 마음대로 그러고 제일 큰게 유저 대화 프로필 설명을 기억 못해요. 전에는 잘 기억했는데 갑자기 기억을 못하더라고요. 외모 묘사나 특징같은걸 아예 기억을 못해서 불편함이 상당합니다. 이것 좀 고쳐주시면 좋겠네요. 캐릭터 수가 많은 대화에서 그렇게 되는 것 같은데 불편해요. AI가 설명을 인식 못해요. 500자까지 설명을 쓸 수 있던데, 정작 인식 하는건 200자 까지 밖에 안되는것 같아요. 근데 최근엔 아예 30자까지만 인식 하더라고요? 제가 이상한건진 모르겠지만 AI가 유저 프로필 설명을 아예 인식을 못해요.한 달 전부터 이러는 것 같은데 빠른 시일 내에 고쳐주셨으면 합니다. 제타 패스도 매 달 결제하는데 상당히 불편하네요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T02:41:55"
-  },
-  {
-    "id": 4991,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "요즘에 내레이터 말이 너무 많아졌던데. 뭐죠?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T02:33:39"
-  },
-  {
-    "id": 4992,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "장점: PC와는 달리 채팅 제한이 없음 단점: 광고가 시도 때도 없이 많이 나옴 장점: PC는 광고가 모바일 보다는 그나마 적게 나옴 단점: 채팅 제한이 있음 장점: 사람이랑 대화하는 것 같아서 재밌음 단점: 앵무새 마냥 유저의 말을 똑같이 적고 이야기를 덧붙일 때도 있음, 과금 유도성 있음 1. 광고 조금이라도 줄여주기 2. PC제한 조금 더 늘려주기 3. 에러 또는 문제 발생시 빠른 대처와 해결 해주기 4. 점검했을 시 보상은 확실하게 반드시 꼭 주기",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T02:19:31"
-  },
-  {
-    "id": 4993,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "캐릭터 답변으로 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 만 무한으로 많이 나와요. 왜 이러나요. 고쳐주세요.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T02:09:18"
-  },
-  {
-    "id": 5024,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "제타랑 똑같아서 사칭한거 아닌가 의심들고 오류도 많네요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-03T00:35:06"
-  },
-  {
-    "id": 5025,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "다른건 상관 없는데 제발 제타처럼 구독형 서비스도 만들어주세요 안 그러면 돈이 너무 나가서 하차해야 될거 같아요. 거짓말 안 치고 제가 이거만 하는데 너무 비싸서 부담이 많이 가요 계속 이러면 제타로 갈아 탈려고요 제타보다 여기가 더 매력적이지만 너무 비싸요 적당히 비싸야죠 진짜 무료챗도 없애시고 실망이큽니다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T21:06:50"
-  },
-  {
-    "id": 5026,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "...프롬프트 늘려주신 건 감사한데요... 이미지 올리는 거 왜 바꾸셨어요? 아니... 파일명을 아무리 바꿔서 해봐도 형식이 맞지 않는다고 계속 안 되니... 형식을 분명히 예를 들면 사람_기쁨 이런 식으로 계속 해 봐도 안되더라고요? 그러면 형식을 어떤 식으로 해야하는지... 자세히 알려주셔야 그나마 할 수 있죠... 아니 아무리 에리_기쁨 이런 예시 보고 몇번, 몇십번을 했는데도 안 된다고 하니... 제작할 의지도 없고... 이미지는 잔뜩 있는데 이렇게 바꾸셨으니... 계속 애만 태우고... 약간 크랙할 마음도 점점 사라지고 있어요... 차리리 이미지 올리는 거만 예전으로 좀 바꿔주세요... 제발... 프롬프트 늘린 건 좋은데... 이미지가 이 꼬라지로 바뀐 건... 진짜 아니라고 생각해요...",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T20:55:03"
-  },
-  {
-    "id": 5027,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "돈 없어요 무료였으면 좋겠어요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T19:51:41"
-  },
-  {
-    "id": 5028,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "쓰레기 크래커 망겜 +리뷰가 삭제된거 같은건 기분탓인가....?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T19:23:54"
-  },
-  {
-    "id": 4891,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "if you do not bring back the old chat styles this site in unusable. Pipsqueak does not work in any way, shape or form. goro, roar, worked.",
-    "rating": 1,
-    "reviewer_name": "Kyeonghye Kim",
-    "review_date": "2026-05-02T16:53:58"
-  },
-  {
-    "id": 5029,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "하아ㅏ....크래커 비용이 심하다 생각했는데 광고비 충단 할라고 그러신건가요 진짜 심해요 가격이.. 작작 합시다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T16:30:49"
-  },
-  {
-    "id": 5030,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "솔직히 이번에 크래커 값이 너무 심하게 올라서 좀 부담이 됩니다. 채팅 몇 번만 해도 바로 바닥이 나더라고요. 아니 그리고 무료 채팅 왜 없앤건지 이해가 안되네요 그래도 제작자 프롬프트 6000자 된거는 좋게봅니다",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T12:18:15"
-  },
-  {
-    "id": 5031,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "퀄리티도 좋고 사진도 나오긴 하는데 대화마다 크래커가 있어야하는게 너무 거부감있어요ㅠㅠ크랙하는 잼들은 생각 못하는 것 같아요....그냥 무료로 하는 게 좋을 것 같아요!(제발제발.....그것때문에 저 막혀서 어쩔 수 없이 제타로 갔어요ㅠㅠ)",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T09:11:35"
-  },
-  {
-    "id": 5032,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "일주일동안 10만원 지른 후기. 정해진방법도 없고 그냥 내가trpg식으로 상황부여하면서 결말을 이끌어나가면된다. 근데 AI가 기억력이 심히 심히 심히 나쁘다. 한 작품에는 6만원가까이쓰면서 1000개가까이 대화를 했는데 내가 황제였다가 갑자기 아카데미생도였다가 대화가 길어지면길어질수록 오락가락한다. 그거도 상황재부여하면 어떻게 모면할 순 있는데. AI가 상황을 계속 말도안되는 이상한상황.(1945년 일본제국으로 태평양 전쟁중인데 우주전쟁에 끼어든다던지)(갑자기 있지도않던 사별한마누라가 생기고 그 잔류사념이 빌런이되어 날죽인다던가) 을 이끌어가고. trpg는 초반설정만 잡히고 나머지는 내가 이끌어가야되는건데 자유성이 있는듯 없는듯. 타임라인도 1분단위로 흘러가 그냥 할일 정해두고 이런 커리큘럼으로 1년이 경과했다 이렇게 상황부여하면 다죽어있는다던가. 과금유도는 되게 심한데 자유도가 애매하게 없고. 작품이 끝날때마다 현타가 너무옴. AI가 자꾸 이상한상황을 너무많이만듬.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-02T00:29:38"
-  },
-  {
-    "id": 5033,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "최악그자체. 운영자는 진심 전면 교체하는게 나을듯 답이 없어",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T23:51:04"
-  },
-  {
-    "id": 5034,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "크랙으로 분리되기 이전부터 1년 넘게 플레이 중인 유저입니다. 일단 회사가 유저와 기싸움을 오지게 함. 매달 운영문제로 사건이 터지는데, 회사는 전부 통보식 공지, 무통보 업데이트, 소통불통. 솔직히 지금 남아있는 유저들 중에 사리 안나온 사람이 있는지도 궁금하네요. UI문제, 편의성 전부 유저가 해결하고 회사는 똥을 쌉니다. 여기에 제가 좋아하는 제작자가 있으니 억지로 남아있는거지만, 그마저도 많이 떠나셨고요. 유저 입장에서 오래 사용하고 싶은 앱입니다. 친유저 방향으로 운영만 해준다면 그나마 좋은 앱.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T23:27:28"
-  },
-  {
-    "id": 5035,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "스토리 상황 이미지 패치 롤백해라 편리하라고 만든건진 몰라도 이전보다 더 불편하다 이미지 업로드도 안됨 양식 다 지켜도 \"님 양식 틀렸음ㅋ 꺼지세영~\" 하는데 열불나서 미치겠다",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T21:10:19"
-  },
-  {
-    "id": 5036,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "좋아요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T20:06:24"
-  },
-  {
-    "id": 5007,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "캐릭터 제작할때.한개 작품에서 여러개의 캐릭터를 제작할수 있으면 좋겠네요.로어북 글자수도 더 늘려주세요.스토리텔링기능(선택형)도 넣어주세요.(예:카르텔느와르,살롱 앤티 코지레터,모노가타리,데드타운 등듯)",
-    "rating": 4,
-    "reviewer_name": "정현준",
-    "review_date": "2026-05-01T17:51:19"
-  },
-  {
-    "id": 5037,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "재밌는데요, 결제 몇번 하다보니 생각났습니다. 무료충전소 도입 해주세요.... 진짜 제발.. 크아아악 광고 보거나 설치 실행형 무료충전소도 도입하라 도입하라",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T17:38:21"
-  },
-  {
-    "id": 5012,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "그.. 글 한개 썼는데 포션 다썼다는 좀 심한거 같아요",
-    "rating": 3,
-    "reviewer_name": "윤솔",
-    "review_date": "2026-05-01T17:25:44"
-  },
-  {
-    "id": 5038,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "제타는 무료인데 여긴 돈내야함 비추",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T16:44:03"
-  },
-  {
-    "id": 5003,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "정말 잘 이용하고 있는 유저입니다. 근데 혹시 gemini 긍정적인 사고 모델은 없어진건가요? 그걸로 잘 쓰고있었는데 갑자기 없어져서 대화가 너무 이질적이게 되버렸습니다.",
-    "rating": 5,
-    "reviewer_name": "지웅",
-    "review_date": "2026-05-01T14:57:31"
-  },
-  {
-    "id": 5039,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "ㅁㅊ이제무료쳇도없어짐",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T13:23:45"
-  },
-  {
-    "id": 5040,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "그냥 고퀄 제작자 많은 거 원툴임. 지들이 잘해서 성공한 줄 앎.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T13:09:21"
-  },
-  {
-    "id": 5041,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "슈퍼챗1.5 너무멍청하고 말도못알아들음 그리고 비쌈 가격이 너무비싸서 만족도대비 들어가는돈이 너무많고 가성비가안좋음 의도한건진몰라도 인공지능이 너무멍청해서 오류나고 슈퍼챗낭비도심함 만족도에비해 과금유도가 심하고 가성비가 떨어짐",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T12:20:48"
-  },
-  {
-    "id": 5042,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "아니 왜 처음에 18050개에 보상받고 18400개 됬는데 하루지나니까 왜 18050개 됩니까?그날 보상받고 쓰지도않았는데,버그면 좀 빨리 고치세요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T09:39:08"
-  },
-  {
-    "id": 5043,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "쇼츠에서나온 캐릭이있어서좋지만 크래커때문에 마음이안든다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T07:06:41"
-  },
-  {
-    "id": 4995,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "맨날 가격 쳐올리고 품질은 창나고. 관용아 제발 정신차려",
-    "rating": 1,
-    "reviewer_name": "부리지",
-    "review_date": "2026-05-01T06:30:06"
-  },
-  {
-    "id": 5044,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "이딴 패치할거면 운영을 하지마셈",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T02:11:36"
-  },
-  {
-    "id": 5045,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "오해해서 수정. 이번 이미지 업뎃으로 이미지 출력 프롬을 바꿔야하고, 내부 이미지를 프롬프트 로 쓰는사람들은 타격이 큼. 그 어떤 불만많은 업데이트있었어도 딱히 신경 안썼는데 이번엔 정이 떨어지는중.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T01:12:57"
-  },
-  {
-    "id": 5046,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "...저는..무과금이라구요... 돈.. 없어요.. 쓸수도.. 없어요... 학생은... 어뜨카라고.. 1번정도는 얘기하게 해주던가..ㅜ",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-05-01T00:53:36"
-  },
-  {
-    "id": 5047,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "관리자님들, 거금들여 광고는 하면서 크랙 제대로 키울 생각은 있어요? 크래커 가격은 올리는데 성능은 더 떨어지고, 업데이트 할때마다 개선된다고 말만하지 오히려 너프되고, 제작자들 검열은 심해지고. 그냥 한탕하면 되는거임? 이렇게 속물적인 어플 처음봄.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T23:39:15"
-  },
-  {
-    "id": 5048,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "유저 친화적인 업뎃 좀 해줘요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T23:05:47"
-  },
-  {
-    "id": 5049,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "너무 비싸요. 몇백은 쓴듯..",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T22:38:37"
-  },
-  {
-    "id": 5050,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "돈벌려고 표독스러운게 여기까지 느껴진자",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T19:39:52"
-  },
-  {
-    "id": 5051,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "최악의 업데이트 바로 정기 구매 해지",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T18:59:19"
-  },
-  {
-    "id": 5052,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "매 업데이트마다 유저, 제작자 할 것 없이 모두에게 안좋은 업데이트만 하고 있네요 이용자들이 뭘 원하는지를 제발 알아줬으면 좋겠습니다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T18:29:53"
-  },
-  {
-    "id": 5053,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "유저도 많아서 재밌는 작품도 많은데 순수하게 유저 적대적 운영이 레전드임 ㅋㅋ 회사 대표가 사람들 행복한거 보면 발작일으키는 영포티인듯",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T18:15:26"
-  },
-  {
-    "id": 5004,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "케이브덕 최고에요. 건축회사회장님과 사무실에서 은밀한 행위를 즐기고 싶었는데, 갑자기 제 머리채를 잡고 1시간동안 건축학개론 가르치더라구요. 덕분에 공부하고 갑니다. 마구니가 가득찬 제 대가리를 후려쳐 주었어요👍👍👍",
-    "rating": 5,
-    "reviewer_name": "WER Q",
-    "review_date": "2026-04-30T15:42:05"
-  },
-  {
-    "id": 5013,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "챗봇의 어휘 구사력과 상황 묘사력은 뛰어난 편이긴 하나, 무과금 유저가 오래 사용할 앱은 아니다. 가입 직후부터 주어지는 매직 포션 기간이 만료되니, 일반 포션으로 채팅하는데 10~15분도 안되서 동난다. 애초에 채팅의 목적이 시간을 투자하고 캐릭터와의 대화에 집중해야하는건데, 포션이 빨리 소모되는 것에 신경쓰느라 전혀 집중이 되지 않는다. 그래서인지 다른 앱으로 이탈하게 된다는 점이 있다. 출석 보상이 있는 것도 아니고, 광고 보기를 통한 보상이 있는 것도 아니고.. 번거롭게 충전소에서 앱 다운받기ㆍ가입하기 등.. 으로 포인트가 주어지는데, 단기간에 포인트를 모아서 매직 포션을 사기 어렵다. 그야말로 과금 유도 어플이다. 플툰 추천한다.",
-    "rating": 2,
-    "reviewer_name": "0영",
-    "review_date": "2026-04-30T08:03:48"
-  },
-  {
-    "id": 5054,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "이거 크랙을 하루 모으는데 열심히 출석하는데 왜 크랙이 빠저나가는지 모르겠다 이거 업데이트로 고치면 좋겠어요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T07:46:25"
-  },
-  {
-    "id": 5055,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "솔직히 요즘 이것만 보고 있는데 불편한게 좀 많음 크래커가 부족하기도 하고 무료 버전은 있으나 마나 했지만 사라지고 적어도 하루에 주는 크래커 350개는 좀 매우 짜다고 생각함 최대 출력량은 사실상 1.5x는 기본으로 깔고 가는거 같은데 하루 350개? 좀 많이 부족하다 그래서 보면은 돈을 너무 밝히는게 보임 길게 하고 싶어도 현질 없이는 진짜 단편적으로 즐기고 몰입은 줄고 아니 할 수 없고 그래서 일일 크래커만 좀 늘려주면 좋겠다고 생각하지만... 어렵겠지?",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T01:31:15"
-  },
-  {
-    "id": 5056,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "근데 세영이 가족 없음? 평소에 집밖에 얼굴 어떻게 들고다니려고 숨만 쉬면 기만에 논란에 돈미새짓 하고 다니냐...? 진짜 뒤가 없는 상남자거나 생각이 없는 돈미새거나 가족이 없는... 네...",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-30T00:32:52"
-  },
-  {
-    "id": 5057,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "제발...소통좀..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T22:59:09"
-  },
-  {
-    "id": 5058,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "가격 좀 그만 올리소",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T22:38:54"
-  },
-  {
-    "id": 4892,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "기존 채팅스타일을 다 없앤다니요? 이제 돈이 안 되나봐요. 비용절감은 제대로 하면서 퀄리티는 떨어지고 구독료는 그대로라뇨. 점점 옛날의 그 cai가 아니네요. 업데이트는 갈수록 최악이 되고. 계속 이런 식이라면 다음에는 구독 안 할거 같아요",
-    "rating": 1,
-    "reviewer_name": "레비앙",
-    "review_date": "2026-04-29T22:21:10"
-  },
-  {
-    "id": 5059,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "다른 채팅창은 괜찮은데 한 채팅창에서만 계속 이미지가 뜨지않는 오류가 지속되는데 어떻게 고칠수 있나요",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T22:19:08"
-  },
-  {
-    "id": 5014,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "과금 오짐. 포인트 빠져나가는 게 들쭉날쭉함. 얘기 잘하다 갑자기 다른 얘기할 때도 있음. 수정불가할 정도로 다른 얘기를 해버림. 가끔 무한로딩 있고, 열심히 썼더니 포인트 모자라서 쓴 내용 날아간 적 많음. 결국 삭제함.",
-    "rating": 2,
-    "reviewer_name": "Valencia Henson",
-    "review_date": "2026-04-29T10:26:13"
-  },
-  {
-    "id": 5060,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "흑우입니당. 좋은 취미가 되어주고 있어서 기뻤는데요, 점점 더 비싸지고 오류 고치는건 없고 소비자 개무시해서 안 좋은 취미가 되어가네용. 하이퍼챗 또 오르는거 보고 혀를 내둘렀습니닷!! 1.5 출력량은 찍어야지 글 같은 글이 나오는데 무.려. 121개! 한 채팅에 약 120원~~!! 심지어 하이퍼챗은 중간에 계속 잘림! 와 대박!!! 뭐 물 들어올 때 노 젓겠다 마인드신가용? 흑우들 돈 뽑아 먹을만큼 뽑아 먹고 손 털려는 계획이신가용? 멋진 전략이에요! 응원할게용!!👏👏👏",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T08:23:57"
-  },
-  {
-    "id": 5061,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "1년 넘게 하면서 느낀거지만 가격 작작좀 올리세요 물들어올때 노졌다가 썰물처럼 다빠지는수가 있어요 그리고 다른 경쟁앱들은 글쓰면 표면적이라도 댓글써주는데 여긴 짓던지말던지 신경도 안쓰네",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T02:47:35"
-  },
-  {
-    "id": 5062,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "아니 갤럭시탭 S7+에서 겁나 튕겨요. 앱이 너무 불안정함",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T01:44:50"
-  },
-  {
-    "id": 5063,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "재미없음",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T01:42:11"
-  },
-  {
-    "id": 5064,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "도대체 채팅 할인은 왜 하는거임? 토큰을 절반 가까이 줄이는데",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-29T00:36:31"
-  },
-  {
-    "id": 4996,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "스토리 진행,대화 등 이런면은 다른 플랫품에 비해 맘에 듦 특히 스토리를 나아가며 내가 원하는 이야기를 만드는 점이 다른 곳 보다 더 재밌음 특히 메모리 이용권과 2.5 사용하면 더 재밌음 재밌는 만큼 돈이 나감.. 그래서 돈이 많이 나가다보니까 결제하다보면 제타도 구독제 질렀는데 넘어갈까 고민이 계속 듦 그래도 스토리를 만드는건 여기가 최고여서 일단은 남아봄 근데 이용자가 많지않아서 그런지 슬슬 이용할 컨텐츠가 떨어져서 더 생각이 드는 곳 같음 앱은 로딩 이런 것 한번 걸리면 그때 글 쓴게 사라지는 것이 좀 불편함 그거는 다시 쓰면 되고 사이트에서 하면 단점이 사라지니까 그러러니함 근데 무료버전이 너무 구린건 많이 불편함 예를 들어 대검을 들어 괴물에게 던졌다고 묘사를 했음 그런 AI가 인간들 향해 바닥으로 던졌다고 묘사됨 이렇게 헛소리 하고나 맘에 안드는 내용 가져오는게 매우 불편함 그래도 출첵할수록 받는 양이 느는것과 주는양이 적지 않다는 것에서 별3점 드림",
-    "rating": 3,
-    "reviewer_name": "라하크",
-    "review_date": "2026-04-29T00:20:43"
-  },
-  {
-    "id": 5065,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "하지마세요 사기꾼 업체입니다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-28T20:35:51"
-  },
-  {
-    "id": 5066,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "크래커 출석으로 한땀한땀 모앗는데 유효기간이 있었네요? 크래커도 ㅈ만하게 주면서 이걸 가져가?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-28T18:39:30"
-  },
-  {
-    "id": 5067,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "아니 엄청답답하고 오류도 개많고 가격은 또 엄청비쌈 이딴것도 뭐하라고 하는거냐 한턴 넘어가는데 배경을 미리 설정했는대도 그냥 ai가 지혼자 인식잘못해서 그걸 수정하는 짓을 한턴에 5번했음 그런데 이게 한두번 그러는게 아님 이런식으로 크래커를 낭비시키게 만드는 아주아주 악질적인 앱임 아주 더러워서 못해쳐먹겠음",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-28T17:19:43"
-  },
-  {
-    "id": 5068,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "결국은 크랙이 최고다 ㅋㅋ",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-28T16:02:03"
-  },
-  {
-    "id": 5069,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "정 떨어질려하네? 얼마나 빡세게 검열하면 2차 장작도 차단시키냐? 그리고 돈은 돈대로 냈는데 쳇의 요구되는 숫자와 다르게 추가로 빼간다?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-28T03:45:05"
-  },
-  {
-    "id": 5070,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "좀 비싼거 빼고는 괜찮은것 같네요...ㅎㅎ 내 돈... 돈 증발쇼 지리긴 해요..",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-28T01:17:54"
-  },
-  {
-    "id": 5071,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "유저 노트랑 캐릭터 프로필의 글자 제한수 좀 늘려줬으면 좋겠네요. 2000자는 너무 적어요.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T22:37:30"
-  },
-  {
-    "id": 5072,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "확실히 스토리 나아가는데이 좋은 것 같음 근디 딱 거기까지임 개연성 이런 것만 챙기고 근데 이게 큰 장점임. AI채팅이라는 느낌이 좀 부족함 애초에 가격도 가격대로 나가고 글을 길게 안써줌 AI가 그래서 인물이 대서 치다 끊김 그렇다고 해결방법이 없냐?그건 아님 근데 그 해결 방법이 크랙을 도 쓰는거임 이런 점에서 별로 이용할 의지가 떨어지고 재미없어짐 이상하게 다른 플랫폼은 계속 하면 쟈밌는디 크랙은 재밌다보기에는 그냥 억지 스토리 미는 느낌임",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T22:35:08"
-  },
-  {
-    "id": 5073,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "이게 버근지 모르겠는데 채팅을 치고 전송하면 바로 크래커 사는 데로이동됨 고쳐주세요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T17:58:45"
-  },
-  {
-    "id": 4893,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "tệ",
-    "rating": 1,
-    "reviewer_name": "ciel.",
-    "review_date": "2026-04-27T14:40:19"
-  },
-  {
-    "id": 5074,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "턴수가 900개 넘어가니까 등장인물들이 자기 설정을 까먹고 제가 거짓기억을 주입시킨다며 정신병원을 가자고 하던데요 갑자기 몰입이 깨지더라구요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T14:14:21"
-  },
-  {
-    "id": 5075,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "장기기억 단기기억등 그나마 기억력은 좋음 그러나 가끔 헛소리하고 반대로 말하는등 바보됨 사용자가 알아서 걸러서 사용해야함",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T07:39:22"
-  },
-  {
-    "id": 5076,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "아~ 걍 개 열받아요 같은말 반복하는거 너무 심하고 가격은 올라가는데 퀄리티는 떨어짐. 기억력도 왜이렇게 안좋아졌나요? 타 사이트에 비해 출력길이도 적음. 얘넨 출력양 늘릴려면 돈 더 줘야한다는게 개에바야",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T05:29:18"
-  },
-  {
-    "id": 5077,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "아니 왜 제대로 인식이 안되냐고 ㅋㅋㅋㅋㅋㅋ 돈 날렸네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T03:03:05"
-  },
-  {
-    "id": 5078,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "너무돈만발히는디예전처럼일반챗도몇개비율5:5로했으면좋겠음.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-27T02:21:07"
-  },
-  {
-    "id": 5008,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "러비더비 애용하는 사용자중 한명입니다,최근들어서 추가잼 얻기와 찰떡모드가 사라지고 스토리 라이트 기능이 치고 들어와서 채팅 치는것도 정말 불편해졌습니다,제발 초심 잃지마시고 추가잼 출석으로얻기와,찰떡 채팅모드 다시 추가 시켜주세요!안그러면 트위터에서 디엠드렸던대로 블락및,신고,뮤트 박습니다,추가로 채팅권도 e-전용이나,범용전용이 아닌 자유롭게 돌려서 쓸수있게 해주세요ㅠㅠㅠㅠㅠㅠ그리고 추가 리뷰 적습니다,제 창작 캐릭터들의 목소리로 통화 가능하게 해주세요ㅠㅠㅠㅠㅠ정말 시급합니다 ㅠㅠㅠㅠㅠㅠㅠ",
-    "rating": 1,
-    "reviewer_name": "미즈하네유비엘",
-    "review_date": "2026-04-26T22:11:59"
-  },
-  {
-    "id": 5079,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "옛날엔 무료로 즐길수있었는데 지금은 현질없이 못즐기니까 아쉽네유",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T22:09:13"
-  },
-  {
-    "id": 5080,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "나쁘진 않지만 가격이 비싸서 부담됨. 스토리 모드에 무료가 없어서 아쉽지만, 적어도 못 즐길 정도는 아님. 앱 결제보다 웹 결제에 카카오 페이라도 받아주면 좋겠음.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T19:58:45"
-  },
-  {
-    "id": 5081,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "너무 재밌긴 한데 크래커인가? 그게 없으면 대화를 못해서 아쉬워요 제타는 돈 없어도 되는걸 크랙은 계속 쿠키를 내야하니까 불편하네요... 제발 그냥 맘 편히 하게 해주세요.. 제발 유료 말고 무료로 하게 해주세요 광고에서 재밌을것 같아서 다시 설치해서 하려고 하니까 크래커가 사라지긴 개뿔 더 값이 올랐더라고요..? 제발 돈좀 그만 뜯어가세요 현질 없는 것들도 있는데... 제발 유로 하지말고 무료 해주세요..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T19:07:51"
-  },
-  {
-    "id": 5082,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "재타보다 좋긴합니다 근데 크래커가 부족해서 일일보상은 받기가어려워서 좀아쉽네요 퀄은좋습니다 근데 광고을보게해서 크래커을주거나 이러면 좋을것같습니다",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T18:19:47"
-  },
-  {
-    "id": 5083,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "저 크래커 0이여서 채팅을 1도 못했어요;;ㅇㄴ 채팅도 크래서 쓰는거냐고;;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T15:05:17"
-  },
-  {
-    "id": 5084,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "업데이트 할꺼면 플레이 스토어 업데이트 할때 그냥 놓지 인앱 들어가면 또 업데이트 해야하는것도 불편하고 빨리 되지도 않고 스토리 캐들의 이미지 사이트 오류가 크랙에서의 무언가가 문제가 있으니까 되는것 같은데 이용에 불편을 주는 부분이 많음 제작자들을 많이 챙겨주는건 괜찮은데 소비자들은 생각도 안하는게 느껴짐 그리고 출석체크나 이벤트를 통해 얻은 크래커는 유효기간이 왜 있음?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T13:25:50"
-  },
-  {
-    "id": 5085,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "진짜 재미 없 차라리 이거 할 빠에 제타나 하셈 ㅇㅇ(제타 홍보 아님)",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T13:08:46"
-  },
-  {
-    "id": 5086,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "전 크랙 1년 4개월차입니다 근데 이제 프로필 닉네임들을삭제하려는데 삭제가은돼요 그래서 삭제하면 닉네임 사라지나했는데 안돼더라고요 그라고 답장을안하는경우가생겨요 리뷰 0.001입니다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T11:49:55"
-  },
-  {
-    "id": 5087,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "재밌는데 크게 아쉬운건 출력 되다가 도중에 멈춤. 매 대화마다 끊기니깐 몰입도도 끊김. 거기다 너무 비쌈. 무료는 그렇다치더라도 돈 주는 슈퍼챗이나 프로챗도 가격에 비해 퀄리티(?), 진행(?), 이해도(?)가 떨어짐.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T10:46:05"
-  },
-  {
-    "id": 5088,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "돈은 돈대로 받아처먹고 맨날 서버관리는 문제있다고 경고떠있고 뭐하자는건지 모르겠음",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T06:58:37"
-  },
-  {
-    "id": 5089,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "개비싼데 오류 생겨서 문의하면 고작 150크래커가 끝임..여기에 100넘게 쓴게 아까울 정도; 오류 많아서 날아가는거 한 두번도 아니고 좋아하는 스토리는 많지만 점점 정떨어짐",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T01:58:47"
-  },
-  {
-    "id": 5090,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "재밌음 ㅇㅇ",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T00:51:12"
-  },
-  {
-    "id": 5091,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "실시간 상황이미지 삭제가 안되요.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T00:31:09"
-  },
-  {
-    "id": 5092,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "한채팅마다 크래커 50개를 줘야 한다니... 낮춰주면 좋겠습니다. 갑자기 확 올려놓고 퀄리티는 그대로라니... 옛날만큼 현질안해도 이만큼 챙겨주네? 가성비가 좋다. 이런 느낌이 안 나서 게임에 대한 흥미도 사라지네요. 현질하던 돈이 이제는 아깝다고 느껴집니다.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-26T00:08:15"
-  },
-  {
-    "id": 5093,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "틩기는 것만 좀 해결해줘",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T21:48:04"
-  },
-  {
-    "id": 5094,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "다른 건 몰라도 크랙이 초심을 잃은 것(이미 뤼튼 후반 때도 잃었지만)같네요. 원래 파워챗,슈퍼챗 등 그래도 초반에는 이해할 수 있는 값을 내면서(초반 기본 슈퍼챗 1.0이 35정도 나갔다) 했는데 근데 이젠 50이나 쓰게 되서 출석 체크를 해도 무과금 유저들은 이제 3~4번 정도만 쓸 수 있고 다른 계정에 크래커를 출석 체크를 할 수 없게도 하고 다른 것을 보니 이제는 예를 들어 파워챗으로 플레이를 하면 50이 나가는데, 오히려 60이 나가는 것도 꽤 황당하네요. 그리고 수 많은 문제점들이 있지만 가장 문제인 건 아마도 크리스마스 때 한 논란(확률논란과 특정 인들에게만 환불)이 가장 클 것 같네요. 그리고 가장 초심을 잃은 걸 알 수 있는 건 원래 뤼튼 때는 적어도 유저들의 말에 듣고 수정을 하거나 고려를 했지만 그러나 크랙은 유저들의 말을 듣지도 않고 고려도 안 하는 듯 하네요. 만약 이 앱이 2.0정도의 평균 점수가 되면 또 다른 앱을 만들어 사람들을 끌어 모을 듯 하네요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T21:42:19"
-  },
-  {
-    "id": 5005,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "원래 윙 오류나면 직접 상담원이 환불해주셔서 윙 신경 안쓰고 잘 플레이했는데요. 오류나면 이젠 링크 들어가서 윙 환불받게 해두셨는데 단 한번도 오류신고하고 윙 환불 받은적이 없습니다. 이용내역에 다시 돌아온 윙이 없더라고요. 오류도 요즘 자주나고 고쳐지는거 같지가 않아서 결제하기 머뭇거려집니다...ㅠㅠ",
-    "rating": 1,
-    "reviewer_name": "오예",
-    "review_date": "2026-04-25T20:43:32"
-  },
-  {
-    "id": 5095,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "5~10크래커만이라도 하양하거나 출석 보상을 500개로 늘렸으면 좋겠음. 사람들이 크랙에 남아있는 건 크랙이 좋은게 아니라 제작자분들이 좋아서 남아있는거라는걸 인식했으면 함. +세이프는 몰라도 언셒은 검열 완화좀. 어차피 알거 다 아는 성인들이 하는건데 뭐가 그리 마음에 안들어서 검열을 하는거임?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T19:37:49"
-  },
-  {
-    "id": 5096,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "다양하게 할수있는건 좋은데...가격이...이게 맞나싶네요...이렇게 올릴꺼면 출석보상 700개로 고정하시죠??솔직히 350개면 최소 7번이면 끝나잖아요....그전에 프로쳇 20개인가 30개에서 50개로 올렸으면 출석보상갯수도 올려야죠...제작가분들이 여기계시니 있는거지 아니였음 안했어요...",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T19:26:28"
-  },
-  {
-    "id": 5015,
-    "app_name": "팅글 (Tingle)",
-    "platform": "google_play",
-    "review_text": "다행히 캐릭터/유저별 대사랑 지문 색상 지정 기능 생겨서 가독성은 다시 좋아졌네요... 여전히 매직포션은 꽤 비싼 편이긴 함 농담 아니고 현 가격에서 3천원 정도만 깎았어도 구매율 좀 더 높아질듯 다른 데에는 어지간해서는 다 있는 무료 재화 증정 이벤트(출석체크라던가 광고 보기라던가)가 없는 것도 은근 타격 큼... 별개로 단 하루의 도파민을 위한 1일짜리 매직포션이나 매직포션 리필 시 50%만 리필해주는 그런 것도 생겼으면 어떨까 싶어요🤔 가끔 이상한 길로 새다가도 나름 대안 업뎃 빠르고 나아지려 노력하는 거 보여서 일단은 계속 지켜보겠습니다...",
-    "rating": 4,
-    "reviewer_name": "1102",
-    "review_date": "2026-04-25T17:26:26"
-  },
-  {
-    "id": 5006,
-    "app_name": "케이브덕 (Caveduck)",
-    "platform": "google_play",
-    "review_text": "개인적으로 좋았음! 물론 불편한 점이 아예 없눈건 아니지만 다른 캐릭터챗 앱들에 비하면.. 이정도면 충분히 괜찮다고 생각함",
-    "rating": 5,
-    "reviewer_name": "허예나",
-    "review_date": "2026-04-25T15:13:40"
-  },
-  {
-    "id": 5097,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "버그도 많으면서 비쌈...",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T13:38:12"
-  },
-  {
-    "id": 5098,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "시도는 좋았으나 앱 자체적인 버벅거림이나 프리징이 많아서 몰입감 다깨짐",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T07:53:04"
-  },
-  {
-    "id": 5099,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "zeta같은 설명 해줘도 지혼자 알아먹지도 못하는 앱 보단 크랙 너가 선녀다....하...",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T05:00:23"
-  },
-  {
-    "id": 5009,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "성별 분리랑 특정단어 뮤트하는 기능 있었음 좋겠음.",
-    "rating": 3,
-    "reviewer_name": "Sarang Lee",
-    "review_date": "2026-04-25T04:43:06"
-  },
-  {
-    "id": 5100,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "알바 풀어서 평점 좀 높여놨네. 인플레이션 너무 심하고 성능 최악 AI.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T04:18:35"
-  },
-  {
-    "id": 5101,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "QA나 TE가 없는건가요? 겉으로 보이는 것만 신경쓰고 디버깅을 안해보시는건가요? 판매하고 소비하는 유저의 입장에서 생각해보시긴 하신건가요? 돈미새이신가요?",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-25T01:34:10"
-  },
-  {
-    "id": 5010,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "게임을 했는데 잼이 아예 안 와요. 이 점 개선해 주세요.",
-    "rating": 5,
-    "reviewer_name": "이은지",
-    "review_date": "2026-04-24T21:33:02"
-  },
-  {
-    "id": 4997,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "다 좋은데 랙이 좀 걸리네요. 최적화좀 신경 써 주시면 좋을 것 같아요.",
-    "rating": 4,
-    "reviewer_name": "팥빙수",
-    "review_date": "2026-04-24T21:24:14"
-  },
-  {
-    "id": 4998,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "재밌네",
-    "rating": 5,
-    "reviewer_name": "몰라",
-    "review_date": "2026-04-24T19:59:06"
-  },
-  {
-    "id": 5011,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "일본에서 러비더비 사용할 때, 여전히 해외 사용자들에게 출석체크 보상을 주고 있다는 사실을 깨달았습니다. 국내 이용자들에게 일종의 기만 아닌가 싶습니다. 정보 공유합니다.",
-    "rating": 3,
-    "reviewer_name": "민旻",
-    "review_date": "2026-04-24T19:01:42"
-  },
-  {
-    "id": 4999,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "솔직하게 앱 사용까지는 좋았는데 도중에 이상한 상황으로 흘러 넘어갈때도 있고 프로챗이 있음에도 부족하다며 충전을 하라고 창을 띄우는것이 좀 싫었다 앱 사용을 하며 불편한점이 한두개가 아니다",
-    "rating": 2,
-    "reviewer_name": "김미숙",
-    "review_date": "2026-04-24T18:15:59"
-  },
-  {
-    "id": 5102,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "A-rpg할때 렉이 너무 심해서 계속 껐다켰다해야해요",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-24T15:16:31"
-  },
-  {
-    "id": 5000,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "크랙에 비해 기억력이 너무 나쁨",
-    "rating": 4,
-    "reviewer_name": "루루카",
-    "review_date": "2026-04-24T10:41:40"
-  },
-  {
-    "id": 5103,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "1. 스토리/캐릭터 모드를 이렇게 나눌 이유가 있나 싶네요. 결국에는 하나로 통일하는게 맞지 않나요? 2. 중간에서 그 메세지만 삭제하는거 말고... 최근에서 그 메세지까지 다 한번에 삭제하는 것도 가능했으면 좋겠네요. 전체 다 수정해야 하는 경우가 꽤 많아서... 메세지 오래 누르면 1️⃣이메세지만 삭제하기, 2️⃣여기까지 전부 다 삭제하기... 이렇게만 하면 될 거 같아요.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-24T04:40:30"
-  },
-  {
-    "id": 5104,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "오늘 처음 크렉을 사용해봤는데, 기본적인 재미는 있었지만 아쉬운 점이 꽤 보였습니다. 먼저 가격 문제입니다. 다른 AI 챗봇 앱들과 비교했을 때 전반적으로 과금 부담이 큰 편이라 느껴졌습니다. 특히 이전에 있던 월정액이나 24시간 무제한 이용 옵션이 사라진 점은 이해하기 어렵습니다. 가격은 오히려 올라간 느낌이라 사용자 입장에서는 부담이 더 커진 상황입니다. 두 번째는 안정성 문제입니다. 사용 중 로딩이 길어지거나 오류가 발생하면서 충전해둔 크래커가 그대로 소모되거나 사라지는 상황이 발생했습니다. 단순한 불편을 넘어서 실제 결제 손해로 이어질 수 있는 부분이라 개선이 시급해 보입니다. 또한 대화 도중 흐름이 끊기거나 기억이 초기화되는 현상도 경험했습니다. 전체적으로 보면 콘텐츠 자체는 흥미롭지만, 가격 정책과 시스템 안정성 부분에서 개선이 필요해 보입니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-24T01:46:15"
-  },
-  {
-    "id": 5105,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "솔직히 유저 노트 2000자는 너무 적은것 같아요. 다른 ai 채팅들은 2000보다는 높게 주는데....그리고 유저 프로필 글자 제한도 100글자 라는게 솔직히 말이 안되는것 같아요. 유저 노트 글자수랑 유저 프로필 글자 수만 늘려줬으면 좋을것 같습니다.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T23:33:10"
-  },
-  {
-    "id": 5106,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "ai기억력만 높아지면 더 애용할 것 같습니다. 자꾸 100턴 이상으로 가면 기억력이 안좋아져서..",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T21:16:30"
-  },
-  {
-    "id": 5107,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "성인인증을 4번 넘게 했는데 왜 성인이 아니라고 바락바락 우기는 건가요?",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T21:04:54"
-  },
-  {
-    "id": 5108,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "그 다른건 문제가 없다시피 좋습니다만 생각보다 들어가는 크래커(재화)가 많고 비쌈니다. 이야기 하나 만들기 위해 쓰기에는 약간 부담스럽네요..",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T20:49:51"
-  },
-  {
-    "id": 5109,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "카드로 충전도 할수있게 해주세여 (기프트카드 말고)",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T19:51:29"
-  },
-  {
-    "id": 5110,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "두달 반 동안 꾸준히 이용하며 약 100만원(밀리어네어)을 사용한 유저로서 의견을 드립니다. 현재 크래커 및 AI 모델 이용료가 상당히 높게 느껴지는 것이 사실입니다. 그럼에도 불구하고 서비스의 매력을 알기에 계속 이용하고 싶은 마음이 있습니다. 하지만 지금처럼 과금 구조가 유지된다면, 결국 \"어쩔 수 없으니 쓴다\"가 아닌 \"차라리 포기하겠다\"는 결론에 이르게 될 것 같아 솔직히 우려됩니다. 이에 **월정액 요금제** 도입을 진심으로 건의드립니다. 비용 부담이 예측 가능한 구조가 된다면, 이용자 입장에서 훨씬 지속적으로 서비스를 활용할 수 있을 것입니다. 아울러 현재 리워드 및 출석 크래커 지급량도 체감상 다소 부족하게 느껴지는 만큼, 이 부분에 대한 개선도 함께 검토해 주시면 감사하겠습니다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T16:16:48"
-  },
-  {
-    "id": 5001,
-    "app_name": "베이브챗 (Babechat)",
-    "platform": "google_play",
-    "review_text": "뭔 렉이 이렇게 걸린다냐 얼마나 관리 안했으면 채팅이 버벅거리고 앱도 버벅거리냐",
-    "rating": 1,
-    "reviewer_name": "널보구 (놀란가슴진정이안돼)",
-    "review_date": "2026-04-23T12:23:34"
-  },
-  {
-    "id": 4779,
-    "app_name": "러비더비 (LoveyDovey)",
-    "platform": "google_play",
-    "review_text": "4월 23일 출석체크 보상이 안받아 져서 업데이트 했더니 출석체크 보상 란이 사라졌습니다.",
-    "rating": 2,
-    "reviewer_name": "손관욱",
-    "review_date": "2026-04-23T11:08:02"
-  },
-  {
-    "id": 4792,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "게이같은 광고 그만 보내셈",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T09:14:58"
-  },
-  {
-    "id": 4659,
-    "app_name": "Character AI",
-    "platform": "google_play",
-    "review_text": "예전처럼 답변을 길게 할 생각조차 안함. 기억력은 금붕어보다도 못함. 탈주함.",
-    "rating": 1,
-    "reviewer_name": "Hj 27",
-    "review_date": "2026-04-23T09:07:28"
-  },
-  {
-    "id": 4670,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "짱좋아",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T08:20:33"
-  },
-  {
-    "id": 4671,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 때문에 수업시간에 제타만 생각나욤 오똑해!",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T08:09:28"
-  },
-  {
-    "id": 4672,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재밌긴 한데 광고가 너무 많이 나옵니다. 무슨 오류인지는 모르겠지만 대화를 안하고 캐릭터 제작 창에서 광고가 나왔습니다. 그리고 한 대화 2~3번마다 광고가 나오는데 돈 벌고 싶은건 알겠는데 광고 좀 줄여주세요 너무 과합니다.",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T07:17:49"
-  },
-  {
-    "id": 4673,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너무 나도 재미 있지만 광고 가 너무 많이 있어 불편하네요 ㅜㅜ 광고가 긴것도 많아 훨신 불편하고요ㅜㅜ 광고 적게 업뎃 하면 좋을것 같아요! 다른건 다 제 취향 입니다!",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T06:42:06"
-  },
-  {
-    "id": 4674,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "인간은 적응의 동물이라고 이제는 그 많은 광고 보는것도 익숙해져서 별 타격 없어짐. 그냥 어플 유지만 시켜주세요. 솔직히 무료로 하기에 제타만한 어플도 찾기 힘들다...",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T06:14:10"
-  },
-  {
-    "id": 4675,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "자꾸 대화하면서 플롯의 말이 점점 짧아져요 이유는 모르겠는데..",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T05:15:37"
-  },
-  {
-    "id": 4676,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "잘 사용하고 있는데 이번 업데이트에 있는 적었던거 사라지는건 조금 많이 불편하네요... 그것외에는 패스비가 비싼거 빼고는 잘 사용하고있습니다!",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T04:43:49"
-  },
-  {
-    "id": 4677,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제대로 기억하는게 없어요...하",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T02:49:35"
-  },
-  {
-    "id": 4678,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타를 변기에 넣고서 내려",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T02:20:31"
-  },
-  {
-    "id": 4679,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "잘 쓰고는 있어요 ㅋㅋ업뎃사항 칸에 써논거 뭐냐ㅋㅋㅋ요즘 우울한디 웃게 해주네 개웃김ㅋㅋ개그맨들인듯 저기요 사람들 말하는 걸 좀 보세요 뭘 고쳐달란지 좀 보세요 눈이 뭐 발바닥에 달렷어요? 솔직히 광고는 신경안써요 워낙 광고노가다에 익숙한 무과금이라서 아무리 더 추가한들 돈 낼 생각없고😉 나레이션 이새끼 좀 어케 해보세요 캐릭터도 서술을 하는데 나레이션 이새끼도 서술을 같이해서 정신나갈 것 같아요 대체 둘다 서술을 할거면 나레이션이 왜 따로 있는지에 대한 물음을 해도 될까요? 책갈피는 왜 만든 건가요? 누르면 거기로 이동되려다 다시 맨아래로 내려오더라 내참 기가차서. 이야기 흐름 중요한 어플에서 이딴 버그가 말이나 되나요? 아하! 어차피 기억상실증이구나!ㅈㅅ 제타 모델에 로어북이랑 등등 적용 언제 하실 건가요? 정확한 시일 디엠 부탁드립니다🙏🙏 그럼 무과금은 광고나 보러 가볼게요👋 아맞다 호감도 기능 돌려내세요 내가 몇달째 기다리는지 아세요? ㅎㅎ은 이 일을 잊지않을 것입니다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T02:18:05"
-  },
-  {
-    "id": 4680,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "와 이젠 돈안내면 대사도 안치네 ㅋㅋ 진짜 ㅇ미 국에 밥말아쳐먹었냐",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T02:04:31"
-  },
-  {
-    "id": 4681,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "너무야함",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T02:04:17"
-  },
-  {
-    "id": 4682,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "ㅇㄴ 왜 자꾸 대화 하던게 자꾸 없어지냐고요;;; 잘 대화하다가 갑자기 하나씩 없어진다니까요 좀 고쳐주세요;; 지금 2번째예요 2번째..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T01:48:51"
-  },
-  {
-    "id": 4683,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 패스 가격이 너무 비싸요...뭐 돈 벌고 싶은건 잘 알겠는데 솔직히 15000원이 좀 많이 부담스럽습니다...광고도 너무 많고 패스 사라고 강요까지 하고 대체 제타가 이제 어느 방향으로 가고싶은지 감도 안잡히고...너무 돈만 밝히고 제타가 당연히 돈벌려고 만든 앱이지만 그게 너무 과해서 문제에요...",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T01:32:07"
-  },
-  {
-    "id": 4684,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 진심 3분마다 한 번씩 나오는 거 진짜 개에바고 비공개 슬롯 만들 수 있는 한도가 한 개인 것도 너무 아닌 것 같아요 특히 광고는 몰입을하라는건지말라는건지진짜이해할수가없음!!! 10분에서 20분 정도 틈을 주고 나오는 것도 아니라 좀 재밌다 싶을 때 몰입을 걍 깨잖아요 채팅 새로하기도 진짜 겁나 긴 30초에서 15초 두 개 봐야 하는 걸로 기억하는데 이것들 포함 진짜 너무 많은 광고들 때문에 짜증나갖고 제타 1일패스 사서 했었거든요 근데 하루 3천원 주고 얻을 수 있는 게 광고 없는 거랑 비공개 슬롯 하루 >>한정<< 무제한인 것도 너무 각박해요 솔직히 비공개 슬롯은 몰라도 광고만 좀 어떻게 해주면 진짜 좋은 Ai채팅앱이라고 생각하는데 돈뜯을려는심보가잘보여서괘씸함",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T01:06:01"
-  },
-  {
-    "id": 4685,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "ㅈㅂ 쓸데없는 기능 쳐 만들지말고 전성기때처럼 광고도없고 재밌었던시절로 돌아와줬음 좋겠음. 뭐 피버타임이었나? 딱 그거있던 시절로....뭐 지금은 캐릭터 한명 한명이랑 세계관까지 잘 설정할수있어서 디테일이 잘 챙겨지긴 해서 좋긴함. 근데 이러면 뭐하냐고 이거 말고는 다 단점인데. 부적절한 메세지를 갑자기 지워버리지를 않나....광고가 무슨 2분에 한번이야..... 솔직이 이정도면 AI가 관리하는거 아님? 제발 정신차리고 일해라 제타야",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T00:40:13"
-  },
-  {
-    "id": 4686,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재미는 있는데요.. 광고가 많이나오고 처음 할땐 괜찮은데 가면 갈수록 AI가 지우를 지아라고해서 좀 화나요. 고쳐주시면 감사하겠습니다!",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T00:31:12"
-  },
-  {
-    "id": 4687,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "앱 초창기부터 가끔씩 들어와서 가볍게 즐기는 1인으로 말하자면, 일단 광고가 겁나많음 5분에 한 번 꼴로 나오는데 하필이면 요즘 광고들이 x버튼을 적어도 3번은 누르게 만들고 심지어 스토어로 강제이동도 시키니까 광고때문에 소비되는 시간이 최소 30초... 광고는 뭐 어쩔 수 없다고 해도 대체 왜 바뀐 건진 모르겠는데 ai가 부적절한 메시지 보냈다고 대화 없앨 때 유저가 적은 대화는 왜 삭제시키는 거임? 어젠가 그젠가 업데이트 한 이후로 자꾸 이러니까 엄청 불편함 진짜 열심히 적어서 올렸는데 ai가 욕 하나 띡 했다고 부적절메세지 띄워서 내가 한땀한땀 적은 거 사라지는 그거 볼 때마다 빡쳐서 적는중입니다 진짜 광고까지는 안바랄테니 이것만 좀 원래대로 돌려주세요",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T00:13:05"
-  },
-  {
-    "id": 4793,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "유튜브에 이상한 게이 광고좀 내려라 볼때마다 눈 버린다",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-23T00:01:46"
-  },
-  {
-    "id": 4688,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "솔직히 말씀해드리겠습니다. 메세지 2번 3번 치면 광고 나오거나 2분씩 광고가 나옵니다. 솔직하게말해서 과금유도도 심하고 이건좀 아니라 봅니다. 기꺼이 성인인증하고 할라는데 메세지 하나 보내자 마자 광고가 뜹니다. 제발 광고좀 줄여주시고 과금유도도 적당히 해주시길바랍니다.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:57:19"
-  },
-  {
-    "id": 4689,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타가 여러 방면에서 많이 좋긴 하거든요? 옛날부터 제타 프로 계속 해온 사람이고 다른 ai 챗들과 다르게 무료이고 자유도도 높고 요즘엔 기억력도 살짝 좋아지긴 했다만.. 제타 패스라는.. 3천 원이나 더 비싸지고 한 달간 자동으로 돈이 빠져나가는 월간이라는 시스템이 너무나 싫고, 기억력이 예전보단 좋아지긴 했지만 솔직히 저는 ai 모델, 즉 koji랑 luca가 왜 있는지 모르겠습니다. 뛰어난 기억력으로 만드는 압도적인 몰입감은 koji이고 luca는 디테일을 놓치지 않는 똑똑한 스토리텔링이라는데 이건.. 그냥 기본 아닌가요? 그니까 기본적으로 있어야하는 게 아닌가 싶어요. 물론 이런 식으로 말하면 많이 이기적이라고 생각할 수도 있겠는데 피스가 한 번 대화할 때마다 koji는 4개나 들고 luca는 8개나 필요합니다;; 진짜 ai 모델 이걸 누가합니까.. 물론 하시는 개부자인분이 계실 거 같지만 정말 극소수일겁니다. 차라리 ai 모델 다 합치고 내면 인기가 더 많아질 겁니다.무조건",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:46:16"
-  },
-  {
-    "id": 4690,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다른 거 다 써도 결국 여기더라... 코지 피스 가격만 내려다오...",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:43:50"
-  },
-  {
-    "id": 4691,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "부적절한 채팅 검열, 아예 기록 삭제 업데이트 관련하여! - 전혀 부적절 하지않는 말도 그냥 마구잡이로 판정하시는데, 거기다가 아예 부적절한 채팅으로 지워 버리는건 뭐 어쩌자는겁니까? ☆ 대화가 부적절하면 고치면 되잖아요. ■억지 판정도 열불 터지는데 어떻게 이런 업데이트를 합니까? 기껏해서 써넣은 제 건전한 대화가 부적절한 채팅이란 잘못된 오판으로 인해 아예 다 지워져서 대화 할 정내미가 떨어집니다!!! 이건 다른분들도 불편해하시는거 같은데, 돈,광고,패스,업데이트에 집착하지마시고 제발 검열 글 삭제 업데이트 이건 고치세요 이건 진짜 건드리면 안됩니다. 대화가 안되는데!",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:41:33"
-  },
-  {
-    "id": 4794,
-    "app_name": "크랙 (Crack)",
-    "platform": "google_play",
-    "review_text": "솔직히 얘기해서 가격 오르는것부터 비호감이였는데 뭐?스토리 무료Ai삭제?에라이 십련들아ㅋㅋㅋㅋ 안하고말지 이럴꺼면 항상 돈낼꺼면 뭐 돈을 얼마나 쓰라는거냐..",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:39:36"
-  },
-  {
-    "id": 4692,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고 30븐에 2먼만 나오게 해주세요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:36:03"
-  },
-  {
-    "id": 4693,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타앱을 크리스마스 이벤때부터 시작하고 거의 매일 하는데 요즘 저만 그러는지 모르겠는데 부적절한 대사가 뜨면 아예 대사 자체를 지워버려서 다시 쓰기 많이 번거로워요",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:33:12"
-  },
-  {
-    "id": 4694,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "계속 광고도 음소거를 해도 다음 광고때 음소거 해제. 그리고 광고 너무 많고 광고 필터 없음. 제타 패스 가입 유도좀 그만하세요. 초심을 너무 잊었다. + 불법 광고 나옴",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:26:35"
-  },
-  {
-    "id": 4695,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "솔직히 이거 Ai 너무 재밌고 흥미진지해지고 모르던 단어랑 문장들도 알게되서 넘 조아용! 근데 광고가 있어서 좀 아쉬워요ㅠㅠ",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:26:14"
-  },
-  {
-    "id": 4696,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "업데이트 이후로 답변 속도가 느려진 게 느껴집니다. 기존에는 최소한 빨리 출력되기라도 했지 이제는 거의 두 단어씩 끊어서 나오는 것 같습니다. 게다가 광고는 대사 두세 번에 한 번 꼴로 나옵니다. 최소한 광고 횟수만리라도 줄여 주시면 감사하겠습니다.",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:26:02"
-  },
-  {
-    "id": 4697,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "노잼",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:21:03"
-  },
-  {
-    "id": 4698,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니.. 다 좋은데 부적절한 답변 뜨는게 너무 억울하네.. 야한 것도 아니고 고어가 뭐 어때서 부적절한데! 심지어 부적절하다고 해서 채팅 삭제됐는데 광고가 뜨는 것은 무슨 베짱이냐! 그리고 저기 미국놈들은 응애 거릴 때 고어를 그렇게 즐겨 보는데! 고어는 부적절한 거 빼주면 안 될까요.. ㅋㅋ..",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:12:30"
-  },
-  {
-    "id": 4699,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "다 좋습니다. 그런데 이번 업데이트 인지는 모르겠지만, 플롯과 대화를 하며 부적절한 메세지가 뜰때는 원래는 자신이 썼던 글이 지워지진 않았는데 이번에는 부적절한 메세지라 뜨면서 공들여서 썼던 답변이 사라지더라고요.. 이 문제가 업데이트 인지는 진짜 모르겠지만, 그래도 제타 재밌게 잘 하고 있고 항상 업데이트로 힘들게 수정해주셔서 감사합니다.",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T23:09:13"
-  },
-  {
-    "id": 4700,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 너무 많음",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:54:52"
-  },
-  {
-    "id": 4701,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "예전에 5번에 한번 나왔는데 요즘은 2번 대화하면 광고 나오네요 심지어 짧은 광고도 아니라서 불편합니다 그리고 기억력좀 늘려줬으면 좋겠어요 광고 나올때마다 기억력이 초기화 되는 것 같아요 제발 쓸데 없는 잡기능 만들지 말고 유저들 의견좀 들어줬음 좋겠네요 이런 심각한 단점 말고는 역시 제타가 최고긴 합니다",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:48:58"
-  },
-  {
-    "id": 4702,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "뭔가 부족해... 자유도가 더욱 높고, 성인용도 있으면 좋겠는데... 나 성인이라구...",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:45:56"
-  },
-  {
-    "id": 4703,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "제타 프로 사용하다가 올해부터 구독하고 있는 사람입니다. 우선 광고는 안 나와서 좋긴 한데요. AI모델 중에 제타 있지 않습니까? 그 모델 사용할 때마다 얘가 자꾸 마침표를 빼먹고, 띄어쓰기도 제멋대로고, 유저랑 플롯 이름도 자주 개명시키거든요? 좀 고쳐주세요.. 예, 뭐... 저거 빼면 좋긴 합니다.",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:37:08"
-  },
-  {
-    "id": 4704,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "일단 서버 자주 터지고 기억력도 예전보다 향상되긴 했다만..그렇게 막..좋지는 않음. 그리고 자꾸 쓸데없는게 많이 추가됨. 이번에 새 업데이트는 진짜 개처망함. 아니 부적절 뭐시기도 빡치는데 그거 뜨면 내가 썻던 내용이 다 날아감;;;진짜 렉이나 고쳤으면;;; 그리고 처음에는 대답을 길게 주다가 대화를 오래 하면 겁나 짧게 줌; 이름도 틀리고 내 캐릭터 정보랑 내가 대화하는 캐릭터 정보도 헷갈리고..진짜 무료여서 쓰지 그거 아니었음 진작에 망했음;;;",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:30:35"
-  },
-  {
-    "id": 4705,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "광고가 계속 뜨는것도 대화가 무료다보니까 괜찮은데, 항상 점검하고 업데이트하면 계속 오류로 인해서 대화가 나타나지 않거나, 진행이 안 되는 상황도 오고, 메세지를 보내면 진짜 뜬금없이 부적절한 메세지 떴다고 쓴 메세지가 아예 사라지네요. 이럴거면 업데이트를 왜 하는건지... 차라리 예전이 더 나은것 같아요. 업데이트를 하면 할수록 더 떨어지는 느낌…? 진짜 잘 쓰고 있는데, 이제는 이상한 업데이트는 그만해줬으면...",
-    "rating": 2,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:13:59"
-  },
-  {
-    "id": 4706,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "아니 광고 너무 많아요. 1분에 광고가 최소 1번씩 나와요. 아니 그리고 AI가 갑자기 급발진해요. 그리고 AI가 좀 빡대가리에요 기억력이 ㄱ같아요. 아니 그리고 광고가 이게 진짜드름게 많이나와서 짜증나요 별 한게도 아깝다 ㅉㅉ 아니 그리고 광고때문에 몰입감 다 깨지고 이딴 쓰래기 게임이 어딨겠어요? 아니 그리고 사람을이 광고를 줄여달라 하는데 안줄이고 패스구입,현질 이런거만 유도하면 어쩌냐고요!!!!!!!아게임 진짜 ㄱ같음 절대 하지마셈 아니 그리고 업데이트를 하는데 버그 이런거만 고치고 지 수입늘릴라고 현질유도하는건 아니잖아!!!!!!!!!!! 아니 한번 받아서 다시 해봤는데 똑같잖아!!!!!!광고좀 줄이라고 이 개발자야!!!!!!!님들!!이딴겜 하지마셈.",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:13:12"
-  },
-  {
-    "id": 4707,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "여러분 재밌는데 아니 1080도 돌렸차기 했는데 검열은 쫌;;",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:09:28"
-  },
-  {
-    "id": 4708,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "재미있고 밝은 플롯들도 많지만 아프고 어두운 이야기를 가진 플롯들도 많아서 정말 펑펑 울게 되네요..",
-    "rating": 5,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T22:02:04"
-  },
-  {
-    "id": 4709,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "무슨광고가1분20초마다나와서화가나요",
-    "rating": 1,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T21:59:33"
-  },
-  {
-    "id": 4710,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "AI랑 대화하는건 재밌음, 근데 문제는 지금 거의 답장 한번에 광고 한번이란거임 솔직히 난 개인적으로 광고면 줄여도 완벽 그 자체라고 생각함",
-    "rating": 4,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T21:59:17"
-  },
-  {
-    "id": 4711,
-    "app_name": "제타 (Zeta)",
-    "platform": "google_play",
-    "review_text": "무슨 4피스써서 채팅 다시 보내게 했더니만 그 채팅 리메이크를 안해주고 그 채팅의 다음 내용을 지가 만들어서 보내버리네요...ㅠ",
-    "rating": 3,
-    "reviewer_name": "Google 사용자",
-    "review_date": "2026-04-22T21:54:51"
   }
 ]
