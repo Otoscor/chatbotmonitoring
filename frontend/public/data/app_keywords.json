@@ -1,146 +1,134 @@
 [
   {
     "keyword": "너무",
-    "total_count": 142
-  },
-  {
-    "keyword": "ai",
-    "total_count": 94
+    "total_count": 119
   },
   {
     "keyword": "광고",
-    "total_count": 93
+    "total_count": 88
   },
   {
-    "keyword": "광고가",
-    "total_count": 85
+    "keyword": "ai",
+    "total_count": 87
   },
   {
     "keyword": "많이",
-    "total_count": 82
+    "total_count": 75
   },
   {
     "keyword": "그리고",
-    "total_count": 78
+    "total_count": 71
+  },
+  {
+    "keyword": "광고가",
+    "total_count": 67
   },
   {
     "keyword": "진짜",
-    "total_count": 69
+    "total_count": 67
   },
   {
     "keyword": "계속",
+    "total_count": 60
+  },
+  {
+    "keyword": "다른",
+    "total_count": 49
+  },
+  {
+    "keyword": "그냥",
     "total_count": 49
   },
   {
     "keyword": "자꾸",
-    "total_count": 46
-  },
-  {
-    "keyword": "다른",
-    "total_count": 46
-  },
-  {
-    "keyword": "그냥",
-    "total_count": 44
-  },
-  {
-    "keyword": "부적절한",
-    "total_count": 42
-  },
-  {
-    "keyword": "근데",
-    "total_count": 41
-  },
-  {
-    "keyword": "다시",
     "total_count": 40
-  },
-  {
-    "keyword": "하고",
-    "total_count": 38
   },
   {
     "keyword": "제타",
     "total_count": 37
   },
   {
-    "keyword": "갑자기",
-    "total_count": 37
-  },
-  {
-    "keyword": "제발",
-    "total_count": 37
-  },
-  {
     "keyword": "대화",
+    "total_count": 36
+  },
+  {
+    "keyword": "부적절한",
     "total_count": 35
   },
   {
-    "keyword": "채팅",
-    "total_count": 32
+    "keyword": "근데",
+    "total_count": 34
   },
   {
-    "keyword": "아니",
-    "total_count": 30
+    "keyword": "하고",
+    "total_count": 33
   },
   {
-    "keyword": "솔직히",
-    "total_count": 29
-  },
-  {
-    "keyword": "캐릭터",
-    "total_count": 28
-  },
-  {
-    "keyword": "이거",
-    "total_count": 25
+    "keyword": "다시",
+    "total_count": 33
   },
   {
     "keyword": "크래커",
-    "total_count": 25
+    "total_count": 33
   },
   {
-    "keyword": "점점",
-    "total_count": 25
+    "keyword": "제발",
+    "total_count": 32
   },
   {
-    "keyword": "있는",
-    "total_count": 24
+    "keyword": "갑자기",
+    "total_count": 31
+  },
+  {
+    "keyword": "채팅",
+    "total_count": 28
+  },
+  {
+    "keyword": "아니",
+    "total_count": 28
   },
   {
     "keyword": "제가",
-    "total_count": 23
+    "total_count": 26
   },
   {
-    "keyword": "같아요",
-    "total_count": 23
+    "keyword": "솔직히",
+    "total_count": 25
   },
   {
-    "keyword": "무슨",
-    "total_count": 23
+    "keyword": "오류",
+    "total_count": 25
   },
   {
-    "keyword": "좋은데",
-    "total_count": 23
+    "keyword": "오류가",
+    "total_count": 24
   },
   {
-    "keyword": "자주",
-    "total_count": 22
+    "keyword": "하면",
+    "total_count": 24
   },
   {
     "keyword": "하는",
+    "total_count": 24
+  },
+  {
+    "keyword": "캐릭터",
+    "total_count": 23
+  },
+  {
+    "keyword": "있는",
+    "total_count": 23
+  },
+  {
+    "keyword": "점점",
+    "total_count": 23
+  },
+  {
+    "keyword": "없는",
     "total_count": 22
   },
   {
-    "keyword": "하는데",
-    "total_count": 22
-  },
-  {
-    "keyword": "정말",
-    "total_count": 22
-  },
-  {
-    "keyword": "해주세요",
+    "keyword": "같아요",
     "total_count": 21
   },
   {
@@ -148,35 +136,43 @@
     "total_count": 21
   },
   {
-    "keyword": "오류",
-    "total_count": 21
-  },
-  {
-    "keyword": "내가",
-    "total_count": 21
-  },
-  {
-    "keyword": "나오고",
+    "keyword": "저는",
     "total_count": 20
   },
   {
-    "keyword": "오류가",
-    "total_count": 19
-  },
-  {
-    "keyword": "하면",
-    "total_count": 19
-  },
-  {
     "keyword": "업데이트",
+    "total_count": 20
+  },
+  {
+    "keyword": "이거",
+    "total_count": 20
+  },
+  {
+    "keyword": "있습니다",
     "total_count": 19
   },
   {
-    "keyword": "없는",
+    "keyword": "조금",
+    "total_count": 19
+  },
+  {
+    "keyword": "같은",
+    "total_count": 19
+  },
+  {
+    "keyword": "기억력",
+    "total_count": 19
+  },
+  {
+    "keyword": "플롯",
+    "total_count": 19
+  },
+  {
+    "keyword": "캐릭터가",
     "total_count": 18
   },
   {
-    "keyword": "기억력이",
+    "keyword": "좋은데",
     "total_count": 18
   },
   {
@@ -184,19 +180,23 @@
     "total_count": 18
   },
   {
+    "keyword": "해주세요",
+    "total_count": 18
+  },
+  {
+    "keyword": "많고",
+    "total_count": 17
+  },
+  {
     "keyword": "좋은",
-    "total_count": 18
+    "total_count": 17
   },
   {
-    "keyword": "무료",
-    "total_count": 18
+    "keyword": "자주",
+    "total_count": 17
   },
   {
-    "keyword": "저는",
-    "total_count": 18
-  },
-  {
-    "keyword": "합니다",
-    "total_count": 18
+    "keyword": "있는데",
+    "total_count": 17
   }
 ]
