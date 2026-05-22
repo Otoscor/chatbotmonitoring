@@ -13,8 +13,8 @@ import {
 
 import StatCard from '../components/StatCard'
 import KeywordCloud from '../components/KeywordCloud'
-import RankingList from '../components/RankingList'
 import { useApi } from '../hooks/useApi'
+import { useKeywordFilter } from '../hooks/useKeywordFilter'
 import {
   fetchLatestReport,
   fetchReports,
@@ -36,6 +36,7 @@ export default function Dashboard() {
   const [activeTab, setActiveTab] = useState('all')
   const [popularPosts, setPopularPosts] = useState<Post[]>([])
   const [postsLoading, setPostsLoading] = useState(false)
+  const { blocklist } = useKeywordFilter()
 
   const { data: latestReport, loading: reportLoading } = useApi(
     useCallback(() => fetchLatestReport(), [])
@@ -96,23 +97,14 @@ export default function Dashboard() {
         </p>
       </header>
 
-      {/* Stats Grid */}
-      <section className="grid grid-cols-1 md:grid-cols-4 gap-4" data-section="stats">
-        <StatCard
-          title="게시글"
-          value={latestReport?.total_posts || 0}
-        />
-        <StatCard
-          title="조회수"
-          value={latestReport?.total_views || 0}
-        />
-        <StatCard
-          title="추천수"
-          value={latestReport?.total_recommends || 0}
-        />
-        <StatCard
-          title="댓글"
-          value={latestReport?.total_comments || 0}
+      {/* 키워드 분석 */}
+      <section data-section="keywords">
+        <h3 className="section-title mb-3">인기 키워드</h3>
+        <KeywordCloud
+          keywords={(latestReport?.top_keywords || [])
+            .filter((k: any) => !blocklist.includes(k.keyword))
+            .slice(0, 20)
+            .map((k: any) => ({ text: k.keyword, value: k.count }))}
         />
       </section>
 
@@ -208,6 +200,26 @@ export default function Dashboard() {
         )}
       </section>
 
+      {/* Stats Grid */}
+      <section className="grid grid-cols-1 md:grid-cols-4 gap-4" data-section="stats">
+        <StatCard
+          title="게시글"
+          value={latestReport?.total_posts || 0}
+        />
+        <StatCard
+          title="조회수"
+          value={latestReport?.total_views || 0}
+        />
+        <StatCard
+          title="추천수"
+          value={latestReport?.total_recommends || 0}
+        />
+        <StatCard
+          title="댓글"
+          value={latestReport?.total_comments || 0}
+        />
+      </section>
+
       {/* Charts */}
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-section="charts">
         {/* 게시글 트렌드 */}
@@ -276,32 +288,6 @@ export default function Dashboard() {
               />
             </AreaChart>
           </ResponsiveContainer>
-        </div>
-      </section>
-
-      {/* 키워드 분석 */}
-      <section className="grid grid-cols-1 lg:grid-cols-3 gap-6" data-section="keywords">
-        <div className="lg:col-span-2 flex flex-col h-full">
-          <h3 className="section-title mb-3">인기 키워드</h3>
-          <KeywordCloud
-            className="flex-1 h-full"
-            keywords={latestReport?.top_keywords?.map((k: any) => ({
-              text: k.keyword,
-              value: k.count
-            })) || []}
-          />
-        </div>
-        <div className="flex flex-col h-full">
-          <h3 className="section-title mb-3">키워드 순위</h3>
-          <RankingList
-            className="flex-1 h-full"
-            title="TOP 10"
-            items={latestReport?.top_keywords?.slice(0, 10).map((k: any, idx: number) => ({
-              rank: idx + 1,
-              name: k.keyword,
-              score: k.count
-            })) || []}
-          />
         </div>
       </section>
     </div>

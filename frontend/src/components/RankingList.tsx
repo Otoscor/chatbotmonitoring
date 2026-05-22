@@ -1,3 +1,5 @@
+import React from 'react'
+
 interface RankingItem {
   rank: number
   name: string
@@ -8,11 +10,12 @@ interface RankingListProps {
   title: string
   items: RankingItem[]
   className?: string
+  style?: React.CSSProperties
 }
 
-export default function RankingList({ title, items, className = '' }: RankingListProps) {
+export default function RankingList({ title, items, className = '', style }: RankingListProps) {
   return (
-    <div className={`ranking-list flex flex-col ${className}`} data-component="ranking-list">
+    <div className={`ranking-list flex flex-col ${className}`} style={style} data-component="ranking-list">
       <div className="ranking-list-header">
         <h3 className="ranking-list-title">{title}</h3>
       </div>

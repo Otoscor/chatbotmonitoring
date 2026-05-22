@@ -1,5 +1,318 @@
 [
   {
+    "id": 44,
+    "report_date": "2026-05-22T20:08:37.243861",
+    "total_posts": 259,
+    "total_views": 12065,
+    "total_recommends": 138,
+    "total_comments": 467,
+    "top_keywords": [
+      {
+        "keyword": "바베",
+        "count": 32,
+        "score": 0.0341
+      },
+      {
+        "keyword": "에덴",
+        "count": 21,
+        "score": 0.0242
+      },
+      {
+        "keyword": "ai",
+        "count": 11,
+        "score": 0.0213
+      },
+      {
+        "keyword": "오프",
+        "count": 18,
+        "score": 0.0212
+      },
+      {
+        "keyword": "삼오플",
+        "count": 15,
+        "score": 0.0167
+      },
+      {
+        "keyword": "오푸스",
+        "count": 12,
+        "score": 0.0154
+      },
+      {
+        "keyword": "모델",
+        "count": 11,
+        "score": 0.0123
+      },
+      {
+        "keyword": "ooc",
+        "count": 6,
+        "score": 0.0108
+      },
+      {
+        "keyword": "홍보",
+        "count": 8,
+        "score": 0.0102
+      },
+      {
+        "keyword": "출석",
+        "count": 10,
+        "score": 0.0101
+      },
+      {
+        "keyword": "결제",
+        "count": 8,
+        "score": 0.0095
+      },
+      {
+        "keyword": "질문",
+        "count": 9,
+        "score": 0.0094
+      },
+      {
+        "keyword": "처음",
+        "count": 7,
+        "score": 0.0092
+      },
+      {
+        "keyword": "케젬",
+        "count": 6,
+        "score": 0.0085
+      },
+      {
+        "keyword": "크랙",
+        "count": 7,
+        "score": 0.008
+      },
+      {
+        "keyword": "잼삼플",
+        "count": 7,
+        "score": 0.0079
+      },
+      {
+        "keyword": "단축",
+        "count": 5,
+        "score": 0.0071
+      },
+      {
+        "keyword": "테스트",
+        "count": 6,
+        "score": 0.0071
+      },
+      {
+        "keyword": "검열",
+        "count": 6,
+        "score": 0.0069
+      },
+      {
+        "keyword": "가격",
+        "count": 6,
+        "score": 0.0068
+      },
+      {
+        "keyword": "엘린",
+        "count": 6,
+        "score": 0.0068
+      },
+      {
+        "keyword": "새끼",
+        "count": 5,
+        "score": 0.0066
+      },
+      {
+        "keyword": "인간",
+        "count": 5,
+        "score": 0.0066
+      },
+      {
+        "keyword": "구글",
+        "count": 5,
+        "score": 0.0063
+      },
+      {
+        "keyword": "기억",
+        "count": 5,
+        "score": 0.0063
+      },
+      {
+        "keyword": "출력",
+        "count": 7,
+        "score": 0.0063
+      },
+      {
+        "keyword": "프롬",
+        "count": 5,
+        "score": 0.0063
+      },
+      {
+        "keyword": "방법",
+        "count": 5,
+        "score": 0.0062
+      },
+      {
+        "keyword": "아크",
+        "count": 5,
+        "score": 0.006
+      },
+      {
+        "keyword": "최고",
+        "count": 5,
+        "score": 0.0059
+      },
+      {
+        "keyword": "상태",
+        "count": 5,
+        "score": 0.0057
+      },
+      {
+        "keyword": "젬이오",
+        "count": 5,
+        "score": 0.0054
+      },
+      {
+        "keyword": "노트",
+        "count": 5,
+        "score": 0.0053
+      },
+      {
+        "keyword": "저녁",
+        "count": 4,
+        "score": 0.0052
+      },
+      {
+        "keyword": "캐챗",
+        "count": 4,
+        "score": 0.0051
+      },
+      {
+        "keyword": "말투",
+        "count": 4,
+        "score": 0.005
+      },
+      {
+        "keyword": "pc",
+        "count": 2,
+        "score": 0.0049
+      },
+      {
+        "keyword": "소설",
+        "count": 4,
+        "score": 0.0049
+      },
+      {
+        "keyword": "제작자",
+        "count": 4,
+        "score": 0.0049
+      },
+      {
+        "keyword": "가능",
+        "count": 5,
+        "score": 0.0048
+      },
+      {
+        "keyword": "세계",
+        "count": 4,
+        "score": 0.0048
+      },
+      {
+        "keyword": "패치",
+        "count": 4,
+        "score": 0.0048
+      },
+      {
+        "keyword": "계정",
+        "count": 4,
+        "score": 0.0047
+      },
+      {
+        "keyword": "얼마",
+        "count": 4,
+        "score": 0.0047
+      },
+      {
+        "keyword": "작품",
+        "count": 4,
+        "score": 0.0045
+      },
+      {
+        "keyword": "추가",
+        "count": 4,
+        "score": 0.0045
+      },
+      {
+        "keyword": "티팟",
+        "count": 4,
+        "score": 0.0045
+      },
+      {
+        "keyword": "해결",
+        "count": 4,
+        "score": 0.0045
+      },
+      {
+        "keyword": "유저",
+        "count": 4,
+        "score": 0.0044
+      },
+      {
+        "keyword": "편향",
+        "count": 4,
+        "score": 0.0044
+      }
+    ],
+    "top_characters": [
+      {
+        "name": "바베/셒",
+        "mentions": 2,
+        "rank": 1
+      },
+      {
+        "name": "닭장",
+        "mentions": 2,
+        "rank": 2
+      },
+      {
+        "name": "빌림",
+        "mentions": 1,
+        "rank": 3
+      },
+      {
+        "name": "//",
+        "mentions": 1,
+        "rank": 4
+      },
+      {
+        "name": "시뮬",
+        "mentions": 1,
+        "rank": 5
+      },
+      {
+        "name": "예고",
+        "mentions": 1,
+        "rank": 6
+      },
+      {
+        "name": "홍보/언셒/NTR",
+        "mentions": 1,
+        "rank": 7
+      },
+      {
+        "name": "홍보/언셒",
+        "mentions": 1,
+        "rank": 8
+      },
+      {
+        "name": "오메가버스",
+        "mentions": 1,
+        "rank": 9
+      },
+      {
+        "name": "TS홈즈",
+        "mentions": 1,
+        "rank": 10
+      }
+    ],
+    "trending_topics": []
+  },
+  {
     "id": 43,
     "report_date": "2026-05-08T10:56:47.451416",
     "total_posts": 561,
@@ -8116,349 +8429,6 @@
         "current": 5,
         "previous": 0,
         "growth": 100.0
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "report_date": "2026-02-05T14:02:54.970042",
-    "total_posts": 413,
-    "total_views": 23207,
-    "total_recommends": 279,
-    "total_comments": 1619,
-    "top_keywords": [
-      {
-        "keyword": "유서",
-        "count": 11,
-        "score": 0.0238
-      },
-      {
-        "keyword": "나도",
-        "count": 11,
-        "score": 0.0228
-      },
-      {
-        "keyword": "진짜",
-        "count": 10,
-        "score": 0.0214
-      },
-      {
-        "keyword": "너무",
-        "count": 10,
-        "score": 0.021
-      },
-      {
-        "keyword": "원래",
-        "count": 7,
-        "score": 0.0162
-      },
-      {
-        "keyword": "ai",
-        "count": 4,
-        "score": 0.0145
-      },
-      {
-        "keyword": "프롬",
-        "count": 7,
-        "score": 0.0135
-      },
-      {
-        "keyword": "어떻게",
-        "count": 6,
-        "score": 0.0123
-      },
-      {
-        "keyword": "nai",
-        "count": 5,
-        "score": 0.0121
-      },
-      {
-        "keyword": "아니",
-        "count": 6,
-        "score": 0.0116
-      },
-      {
-        "keyword": "페소",
-        "count": 6,
-        "score": 0.0116
-      },
-      {
-        "keyword": "ooc",
-        "count": 2,
-        "score": 0.0113
-      },
-      {
-        "keyword": "이거",
-        "count": 6,
-        "score": 0.0113
-      },
-      {
-        "keyword": "정실",
-        "count": 5,
-        "score": 0.0109
-      },
-      {
-        "keyword": "요약메모리",
-        "count": 5,
-        "score": 0.0108
-      },
-      {
-        "keyword": "내가",
-        "count": 5,
-        "score": 0.0101
-      },
-      {
-        "keyword": "오랜만에",
-        "count": 5,
-        "score": 0.0099
-      },
-      {
-        "keyword": "시발",
-        "count": 6,
-        "score": 0.0098
-      },
-      {
-        "keyword": "반납",
-        "count": 4,
-        "score": 0.0097
-      },
-      {
-        "keyword": "지금",
-        "count": 4,
-        "score": 0.0097
-      },
-      {
-        "keyword": "근데",
-        "count": 5,
-        "score": 0.0091
-      },
-      {
-        "keyword": "그냥",
-        "count": 4,
-        "score": 0.009
-      },
-      {
-        "keyword": "요즘",
-        "count": 4,
-        "score": 0.009
-      },
-      {
-        "keyword": "잼민이",
-        "count": 4,
-        "score": 0.009
-      },
-      {
-        "keyword": "갤러들아",
-        "count": 5,
-        "score": 0.0087
-      },
-      {
-        "keyword": "이렇게",
-        "count": 4,
-        "score": 0.0084
-      },
-      {
-        "keyword": "케덕",
-        "count": 4,
-        "score": 0.0084
-      },
-      {
-        "keyword": "무슨",
-        "count": 4,
-        "score": 0.0083
-      },
-      {
-        "keyword": "빙고",
-        "count": 4,
-        "score": 0.0083
-      },
-      {
-        "keyword": "에셋",
-        "count": 4,
-        "score": 0.0083
-      }
-    ],
-    "top_characters": [
-      {
-        "name": "케덕",
-        "mentions": 3,
-        "rank": 1
-      },
-      {
-        "name": "시뮬",
-        "mentions": 2,
-        "rank": 2
-      },
-      {
-        "name": "솔직하게",
-        "mentions": 1,
-        "rank": 3
-      },
-      {
-        "name": "누나... 지금 몇시인데 이제야 들어와?",
-        "mentions": 1,
-        "rank": 4
-      },
-      {
-        "name": "홍보/언셒",
-        "mentions": 1,
-        "rank": 5
-      },
-      {
-        "name": "다시는, 내 눈앞에서 잃어버리지 않아.",
-        "mentions": 1,
-        "rank": 6
-      },
-      {
-        "name": "여캐/남캐짤",
-        "mentions": 1,
-        "rank": 7
-      },
-      {
-        "name": "아까",
-        "mentions": 1,
-        "rank": 8
-      },
-      {
-        "name": "고증은 지켜야지",
-        "mentions": 1,
-        "rank": 9
-      },
-      {
-        "name": "재밌으면 그만이야",
-        "mentions": 1,
-        "rank": 10
-      },
-      {
-        "name": "대혼돈의 멀티버스",
-        "mentions": 1,
-        "rank": 11
-      },
-      {
-        "name": "고마워-그냥",
-        "mentions": 1,
-        "rank": 12
-      },
-      {
-        "name": "인간적임",
-        "mentions": 1,
-        "rank": 13
-      }
-    ],
-    "trending_topics": [
-      {
-        "topic": "케덕",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "유서",
-        "current": 11,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "시발",
-        "current": 6,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "원래",
-        "current": 7,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "무슨",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "nai",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "프롬",
-        "current": 7,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "정실",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "이렇게",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "나도",
-        "current": 11,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "어떻게",
-        "current": 6,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "갤러들아",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "반납",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "요약메모리",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "페소",
-        "current": 6,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "오랜만에",
-        "current": 5,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "그냥",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "빙고",
-        "current": 4,
-        "previous": 0,
-        "growth": 100.0
-      },
-      {
-        "topic": "아니",
-        "current": 6,
-        "previous": 4,
-        "growth": 50.0
       }
     ]
   }

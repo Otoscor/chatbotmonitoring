@@ -1,158 +1,134 @@
 [
   {
     "keyword": "너무",
-    "total_count": 119
+    "total_count": 121
   },
   {
     "keyword": "광고",
-    "total_count": 88
-  },
-  {
-    "keyword": "ai",
     "total_count": 87
   },
   {
-    "keyword": "많이",
-    "total_count": 75
+    "keyword": "그리고",
+    "total_count": 84
   },
   {
-    "keyword": "그리고",
-    "total_count": 71
+    "keyword": "ai",
+    "total_count": 73
   },
   {
     "keyword": "광고가",
-    "total_count": 67
+    "total_count": 69
+  },
+  {
+    "keyword": "계속",
+    "total_count": 69
   },
   {
     "keyword": "진짜",
     "total_count": 67
   },
   {
-    "keyword": "계속",
-    "total_count": 60
-  },
-  {
-    "keyword": "다른",
-    "total_count": 49
-  },
-  {
-    "keyword": "그냥",
-    "total_count": 49
-  },
-  {
-    "keyword": "자꾸",
-    "total_count": 40
+    "keyword": "많이",
+    "total_count": 66
   },
   {
     "keyword": "제타",
-    "total_count": 37
+    "total_count": 41
+  },
+  {
+    "keyword": "그냥",
+    "total_count": 41
   },
   {
     "keyword": "대화",
-    "total_count": 36
-  },
-  {
-    "keyword": "부적절한",
-    "total_count": 35
-  },
-  {
-    "keyword": "근데",
-    "total_count": 34
-  },
-  {
-    "keyword": "하고",
-    "total_count": 33
-  },
-  {
-    "keyword": "다시",
-    "total_count": 33
-  },
-  {
-    "keyword": "크래커",
-    "total_count": 33
-  },
-  {
-    "keyword": "제발",
-    "total_count": 32
+    "total_count": 38
   },
   {
     "keyword": "갑자기",
-    "total_count": 31
+    "total_count": 38
   },
   {
-    "keyword": "채팅",
-    "total_count": 28
+    "keyword": "자꾸",
+    "total_count": 37
+  },
+  {
+    "keyword": "제발",
+    "total_count": 36
+  },
+  {
+    "keyword": "다른",
+    "total_count": 36
   },
   {
     "keyword": "아니",
-    "total_count": 28
+    "total_count": 36
   },
   {
-    "keyword": "제가",
-    "total_count": 26
+    "keyword": "하고",
+    "total_count": 35
   },
   {
-    "keyword": "솔직히",
-    "total_count": 25
+    "keyword": "크래커",
+    "total_count": 34
   },
   {
-    "keyword": "오류",
-    "total_count": 25
+    "keyword": "근데",
+    "total_count": 32
   },
   {
-    "keyword": "오류가",
-    "total_count": 24
-  },
-  {
-    "keyword": "하면",
-    "total_count": 24
-  },
-  {
-    "keyword": "하는",
-    "total_count": 24
-  },
-  {
-    "keyword": "캐릭터",
-    "total_count": 23
-  },
-  {
-    "keyword": "있는",
-    "total_count": 23
-  },
-  {
-    "keyword": "점점",
-    "total_count": 23
-  },
-  {
-    "keyword": "없는",
-    "total_count": 22
-  },
-  {
-    "keyword": "같아요",
-    "total_count": 21
+    "keyword": "다시",
+    "total_count": 31
   },
   {
     "keyword": "광고도",
+    "total_count": 24
+  },
+  {
+    "keyword": "부적절한",
+    "total_count": 24
+  },
+  {
+    "keyword": "오류가",
+    "total_count": 22
+  },
+  {
+    "keyword": "하면",
+    "total_count": 22
+  },
+  {
+    "keyword": "제가",
     "total_count": 21
   },
   {
-    "keyword": "저는",
-    "total_count": 20
-  },
-  {
-    "keyword": "업데이트",
-    "total_count": 20
+    "keyword": "캐릭터",
+    "total_count": 21
   },
   {
     "keyword": "이거",
+    "total_count": 21
+  },
+  {
+    "keyword": "채팅",
+    "total_count": 21
+  },
+  {
+    "keyword": "솔직히",
     "total_count": 20
   },
   {
-    "keyword": "있습니다",
+    "keyword": "본인인증",
+    "total_count": 20
+  },
+  {
+    "keyword": "하는",
+    "total_count": 20
+  },
+  {
+    "keyword": "거의",
     "total_count": 19
   },
   {
-    "keyword": "조금",
+    "keyword": "업데이트",
     "total_count": 19
   },
   {
@@ -160,43 +136,67 @@
     "total_count": 19
   },
   {
-    "keyword": "기억력",
+    "keyword": "아니면",
     "total_count": 19
   },
   {
-    "keyword": "플롯",
+    "keyword": "오류",
     "total_count": 19
   },
   {
-    "keyword": "캐릭터가",
-    "total_count": 18
-  },
-  {
-    "keyword": "좋은데",
-    "total_count": 18
-  },
-  {
-    "keyword": "고쳐주세요",
-    "total_count": 18
-  },
-  {
-    "keyword": "해주세요",
+    "keyword": "때문에",
     "total_count": 18
   },
   {
     "keyword": "많고",
+    "total_count": 18
+  },
+  {
+    "keyword": "했는데",
+    "total_count": 18
+  },
+  {
+    "keyword": "캐릭터가",
     "total_count": 17
   },
   {
-    "keyword": "좋은",
+    "keyword": "버그",
     "total_count": 17
   },
   {
-    "keyword": "자주",
+    "keyword": "이미",
     "total_count": 17
   },
   {
-    "keyword": "있는데",
-    "total_count": 17
+    "keyword": "같아요",
+    "total_count": 16
+  },
+  {
+    "keyword": "기억력이",
+    "total_count": 16
+  },
+  {
+    "keyword": "해서",
+    "total_count": 16
+  },
+  {
+    "keyword": "지금",
+    "total_count": 16
+  },
+  {
+    "keyword": "정말",
+    "total_count": 16
+  },
+  {
+    "keyword": "내가",
+    "total_count": 16
+  },
+  {
+    "keyword": "무슨",
+    "total_count": 15
+  },
+  {
+    "keyword": "있습니다",
+    "total_count": 15
   }
 ]

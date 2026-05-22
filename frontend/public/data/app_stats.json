@@ -1,47 +1,47 @@
 [
   {
     "app_name": "제타 (Zeta)",
-    "total_reviews": 3865,
-    "average_rating": 2.9578266494178527,
+    "total_reviews": 3958,
+    "average_rating": 2.955280444669025,
     "rating_distribution": {
-      "1": 1238,
-      "2": 393,
-      "3": 586,
-      "4": 590,
-      "5": 1058
+      "1": 1271,
+      "2": 403,
+      "3": 599,
+      "4": 602,
+      "5": 1083
     },
     "platform_distribution": {
-      "google_play": 3865
+      "google_play": 3958
     }
   },
   {
     "app_name": "크랙 (Crack)",
-    "total_reviews": 844,
-    "average_rating": 2.376777251184834,
+    "total_reviews": 897,
+    "average_rating": 2.342251950947603,
     "rating_distribution": {
-      "1": 407,
-      "2": 95,
-      "3": 110,
-      "4": 81,
-      "5": 151
+      "1": 437,
+      "2": 107,
+      "3": 116,
+      "4": 83,
+      "5": 154
     },
     "platform_distribution": {
-      "google_play": 844
+      "google_play": 897
     }
   },
   {
     "app_name": "러비더비 (LoveyDovey)",
-    "total_reviews": 187,
-    "average_rating": 2.593582887700535,
+    "total_reviews": 188,
+    "average_rating": 2.5851063829787235,
     "rating_distribution": {
-      "1": 78,
+      "1": 79,
       "2": 22,
       "3": 28,
       "4": 16,
       "5": 43
     },
     "platform_distribution": {
-      "google_play": 187
+      "google_play": 188
     }
   },
   {
