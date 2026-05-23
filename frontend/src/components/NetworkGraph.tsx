@@ -266,7 +266,7 @@ export default function NetworkGraph({ keywords }: NetworkGraphProps) {
             })
             .attr('text-anchor', 'middle')
             .attr('dy', '0.35em')
-            .style('font-size', d => `${Math.min(sizeScale(d.value) / 2.5, 11)}px`)
+            .style('font-size', d => `${Math.min(sizeScale(d.value) / 3, 9)}px`)
             .style('fill', d => {
                 const threshold = maxValue * 0.5
                 return isDark

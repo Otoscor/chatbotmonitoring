@@ -68,11 +68,13 @@ export default function Layout({ children }: LayoutProps) {
       setCrawling(true)
 
       try {
-        await triggerCrawl(undefined, 3)
-        await generateReport()
-        await triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk', 'crack', 'caveduck', 'elyn'])
-        await triggerAppReviewCrawl()
-        await triggerNewsCrawl()
+        // 게시글 크롤링 → 리포트 생성 (순차), 나머지는 병렬 실행
+        await Promise.all([
+          triggerCrawl(undefined, 3).then(() => generateReport()),
+          triggerChatServiceCrawl(['zeta', 'babechat', 'lunatalk', 'crack', 'caveduck', 'elyn']),
+          triggerAppReviewCrawl(),
+          triggerNewsCrawl(),
+        ])
         window.location.reload()
       } catch (error: any) {
         const errorMsg = error.response?.data?.message || error.message || '알 수 없는 오류'

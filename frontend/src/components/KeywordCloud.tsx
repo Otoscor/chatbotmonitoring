@@ -114,7 +114,7 @@ export default function KeywordCloud({ keywords, className = '' }: KeywordCloudP
         .style('opacity', 1)
     }
 
-    const cellGroup = svg.selectAll('g')
+    const cellGroup = cellBase
 
     const cellW = (d: any) => Math.max(0, d.x1 - d.x0)
     const cellH = (d: any) => Math.max(0, d.y1 - d.y0)

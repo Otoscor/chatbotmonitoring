@@ -228,7 +228,7 @@ export const triggerCrawl = async (galleryId?: string, pages = 5) => {
   if (USE_STATIC_DATA) {
     throw new Error('정적 모드에서는 크롤링을 사용할 수 없습니다.')
   }
-  const { data } = await api.post('/crawl', { gallery_id: galleryId, pages })
+  const { data } = await api.post('/crawl', { gallery_id: galleryId, pages }, { timeout: 0 })
   return data
 }
 
@@ -236,7 +236,7 @@ export const generateReport = async (date?: string) => {
   if (USE_STATIC_DATA) {
     throw new Error('정적 모드에서는 리포트 생성을 사용할 수 없습니다.')
   }
-  const { data } = await api.post('/reports/generate', null, { params: { date } })
+  const { data } = await api.post('/reports/generate', null, { params: { date }, timeout: 0 })
   return data
 }
 
@@ -261,7 +261,7 @@ export const triggerChatServiceCrawl = async (services?: string[]) => {
   if (USE_STATIC_DATA) {
     throw new Error('정적 모드에서는 크롤링을 사용할 수 없습니다.')
   }
-  const { data } = await api.post('/characters/crawl-chat-services', { services })
+  const { data } = await api.post('/characters/crawl-chat-services', { services }, { timeout: 0 })
   return data
 }
 
@@ -386,7 +386,7 @@ export const triggerNewsCrawl = async (sources?: string[], keywords?: string[]) 
   if (USE_STATIC_DATA) {
     throw new Error('정적 모드에서는 크롤링을 사용할 수 없습니다.')
   }
-  const { data } = await api.post('/news/crawl', { sources, keywords })
+  const { data } = await api.post('/news/crawl', { sources, keywords }, { timeout: 0 })
   return data
 }
 
@@ -506,7 +506,7 @@ export const triggerAppReviewCrawl = async () => {
   if (USE_STATIC_DATA) {
     throw new Error('정적 모드에서는 앱 리뷰 크롤링을 사용할 수 없습니다.')
   }
-  const { data } = await api.post('/app-reviews/crawl')
+  const { data } = await api.post('/app-reviews/crawl', null, { timeout: 0 })
   return data
 }
 
