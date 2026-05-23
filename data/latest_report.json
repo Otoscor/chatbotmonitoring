@@ -1,217 +1,312 @@
 {
-  "id": 43,
-  "report_date": "2026-05-08T10:56:47.451416",
-  "total_posts": 561,
-  "total_views": 67905,
-  "total_recommends": 422,
-  "total_comments": 1596,
+  "id": 44,
+  "report_date": "2026-05-22T20:08:37.243861",
+  "total_posts": 259,
+  "total_views": 12065,
+  "total_recommends": 138,
+  "total_comments": 467,
   "top_keywords": [
     {
-      "keyword": "페더",
-      "count": 23,
-      "score": 0.0381
+      "keyword": "바베",
+      "count": 32,
+      "score": 0.0341
     },
     {
       "keyword": "에덴",
-      "count": 10,
-      "score": 0.015
+      "count": 21,
+      "score": 0.0242
     },
     {
-      "keyword": "바베",
-      "count": 10,
-      "score": 0.014
+      "keyword": "ai",
+      "count": 11,
+      "score": 0.0213
     },
     {
-      "keyword": "크랙",
-      "count": 8,
-      "score": 0.0133
+      "keyword": "오프",
+      "count": 18,
+      "score": 0.0212
     },
     {
-      "keyword": "ooc",
-      "count": 5,
-      "score": 0.0114
-    },
-    {
-      "keyword": "있음",
-      "count": 8,
-      "score": 0.0112
-    },
-    {
-      "keyword": "뭔가",
-      "count": 7,
-      "score": 0.0105
-    },
-    {
-      "keyword": "아니",
-      "count": 6,
-      "score": 0.0098
-    },
-    {
-      "keyword": "바베챗",
-      "count": 6,
-      "score": 0.0092
-    },
-    {
-      "keyword": "뭐야",
-      "count": 5,
-      "score": 0.0089
-    },
-    {
-      "keyword": "이렇게",
-      "count": 6,
-      "score": 0.0088
+      "keyword": "삼오플",
+      "count": 15,
+      "score": 0.0167
     },
     {
       "keyword": "오푸스",
-      "count": 6,
-      "score": 0.0084
+      "count": 12,
+      "score": 0.0154
     },
     {
-      "keyword": "있는데",
-      "count": 6,
-      "score": 0.0084
+      "keyword": "모델",
+      "count": 11,
+      "score": 0.0123
     },
     {
-      "keyword": "프로챗",
+      "keyword": "ooc",
+      "count": 6,
+      "score": 0.0108
+    },
+    {
+      "keyword": "홍보",
+      "count": 8,
+      "score": 0.0102
+    },
+    {
+      "keyword": "출석",
+      "count": 10,
+      "score": 0.0101
+    },
+    {
+      "keyword": "결제",
+      "count": 8,
+      "score": 0.0095
+    },
+    {
+      "keyword": "질문",
+      "count": 9,
+      "score": 0.0094
+    },
+    {
+      "keyword": "처음",
+      "count": 7,
+      "score": 0.0092
+    },
+    {
+      "keyword": "케젬",
+      "count": 6,
+      "score": 0.0085
+    },
+    {
+      "keyword": "크랙",
+      "count": 7,
+      "score": 0.008
+    },
+    {
+      "keyword": "잼삼플",
+      "count": 7,
+      "score": 0.0079
+    },
+    {
+      "keyword": "단축",
       "count": 5,
-      "score": 0.0083
+      "score": 0.0071
+    },
+    {
+      "keyword": "테스트",
+      "count": 6,
+      "score": 0.0071
+    },
+    {
+      "keyword": "검열",
+      "count": 6,
+      "score": 0.0069
+    },
+    {
+      "keyword": "가격",
+      "count": 6,
+      "score": 0.0068
+    },
+    {
+      "keyword": "엘린",
+      "count": 6,
+      "score": 0.0068
+    },
+    {
+      "keyword": "새끼",
+      "count": 5,
+      "score": 0.0066
+    },
+    {
+      "keyword": "인간",
+      "count": 5,
+      "score": 0.0066
+    },
+    {
+      "keyword": "구글",
+      "count": 5,
+      "score": 0.0063
+    },
+    {
+      "keyword": "기억",
+      "count": 5,
+      "score": 0.0063
+    },
+    {
+      "keyword": "출력",
+      "count": 7,
+      "score": 0.0063
     },
     {
       "keyword": "프롬",
-      "count": 6,
-      "score": 0.0082
+      "count": 5,
+      "score": 0.0063
+    },
+    {
+      "keyword": "방법",
+      "count": 5,
+      "score": 0.0062
+    },
+    {
+      "keyword": "아크",
+      "count": 5,
+      "score": 0.006
+    },
+    {
+      "keyword": "최고",
+      "count": 5,
+      "score": 0.0059
     },
     {
       "keyword": "상태",
       "count": 5,
-      "score": 0.0081
+      "score": 0.0057
     },
     {
-      "keyword": "짚오오",
+      "keyword": "젬이오",
       "count": 5,
-      "score": 0.0081
+      "score": 0.0054
     },
     {
-      "keyword": "잼민이",
+      "keyword": "노트",
       "count": 5,
-      "score": 0.0079
+      "score": 0.0053
     },
     {
-      "keyword": "ai",
+      "keyword": "저녁",
       "count": 4,
-      "score": 0.0078
+      "score": 0.0052
     },
     {
-      "keyword": "엘린",
+      "keyword": "캐챗",
+      "count": 4,
+      "score": 0.0051
+    },
+    {
+      "keyword": "말투",
+      "count": 4,
+      "score": 0.005
+    },
+    {
+      "keyword": "pc",
+      "count": 2,
+      "score": 0.0049
+    },
+    {
+      "keyword": "소설",
+      "count": 4,
+      "score": 0.0049
+    },
+    {
+      "keyword": "제작자",
+      "count": 4,
+      "score": 0.0049
+    },
+    {
+      "keyword": "가능",
       "count": 5,
-      "score": 0.0075
+      "score": 0.0048
     },
     {
-      "keyword": "가끔",
-      "count": 5,
-      "score": 0.0074
-    },
-    {
-      "keyword": "가챠섬",
+      "keyword": "세계",
       "count": 4,
-      "score": 0.0071
+      "score": 0.0048
     },
     {
-      "keyword": "딥식",
-      "count": 5,
-      "score": 0.0071
-    },
-    {
-      "keyword": "오늘은",
+      "keyword": "패치",
       "count": 4,
-      "score": 0.0071
+      "score": 0.0048
     },
     {
-      "keyword": "윶캐",
+      "keyword": "계정",
       "count": 4,
-      "score": 0.0071
+      "score": 0.0047
     },
     {
-      "keyword": "좋음",
+      "keyword": "얼마",
       "count": 4,
-      "score": 0.0071
+      "score": 0.0047
     },
     {
-      "keyword": "챗오오",
+      "keyword": "작품",
       "count": 4,
-      "score": 0.0071
+      "score": 0.0045
     },
     {
-      "keyword": "남캐",
-      "count": 5,
-      "score": 0.0067
-    },
-    {
-      "keyword": "올라마",
+      "keyword": "추가",
       "count": 4,
-      "score": 0.0066
+      "score": 0.0045
     },
     {
-      "keyword": "제일",
+      "keyword": "티팟",
       "count": 4,
-      "score": 0.0066
+      "score": 0.0045
+    },
+    {
+      "keyword": "해결",
+      "count": 4,
+      "score": 0.0045
+    },
+    {
+      "keyword": "유저",
+      "count": 4,
+      "score": 0.0044
+    },
+    {
+      "keyword": "편향",
+      "count": 4,
+      "score": 0.0044
     }
   ],
   "top_characters": [
     {
-      "name": "빌림",
-      "mentions": 3,
+      "name": "바베/셒",
+      "mentions": 2,
       "rank": 1
     },
     {
-      "name": "1/4",
-      "mentions": 1,
+      "name": "닭장",
+      "mentions": 2,
       "rank": 2
     },
     {
-      "name": "누나....넷플릭스 보자며....",
+      "name": "빌림",
       "mentions": 1,
       "rank": 3
     },
     {
-      "name": "방향성 안 맞아",
+      "name": "//",
       "mentions": 1,
       "rank": 4
     },
     {
-      "name": "반납",
+      "name": "시뮬",
       "mentions": 1,
       "rank": 5
     },
     {
-      "name": "케덕",
+      "name": "예고",
       "mentions": 1,
       "rank": 6
     },
     {
-      "name": "바베/언셒🔞",
+      "name": "홍보/언셒/NTR",
       "mentions": 1,
       "rank": 7
     },
     {
-      "name": "남캐",
+      "name": "홍보/언셒",
       "mentions": 1,
       "rank": 8
     },
     {
-      "name": "good boy",
+      "name": "오메가버스",
       "mentions": 1,
       "rank": 9
     },
     {
-      "name": "먹을",
+      "name": "TS홈즈",
       "mentions": 1,
       "rank": 10
-    },
-    {
-      "name": "에셋",
-      "mentions": 1,
-      "rank": 11
     }
   ],
   "trending_topics": []
