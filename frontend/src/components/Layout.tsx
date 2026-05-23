@@ -183,6 +183,25 @@ export default function Layout({ children }: LayoutProps) {
           </ul>
         </nav>
 
+        {/* Footer - Data Refresh Button */}
+        {!USE_STATIC_DATA && (
+          <div
+            className="sidebar-footer p-3 border-t border-gray-200 dark:border-gray-900 shrink-0 flex items-center justify-center"
+            data-section="footer"
+            style={{ height: '72px', minHeight: '72px' }}
+          >
+            <button
+              type="button"
+              onClick={handleRefreshAll}
+              disabled={crawling}
+              className="crawl-button w-full"
+              data-action="crawl"
+            >
+              {crawling ? '크롤링 중...' : '크롤링 시작'}
+            </button>
+          </div>
+        )}
+
         {/* Theme Toggle Section */}
         <div className="border-t border-gray-200 dark:border-gray-900 px-3 py-3 shrink-0">
           <button
@@ -211,25 +230,6 @@ export default function Layout({ children }: LayoutProps) {
               </>
             )}
           </button>
-        </div>
-
-        {/* Footer - Data Refresh Button */}
-        <div
-          className="sidebar-footer p-3 border-t border-gray-200 dark:border-gray-900 shrink-0 flex items-center justify-center"
-          data-section="footer"
-          style={{ height: '72px', minHeight: '72px' }}
-        >
-          {!USE_STATIC_DATA && (
-            <button
-              type="button"
-              onClick={handleRefreshAll}
-              disabled={crawling}
-              className="crawl-button w-full"
-              data-action="crawl"
-            >
-              {crawling ? '크롤링 중...' : '크롤링 시작'}
-            </button>
-          )}
         </div>
       </aside>
 
